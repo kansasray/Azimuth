@@ -1,0 +1,44 @@
+{
+  "lessons": [
+    {
+      "unit": "ch10-u1",
+      "lang": "en",
+      "title": "The Best Science-Based Minimalist Workout Plan (Under 45 Mins)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=eMjyvIQbn9M",
+      "why": "同樣是給時間有限的一般人的全身課表，但把每個動作的取捨理由、每週訓練量下限與漸進方式都用文獻撐起來，可以拿來對照中文版課表的動作選擇是否合理。"
+    },
+    {
+      "unit": "ch10-u2",
+      "lang": "en",
+      "title": "The Smartest Push Pull Legs Routine (Fully Explained)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=qVek72z3F1U",
+      "why": "推拉腿分化的完整版本：每個訓練日的動作順序、組數次數、RIR 設定與週期安排一次講完，是英文圈最常被拿來當範本的肌肥大課表說明。"
+    },
+    {
+      "unit": "ch10-u3",
+      "lang": "en",
+      "title": "How To Reverse Muscle Loss With Aging - 50 & Older (Sarcopenia)",
+      "channel": "Bob & Brad",
+      "url": "https://www.youtube.com/watch?v=atnOOB8ozUc",
+      "why": "兩位物理治療師從肌少症的機轉講到實際的阻力訓練與蛋白質建議，動作示範都是長輩在家能做的版本，可以對照中文版在強度設定上的差異。"
+    },
+    {
+      "unit": "ch10-u4",
+      "lang": "en",
+      "title": "Lower Back Pain Rehab (Exercises | Education | Myths | Prevention)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=x71Y5ijW4DU",
+      "why": "物理治療師整理下背痛的實證處置：先破除「椎間盤滑脫」「核心不夠強」這類迷思，再示範漸進式的負荷調整。全片講的是訓練變項怎麼改，沒有任何治癒承諾，正好補上中文主課沒展開的觀念層。"
+    },
+    {
+      "unit": "ch10-u5",
+      "lang": "en",
+      "title": "How Should You Plan Training Phases? | Strength Training Made Simple #11",
+      "channel": "Renaissance Periodization",
+      "url": "https://www.youtube.com/watch?v=3uOUgky1dUo",
+      "why": "把累積期、強度期、減量期與測驗週的長度與目的講得很具體，並給出每個階段該記錄什麼數據，是把「週期化」從概念變成可執行行事曆的一集。"
+    }
+  ]
+}

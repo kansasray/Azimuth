@@ -1,363 +1,116 @@
 {
- "chapter": "CH6",
- "title": "腰椎",
- "units": [
-  {
-   "id": "ch6-u1",
-   "name": "腰椎過度前拱",
-   "en": "Lumbar Hyperlordosis / Anterior Pelvic Tilt",
-   "type": "posture",
-   "assessment": "① 仰臥屈膝躺平，把手掌從腰下空隙滑進去 —— 正常只能通過一個手掌的厚度；若整隻手、甚至半個拳頭都能輕鬆穿過並且左右滑動，即為陽性。② 靠牆站立（後腦杓、上背、臀部三點貼牆、腳跟離牆約 5 公分），腰與牆的縫隙超過一個手掌厚度為陽性。③ 側面照鏡或請人拍照：骨盆前上棘（ASIS，骨盆前方那兩顆突起）明顯低於恥骨聯合，骨盆像水盆往前倒水。④ Thomas test（湯瑪士測試）：仰躺於床緣，雙手抱一側膝蓋到胸口，觀察對側腿 —— 大腿浮起離床＝髂腰肌緊；小腿無法自然垂到 90 度＝股直肌緊；大腿往外飄＝闊筋膜張肌緊。這是下交叉症候群的典型表現：前側髖屈肌群與腰豎脊肌過度緊繃，後側臀大肌與前側腹肌群同時無力。",
-   "tight": [
-    "髂腰肌",
-    "股直肌",
-    "闊筋膜張肌",
-    "腰豎脊肌",
-    "腰方肌",
-    "內收肌群"
-   ],
-   "weak": [
-    "臀大肌",
-    "腹橫肌",
-    "腹內外斜肌",
-    "腹直肌",
-    "膕旁肌"
-   ],
-   "lesson": {
-    "title": "腰椎弧度過大造成腰痛？每天10分鐘改善下背痛｜啾c物理治療師",
-    "channel": "啾c物理治療師",
-    "url": "https://www.youtube.com/watch?v=1Jqt9SNXLyA",
-    "duration": "8:39",
-    "why": "整支專講腰椎前凸過大本身（而非骨盆），把弧度過大與下背痛的關係、以及十分鐘的日常課表講完，正好對應本單元的主題邊界。"
-   },
-   "drills": [
+  "chapter": "CH6",
+  "title": "上肢拉系訓練｜建立背部發力與肩胛穩定",
+  "units": [
     {
-     "name": "髂腰肌自我放鬆",
-     "en": "Psoas / Iliopsoas Release",
-     "kind": "release",
-     "target": "髂腰肌（腰大肌＋髂肌）",
-     "dose": "每側 60–90 秒，呼吸放鬆下沉，不憋氣",
-     "title": "How To Fix A Tight Psoas Muscle In 30 Seconds (The Easy Way)",
-     "channel": "Bob & Brad",
-     "url": "https://www.youtube.com/watch?v=-tQtbPzK3mI",
-     "duration": "7:59"
+      "id": "ch6-u1",
+      "name": "拉系動作解析：肩胛穩定與背部發力基礎",
+      "type": "movement",
+      "assessment": "先做十下空手的肩胛下壓後收，兩隻手指壓在自己上斜方肌（頸側到肩峰那一段）上：如果每一下都摸到肌肉整塊隆起、肩膀跟著往耳朵靠，代表上斜方肌搶著出力，先降低幅度重來。第二個檢查是肩胛到底有沒有動：請人從背後錄影或對鏡子側身，肩胛內緣應該看得到明顯往脊椎滑動再往下沉約兩到三公分，只有手臂在動、肩胛整片黏著不動就是假動作。第三個檢查是背闊肌有沒有感覺：做完十下肩胛引體向上後，用手掌貼在腋下後方到肋骨側邊那一片，應該摸得到發熱或輕微痠脹；如果只有手臂前側跟脖子痠，代表發力順序還沒建立，回到俯臥 Y-T-W 與 Face Pull 的低負荷版本，練到摸得到為止再往下走。",
+      "tight": ["上斜方肌", "提肩胛肌", "胸小肌", "胸大肌"],
+      "weak": ["下斜方肌", "中斜方肌", "前鋸肌", "菱形肌", "背闊肌", "棘下肌"],
+      "lesson": {
+        "title": "五個肩胛骨穩定訓練｜by鄭宇劭物理治療師",
+        "channel": "練健康 LKK Wellness",
+        "url": "https://www.youtube.com/watch?v=9JwvGkuSjwM",
+        "duration": "8:07",
+        "why": "由物理治療師一次串起五個肩胛穩定動作，從評估到練習都有示範，比只講單一動作的影片更適合當整章的地基。"
+      },
+      "drills": [
+        {"name": "肩胛下壓後收", "en": "Scapular Depression & Retraction", "kind": "activate", "target": "下斜方肌、中斜方肌、菱形肌", "dose": "3 組 × 10 下，每下停 2 秒", "title": "肩胛骨後收下壓─到底該怎麼做才好", "channel": "Hunter 物理治療師", "url": "https://www.youtube.com/watch?v=JOz9WcGQSYw", "duration": "3:37"},
+        {"name": "肩胛引體向上", "en": "Scapular Pull-up", "kind": "activate", "target": "下斜方肌、背闊肌、前鋸肌", "dose": "3 組 × 6–8 下，頂端停 2 秒", "title": "引體向上總是學不會？用三大技巧做好肩胛肱骨節律，一步步上手！｜練背、背部訓練、背肌訓練", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=4pGSRDp7vS8", "duration": "5:50"},
+        {"name": "肩胛划船（收肩胛練習）", "en": "Scapular Row", "kind": "activate", "target": "中斜方肌、菱形肌、下斜方肌", "dose": "3 組 × 12 下，手肘不彎", "title": "【如何正確收肩胛】收肩胛的三大好處｜動作測試｜動作練習", "channel": "瑞稞適能中心", "url": "https://www.youtube.com/watch?v=TJdh1WIKV94", "duration": "3:51"},
+        {"name": "俯臥 Y-T-W", "en": "Prone Y-T-W", "kind": "activate", "target": "下斜方肌、中斜方肌、後三角肌", "dose": "每個字母 2 組 × 10 下，空手或 1 公斤", "title": "【YTWL-背部訓練】有效改善圓肩駝背‼️", "channel": "小潘老師", "url": "https://www.youtube.com/watch?v=u4et0MH634E", "duration": "6:38"},
+        {"name": "Face Pull", "en": "Face Pull", "kind": "activate", "target": "後三角肌、中斜方肌、棘下肌", "dose": "3 組 × 15 下，輕重量", "title": "臉拉你做對了嗎？｜Face Pull完整教學｜顧好你的肩膀、旋轉肌袖｜", "channel": "Kun阿錕", "url": "https://www.youtube.com/watch?v=PFHBbjGErfA", "duration": "2:08"},
+        {"name": "彈力帶肩外轉", "en": "Band External Rotation", "kind": "activate", "target": "棘下肌、小圓肌、後三角肌", "dose": "3 組 × 15 下，手肘夾毛巾", "title": "【宏康復健專科診所】肩旋轉肌訓練", "channel": "復健醫陳相宏 × 復家生醫RéPOV", "url": "https://www.youtube.com/watch?v=haX8xn7heDQ", "duration": "2:02"},
+        {"name": "前鋸肌推牆／貼牆滑行", "en": "Serratus Wall Slide", "kind": "activate", "target": "前鋸肌、下斜方肌", "dose": "3 組 × 10 下，頂端推到底停 2 秒", "title": "翼狀肩胛怎麼解？快用兩招前鋸肌訓練修復，改善肩頸、上背痠痛！｜翼狀肩胛健身、肩關節活動度、肩頸痠痛、前鋸肌、上背痛", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=Uejop1dj52c", "duration": "6:12"},
+        {"name": "懸吊肩胛控制", "en": "Active Hang Scapular Control", "kind": "activate", "target": "下斜方肌、背闊肌、前鋸肌", "dose": "4 組 × 15–20 秒，主動與放鬆交替", "title": "如何使用【吊單槓】改善肩膀疼痛、肩夾擠｜物理治療師教你", "channel": "Shawna不只治療", "url": "https://www.youtube.com/watch?v=O9tBPB9EA3o", "duration": "5:29"},
+        {"name": "背闊肌啟動熱身", "en": "Lat Activation Drill", "kind": "activate", "target": "背闊肌、大圓肌、下斜方肌", "dose": "訓練前 2 組 × 12 下", "title": "背部訓練感受度好差？2個暖身動作啟動背肌！背肌訓練更有感", "channel": "女力健身 Nuli App", "url": "https://www.youtube.com/watch?v=LFk86n_Ep18", "duration": "2:30"},
+        {"name": "肩胛動作模式教學", "en": "Scapular Movement Pattern", "kind": "activate", "target": "中斜方肌、下斜方肌、前鋸肌", "dose": "觀念影片，配合前面動作各做 1 組驗證", "title": "【G動學講堂】訓練時 肩胛骨到底要不要後收下壓？", "channel": "GYMEFIT", "url": "https://www.youtube.com/watch?v=io_cbmYzv8I", "duration": "5:15"}
+      ]
     },
     {
-     "name": "大腿前側／股直肌滾筒放鬆",
-     "en": "Rectus Femoris & Quadriceps Foam Roll",
-     "kind": "release",
-     "target": "股直肌、股四頭肌",
-     "dose": "每側 60–90 秒，慢速來回並在酸點停留",
-     "title": "跟著物理治療師一起滾筒放鬆------大腿前側篇",
-     "channel": "安健維康物理治療所",
-     "url": "https://www.youtube.com/watch?v=DqJggKznshE",
-     "duration": "5:48"
+      "id": "ch6-u2",
+      "name": "垂直拉：滑輪下拉與引體向上",
+      "type": "movement",
+      "assessment": "用三個現場可測的指標檢查垂直拉。第一，上斜方肌是不是搶著出力：把手機架在正前方錄影，做八下滑輪下拉，看啟動的前四分之一動作裡肩膀有沒有先往耳朵縮；正確順序是肩胛先下沉、手肘才往下走，只要看到聳肩才拉，重量降兩片重來。第二，肩胛有沒有動：在單槓上做五下懸吊肩胛下壓，請人從後方看你的身體有沒有整個上升約兩到三公分，若身體完全不動就是肩胛鎖死，先回到 Dead Hang 練主動懸吊。第三，背闊肌有沒有感覺：一組結束後立刻把手掌貼在腋下後方到下肋這一片，摸得到緊繃或痠脹才算練到；若只有前臂與二頭肌爆脹、手指先撐不住，改成拇指不繞槓的假握、握距縮到肩寬 1.3 倍，並把重量降到全程都感覺得到背為止。",
+      "tight": ["上斜方肌", "胸小肌", "肱二頭肌", "前臂屈肌"],
+      "weak": ["背闊肌", "下斜方肌", "大圓肌", "菱形肌"],
+      "lesson": {
+        "title": "【深度解析系列】滑輪下拉 (上)｜練出厚實闊背不可少的動作！掌握這2個位置的控制，讓你的效果最大化",
+        "channel": "營養健身葛格Peeta",
+        "url": "https://www.youtube.com/watch?v=NRPGK_j5DJM",
+        "duration": "7:29",
+        "why": "把滑輪下拉拆成肩胛與肱骨兩個控制點來講，直接對應本單元「上斜方肌別搶戲」的主軸，比一般動作示範更講得清楚為什麼。"
+      },
+      "drills": [
+        {"name": "雙手滑輪下拉", "en": "Lat Pulldown", "kind": "lift", "target": "背闊肌、大圓肌、下斜方肌", "dose": "4 組 × 8–12 下", "title": "滑輪下拉，最基礎有效的背肌雕塑動作，透過練背打造完美腰身比｜練背、背部訓練、背肌訓練、闊背肌", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=U6VJCl0CRno", "duration": "8:33"},
+        {"name": "單手滑輪下拉", "en": "Single Arm Lat Pulldown", "kind": "lift", "target": "背闊肌、大圓肌、腹斜肌", "dose": "每側 3 組 × 10–12 下", "title": "單手滑輪下拉｜背部訓練｜健身新手系列｜完整教學｜Kun阿錕", "channel": "Kun阿錕", "url": "https://www.youtube.com/watch?v=quibLlvFc70", "duration": "2:01"},
+        {"name": "寬握／窄握下拉差異", "en": "Wide vs Close Grip Pulldown", "kind": "lift", "target": "背闊肌、大圓肌、肱二頭肌", "dose": "兩種握法各 2 組 × 10 下比較感受", "title": "【深度解析系列】滑輪下拉 (下)｜正握、窄握、反握，究竟會有什麼差異？一次講解給你聽", "channel": "營養健身葛格Peeta", "url": "https://www.youtube.com/watch?v=Nf-eDkPWRKE", "duration": "6:57"},
+        {"name": "反握滑輪下拉", "en": "Reverse Grip Lat Pulldown", "kind": "lift", "target": "背闊肌、肱二頭肌、下斜方肌", "dose": "3 組 × 10–12 下", "title": "练背动作教学｜反手高位下拉（保姆级教程）", "channel": "ALEX健身频道", "url": "https://www.youtube.com/watch?v=u_Z8sOMTiN4", "duration": "9:14"},
+        {"name": "引體向上完整教學", "en": "Pull-up", "kind": "lift", "target": "背闊肌、大圓肌、下斜方肌", "dose": "5 組 × 最多下數的 60–70%", "title": "5分鐘學會【引體向上】4個訓練動作 讓你單槓一下一下拉不停！ │健人訓練│ 2020ep22", "channel": "健人蓋伊", "url": "https://www.youtube.com/watch?v=71UofCP10lc", "duration": "5:55"},
+        {"name": "輔助引體向上（彈力帶／機器）", "en": "Assisted Pull-up", "kind": "lift", "target": "背闊肌、大圓肌、菱形肌", "dose": "4 組 × 6–8 下，逐週減輔助", "title": "為什麼你還拉不起來？4個訓練動作：成功學會引體向上", "channel": "女力健身 Nuli App", "url": "https://www.youtube.com/watch?v=Du3mylqsIzA", "duration": "8:53"},
+        {"name": "離心引體向上", "en": "Eccentric Pull-up", "kind": "lift", "target": "背闊肌、大圓肌、肱二頭肌", "dose": "4 組 × 3–5 下，每下慢放 5 秒", "title": "引体向上做不动？提不起？从0到1做猛男，保姆式教学教你，从此越做越多！【卓叔科普】", "channel": "卓叔增重", "url": "https://www.youtube.com/watch?v=-yuVO8GRPh0", "duration": "9:27"},
+        {"name": "懸吊 Dead Hang", "en": "Dead Hang", "kind": "activate", "target": "背闊肌、下斜方肌、前臂屈肌", "dose": "4 組 × 20–40 秒", "title": "健身新手必看：单杠悬挂标准动作教学/7种悬挂方式的益处", "channel": "ACE宋健鹏", "url": "https://www.youtube.com/watch?v=y3rttOaoeSI", "duration": "7:32"},
+        {"name": "下拉常見錯誤修正", "en": "Lat Pulldown Mistakes", "kind": "lift", "target": "背闊肌、下斜方肌、豎脊肌", "dose": "對照影片自我錄影檢查 1 組", "title": "背影殺手｜美背訓練｜滑輪下拉｜五大常見錯誤｜神力女超人II", "channel": "Ashlee xiu", "url": "https://www.youtube.com/watch?v=SXOtlR5_Gtc", "duration": "5:06"},
+        {"name": "下拉握距與軀幹角度", "en": "Grip Width & Torso Angle", "kind": "lift", "target": "背闊肌、豎脊肌、腹直肌", "dose": "3 組 × 10 下，固定後仰 10–20 度", "title": "你的滑輪下拉是哪一種？前後晃動會有問題嗎？這樣修正練出倒三角！｜滑輪下拉、練背、闊背肌、練肩、倒三角、寬肩 ft. 威力", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=dazCSes39mE", "duration": "6:48"},
+        {"name": "垂直拉的肌群分工", "en": "Vertical Pull Muscle Recruitment", "kind": "lift", "target": "背闊肌、大圓肌、肱二頭肌", "dose": "2 組 × 12 下，刻意放慢找感受度", "title": "【修正重新上傳】2個滑輪下拉訣竅！感受度提升！", "channel": "CYFIT兆佑", "url": "https://www.youtube.com/watch?v=fyJ5GnFGPbA", "duration": "4:38"}
+      ]
     },
     {
-     "name": "腰方肌按摩球放鬆",
-     "en": "Quadratus Lumborum Ball Release",
-     "kind": "release",
-     "target": "腰方肌、腰豎脊肌",
-     "dose": "每側 60 秒，壓在肋骨下緣與骨盆之間的側腰",
-     "title": "在家一分鐘用按摩球深層放鬆腰方肌 | 吳子謙 物理治療師 | Together Physio",
-     "channel": "Together Physio骨專科物理治療",
-     "url": "https://www.youtube.com/watch?v=IJkPQ-lj8uw",
-     "duration": "2:04"
+      "id": "ch6-u3",
+      "name": "水平拉：坐姿划船與單手划船",
+      "type": "movement",
+      "assessment": "水平拉最常見的失誤是用聳肩跟腰去換行程。第一步檢查上斜方肌：坐姿划船做八下，請旁人把手指輕放在你兩側頸肩交界，只要每下都感覺到那裡先繃緊、耳朵和肩膀距離縮短，就是上斜方肌搶著出力，把重量降 20% 並先做兩組空手肩胛划船。第二步檢查肩胛有沒有動：側面錄影，正確版本是手把拉到肚臍上方時，肩胛明顯往脊椎滑動，末端還能看到向下微沉；若整趟只有手肘往後、肩胛完全不動，代表你只在練手臂。第三步檢查背闊肌與中背：收到底停兩秒，把手繞到對側肩胛內緣和腋下後方摸，應該兩處同時緊繃。第四步檢查腰有沒有代償：肋廓下緣掀起、身體前後晃超過 15 度就是靠慣性，改用胸靠式划船把軀幹固定住重練。",
+      "tight": ["上斜方肌", "胸小肌", "肱二頭肌", "豎脊肌"],
+      "weak": ["中斜方肌", "菱形肌", "背闊肌", "後三角肌", "腹斜肌"],
+      "lesson": {
+        "title": "【深度解析系列】挺胸划船還是駝背划船？ 深度解析划船動作，強化你的背部線條與形狀",
+        "channel": "營養健身葛格Peeta",
+        "url": "https://www.youtube.com/watch?v=dYSiZNZ9LNc",
+        "duration": "11:41",
+        "why": "直接處理划船最有爭議的軀幹與肩胛姿勢選擇，並說明不同做法各自練到什麼，比單純示範標準動作更能解釋肩胛節奏。"
+      },
+      "drills": [
+        {"name": "雙手坐姿划船", "en": "Seated Cable Row", "kind": "lift", "target": "中斜方肌、菱形肌、背闊肌", "dose": "4 組 × 10–12 下", "title": "『坐姿划船』｜背肌訓練｜完整教學｜新手健身｜Kun阿錕", "channel": "Kun阿錕", "url": "https://www.youtube.com/watch?v=uMEdTlDZ11U", "duration": "3:06"},
+        {"name": "單手坐姿划船", "en": "Single Arm Seated Cable Row", "kind": "lift", "target": "背闊肌、中斜方肌、腹斜肌", "dose": "每側 3 組 × 10 下", "title": "如何高效练背｜单手坐姿划船 (详细教学)", "channel": "ALEX健身频道", "url": "https://www.youtube.com/watch?v=fK-KnKu6vqM", "duration": "10:23"},
+        {"name": "單手啞鈴划船", "en": "One Arm Dumbbell Row", "kind": "lift", "target": "背闊肌、大圓肌、菱形肌", "dose": "每側 4 組 × 8–10 下", "title": "從拿起啞鈴開始的啞鈴划船完整教學！增加妳感受度（新手友善）", "channel": "女力健身 Nuli App", "url": "https://www.youtube.com/watch?v=r1loX83MWaw", "duration": "3:37"},
+        {"name": "槓鈴划船", "en": "Barbell Row", "kind": "lift", "target": "背闊肌、菱形肌、豎脊肌", "dose": "4 組 × 6–8 下", "title": "練背教程：杠鈴劃船的動作模式、常見錯誤、發力技巧【卓叔增重】", "channel": "卓叔增重", "url": "https://www.youtube.com/watch?v=3rk4NTOe54I", "duration": "5:53"},
+        {"name": "反向划船", "en": "Inverted Row", "kind": "lift", "target": "中斜方肌、菱形肌、背闊肌、腹直肌", "dose": "4 組 × 8–12 下，調整腳位改難度", "title": "Inverted Row Guide | Form Tips, Muscles Worked, and Mistakes", "channel": "BarBend", "url": "https://www.youtube.com/watch?v=hXTc1mDnZCw", "duration": "8:06"},
+        {"name": "TRX 划船", "en": "TRX Row", "kind": "lift", "target": "中斜方肌、背闊肌、腹直肌", "dose": "3 組 × 10–12 下", "title": "一次訓練闊背肌與核心肌群，來挑戰高難度的 TRX 划船吧｜背部訓練、背肌訓練", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=Ck5FC7TekeE", "duration": "5:38"},
+        {"name": "胸靠式划船（趴姿划船）", "en": "Chest Supported Row", "kind": "lift", "target": "中斜方肌、菱形肌、後三角肌", "dose": "3 組 × 12 下", "title": "趴姿划船，核心弱的人也能輕鬆練的背肌雕塑動作｜槓鈴划船、背部訓練、背肌訓練、闊背肌", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=F_RKYuHUkrY", "duration": "8:09"},
+        {"name": "划船常見錯誤", "en": "Rowing Mistakes", "kind": "lift", "target": "背闊肌、中斜方肌、豎脊肌", "dose": "側面錄影對照 1 組 × 10 下", "title": "新手練背必學！3個坐姿划船最常見錯誤｜提升背肌感受度的訣竅？", "channel": "Ashlee xiu", "url": "https://www.youtube.com/watch?v=140tzRm7JnA", "duration": "8:08"},
+        {"name": "划船的肩胛節奏", "en": "Scapular Rhythm in Rowing", "kind": "activate", "target": "中斜方肌、下斜方肌、背闊肌", "dose": "2 組 × 12 下，前引後收各停 2 秒", "title": "練背沒感覺，手累脖子酸？這一招幫你徹底解決【卓叔增重】", "channel": "卓叔增重", "url": "https://www.youtube.com/watch?v=LtAzoPVdHw8", "duration": "7:25"},
+        {"name": "半跪姿單側划船（抗旋轉）", "en": "Half-Kneeling Anti-Rotation Row", "kind": "lift", "target": "背闊肌、腹斜肌、臀中肌", "dose": "每側 3 組 × 10 下", "title": "划船同時練核心？還能改善髖關節活動度？讓你運動效益 UP 的半跪姿划船！｜背肌訓練、核心訓練、後功能線 ft. 威力＆Anderson 教練", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=AAmswD321J0", "duration": "6:49"},
+        {"name": "彈力帶划船", "en": "Band Row", "kind": "lift", "target": "中斜方肌、菱形肌、背闊肌", "dose": "3 組 × 15 下", "title": "彈力繩練背三招，用科學力線提升練背成效！｜彈力帶、背肌訓練、彈力繩划船、Pullover", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=voc5wOhon-A", "duration": "7:46"}
+      ]
     },
     {
-     "name": "闊筋膜張肌放鬆與活化",
-     "en": "TFL Release & Mobilization",
-     "kind": "release",
-     "target": "闊筋膜張肌",
-     "dose": "每側放鬆 60 秒，接續影片的活動度動作各 8–10 下",
-     "title": "4 Tensor Fascia Latae (TFL) Exercises",
-     "channel": "Rehab Science",
-     "url": "https://www.youtube.com/watch?v=XkLCMXzWtGs",
-     "duration": "7:42"
-    },
-    {
-     "name": "內收肌群滾筒放鬆",
-     "en": "Adductor Foam Roll",
-     "kind": "release",
-     "target": "內收肌群（大腿內側）",
-     "dose": "每側 60 秒，俯臥將大腿內側橫放滾筒上",
-     "title": "How to foam roll your inner thigh (adductor muscles)",
-     "channel": "Upright Health",
-     "url": "https://www.youtube.com/watch?v=hSxQuAYlPrE",
-     "duration": "1:00"
-    },
-    {
-     "name": "半跪姿髂腰肌伸展（含骨盆後傾）",
-     "en": "Half-Kneeling Hip Flexor Stretch with Posterior Tilt",
-     "kind": "stretch",
-     "target": "髂腰肌",
-     "dose": "每側 30 秒 × 3 組；必須先把骨盆後捲再前推，否則只是拉到腰椎",
-     "title": "STOP Hip Flexor Stretches Unless You Do This!",
-     "channel": "Bob & Brad",
-     "url": "https://www.youtube.com/watch?v=q4B2hwUxILM",
-     "duration": "6:55"
-    },
-    {
-     "name": "沙發伸展（股直肌）",
-     "en": "Couch Stretch",
-     "kind": "stretch",
-     "target": "股直肌、髂腰肌",
-     "dose": "每側 60–90 秒，腰不可塌陷代償",
-     "title": "The Couch Stretch Done Correctly",
-     "channel": "Tom Morrison",
-     "url": "https://www.youtube.com/watch?v=d9pOjXCKGN8",
-     "duration": "3:48"
-    },
-    {
-     "name": "嬰兒式（腰豎脊肌延展）",
-     "en": "Child's Pose",
-     "kind": "stretch",
-     "target": "腰豎脊肌、胸腰筋膜",
-     "dose": "60–90 秒，配合深呼吸讓下背隨吸氣撐開",
-     "title": "Child's pose [low back stretch]",
-     "channel": "[P]rehab",
-     "url": "https://www.youtube.com/watch?v=q-_M3Cfqmj4",
-     "duration": "0:46"
-    },
-    {
-     "name": "腰方肌側彎伸展",
-     "en": "Quadratus Lumborum Stretch",
-     "kind": "stretch",
-     "target": "腰方肌",
-     "dose": "每側 30 秒 × 2–3 組",
-     "title": "Single BEST Quadratus Lumborum Stretch, By Far!",
-     "channel": "Bob & Brad",
-     "url": "https://www.youtube.com/watch?v=ePMGFaGu1Z4",
-     "duration": "7:00"
-    },
-    {
-     "name": "貓牛式（腰椎前後彎活動度）",
-     "en": "Cat-Cow",
-     "kind": "stretch",
-     "target": "腰豎脊肌、腰椎節段活動度",
-     "dose": "10–12 次來回，重點在感覺得到骨盆帶著腰椎捲動",
-     "title": "How to Do a Cat Cow Stretch: A Guide from Physical Therapists",
-     "channel": "Hinge Health",
-     "url": "https://www.youtube.com/watch?v=1Y0YjXS9sKI",
-     "duration": "1:03"
-    },
-    {
-     "name": "仰臥骨盆後傾",
-     "en": "Supine Posterior Pelvic Tilt",
-     "kind": "train",
-     "target": "腹橫肌、腹直肌下段（骨盆控制入門）",
-     "dose": "10 次 × 3 組，每次維持 5 秒；腰下空隙要能主動壓平",
-     "title": "How to Do a Supine Posterior Pelvic Tilt Exercise | MedBridge",
-     "channel": "Medbridge",
-     "url": "https://www.youtube.com/watch?v=Q59R9p4rzxw",
-     "duration": "0:57"
-    },
-    {
-     "name": "死蟲式（基礎）",
-     "en": "Dead Bug",
-     "kind": "train",
-     "target": "腹橫肌、腹斜肌（抗伸展核心）",
-     "dose": "每側 8–10 次 × 3 組；全程腰貼地，腰一離地就是超過能力",
-     "title": "You're Doing Dead Bugs WRONG! Fix This for Stronger Abs & a Bulletproof Core",
-     "channel": "Squat University",
-     "url": "https://www.youtube.com/watch?v=0XVbn86Btj0",
-     "duration": "8:39"
-    },
-    {
-     "name": "死蟲式進階變化",
-     "en": "Dead Bug Progressions",
-     "kind": "train",
-     "target": "腹橫肌、腹內外斜肌",
-     "dose": "從影片中挑 2 個比目前程度難一階的版本，每側 6–8 次 × 3 組",
-     "title": "Top 10 DEAD BUG Variations for Core Strength",
-     "channel": "Zack Henderson",
-     "url": "https://www.youtube.com/watch?v=Rl54xj0xR04",
-     "duration": "6:19"
-    },
-    {
-     "name": "90/90 呼吸髖抬",
-     "en": "90-90 Hip Lift with Balloon Breathing",
-     "kind": "train",
-     "target": "腹內外斜肌、腹橫肌、膕旁肌（骨盆後傾定位）",
-     "dose": "4–5 次呼吸循環 × 3 組；吐氣到底時肋骨下沉、尾骨微捲",
-     "title": "90-90 Hip Lift with Balloon",
-     "channel": "PRI Postural Restoration Institute",
-     "url": "https://www.youtube.com/watch?v=4GoqjoEXaAw",
-     "duration": "3:53"
-    },
-    {
-     "name": "臀橋（臀大肌啟動）",
-     "en": "Glute Bridge",
-     "kind": "train",
-     "target": "臀大肌",
-     "dose": "12–15 次 × 3 組；上抬時先夾臀再推，不要用腰硬拱起來",
-     "title": "How to Perform the Perfect Glute Bridge",
-     "channel": "Airrosti Rehab Centers",
-     "url": "https://www.youtube.com/watch?v=OUgsJ8-Vi0E",
-     "duration": "2:20"
-    },
-    {
-     "name": "前平板支撐（骨盆中立）",
-     "en": "Front Plank with Neutral Pelvis",
-     "kind": "train",
-     "target": "腹橫肌、腹斜肌、臀大肌（整合性抗伸展）",
-     "dose": "20–40 秒 × 3 組；先微微骨盆後傾夾臀再撐起，腰不可下沉",
-     "title": "How To Plank (Proper Form | Cues | Progressions)",
-     "channel": "E3 Rehab",
-     "url": "https://www.youtube.com/watch?v=A2b2EmIg0dA",
-     "duration": "4:00"
+      "id": "ch6-u4",
+      "name": "直臂下拉與 Arm Bar：背闊肌孤立與肩關節活動度",
+      "type": "movement",
+      "assessment": "這個單元的成敗全看你能不能在手肘不彎的情況下用背拉東西。第一，測上斜方肌：做十下 Cable 直臂下拉，把另一手放在同側頸肩交界，全程應該幾乎摸不到那條肌肉繃緊，一摸到就代表你在用聳肩帶動，重量太重。第二，測肩胛：正面錄影，起始位置肩胛要略上旋、末端往下沉並貼住肋廓，若肩胛內緣整片翹離背部（翼狀），先回頭練前鋸肌。第三，測背闊肌：末端停兩秒，手掌貼在腋下後方到下肋那一片，摸得到明顯緊繃才算孤立成功，只有三頭肌痠就是手肘偷偷彎了。第四，測活動度：仰躺屈膝、腰貼地，雙手伸直過頭，若手背碰不到地或碰到地時肋廓被掀起，代表背闊肌與胸椎太緊，先做背闊肌伸展與滾筒放鬆，再用壺鈴 Arm Bar 從 4 公斤開始每側撐 30 秒，隔天重測一次。",
+      "tight": ["背闊肌", "大圓肌", "胸小肌", "上斜方肌"],
+      "weak": ["下斜方肌", "前鋸肌", "棘下肌", "橫膈膜"],
+      "lesson": {
+        "title": "练背动作指南｜雕刻背部线条｜直臂下压 (详细教学)",
+        "channel": "ALEX健身频道",
+        "url": "https://www.youtube.com/watch?v=rgb0iTHgZHA",
+        "duration": "13:58",
+        "why": "把直臂下拉的力線、手肘角度與常見代償一次講完，是少數願意花十幾分鐘只講一個孤立動作的中文影片。"
+      },
+      "drills": [
+        {"name": "Cable 直臂下拉（雙手）", "en": "Straight Arm Pulldown", "kind": "lift", "target": "背闊肌、大圓肌、下斜方肌", "dose": "3 組 × 12–15 下", "title": "【5分鐘教你直臂下壓】為什麼練不到背？你忽略了這個關鍵細節！", "channel": "女力健身 Nuli App", "url": "https://www.youtube.com/watch?v=yjuFVGGFYp4", "duration": "5:34"},
+        {"name": "Cable 直臂下拉（單手）", "en": "Single Arm Straight Arm Pulldown", "kind": "lift", "target": "背闊肌、大圓肌、腹斜肌", "dose": "每側 3 組 × 12 下", "title": "單手的直臂下拉 (中文字幕)", "channel": "Fitting Room TW", "url": "https://www.youtube.com/watch?v=BpJ9wSObK1w", "duration": "4:05"},
+        {"name": "啞鈴 Pullover", "en": "Dumbbell Pullover", "kind": "lift", "target": "背闊肌、大圓肌、胸大肌", "dose": "3 組 × 10–12 下", "title": "仰卧提拉练哪里？背？上胸？#肌肉 #健身 #锻炼 #健美 #增肌 #型男 #运动 #仰卧提拉 #背部训练", "channel": "正经人儿彭彬", "url": "https://www.youtube.com/watch?v=VQ2dFI1KAJc", "duration": "1:50"},
+        {"name": "壺鈴 Arm Bar", "en": "Kettlebell Arm Bar", "kind": "activate", "target": "棘下肌、前鋸肌、下斜方肌", "dose": "每側 3 組 × 30 秒等長支撐", "title": "The Kettlebell Arm Bar", "channel": "StrongFirst", "url": "https://www.youtube.com/watch?v=k7qyA5bMYRA", "duration": "5:11"},
+        {"name": "背闊肌伸展", "en": "Lat Stretch", "kind": "release", "target": "背闊肌、大圓肌、胸小肌", "dose": "每側 3 次 × 30 秒", "title": "肩關節活動度特輯 EP.2 ｜為什麼人人都該學會伸展闊背肌？闊背肌緊繃，造成的問題比你想得還多！｜背肌伸展、背肌放鬆、肩頸痠痛 ft. 威力 教練", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=yH7YHn5r33g", "duration": "5:39"},
+        {"name": "背闊肌滾筒放鬆", "en": "Lat Foam Rolling", "kind": "release", "target": "背闊肌、大圓肌", "dose": "每側 60–90 秒", "title": "闊背肌放鬆", "channel": "瑞稞適能中心", "url": "https://www.youtube.com/watch?v=72SoeuLm5C4", "duration": "0:31"},
+        {"name": "直臂下拉常見錯誤", "en": "Straight Arm Pulldown Mistakes", "kind": "lift", "target": "背闊肌、肱三頭肌、下斜方肌", "dose": "對照影片自我錄影檢查 1 組", "title": "直臂下拉三大常見錯誤有哪些？不小心還可能導致肩膀受傷？解決方法在這裡！｜直臂下拉、直臂下壓、背部訓練、練背", "channel": "林勁瑋 x 大腦優先教練學院", "url": "https://www.youtube.com/watch?v=o6PMjQqPtjg", "duration": "6:30"},
+        {"name": "肩關節活動度與過頭能力", "en": "Overhead Shoulder Mobility", "kind": "release", "target": "背闊肌、胸小肌、棘下肌", "dose": "訓練前 2 輪，每個動作 8–10 下", "title": "快速改善肩膀活動度的方法 (中文字幕)", "channel": "Fitting Room TW", "url": "https://www.youtube.com/watch?v=vIplD-1hI5A", "duration": "4:32"},
+        {"name": "Arm Bar 進退階", "en": "Arm Bar Progression", "kind": "activate", "target": "棘下肌、小圓肌、前鋸肌", "dose": "每側 2–3 組，彎臂版與直臂版各 20–30 秒", "title": "Kettlebell ARM-BAR and BENT ARM-BAR", "channel": "Hardstyle Kettlebell Pro", "url": "https://www.youtube.com/watch?v=AiUJMW4TCkg", "duration": "3:18"},
+        {"name": "背闊肌與呼吸（肋廓控制）", "en": "Lat & Rib Cage Breathing", "kind": "activate", "target": "橫膈膜、腹橫肌、腹斜肌", "dose": "3 組 × 8 次呼吸，吐氣時肋廓下沉", "title": "肋骨外翻影響核心訓練：呼吸矯正＋核心肌群訓練教學｜啾c物理治療師", "channel": "啾c物理治療師", "url": "https://www.youtube.com/watch?v=-H75tY3fYAw", "duration": "7:52"}
+      ]
     }
-   ]
-  },
-  {
-   "id": "ch6-u2",
-   "name": "腰椎過直",
-   "en": "Flat Lumbar / Lumbar Hypolordosis",
-   "type": "posture",
-   "assessment": "① 仰臥屈膝躺平，手掌幾乎塞不進腰下，整段腰椎貼平地面，即為腰椎過直。② 靠牆站立時腰與牆之間連手指都難以插入，同時臀部扁平、骨盆前上棘（ASIS）高於恥骨聯合，骨盆像水盆往後倒 —— 這是骨盆後傾合併腰椎過直。③ **鑑別關鍵：屈曲偏好測試**。做捲腹、抱膝到胸、坐姿駝背時「反而覺得舒服放鬆」，而做俯臥撐起（趴著用手撐起上半身、髖部貼地）時覺得緊、酸或卡住 —— 代表身體長期處於屈曲、伸展方向已被封鎖。④ 直膝抬腿測試：仰躺單腳伸直抬起，若抬不到 70 度且骨盆被拉著往後捲，代表膕旁肌過緊在把骨盆往後拉。\n\n**這一點務必講清楚：腰椎過直的人再做捲腹、骨盆後傾、抱膝到胸，是把已經過度屈曲的腰椎推得更遠，屬反效果。** 方向必須反過來 —— 恢復前凸（俯臥伸展、髖屈肌延展）與豎脊肌耐力；核心要練 McGill 的 curl-up（下背保持中立、只捲起頭頸與上胸），而不是把腰椎壓平的傳統仰臥起坐（sit-up）。",
-   "tight": [
-    "膕旁肌",
-    "臀大肌",
-    "腹直肌",
-    "腹外斜肌",
-    "背闊肌"
-   ],
-   "weak": [
-    "髂腰肌",
-    "腰豎脊肌",
-    "多裂肌",
-    "胸腰段伸肌"
-   ],
-   "lesson": {
-    "title": "骨盆歪斜是長期腰痛元凶！從骨盆後傾改善腰椎過直的完整訓練｜啾c物理治療師",
-    "channel": "啾c物理治療師",
-    "url": "https://www.youtube.com/watch?v=GjhWMuzT0a8",
-    "duration": "11:15",
-    "why": "繁中物理治療師頻道中極少數專門處理「腰椎過直＋骨盆後傾」的完整教學，講到為什麼這類人不該再壓平腰椎，並給出恢復前凸的訓練順序，正是本單元最需要釐清的觀念"
-   },
-   "drills": [
-    {
-     "name": "腿後肌群滾筒放鬆",
-     "en": "Hamstring Foam Roll",
-     "kind": "release",
-     "target": "膕旁肌（腿後肌群）",
-     "dose": "每側 60–90 秒，坐姿把大腿後側壓在滾筒上慢速滾動",
-     "title": "Foam Rolling Hamstrings: Dos, Don'ts & How To",
-     "channel": "Sports Injury Physio",
-     "url": "https://www.youtube.com/watch?v=jV9SSJ3OkcA",
-     "duration": "7:57"
-    },
-    {
-     "name": "臀大肌／深層臀部按摩球放鬆",
-     "en": "Glute & Piriformis Ball Release",
-     "kind": "release",
-     "target": "臀大肌、梨狀肌",
-     "dose": "每側 60–90 秒，坐在球上找到酸點停留",
-     "title": "Tennis Ball Self-Massage for Your Glutes and Piriformis",
-     "channel": "The Online Physiotherapist",
-     "url": "https://www.youtube.com/watch?v=l3flN43z-EQ",
-     "duration": "2:53"
-    },
-    {
-     "name": "背闊肌滾筒放鬆",
-     "en": "Latissimus Dorsi Foam Roll",
-     "kind": "release",
-     "target": "背闊肌",
-     "dose": "每側 60 秒；背闊肌緊會把胸腰段往屈曲拉，限制腰椎回到前凸",
-     "title": "Self Myofascial Release: Foam Rolling - Latissimus Dorsi",
-     "channel": "National Academy of Sports Medicine (NASM)",
-     "url": "https://www.youtube.com/watch?v=1GaR-a9TWYM",
-     "duration": "1:33"
-    },
-    {
-     "name": "胸椎伸展滾筒鬆動",
-     "en": "Thoracic Extension over Foam Roller",
-     "kind": "release",
-     "target": "胸椎伸展活動度、胸段豎脊肌",
-     "dose": "每個節段 5–8 次伸展，由下往上分 3 段做",
-     "title": "Thoracic Spine Mobilizations with Foam Roller",
-     "channel": "joshrenkens",
-     "url": "https://www.youtube.com/watch?v=SxQkVD0UQNg",
-     "duration": "6:07"
-    },
-    {
-     "name": "俯臥撐起伸展（McKenzie）",
-     "en": "McKenzie Prone Press-Up",
-     "kind": "stretch",
-     "target": "腹直肌、腹外斜肌（前側鏈延展）＋恢復腰椎前凸",
-     "dose": "10 次 × 3 組，每次頂點停 2 秒；髖部全程貼地、臀部放鬆",
-     "title": "How To: McKenzie Press Ups for Low Back Pain and Sciatica",
-     "channel": "ProCare Injury Specialists",
-     "url": "https://www.youtube.com/watch?v=kFZ8-rMItKk",
-     "duration": "4:25"
-    },
-    {
-     "name": "腿後肌群伸展（骨盆前傾版）",
-     "en": "Hamstring Stretch with Anterior Pelvic Tilt",
-     "kind": "stretch",
-     "target": "膕旁肌",
-     "dose": "每側 30 秒 × 3 組；務必從坐骨帶動骨盆前傾去拉，不可彎腰駝背拉",
-     "title": "膕旁肌伸展，久坐大腿後側緊繃縮短，想改善大腿後側柔軟度，原來拉筋秘訣是「坐骨」！分享如何正確拉長膕旁肌卻不傷害腰椎。",
-     "channel": "全人物理治療所",
-     "url": "https://www.youtube.com/watch?v=HD9hT2HhDs8",
-     "duration": "5:29"
-    },
-    {
-     "name": "鴿式（臀大肌伸展）",
-     "en": "Pigeon Stretch",
-     "kind": "stretch",
-     "target": "臀大肌、髖外旋肌群",
-     "dose": "每側 60–90 秒；前腳脛骨盡量平行身體前方",
-     "title": "Pigeon Stretch | Do It Right!",
-     "channel": "Tom Merrick",
-     "url": "https://www.youtube.com/watch?v=2msg4jdu0vk",
-     "duration": "4:08"
-    },
-    {
-     "name": "麥吉爾捲腹",
-     "en": "McGill Curl-Up",
-     "kind": "train",
-     "target": "腹直肌、腹斜肌（不壓平腰椎的核心練法）",
-     "dose": "每側手放法 10 秒 × 6-4-2 階梯組；一手墊在腰下維持自然前凸，只捲起頭頸與上胸",
-     "title": "How To Correctly Perform The McGill Modified Curl Up",
-     "channel": "Ryan Hollien",
-     "url": "https://www.youtube.com/watch?v=_tz9WGVH25g",
-     "duration": "5:54"
-    },
-    {
-     "name": "俯臥背伸展",
-     "en": "Prone Back Extension",
-     "kind": "train",
-     "target": "腰豎脊肌、多裂肌（伸肌耐力）",
-     "dose": "10 次 × 3 組，每次頂點停 3–5 秒；抬起幅度小而穩，不追求抬高",
-     "title": "Prone Back Extension",
-     "channel": "Functional Fitness VA",
-     "url": "https://www.youtube.com/watch?v=cIYeKqLqVVs",
-     "duration": "2:22"
-    },
-    {
-     "name": "側橋（側平板）",
-     "en": "Side Plank / Side Bridge",
-     "kind": "train",
-     "target": "腹斜肌、腰方肌、臀中肌（側向穩定，不需屈曲腰椎）",
-     "dose": "每側 20–30 秒 × 3 組；先做屈膝版，穩定後再進到直腿版",
-     "title": "How to do the perfect Side Plank and most common mistakes",
-     "channel": "Get Exercise Confident",
-     "url": "https://www.youtube.com/watch?v=rCxF2nG9vQ0",
-     "duration": "3:19"
-    },
-    {
-     "name": "髖鉸鏈",
-     "en": "Hip Hinge",
-     "kind": "train",
-     "target": "髖伸肌群 + 腰豎脊肌等長維持（功能整合）",
-     "dose": "12 次 × 3 組，可持棍棒貼三點確認腰椎全程維持自然前凸",
-     "title": "How to Hip Hinge (for Beginners) | Strength Training For Beginners Series",
-     "channel": "Dr. Carl Baird",
-     "url": "https://www.youtube.com/watch?v=Dn3GexXx228",
-     "duration": "4:11"
-    }
-   ]
-  }
- ]
+  ]
 }

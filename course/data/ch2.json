@@ -1,0 +1,360 @@
+{
+  "chapter": "CH2",
+  "title": "找出身體限制｜體態評估與活動度檢測",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "看懂你的體態：站姿、對位與常見代償來源",
+      "type": "assessment",
+      "assessment": "找一面素色牆，穿短褲、赤腳，請人從正面與側面各拍一張全身照，鏡頭高度對準肚臍、距離約三公尺。側面照上從耳垂往下畫一條垂直線，正常應依序通過肩峰、股骨大轉子、膝關節略前方、外踝略前方；耳垂落在肩峰前方超過五公分記為頭前伸，大轉子明顯落在線後方記為骨盆前移。正面照看兩側肩峰與髂骨前上棘是否等高，落差超過一指寬記為高低肩或骨盆側傾。再赤腳靠牆站，後腦、上背、臀部三點同時貼牆，若後腦需刻意後仰才貼得到、或腰與牆的空隙塞得進整個手掌，就是本章要處理的對位問題。每一項都寫下「通過／不通過」，這份紀錄是你四週後回測的基準。",
+      "tight": ["上斜方肌", "提肩胛肌", "胸小肌", "枕下肌群", "髂腰肌", "豎脊肌"],
+      "weak": ["下斜方肌", "前鋸肌", "頸深屈肌", "腹橫肌", "臀中肌", "臀大肌"],
+      "lesson": {
+        "title": "駝背根治最後一步：骨盆對位如何影響頸椎到腰椎的體態｜啾c物理治療師",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=-ORMn4qJ6GA",
+        "duration": "8:25",
+        "why": "把「體態」從單點問題講成一整條對位鏈：骨盆角度怎麼一路影響到腰椎、胸椎、頸椎，正好對應本單元要你判讀的代償來源，比單教「抬頭挺胸」的影片有用得多。"
+      },
+      "drills": [
+        {
+          "name": "站姿側面對位觀察（鉛垂線）",
+          "en": "Static Posture Observation / Plumb Line Analysis",
+          "kind": "test",
+          "target": "豎脊肌、髂腰肌、腹直肌、臀大肌",
+          "dose": "側面拍照 1 張，判讀：耳垂鉛垂線應通過肩峰、大轉子、膝略前、外踝略前；耳垂在肩峰前 > 5 cm 視為頭前伸，大轉子在鉛垂線後 > 3 cm 視為骨盆前移",
+          "title": "Observation and Posture Analysis",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=Zp5iC3Ioq7U",
+          "duration": "3:57"
+        },
+        {
+          "name": "骨盆前後傾自我判讀",
+          "en": "Anterior / Posterior Pelvic Tilt Self-Assessment",
+          "kind": "test",
+          "target": "髂腰肌、股直肌、豎脊肌、臀大肌、腹直肌",
+          "dose": "拇指壓髂骨前上棘（ASIS）、中指壓恥骨聯合，站姿測 1 次：兩點連線接近垂直為中立；ASIS 明顯低於恥骨聯合視為骨盆前傾，明顯高於則為後傾",
+          "title": "小腹瘦不下來竟是骨盆前傾？自我檢測＋改善動作一次學會！【矯正小教室 EP.09】",
+          "channel": "生生優動 診所暨運動物理治療所",
+          "url": "https://www.youtube.com/watch?v=0gpSNCOxW-E",
+          "duration": "2:53"
+        },
+        {
+          "name": "肩胛位置與翼狀肩檢測",
+          "en": "Scapular Dyskinesis Test (McClure)",
+          "kind": "test",
+          "target": "下斜方肌、中斜方肌、前鋸肌、菱形肌",
+          "dose": "手持 1–2 kg 啞鈴做 5 次緩慢上舉／下放，由後方錄影判讀：肩胛內緣或下角在下放過程明顯翹離肋廓即為陽性；兩側不對稱者以較差側為訓練優先",
+          "title": "Scapula Dyskinesis Test by McClure | Scapula Dyskinesia",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=btp9l6vD330",
+          "duration": "4:28"
+        },
+        {
+          "name": "頭前伸程度檢測",
+          "en": "Forward Head Posture Measurement",
+          "kind": "test",
+          "target": "枕下肌群、上斜方肌、提肩胛肌、頸深屈肌",
+          "dose": "側面拍照量耳垂到肩峰的水平距離，測 1 次：< 2.5 cm 正常，2.5–5 cm 輕度，> 5 cm 明顯頭前伸；靠牆時後腦需刻意後仰才貼牆也直接判為陽性",
+          "title": "How to Measure & Correct Forward Head Posture (Neck Pain & Headaches)",
+          "channel": "Bob & Brad",
+          "url": "https://www.youtube.com/watch?v=9OdAid7vO5w",
+          "duration": "6:26"
+        },
+        {
+          "name": "足弓塌陷檢測（舟狀骨下降）",
+          "en": "Navicular Drop Test",
+          "kind": "test",
+          "target": "脛後肌、足底內在肌群、腓骨長肌",
+          "dose": "坐姿放鬆與站姿承重各量一次舟狀骨到地面高度，每側各 1 次：下降 5–9 mm 為正常，> 10 mm 視為足弓過度塌陷、常伴隨膝內夾與踝背屈受限",
+          "title": "The Navicular Drop Test for Foot Overpronation",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=BejuNMmD7-Y",
+          "duration": "2:15"
+        },
+        {
+          "name": "單腳站立平衡與骨盆控制檢測",
+          "en": "Single Leg Stance Test",
+          "kind": "test",
+          "target": "臀中肌、臀小肌、腹斜肌、腓骨肌群",
+          "dose": "睜眼單腳站，每側各 1 次：撐不到 30 秒、或骨盆往懸空側掉落（Trendelenburg）、或軀幹明顯側倒即為陽性，代表臀中肌與踝穩定不足",
+          "title": "What Single Leg Stance Assessment can tell you",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=A9pi7_JRgwQ",
+          "duration": "3:33"
+        },
+        {
+          "name": "靠牆站立三點檢測",
+          "en": "Wall Posture Test",
+          "kind": "test",
+          "target": "豎脊肌、腹橫肌、下斜方肌、臀大肌",
+          "dose": "腳跟離牆 10 cm，後腦、上背、臀部三點貼牆站 30 秒，測 1 次：腰與牆的空隙應只塞得下一隻手掌厚度；塞得進整個拳頭視為腰椎過度前凸，後腦貼不到牆視為胸椎過直加頭前伸",
+          "title": "正確站姿怎麼站？知道可以貼牆站，但雙腳貼牆是對的嗎？",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=h8qa1L8vsS8",
+          "duration": "3:11"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "活動度檢測：脊椎與胸廓",
+      "type": "assessment",
+      "assessment": "找張沒有靠背的椅子坐好，雙腳踩地、膝蓋夾一顆抱枕把骨盆與腰椎鎖住，雙手交叉抱胸，往左右各轉到底並請人從正上方拍照。用肩膀連線和骨盆連線的夾角判讀，單側轉不到 45 度就是胸椎旋轉受限，左右差超過 10 度代表有慣用側代償。接著平躺屈膝，雙手放在肋廓最下緣，用鼻子吸氣四秒：手要被往兩側推開、胸口不該先抬高，若吸氣時肋骨下緣往前掀起而不是往外擴，就是肋廓外翻加呼吸模式錯誤。最後做站姿前彎與後仰，記錄指尖離地距離與有沒有出現腰痛或折點集中在同一節，把三項結果寫下來當基準線。",
+      "tight": ["胸大肌", "背闊肌", "豎脊肌", "腰方肌", "肋間肌"],
+      "weak": ["下斜方肌", "前鋸肌", "腹橫肌", "腹斜肌", "橫膈膜", "多裂肌"],
+      "lesson": {
+        "title": "駝背改善從這步開始！打開胸椎活動度，告別圓肩上背痛｜啾c物理治療師",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=mXqVxRPNRC8",
+        "duration": "8:47",
+        "why": "先講清楚胸椎為什麼卡、卡住之後肩膀與腰椎會怎麼替它出力，再示範怎麼自己測與自己開，是中文裡少數把「檢測」和「解法」講在同一支的胸椎影片。"
+      },
+      "drills": [
+        {
+          "name": "坐姿胸椎旋轉檢測（腰椎鎖定）",
+          "en": "Seated Lumbar-Locked Thoracic Rotation Test",
+          "kind": "test",
+          "target": "胸椎多裂肌、腹斜肌、背闊肌、豎脊肌",
+          "dose": "膝夾抱枕、雙手抱胸，左右各轉到底 1 次：肩線相對骨盆線 < 45 度視為胸椎旋轉受限，左右差 > 10 度視為明顯不對稱",
+          "title": "Thoracic Rotation Test (Lumbar Lock, IR and ER)",
+          "channel": "React Physical Therapy",
+          "url": "https://www.youtube.com/watch?v=QqZAIMLtlTc",
+          "duration": "0:47"
+        },
+        {
+          "name": "四足跪姿胸椎旋轉檢測與矯正",
+          "en": "Quadruped Thoracic Rotation",
+          "kind": "release",
+          "target": "胸椎多裂肌、腹斜肌、前鋸肌",
+          "dose": "四足跪姿手放後腦，每側 8–10 下：手肘應能轉到指向天花板（約 45–50 度）；轉不上去、或腰椎跟著扭轉來代償就是胸椎受限，把它當成矯正動作每天做",
+          "title": "Quadruped Thoracic Rotation for Spine Mobility",
+          "channel": "Vive Health",
+          "url": "https://www.youtube.com/watch?v=AzCghjjWt5k",
+          "duration": "1:21"
+        },
+        {
+          "name": "胸椎伸展活動度檢測",
+          "en": "Thoracic Extension Mobility Test",
+          "kind": "test",
+          "target": "胸大肌、胸小肌、背闊肌、豎脊肌",
+          "dose": "坐姿雙手抱頭往後仰，側面錄影 1 次：胸椎應能明顯出現反向弧度；若折點全部集中在腰椎、肋骨下緣往前掀起，代表胸椎伸展被鎖住而由腰椎代償",
+          "title": "Thoracic Mobility Test And Exercises To Improve It",
+          "channel": "Physio Plus Fitness",
+          "url": "https://www.youtube.com/watch?v=R-8dHo6KWWw",
+          "duration": "8:42"
+        },
+        {
+          "name": "腰椎屈曲檢測（Schober Test）",
+          "en": "Schober Test for Lumbar Flexion",
+          "kind": "test",
+          "target": "豎脊肌、腰方肌、腿後肌群",
+          "dose": "站姿在髂後上棘連線上下標記，前彎到底量 1 次：原本 15 cm 的標記距離應延長到 > 20 cm；延長 < 5 cm 視為腰椎屈曲活動度不足",
+          "title": "Schober Test for Lumbar Spine Flexion",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=eYOUA9asDu8",
+          "duration": "1:44"
+        },
+        {
+          "name": "腰椎伸展活動度檢測",
+          "en": "Lumbar Extension Range of Motion Test",
+          "kind": "test",
+          "target": "豎脊肌、腹直肌、髂腰肌",
+          "dose": "站姿雙手扶腰後仰到底，側面錄影 1 次：正常約 25–30 度；後仰 < 15 度為受限，若出現下背集中壓痛或腿麻就先停下並就醫，不要硬做",
+          "title": "Range of Motion Measurement: Lumbar Extension",
+          "channel": "Physical Therapy Education Solutions",
+          "url": "https://www.youtube.com/watch?v=nK8XUzQzml0",
+          "duration": "1:16"
+        },
+        {
+          "name": "肋廓外翻與呼吸擴張檢測",
+          "en": "Rib Flare & Rib Cage Expansion Assessment",
+          "kind": "test",
+          "target": "橫膈膜、腹橫肌、腹斜肌、肋間肌",
+          "dose": "平躺屈膝，雙手放肋廓最下緣，鼻吸 4 秒 × 5 次：手應被往兩側推開；若肋骨下緣往前掀起、胸口先抬高、或摸得到肋弓明顯外翻，即為肋廓外翻加呼吸代償",
+          "title": "肋骨外翻影響核心訓練：呼吸矯正＋核心肌群訓練教學｜啾c物理治療師",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=-H75tY3fYAw",
+          "duration": "7:52"
+        },
+        {
+          "name": "脊椎分節控制檢測（貓牛式）",
+          "en": "Segmental Spinal Control (Cat-Cow)",
+          "kind": "release",
+          "target": "多裂肌、腹橫肌、豎脊肌",
+          "dose": "四足跪姿慢速做 8–10 次，側面錄影判讀：脊椎應像波浪一節一節依序捲起與展開；若整段像一塊板子一起動、或只有腰椎在動而上背不動，代表分節控制不足",
+          "title": "瑜珈--貓牛式cat cow yoga pose , 紓緩痠痛，延展背部脊椎，讓脊椎柔軟不僵硬，喚醒深層核心肌群。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=nGFe2xwdTB8",
+          "duration": "4:01"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "活動度檢測：肩關節與上肢",
+      "type": "assessment",
+      "assessment": "背貼牆站，腳跟離牆一個拳頭，把後腦、上背、臀部與腰椎壓平貼牆，然後雙手伸直、手背貼牆往頭頂舉。判讀有三個條件必須同時成立：手腕能碰到牆、手肘全程打直、腰不能離開牆面往前拱。只要為了舉高而讓肋骨掀起或腰椎離牆，就是肩屈曲活動度不足在用腰椎代償。接著做背後互扣，上手從肩上往下、下手從腰後往上，量兩隻中指的距離，左右各測一次並記錄差值。最後平躺、肩外展九十度，前臂往頭側與往腳側各轉到底，看哪一邊角度明顯偏小。把三項結果與左右差寫下來，差值大於一個手掌寬的那一側就是你這章要優先處理的目標。",
+      "tight": ["背闊肌", "胸大肌", "胸小肌", "大圓肌", "肩胛下肌", "上斜方肌"],
+      "weak": ["下斜方肌", "前鋸肌", "棘下肌", "小圓肌", "菱形肌"],
+      "lesson": {
+        "title": "肩膀卡住怎麼辦？先檢查這 3 個關鍵角度｜#肩膀痛 #手摸不到背 #啾c物理治療師 #運動治療",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=iZAFlDy-6SY",
+        "duration": "9:53",
+        "why": "直接教你用三個角度定位肩膀卡在哪一段，而不是丟一堆伸展要你全做，正好是本單元「先量再練」的邏輯，中文頻道裡把肩關節檢測講得最結構化的一支。"
+      },
+      "drills": [
+        {
+          "name": "貼牆肩屈曲檢測",
+          "en": "Back-to-Wall Shoulder Flexion Test",
+          "kind": "test",
+          "target": "背闊肌、胸大肌、下斜方肌、前鋸肌",
+          "dose": "腰貼牆、手肘打直往頭頂舉，左右同時測 1 次：手腕能碰牆且腰不離牆為通過；需拱腰或屈肘才碰得到牆，即為過頭活動度不足",
+          "title": "Shoulder Mobility Assessment",
+          "channel": "The Barbell Physio",
+          "url": "https://www.youtube.com/watch?v=t1VtV-j16R8",
+          "duration": "1:27"
+        },
+        {
+          "name": "背後互扣檢測（Apley Scratch Test）",
+          "en": "Apley Scratch Test",
+          "kind": "test",
+          "target": "肩胛下肌、大圓肌、棘下肌、胸小肌",
+          "dose": "上手從肩上往下、下手從腰後往上，每側各 1 次：兩中指能相碰為良好，相距 5–10 cm 為輕度受限，> 10 cm 或左右差 > 5 cm 視為明顯不對稱",
+          "title": "Apley Scratch Test or Dawbarn's Test⎟Shoulder ROM",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=oORkZ2gLlbA",
+          "duration": "1:41"
+        },
+        {
+          "name": "肩關節活動空間三項測試",
+          "en": "Shoulder Mobility Three-Test Screen",
+          "kind": "test",
+          "target": "胸小肌、胸大肌、肩胛下肌、下斜方肌",
+          "dose": "三項各測 1 次，判讀：平躺時肩膀後方應能自然貼床，貼不到代表前側緊縮；手往後背高度左右差超過一個椎節，即為該側內轉受限",
+          "title": "【為什麼手往後揹不高？】肩膀活動空間｜三個活動度測試｜圓肩駝背",
+          "channel": "瑞稞適能中心",
+          "url": "https://www.youtube.com/watch?v=NyTrH4SiM_o",
+          "duration": "2:37"
+        },
+        {
+          "name": "肩內轉不足檢測（GIRD）",
+          "en": "Glenohumeral Internal Rotation Deficit Test",
+          "kind": "test",
+          "target": "肩胛下肌、後側關節囊、棘下肌、小圓肌",
+          "dose": "平躺肩外展 90 度、固定肩胛，前臂往腳側轉到底，每側各 1 次：兩側內轉角度差 > 20 度、或內轉加外轉總活動度差 > 5 度，視為內轉不足",
+          "title": "Glenohumeral Internal Rotation Deficit (GIRD)",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=RtTa4dvZsYc",
+          "duration": "3:04"
+        },
+        {
+          "name": "過頭深蹲上肢代償檢測",
+          "en": "Overhead Squat Assessment — Arms Fall Forward",
+          "kind": "test",
+          "target": "背闊肌、胸大肌、下斜方肌、菱形肌",
+          "dose": "雙手過頭做 5 次深蹲，側面錄影判讀：手臂應全程與軀幹保持同一直線；下蹲時手臂往前掉、超過耳朵前緣，代表背闊肌與胸肌過緊、中下斜方無力",
+          "title": "Overactive and Underactive Muscles: Arms Falling Forward",
+          "channel": "National Academy of Sports Medicine (NASM)",
+          "url": "https://www.youtube.com/watch?v=JU38DOT4ctk",
+          "duration": "3:44"
+        },
+        {
+          "name": "闊背肌長度檢測",
+          "en": "Latissimus Dorsi Length Test",
+          "kind": "test",
+          "target": "背闊肌、大圓肌、胸腰筋膜",
+          "dose": "平躺屈膝、腰壓平地面，雙臂伸直過頭放下，每側各 1 次：手臂能貼地且腰不離地為正常；手臂貼不到地或必須拱腰才貼得到，即為背闊肌過短",
+          "title": "Lats Muscle Length Test",
+          "channel": "Physio Plus Fitness",
+          "url": "https://www.youtube.com/watch?v=QK-UdwnbTbg",
+          "duration": "1:48"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "活動度檢測：髖、膝、踝",
+      "type": "assessment",
+      "assessment": "先做踝背屈：赤腳面對牆，測試腳的第二腳趾對準牆面，腳跟不離地、膝蓋往前推去碰牆，能碰到就把腳往後移一公分再試，直到碰不到為止，量腳趾到牆的距離並左右各測一次。接著躺在床沿做 Thomas Test：把一腳抱到胸口，另一腳自然垂下，看大腿後側能不能貼床、小腿能不能自然垂到九十度。再做躺姿直膝抬腿量腿後肌長度，最後坐姿 90/90 看髖內外旋左右差。四項全部記錄左右數值，差最大的那一項就是你目前深蹲卡關、膝內夾或腰代償最可能的來源，之後每四週用同樣方法回測一次。",
+      "tight": ["髂腰肌", "股直肌", "闊筋膜張肌", "腿後肌群", "小腿三頭肌", "梨狀肌"],
+      "weak": ["臀大肌", "臀中肌", "脛前肌", "股內側肌", "深層外旋肌群"],
+      "lesson": {
+        "title": "膝蓋不舒服，可能和髖關節活動度不佳有關？簡單一招活動度檢測、兩招伸展法，久坐的你必學！｜髖關節伸展、下肢伸展、暖身運動、髖屈肌伸展",
+        "channel": "林勁瑋 x 大腦優先教練學院",
+        "url": "https://www.youtube.com/watch?v=jfETc5HYCIQ",
+        "duration": "7:38",
+        "why": "把「膝蓋不舒服」往上追到髖關節活動度，示範一招可自己做的檢測再接兩招對應伸展，正是本單元要建立的「先定位限制再選解法」流程，而且是給一般訓練者看的中文版本。"
+      },
+      "drills": [
+        {
+          "name": "髖屈肌長度檢測（Thomas Test）",
+          "en": "Thomas Test",
+          "kind": "test",
+          "target": "髂腰肌、股直肌、闊筋膜張肌",
+          "dose": "躺床沿抱單膝到胸，另一腳自然垂下，每側各 1 次：大腿後側貼不到床面代表髂腰肌過短；小腿無法垂到膝屈 90 度代表股直肌過短；大腿往外飄則是闊筋膜張肌緊",
+          "title": "Thomas Test | Iliopsoas Tightness",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=NMDd-4NspHs",
+          "duration": "1:41"
+        },
+        {
+          "name": "髖外展外旋檢測（FABER）",
+          "en": "FABER / Patrick Test",
+          "kind": "test",
+          "target": "髂腰肌、內收肌群、梨狀肌、髖關節囊",
+          "dose": "平躺翹四字腳，每側各 1 次：測試側膝外側到床面的高度左右差 > 4 指寬視為髖外旋受限；若誘發鼠蹊深處或薦髂關節疼痛，先找專業評估再訓練",
+          "title": "Patrick's / Faber / Figure Four Test",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=89Qiht82zmg",
+          "duration": "1:12"
+        },
+        {
+          "name": "90/90 髖內外旋檢測",
+          "en": "90/90 Hip Internal & External Rotation Test",
+          "kind": "test",
+          "target": "深層外旋肌群、內收肌群、臀中肌、髖關節囊",
+          "dose": "坐姿 90/90 前後換邊各 1 次：前腳脛骨應能貼地且骨盆不後倒，後腳大腿內旋應能讓小腿貼地；貼不到、或必須整個骨盆轉過去代償，即為該方向受限",
+          "title": "Hip Rotation Test",
+          "channel": "The Ready State",
+          "url": "https://www.youtube.com/watch?v=n6A9Dc_S364",
+          "duration": "4:25"
+        },
+        {
+          "name": "踝背屈檢測（Knee-to-Wall）",
+          "en": "Knee-to-Wall / Weight Bearing Lunge Test",
+          "kind": "test",
+          "target": "腓腸肌、比目魚肌、踝關節前側關節囊",
+          "dose": "腳跟不離地、膝碰牆，每側各測 1 次：膝碰牆距離 < 8 cm 視為踝背屈受限（正常 10–12 cm）；左右差 > 1.5 cm 視為不對稱，深蹲時該側容易腳跟翹起或膝內夾",
+          "title": "The Weight Bearing Lunge Test or Wall Test | Ankle Mobility",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=U7woPNLUT3Q",
+          "duration": "2:22"
+        },
+        {
+          "name": "腿後肌群長度檢測（直膝抬腿）",
+          "en": "90-90 / Active Straight Leg Raise Test",
+          "kind": "test",
+          "target": "腿後肌群、腓腸肌、坐骨神經",
+          "dose": "平躺髖屈 90 度後主動伸膝，每側各 1 次：膝關節缺不足 20 度可完全伸直為正常，缺 > 20 度視為腿後肌群過短；直膝抬腿版本抬不到 70 度也判為受限",
+          "title": "90-90 Straight Leg Raise Test ⎟ Hamstring Contractures",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=meM4S1vrbpk",
+          "duration": "1:27"
+        },
+        {
+          "name": "單腳蹲膝內夾控制檢測",
+          "en": "Single Leg Squat / Knee Valgus Assessment",
+          "kind": "test",
+          "target": "臀中肌、臀大肌、股內側肌、脛前肌",
+          "dose": "單腳蹲 5 次，正面錄影，每側各 1 次：膝蓋應全程對齊第二腳趾；膝往內塌超過腳掌內緣、骨盆往懸空側掉落、或軀幹側倒，即為髖外展與外旋控制不足",
+          "title": "What to Assess in Single Leg Bend Tasks | Knee Stability",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=y-v4seZ7eZ8",
+          "duration": "4:31"
+        }
+      ]
+    }
+  ]
+}

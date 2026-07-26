@@ -1,0 +1,591 @@
+{
+  "conditions": [
+    {
+      "unit": "ch3-u1",
+      "name": "肩胸與上背放鬆",
+      "evidence_grade": "limited",
+      "summary": "針對胸椎與肩後側做鬆動／伸展，對肩夾擠族群的疼痛與活動度確實有中到大的短期效果，這是本章證據最紮實的一段。但要注意：撐起這個結論的隨機試驗，用的多半是「治療師徒手操作的胸椎鬆動／推手」與「有人指導的肩後伸展」，不是你自己趴在滾筒上滾兩分鐘。一篇 2025 年納入 10 篇 RCT、444 人的 SR/MA 顯示胸椎徒手治療對疼痛的短期 SMD 為 -0.94（95% CI -1.23 至 -0.65），中期 -0.83；另一篇納入 10 篇 RCT、628 人的 MA 顯示改良式肩後伸展對內轉活動度 SMD 0.49、肩功能 SMD 0.95。效果多半在數週內測得，長期與預防傷害的資料仍然缺乏。",
+      "mechanism": "常見說法是「胸椎伸展變好 → 肩胛上轉空間變大 → 夾擠減少」，這個力學鏈在體外與影像研究上說得通，但沒有研究證明臨床改善真的是走這條路。更保守也更符合現有資料的解釋是：短期活動度增加主要來自伸展耐受度（stretch tolerance）改變與痛覺調控，而不是結締組織長度真的被「鬆開」。機轉本身屬於合理推論，確定性低於效果本身。",
+      "performance_effect": "本單元沒有針對運動表現的直接證據。滾筒訓練的 SR/MA（11 篇研究、290 人）顯示 4 週以上介入可使關節活動度提升（ES 0.823，95% CI 0.325–1.322，I²=72.8%），但活動度不等於表現，且該分析的部位以大腿與小腿為主，胸椎資料極少。合理的定位是「讓後續動作做得到位」，不是「讓你變強」。",
+      "hypertrophy_strength": "不適用。放鬆與鬆動的介入強度遠低於引發肌肥大或肌力適應所需的機械張力，現有文獻也沒有把肌肥大／肌力當成終點。要長肌力仍必須靠 ch5 之後的阻力訓練。",
+      "injury_link": "只能說「對已經有肩痛的人有效」，不能說「做了就不會受傷」。胸椎徒手治療與肩後伸展的證據都來自已診斷肩夾擠／肩痛的患者，沒有任何一篇 RCT 顯示健康人做胸椎放鬆可以降低未來肩傷發生率。把治療效果外推成預防效果是常見的過度解讀。",
+      "assessment_validity": "本單元不涉及標準化檢測。坐姿旋轉、牆邊上舉這類自我檢查沒有建立過信效度，只能當成「訓練前後自己比較」的粗略參考，不能拿來判斷有無病理。",
+      "red_flags": [
+        "手臂出現持續麻木、刺痛或握力明顯變弱，尤其合併頸部症狀",
+        "肩膀無法主動抬高過 90 度、或夜間痛到無法側睡超過兩週",
+        "外傷（跌倒、拉扯）後立即出現的肩部無力或畸形變形",
+        "放鬆後疼痛不減反增，且範圍從肩部往手肘以下擴散"
+      ],
+      "caveats": "本課程的稽核標準是「以課程實際教的動作為準」，不是「以主題為準」——依這個標準，這一節只能給 limited。撐起胸椎介入效果量的兩篇 SR/MA，介入方式都不是本單元教的東西：40712864 測的是治療師施作的胸椎徒手鬆動與推手（SMD -0.94），39792722 測的是有人指導並監督的肩後伸展；而這裡教的是自己滾筒、自己伸展，兩者之間沒有任何頭對頭的高品質比較。把他人操作的治療效果借給自我操作的放鬆，跟 ch3-u3 批評的過度外推是同一類錯誤。 這一節最該被打折的是「證據轉移」問題：SR/MA 支持的是治療師徒手操作與有人監督的伸展，本課程教的是自我滾筒與自我伸展，兩者的效果不能直接畫等號，目前也沒有頭對頭的高品質比較。此外「圓肩駝背造成肩夾擠、所以要鬆胸椎」這條因果鏈並未被前瞻研究證實；姿勢與肩痛的相關性在近年文獻中相當弱。這些動作值得做，理由是低風險、便宜、讓後續訓練做得到位，而不是因為它矯正了什麼結構。",
+      "citations": [
+        {
+          "pmid": "40712864",
+          "title": "Effectiveness of Thoracic Spine Manual Therapy in Treating Subacromial Impingement Syndrome: A Systematic Review and Meta-analysis.",
+          "journal": "Arch Phys Med Rehabil",
+          "year": 2025,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40712864/",
+          "takeaway": "10 篇 RCT、444 人：胸椎徒手治療對肩夾擠疼痛短期 SMD -0.94（95% CI -1.23 至 -0.65）、中期 -0.83，失能中期 SMD -0.82，屬高品質證據；但介入皆為治療師操作。"
+        },
+        {
+          "pmid": "39792722",
+          "title": "Efficacy of modified posterior shoulder stretching exercises on shoulder function in subacromial impingement syndrome: A comprehensive meta-analysis.",
+          "journal": "Medicine (Baltimore)",
+          "year": 2025,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39792722/",
+          "takeaway": "10 篇 RCT、628 人：改良式肩後伸展降低靜態疼痛 SMD -1.00、活動時疼痛 -1.45，改善內轉 SMD 0.49、外轉 0.29、肩功能（CMS）0.95，但信賴區間寬、異質性高。"
+        },
+        {
+          "pmid": "30902594",
+          "title": "The efficacy and fidelity of clinical interventions used to reduce posterior shoulder tightness: a systematic review with meta-analysis.",
+          "journal": "J Shoulder Elbow Surg",
+          "year": 2019,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30902594/",
+          "takeaway": "13 篇研究中只有 3 篇的治療忠實度達良好以上，偏誤風險高；相對「不治療」有中等效果量改善活動度，但相對「其他主動介入」只剩小效果量。"
+        },
+        {
+          "pmid": "35616852",
+          "title": "Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35616852/",
+          "takeaway": "11 篇研究、290 人：滾筒訓練提升活動度 ES 0.823（95% CI 0.325–1.322，I²=72.8%），超過 4 週效果較佳；但有效部位集中在大腿後側與股四頭肌，踝背屈無改善。"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u2",
+      "name": "核心與軀幹放鬆",
+      "evidence_grade": "limited",
+      "summary": "這一單元裡真正被試驗過的只有「呼吸重整」那一半，「鬆腰方肌／髂腰肌」那一半幾乎沒有直接的臨床試驗證據。呼吸介入對慢性下背痛的多篇 SR/MA 都指向正向：VAS 疼痛 MD -0.50 到 SMD -0.87、ODI 失能 SMD -0.74 到 -0.79。但這些數字要打折看——2025 年 Clin Rehabil 的 SR/MA（20 篇、814 人）明講緩慢深呼吸對疼痛雖有 SMD -1.03，證據確定性只有「低」，失能更只有「非常低」。整體樣本小、盲化不足、異質性高（I² 常在 70% 以上），而且沒有任何一篇證明效果來自「放鬆了某條特定肌肉」。",
+      "mechanism": "被廣泛引用的機轉有兩條，確定性都不高。其一是膈肌／腹橫肌的姿勢性活動與腹內壓調節，實驗室研究確實顯示膈肌在肢體快速動作時會產生張力性活動並抬升腹內壓，且呼吸需求升高時這種姿勢性輸出會被壓抑——這說明呼吸與軀幹控制共用同一批肌肉，但沒有證明「教人換一種呼吸」就能修好下背痛。其二是自律神經與痛覺調控：慢而深的呼吸降低交感張力、提高疼痛耐受度，這比較可能是臨床改善的主要來源，也就是說效果偏「全身性放鬆」而非「局部鬆開」。至於腰方肌與髂腰肌，人體上根本沒有能驗證「滾一滾就變鬆」的可靠測量方法。",
+      "performance_effect": "本單元不以表現為目標，也沒有針對表現的試驗。現有資料的終點是疼痛與失能，不是深蹲重量或衝刺速度。若期待做完軀幹放鬆會馬上舉更重，證據不支持。",
+      "hypertrophy_strength": "不適用。放鬆與呼吸練習不提供肌肥大或肌力所需的機械張力刺激；相關 MA 也沒有把肌力當成主要終點。呼吸訓練若做到阻力式（respiratory resistive breathing）程度，練到的是呼吸肌，不是腹壁或背伸肌群。",
+      "injury_link": "只有「慢性下背痛患者做了會比較不痛」這個層級的證據，且效果與一般運動介入相比並未顯示優勢。沒有任何前瞻研究支持「軀幹緊繃 → 未來下背受傷」的因果鏈，也沒有研究顯示定期做腰方肌／髂腰肌放鬆可以降低下背痛發生率。",
+      "assessment_validity": "本單元不涉及標準化檢測。臨床上常用的「觸診腰方肌壓痛點」「髂腰肌長度測試（改良 Thomas test）」評分者間信度普遍偏低，超音波量測筋膜厚度與臨床檢查之間的關聯也只是探索性結果，不足以拿來當訓練決策依據。",
+      "red_flags": [
+        "下背痛合併大小便失禁、鞍區（會陰部）麻木——疑似馬尾症候群，須立即急診",
+        "夜間痛醒、休息不緩解，且合併不明原因體重下降或發燒",
+        "疼痛沿單側下肢放射至膝以下並伴隨腳踝或大腳趾無力",
+        "有骨質疏鬆或長期類固醇病史者，在輕微外力後突然出現的劇烈背痛"
+      ],
+      "caveats": "課程必須承認兩件事。第一，「腰方肌／髂腰肌太緊所以要放鬆」在本課程裡是經驗法則與解剖推論，不是被 RCT 驗證過的療法；PubMed 上找不到針對這兩條肌肉自我放鬆的臨床試驗。第二，呼吸介入雖有多篇正向 MA，但納入研究品質普遍偏低、缺乏盲化、樣本多在數十人量級，且無法排除安慰劑與注意力效應——GRADE 確定性被評為低到非常低。把這一節定位成「便宜、安全、可能有幫助的自我調節工具」是誠實的；定位成「治好你的下背痛」就是誇大。",
+      "citations": [
+        {
+          "pmid": "41099211",
+          "title": "Breathing interventions for spinal pain: A systematic review and meta-analysis.",
+          "journal": "Clin Rehabil",
+          "year": 2025,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41099211/",
+          "takeaway": "20 篇、814 人：緩慢深呼吸加在其他治療之上對脊椎疼痛 SMD -1.03（證據確定性低）、失能 SMD -1.34（非常低）；阻力式呼吸相對其他介入疼痛 SMD -1.31（低）。"
+        },
+        {
+          "pmid": "37827444",
+          "title": "Effects of breathing exercises on low back pain in clinical: A systematic review and meta-analysis.",
+          "journal": "Complement Ther Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37827444/",
+          "takeaway": "11 篇 RCT、383 人：呼吸練習降低 VAS 疼痛 MD -0.50（95% CI -0.88 至 -0.11，I²=76%）、ODI 失能 MD -2.46；作者自陳納入研究缺乏盲化、方法學嚴謹度不足。"
+        },
+        {
+          "pmid": "37718775",
+          "title": "Effects of breathing exercises on chronic low back pain: A systematic review and meta-analysis of randomized controlled trials.",
+          "journal": "J Back Musculoskelet Rehabil",
+          "year": 2024,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37718775/",
+          "takeaway": "13 篇 RCT、677 人：VAS SMD -0.84（95% CI -1.24 至 -0.45）、ODI SMD -0.74，並改善 FVC；但 FEV1 與最大自主換氣量無顯著差異。"
+        },
+        {
+          "pmid": "38377983",
+          "title": "The Efficiency of Respiratory Exercises in Rehabilitation of Low Back Pain: A Systematic Review and Meta-Analysis.",
+          "journal": "J Sport Rehabil",
+          "year": 2024,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38377983/",
+          "takeaway": "14 篇、698 人：呼吸運動緩解下背痛 SMD -0.87、改善失能 SMD -0.79；劑量分析顯示每週 3–5 次、持續 4 週以上、總時數超過 500 分鐘效果最佳。"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u3",
+      "name": "下肢與足底放鬆",
+      "evidence_grade": "contested",
+      "summary": "滾筒與球放鬆是本課程裡「有效果、但效果不是你以為的那個」最典型的例子。它確實能增加活動度：11 篇研究、290 人的 SR/MA 給出 ES 0.823。問題是 2024 年 J Sport Health Sci 一篇納入 38 篇研究、1134 人、140 個效果量的 MA 直接比較「滾筒／伸展」與「任何其他熱身活動」，結果活動度差異 ES 0.01（p=0.88）、僵硬度 ES 0.09、被動峰值力矩 ES -0.30，全部不顯著——也就是說，只要能讓肌肉升溫的活動都做得到同樣的事。表現方面，滾筒前滾對衝刺只有 +0.7%（g=0.28）、跳躍 -1.9%（g=0.09）、肌力 +1.8%（g=0.12）；滾後最明顯的是主觀痠痛下降 +6.0%（g=0.47）。這是「有數據但被高估」的類別。",
+      "mechanism": "早期的「鬆開筋膜沾黏／重塑膠原排列」說法缺乏人體證據，施加的壓力遠不足以造成結締組織的塑性變形。目前較被接受的解釋是神經生理性的：局部壓力與滾動改變痛覺閾值與伸展耐受度，加上肌肉溫度上升與血流增加，因此活動度改善多在數分鐘到數十分鐘內消退。這也解釋了為什麼「任何會讓肌肉變熱的活動」效果差不多。足底部分則另有一層：足底筋膜的張力與小腿三頭肌相連，但把「滾一顆球」等同於治療足底筋膜炎並無 RCT 支持——真正被 RCT 驗證有較快改善的是高負荷的漸進式肌力訓練。",
+      "performance_effect": "小到可忽略。訓練前滾筒對衝刺 +0.7%（g=0.28）、對跳躍與最大肌力接近零效果；訓練後滾筒可小幅減輕表現下滑（衝刺 +3.1%、肌力 +3.9%，g 約 0.21–0.34）並降低痠痛感受（g=0.47）。好消息是它至少「不會傷害表現」——這是它相對靜態伸展的主要優勢，而不是它有多強的增益。",
+      "hypertrophy_strength": "不適用。滾筒放鬆不會造成肌肥大或肌力增長，現有 MA 中肌力只被當成「有沒有被削弱」的安全性指標。真正要改善足底疼痛與小腿功能，證據支持的是負重的提踵漸進訓練而非放鬆。",
+      "injury_link": "沒有證據支持滾筒或球放鬆能預防下肢傷害。所有正向結果都落在「活動度」與「主觀痠痛」這兩個替代指標上，沒有任何 RCT 以傷害發生率為終點且得到正向結果。以足底筋膜炎為例，12 個月追蹤的 RCT 顯示高負荷肌力訓練組在 3 個月時足功能指數（FFI）比伸展組低 29 分（95% CI 6–52），但 6、12 個月時兩組已無差異——連公認有效的介入，長期效果都會收斂。",
+      "assessment_validity": "本單元不涉及標準化檢測。坐姿體前彎、抬腿角度等自測受伸展耐受度與當日狀態影響極大，測到的變化主要是「你願意被拉多遠」，不是組織長度改變，不能拿來推論肌肉「鬆開」了。",
+      "red_flags": [
+        "小腿單側出現紅、熱、腫脹合併壓痛——需排除深層靜脈栓塞，不可繼續按壓",
+        "足跟痛在晨起第一步最劇烈且持續超過六週，經自我處理無改善",
+        "放鬆部位出現持續數日不退的麻木、感覺異常或皮膚變色",
+        "近期外傷後的局部劇痛與無法承重，勿以滾筒處理"
+      ],
+      "caveats": "課程必須說清楚：滾筒不是「必要」的。2024 年的 MA 顯示它在急性活動度與僵硬度上並不優於任何其他熱身方式，所以它的價值是「你喜歡、你會做、而且不會削弱表現」，不是「不做就練不好」。另外「筋膜沾黏被滾開」「排毒」「消除乳酸」這類說法沒有人體證據，效果幾乎確定是神經性與溫度性的短期變化。最後，滾筒與痠痛的關係主要是「感覺比較不痠」，肌肉損傷指標並未同步改善——主觀感受改善本身有價值，但不等於恢復更快。",
+      "citations": [
+        {
+          "pmid": "38244921",
+          "title": "Foam rolling and stretching do not provide superior acute flexibility and stiffness improvements compared to any other warm-up intervention: A systematic review with meta-analysis.",
+          "journal": "J Sport Health Sci",
+          "year": 2024,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38244921/",
+          "takeaway": "38 篇、1134 人、140 個效果量：滾筒／伸展相對其他熱身活動在活動度（ES 0.01）、僵硬度（ES 0.09）、被動峰值力矩（ES -0.30）皆無顯著差異，作者直言這挑戰了把滾筒列為必要熱身的既有觀點。"
+        },
+        {
+          "pmid": "35616852",
+          "title": "Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35616852/",
+          "takeaway": "滾筒訓練提升活動度 ES 0.823（I²=72.8%），介入超過 4 週優於 4 週以內；但只有大腿後側與股四頭肌顯著改善，踝背屈無效。"
+        },
+        {
+          "pmid": "31024339",
+          "title": "A Meta-Analysis of the Effects of Foam Rolling on Performance and Recovery.",
+          "journal": "Front Physiol",
+          "year": 2019,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31024339/",
+          "takeaway": "21 篇研究：訓練前滾筒對衝刺 +0.7%（g=0.28）、柔軟度 +4.0%（g=0.34），跳躍與肌力效果可忽略；訓練後滾筒減輕肌肉疼痛感受 +6.0%（g=0.47）。"
+        },
+        {
+          "pmid": "26618062",
+          "title": "THE EFFECTS OF SELF-MYOFASCIAL RELEASE USING A FOAM ROLL OR ROLLER MASSAGER ON JOINT RANGE OF MOTION, MUSCLE RECOVERY, AND PERFORMANCE: A SYSTEMATIC REVIEW.",
+          "journal": "Int J Sports Phys Ther",
+          "year": 2015,
+          "design": "systematic-review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26618062/",
+          "takeaway": "14 篇研究：自我筋膜放鬆能短期增加關節活動度且不損害肌肉表現——關鍵字是「短期」與「不損害」，而非提升表現。"
+        },
+        {
+          "pmid": "25145882",
+          "title": "High-load strength training improves outcome in patients with plantar fasciitis: A randomized controlled trial with 12-month follow-up.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2015,
+          "design": "rct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25145882/",
+          "takeaway": "48 人 RCT：足底筋膜炎採高負荷提踵訓練組在 3 個月時 FFI 比伸展組低 29 分（95% CI 6–52），但 6 與 12 個月時兩組無差異——足底問題該練肌力而非只做放鬆，且長期差距會收斂。"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u1",
+      "name": "核心肌群與腹內壓",
+      "evidence_grade": "contested",
+      "summary": "這一單元裡有兩個等級完全不同的主張，必須分開看。「腹內壓提升會增加腰椎剛性」是機轉層級的可靠發現：以電刺激膈神經單獨拉高腹內壓（不伴隨腹肌與背伸肌活動）時，腰椎剛性上升 8–31%，且上升幅度與腹內壓正相關；物理模型也顯示腹內壓機制能在不增加豎脊肌共同收縮的情況下提高脊椎臨界負荷。但「訓練腹橫肌選擇性啟動可以治好下背痛」則被近十年高品質證據大幅削弱：2016 年 Cochrane（29 篇 RCT、2431 人）明確結論——動作控制訓練相對其他運動形式沒有臨床上重要的差異，只有相對「幾乎不做事」的對照才有中等效果（長期疼痛 MD -12.97，95% CI -18.51 至 -7.42）。這是本課程裡最需要修正健身房常識的一節。",
+      "mechanism": "腹內壓透過兩條路徑增加軀幹剛性：一是液壓效應直接支撐脊柱前方，二是腹壁與膈肌共同收縮形成張力，把軀幹變成一個受壓的圓柱體。這部分有直接的人體實驗支持，屬於機轉中確定性較高的一類。真正站不住的是「腹橫肌可以被獨立、選擇性地徵召」這個前提：MRI 研究顯示做腹壁內收（drawing-in）時，腹橫肌與腹內斜肌是「一起」增厚（兩者 P<0.001），軀幹橫截面積同步縮小，並非只有腹橫肌被啟動。換句話說，你教的其實是一個腹壁協同動作，不是一條肌肉的開關。",
+      "performance_effect": "腹內壓與呼吸閉氣（bracing／Valsalva）在大重量動作下確實提升軀幹剛性，這對維持姿勢與傳遞力量有直接幫助。但「先學會啟動腹橫肌再去深蹲會舉更重」沒有證據支持。核心訓練對表現的效果請見 ch5-u3、ch5-u4；本單元的機轉本身並未被證明能單獨改善任何表現指標。",
+      "hypertrophy_strength": "低強度的腹橫肌啟動練習不足以造成肌肥大或肌力增長；動作控制訓練的 SR/MA 顯示它對軀幹肌形態（多裂肌、腹橫肌橫截面積）的改變也相當有限。要讓腹壁與背伸肌真正變強，靠的是漸進負荷的軀幹訓練與大重量複合動作，不是躺著吸肚子。",
+      "injury_link": "因果方向要講清楚。橫斷面研究常見「下背痛者腹橫肌啟動延遲」，但這比較可能是疼痛造成的結果而非原因，且介入研究顯示：即使動作控制訓練改善了疼痛，改善幅度也與「啟動時序是否被修正」無關。40 篇 RCT、2391 人的 MA 顯示軀幹導向運動相對一般運動對疼痛與失能只有小效果（兩者 SMD 皆 0.20，95% CI 0.03–0.37 與 0.02–0.38）——有差，但小到臨床上難以感受。沒有證據支持「核心不穩定 → 未來會下背痛」的預測關係。",
+      "assessment_validity": "本課程不使用腹橫肌啟動檢測。臨床上以壓力生物回饋帶或即時超音波量測腹橫肌厚度變化雖有一定的再測信度，但「厚度變化量」與疼痛、失能、預後之間缺乏可靠關聯，也無法區分腹橫肌與腹內斜肌的貢獻，因此不適合作為一般訓練者的評估或進階依據。",
+      "red_flags": [
+        "腹內壓訓練或閉氣後出現頭暈、眼前發黑、意識短暫喪失——立即停止並就醫評估心血管狀況",
+        "腹部（尤其鼠蹊、肚臍周圍）出現用力時突起的腫塊或撕裂樣疼痛，疑似疝氣",
+        "下背痛合併大小便失禁或會陰麻木，須立即急診排除馬尾症候群",
+        "已知未控制高血壓、視網膜病變、動脈瘤或近期腹部手術者，在開始任何憋氣加壓訓練前應先徵詢醫師"
+      ],
+      "caveats": "這是本課程最需要自我修正的一節。健身房裡流傳的「先啟動腹橫肌、再做動作」源自 1990 年代末的核心穩定學派，但後續高品質證據並不支持它的兩個核心假設：腹橫肌無法被選擇性啟動（MRI 顯示它與腹內斜肌同時增厚），而動作控制訓練也不優於其他任何形式的運動（Cochrane，2431 人，證據品質低到高）。Cochrane 作者的建議是：既然 MCE 不比其他運動好，選什麼運動應該取決於患者偏好、治療師訓練背景、成本與安全性。因此本課程把腹內壓當成「大重量動作下的力學工具」來教是合理的，但若把「選擇性啟動」包裝成必修的先修技能或疼痛解方，就違背現有證據。同時要注意腹內壓機轉本身的證據來自 3 位受試者的電刺激實驗與物理模型——機轉可信，但外推到具體訓練處方時仍屬推論。",
+      "citations": [
+        {
+          "pmid": "16023475",
+          "title": "Intra-abdominal pressure increases stiffness of the lumbar spine.",
+          "journal": "J Biomech",
+          "year": 2005,
+          "design": "biomechanics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16023475/",
+          "takeaway": "以電刺激膈神經單獨拉高腹內壓（不伴隨腹肌與背伸肌活動），腹內壓上升 27–61% 最大自主值，腰椎剛性隨之上升 8–31%，且兩者正相關；但受試者僅 3 人。"
+        },
+        {
+          "pmid": "10050947",
+          "title": "Intra-abdominal pressure mechanism for stabilizing the lumbar spine.",
+          "journal": "J Biomech",
+          "year": 1999,
+          "design": "biomechanics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10050947/",
+          "takeaway": "物理模型顯示腹內壓機制可在不增加豎脊肌共同收縮的情況下提高脊椎臨界負荷，理論計算與實驗結果吻合度 95.5%；在需要軀幹伸展力矩的動作（如硬舉、跳躍）中特別有利。"
+        },
+        {
+          "pmid": "16540858",
+          "title": "An MRI investigation into the function of the transversus abdominis muscle during \"drawing-in\" of the abdominal wall.",
+          "journal": "Spine (Phila Pa 1976)",
+          "year": 2006,
+          "design": "cross-sectional",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16540858/",
+          "takeaway": "13 名健康菁英運動員 MRI：腹壁內收時腹橫肌與腹內斜肌「同時」顯著增厚（皆 P<0.001）、軀幹橫截面積下降——直接挑戰「腹橫肌可被選擇性單獨啟動」的假設。"
+        },
+        {
+          "pmid": "26742533",
+          "title": "Motor control exercise for chronic non-specific low-back pain.",
+          "journal": "Cochrane Database Syst Rev",
+          "year": 2016,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26742533/",
+          "takeaway": "29 篇 RCT、2431 人：動作控制訓練相對其他運動形式在所有追蹤點與終點都沒有臨床上重要的差異；相對「最小介入」才有中等效果（長期疼痛 MD -12.97，95% CI -18.51 至 -7.42）。作者建議選運動應依患者偏好與成本而非療法標籤。"
+        },
+        {
+          "pmid": "27849389",
+          "title": "Core Stability Exercise Versus General Exercise for Chronic Low Back Pain.",
+          "journal": "J Athl Train",
+          "year": 2017,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27849389/",
+          "takeaway": "對 5 篇 RCT、414 人之 MA 的評述：核心穩定訓練相對一般運動的優勢僅見於短期，且所有納入研究都被評為高偏誤風險。"
+        },
+        {
+          "pmid": "36645193",
+          "title": "Effect of Trunk-Focused Exercises on Pain, Disability, Quality of Life, and Trunk Physical Fitness in Low Back Pain and How Potential Effect Modifiers Modulate Their Effects: A Systematic Review With Meta-analyses.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36645193/",
+          "takeaway": "40 篇 RCT、2391 人：軀幹導向運動相對無治療對照效果大（SMD 0.90–2.46），但相對一般運動只剩小效果（疼痛與失能皆 SMD 0.20）；活動度改善幅度與疼痛下降相關（β=0.56）。"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u2",
+      "name": "呼吸模式與核心穩定",
+      "evidence_grade": "limited",
+      "summary": "「呼吸與軀幹穩定共用同一組肌肉」這件事有紮實的生理實驗支持：膈肌在肢體快速動作時會轉為張力性活動並與腹橫肌共同抬升腹內壓；而當呼吸需求升高（高碳酸血症）時，膈肌與腹橫肌的姿勢性輸出會被明顯壓抑，腹內壓振幅下降。但從這裡跳到「練呼吸就能改善核心穩定與運動表現」則證據薄弱。呼吸肌訓練對耐力表現有效（多為 +12% 到 +18% 的耐力測驗改善，且體能較差者獲益較大），但那是呼吸肌本身變強的結果，不是核心穩定變好。至於健身房最實用的 Valsalva，2013 年的回顧確認它能有效提高腹內壓、協助軀幹剛性，但同時提高血壓，健康風險「仍未被證實也未被排除」。",
+      "mechanism": "膈肌同時扮演呼吸泵與軀幹壓力艙頂蓋兩個角色。人體實驗顯示：重複快速擺臂時膈肌與腹橫肌呈張力性活動並疊加呼吸與擺臂兩個頻率的相位調變，腹內壓上升幅度與動作反作用力成正比；反過來，當呼吸驅動增強 60 秒後，膈肌與腹橫肌的姿勢性活動與腹內壓振幅顯著下降，但豎脊肌不變——顯示壓抑發生在運動神經元之前的中樞層級。這給了「喘到不行時軀幹控制會變差」一個生理解釋，但沒有證明「刻意改變呼吸模式」能反向提升穩定度。Valsalva 則是刻意把這個機制推到極限：關閉聲門加壓，腹內壓與胸內壓同時飆升，代價是靜脈回流受阻與血壓劇烈波動。",
+      "performance_effect": "呼吸肌訓練（RMT）對健康人的耐力表現有中等效果，8 篇對照試驗的 MA 顯示定負荷測驗改善約 +16%（95% CI 10.2–22.9%）、間歇遞增測驗約 +18.5%（95% CI 10.8–26.3%），測驗時間越長改善越大，體能較差者獲益較多；但傳統遞增測驗偵測不到差異，代表效果對測驗方式敏感。對肌力、爆發力或核心穩定的直接表現效果沒有可靠資料。Valsalva 對單次大重量的支撐是力學上合理的，但缺乏以最大肌力為終點的隨機比較。",
+      "hypertrophy_strength": "不適用於肌肥大。呼吸訓練練到的是吸氣／吐氣肌群，不會使腹壁或背伸肌群增大。Valsalva 與腹壓帶（bracing）可能讓你在同一次訓練中舉起更多重量，間接提供更高的訓練刺激，但這是「工具效應」而非呼吸本身造成的肌力適應，且沒有長期研究驗證這條間接路徑。",
+      "injury_link": "沒有證據支持「呼吸模式錯誤 → 受傷」。實驗資料只能說明呼吸需求高時軀幹的姿勢性控制會被削弱，這是狀態性現象，不是個人特質。Valsalva 的風險則是心血管而非骨科的：血壓在大重量動作中可急遽上升，回顧作者的結論是相關健康風險「尚未被確認」，因此對高血壓、心血管疾病、視網膜病變或孕期族群應個別評估，而非一律鼓勵或一律禁止。",
+      "assessment_validity": "本單元不涉及標準化檢測。健身房常見的「呼吸評估」（如手放肋骨看擴張方向、仰臥腹式呼吸評分）沒有建立評分者間信度與預測效度，也無法辨識誰真的需要介入。最大吸氣壓（MIP）雖是有效的呼吸肌力指標，但屬臨床測量，與核心穩定沒有已驗證的關聯。",
+      "red_flags": [
+        "用力憋氣時出現頭暈、視野變暗、耳鳴或短暫失去意識，須立即停止並就醫",
+        "訓練中出現胸悶、胸痛或不規則心跳",
+        "已診斷未控制的高血壓、動脈瘤、青光眼或視網膜病變者，在使用 Valsalva 前應先諮詢醫師",
+        "訓練後持續數小時的劇烈頭痛，需排除用力相關的血管事件"
+      ],
+      "caveats": "課程必須避免兩種誇大。第一，「呼吸模式重建」在商業課程中常被講成核心訓練的地基，但實際證據只到「呼吸與姿勢控制共用資源」這個生理層級；沒有 RCT 證明教健康人換呼吸方式能提升核心穩定或表現。第二，呼吸肌訓練的表現效益是真的，但它屬於耐力領域，而且效果會被測驗方式左右——這跟本課程的肌力目標關係不大，不應該混為一談。至於 Valsalva，誠實的說法是：它有效，但安全性從未被前瞻研究確認，所以本課程把它限制在大重量、短時間、且無心血管禁忌的情境，而不是每一組都憋。",
+      "citations": [
+        {
+          "pmid": "10956340",
+          "title": "Changes in intra-abdominal pressure during postural and respiratory activation of the human diaphragm.",
+          "journal": "J Appl Physiol (1985)",
+          "year": 2000,
+          "design": "emg-study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10956340/",
+          "takeaway": "膈肌與腹橫肌在重複擺臂時共同收縮，造成腹內壓持續上升且與動作反作用力成正比；呼吸則由膈肌與腹肌的相對活動改變腹腔形狀來完成——證明壓力生成與呼吸可以並存。"
+        },
+        {
+          "pmid": "11744772",
+          "title": "Postural activity of the diaphragm is reduced in humans when respiratory demand increases.",
+          "journal": "J Physiol",
+          "year": 2001,
+          "design": "emg-study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11744772/",
+          "takeaway": "13 名健康受試者：高碳酸血症 60 秒後，膈肌與腹橫肌的姿勢性活動與腹內壓振幅顯著下降，豎脊肌不變——呼吸需求提高時軀幹的深層姿勢控制會被中樞層級壓抑。"
+        },
+        {
+          "pmid": "23222073",
+          "title": "The Valsalva maneuver: its effect on intra-abdominal pressure and safety issues during resistance exercise.",
+          "journal": "J Strength Cond Res",
+          "year": 2013,
+          "design": "narrative-review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23222073/",
+          "takeaway": "回顧結論：Valsalva 確實提高腹內壓、有助軀幹剛性，且在超過 80% 1RM 或做到力竭時幾乎無法避免；同時會升高血壓，但相關健康風險「仍未被確認」。"
+        },
+        {
+          "pmid": "22765281",
+          "title": "Effect of respiratory muscle training on exercise performance in healthy individuals: a systematic review and meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2012,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22765281/",
+          "takeaway": "8 篇對照試驗：呼吸肌訓練改善耐力表現（定負荷測驗 +16%、間歇遞增測驗 +18.5%），體能較差者與長時間項目獲益較大；傳統遞增測驗則偵測不到差異。"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u3",
+      "name": "初階核心訓練",
+      "evidence_grade": "moderate",
+      "summary": "核心訓練有效，但要看你問的是哪個終點。對「核心本身」的能力（平衡、軀幹耐力）效果最大：22 篇研究的 SR/MA 顯示平衡 ES 1.17（p<0.0001）、垂直跳 ES 0.69、水平跳 ES 0.84。對「專項運動表現」效果就小很多：另一篇針對運動員的 MA 直接結論是核心訓練對爆發力與速度幾乎無效、敏捷性只有中等效果量且未達統計顯著。對下背痛，軀幹導向運動相對無治療效果大，但相對一般運動只剩 SMD 0.20 的小差異；217 篇 RCT、20969 人的網絡 MA 也顯示多數運動型態都優於最小介入，彼此之間差距有限。誠實的定位是：核心訓練值得做，但它是拼圖的一塊，不是槓桿。",
+      "mechanism": "初階核心訓練（棒式、死蟲、鳥狗、側橋等）的機轉是提高軀幹肌群的等長耐力與抗位移能力，讓四肢施力時脊柱位移較小。這部分在肌電與生物力學層面站得住腳。要注意的是，訓練效果多半是「特異性」的——你練的是被訓練的那個姿勢下的耐力，跨到深蹲、硬舉或專項動作的轉移並非自動發生，這正是專項表現效果偏小的原因。",
+      "performance_effect": "平衡 ES 1.17、垂直跳 ES 0.69（p=0.0003）、水平跳 ES 0.84（p=0.01）、投擲／擊球距離 ES 3.42（p=0.03，但效果量異常大且不穩定）；投擲／擊球速度 ES 0.30 未達顯著（p=0.14）。針對運動員的另一篇 MA 更保守：核心訓練對核心耐力與平衡效果大，對專項表現效果小。整體而言，越接近「軀幹本身」的指標效果越大，越接近「比賽表現」的指標效果越小。",
+      "hypertrophy_strength": "初階核心動作多為低負荷等長維持，對腹壁的肌肥大刺激有限，也不會顯著提升最大肌力。若目標是讓腹肌變大變強，需要的是可漸進加重的抗屈曲／抗側屈動作（見 ch5-u4）與整體大重量訓練，而不是把棒式撐更久。",
+      "injury_link": "對「已經在痛的人」有幫助，對「還沒痛的人」則沒有預防證據。40 篇 RCT 的 MA 顯示軀幹導向運動相對一般運動只有小幅優勢（疼痛與失能 SMD 皆 0.20）；217 篇 RCT 的網絡 MA 顯示 Pilates、McKenzie、功能性復原相對最小介入的疼痛改善約 -15 到 -19 分（0–100 標準化），但作者同時強調「應鼓勵患者做他喜歡且能持續的運動」——依從性可能比動作選擇更重要。沒有前瞻研究證明核心弱會導致未來下背痛。",
+      "assessment_validity": "本課程使用的棒式／側橋維持時間屬於耐力表現測試，再測信度尚可，但缺乏預測效度：撐得久不代表比較不會痛或表現比較好，切點（例如「男性應撐滿 2 分鐘」）在文獻上並無支持。可作為個人前後對照的進步指標，不可當成篩檢工具。",
+      "red_flags": [
+        "核心訓練中或訓練後出現沿下肢放射至膝以下的疼痛、麻木或無力",
+        "動作中腹部中線出現明顯凸起的縱向隆起（腹直肌分離加劇）或鼠蹊部撕裂樣疼痛",
+        "下背痛合併大小便功能改變或會陰麻木，須立即就醫",
+        "同一部位疼痛在調降強度後仍持續超過兩週且逐週惡化"
+      ],
+      "caveats": "課程要承認三件事。第一，核心訓練的效果高度集中在「被訓練的能力」上——平衡與軀幹耐力進步幅度大，但轉移到專項表現的效果小到接近零，把棒式練好不會讓你變成更好的球員。第二，對下背痛，核心訓練並不優於其他形式的運動，選擇它的理由是門檻低、器材少、好上手，不是它更有效。第三，投擲距離 ES 3.42 這種極端效果量來自少數小型研究，不應被當成典型結果引用——本課程列出它只是為了說明這類文獻的異質性有多大。",
+      "citations": [
+        {
+          "pmid": "37867742",
+          "title": "Core training and performance: a systematic review with meta-analysis.",
+          "journal": "Biol Sport",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37867742/",
+          "takeaway": "22 篇研究、21 篇進入 MA：核心訓練改善平衡 ES 1.17、垂直跳 ES 0.69、水平跳 ES 0.84、投擲距離 ES 3.42；投擲／擊球速度 ES 0.30 未達顯著。"
+        },
+        {
+          "pmid": "36829378",
+          "title": "Effects of Core Training on Sport-Specific Performance of Athletes: A Meta-Analysis of Randomized Controlled Trials.",
+          "journal": "Behav Sci (Basel)",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36829378/",
+          "takeaway": "RCT 之 MA：核心訓練對運動員的核心耐力與平衡效果大，對爆發力與速度幾乎無效、敏捷性僅中等效果量且未顯著——對專項表現的轉移有限。"
+        },
+        {
+          "pmid": "26742533",
+          "title": "Motor control exercise for chronic non-specific low-back pain.",
+          "journal": "Cochrane Database Syst Rev",
+          "year": 2016,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26742533/",
+          "takeaway": "29 篇 RCT、2431 人：核心／動作控制訓練不優於其他運動形式；相對最小介入有中等效果（長期疼痛 MD -12.97）。選擇運動應取決於偏好、成本與安全性。"
+        },
+        {
+          "pmid": "36645193",
+          "title": "Effect of Trunk-Focused Exercises on Pain, Disability, Quality of Life, and Trunk Physical Fitness in Low Back Pain and How Potential Effect Modifiers Modulate Their Effects: A Systematic Review With Meta-analyses.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36645193/",
+          "takeaway": "40 篇 RCT、2391 人：軀幹導向運動相對一般運動在疼痛與失能各只有 SMD 0.20 的小效果；相對無治療對照則效果大（SMD 0.90–2.46）。"
+        },
+        {
+          "pmid": "34538747",
+          "title": "Some types of exercise are more effective than others in people with chronic low back pain: a network meta-analysis.",
+          "journal": "J Physiother",
+          "year": 2021,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34538747/",
+          "takeaway": "217 篇 RCT、20969 人的網絡 MA：多數運動型態都優於最小介入，Pilates／McKenzie／功能性復原相對最小介入疼痛改善 -15 至 -19 分、失能 -10 至 -12 分（0–100 標準化）；作者仍強調依從性優先。"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u4",
+      "name": "進階核心與抗旋轉訓練",
+      "evidence_grade": "limited",
+      "summary": "抗旋轉與負重行走在生物力學上有明確的邏輯，但臨床與表現層級的直接證據非常少。目前最紮實的一篇是 2009 年對七種大力士項目的軀幹肌電與腰椎負荷分析：農夫走路、單邊行李箱走路、軛鈴行走等「攜行類」項目，其軀幹需求與「舉起類」項目本質不同；單邊負重時髖外展力矩超過髖部本身的肌力上限，靠腰方肌等軀幹肌產生額外的額狀面力矩來補位——這正是抗側屈／抗旋轉訓練的力學依據。但要注意兩件事：該研究樣本極小且為描述性，並非療效試驗；而且它同時發現軛鈴行走造成的脊椎負荷是所有項目中最高的，攜行動作並不天生「安全」。至於這類訓練是否轉移到專項表現，現有核心訓練 MA 的答案是效果小。",
+      "mechanism": "抗旋轉（如 Pallof press）與單邊負重（如行李箱走路）不是讓軀幹產生動作，而是要求軀幹「抵抗」外加力矩，因此腹斜肌、腹橫肌、腰方肌與豎脊肌以等長方式共同收縮，把軀幹變成剛性連桿，讓力量能從下肢傳到上肢、也讓力量不足的關節（如髖外展）獲得支撐。這個「軀幹作為力量支點」的解釋有肌電與力學模型支持，但屬於機制描述，不是療效證據。",
+      "performance_effect": "沒有針對抗旋轉或負重行走本身的表現試驗。可引用的最接近資料是核心訓練的整體 MA：平衡 ES 1.17、垂直跳 ES 0.69、水平跳 ES 0.84，而專項表現（爆發力、速度）效果幾乎為零。攜行動作被推測能補強傳統以「舉」為主的課表所欠缺的能力，但這是原作者的建議而非試驗結果。",
+      "hypertrophy_strength": "這類動作可以持續加重（加重量、加距離、加不對稱程度），因此比初階等長棒式更能提供漸進負荷，理論上有較好的肌力與肌肥大潛力。但目前沒有針對抗旋轉或負重行走的肌肥大／肌力隨機試驗，這個推論仍屬合理外推而非已驗證的結論。",
+      "injury_link": "沒有證據支持抗旋轉訓練可以預防下背或軀幹傷害。反而要注意風險面：大力士項目分析顯示，重量大、軀幹共同收縮強烈的攜行動作（軛鈴行走）產生的脊椎壓力負荷最高，而抱石舉起因姿勢受限無法維持中立脊椎，背部在弱勢姿勢下承受高負荷。負重行走不是「低風險的核心訓練」，而是「高負荷的全身訓練」，強度必須循序漸進。",
+      "assessment_validity": "本單元不涉及標準化檢測。負重行走的距離／重量與抗旋轉的維持時間可作為個人進步的追蹤，但沒有常模、切點或預測效度資料，不能拿來判斷「軀幹穩不穩定」。",
+      "red_flags": [
+        "負重行走中出現腰部突發的銳痛或彈響，並在放下重量後仍持續",
+        "單邊負重後出現持續數日的單側腰部或臀部深層疼痛並向下肢放射",
+        "手部或前臂在攜行後出現持續麻木、無力（需排除神經壓迫）",
+        "訓練後出現無法用肌肉痠痛解釋的血尿、深色尿或肌肉極度腫脹疼痛，須立即就醫排除橫紋肌溶解"
+      ],
+      "caveats": "這一節在健身教學裡常被講得比證據所能支持的更確定。真相是：抗旋轉與負重行走的價值主要建立在肌電與力學模型上，沒有 RCT 證明它們比其他核心訓練更能改善表現或減少疼痛，也沒有研究支持「先練抗旋轉再去做大重量」的順序。同時，被拿來當作理論依據的大力士研究只是描述性分析、樣本極小、且對象是受過訓練的壯漢，直接外推到一般訓練者要非常保守。本課程教這些動作的理由是「它們允許漸進負荷、貼近日常搬提情境、且能同時訓練握力與全身協同」——這些是合理的實務判斷，不是被驗證過的療效。",
+      "citations": [
+        {
+          "pmid": "19528856",
+          "title": "Comparison of different strongman events: trunk muscle activation and lumbar spine motion, load, and stiffness.",
+          "journal": "J Strength Cond Res",
+          "year": 2009,
+          "design": "biomechanics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19528856/",
+          "takeaway": "農夫走路、軛鈴、行李箱走路等攜行項目與舉起項目的軀幹需求本質不同；單邊負重時髖外展力矩超過髖部肌力上限，由腰方肌等軀幹肌代償；軛鈴行走的脊椎負荷在所有項目中最高。"
+        },
+        {
+          "pmid": "37867742",
+          "title": "Core training and performance: a systematic review with meta-analysis.",
+          "journal": "Biol Sport",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37867742/",
+          "takeaway": "核心訓練改善平衡 ES 1.17、垂直跳 ES 0.69、水平跳 ES 0.84，但投擲／擊球速度 ES 僅 0.30 且未達顯著——對「旋轉爆發力」的轉移遠比宣稱的弱。"
+        },
+        {
+          "pmid": "36829378",
+          "title": "Effects of Core Training on Sport-Specific Performance of Athletes: A Meta-Analysis of Randomized Controlled Trials.",
+          "journal": "Behav Sci (Basel)",
+          "year": 2023,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36829378/",
+          "takeaway": "核心訓練對運動員的爆發力與速度幾乎無效果，作者結論是「需要設計更精緻的核心訓練課表才可能改善專項表現」——現行處方的轉移效果不足。"
+        },
+        {
+          "pmid": "23222073",
+          "title": "The Valsalva maneuver: its effect on intra-abdominal pressure and safety issues during resistance exercise.",
+          "journal": "J Strength Cond Res",
+          "year": 2013,
+          "design": "narrative-review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23222073/",
+          "takeaway": "超過 80% 1RM 或做到力竭時 Valsalva 幾乎不可避免，能有效提高腹內壓與軀幹剛性——這正是重負重行走時的實際呼吸情境；但其血壓升高的健康風險尚未被確認。"
+        }
+      ]
+    },
+    {
+      "unit": "ch10-u3",
+      "name": "銀髮族肌力訓練",
+      "evidence_grade": "strong",
+      "summary": "這是整份查核裡證據最充分的一條。Cochrane 收錄 121 篇 RCT、6700 名長者的漸進式阻力訓練回顧顯示：肌力提升效果大（SMD 0.84，95% CI 0.67–1.00）、從椅子站起的能力改善中到大（SMD -0.94，95% CI -1.49 至 -0.38）、步速改善 0.08 m/s（95% CI 0.04–0.12）、整體身體功能小幅但顯著改善（SMD 0.14）。跌倒方面，Cochrane 的社區長者運動回顧顯示平衡與功能性運動可降低跌倒率 24%（RaR 0.76，高確定性）、多元運動（通常是平衡功能訓練＋阻力訓練）降低 34%；88 篇試驗、19478 人的更新 MA 顯示挑戰平衡且每週超過 3 小時的課程可降低 39%（IRR 0.61）。此外阻力訓練同時提升股骨／髖部骨密度（+2.77%）。不良事件以肌肉痠痛與關節痛為主，嚴重事件罕見。",
+      "mechanism": "阻力訓練透過機械張力刺激引發神經適應（運動單位徵召與放電頻率提升）與肌纖維肥大，直接對抗肌少症的兩大成因：肌纖維（尤其第二型）萎縮與運動單位流失。骨骼端則透過肌肉牽拉與地面反作用力刺激骨重塑，改善髖部骨密度。功能面的改善（起身、步速、上下樓）來自下肢肌力儲備提高後，日常動作占最大能力的比例下降。這條機轉鏈在高齡族群上有大量介入研究直接驗證，確定性高。",
+      "performance_effect": "以高齡族群的功能表現為主：步速 +0.08 m/s、椅子站起 SMD -0.94、整體身體功能 SMD 0.14。一篇涵蓋 56 篇 MA 的傘狀回顧指出，在所有針對長者的運動型態中，阻力訓練屬於效果量最大的一類。要注意步速 0.08 m/s 雖統計顯著，是否達到每個人的臨床有感門檻仍因人而異。",
+      "hypertrophy_strength": "適用且效果明確。漸進式阻力訓練對肌力的效果量為 SMD 0.84（73 篇試驗、3059 人），是本份查核中效果量最大的單一結果。多數試驗採每週 2–3 次、高強度處方。肌肉量（橫斷面積）的增長幅度通常小於肌力增長，因為早期進步以神經適應為主——這對課程溝通很重要：長者會先變強，體積變化較慢。",
+      "injury_link": "方向是保護性的，且有高確定性證據。運動可降低社區長者跌倒率 21%（RaR 0.79）到 39%（挑戰平衡且高劑量者），而跌倒是高齡失能與髖部骨折的主要途徑。但關鍵細節要說清楚：Cochrane 明確指出「單純阻力訓練」對跌倒率的效果仍不確定，真正降低跌倒的是平衡與功能性訓練，或平衡功能訓練加上阻力訓練的組合。骨關節炎患者做阻力訓練還可減輕疼痛（SMD -0.30）。",
+      "assessment_validity": "本課程不使用臨床診斷工具，但可引用文獻中已驗證的功能指標作為自我追蹤：慣常步速、五次坐站測試、握力，皆是高齡研究中廣泛使用且與預後相關的測量。這些是追蹤進步的參考，不是肌少症的診斷；肌少症診斷需由醫療專業依身體組成測量與臨床標準判定。",
+      "red_flags": [
+        "訓練中或訓練後出現胸悶、胸痛、心悸或異常喘不過氣，須立即停止並就醫",
+        "非預期的跌倒次數增加，或出現新的頭暈、站立時眼前發黑",
+        "輕微外力後出現的劇烈背痛或髖部痛且無法承重——骨鬆族群須排除脊椎壓迫性骨折或髖部骨折",
+        "單一關節腫脹發熱持續超過一週，或肌肉痠痛持續超過一週未緩解"
+      ],
+      "caveats": "即使是本份查核中最強的一條，仍有三個必須誠實交代的地方。第一，Cochrane 明講「單獨的阻力訓練」對跌倒預防的效果不確定——降低跌倒的關鍵成分是平衡與功能性訓練，所以不能對學員宣稱「練重訓就不會跌倒」，課表必須把平衡與功能動作一起放進去。第二，整體身體功能的效果量其實不大（SMD 0.14），肌力進步（SMD 0.84）並不會等比例轉換成日常生活改善。第三，Cochrane 作者特別提醒不良事件在多數試驗中記錄不完整，把研究處方直接搬到有慢性病的臨床族群時要保守；同時本課程的線上形式無法提供試驗中那種現場監督，這本身就是效果打折的理由。",
+      "citations": [
+        {
+          "pmid": "19588334",
+          "title": "Progressive resistance strength training for improving physical function in older adults.",
+          "journal": "Cochrane Database Syst Rev",
+          "year": 2009,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19588334/",
+          "takeaway": "121 篇 RCT、6700 人：漸進式阻力訓練對肌力效果大（SMD 0.84，95% CI 0.67–1.00）、椅子站起 SMD -0.94、步速 +0.08 m/s、整體身體功能 SMD 0.14；骨關節炎者疼痛下降 SMD -0.30；嚴重不良事件罕見但記錄不完整。"
+        },
+        {
+          "pmid": "30703272",
+          "title": "Exercise for preventing falls in older people living in the community.",
+          "journal": "Cochrane Database Syst Rev",
+          "year": 2019,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30703272/",
+          "takeaway": "平衡與功能性運動降低跌倒率 24%（RaR 0.76，高確定性）、跌倒人數 13%；多元運動（平衡功能＋阻力）降低跌倒率 34%（中等確定性）；但「單純阻力訓練」的效果仍不確定。"
+        },
+        {
+          "pmid": "27707740",
+          "title": "Exercise to prevent falls in older adults: an updated systematic review and meta-analysis.",
+          "journal": "Br J Sports Med",
+          "year": 2017,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27707740/",
+          "takeaway": "88 篇 RCT、19478 人：運動整體降低社區長者跌倒率 21%（RaR 0.79，95% CI 0.73–0.85）；挑戰平衡且每週超過 3 小時的課程可降低 39%（IRR 0.61），這兩個變項解釋了 76% 的研究間異質性。"
+        },
+        {
+          "pmid": "35608815",
+          "title": "Progressive Resistance Training for Concomitant Increases in Muscle Strength and Bone Mineral Density in Older Adults: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35608815/",
+          "takeaway": "14 篇 RCT（65 歲以上）：漸進式阻力訓練同時提升肌力（Δ SMD 1.1%）與股骨／髖部骨密度（Δ MD +2.77%，95% CI 0.44–5.10），但腰椎骨密度未顯著改善（+1.60%，p=0.30）；肌力的證據確定性高於骨密度。"
+        },
+        {
+          "pmid": "32525097",
+          "title": "Exercise interventions for older adults: A systematic review of meta-analyses.",
+          "journal": "J Sport Health Sci",
+          "year": 2021,
+          "design": "systematic-review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32525097/",
+          "takeaway": "整合 56 篇針對長者的 MA：效果量最大的介入類別為阻力訓練、冥想式動作（如太極）與運動型主動電玩；同時指出團體介入、指導者特質與動機策略的研究仍嚴重不足。"
+        }
+      ]
+    },
+    {
+      "unit": "ch10-u4",
+      "name": "傷後族群的訓練調整",
+      "evidence_grade": "moderate",
+      "summary": "三個常見部位的共同結論很一致：運動治療有效，但「哪一種運動」的差別遠比想像中小，而「有沒有持續做」才是關鍵。下背痛方面，217 篇 RCT、20969 人的網絡 MA 顯示多數運動型態都優於最小介入（疼痛改善 -15 至 -19 分／100），彼此差距有限；一篇 70 人的 RCT 直接比較低負荷動作控制訓練與高負荷硬舉，結果活動功能是低負荷組較好（PSFS 4.2 對 2.5 分，P<0.001），疼痛強度兩組無差異。肩夾擠／旋轉肌相關肩痛方面，22 篇 RCT、1281 人的 SR/MA 顯示動作控制型運動相對非特異性運動僅小幅降低失能（短期 SMD -0.29、中期 -0.33），疼痛則無差異；2025 年的貝氏網絡 MA 則把向心肌力訓練排在第一。髕股疼痛方面，髖＋膝肌力訓練優於單練膝（疼痛 MD -1.5），但有趣的是——疼痛改善時肌力並沒有同步增加。",
+      "mechanism": "跨部位的共同機轉可能不是「修好某個結構」，而是負荷耐受度重建與疼痛系統再校準：漸進暴露於原本會誘發疼痛的負荷，降低對動作的恐懼與中樞敏感化，同時提高組織與神經肌肉系統對負荷的容忍。髕股疼痛的 MA 提供了最直接的線索——疼痛與活動明顯改善，肌力卻沒有顯著變化，這強烈暗示效果並非來自「把弱的肌肉練強」。這也解釋了為什麼各種運動型態的效果差異普遍很小。",
+      "performance_effect": "本單元不以表現為目標，而以恢復到可訓練狀態為目標。可用的量化指標包括：下背痛族群做硬舉訓練 8 週後，能否受益可由基線的 Biering-Sørensen 背伸肌耐力測驗與疼痛強度預測——耐力較好、疼痛較低、失能較輕的人才明顯獲益。這是很重要的實務訊息：不是每個下背痛的人都適合直接上大重量。",
+      "hypertrophy_strength": "適用但要重新設定期待。復訓期的肌力增長通常慢於健康族群，且如前述，症狀改善不一定伴隨肌力改善。臨床上更合理的做法是把「可承受的負荷量」而非「1RM」當成進度指標：先恢復無痛可完成的訓練量，再談加重。",
+      "injury_link": "這是本單元的核心：疼痛不等於損傷，也不等於必須停止訓練。多數非特異性下背痛、旋轉肌相關肩痛與髕股疼痛在影像上找不到對應的結構病灶，且證據支持「繼續在可忍受範圍內動」優於休息。相對地，真正需要停下來的是有紅旗徵象的情況（見下方），這類情況雖然少見——初級照護中因下背痛就診者的惡性腫瘤發生率介於 0% 到 0.7%——但漏掉的代價很高。",
+      "assessment_validity": "本單元不進行診斷。要特別說明的是紅旗徵象本身的信效度並不高：一篇系統性回顧檢視 16 份指引中的 13 項惡性腫瘤紅旗，發現多數紅旗的來源不明或僅來自個案報告，只有「癌症病史」與「臨床強烈懷疑」具備可接受的診斷準確度。因此紅旗清單應被當成「觸發就醫評估的門檻」，而不是自我診斷工具。",
+      "red_flags": [
+        "下背痛合併大小便失禁或滯留、會陰與鞍區麻木、雙下肢無力——疑似馬尾症候群，須立即急診",
+        "有癌症病史者出現新發生、夜間加劇且休息不緩解的背痛，或合併不明原因體重下降",
+        "發燒合併劇烈背痛，或近期有靜脈注射藥物、免疫抑制、脊椎手術史——須排除感染",
+        "外傷後或骨質疏鬆／長期使用類固醇者在輕微外力後出現的劇烈背痛，須排除脊椎壓迫性骨折",
+        "肩部在外傷後無法主動抬起、或出現進行性加重的手部無力與感覺喪失",
+        "膝關節出現明顯腫脹發熱、鎖住無法伸直、或反覆打軟腳導致跌倒"
+      ],
+      "caveats": "課程必須把話說死：這是一門訓練課程，不是治療，也不能取代醫療評估或個別化的復健處方。文獻中效果不錯的那些介入，幾乎都在治療師個別評估、逐次調整、面對面監督的條件下執行，而本課程沒有這些條件——把 RCT 的效果量直接套到自學者身上是不誠實的。此外，本單元刻意不提供「診斷」或「動作篩檢」，因為連臨床紅旗徵象的診斷準確度都普遍薄弱，一般訓練者更不可能靠自我測試分辨非特異性疼痛與需要就醫的病理。最後要承認的是：所謂「復訓原則」（先恢復無痛動作範圍、再恢復訓練量、最後才加重）在臨床上被廣泛採用，但它是專家共識與實務慣例，並沒有被隨機試驗直接驗證優於其他排程方式。",
+      "citations": [
+        {
+          "pmid": "34538747",
+          "title": "Some types of exercise are more effective than others in people with chronic low back pain: a network meta-analysis.",
+          "journal": "J Physiother",
+          "year": 2021,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34538747/",
+          "takeaway": "217 篇 RCT、20969 人：多數運動型態都優於最小介入，Pilates／McKenzie／功能性復原的疼痛改善 -15 至 -19 分、失能 -10 至 -12 分（0–100 標準化）；作者仍建議選擇患者能持續執行的運動。"
+        },
+        {
+          "pmid": "25641309",
+          "title": "Individualized low-load motor control exercises and education versus a high-load lifting exercise and education to improve activity, pain intensity, and physical performance in patients with low back pain: a randomized controlled trial.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2015,
+          "design": "rct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25641309/",
+          "takeaway": "70 人 RCT：低負荷動作控制訓練在活動功能（PSFS 4.2 對 2.5 分，P<.001）與動作控制測驗上優於高負荷舉重訓練，但疼痛強度（P=.505）、肌力與多數耐力測驗兩組無差異。"
+        },
+        {
+          "pmid": "25559899",
+          "title": "Which Patients With Low Back Pain Benefit From Deadlift Training?",
+          "journal": "J Strength Cond Res",
+          "year": 2015,
+          "design": "rct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25559899/",
+          "takeaway": "35 人硬舉訓練 8 週的預測分析：基線失能較輕、疼痛較低、Biering-Sørensen 背伸肌耐力較好的人才明顯獲益——硬舉不是每個下背痛者都適用的復健工具。"
+        },
+        {
+          "pmid": "38848304",
+          "title": "The Efficacy of Exercise Therapy for Rotator Cuff-Related Shoulder Pain According to the FITT Principle: A Systematic Review With Meta-analyses.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2024,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38848304/",
+          "takeaway": "22 篇 RCT、1281 人：動作控制型運動相對非特異性運動僅小幅降低失能（短期 SMD -0.29、中期 -0.33，中等確定性），疼痛無差異；作者指出改善也可能來自漸進與個別化本身，而非運動類型。"
+        },
+        {
+          "pmid": "41276811",
+          "title": "Effects of seven types of exercise in the treatment of rotator cuff-related shoulder pain (RCRSP): a systematic review and Bayesian network meta-analysis.",
+          "journal": "J Orthop Surg Res",
+          "year": 2025,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41276811/",
+          "takeaway": "15–16 篇 RCT、約 950 人的貝氏網絡 MA：向心肌力訓練在改善肩部功能與疼痛上排名第一，離心與傳統訓練次之並優於動作控制與肩胛導向訓練；高負荷訓練表現最差。"
+        },
+        {
+          "pmid": "29034800",
+          "title": "Hip and Knee Strengthening Is More Effective Than Knee Strengthening Alone for Reducing Pain and Improving Activity in Individuals With Patellofemoral Pain: A Systematic Review With Meta-analysis.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2018,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29034800/",
+          "takeaway": "14 篇試驗、673 人：髖＋膝肌力訓練相對單練膝可多降低疼痛 MD -1.5（95% CI -2.3 至 -0.8）、改善活動 SMD 0.7；但所有介入都沒有讓肌力顯著增加——疼痛改善的機轉並非變強。"
+        },
+        {
+          "pmid": "39401870",
+          "title": "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning.",
+          "journal": "Br J Sports Med",
+          "year": 2024,
+          "design": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39401870/",
+          "takeaway": "整合 65 篇高品質 RCT（3796 人）、12 位患者與 19 位專家訪談：髕股疼痛的首選是「以衛教為基礎的膝＋髖運動治療」，鞋墊、徒手治療、跑步再訓練與貼紮只是依個別需求加上的輔助。"
+        },
+        {
+          "pmid": "28708761",
+          "title": "Most red flags for malignancy in low back pain guidelines lack empirical support: a systematic review.",
+          "journal": "Pain",
+          "year": 2017,
+          "design": "systematic-review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28708761/",
+          "takeaway": "16 份指引中的 13 項惡性腫瘤紅旗，多數來源不明或僅出自個案報告；初級照護中下背痛患者的惡性腫瘤發生率為 0%–0.7%，只有「癌症病史」與「臨床強烈懷疑」具可接受的診斷準確度。"
+        }
+      ]
+    }
+  ]
+}

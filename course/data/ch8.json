@@ -1,567 +1,604 @@
 {
- "chapter": "CH8",
- "title": "骨盆",
- "units": [
-  {
-   "id": "ch8-u1",
-   "name": "骨盆前傾",
-   "en": "Anterior Pelvic Tilt",
-   "type": "posture",
-   "assessment": "【基本檢測】① 側面站立，同側手食指按住髂前上棘（ASIS，褲頭前方骨突）、拇指按住髂後上棘（PSIS，腰窩下方骨突）。正常 ASIS 略低於 PSIS 約 0–2 指幅；若 ASIS 明顯低於 PSIS 超過 2 指幅，即為骨盆前傾。② 仰臥屈膝踩地，放鬆後把手掌從腰下穿過：整隻手掌能輕鬆進出、甚至能翻面，代表骨盆／腰椎前傾偏多。③ Thomas test：坐在床沿抱一腳膝到胸再往後躺，另一腳若無法自然垂下貼床＝髂腰肌緊；小腿無法自然下垂 90 度＝股直肌緊。\n\n【與 CH6 腰椎過度前拱的鑑別 —— 重要】骨盆前傾是「骨盆這塊骨頭繞著髖關節向前轉」；腰椎過度前拱是「腰椎各節段本身的曲度變大」。兩者高度相關（骨盆前傾把薦骨帶向前下，腰椎往往被動代償增加前凸），但不等同，可以分開出現：\n• 有骨盆前傾但腰椎不過拱 —— 常見於髖屈肌極緊、腰椎相對僵硬、或核心控制尚可的人。摸起來 ASIS 明顯低於 PSIS，但躺下時腰下空隙不大。此類人矯正重點在髖前側（本單元）。\n• 有腰椎過拱但骨盆接近中立 —— 常見於胸椎後凸／肋骨外翻代償、或習慣挺胸挺腰的人。躺下手掌能穿過腰下，但 ASIS／PSIS 幾乎等高。此類人請回 CH6 處理腰椎。\n【怎麼分】靠牆站立同時做兩件事：先感覺腰下空隙（＝腰椎前凸程度），再用手指摸 ASIS／PSIS 高低（＝骨盆角度）。空隙大但骨盆等高 → 腰椎為主（CH6）；骨盆明顯前傾但空隙不大 → 骨盆為主（本單元）；兩者都明顯 → 兩章一起做，但先從骨盆下手，腰椎通常會跟著改善。\n\n【紅旗】若伴隨下肢麻痛、無力、大小便失禁，或休息也持續劇痛，請先就醫排除神經壓迫。",
-   "tight": [
-    "髂腰肌",
-    "股直肌",
-    "闊筋膜張肌",
-    "腰方肌",
-    "腰段豎脊肌",
-    "內收肌群"
-   ],
-   "weak": [
-    "腹直肌",
-    "腹橫肌",
-    "腹斜肌",
-    "臀大肌",
-    "腿後肌群"
-   ],
-   "lesson": {
-    "title": "骨盆前傾害你腰痛難久站！？你該這樣改善！",
-    "channel": "三個字SunGuts",
-    "url": "https://www.youtube.com/watch?v=4b-nzkIUYMw",
-    "duration": "10:11",
-    "why": "台灣物理治療師頻道，先講清楚骨盆前傾的成因與「不是所有前傾都要矯正」的觀念，再示範放鬆＋訓練的完整流程，繁中講解、示範角度清楚，最適合當本單元主課。"
-   },
-   "drills": [
+  "chapter": "CH8",
+  "title": "下肢動作訓練｜髖主導發力與動態穩定",
+  "units": [
     {
-     "name": "髂腰肌按摩球放鬆",
-     "en": "Psoas Lacrosse Ball Release",
-     "kind": "release",
-     "target": "髂腰肌（腰大肌／髂肌）",
-     "dose": "每側 60–90 秒，呼吸放鬆下沉，力道 5/10 以內；感到脈搏跳動立即移開",
-     "title": "Release Your Psoas With A Lacrosse Ball (For Low Back Pain Relief)",
-     "channel": "Vibrance Chiropractic",
-     "url": "https://www.youtube.com/watch?v=GReGKB8RvZQ",
-     "duration": "6:41"
+      "id": "ch8-u1",
+      "name": "髖鉸鏈與臀部啟動：下肢發力的基礎",
+      "type": "movement",
+      "assessment": "背對牆站約一個拳頭距離，雙手持棍貼住後腦、胸椎與薦椎三點，往後推臀去碰牆：棍子任何一點離開身體，就是用腰彎取代了髖屈。接著側面錄影做臀橋與早安運動，逐格看三件事——下背有沒有先反折、肋廓下緣有沒有掀起來、骨盆是不是比肩膀先動。再把手掌壓在臀大肌上做十下臀橋，若前三下就只有腿後肌與下背發燙、臀部完全沒有收緊感，代表臀肌沒被叫醒，先退回徒手臀橋與蚌殼式，別急著加槓片。",
+      "tight": ["腰段豎脊肌", "腿後肌群", "髂腰肌", "闊筋膜張肌", "腰方肌"],
+      "weak": ["臀大肌", "臀中肌", "腹橫肌", "內收大肌"],
+      "lesson": {
+        "title": "預防腰痛必學技巧，用髖屈來代替腰彎！",
+        "channel": "三個字SunGuts",
+        "url": "https://www.youtube.com/watch?v=rCczeN6Eqno",
+        "duration": "5:54",
+        "why": "把髖鉸鏈講成「用髖屈取代腰彎」這一件事，而不是拆成一堆動作口令，正好是整章下肢訓練的共同前提；示範與錯誤對照都拍得清楚，看完就知道自己彎的是腰還是髖。"
+      },
+      "drills": [
+        {
+          "name": "木棍髖鉸鏈教學",
+          "en": "Dowel Hip Hinge",
+          "kind": "activate",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌",
+          "dose": "3 組 × 10 下，每下停在底部 2 秒確認三點貼棍",
+          "title": "如何做髖關節鉸鏈 (中文字幕)",
+          "channel": "Fitting Room TW",
+          "url": "https://www.youtube.com/watch?v=wjP-t9olpns",
+          "duration": "5:50"
+        },
+        {
+          "name": "髖鉸鏈常見錯誤",
+          "en": "Hip Hinge Common Faults",
+          "kind": "activate",
+          "target": "腰段豎脊肌、臀大肌、腹橫肌",
+          "dose": "對照影片自我檢查，每個錯誤各練 8 下修正",
+          "title": "屈髖練習｜善用髖關節才不傷腰！（中字）",
+          "channel": "身體智慧-脊椎健康教育的領導品牌",
+          "url": "https://www.youtube.com/watch?v=cEm-5vG0c74",
+          "duration": "5:53"
+        },
+        {
+          "name": "臀橋",
+          "en": "Glute Bridge",
+          "kind": "activate",
+          "target": "臀大肌、腿後肌群、腹橫肌",
+          "dose": "3 組 × 12–15 下，頂點停 2 秒",
+          "title": "最簡單也最有效的翹臀訓練－橋式，在家也能練出翹臀｜臀部訓練、核心訓練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=fRvUXUPNO0I",
+          "duration": "6:45"
+        },
+        {
+          "name": "單腳臀橋",
+          "en": "Single-Leg Glute Bridge",
+          "kind": "activate",
+          "target": "臀大肌、臀中肌、腹斜肌",
+          "dose": "每側 3 組 × 8–10 下，骨盆不可往非支撐側掉",
+          "title": "「單腳橋式one leg bridge 」訓練單側臀肌與核心，改善骨盆不穩容易歪斜、單側發力問題。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=19Zd4qj2U78",
+          "duration": "5:22"
+        },
+        {
+          "name": "槓鈴臀推",
+          "en": "Barbell Hip Thrust",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、內收大肌",
+          "dose": "4 組 × 8–12 下，頂點肋廓不掀起",
+          "title": "【5分鐘教你槓鈴臀推】臀推總是腰痠？5分鐘解析槓鈴臀推正確姿勢 + 常見錯誤！",
+          "channel": "女力健身 Nuli App",
+          "url": "https://www.youtube.com/watch?v=7GbCp6h6Q5A",
+          "duration": "5:04"
+        },
+        {
+          "name": "蚌殼式",
+          "en": "Clamshell",
+          "kind": "activate",
+          "target": "臀中肌、臀小肌、髖深層外旋肌群",
+          "dose": "每側 3 組 × 15 下，骨盆不可後倒",
+          "title": "貝殼式 clam exercise 矯正髖、骨盆的位置，利用訓練臀中肌來避免骨盆歪斜、跑步膝蓋外側痛、假跨髖等問題。是居家訓練的好運動。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=e_8Uq5zHOHw",
+          "duration": "3:44"
+        },
+        {
+          "name": "彈力帶怪獸走",
+          "en": "Banded Monster Walk",
+          "kind": "activate",
+          "target": "臀中肌、臀小肌、臀大肌",
+          "dose": "3 組 × 每方向 10 步，膝蓋全程不內塌",
+          "title": "臀部怎麼練都不夠翹？你一定沒有在做臀中肌訓練｜相撲走路、翹臀訓練、臀部訓練、sumo walk",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=AEMwkQ6zntM",
+          "duration": "7:02"
+        },
+        {
+          "name": "驢子踢腿（繩索後踢腿）",
+          "en": "Donkey Kick / Cable Kickback",
+          "kind": "activate",
+          "target": "臀大肌、腿後肌群",
+          "dose": "每側 3 組 × 12–15 下，腰不可跟著反折",
+          "title": "绳索后踢腿细节教学，轻松找到臀部发力感觉，翘臀不酸腰",
+          "channel": "刘小元儿",
+          "url": "https://www.youtube.com/watch?v=8_neen79jTU",
+          "duration": "2:23"
+        },
+        {
+          "name": "早安運動",
+          "en": "Barbell Good Morning",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌",
+          "dose": "3 組 × 8–10 下，重量遠低於硬舉",
+          "title": "臀腿训练计划｜高效激活臀大肌｜早安式 (保姆级教程)",
+          "channel": "ALEX健身频道",
+          "url": "https://www.youtube.com/watch?v=S6MGUXhCIP8",
+          "duration": "9:10"
+        },
+        {
+          "name": "髖鉸鏈到硬舉的過渡",
+          "en": "Hinge to Deadlift Progression",
+          "kind": "activate",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌、背闊肌",
+          "dose": "空槓 3 組 × 6 下，每組先做 3 下無負重鉸鏈",
+          "title": "如何硬舉＿髖鉸鍊教學｜無證教學",
+          "channel": "無證騎士-RIDER",
+          "url": "https://www.youtube.com/watch?v=nikbnUZor40",
+          "duration": "6:16"
+        },
+        {
+          "name": "臀中肌側躺外展",
+          "en": "Side-Lying Hip Abduction",
+          "kind": "activate",
+          "target": "臀中肌、臀小肌、闊筋膜張肌",
+          "dose": "每側 3 組 × 12–15 下，腳跟微微領先腳尖",
+          "title": "下肢訓練膝蓋外翻、走路時骨盆歪斜？你該強化臀中肌了！｜側躺髖外展、臀部訓練、翹臀訓練 ft. 威力 & Euphe 教練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=cRP6Y55b0HY",
+          "duration": "4:45"
+        },
+        {
+          "name": "髖屈肌伸展與髖伸活動度",
+          "en": "Hip Flexor Stretch / Hip Extension Mobility",
+          "kind": "release",
+          "target": "髂腰肌、股直肌、闊筋膜張肌",
+          "dose": "每側 3 次 × 30 秒，骨盆先後傾再往前推",
+          "title": "拯救骨盆前傾的重要拉筋：「髖屈肌伸展運動 hip flexor strtech」。伸展鼠蹊部，打開髖部前側。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=LvUUoiisZP8",
+          "duration": "4:19"
+        }
+      ]
     },
     {
-     "name": "股四頭肌／股直肌滾筒放鬆",
-     "en": "Quadriceps & Rectus Femoris Foam Roll",
-     "kind": "release",
-     "target": "股直肌、股四頭肌",
-     "dose": "每側 60–90 秒，重點停留在髖前上段（髂前下棘下方）",
-     "title": "The RIGHT Way To Foam Roll Your Quads | Physical Therapist Teaches Foam Rolling Technique",
-     "channel": "Rehab and Revive",
-     "url": "https://www.youtube.com/watch?v=7FoLY0EgdqI",
-     "duration": "5:29"
+      "id": "ch8-u2",
+      "name": "分腿蹲系列：定點弓步、後撤弓步與行走弓步",
+      "type": "movement",
+      "assessment": "把手機架在正前方與正側面各錄一次十下的分腿蹲。正面看前腳膝蓋：髕骨若掉到大腿內側、足弓同時塌陷，就是膝蓋內夾，先把重量減半並回到彈力帶怪獸走與側躺外展。側面看兩件事——軀幹前傾角度整組要一致，若越做越挺代表股四頭肌先累了；下背不可在起身瞬間反折出一個弧。最後把手放在前腳臀部，若十下都只有膝蓋前側痠、臀部毫無收縮感，把前腳往前多踏半步、軀幹再前傾一點重錄一次比對。",
+      "tight": ["股直肌", "髂腰肌", "闊筋膜張肌", "內收肌群", "腓腸肌"],
+      "weak": ["臀大肌", "臀中肌", "股四頭肌", "腹斜肌"],
+      "lesson": {
+        "title": "分腿蹲重心位置要怎麼設定？正確動作步驟是？兩招秘技讓你姿勢穩如泰山，膝蓋不再不適！｜臀腿訓練、分腿蹲教學、深蹲、腿推 ft. Julie 教練",
+        "channel": "林勁瑋 x 大腦優先教練學院",
+        "url": "https://www.youtube.com/watch?v=fKRT_1IOCs0",
+        "duration": "7:07",
+        "why": "分腿蹲練不到臀、只有膝蓋痠，九成問題出在重心位置而不是重量；這支直接把前後重心分配與軀幹角度拆成可執行的兩個設定步驟，是整個單元其他變化式的共同基礎。"
+      },
+      "drills": [
+        {
+          "name": "定點分腿蹲",
+          "en": "Split Squat",
+          "kind": "lift",
+          "target": "股四頭肌、臀大肌、內收肌群",
+          "dose": "每側 3 組 × 8–10 下",
+          "title": "『分腿蹲』｜人為什麼有兩條腿ep.1｜下肢訓練｜完整教學｜新手系列｜Kun阿錕",
+          "channel": "Kun阿錕",
+          "url": "https://www.youtube.com/watch?v=XPQA8XaRQNA",
+          "duration": "3:19"
+        },
+        {
+          "name": "後撤弓步",
+          "en": "Reverse Lunge",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、腿後肌群",
+          "dose": "每側 3 組 × 8–10 下，後腳輕點地不用力推",
+          "title": "健身從深蹲開始---弓箭步蹲前跨+後跨",
+          "channel": "商周出版",
+          "url": "https://www.youtube.com/watch?v=ErpnP7pQOlE",
+          "duration": "1:52"
+        },
+        {
+          "name": "前跨弓步",
+          "en": "Forward Lunge",
+          "kind": "lift",
+          "target": "股四頭肌、臀大肌、臀中肌",
+          "dose": "每側 3 組 × 8 下，落地先煞車再下沉",
+          "title": "經典動作解析–弓步蹲",
+          "channel": "照護線上",
+          "url": "https://www.youtube.com/watch?v=U_638geC90o",
+          "duration": "4:02"
+        },
+        {
+          "name": "行走弓步",
+          "en": "Walking Lunge",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、臀中肌、內收肌群",
+          "dose": "3 組 × 每側 8 步，全程軀幹不左右晃",
+          "title": "Walking Lunges Exercise Tutorial | Build Legendary Legs & Cardio",
+          "channel": "Buff Dudes Workouts",
+          "url": "https://www.youtube.com/watch?v=Pbmj6xPo-Hw",
+          "duration": "1:50",
+          "note": "查過「行走弓箭步／走路弓步／負重行走弓箭步／弓箭步 行進間」等中文關鍵字，中文頻道幾乎只做定點弓步與前後跨步，沒有專門講行走弓步的合格影片，故此格採英文示範。"
+        },
+        {
+          "name": "保加利亞分腿蹲",
+          "en": "Bulgarian Split Squat",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、內收大肌",
+          "dose": "每側 3 組 × 8–10 下",
+          "title": "腿部必練【後腳抬高蹲】最棒 卻被忽略的臀腿訓練動作！│健人訓練│ 2020ep26",
+          "channel": "健人蓋伊",
+          "url": "https://www.youtube.com/watch?v=wmAXnzLD5nY",
+          "duration": "4:08"
+        },
+        {
+          "name": "登階",
+          "en": "Step-up",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、臀中肌",
+          "dose": "每側 3 組 × 8 下，下降用離心控制 3 秒",
+          "title": "必看正確登階技巧！練臀還是練腿？你做的對嗎？",
+          "channel": "女力健身 Nuli App",
+          "url": "https://www.youtube.com/watch?v=e9cSXIGT6aM",
+          "duration": "3:19"
+        },
+        {
+          "name": "側弓步",
+          "en": "Lateral Lunge",
+          "kind": "lift",
+          "target": "臀大肌、內收肌群、股四頭肌",
+          "dose": "每側 3 組 × 8–10 下",
+          "title": "練側蹲的好處其實很多！正確步驟該如何執行？兩大重心常見錯誤這樣破解，讓訓練效能開好開滿！｜側蹲、深蹲、下肢訓練、單邊訓練 ft. Julie & Ellin 教練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=WcCc0cIto-c",
+          "duration": "5:39"
+        },
+        {
+          "name": "分腿蹲的軀幹角度與重心",
+          "en": "Split Squat Torso Angle & Center of Mass",
+          "kind": "activate",
+          "target": "臀大肌、股四頭肌、腹橫肌",
+          "dose": "空手 2 組 × 每側 8 下，刻意做出兩種角度比對感受",
+          "title": "膝蓋總是不舒服？分腿蹲膝蓋不要一直往前衝衝衝｜分腿蹲、深蹲變化式、Lunge、弓箭步、腿部訓練、練腿",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=rIo4tHh-s8k",
+          "duration": "7:36"
+        },
+        {
+          "name": "弓步膝蓋內夾修正",
+          "en": "Lunge Knee Valgus Correction",
+          "kind": "activate",
+          "target": "臀中肌、臀大肌、髖深層外旋肌群",
+          "dose": "每側 3 組 × 8 下，正面錄影確認髕骨對齊第二腳趾",
+          "title": "臀部無感？膝蓋疼痛｜正確操作弓箭步蹲｜4大常見錯誤｜Jay Wang",
+          "channel": "Jay Wang",
+          "url": "https://www.youtube.com/watch?v=apMx68O3NcQ",
+          "duration": "5:21"
+        },
+        {
+          "name": "啞鈴／槓鈴負重位置差異",
+          "en": "Dumbbell vs Barbell Loading Position",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、腹斜肌、腰方肌",
+          "dose": "同側／對側各 2 組 × 8 下，比較臀部與腰側的吃力差異",
+          "title": "分腿蹲與弓箭步，負重在哪一邊有差嗎?",
+          "channel": "白天手術房晚上健身房",
+          "url": "https://www.youtube.com/watch?v=WVn9s6ESbnY",
+          "duration": "5:31"
+        },
+        {
+          "name": "分腿蹲的平衡進階",
+          "en": "Split Squat Stability Progression",
+          "kind": "activate",
+          "target": "臀中肌、髖深層外旋肌群、脛後肌、足內在肌",
+          "dose": "每側 3 組 × 6–8 下，逐步縮小前後腳左右間距",
+          "title": "How to Master Distance  For Bulgarian Split Squat 保加利亞分腿蹲 距離&穩定 2技巧減少腳踝扭傷風險 【RobertPig蘿蔔豬 2023 EP1】",
+          "channel": "RobertPIG蘿蔔豬",
+          "url": "https://www.youtube.com/watch?v=raHF7gIXTSU",
+          "duration": "2:30"
+        },
+        {
+          "name": "滑冰者深蹲",
+          "en": "Skater Squat",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、臀中肌",
+          "dose": "每側 3 組 × 5–8 下，下降時膝蓋不往內倒",
+          "title": "滑雪式側蹲 skater squat 臀大肌訓練，利用類似滑學的動作，讓臀肌燃燒～十字韌帶手術後或受傷後必訓練的菜單之一，也可加入重訓菜單內，來避免膝蓋受傷！",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=lHaf7SxtWWs",
+          "duration": "3:37"
+        }
+      ]
     },
     {
-     "name": "闊筋膜張肌按摩球放鬆",
-     "en": "Tensor Fasciae Latae (TFL) Ball Release",
-     "kind": "release",
-     "target": "闊筋膜張肌",
-     "dose": "每側 60 秒，在 ASIS 外下方兩指處找到激痛點後緩慢畫圈",
-     "title": "TFL Trigger Point Release - How to Release the Tensor Fascia Latae Muscle.",
-     "channel": "Aletha Health",
-     "url": "https://www.youtube.com/watch?v=PNQIVLyerZg",
-     "duration": "4:02"
+      "id": "ch8-u3",
+      "name": "深蹲系列：高腳杯深蹲到雙腳深蹲",
+      "type": "movement",
+      "assessment": "正面與側面各錄十下深蹲。正面看髕骨軌跡有沒有跑到第二腳趾內側、腳跟外緣有沒有離地，兩者同時出現就是膝蓋內夾加足弓塌陷。側面看骨盆：接近底部若骨盆突然後捲（臀部眨眼），那一格的前一幀就是你今天真正可用的深度，超過它腰椎就在代償。再看重心，槓或啞鈴的中心應該垂直落在腳掌中段，往腳尖跑代表踝背屈不夠、往腳跟跑代表被迫用腰去接。最後一組結束把手壓在臀部，若只有股四頭肌腫脹、臀部完全沒感覺，改用高腳杯深蹲重建模式再回槓。",
+      "tight": ["腓腸肌", "比目魚肌", "髂腰肌", "內收肌群", "腰段豎脊肌"],
+      "weak": ["臀大肌", "臀中肌", "股四頭肌", "腹橫肌", "脛前肌"],
+      "lesson": {
+        "title": "普通人如何學會一個標準的深蹲？【卓叔增重】",
+        "channel": "卓叔增重",
+        "url": "https://www.youtube.com/watch?v=2J9zsFwhF2Q",
+        "duration": "9:38",
+        "why": "從徒手深蹲一路帶到上槓，把站距、腳尖角度、深度與腹壓串成一條學習路徑，而不是條列式的十大要點；對已經練一陣子卻蹲不順的人，最能定位自己卡在哪一階。"
+      },
+      "drills": [
+        {
+          "name": "徒手深蹲",
+          "en": "Bodyweight Squat",
+          "kind": "activate",
+          "target": "股四頭肌、臀大肌、腹橫肌",
+          "dose": "3 組 × 12–15 下，底部停 2 秒",
+          "title": "如何正確深蹲? 5個小技巧讓你馬上學會深蹲!    ▏北木健身",
+          "channel": "北木健身治療師 Kopi",
+          "url": "https://www.youtube.com/watch?v=m0x0fbKkrUI",
+          "duration": "6:41"
+        },
+        {
+          "name": "高腳杯深蹲",
+          "en": "Goblet Squat",
+          "kind": "lift",
+          "target": "股四頭肌、臀大肌、腹橫肌、胸段豎脊肌",
+          "dose": "3 組 × 8–10 下",
+          "title": "高腳杯深蹲 ｜動作資料庫｜下肢系列｜練健康",
+          "channel": "練健康 LKK Wellness",
+          "url": "https://www.youtube.com/watch?v=Jb3pTR5O8Yg",
+          "duration": "1:21"
+        },
+        {
+          "name": "槓鈴背蹲",
+          "en": "Back Squat",
+          "kind": "lift",
+          "target": "股四頭肌、臀大肌、腰段豎脊肌、內收大肌",
+          "dose": "4 組 × 5–8 下",
+          "title": "近乎苛求的【背槓深蹲】深蹲教學下集｜健人訓練｜2017ep16",
+          "channel": "健人蓋伊",
+          "url": "https://www.youtube.com/watch?v=JLG9X2Bcf_o",
+          "duration": "6:33"
+        },
+        {
+          "name": "前蹲",
+          "en": "Front Squat",
+          "kind": "lift",
+          "target": "股四頭肌、胸段豎脊肌、腹直肌、臀大肌",
+          "dose": "4 組 × 5–6 下，手肘全程抬高",
+          "title": "【GYMEFIT 動作教室】頸前深蹲 平衡你的人生",
+          "channel": "GYMEFIT",
+          "url": "https://www.youtube.com/watch?v=LuuUksSMafM",
+          "duration": "8:31"
+        },
+        {
+          "name": "箱蹲",
+          "en": "Box Squat",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、股四頭肌",
+          "dose": "4 組 × 5 下，坐到箱上鬆一半再起",
+          "title": "箱式深蹲正确做法｜改善大腿前侧代偿｜臀腿发力完整教学",
+          "channel": "ALEX健身频道",
+          "url": "https://www.youtube.com/watch?v=b0PCc7kaMQ4",
+          "duration": "5:30"
+        },
+        {
+          "name": "深蹲深度與髖結構",
+          "en": "Squat Depth & Hip Anatomy",
+          "kind": "activate",
+          "target": "臀大肌、髖深層外旋肌群、內收肌群",
+          "dose": "測 3 種站距各 5 下，記錄骨盆後捲出現的深度",
+          "title": "每個人的深蹲都不同！量身打造你的深蹲姿勢｜腿部訓練、下肢訓練、蹲舉、姿勢設定",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=VBWkfazRkhs",
+          "duration": "7:49"
+        },
+        {
+          "name": "深蹲踝背屈不足的處理",
+          "en": "Ankle Dorsiflexion Restriction",
+          "kind": "release",
+          "target": "腓腸肌、比目魚肌、脛後肌",
+          "dose": "每側 2 組 × 10 下鬆動加 30 秒伸展，蹲前做",
+          "title": "下肢訓練蹲不下去？練腿前你該做的三招腳踝暖身術！｜腳踝活動度、深蹲、暖身伸展 ft. Julie & Jill 教練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=IP_VZPjDUQE",
+          "duration": "4:33"
+        },
+        {
+          "name": "深蹲膝蓋內夾修正",
+          "en": "Squat Knee Valgus Correction",
+          "kind": "activate",
+          "target": "臀中肌、臀小肌、髖深層外旋肌群、脛後肌",
+          "dose": "彈力帶輔助 3 組 × 10 下，正面錄影確認軌跡",
+          "title": "兩招解決深蹲膝蓋內夾｜足弓塌陷、臀肌無力、臀中肌、膝蓋痛",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=1H_rO-4FIBA",
+          "duration": "5:22"
+        },
+        {
+          "name": "深蹲的呼吸與腹壓",
+          "en": "Bracing & Intra-abdominal Pressure",
+          "kind": "activate",
+          "target": "橫膈膜、腹橫肌、腹斜肌、骨盆底肌",
+          "dose": "空槓 3 組 × 5 下，每下先吸氣撐滿再下蹲",
+          "title": "重訓時如何正確呼吸？避免受傷！舉得更重！",
+          "channel": "CYFIT兆佑",
+          "url": "https://www.youtube.com/watch?v=-RqGaejME8o",
+          "duration": "4:21"
+        },
+        {
+          "name": "深蹲站距與腳尖角度",
+          "en": "Squat Stance Width & Toe Angle",
+          "kind": "activate",
+          "target": "臀大肌、內收肌群、股四頭肌",
+          "dose": "窄、中、寬三種站距各 5 下，挑最能蹲深又不掀骨盆的一種",
+          "title": "\"深蹲\"你應該蹲多深站多寬呢? To find out how deep you can squat",
+          "channel": "EmpactPerformance",
+          "url": "https://www.youtube.com/watch?v=yDI-d-sNshI",
+          "duration": "3:08"
+        },
+        {
+          "name": "腿推",
+          "en": "Leg Press",
+          "kind": "lift",
+          "target": "股四頭肌、臀大肌、內收大肌",
+          "dose": "3 組 × 10–12 下，下背不可離開椅背",
+          "title": "腿推機怎麼踩才能練就完美線條？6 分鐘找到專屬於你的姿勢設定！｜練腿、腿部訓練、腿推",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=72Lwo1FevfM",
+          "duration": "6:47"
+        },
+        {
+          "name": "深蹲熱身序列",
+          "en": "Squat Warm-up Sequence",
+          "kind": "release",
+          "target": "髂腰肌、臀大肌、腓腸肌、內收肌群",
+          "dose": "訓練前一輪，每個動作 8–10 下",
+          "title": "深蹲前的暖身流程 (中文字幕)",
+          "channel": "Fitting Room TW",
+          "url": "https://www.youtube.com/watch?v=pnKeG-RPpN0",
+          "duration": "3:57"
+        }
+      ]
     },
     {
-     "name": "腰方肌按摩球放鬆",
-     "en": "Quadratus Lumborum Ball Release",
-     "kind": "release",
-     "target": "腰方肌",
-     "dose": "每側 60–90 秒，靠牆或仰躺，球置於第 12 肋與髂嵴之間、脊椎外側 3–5 公分",
-     "title": "QL Mobilization with Lacrosse Ball for Low Back Pain",
-     "channel": "Physio Room Co",
-     "url": "https://www.youtube.com/watch?v=pTAwn3alfnA",
-     "duration": "2:23"
-    },
-    {
-     "name": "下背豎脊肌滾筒放鬆",
-     "en": "Lumbar Erector Spinae Foam Roll",
-     "kind": "release",
-     "target": "腰段豎脊肌、胸腰筋膜",
-     "dose": "60–90 秒，滾筒放在脊椎旁兩側肌肉、不要直接壓脊椎骨；腰椎不做過度伸展",
-     "title": "How To Foam Roll Your Lower Back The RIGHT Way! [BETTER RESULTS]",
-     "channel": "Tone and Tighten",
-     "url": "https://www.youtube.com/watch?v=Orfqe-CQIZo",
-     "duration": "7:26"
-    },
-    {
-     "name": "內收肌滾筒放鬆",
-     "en": "Adductor Foam Roll",
-     "kind": "release",
-     "target": "內收肌群（內收長肌、內收大肌、恥骨肌）",
-     "dose": "每側 60 秒，趴姿把大腿內側橫放在滾筒上，由鼠蹊往膝內側慢慢滾",
-     "title": "How to foam roll your inner thigh (adductor muscles)",
-     "channel": "Upright Health",
-     "url": "https://www.youtube.com/watch?v=hSxQuAYlPrE",
-     "duration": "1:00"
-    },
-    {
-     "name": "半跪姿髖屈肌伸展",
-     "en": "Half-Kneeling Hip Flexor Stretch",
-     "kind": "stretch",
-     "target": "髂腰肌",
-     "dose": "每側 30 秒 × 3 組；先「夾臀＋骨盆後傾」再前推，感覺在鼠蹊而非腰",
-     "title": "Bulletproof Step-by-step Guide to the Half Kneeling Hip Flexor Stretch [stretching advice]",
-     "channel": "[P]rehab",
-     "url": "https://www.youtube.com/watch?v=gqoPYLUgP48",
-     "duration": "1:00"
-    },
-    {
-     "name": "沙發式股四頭伸展",
-     "en": "Couch Stretch",
-     "kind": "stretch",
-     "target": "股直肌、髂腰肌",
-     "dose": "每側 60–120 秒；腰不塌、全程保持骨盆後傾，痛感 6/10 以內",
-     "title": "Mobilization of the Week: Couch Stretch",
-     "channel": "The Ready State",
-     "url": "https://www.youtube.com/watch?v=ulgAOykAgV4",
-     "duration": "6:45"
-    },
-    {
-     "name": "闊筋膜張肌伸展",
-     "en": "TFL Stretch",
-     "kind": "stretch",
-     "target": "闊筋膜張肌、髂脛束近端",
-     "dose": "每側 30 秒 × 2–3 組，伸展側骨盆往外推、上半身往對側側彎",
-     "title": "3 Unique Tensor Fasciae Latae (TFL) Stretches",
-     "channel": "Precision Movement",
-     "url": "https://www.youtube.com/watch?v=RQscqJLyTZY",
-     "duration": "9:50"
-    },
-    {
-     "name": "腰方肌側彎伸展",
-     "en": "Quadratus Lumborum Stretch",
-     "kind": "stretch",
-     "target": "腰方肌",
-     "dose": "每側 30 秒 × 2 組；側彎時骨盆固定不跟著移動，避免腰椎旋轉代償",
-     "title": "Quadratus Lumborum Stretch (DO'S AND DON'TS!)",
-     "channel": "ATHLEAN-X",
-     "url": "https://www.youtube.com/watch?v=TXh1oLXb6zk",
-     "duration": "6:38"
-    },
-    {
-     "name": "嬰兒式下背伸展",
-     "en": "Child's Pose",
-     "kind": "stretch",
-     "target": "腰段豎脊肌、胸腰筋膜",
-     "dose": "60–90 秒，深呼吸讓下背隨吐氣沉下去，可雙手往一側偏強化單側",
-     "title": "Childs Pose Balasana Yoga Back Pain Stretch",
-     "channel": "The Physio Channel",
-     "url": "https://www.youtube.com/watch?v=YuCBOrSFvFA",
-     "duration": "2:37"
-    },
-    {
-     "name": "仰臥骨盆後傾控制",
-     "en": "Supine Posterior Pelvic Tilt",
-     "kind": "train",
-     "target": "腹直肌、腹橫肌（骨盆動作覺察）",
-     "dose": "10 下 × 3 組，每下停 3–5 秒；用腹肌把腰壓向地板，不要用夾臀或憋氣",
-     "title": "Fix anterior pelvic tilt: how to do pelvic tilts",
-     "channel": "Upright Health",
-     "url": "https://www.youtube.com/watch?v=ItIATQgXrYY",
-     "duration": "4:19"
-    },
-    {
-     "name": "死蟲式",
-     "en": "Dead Bug",
-     "kind": "train",
-     "target": "腹橫肌、腹直肌、腹斜肌",
-     "dose": "每側 8–10 下 × 3 組；全程腰不離地，離地就縮小動作幅度",
-     "title": "You're Doing Dead Bugs WRONG! Fix This for Stronger Abs & a Bulletproof Core",
-     "channel": "Squat University",
-     "url": "https://www.youtube.com/watch?v=0XVbn86Btj0",
-     "duration": "8:39"
-    },
-    {
-     "name": "臀橋",
-     "en": "Glute Bridge",
-     "kind": "train",
-     "target": "臀大肌、腿後肌群",
-     "dose": "12–15 下 × 3 組；先骨盆後傾再抬臀，頂點夾臀 2 秒，腰不反折",
-     "title": "How to Perform the Perfect Glute Bridge",
-     "channel": "Airrosti Rehab Centers",
-     "url": "https://www.youtube.com/watch?v=OUgsJ8-Vi0E",
-     "duration": "2:20"
-    },
-    {
-     "name": "90/90 髖抬呼吸",
-     "en": "90/90 Hip Lift with Breathing",
-     "kind": "train",
-     "target": "腹內斜肌、腹橫肌、腿後肌群（肋骨下沉＋骨盆後傾整合）",
-     "dose": "5 次呼吸 × 3 組；吐氣把肋骨往下拉、尾骨微捲，吸氣時維持不塌",
-     "title": "How To Do The 90/90 Hip Lift Exercise - Tangelo Health",
-     "channel": "Tangelo - Seattle Chiropractor + Rehab",
-     "url": "https://www.youtube.com/watch?v=DVDBBYeGLsg",
-     "duration": "1:15"
-    },
-    {
-     "name": "羅馬尼亞硬舉",
-     "en": "Romanian Deadlift (RDL)",
-     "kind": "train",
-     "target": "腿後肌群、臀大肌",
-     "dose": "8–10 下 × 3 組，輕重量起步；髖鉸鏈下放，腰維持中立不過度前拱",
-     "title": "HOW TO DO ROMANIAN DEADLIFTS (RDLs): Build Beefy Hamstrings With Perfect Technique",
-     "channel": "Jeff Nippard",
-     "url": "https://www.youtube.com/watch?v=_oyxCn2iSjU",
-     "duration": "6:22"
-    },
-    {
-     "name": "熊式支撐／熊爬",
-     "en": "Bear Crawl / Bear Hold",
-     "kind": "train",
-     "target": "腹橫肌、腹斜肌、臀肌（功能性整合）",
-     "dose": "支撐 20–30 秒 × 3 組，或前後爬行 5 公尺 × 3 趟；膝離地 2 公分、背平如桌",
-     "title": "Core strength: Bear Crawl",
-     "channel": "[P]rehab",
-     "url": "https://www.youtube.com/watch?v=4d52Y9W2M0g",
-     "duration": "0:58"
+      "id": "ch8-u4",
+      "name": "硬舉與單腳硬舉：後側鏈與髖穩定",
+      "type": "movement",
+      "assessment": "側面錄影拍完整一組硬舉，逐格檢查四件事。一是離地那一瞬間臀部有沒有比槓先往上跑，若有就是腿推不動改用腰拉。二是背線在整個上拉過程有沒有從直線變成弧線，胸椎微圓可接受，腰椎一旦掉下去就該減重。三是重心，槓的軌跡要貼著小腿垂直上升，槓一離開身體超過一個拳頭，下背立刻接管。四是鎖定時把手壓在臀部，應該是臀大肌把骨盆推到底而不是靠腰往後仰。單腳硬舉另外看正面：骨盆若往非支撐側掉超過一個拳頭高度，先退階到扶牆版本。",
+      "tight": ["腰段豎脊肌", "腰方肌", "腿後肌群", "髂腰肌"],
+      "weak": ["臀大肌", "腿後肌群", "背闊肌", "腹橫肌", "臀中肌"],
+      "lesson": {
+        "title": "如何用完美技巧來硬舉 ! | 完整步驟示範解說 | 改正這些錯誤 ✅",
+        "channel": "KosmoFit",
+        "url": "https://www.youtube.com/watch?v=WQCelK6JQ74",
+        "duration": "16:55",
+        "why": "把起始設定、腹壓、拉起順序與常見錯誤一次講完並逐項示範，長度足夠交代細節又不流於口號；比起只講三個重點的短片，更適合當這個單元反覆回看的主教材。"
+      },
+      "drills": [
+        {
+          "name": "傳統硬舉",
+          "en": "Conventional Deadlift",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌、背闊肌",
+          "dose": "4 組 × 3–5 下，每下重新設定",
+          "title": "硬舉教學之【傳統硬舉】｜健人訓練｜2017ep31",
+          "channel": "健人蓋伊",
+          "url": "https://www.youtube.com/watch?v=mGyKvmE7_Zc",
+          "duration": "6:30"
+        },
+        {
+          "name": "羅馬尼亞硬舉",
+          "en": "Romanian Deadlift",
+          "kind": "lift",
+          "target": "腿後肌群、臀大肌、腰段豎脊肌",
+          "dose": "3 組 × 8–10 下，下降到腿後開始被拉緊即回",
+          "title": "臀腿曲線再進化! 羅馬尼亞硬舉一定要會｜腿部訓練、瘦大腿、翹臀、臀部訓練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=ZyW80H9zZaE",
+          "duration": "8:26"
+        },
+        {
+          "name": "六角槓硬舉",
+          "en": "Trap Bar Deadlift",
+          "kind": "lift",
+          "target": "臀大肌、股四頭肌、腿後肌群、豎脊肌",
+          "dose": "4 組 × 5 下",
+          "title": "六角槓硬舉，初學者最適合的大腿後側訓練｜翹臀、臀部訓練、腿部訓練、瘦大腿",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=4-__MZA0I6U",
+          "duration": "7:42"
+        },
+        {
+          "name": "相撲硬舉",
+          "en": "Sumo Deadlift",
+          "kind": "lift",
+          "target": "臀大肌、內收肌群、股四頭肌、腿後肌群",
+          "dose": "4 組 × 3–5 下，起始先把膝蓋往外撐開",
+          "title": "【相撲硬舉】寬腿硬舉8分鐘完整教學｜健人訓練｜2018ep34",
+          "channel": "健人蓋伊",
+          "url": "https://www.youtube.com/watch?v=TfSrlOsH2U0",
+          "duration": "8:04"
+        },
+        {
+          "name": "單腳硬舉",
+          "en": "Single-Leg Deadlift",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、臀中肌、腹斜肌",
+          "dose": "每側 3 組 × 6–8 下",
+          "title": "單腳硬舉訓練教學｜正確姿勢與常見錯誤避免！提升你的平衡與穩定性 打造渾圓翹臀技巧！",
+          "channel": "女力健身 Nuli App",
+          "url": "https://www.youtube.com/watch?v=Gj1nNdNdBaw",
+          "duration": "5:08"
+        },
+        {
+          "name": "單腳 RDL",
+          "en": "Single-Leg RDL",
+          "kind": "lift",
+          "target": "腿後肌群、臀大肌、臀中肌、髖深層外旋肌群",
+          "dose": "每側 3 組 × 8 下，骨盆保持與地面平行",
+          "title": "最好的單腿訓練動作 (中文字幕)",
+          "channel": "Fitting Room TW",
+          "url": "https://www.youtube.com/watch?v=8aYMvHubyew",
+          "duration": "5:09"
+        },
+        {
+          "name": "硬舉起始姿勢設定",
+          "en": "Deadlift Setup",
+          "kind": "activate",
+          "target": "背闊肌、臀大肌、腿後肌群、腹橫肌",
+          "dose": "空槓 3 組 × 5 次設定，每次只做離地 2 公分",
+          "title": "硬舉就只是一味把屁股往後推？你需要先注意重心位置有沒有放對！｜就。看動作EP07｜臀部訓練、RDL、硬舉教學、單腳硬舉 ft. Julie 教練",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=fT2woIMeuKw",
+          "duration": "8:04"
+        },
+        {
+          "name": "硬舉的背部姿勢與腹壓",
+          "en": "Deadlift Bracing & Spinal Position",
+          "kind": "activate",
+          "target": "腹橫肌、背闊肌、胸段豎脊肌、前臂屈肌群",
+          "dose": "3 組 × 3 下重量拉，每下先吸滿氣鎖住背闊肌",
+          "title": "【硬舉時上半身常常撐不住?握力不好握不住?核心不夠力】硬舉突破訓練│凱傑Feat.韻文Adeline【史壯健身STRONG】",
+          "channel": "凱傑KJ",
+          "url": "https://www.youtube.com/watch?v=FVna4RbyukU",
+          "duration": "4:42"
+        },
+        {
+          "name": "硬舉常見錯誤",
+          "en": "Deadlift Common Faults",
+          "kind": "activate",
+          "target": "腰段豎脊肌、臀大肌、腿後肌群",
+          "dose": "對照影片逐項錄影自檢，每個錯誤各修正 5 下",
+          "title": "「硬舉」（壹）常見錯誤動作與改善",
+          "channel": "凱傑KJ",
+          "url": "https://www.youtube.com/watch?v=0Sn16nd5e5U",
+          "duration": "8:38"
+        },
+        {
+          "name": "壺鈴硬舉",
+          "en": "Kettlebell Deadlift",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌",
+          "dose": "3 組 × 10 下，當作硬舉前的模式重建",
+          "title": "HYPERCORE | 壺鈴初學者的八堂課_硬舉 Kettlebell Deadlift（中文字幕 ）",
+          "channel": "林勁瑋 x 大腦優先教練學院",
+          "url": "https://www.youtube.com/watch?v=TK4n7sa8Vyc",
+          "duration": "5:04"
+        },
+        {
+          "name": "腿後肌群離心訓練",
+          "en": "Nordic Hamstring Curl",
+          "kind": "lift",
+          "target": "腿後肌群、臀大肌",
+          "dose": "3 組 × 4–6 下，離心至少撐 3 秒，先從高角度退階",
+          "title": "Master The Nordic Hamstring Curl to Improve Your Hamstring Strength",
+          "channel": "[P]rehab",
+          "url": "https://www.youtube.com/watch?v=F-AaE8mw_pY",
+          "duration": "7:48",
+          "note": "查過「北歐式腿後彎舉／腿後肌 離心 訓練／nordic hamstring curl 中文」等關鍵字，中文頻道只找得到俯臥腿彎舉器械與腿後伸展影片，沒有專講北歐式離心的合格中文影片，故採英文的 Prehab Guys 版本。"
+        },
+        {
+          "name": "後側鏈整合",
+          "en": "Posterior Chain Integration",
+          "kind": "lift",
+          "target": "臀大肌、腿後肌群、腰段豎脊肌、背闊肌",
+          "dose": "3 組 × 8 下，作為 RDL 與硬舉之間的收尾",
+          "title": "最佳後側鏈臀腿訓練｜正確操作羅馬尼亞硬舉｜5大常見錯誤｜Jay Wang",
+          "channel": "Jay Wang",
+          "url": "https://www.youtube.com/watch?v=nsdsd8OJ8qo",
+          "duration": "6:08"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "ch8-u2",
-   "name": "骨盆後傾",
-   "en": "Posterior Pelvic Tilt",
-   "type": "posture",
-   "assessment": "【基本檢測】① 側面站立，食指按 ASIS、拇指按 PSIS：若 ASIS 高於 PSIS（或兩者等高甚至 ASIS 更高），即為骨盆後傾。② 仰臥屈膝時，腰下幾乎塞不進手指、腰椎完全貼地 → 腰椎生理曲度變直，常伴隨骨盆後傾。③ 外觀：臀部扁平無翹度、站姿呈「駝腰＋膝微彎＋骨盆前推」的 sway back，坐著時骨盆往後滾、用尾骨坐。④ 直腿抬高測試：仰臥一腳伸直抬起，若不到 70 度就被拉住 → 腿後肌緊繃（骨盆後傾最常見的驅動因素）。⑤ 久坐族自我提示：坐著時若必須刻意「把肚子往前送」才坐得直，多半是骨盆後傾。\n\n【與骨盆前傾的方向差異 —— 重要】骨盆後傾的矯正方向與 u1 骨盆前傾完全相反：這裡要放鬆／伸展的是腿後肌、臀大肌、腹直肌與小腿，要訓練的是髂腰肌、腰段豎脊肌與多裂肌。不要把 u1 的「仰臥骨盆後傾控制」「死蟲式」「臀橋」當成本單元的主菜 —— 那些會讓骨盆後傾更明顯；同理，骨盆後傾的人也不該把 u1 的髖屈肌伸展當成日常功課。務必先用上面的 ASIS／PSIS 測試確認自己屬於哪一邊，再選單元；同時做兩個單元只會互相抵銷。\n\n【紅旗】若骨盆後傾伴隨明顯駝背、身高變矮、或年長者出現無法挺直的情形，可能涉及椎體壓迫性骨折或退化性脊椎變形，請就醫評估。",
-   "tight": [
-    "腿後肌群",
-    "臀大肌",
-    "腹直肌",
-    "梨狀肌",
-    "小腿三頭肌"
-   ],
-   "weak": [
-    "髂腰肌",
-    "腰段豎脊肌",
-    "多裂肌",
-    "股直肌"
-   ],
-   "lesson": {
-    "title": "Fixing Posterior Pelvic Tilt (FULL ROUTINE)",
-    "channel": "Tom Merrick",
-    "url": "https://www.youtube.com/watch?v=x38x8nPsqX4",
-    "duration": "11:47",
-    "why": "完整的骨盆後傾矯正流程，從評估到動作順序一次講完，且動作方向與 CH6 腰椎過直單元不衝突。"
-   },
-   "drills": [
-    {
-     "name": "腿後肌滾筒放鬆",
-     "en": "Hamstring Foam Roll",
-     "kind": "release",
-     "target": "腿後肌群（半腱肌、半膜肌、股二頭肌）",
-     "dose": "每側 60–90 秒，由坐骨往膝窩上方慢慢滾，避開膝窩",
-     "title": "Foam Rolling Hamstrings: Dos, Don'ts & How To",
-     "channel": "Sports Injury Physio",
-     "url": "https://www.youtube.com/watch?v=jV9SSJ3OkcA",
-     "duration": "7:57"
-    },
-    {
-     "name": "臀大肌／梨狀肌按摩球放鬆",
-     "en": "Glute & Piriformis Ball Release",
-     "kind": "release",
-     "target": "臀大肌、梨狀肌",
-     "dose": "每側 60–90 秒；坐在球上翹腳，找到酸點停留呼吸，出現麻電感立即移開",
-     "title": "Tennis Ball Self-Massage for Your Glutes and Piriformis",
-     "channel": "The Online Physiotherapist",
-     "url": "https://www.youtube.com/watch?v=l3flN43z-EQ",
-     "duration": "2:53"
-    },
-    {
-     "name": "小腿後側滾筒放鬆",
-     "en": "Calf Foam Roll",
-     "kind": "release",
-     "target": "腓腸肌、比目魚肌",
-     "dose": "每側 60 秒；小腿緊會讓站姿重心後移、加重骨盆後傾",
-     "title": "Wellness Wednesday: Roll the ache out of your tight calves",
-     "channel": "Mayo Clinic",
-     "url": "https://www.youtube.com/watch?v=rpVMZziJeY8",
-     "duration": "1:02"
-    },
-    {
-     "name": "腹部筋膜徒手放鬆",
-     "en": "Abdominal Fascial Release",
-     "kind": "release",
-     "target": "腹直肌、腹部前側筋膜",
-     "dose": "60–90 秒，仰躺屈膝、指腹或軟球輕壓肚臍兩側慢慢畫圈；飯後 2 小時內勿做",
-     "title": "Fascial Release - Abdomen",
-     "channel": "Phit Physiotherapy",
-     "url": "https://www.youtube.com/watch?v=WTDpLMbVIq0",
-     "duration": "5:21"
-    },
-    {
-     "name": "仰臥腿後肌伸展（毛巾／彈力帶）",
-     "en": "Supine Hamstring Stretch with Strap",
-     "kind": "stretch",
-     "target": "腿後肌群",
-     "dose": "每側 30 秒 × 3 組；膝可微彎，重點是骨盆不要跟著往後捲",
-     "title": "Hamstring Stretch with a Strap, Supine - Ask Doctor Jo",
-     "channel": "AskDoctorJo",
-     "url": "https://www.youtube.com/watch?v=Il1L75v6gq0",
-     "duration": "0:39"
-    },
-    {
-     "name": "四字型臀肌伸展",
-     "en": "Figure-4 Glute Stretch",
-     "kind": "stretch",
-     "target": "臀大肌、梨狀肌",
-     "dose": "每側 30 秒 × 3 組；感覺在臀部深處，若有麻電感立即放鬆",
-     "title": "Figure 4 (Piriformis) Stretch for Sciatica Pain",
-     "channel": "Vive Health",
-     "url": "https://www.youtube.com/watch?v=E6sqUHFt6Ng",
-     "duration": "1:32"
-    },
-    {
-     "name": "俯臥撐起（眼鏡蛇式）腹前側伸展",
-     "en": "Prone Press-Up / Cobra Stretch",
-     "kind": "stretch",
-     "target": "腹直肌、腹部前側筋膜",
-     "dose": "10 下 × 2–3 組，每下頂點停 2–3 秒；臀部放鬆貼地，出現下肢麻痛立即停止",
-     "title": "Pressup Cobra Spine Stretch",
-     "channel": "stoneclinicPT",
-     "url": "https://www.youtube.com/watch?v=L3A0pW34o44",
-     "duration": "1:40"
-    },
-    {
-     "name": "站姿小腿伸展（推牆）",
-     "en": "Standing Calf Stretch",
-     "kind": "stretch",
-     "target": "腓腸肌、比目魚肌",
-     "dose": "每側直膝 30 秒＋屈膝 30 秒，各 2 組；腳跟全程不離地",
-     "title": "Plantar Fascia Standing Calf Stretch (gastrocnemius and soleus muscles)",
-     "channel": "NHS Ayrshire & Arran",
-     "url": "https://www.youtube.com/watch?v=2_2GMXTc1BE",
-     "duration": "1:18"
-    },
-    {
-     "name": "骨盆前傾覺察與控制",
-     "en": "Anterior Pelvic Tilt Awareness & Control",
-     "kind": "train",
-     "target": "髂腰肌、腰段豎脊肌（骨盆動作覺察）",
-     "dose": "前後各 10 下 × 3 組；先躺姿再進階到坐姿、站姿；重點是找回「往前傾」的能力，而非停在極端位置",
-     "title": "Fix Anterior, Posterior or Lateral Pelvic Tilt via Awareness & Control",
-     "channel": "Precision Movement",
-     "url": "https://www.youtube.com/watch?v=SkRgaLyC9U0",
-     "duration": "11:08"
-    },
-    {
-     "name": "髂腰肌行軍",
-     "en": "Psoas March",
-     "kind": "train",
-     "target": "髂腰肌",
-     "dose": "每側 10–12 下 × 3 組，彈力帶或抬腿等長皆可；屈髖超過 90 度才練得到腰大肌上段",
-     "title": "Hip Flexor Strength Psoas March",
-     "channel": "The Sports And Spinal Group",
-     "url": "https://www.youtube.com/watch?v=9v6YAbCvmX0",
-     "duration": "1:09"
-    },
-    {
-     "name": "鳥狗式",
-     "en": "Bird Dog",
-     "kind": "train",
-     "target": "多裂肌、腰段豎脊肌、臀大肌",
-     "dose": "每側 8–10 下 × 3 組，頂點停 3–5 秒；骨盆不歪，背上放水杯不掉",
-     "title": "Physical Therapy - Bird Dog Exercise",
-     "channel": "ChoosePT",
-     "url": "https://www.youtube.com/watch?v=ww-6lRXvI9Y",
-     "duration": "2:17"
-    },
-    {
-     "name": "俯臥背部伸展（超人式）",
-     "en": "Prone Back Extension / Superman",
-     "kind": "train",
-     "target": "腰段豎脊肌、多裂肌",
-     "dose": "10–12 下 × 3 組，抬起幅度小而穩、停 2 秒；不要用力甩起來擠壓腰椎",
-     "title": "Prone Back Extension",
-     "channel": "Functional Fitness VA",
-     "url": "https://www.youtube.com/watch?v=cIYeKqLqVVs",
-     "duration": "2:22"
-    },
-    {
-     "name": "髖鉸鏈（棍棒三點觸）",
-     "en": "Hip Hinge with Dowel",
-     "kind": "train",
-     "target": "臀大肌、腰段豎脊肌（功能性整合）",
-     "dose": "10–12 下 × 3 組；棍子貼住後腦、上背、薦骨三點不脫離，學會「彎髖不彎腰」",
-     "title": "Teaching the Hip Hinge",
-     "channel": "Muscle & Motion",
-     "url": "https://www.youtube.com/watch?v=t4ouk4TmrS8",
-     "duration": "1:14"
-    }
-   ]
-  },
-  {
-   "id": "ch8-u3",
-   "name": "骨盆歪斜（側傾／旋轉）",
-   "en": "Lateral Pelvic Tilt / Pelvic Rotation",
-   "type": "posture",
-   "assessment": "【基本檢測】① 赤腳、雙腳與肩同寬站在平地，請旁人把兩手掌緣壓在你兩側髂嵴最高點，由後方平視比較高低；也可看褲頭／腰帶是否一邊高、兩側腰線凹陷深淺不同。② 旋轉檢查：由上往下看兩側 ASIS，一側明顯較前 → 骨盆旋轉。③ 單腳站測試（Trendelenburg）：單腳站在懷疑無力的那一側，若對側骨盆掉下去 → 站立側臀中肌無力。\n\n【功能性 vs 結構性 —— 一定要先分清楚】\n• 功能性（肌肉不平衡／習慣造成，運動可改善）：典型是高側腰方肌與內收肌單側緊繃、低側或對側臀中肌單側無力，常見於長期翹腳、單側揹包、站三七步、單邊承重工作。\n• 結構性（真實長短腳、髖臼發育差異、結構性脊椎側彎；運動改善有限）：骨頭長度本身不等，肌肉再怎麼練也補不回來。\n【三個粗略分辨方法】\n1. 躺姿量腿長：仰臥躺平、雙腿併攏擺正，用皮尺量「ASIS → 同側內踝尖」。兩側差 < 1 公分多為功能性；差 ≥ 1–1.5 公分且反覆量測都穩定，疑結構性。\n2. 坐姿再測：坐在硬椅上（排除下肢因素）再摸兩側髂嵴。坐下後變等高 → 高低差來自下肢／站姿習慣，屬功能性；坐著仍不等高 → 骨盆／脊柱本身結構或腰方肌張力差異，需進一步評估。\n3. 主動矯正測試：先放鬆高側腰方肌 60 秒、再讓低側臀中肌用力收縮 10 下，然後立刻重測。高低差明顯改善 → 功能性，本單元動作會有效；毫無變化 → 傾向結構性。\n【結構性請就醫】若三項測試都指向結構性，或伴隨脊椎明顯 C 型／S 型彎曲、前彎時單側背部隆起（Adam's forward bend 陽性）、持續單側疼痛，請至骨科／復健科就醫。通常需要站立全長下肢 X 光確認真實腿長差，再由專業人員評估是否需要鞋跟補高或訂製鞋墊。單靠運動無法改變骨頭長度，硬練反而可能製造新的代償。\n\n【本單元所有動作都是單側性的 —— 重要】每個動作只練「緊繃側」或「無力側」，不要兩邊做等量 —— 兩側均等地練，只會把不對稱原封不動保留下來。原則：放鬆與伸展做「高側／緊繃側」（骨盆較高那側，腰方肌與內收肌通常較緊）；訓練做「低側／無力側」（骨盆掉下去或單腳站不穩那側，臀中肌通常較弱）。不確定哪一側時，用上面的主動矯正測試找出「做完會變好」的那一邊。每 2–3 週重測一次，等高低差消失後改為兩側均等維持即可。",
-   "tight": [
-    "腰方肌（高側）",
-    "內收肌群（高側）",
-    "闊筋膜張肌／髂脛束（緊繃側）",
-    "梨狀肌（緊繃側）"
-   ],
-   "weak": [
-    "臀中肌（低側／無力側）",
-    "臀小肌（低側）",
-    "腹斜肌（低側）",
-    "腰方肌（低側）"
-   ],
-   "lesson": {
-    "title": "骨盆歪斜真相大公開：物理治療師教你評估與矯正｜Juice物理治療師",
-    "channel": "Juice物理治療師",
-    "url": "https://www.youtube.com/watch?v=KgbjGncYBhI",
-    "duration": "14:05",
-    "why": "目前最完整的繁中骨盆歪斜教學：先教自我評估與「真歪斜 vs 假歪斜」的判斷，再分別談功能性肌肉不平衡與結構性長短腳該怎麼處理，正好對應本單元最核心的鑑別觀念。"
-   },
-   "drills": [
-    {
-     "name": "腰方肌滾筒放鬆（單側）",
-     "en": "Quadratus Lumborum Foam Roll (Unilateral)",
-     "kind": "release",
-     "target": "腰方肌（高側）",
-     "dose": "僅練緊繃側（骨盆較高那一側）60–90 秒，對側不做；滾筒放在第 12 肋與髂嵴之間、脊椎外側",
-     "title": "QL Foam Roller Release",
-     "channel": "Next Level Physical Therapy",
-     "url": "https://www.youtube.com/watch?v=5GaHEUqT130",
-     "duration": "0:51"
-    },
-    {
-     "name": "臀中肌／臀小肌激痛點放鬆（單側）",
-     "en": "Gluteus Medius & Minimus Trigger Point Release (Unilateral)",
-     "kind": "release",
-     "target": "臀中肌、臀小肌（緊繃側）",
-     "dose": "僅練緊繃側 60–90 秒，另一側不做；躺在球上找到髂嵴下方外側的酸點停留呼吸",
-     "title": "Trigger Point Release - Gluteus Medius",
-     "channel": "NAT Global Campus",
-     "url": "https://www.youtube.com/watch?v=9LVTAYVnDBU",
-     "duration": "8:09"
-    },
-    {
-     "name": "髂脛束／股外側肌滾筒放鬆（單側）",
-     "en": "IT Band & Vastus Lateralis Foam Roll (Unilateral)",
-     "kind": "release",
-     "target": "髂脛束、股外側肌（緊繃側）",
-     "dose": "僅練緊繃側 60–90 秒，對側不做；重點放在大腿外側上半段與股外側肌，別死壓髂脛束本體",
-     "title": "IT Band Tightness? You're Treating It Wrong",
-     "channel": "Tone and Tighten",
-     "url": "https://www.youtube.com/watch?v=Tie1ssX7oE0",
-     "duration": "9:37"
-    },
-    {
-     "name": "內收肌按摩球放鬆（單側）",
-     "en": "Adductor Ball Release (Unilateral)",
-     "kind": "release",
-     "target": "內收肌群（高側／緊繃側）",
-     "dose": "僅練緊繃側 60–90 秒，對側不做；由鼠蹊往膝內側找酸點停留，避開股動脈搏動處",
-     "title": "Decrease Groin and Hip Pain with this Adductor Self-Release",
-     "channel": "Carter Physiotherapy",
-     "url": "https://www.youtube.com/watch?v=p2uSQTxwez4",
-     "duration": "1:46"
-    },
-    {
-     "name": "蛙式內收肌伸展（單側）",
-     "en": "Half-Frog Adductor Stretch (Unilateral)",
-     "kind": "stretch",
-     "target": "內收肌群（緊繃側）",
-     "dose": "僅伸展緊繃側 45–60 秒 × 3 組（做半蛙式、只開一腳）；對側不做，或最多做 1 組維持",
-     "title": "Frog Adductor Stretch",
-     "channel": "VIGEO",
-     "url": "https://www.youtube.com/watch?v=JzOkzgDuHzY",
-     "duration": "1:40"
-    },
-    {
-     "name": "腰方肌站姿側線伸展（單側）",
-     "en": "Standing Lateral Line QL Stretch (Unilateral)",
-     "kind": "stretch",
-     "target": "腰方肌（高側）",
-     "dose": "僅伸展高側（骨盆較高那一側）30–45 秒 × 3 組，對側不做；同側手過頭往對側延伸，骨盆往伸展側推出",
-     "title": "QUADRATUS LUMBORUM – Standing Lateral Line Stretch",
-     "channel": "LearnMuscles.com",
-     "url": "https://www.youtube.com/watch?v=JptRRvpL4ss",
-     "duration": "1:28"
-    },
-    {
-     "name": "90/90 髖旋轉伸展（單側）",
-     "en": "90/90 Hip Rotation Stretch (Unilateral)",
-     "kind": "stretch",
-     "target": "梨狀肌、髖深層外旋肌（受限側）",
-     "dose": "僅練活動度受限側 45–60 秒 × 3 組，對側最多做 1 組；前腳內旋、後腳外旋，坐骨盡量不離地",
-     "title": "How to do a 90/90 Hip Stretch properly - CORRECT FORM IS ESSENTIAL",
-     "channel": "Jack Hanrahan Fitness",
-     "url": "https://www.youtube.com/watch?v=VYvMMw8z3rE",
-     "duration": "5:59"
-    },
-    {
-     "name": "側躺闊筋膜張肌／髂脛束伸展（單側）",
-     "en": "Sidelying TFL / IT Band Stretch (Unilateral)",
-     "kind": "stretch",
-     "target": "闊筋膜張肌、髂脛束（緊繃側）",
-     "dose": "僅伸展緊繃側 30–45 秒 × 3 組，對側不做；上側腿往後下方垂放，骨盆不要往前翻",
-     "title": "Sidelying TFL IT Band Stretch",
-     "channel": "Conservative Orthopedics",
-     "url": "https://www.youtube.com/watch?v=kGVFtTlF_vg",
-     "duration": "3:25"
-    },
-    {
-     "name": "蚌式（單側）",
-     "en": "Clamshell (Unilateral)",
-     "kind": "train",
-     "target": "臀中肌後束（無力側）",
-     "dose": "僅練無力側 15 下 × 3 組（對側最多做 1 組）；骨盆不後翻，手摸臀外側確認有收縮",
-     "title": "貝殼式 clam exercise 矯正髖、骨盆的位置，利用訓練臀中肌來避免骨盆歪斜、跑步膝蓋外側痛、假跨髖等問題。是居家訓練的好運動。",
-     "channel": "全人物理治療所",
-     "url": "https://www.youtube.com/watch?v=e_8Uq5zHOHw",
-     "duration": "3:44"
-    },
-    {
-     "name": "側臥髖外展（單側）",
-     "en": "Side-Lying Hip Abduction (Unilateral)",
-     "kind": "train",
-     "target": "臀中肌、臀小肌（無力側）",
-     "dose": "僅練無力側 12–15 下 × 3 組（對側最多做 1 組）；腿略往後、腳尖朝前或微內轉，避免闊筋膜張肌代償",
-     "title": "Strengthen Your Gluteus Medius with Side-Lying Hip Abduction | Pain Science Physical Therapy",
-     "channel": "Pain Science Physical Therapy",
-     "url": "https://www.youtube.com/watch?v=dBQXWsdrnfo",
-     "duration": "1:56"
-    },
-    {
-     "name": "側平板支撐（單側）",
-     "en": "Side Plank (Unilateral)",
-     "kind": "train",
-     "target": "腹斜肌、腰方肌、臀中肌（無力側）",
-     "dose": "僅練「無力側在下」的方向，20–40 秒 × 3 組；由屈膝版本進階到直腿版，對側最多做一半時間",
-     "title": "Side Plank Exercise with Progressions",
-     "channel": "TheProactiveAthlete",
-     "url": "https://www.youtube.com/watch?v=70RWtuvuGhs",
-     "duration": "6:14"
-    },
-    {
-     "name": "單腳臀橋（單側）",
-     "en": "Single-Leg Glute Bridge (Unilateral)",
-     "kind": "train",
-     "target": "臀大肌、臀中肌（無力側）",
-     "dose": "僅練無力側 10–12 下 × 3 組（對側最多做 1 組）；抬起時骨盆兩側保持水平不掉落，頂點停 2 秒",
-     "title": "How To Single Leg Glute Bridge Properly",
-     "channel": "Michael Hermann | Performance Revolution",
-     "url": "https://www.youtube.com/watch?v=yFNjwkUNIao",
-     "duration": "2:42"
-    },
-    {
-     "name": "手提箱行走（單側負重）",
-     "en": "Suitcase Carry (Unilateral Load)",
-     "kind": "train",
-     "target": "腰方肌、腹斜肌、臀中肌（功能性整合、抗側彎）",
-     "dose": "重量只提在高側那隻手（讓低側側腹與臀中肌抗傾），走 20–30 公尺 × 3 趟；肩不聳、身體不側彎",
-     "title": "The Best Core Exercise You're Not Doing",
-     "channel": "Squat University",
-     "url": "https://www.youtube.com/watch?v=LJaq4BS7KpE",
-     "duration": "4:55"
-    }
-   ]
-  }
- ]
+  ]
 }

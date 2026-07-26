@@ -1,0 +1,44 @@
+{
+  "lessons": [
+    {
+      "unit": "ch4-u1",
+      "lang": "en",
+      "title": "Rep Ranges and Training Intensity | The Fundamentals Series: Chapter 3",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=3JOEZb46-dM",
+      "why": "英文版把肌力、肌肥大、肌耐力對應的次數與強度區間用研究數據拆開講，和中文主課的週期化角度互補，想看原始文獻依據的人可以直接對照。"
+    },
+    {
+      "unit": "ch4-u2",
+      "lang": "en",
+      "title": "How Long Should You REST Between Sets? | Fundamentals Series Ep. 5",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=NR94rNsArv0",
+      "why": "主課把訓練量講透但沒細談休息，這支補上組間休息長度對訓練量與肌肥大的實際影響，兩支合起來才是完整的劑量處方。"
+    },
+    {
+      "unit": "ch4-u3",
+      "lang": "en",
+      "title": "Progressive Overload for Strength vs Hypertrophy Training | How to Progress Training Variables",
+      "channel": "Flow High Performance",
+      "url": "https://www.youtube.com/watch?v=fD4OyUDfL3U",
+      "why": "主課處理「練得夠不夠」，這支處理「下一次怎麼加」，把重量、次數、組數、密度等可調變項一個個列出來，並區分肌力與肌肥大的加法差異。"
+    },
+    {
+      "unit": "ch4-u4",
+      "lang": "en",
+      "title": "Mind Muscle Connection Is The MOST Important For Growth?",
+      "channel": "Renaissance Periodization",
+      "url": "https://www.youtube.com/watch?v=wXHPH7H5Omk",
+      "why": "與主課立場略有出入，示範同一份證據可以有不同解讀；同時談到動作控制與代償該怎麼在課表裡處理，適合想聽第二意見的讀者。"
+    },
+    {
+      "unit": "ch4-u5",
+      "lang": "en",
+      "title": "From Beginner to Superhuman - Calisthenics Levels Explained",
+      "channel": "Calisthenicmovement",
+      "url": "https://www.youtube.com/watch?v=EzXUbO9T8qQ",
+      "why": "把徒手動作依難度分層排成階梯，清楚示範槓桿長度、支撐點與單雙邊如何改變難度，是主課單一動作範例之外的通則版本。"
+    }
+  ]
+}

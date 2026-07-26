@@ -1,0 +1,610 @@
+{
+  "conditions": [
+    {
+      "unit": "ch6-u1",
+      "name": "肩胛穩定與背部發力基礎",
+      "evidence_grade": "contested",
+      "summary": "「先把肩胛穩住才拉得動背」在健身房被當成前提，但文獻支持得比想像中弱。兩篇同樣只納入前瞻性研究的統合分析給出相反答案：一篇算出無症狀運動員若有肩胛動作異常，未來 9–24 個月發生肩痛的風險比為 1.43（95% CI 1.05–1.93）；另一篇納入 7 篇、923 名運動員後算出 RR 只有 1.07（95% CI 0.85–1.34，p=0.59），不具統計顯著。針對已經有肩峰下疼痛的人，肩胛穩定訓練確實能降低疼痛（VAS 加權平均差 −0.94，95% CI −1.23 到 −0.65），但只要對照組本來就在做漸進式肩帶肌力訓練，額外加上肩胛穩定動作就不再多出好處。合理的結論是：肩胛訓練有價值，但價值多半來自「有在練、有漸進負荷」，而不是「把肩胛擺到正確位置」。",
+      "mechanism": "教科書機轉是肩胛在上肢動作時需要上旋、後傾與外旋，才能維持肩峰下空間，並給背闊肌與斜方肌一個穩定的起點。這部分的運動學描述有 3D 動作分析支持。但「肩胛位置偏差 → 夾擠 → 疼痛」這條因果鏈只是推論：橫斷面看到的肩胛差異同樣可能是疼痛造成的結果而非原因，而且肩胛動作異常在無症狀運動員的盛行率高達 46%，一個近半數人都有的「異常」很難是致病因子。",
+      "performance_effect": "沒有研究顯示肩胛穩定訓練會直接提高拉系動作的最大肌力或訓練量。閉鏈運動的系統性回顧只能告訴我們哪些動作的上斜方肌／前鋸肌活性比值較佳（79 個閉鏈動作中，59 個對前鋸肌達到「理想比值」低於 0.60），這是急性 EMG 層級的資訊，不是表現層級的證據。",
+      "hypertrophy_strength": "對肌肥大沒有直接證據，且機轉上不該有：肩胛穩定動作（低划船、俯臥水平外展、牆面滑行）的負荷遠低於引體向上或划船，研究測的是 %MVIC 而不是肌肉厚度或 1RM。想長背仍然只能靠垂直拉與水平拉的漸進負荷，肩胛訓練的定位是暖身與動作品質。有一個間接但有力的旁證：肩痛族群的統合分析顯示，含肌力訓練或主動運動的復健方案對外轉肌力有中等效果（SMD 0.56，95% CI 0.39–0.74），不含肌力訓練的方案則對所有肌力指標都沒有效果——真正起作用的成分是負荷。",
+      "injury_link": "見上：兩篇統合分析結論相反。最誠實的說法是「肩胛動作異常最多只是一個弱關聯的風險標記，不是已證實的致病原因」，而且從來沒有研究證明矯正它可以降低未來的肩痛風險。",
+      "assessment_validity": "目視肩胛動作分型（Kibler 分型或 Yes/No 判定）的評分者間信度只有中等，且在無症狀者身上陽性率極高（約 46%），陽性預測價值低。本課程把它當成觀察用的描述，不是診斷工具。",
+      "red_flags": [
+        "手臂上舉時肩膀出現明顯卡住或彈響並伴隨疼痛，休息兩週仍無改善",
+        "單側肩胛在放鬆站姿下明顯翹離胸廓（翼狀肩胛），合併手臂上舉無力",
+        "拉系訓練後出現上肢麻木、握力下降或夜間痛醒",
+        "外傷後主動抬手無法超過 90 度，但被動可以被抬起"
+      ],
+      "caveats": "這個單元最容易被過度銷售。「你是因為肩胛不穩定才練不到背」在文獻上沒有直接支持，更可能的解釋是負荷不足、動作幅度不夠或訓練量太低。另外要說清楚：本單元幾乎所有可用證據都來自肩痛患者的復健研究，把它外推到健康人的健身房訓練是課程做的推論，不是研究本身的結論。",
+      "citations": [
+        {
+          "pmid": "28735288",
+          "title": "Scapular dyskinesis increases the risk of future shoulder pain by 43% in asymptomatic athletes: a systematic review and meta-analysis.",
+          "journal": "Br J Sports Med",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "5 篇前瞻研究、419 名無症狀運動員，有肩胛動作異常者未來發生肩痛的 RR=1.43（95% CI 1.05–1.93）。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28735288/"
+        },
+        {
+          "pmid": "33211975",
+          "title": "Scapular Dyskinesis Is Not an Isolated Risk Factor for Shoulder Injury in Athletes: A Systematic Review and Meta-analysis.",
+          "journal": "Am J Sports Med",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "納入 7 篇、923 名運動員、212 次肩傷後，肩胛動作異常與肩傷的關聯 RR 僅 1.07（95% CI 0.85–1.34，p=0.59），不顯著。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33211975/"
+        },
+        {
+          "pmid": "38497039",
+          "title": "Effect of scapular stabilization exercises on subacromial pain (impingement) syndrome: a systematic review and meta-analysis of randomized controlled trials.",
+          "journal": "Front Neurol",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "8 篇 RCT、387 人：肩胛穩定訓練相較常規物理治療降低疼痛（VAS WMD −0.94）與失能（SPADI WMD −10.10），但關節活動度沒有額外改善。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38497039/"
+        },
+        {
+          "pmid": "32861372",
+          "title": "Effects of adding scapular stabilization exercises to a periscapular strengthening exercise program in patients with subacromial pain syndrome: A randomized controlled trial.",
+          "journal": "Musculoskelet Sci Pract",
+          "year": 2020,
+          "design": "rct",
+          "takeaway": "60 名肩峰下疼痛患者、8 週：在漸進式肩帶肌力訓練之上再加強調後縮與下壓的肩胛穩定動作，功能、疼痛、肌力、活動度在任何時間點都沒有組間差異。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32861372/"
+        },
+        {
+          "pmid": "31860828",
+          "title": "Muscle Activity Ratios of Scapular Stabilizers During Closed Kinetic Chain Exercises in Healthy Shoulders: A Systematic Review.",
+          "journal": "J Sport Rehabil",
+          "year": 2020,
+          "design": "systematic-review",
+          "takeaway": "29 篇觀察性研究、79 個閉鏈動作：多數動作能達到理想的上斜方肌／前鋸肌比值，但部分在不穩定表面進行的動作反而讓上斜方肌相對前鋸肌過度活化。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31860828/"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u2",
+      "name": "垂直拉：滑輪下拉與引體向上",
+      "evidence_grade": "limited",
+      "summary": "握距與握法的差異在 EMG 上比健身房說法小得多，而且幾乎沒有長期成果的資料。15 名男性的 6RM 測試顯示窄握（80.3 kg）與中握（80.0 kg）能舉起的重量高於寬握（77.3 kg，p=0.02），但背闊肌、斜方肌、棘下肌的整體活性在三種握距間沒有差異。另一篇 12 人研究把握距與前臂方向拆開後發現，真正提高背闊肌活性的是前臂旋前（正握），而不是握得寬不寬。引體向上四種握法（正握、反握、中立、繩索）的整體活性也相似，唯一穩定的差異是正握的中斜方肌峰值活性高於中立握（60.1 對 37.1 %MVIC，Cohen's d=1.19）。",
+      "mechanism": "垂直拉的主動肌是背闊肌（肩內收、伸展、內轉）與大圓肌，肘屈肌與斜方肌／菱形肌隨握法改變參與程度。旋前握把肱二頭肌放在力學劣勢，理論上讓背闊肌承擔更多，EMG 部分支持這點但差異幅度小。機轉本身的不確定性在於量測工具：EMG 振幅只是急性的神經驅動指標，會受電極位置、皮下脂肪與正規化方式影響，跟數週後的肌肉厚度變化沒有可靠的一對一對應。",
+      "performance_effect": "沒有研究把握距或握法的改變連結到任何運動表現指標。唯一能確定的是機械層面：握距超過肩峰間距兩倍會讓 6RM 可用負荷下降約 4%。",
+      "hypertrophy_strength": "原始研究作者自己的結論是「握距落在肩峰間距的 1–2 倍之間時，肌肉活性相近，因此可預期肌肥大也相近」——這是作者的推論，該研究並沒有測肌肉量。目前沒有任何訓練研究直接比較不同握距對背闊肌長期肥大的影響。真正有統合分析支持的變項是動作幅度：16 篇研究的統合分析顯示全幅度訓練對肌力的效果優於部分幅度（ES 0.56，p=0.004），下肢肌肥大也是（ES 0.88，p=0.027）。所以「拉到胸口、放到手臂完全伸直讓肩胛完全上旋」比糾結握距重要得多。",
+      "injury_link": "沒有前瞻性研究顯示某種握距會增加肩或肘的傷害率。頸後下拉需要更大的肩外轉與水平外展，理論上前側關節囊承受較高張力，但這只是生物力學推論，沒有傷害發生率的資料支撐。",
+      "assessment_validity": "本單元不涉及標準化檢測。能否完成全幅度引體向上是能力指標，不是診斷工具，也沒有針對它的信效度研究。",
+      "red_flags": [
+        "下拉或引體向上時肩前側出現尖銳刺痛，且下一次訓練仍然存在",
+        "訓練後手指持續麻木或握力明顯下降超過數天",
+        "肘關節內側在拉的過程中出現局部壓痛且逐次訓練加重"
+      ],
+      "caveats": "「寬握練寬背」是本章證據最弱的健身房共識之一，實測完全沒有支持。但反向的說法也要克制：本單元引用的研究樣本都很小（12–19 人）、全部是急性 EMG，只能支持「差異不大」，不能證明「完全一樣」。垂直拉真正決定成果的是負荷、訓練量與全幅度，握法選擇是次要的個人偏好問題。",
+      "citations": [
+        {
+          "pmid": "24662157",
+          "title": "Effects of grip width on muscle strength and activation in the lat pull-down.",
+          "journal": "J Strength Cond Res",
+          "year": 2014,
+          "design": "emg-study",
+          "takeaway": "15 名男性 6RM：窄握 80.3 kg、中握 80.0 kg 高於寬握 77.3 kg（p=0.02），但背闊肌、斜方肌、棘下肌活性在三種握距間無差異。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24662157/"
+        },
+        {
+          "pmid": "20543740",
+          "title": "Grip width and forearm orientation effects on muscle activity during the lat pull-down.",
+          "journal": "J Strength Cond Res",
+          "year": 2010,
+          "design": "emg-study",
+          "takeaway": "12 名男性、70% 1RM：旋前握的背闊肌活性高於旋後握（p<0.05），握距寬窄對背闊肌、中斜方肌、肱二頭肌都沒有影響。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20543740/"
+        },
+        {
+          "pmid": "28011412",
+          "title": "Electromyographic analysis of muscle activation during pull-up variations.",
+          "journal": "J Electromyogr Kinesiol",
+          "year": 2017,
+          "design": "emg-study",
+          "takeaway": "19 名訓練者、四種握法：整體肌肉活性相似，僅正握的中斜方肌峰值活性顯著高於中立握（60.1 對 37.1 %MVIC，d=1.19）。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28011412/"
+        },
+        {
+          "pmid": "34170576",
+          "title": "Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "16 篇研究：全幅度訓練對肌力（ES 0.56，p=0.004）與下肢肌肥大（ES 0.88，p=0.027）優於部分幅度；肌肉厚度、羽狀角、肌束長則無顯著差異。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34170576/"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u3",
+      "name": "水平拉：划船系列",
+      "evidence_grade": "limited",
+      "summary": "划船變化式之間差最多的不是「練到哪塊背肌」，而是「脊椎付出多少代價」。7 名男性的力學分析顯示：倒立划船帶來最高的背闊肌與上背活性，同時腰椎壓力最低；站姿俯身划船從上背到下背的活性都很大，但腰椎負荷最高（同時脊椎剛性也最高）；單手站姿滑輪划船的特徵是挑戰軀幹抗旋轉能力。肩胛肌群方面，單手划船能讓中斜方肌相對上斜方肌多出 21–30% 的活性、下斜方肌多出 13–30%；俯臥水平外展合併外轉則能在上斜方肌低於 20 %MVIC 的情況下讓中、下斜方肌超過 50 %MVIC（上／下斜方肌比值 0.30）。",
+      "mechanism": "水平拉同時包含盂肱關節伸展／水平外展與肩胛後縮，因此背闊肌、中下斜方肌、菱形肌、後三角都會參與。軀幹角度決定阻力力臂，也就決定豎脊肌與髖伸肌要付出多少等長收縮。單側划船因為負荷偏在一側，軀幹必須產生抗旋轉力矩——這一點是力學上可直接量測的（關節力矩與脊椎負荷模型），比純 EMG 推論可靠。",
+      "performance_effect": "沒有研究把任何一種划船變化式連結到運動表現的改善。可用的資料都停在單次量測的肌肉活性與脊椎負荷。",
+      "hypertrophy_strength": "沒有任何訓練研究直接比較不同划船變化式對背部肌肉厚度的影響，所以「哪一種划船長背最快」目前無法回答。能講的具體資訊有兩層：其一，後三角的活性排名系統性回顧（33 篇研究）把引體向上與懸吊式倒立划船列在最高一階，若目標是後三角，倒立划船是有依據的選擇；其二，決定肌肥大的仍是負荷與訓練量，因此實務建議是把可以穩定加重、腰椎成本低的變化式（胸支撐划船、坐姿滑輪划船）當主菜，俯身划船留給真正需要同時訓練軀幹等長支撐的人。",
+      "injury_link": "俯身划船在三種划船中造成最高的腰椎壓縮負荷，對有腰痛病史者是實際的劑量考量；但同一份研究也顯示它同時帶來最高的脊椎剛性，所以並不是「危險動作」，而是「總量要管理」。沒有任何前瞻性研究證明划船會造成腰傷。",
+      "assessment_validity": "本單元不涉及標準化檢測。單側划船時骨盆是否轉動、肩胛是否對稱，可以當成訓練中的即時回饋，但沒有信效度資料。",
+      "red_flags": [
+        "划船後腰部出現放射到臀部或大腿後側的疼痛",
+        "單側划船時肩胛內側出現持續灼熱痛，休息一週未緩解",
+        "訓練隔天早晨腰部僵硬超過 30 分鐘且反覆出現"
+      ],
+      "caveats": "這一單元的核心資料來自 2009 年一份只有 7 名受試者的實驗室研究，樣本極小、屬急性量測，只能提供方向而不是個人化處方。另外「划船比下拉更能練中背」在文獻中沒有直接比較的研究，本課程把兩者分開教是依力學合理性，不是實證排名。EMG 上「某動作的中／下斜方肌比值比較好」也不等於長期會改善姿勢或疼痛。",
+      "citations": [
+        {
+          "pmid": "19620925",
+          "title": "Comparison of different rowing exercises: trunk muscle activation and lumbar spine motion, load, and stiffness.",
+          "journal": "J Strength Cond Res",
+          "year": 2009,
+          "design": "biomechanics",
+          "takeaway": "7 名男性：倒立划船背闊肌與上背活性最高且腰椎負荷最低；俯身划船背部活性最對稱但腰椎負荷最高；單手滑輪划船主要挑戰軀幹抗旋轉。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19620925/"
+        },
+        {
+          "pmid": "22076101",
+          "title": "Scapular muscle activity from selected strengthening exercises performed at low and high intensities.",
+          "journal": "J Strength Cond Res",
+          "year": 2012,
+          "design": "emg-study",
+          "takeaway": "17 名女性、7 個動作：單手划船讓中斜方肌相對上斜方肌多 21–30% 活性、下斜方肌多 13–30%；只有 press-up 與 push-up plus 能同時讓下斜方肌與前鋸肌都高於上斜方肌。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22076101/"
+        },
+        {
+          "pmid": "38261765",
+          "title": "Comparative Electromyographic Study of Scapular Stabilizing Muscles During Five Main Rehabilitation Exercises.",
+          "journal": "Am J Phys Med Rehabil",
+          "year": 2024,
+          "design": "emg-study",
+          "takeaway": "27 名健康受試者：俯臥水平外展合併外轉的上／中斜方肌比值 0.43、上／下斜方肌 0.30，中下斜方肌超過 50 %MVIC 而上斜方肌低於 20 %MVIC，是五個動作中比值最佳者。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38261765/"
+        },
+        {
+          "pmid": "39593452",
+          "title": "Activation of the three deltoid muscle portions during common strengthening exercises: A systematic review.",
+          "journal": "J Bodyw Mov Ther",
+          "year": 2024,
+          "design": "systematic-review",
+          "takeaway": "33 篇 EMG 研究彙整：後三角活性最高的動作類別是引體向上，單一動作以標準引體向上與懸吊式倒立划船需要最高的後三角活性。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39593452/"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u4",
+      "name": "直臂下拉與背闊肌孤立",
+      "evidence_grade": "limited",
+      "summary": "把 pullover 當成「背闊肌孤立動作」是個誤會。8 名男性的 EMG 研究顯示，槓鈴 pullover 對胸大肌的活化明顯高於背闊肌，且活性高低取決於外力力臂大小。15 名訓練者的等長比較進一步顯示，pullover 與下拉的最大力量與肌電表現主要由肩關節角度（0°、45°、90°、135°、180°）決定，而不是由動作名稱決定。至於「在拉長位置訓練會長更多」這個近年最流行的推論，2025 年一篇納入 12 篇研究的貝氏統合分析發現，長肌長與短肌長訓練造成的區域性肌肥大差異微不足道：近端 SMD 0.05、肌腹 0.07、遠端 0.09，信賴區間全部跨過零。",
+      "mechanism": "直臂下拉與 pullover 讓肩關節從屈曲走向伸展，理論上把背闊肌帶到接近最長的位置再收縮，因此常被說能提供「拉長狀態下的張力」。長肌長訓練促進肌節增生的機轉在動物模型與部分人體研究有支持，但能否轉換成更多肌肉量，人體證據明顯弱於社群說法。另一個常被忽略的機轉問題是：胸大肌胸骨部同樣是肩伸展的主動肌，所以 pullover 在解剖上就不可能「孤立」背闊肌。",
+      "performance_effect": "不適用。沒有任何研究測量直臂下拉或 pullover 對運動表現的影響，這類動作在文獻中純粹被當成肌肉活性的研究對象。",
+      "hypertrophy_strength": "沒有任何訓練研究比較「有做直臂下拉」與「沒做」對背闊肌厚度的差異，所以這個動作的肌肥大價值目前是空白。兩個可以拿來推論的統合分析都不站在孤立動作這一邊：全幅度訓練對肌力優於部分幅度（ES 0.56，p=0.004），而肌長對區域性肌肥大的影響是微不足道的（各部位 SMD 不超過 0.09，且多數後驗分佈落在「實質等價」區間）。實務結論：直臂下拉可以當成補充的單關節動作，用來在肩伸展末端多累積一些訓練量，但不該取代能持續加重的垂直拉與水平拉。",
+      "injury_link": "沒有傷害發生率資料。過頭位置的 pullover 需要接近末端的肩屈曲，肩活動度不足者會用腰椎伸展或肩胛過早上抬代償——這是可觀察的代償現象，而不是已證實的傷害機轉。",
+      "assessment_validity": "本單元不涉及標準化檢測。",
+      "red_flags": [
+        "過頭階段肩關節出現無法自主控制的滑脫感或「掉出去」的感覺",
+        "動作末端引發肩前側劇痛而無法完成該組",
+        "訓練後出現持續數日的肋骨或胸骨前側疼痛"
+      ],
+      "caveats": "「直臂下拉是最好的背闊肌孤立動作」在文獻上站不住腳：唯一實際量過的 EMG 研究反而顯示胸大肌活性更高。同時也要說清楚，本單元用來支持「拉長位置訓練」的統合分析，作者自己提醒納入研究的長／短肌長差距平均只有 21.8%，區分度不足，因此「拉長更有效」目前只能算是一個尚未被證實的假說，不能當成課程的賣點。",
+      "citations": [
+        {
+          "pmid": "21975179",
+          "title": "Effects of the pullover exercise on the pectoralis major and latissimus dorsi muscles as evaluated by EMG.",
+          "journal": "J Appl Biomech",
+          "year": 2011,
+          "design": "emg-study",
+          "takeaway": "8 名男性、體重 30% 負荷的槓鈴 pullover：胸大肌活性高於背闊肌，且活性大小取決於外力力臂——pullover 不是背闊肌孤立動作。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21975179/"
+        },
+        {
+          "pmid": "35992501",
+          "title": "Differences Between Pullover and Pulldown Exercises on Maximal Isometric Force and Myoelectric Activity in Recreationally-Trained Men.",
+          "journal": "Int J Exerc Sci",
+          "year": 2022,
+          "design": "emg-study",
+          "takeaway": "15 名訓練者、五個肩關節角度：峰值力量與胸大肌／背闊肌／後三角活性主要由關節角度決定（p<0.001），兩種動作之間的差異有限。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35992501/"
+        },
+        {
+          "pmid": "40570881",
+          "title": "Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis.",
+          "journal": "Int J Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "12 篇研究的貝氏統合分析：長肌長與短肌長訓練的區域肌肥大差異微不足道（近端 SMD 0.05、肌腹 0.07、遠端 0.09），且納入研究的長短肌長平均只差 21.8%。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40570881/"
+        },
+        {
+          "pmid": "34170576",
+          "title": "Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "全幅度訓練對肌力（ES 0.56）與下肢肌肥大（ES 0.88）優於部分幅度，支持把完整肩伸展幅度做完而不是只做末端小範圍。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34170576/"
+        }
+      ]
+    },
+    {
+      "unit": "ch7-u1",
+      "name": "肩胛控制與斜方肌代償",
+      "evidence_grade": "contested",
+      "summary": "「上斜方肌太強、下斜方肌太弱造成肩痛」是肩部訓練最常被引用的說法，但它的因果地位並不穩固。前瞻性研究的兩篇統合分析結論相反（RR 1.43 顯著 對 RR 1.07 不顯著）。治療端則是另一回事：運動治療對旋轉肌相關肩痛確實有效，但不同運動類型之間的差異很小——22 篇 RCT、1281 人的統合分析顯示，動作控制型方案相較非特異性運動只在失能上有小幅優勢（短期 SMD −0.29，中期 −0.33），疼痛則沒有顯著差異（SMD −0.19，95% CI −0.41 到 0.03，中等品質證據）。一篇 60 人的 RCT 也發現，在已有漸進式肩帶肌力訓練的基礎上再加肩胛穩定動作，所有結果指標都沒有差別。",
+      "mechanism": "上斜方肌、下斜方肌與前鋸肌構成的力偶負責肩胛上旋，這個力偶的存在有解剖與 EMG 支持，機轉本身沒有爭議。真正有問題的是「比值失衡」這個臨床概念：EMG 振幅比值受正規化方式與電極位置影響極大，在無症狀者身上變異也很大，目前沒有公認的正常範圍，因此「比值多少算失衡」在文獻上其實無法定義。",
+      "performance_effect": "沒有研究把斜方肌比值訓練連結到任何運動表現指標。能用的只有動作選擇資訊：俯臥水平外展合併外轉可得到上／中斜方肌 0.43、上／下斜方肌 0.30，且中下斜方肌超過 50 %MVIC、上斜方肌低於 20 %MVIC；側臥外轉的上斜方肌／前鋸肌比值為 0.26。這些是急性 EMG 排名，不是療效證據。",
+      "hypertrophy_strength": "肩胛控制動作本身負荷太低，不構成肌肥大刺激，這一點沒有爭議。但肌力數據值得寫進來：28 篇研究的統合分析顯示，旋轉肌相關肩痛患者接受復健後外轉肌力有中等改善（SMD 0.56，95% CI 0.39–0.74，I²=78%），外展 0.47、肩胛面上舉 0.48、內轉 0.41、屈曲 0.25；關鍵是「含肌力訓練或主動運動的介入」對所有指標都有小到中等效果，而不含運動的介入完全沒有效果。讓肩膀變強的是負荷，不是姿勢矯正。",
+      "injury_link": "肩胛動作異常與肩痛的關聯在前瞻性文獻中互相矛盾，最多只能視為弱相關的標記。目前沒有任何研究證明「矯正肩胛動作或斜方肌比值」能降低未來肩痛的發生率。",
+      "assessment_validity": "目視肩胛動作異常分型的評分者間信度中等，在無症狀族群陽性率約 46%，因此不適合當篩檢工具。一篇 38 人 RCT 用「動作缺陷控制測試」把處方個別化，4 個月追蹤時抬手疼痛顯著低於一般肩胛穩定運動（平均差 18.29，95% CI 9.09–27.48，效果量 1.27），失能也顯著較低——這是目前對「個別化評估」最有利的資料，但樣本小、單一中心，需要重複驗證。",
+      "red_flags": [
+        "手臂上舉時肩胛明顯翹離胸廓並伴隨無力，需排除長胸神經或副神經損傷",
+        "肩痛合併頸部放射痛、上肢麻木或反射改變",
+        "夜間痛到無法側睡且持續超過兩週",
+        "外傷後主動抬舉無法超過 90 度但被動可以"
+      ],
+      "caveats": "這個單元要誠實的地方是：課程教的「放鬆上斜方肌、啟動下斜方肌」比較像是一個好用的訓練框架，而不是被驗證過的病理矯正。統合分析顯示不同運動類型之間的差異只有小效果量，真正穩定有效的是「持續做、逐步加量」。把肩痛歸因於斜方肌比值，風險是讓學員忽略更重要的變項——訓練負荷管理、睡眠、以及心理社會因素。",
+      "citations": [
+        {
+          "pmid": "28735288",
+          "title": "Scapular dyskinesis increases the risk of future shoulder pain by 43% in asymptomatic athletes: a systematic review and meta-analysis.",
+          "journal": "Br J Sports Med",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "5 篇前瞻研究、419 人：有肩胛動作異常者 9–24 個月內發生肩痛的 RR=1.43（95% CI 1.05–1.93）。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28735288/"
+        },
+        {
+          "pmid": "33211975",
+          "title": "Scapular Dyskinesis Is Not an Isolated Risk Factor for Shoulder Injury in Athletes: A Systematic Review and Meta-analysis.",
+          "journal": "Am J Sports Med",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "納入更多研究（7 篇、923 人）後 RR 降到 1.07（95% CI 0.85–1.34，p=0.59），肩胛動作異常不是獨立的傷害風險因子。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33211975/"
+        },
+        {
+          "pmid": "38848304",
+          "title": "The Efficacy of Exercise Therapy for Rotator Cuff-Related Shoulder Pain According to the FITT Principle: A Systematic Review With Meta-analyses.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "22 篇 RCT、1281 人：動作控制型運動相較非特異性運動僅在失能有小幅優勢（短期 SMD −0.29、中期 −0.33），疼痛無顯著差異；作者指出優勢可能來自漸進與個別化而非「動作控制」本身。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38848304/"
+        },
+        {
+          "pmid": "41620837",
+          "title": "Addressing Shoulder Weakness in Individuals With Rotator Cuff-Related Shoulder Pain: A Systematic Review With Meta-analysis.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2026,
+          "design": "meta-analysis",
+          "takeaway": "28 篇研究：含肌力訓練的復健對外轉肌力有中等效果（SMD 0.56）、外展 0.47、內轉 0.41；不含運動的介入對所有肌力指標都沒有效果。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41620837/"
+        },
+        {
+          "pmid": "32861372",
+          "title": "Effects of adding scapular stabilization exercises to a periscapular strengthening exercise program in patients with subacromial pain syndrome: A randomized controlled trial.",
+          "journal": "Musculoskelet Sci Pract",
+          "year": 2020,
+          "design": "rct",
+          "takeaway": "60 人、8 週：在漸進式肩帶肌力訓練上再加肩胛穩定動作，功能、疼痛、肌力、活動度都沒有額外好處。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32861372/"
+        },
+        {
+          "pmid": "39419431",
+          "title": "Individualized Versus General Exercise Therapy in People With Subacromial Pain Syndrome: A Randomized Controlled Trial.",
+          "journal": "Arch Phys Med Rehabil",
+          "year": 2025,
+          "design": "rct",
+          "takeaway": "38 人、4 週：依動作缺陷測試個別化的運動，在 4 個月追蹤時抬手疼痛比一般肩胛穩定運動低（平均差 18.29，效果量 1.27），但樣本小且為單一中心。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39419431/"
+        },
+        {
+          "pmid": "38261765",
+          "title": "Comparative Electromyographic Study of Scapular Stabilizing Muscles During Five Main Rehabilitation Exercises.",
+          "journal": "Am J Phys Med Rehabil",
+          "year": 2024,
+          "design": "emg-study",
+          "takeaway": "27 人、5 個動作：俯臥水平外展合併外轉的上／中斜方肌 0.43、上／下斜方肌 0.30 最佳；側臥外轉的上斜方肌／前鋸肌 0.26。這是活性排名，不是療效證據。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38261765/"
+        }
+      ]
+    },
+    {
+      "unit": "ch7-u2",
+      "name": "不穩定支撐與肩胛控制動作",
+      "evidence_grade": "limited",
+      "summary": "不穩定支撐訓練的實際效益遠低於器材行銷與健身房說法。跨年齡層的系統性回顧與統合分析（22 篇對照試驗）結論是：相較於同樣的穩定表面訓練，不穩定表面訓練對青少年與年輕成人的肌力、爆發力與平衡「額外效果有限」，而且方向不一致（部分指標偏向不穩定、部分偏向穩定），納入研究的方法學品質偏低（PEDro 平均 4.0–5.8）、異質性最高達 I²=96%。上肢的直接資料更清楚：13 人在抗力球上做槓鈴臥推，1RM 與六條肌肉的 EMG 都與平板臥推沒有差異；30 人在四種不穩定器材上做伏地挺身，只有懸吊帶提高了腰部多裂肌與股直肌活性，前三角在五種條件間完全沒有差異。",
+      "mechanism": "理論是不穩定支撐迫使更多穩定肌參與、提高本體感覺輸入。實測顯示這個機轉只在特定條件下成立：懸吊系統確實提高軀幹與下肢的穩定需求，但平衡墊、抗力球對上肢主動肌的活性幾乎沒有影響。更重要的是，不穩定會壓低可用負荷，等於用主動肌的刺激去換穩定肌的刺激——這個交換划不划算，取決於你的訓練目標，而不是「不穩定就等於更好」。",
+      "performance_effect": "相較於完全不訓練，不穩定訓練當然有效；但相較於同強度的穩定表面訓練，額外效果有限。要誠實列出反面證據：2025 年一篇納入 12 篇研究的統合分析宣稱不穩定核心訓練在軀幹肌力與衝刺表現上優於傳統核心訓練（效果量 0.40–1.86，皆 p<0.05），但納入研究 PEDro 僅 5–7 分、對照組介入內容不一致。本課程認為現有證據不足以推翻 2015 年 Sports Med 那篇較保守的結論，因此仍標為證據有限。",
+      "hypertrophy_strength": "對肌肥大幾乎確定沒有優勢，甚至可能不利：不穩定表面通常需要降低負荷，而負荷與訓練量是肌肥大的主要驅動因素。抗力球臥推研究是少數沒有觀察到 1RM 下降的例外，但它同時也沒有觀察到任何 EMG 增益——換句話說，做了不穩定版本並沒有換到任何東西。沒有任何研究測量過不穩定訓練對肌肉厚度或橫截面積的長期影響。",
+      "injury_link": "沒有證據顯示不穩定訓練能降低肩部傷害。反方向的訊號倒是有：閉鏈運動的系統性回顧提醒，部分在不穩定表面進行的動作會讓上斜方肌相對前鋸肌過度活化，對想改善肩胛控制的人可能適得其反。此外針對前鋸肌，跪姿 push-up plus 的前鋸肌活性在穩定面、不穩定面與懸吊三種條件下沒有差異（p>0.05），也就是說「加不穩定」並沒有讓目標肌更努力。",
+      "assessment_validity": "本單元不涉及標準化檢測。能否在不穩定支撐下維持肩胛位置只能當成主觀的難度指標，沒有信效度研究支持它能反映任何臨床狀態。",
+      "red_flags": [
+        "在不穩定支撐中肩關節出現突發的滑脫感或劇痛",
+        "手腕在支撐姿勢下出現持續麻木或夜間疼痛",
+        "有肩關節脫臼病史者在支撐動作中出現明顯的不安感（apprehension）"
+      ],
+      "caveats": "這是本章最該被降級的主題。不穩定支撐動作在課程裡的合理定位是「變化性、趣味性，以及低負荷情境下的動作控制練習」，而不是肌力或運動表現的主要手段；訓練時間有限時，把它換成穩定表面的漸進負荷幾乎一定更划算。同時也要承認相反方向的限制：本單元引用的上肢研究樣本都在 13–30 人之間、全部是急性量測，只能支持「沒有明顯優勢」，不足以斷定「完全無效」。",
+      "citations": [
+        {
+          "pmid": "26359066",
+          "title": "Effects of Strength Training Using Unstable Surfaces on Strength, Power and Balance Performance Across the Lifespan: A Systematic Review and Meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2015,
+          "design": "meta-analysis",
+          "takeaway": "22 篇對照試驗：不穩定表面訓練相較穩定表面訓練，對青少年與年輕成人的肌力、爆發力、平衡「額外效果有限」且方向不一致；納入研究 PEDro 僅 4.0–5.8，I² 最高 96%。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26359066/"
+        },
+        {
+          "pmid": "41180480",
+          "title": "Instability core training vs traditional core training on trunk strength and sprint performance among athletes: a systematic review and meta-analysis.",
+          "journal": "PeerJ",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "12 篇研究：不穩定核心訓練在軀幹肌力與衝刺表現優於傳統核心訓練（ES 0.40–1.86）。此結論與 2015 年 Sports Med 統合分析相反，但納入研究 PEDro 僅 5–7 分、對照組不一致。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41180480/"
+        },
+        {
+          "pmid": "18296960",
+          "title": "No difference in 1RM strength and muscle activation during the barbell chest press on a stable and unstable surface.",
+          "journal": "J Strength Cond Res",
+          "year": 2008,
+          "design": "emg-study",
+          "takeaway": "13 人：抗力球上的槓鈴臥推與平板臥推在 1RM、六條肌肉的 EMG 與肘關節活動度上都沒有差異——不穩定版本沒有增益也沒有代價。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18296960/"
+        },
+        {
+          "pmid": "29541105",
+          "title": "Muscle activation during push-ups performed under stable and unstable conditions.",
+          "journal": "J Exerc Sci Fit",
+          "year": 2015,
+          "design": "emg-study",
+          "takeaway": "30 名男性、五種條件：前三角活性在各條件間無差異（p=0.130）；只有懸吊帶提高腰部多裂肌與股直肌活性。作者結論是「不是所有不穩定器材都能提高肌肉活性」。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29541105/"
+        },
+        {
+          "pmid": "27693098",
+          "title": "Serratus anterior and trapezius muscle activity during knee push-up plus and knee-plus exercises performed on a stable, an unstable surface and during sling-suspension.",
+          "journal": "Phys Ther Sport",
+          "year": 2017,
+          "design": "emg-study",
+          "takeaway": "19 名女性：前鋸肌活性與支撐面穩定與否無關（p>0.05）；單純跪姿肩帶前突就足以選擇性活化前鋸肌，不需要不穩定器材。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27693098/"
+        },
+        {
+          "pmid": "31860828",
+          "title": "Muscle Activity Ratios of Scapular Stabilizers During Closed Kinetic Chain Exercises in Healthy Shoulders: A Systematic Review.",
+          "journal": "J Sport Rehabil",
+          "year": 2020,
+          "design": "systematic-review",
+          "takeaway": "29 篇研究、79 個閉鏈動作：部分在不穩定表面進行的動作會造成上斜方肌相對前鋸肌過度活化，對肩胛控制訓練可能是反效果。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31860828/"
+        }
+      ]
+    },
+    {
+      "unit": "ch7-u3",
+      "name": "水平推：伏地挺身與臥推",
+      "evidence_grade": "limited",
+      "summary": "在負荷對等的前提下，伏地挺身與臥推可以互相取代，這是本章少數有多篇實驗（含兩篇小型 RCT）支持的結論。20 名阻力訓練男性在四種負荷下比較（伏地挺身加 0/10/20/30 kg 負重背心 對 臥推 50–80% 1RM），八條上肢肌肉的活性與動作學參數都沒有差異。11 人的後續研究顯示伏地挺身的實測 1RM（112.4 kg）甚至略高於臥推（106.4 kg），兩者相關達 r=0.92。訓練研究方面，8 週 40% 1RM 的臥推與等負荷伏地挺身造成的胸大肌與肱三頭肌厚度增加相同；4 週漸進式伏地挺身與臥推也讓兩組的臥推 1RM 同幅提升。",
+      "mechanism": "兩者都是肩水平內收加肘伸展，主動肌相同（胸大肌、前三角、肱三頭肌）。差別在伏地挺身是閉鏈、肩胛可自由前突，前鋸肌參與較多；臥推肩胛被靠背固定，可加載的絕對負荷上限高很多。EMG 的相似性支持兩者共用同一套主動肌，但無法證明長期適應必然相同——真正關鍵的是訓練研究，而現有訓練研究樣本都不大（18–23 人）、時間都不長（4–8 週）。",
+      "performance_effect": "伏地挺身的 1RM 可以由負荷—速度關係從臥推推估（反之亦然），推估值與實測值沒有顯著差異，對缺乏器材的場域是可用的替代測試方案。沒有研究顯示其中一種能更好地轉移到專項運動表現。",
+      "hypertrophy_strength": "具體數字：8 週、每週兩次、40% 1RM 的訓練後，臥推組胸大肌厚度由 17.0 增至 20.8 mm、肱三頭肌 26.3 增至 27.8 mm、1RM 由 60.0 增至 65.0 kg；伏地挺身組胸大肌同樣 17.0 增至 20.8 mm、肱三頭肌 27.7 增至 30.4 mm、1RM 由 61.1 增至 64.2 kg，組間沒有差異，只有肱二頭肌厚度是臥推組獨有的增加。另一項 4 週漸進式訓練也顯示兩組 1RM 都顯著提升（p<0.001），但肌肉厚度在組內都沒有顯著變化。實務結論：只要能持續加重（負重背心、抬高腳、單邊變化），伏地挺身能撐到相當程度的肌力與肌肥大；但要繼續往上，臥推的加載解析度仍然無可取代。",
+      "injury_link": "沒有前瞻研究比較兩者的傷害率。握距方面的生物力學資料值得記住：1RM 臥推時寬握產生相當於垂直力 13.1–15.7% 的側向（向外）力，中握與窄握則是 0.4–1.8% 與 8.5–10.1% 的向內力，且寬握與中握在黏著點產生較大的肩水平力矩，窄握與中握的三頭肌內側頭活性較高。這說明寬握把更多負荷放在肩關節，但沒有任何研究把這個力學差異連結到實際的肩傷發生率。",
+      "assessment_validity": "伏地挺身次數常被當成上肢肌耐力指標。本課程使用的是負荷—速度推估 1RM，該方法在 11 人樣本中與實測 1RM 沒有顯著差異、相關 r=0.92，但樣本太小，只能當粗估而非精確測驗。",
+      "red_flags": [
+        "臥推下放到底時肩前側出現尖銳痛或卡住感，且下一組仍然存在",
+        "推的過程中腋窩前緣出現撕裂般劇痛或聽到啪聲，需立即停止並就醫",
+        "訓練後手腕持續腫脹或屈伸受限超過一週"
+      ],
+      "caveats": "依本課程的分級標準，「伏地挺身與臥推在負荷相當時可互換」只能給 limited：急性比較的資料紮實，但長期訓練效果只有兩篇 RCT（n=18、n=23，4–8 週），其中一篇用的是 40% 1RM 的未受訓／中度受訓男性——這是分級表定義的「只有小型研究」，不足以外推到已受訓的舉重者。 「伏地挺身等於臥推」只在負荷對等時成立，而多數人徒手伏地挺身的實際負荷約為體重的 60–70%，對已有訓練基礎的人遠低於能持續進步的強度。支持互換的訓練研究只有兩篇、都不到 25 人、都在 8 週以內，其中一篇還用的是 40% 1RM 的低負荷方案，外推到進階訓練者要保守。握距的建議則完全建立在急性生物力學推論上，沒有任何傷害終點資料。",
+      "citations": [
+        {
+          "pmid": "31508485",
+          "title": "Comparison of Kinematics and Muscle Activation between Push-up and Bench Press.",
+          "journal": "Sports Med Int Open",
+          "year": 2019,
+          "design": "biomechanics",
+          "takeaway": "20 名訓練者、四種負荷：伏地挺身（含 0–30 kg 負重背心）與臥推（50–80% 1RM）在動作學與八條上肢肌肉活性上都沒有差異。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31508485/"
+        },
+        {
+          "pmid": "40489404",
+          "title": "A Comparison of Maximal Push-Up and Bench Press Performance and Their Prediction Based on Load-Velocity Relationships.",
+          "journal": "J Strength Cond Res",
+          "year": 2025,
+          "design": "biomechanics",
+          "takeaway": "11 名訓練者：伏地挺身實測 1RM（112.4 kg）顯著高於臥推（106.4 kg），兩者相關 r=0.92，可用負荷—速度關係互相推估。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40489404/"
+        },
+        {
+          "pmid": "29541130",
+          "title": "Low-load bench press and push-up induce similar muscle hypertrophy and strength gain.",
+          "journal": "J Exerc Sci Fit",
+          "year": 2017,
+          "design": "rct",
+          "takeaway": "18 人、8 週、40% 1RM：兩組胸大肌厚度都由 17.0 增至 20.8 mm、1RM 都提升約 3–5 kg，組間無差異；僅臥推組的肱二頭肌厚度另有增加。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29541130/"
+        },
+        {
+          "pmid": "29466268",
+          "title": "Effect of Progressive Calisthenic Push-up Training on Muscle Strength and Thickness.",
+          "journal": "J Strength Cond Res",
+          "year": 2018,
+          "design": "rct",
+          "takeaway": "23 名中度訓練男性、4 週：漸進式伏地挺身與臥推兩組的臥推 1RM 都顯著提升（p<0.001），肌肉厚度與投擲功率則兩組都無顯著變化。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29466268/"
+        },
+        {
+          "pmid": "33554113",
+          "title": "A Biomechanical Analysis of Wide, Medium, and Narrow Grip Width Effects on Kinematics, Horizontal Kinetics, and Muscle Activity on the Sticking Region in Recreationally Trained Males During 1-RM Bench Pressing.",
+          "journal": "Front Sports Act Living",
+          "year": 2020,
+          "design": "biomechanics",
+          "takeaway": "14 人 1RM 臥推：寬握產生相當於垂直力 13.1–15.7% 的向外側向力，窄握為 8.5–10.1% 的向內力；寬握與中握在黏著點的肩水平力矩較大，窄握與中握的三頭肌內側頭活性較高。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33554113/"
+        },
+        {
+          "pmid": "33239937",
+          "title": "A Comparison of Muscle Activation between Barbell Bench Press and Dumbbell Flyes in Resistance-Trained Males.",
+          "journal": "J Sports Sci Med",
+          "year": 2020,
+          "design": "emg-study",
+          "takeaway": "17 名訓練者、6RM：槓鈴臥推的胸大肌、前三角、肱三頭肌活性比啞鈴飛鳥高 8–81%（p≤0.05），飛鳥只有拮抗的肱二頭肌活性較高 57–86%。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33239937/"
+        }
+      ]
+    },
+    {
+      "unit": "ch7-u4",
+      "name": "垂直推：肩推系列",
+      "evidence_grade": "limited",
+      "summary": "站姿與啞鈴確實會提高三角肌活性，但代價是可用負荷下降，而且沒有人測過長期成果。15 名男性的比較顯示：站姿啞鈴肩推的前三角活性比站姿槓鈴高約 15%，坐姿槓鈴的後三角活性比站姿槓鈴低約 25%；但站姿啞鈴的 1RM 比站姿槓鈴低約 7%、比坐姿啞鈴低約 10%。動作選擇方面，13 名訓練者的比較顯示肩推的前三角活性（33.3 %MVIC）顯著高於臥推（21.4%）、側平舉（21.2%）與飛鳥（18.8%）；中三角則以側平舉（30.3%）與肩推（27.9%）最高，臥推（5%）與飛鳥（3.4%）幾乎不參與。",
+      "mechanism": "過頭推需要盂肱關節外展／屈曲，加上肩胛上旋與後傾，最後由胸椎伸展補足活動度。站姿版本缺少靠背，軀幹必須額外提供穩定，這解釋了負荷下降；啞鈴因兩側獨立而增加穩定需求。這些解釋在力學上合理，但所有支持資料都是單次量測的 EMG 與 1RM，無法推論長期適應。",
+      "performance_effect": "沒有研究把肩推的姿勢或器材選擇連結到運動表現。站姿版本常被說有更高的軀幹穩定需求，但這其實只是「可用負荷較低」的另一種說法。",
+      "hypertrophy_strength": "沒有研究直接比較站姿與坐姿肩推對三角肌肥大的長期效果，所以「站姿長更多肩」目前沒有證據。但有一筆很有用的反證：8 週、每週兩次、每次五組做到力竭的側平舉，啞鈴與滑輪兩種阻力曲線造成的中三角厚度增加相同（整體增加 3.3–4.6%，貝氏多變量分析對虛無假說給出「極強」支持，BF 小於 0.01）。實務建議因此很直接：肩推選你能穩定加重的版本（多數人是坐姿槓鈴或啞鈴），中三角靠側平舉補足訓練量，阻力來源（啞鈴或滑輪）不重要。",
+      "injury_link": "過頭活動度不足時常見的代償是腰椎伸展與肩胛過早上抬，這是可觀察的，但沒有任何前瞻研究證明它會造成傷害。關於活動度與傷害最好的證據來自過頭運動員：17 篇研究、2195 名運動員的統合分析發現，盂肱關節內轉缺損（GIRD）與上肢傷害的關聯只有 3.11° 的平均差且未達顯著（95% CI −0.13° 到 6.36°，p=0.06），總活動度（p=0.11）與外轉增益（p=0.07）同樣不顯著。也就是說，「活動度不對就會受傷」比想像中更站不住腳。",
+      "assessment_validity": "常用的過頭活動度篩檢（貼牆手臂上舉、仰臥屈肩至 180 度）沒有針對健身族群的信效度資料。GIRD 的角度量測本身信度尚可，但如上所述預測價值低。本課程把活動度檢查當成調整動作的參考，不是通過／不通過的門檻。",
+      "red_flags": [
+        "過頭動作誘發手臂麻木、刺痛或前臂無力",
+        "推到最高點時肩膀出現無法控制的鬆脫感或明顯不安感",
+        "必須大幅後仰腰椎才能把手舉過頭，並伴隨腰痛",
+        "肩痛合併發燒或關節紅腫熱，或夜間痛醒無法緩解"
+      ],
+      "caveats": "「站姿肩推比較好」的說法建立在單一 15 人 EMG 研究上，而同一研究也顯示站姿讓你少舉 7–10% 的重量——EMG 的百分比增益與負荷損失哪一個對長期成果更重要，目前沒人測過。同樣要誠實的是「過頭活動度不足要先矯正才能推」：活動度與傷害的關聯在最佳統合分析中並不顯著，降低手臂角度或改用中立握把是務實的調整，但不必被當成必須先修好的缺陷。",
+      "citations": [
+        {
+          "pmid": "23096062",
+          "title": "Effects of body position and loading modality on muscle activity and strength in shoulder presses.",
+          "journal": "J Strength Cond Res",
+          "year": 2013,
+          "design": "emg-study",
+          "takeaway": "15 名男性：站姿啞鈴的前三角活性比站姿槓鈴高約 15%、坐姿的後三角比站姿低約 24–25%；但站姿啞鈴 1RM 比站姿槓鈴低約 7%、比坐姿啞鈴低約 10%。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23096062/"
+        },
+        {
+          "pmid": "33312291",
+          "title": "Different Shoulder Exercises Affect the Activation of Deltoid Portions in Resistance-Trained Individuals.",
+          "journal": "J Hum Kinet",
+          "year": 2020,
+          "design": "emg-study",
+          "takeaway": "13 名訓練者、60% 1RM：肩推的前三角 33.3 %MVIC 顯著高於臥推 21.4%、側平舉 21.2%、飛鳥 18.8%；中三角以側平舉 30.3% 與肩推 27.9% 最高。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33312291/"
+        },
+        {
+          "pmid": "39593452",
+          "title": "Activation of the three deltoid muscle portions during common strengthening exercises: A systematic review.",
+          "journal": "J Bodyw Mov Ther",
+          "year": 2024,
+          "design": "systematic-review",
+          "takeaway": "33 篇 EMG 研究：前三角以上斜水平內收類動作最高，中三角以合併內轉的側平舉最高，後三角以引體向上與懸吊倒立划船最高。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39593452/"
+        },
+        {
+          "pmid": "40692697",
+          "title": "Dumbbell versus cable lateral raises for lateral deltoid hypertrophy: an experimental study.",
+          "journal": "Front Physiol",
+          "year": 2025,
+          "design": "rct",
+          "takeaway": "24 名訓練者、8 週組內對照：啞鈴與滑輪側平舉造成的中三角厚度增加相同（整體 3.3–4.6%），貝氏多變量分析對虛無假說給出極強支持（BF 小於 0.01）。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40692697/"
+        },
+        {
+          "pmid": "29381423",
+          "title": "Glenohumeral Internal Rotation Deficit and Risk of Upper Extremity Injury in Overhead Athletes: A Meta-Analysis and Systematic Review.",
+          "journal": "Sports Health",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "17 篇研究、2195 名過頭運動員：GIRD 與上肢傷害的平均差僅 3.11°（95% CI −0.13° 到 6.36°，p=0.06），總活動度與外轉增益也不顯著——活動度缺損作為傷害預測因子的價值有限。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29381423/"
+        }
+      ]
+    },
+    {
+      "unit": "ch7-u5",
+      "name": "胸部孤立：夾胸與角度選擇",
+      "evidence_grade": "limited",
+      "summary": "「上胸下胸分開練」近年終於有真正的資料，但結論比健身房說法保守得多。高密度表面肌電顯示，從平板換到 45 度上斜時，胸大肌活性的重心確實往鎖骨部移動（p<0.001）；同一團隊用全景超音波量測發現，這種不均勻活化在單次訓練後就造成不均勻的橫截面積變化（上斜後鎖骨部增加較多 p<0.001，平板後胸骨部增加較多 p=0.046）。但長期訓練資料就沒那麼漂亮：47 名未受訓男性做 8 週平板／上斜／混合訓練，三個量測點中只有第二肋間隙一處出現組間差異（上斜組比平板組多 0.62 cm，95% CI 0.23–1.00），肌力增加則完全無差異；另一項 12 週研究讓 15 人只做蝴蝶機夾胸，鎖骨部（增加 17–18%）與胸骨部（增加 21%）的厚度變化幅度相近，看不出區域選擇性。",
+      "mechanism": "胸大肌是由多個神經肌肉分區組成的扇形肌，鎖骨部與胸骨部的纖維走向與力臂不同，理論上不同的肩屈曲角度會優先徵召不同分區。這個機轉本身有高密度表面肌電的直接支持（沿頭尾軸 15 通道量測，活性重心隨傾角移動），是本章少數機轉證據強於臨床證據的主題。問題出在下一步：分區活化能否穩定轉換成分區生長，目前只有零星且互不一致的長期資料。",
+      "performance_effect": "不適用。夾胸與角度選擇是外型導向的訓練決策，沒有研究測量它對任何運動表現的影響。",
+      "hypertrophy_strength": "這是本單元最該講清楚的地方，分三層。第一，區域性肌肥大確實存在：一項 RCT 在訓練量與強度對等下，讓兩組分別做史密斯深蹲或腿伸展，腿伸展組股直肌的近端、中段、遠端三區都顯著生長，深蹲組只有股外側肌中段顯著生長——動作選擇會改變生長的分佈。第二，用「訓練到更長的肌長」來製造區域差異，效果卻很小：12 篇研究的貝氏統合分析算出長／短肌長在近端（SMD 0.05）、肌腹（0.07）、遠端（0.09）的差異都微不足道，且作者提醒納入研究的長短肌長平均只差 21.8%。第三，就胸部而言，8 週 RCT 只在三個量測點的其中一個看到上斜的優勢（第二肋間隙多 0.62 cm），且該研究對象是未受訓者、每週僅訓練一次；12 週單一動作研究則顯示鎖骨部與胸骨部同步生長。務實結論：想強調上胸就把上斜推放在課表前段並給它足夠訓練量，這個做法有弱到中等的支持；但期待「只練上斜就能單獨長上胸」超出現有證據。至於孤立動作本身，17 名訓練者的比較顯示槓鈴臥推在胸大肌、前三角、肱三頭肌的活性都高於啞鈴飛鳥（高 8–81%），飛鳥只有拮抗的肱二頭肌較高——飛鳥適合當補充，不適合當主菜。",
+      "injury_link": "沒有研究比較不同夾胸角度的傷害率。飛鳥在最大水平外展位置對肩前側關節囊與胸大肌肌腱的張力最高，這是力學推論而非流行病學資料；文獻中的胸大肌肌腱撕裂主要與大重量臥推的離心階段有關，不是孤立動作。",
+      "assessment_validity": "本單元不涉及標準化檢測。用一般超音波或圍度追蹤「上胸」在健身族群不可行，量測誤差通常大於數個月的真實變化——原始研究用的是全景超音波與標準化解剖標記，一般人無法複製。",
+      "red_flags": [
+        "飛鳥或夾胸下放到底時腋窩前緣出現撕裂般疼痛或聽到啪聲，需立即停止並就醫",
+        "胸部出現不對稱的凹陷或明顯輪廓改變",
+        "訓練後肩前側疼痛持續超過兩週且影響日常抬手"
+      ],
+      "caveats": "課程裡的「角度選擇」建議必須加上兩個但書。第一，支持它的長期資料只有兩項小型研究（47 人與 15 人，都是未受訓者），且結果部分互相衝突——其中一項還顯示單一動作就能讓兩區同步生長。第二，最直接支持不均勻反應的兩篇研究是急性量測（一次訓練後的橫截面積變化），急性腫脹不等於長期肌肥大，這個限制作者自己也寫在論文裡。真正決定胸部發展的仍然是總訓練量、漸進負荷與動作幅度，角度只是排序上的微調。",
+      "citations": [
+        {
+          "pmid": "34644424",
+          "title": "Non-uniform excitation of the pectoralis major muscle during flat and inclined bench press exercises.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2022,
+          "design": "emg-study",
+          "takeaway": "8 人、沿胸大肌頭尾軸 15 通道高密度表面肌電：從平板換到 45 度上斜時活性重心顯著往鎖骨部移動（p<0.001），但活躍通道數量沒有改變。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34644424/"
+        },
+        {
+          "pmid": "36334406",
+          "title": "Non-uniform excitation of pectoralis major induced by changes in bench press inclination leads to uneven variations in the cross-sectional area measured by panoramic ultrasonography.",
+          "journal": "J Electromyogr Kinesiol",
+          "year": 2022,
+          "design": "emg-study",
+          "takeaway": "13 名男性、四組訓練後即刻量測：上斜臥推後鎖骨部橫截面積增加多於胸骨部（p<0.001），平板臥推則相反（p=0.046）——但這是急性反應，不是肌肥大。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36334406/"
+        },
+        {
+          "pmid": "32922646",
+          "title": "Effects of Horizontal and Incline Bench Press on Neuromuscular Adaptations in Untrained Young Men.",
+          "journal": "Int J Exerc Sci",
+          "year": 2020,
+          "design": "rct",
+          "takeaway": "47 名未受訓男性、8 週每週一次：三組等長肌力增加無差異；三個量測點中只有第二肋間隙出現組間差異（上斜比平板多 0.62 cm，95% CI 0.23–1.00）。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32922646/"
+        },
+        {
+          "pmid": "40266636",
+          "title": "Pectoralis Clavicular and Sternocostal Thicknesses Increase Similarly in Response to One and Three Sets of Pec Deck Resistance Training in Untrained Young Men.",
+          "journal": "J Strength Cond Res",
+          "year": 2025,
+          "design": "rct",
+          "takeaway": "15 名未受訓男性、12 週只做蝴蝶機夾胸：鎖骨部增厚 17–18%、胸骨部 21%，1 組與 3 組之間沒有差異，也看不出區域選擇性。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40266636/"
+        },
+        {
+          "pmid": "34743671",
+          "title": "The role of exercise selection in regional Muscle Hypertrophy: A randomized controlled trial.",
+          "journal": "J Sports Sci",
+          "year": 2021,
+          "design": "rct",
+          "takeaway": "訓練量與強度對等下，腿伸展組股直肌近端、中段、遠端三區都顯著生長，史密斯深蹲組只有股外側肌中段顯著生長——動作選擇確實會改變肌肥大的分佈。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34743671/"
+        },
+        {
+          "pmid": "40570881",
+          "title": "Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis.",
+          "journal": "Int J Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "12 篇研究：長肌長與短肌長訓練造成的區域肌肥大差異微不足道（近端 SMD 0.05、肌腹 0.07、遠端 0.09），多數後驗分佈落在實質等價區間。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40570881/"
+        },
+        {
+          "pmid": "33239937",
+          "title": "A Comparison of Muscle Activation between Barbell Bench Press and Dumbbell Flyes in Resistance-Trained Males.",
+          "journal": "J Sports Sci Med",
+          "year": 2020,
+          "design": "emg-study",
+          "takeaway": "17 名訓練者、6RM：槓鈴臥推的胸大肌、前三角、肱三頭肌活性高於啞鈴飛鳥 8–81%，飛鳥僅拮抗的肱二頭肌高 57–86%。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33239937/"
+        }
+      ]
+    }
+  ]
+}

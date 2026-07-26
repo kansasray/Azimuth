@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "unit": "ch2-u1",
+      "lang": "en",
+      "title": "Postural Assessment | Posture Analysis | Standing Posture Analysis",
+      "channel": "Physio's Healing Touch",
+      "url": "https://www.youtube.com/watch?v=2I1Y_msIDAQ",
+      "why": "英文版把站姿評估拆成正面、側面、背面三個視角逐項示範，並說明每個偏差對應哪組肌肉失衡，適合搭配中文主課當成判讀對照表。"
+    },
+    {
+      "unit": "ch2-u2",
+      "lang": "en",
+      "title": "The Ultimate Thoracic Mobility Routine (Get Rid of Stiffness Fast!)",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=5wv670fHuG4",
+      "why": "Squat University 先教你怎麼自測胸椎旋轉與伸展、再給對應的改善順序，是英文圈把胸椎「檢測到解法」講得最完整的一支，且針對重訓族群設計。"
+    },
+    {
+      "unit": "ch2-u3",
+      "lang": "en",
+      "title": "How to Improve Your Shoulder Range of Motion (Stretches & Exercises)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=b7yQwf-K7z0",
+      "why": "E3 Rehab 由物理治療師以研究證據拆解肩關節各方向活動度的評估與訓練，把「緊」與「弱」分開處理，正好補足中文主課沒展開的機制段落。"
+    },
+    {
+      "unit": "ch2-u4",
+      "lang": "en",
+      "title": "How to Screen For Ankle Mobility",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=_G6kUbc-hl4",
+      "why": "本單元最關鍵的踝背屈檢測，這支把 Knee-to-Wall 的量測細節、常見作弊方式與判讀標準講得最清楚，直接對應 drill 裡的膝碰牆距離門檻。"
+    }
+  ]
+}

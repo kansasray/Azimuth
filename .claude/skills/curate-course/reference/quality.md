@@ -63,7 +63,9 @@ COURSE=courses/guitar python3 src/build/audit.py   # 多課程並存
 | 現象 | 真相 |
 |---|---|
 | `WebFetch` 打 `youtube.com/watch` 拿不到東西 | 會被 Google 導向 captcha 頁，改用 oEmbed 端點 |
-| `yt-dlp` 說影片不存在 | 無 cookie 時會誤報「Sign in to confirm you're not a bot」，不是影片失效 |
+| `yt-dlp` 說影片不存在 | 無 cookie 時會誤報「Sign in to confirm you're not a bot」，不是影片失效。單次搜尋沒事，但連抓數百支就會被擋——`fetch_meta.py` 用 `--cookies-from-browser chrome` 借用登入狀態解決（`COOKIES_BROWSER` 可改） |
+| 並行 agent 的暫存檔互相覆寫 | 每個 agent 各給一個 scratchpad 子目錄，不然 `q1.txt` 這種通用檔名會被別人蓋掉 |
+| 分類 patterns 加了肌肉名之後亂掉 | `classify()` 會比對 `target` 欄位，那裡放的就是肌肉名——把「臀中肌」當 pattern 會讓所有目標含臀中肌的動作都掉進臀肌啟動。patterns 只能用**動作名**，改完一定要 diff 前後的歸類結果 |
 | innertube API 回 ERROR | 必須在真實 YouTube 分頁的 context 內呼叫才有效 |
 | 改了樣式但線上沒變 | 檢查 `_headers` 的 Cache-Control，沒有 hash 檔名就別設長快取 |
 | 並行 agent 互相覆蓋檔案 | 每個 agent 給獨立的輸出路徑與檔名前綴 |

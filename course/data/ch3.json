@@ -1,0 +1,514 @@
+{
+  "chapter": "CH3",
+  "title": "釋放身體限制",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "肩胸與上背放鬆",
+      "type": "movement",
+      "assessment": "放鬆前先留一組基準值：背貼牆站、腳跟離牆一個腳掌，雙手手背貼牆做牆面滑行，記下手臂舉到哪個高度時下背開始離開牆面；再做一次手繞到背後摸對側肩胛骨，量兩手指尖的距離。整組做完之後，用同一面牆、同一個站位再測一次，兩次都從正側面錄影對照。牆面滑行能多推高一個手掌、或背後摸手的距離縮短兩公分以上，代表這次放鬆對你有效；如果兩個數字完全沒動，問題就不在軟組織長度，而是肩胛控制或肌力不足，該回頭做檢測與訓練，而不是繼續滾。",
+      "tight": ["胸小肌", "胸大肌", "背闊肌", "上斜方肌", "提肩胛肌"],
+      "weak": ["下斜方肌", "中斜方肌", "前鋸肌", "棘下肌"],
+      "lesson": {
+        "title": "臥推圓肩該怎麼解決？｜內旋肌群放鬆、訓練外旋肌群",
+        "channel": "林勁瑋 x 大腦優先教練學院",
+        "url": "https://www.youtube.com/watch?v=EaHXLmzpTDo",
+        "duration": "8:12",
+        "why": "多數圓肩影片只教伸展，這支把「放鬆內旋肌群」和「訓練外旋肌群」拆成兩件事講，並且直接扣回臥推這個健身房場景，對有訓練經驗的人比一般體態衛教片實用得多。"
+      },
+      "drills": [
+        {
+          "name": "胸椎滾筒鬆動",
+          "en": "Thoracic Extension on Foam Roller",
+          "kind": "release",
+          "target": "胸段豎脊肌、菱形肌、胸大肌",
+          "dose": "分三段各滾 60–90 秒，每段停留處做 5 次伸展",
+          "title": "胸椎滾筒：胸椎鬆動術（無法挺胸、胸椎緊繃）",
+          "channel": "Coach Hank 肌力體能訓練",
+          "url": "https://www.youtube.com/watch?v=xrLSl1nsnx8",
+          "duration": "0:58"
+        },
+        {
+          "name": "開書式",
+          "en": "Open Book",
+          "kind": "release",
+          "target": "胸段豎脊肌、腹斜肌、胸大肌",
+          "dose": "每側 8–10 下，末端停 2 秒",
+          "title": "open book 翻書運動鬆開你的胸椎～對於肩頸、肩胛骨痠痛，將胸椎活動開來會有很大幫助！",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=-Hsc5JOsHgs",
+          "duration": "0:50"
+        },
+        {
+          "name": "胸小肌按摩球放鬆",
+          "en": "Pec Minor Ball Release",
+          "kind": "release",
+          "target": "胸小肌、胸大肌",
+          "dose": "每側壓 60–90 秒，配合手臂上下擺動",
+          "title": "按摩球：胸肌-自我放鬆（胸大肌、胸小肌）",
+          "channel": "Coach Hank 肌力體能訓練",
+          "url": "https://www.youtube.com/watch?v=3fFAwOodbVQ",
+          "duration": "0:55"
+        },
+        {
+          "name": "背闊肌伸展",
+          "en": "Lat Stretch",
+          "kind": "release",
+          "target": "背闊肌、大圓肌",
+          "dose": "每側 30–45 秒 × 2 回",
+          "title": "伸展你的闊背肌",
+          "channel": "佳緯 物理治療師",
+          "url": "https://www.youtube.com/watch?v=Vr9m4mgrAHo",
+          "duration": "1:12"
+        },
+        {
+          "name": "闊背肌滾筒放鬆",
+          "en": "Lat Foam Rolling",
+          "kind": "release",
+          "target": "背闊肌、大圓肌、胸段豎脊肌",
+          "dose": "每側滾 60–90 秒，慢速來回",
+          "title": "滾筒闊背肌放鬆",
+          "channel": "陳玠澍",
+          "url": "https://www.youtube.com/watch?v=yvgGa8cwD8A",
+          "duration": "6:17"
+        },
+        {
+          "name": "肩關節活動度四動作",
+          "en": "Shoulder Mobility Drills",
+          "kind": "release",
+          "target": "旋轉肌群、棘下肌、肩胛下肌",
+          "dose": "每個動作每側 8–10 下，慢速",
+          "title": "肩關節卡卡？這 4 個動作讓你的肩膀恢復順暢滑動！｜ #啾c物理治療師 #運動治療 #關節鬆動 #肩關節 #肩膀 #肱骨",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=-7p4awI21FI",
+          "duration": "9:00"
+        },
+        {
+          "name": "Sleeper Stretch",
+          "en": "Sleeper Stretch",
+          "kind": "release",
+          "target": "棘下肌、小圓肌、後三角肌",
+          "dose": "每側 30 秒 × 3 回，不要壓到痛",
+          "title": "Sleeper Shoulder Stretch - Physical Therapy Exercises",
+          "channel": "TSAOG Orthopaedics & Spine",
+          "url": "https://www.youtube.com/watch?v=FODQxJh5PeI",
+          "duration": "1:00"
+        },
+        {
+          "name": "牆角胸大肌伸展",
+          "en": "Doorway Pec Stretch",
+          "kind": "release",
+          "target": "胸大肌、前三角肌",
+          "dose": "三種手肘高度各 30 秒，每側做完換邊",
+          "title": "「胸大肌pectorals major 」伸展運動，久坐肩頸痠痛、胸口緊繃、駝背、圓肩用這個伸展動作，深層拉筋完整舒展！",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=E5HTUT0AlVw",
+          "duration": "2:31"
+        },
+        {
+          "name": "四足跪姿胸椎旋轉",
+          "en": "Quadruped Thoracic Rotation",
+          "kind": "release",
+          "target": "胸段豎脊肌、腹斜肌、菱形肌",
+          "dose": "每側 8 下，慢速，吐氣時轉到底",
+          "title": "脊椎中的胸椎最容易活動度受限，導致頸椎跟腰椎代償使用過度。「胸椎鬆動三部曲」：從四足跪姿到棒式胸椎旋轉，挑戰你的核心＋恢復胸椎活動度。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=LJ-n-dbBW6A",
+          "duration": "5:58"
+        },
+        {
+          "name": "壺鈴 Arm Bar",
+          "en": "Kettlebell Arm Bar",
+          "kind": "release",
+          "target": "肩胛下肌、棘下肌、胸大肌、前鋸肌",
+          "dose": "每側撐 30–45 秒 × 2 回，用輕壺鈴",
+          "title": "Kettlebell Arm Bar for shoulder stability",
+          "channel": "Zack Henderson",
+          "url": "https://www.youtube.com/watch?v=J7wOHR1iTIo",
+          "duration": "5:46"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "核心與軀幹放鬆",
+      "type": "movement",
+      "assessment": "做兩個可量化的前後對照。第一個：站姿體前彎，膝蓋伸直，用手機拍下指尖離地幾公分。第二個：仰躺把單膝抱到胸口，看對側大腿會不會被拉離地面、離多高。放鬆前各做一次並拍照，做完整組腰方肌、豎脊肌、髂腰肌與呼吸重整之後，在同一位置用同一角度再拍一次。體前彎多下降五公分以上、或抱膝時對側大腿不再被扯起來，就代表這次有效。再加一個呼吸檢核：前後各平躺數一分鐘呼吸次數，並把手放在下肋廓兩側，如果次數變少、而且吸氣時肋廓是往兩側擴張而不是胸口往上抬，表示橫膈膜真的被叫回來工作了。",
+      "tight": ["腰方肌", "髂腰肌", "腰段豎脊肌", "胸腰筋膜", "腹斜肌"],
+      "weak": ["橫膈膜", "腹橫肌", "多裂肌", "臀大肌"],
+      "lesson": {
+        "title": "久坐族必學！5分鐘改善腰痛下背痛的脊椎伸展｜啾c物理治療師",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=cborst0Nai8",
+        "duration": "10:34",
+        "why": "把下背緊繃拆成脊椎活動度與髖屈肌長度兩條線分別處理，動作示範從側面拍、看得到骨盆的代償，比一般「五招治下背痛」的清單式影片更能讓你判斷自己做對沒有。"
+      },
+      "drills": [
+        {
+          "name": "腰方肌放鬆",
+          "en": "Quadratus Lumborum Release",
+          "kind": "release",
+          "target": "腰方肌、腰段豎脊肌",
+          "dose": "每側壓 60–90 秒，配合深呼吸",
+          "title": "腰部放鬆與伸展─腰方肌",
+          "channel": "Hunter 物理治療師",
+          "url": "https://www.youtube.com/watch?v=qDSBTEjWSy4",
+          "duration": "1:46"
+        },
+        {
+          "name": "豎脊肌滾筒放鬆",
+          "en": "Erector Spinae Foam Rolling",
+          "kind": "release",
+          "target": "胸段豎脊肌、腰段豎脊肌、菱形肌",
+          "dose": "上背來回滾 60–90 秒，腰椎段不要直接壓",
+          "title": "按摩背部豎脊肌、改善腰酸背痛 上半身舒壓放鬆#2｜GQ Active",
+          "channel": "GQ Taiwan",
+          "url": "https://www.youtube.com/watch?v=HOdGk0Ggw-Q",
+          "duration": "1:25"
+        },
+        {
+          "name": "腹部筋膜放鬆",
+          "en": "Abdominal Fascial Release",
+          "kind": "release",
+          "target": "腹直肌、腹斜肌、髂腰肌",
+          "dose": "每區壓 60 秒，力道以能維持鼻吸口吐為準",
+          "title": "Fascial Release - Abdomen",
+          "channel": "Phit Physiotherapy",
+          "url": "https://www.youtube.com/watch?v=WTDpLMbVIq0",
+          "duration": "5:21"
+        },
+        {
+          "name": "髂腰肌伸展",
+          "en": "Hip Flexor Stretch",
+          "kind": "release",
+          "target": "髂腰肌、股直肌",
+          "dose": "每側 30–45 秒 × 3 回，骨盆先後傾再前推",
+          "title": "伸展髖部肌肉改善下背痛，只要30秒迅速有感！髂腰肌伸展｜羅伯特物理治療",
+          "channel": "羅伯特物理治療",
+          "url": "https://www.youtube.com/watch?v=CdcXoEwzbX8",
+          "duration": "2:10"
+        },
+        {
+          "name": "鱷魚式呼吸",
+          "en": "Crocodile Breathing",
+          "kind": "activate",
+          "target": "橫膈膜、腹橫肌、多裂肌",
+          "dose": "趴姿呼吸 10 次 × 3 回，吸 4 秒吐 6 秒",
+          "title": "天啊，原來趴著呼吸就可以喚醒核心、緩解腰痛！立馬試試「鱷魚呼吸」呼吸法，腰酸無力、胸悶背痛都超適合！",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=vF67v56-_xQ",
+          "duration": "3:44"
+        },
+        {
+          "name": "脊椎分節活動（貓牛）",
+          "en": "Cat-Cow",
+          "kind": "release",
+          "target": "胸段豎脊肌、腰段豎脊肌、腹直肌",
+          "dose": "10 下 × 2 回，一節一節帶，不追求幅度",
+          "title": "瑜珈--貓牛式cat cow yoga pose , 紓緩痠痛，延展背部脊椎，讓脊椎柔軟不僵硬，喚醒深層核心肌群。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=nGFe2xwdTB8",
+          "duration": "4:01"
+        },
+        {
+          "name": "側躺腹斜肌旋轉伸展",
+          "en": "Oblique Rotation Stretch",
+          "kind": "release",
+          "target": "腹斜肌、腰方肌、胸腰筋膜",
+          "dose": "每側 30 秒 × 2 回，吐氣時再多轉一點",
+          "title": "[PhysiomotionLab] 如何伸展腹部內斜肌與外斜肌",
+          "channel": "PhysiomotionLab 動作實驗室",
+          "url": "https://www.youtube.com/watch?v=tVC2xRI74Es",
+          "duration": "4:10"
+        },
+        {
+          "name": "90/90 呼吸重整",
+          "en": "90/90 Breathing",
+          "kind": "activate",
+          "target": "橫膈膜、腹橫肌、腹斜肌、骨盆底肌",
+          "dose": "5 次呼吸 × 4 回，吐到底停 3 秒再吸",
+          "title": "[PhysiomotionLab] 90-90躺姿呼吸訓練",
+          "channel": "PhysiomotionLab 動作實驗室",
+          "url": "https://www.youtube.com/watch?v=rmkpsseNEK8",
+          "duration": "4:29"
+        },
+        {
+          "name": "胸腰筋膜延展",
+          "en": "Thoracolumbar Fascia Release",
+          "kind": "release",
+          "target": "胸腰筋膜、背闊肌、臀大肌",
+          "dose": "每側 45–60 秒，慢慢加深不要彈震",
+          "title": "腰,背, 臀部或大腿後側繃緊和痛, 痛點有時會轉移至叧一點.你可能\"胸腰筋膜”出現問題!教大家做放鬆和伸展運動,舒緩不適. Release Thoracolumbar Fascia中文/eng sub",
+          "channel": "伸展生活  Life and Stretching",
+          "url": "https://www.youtube.com/watch?v=qHumzVfKP10",
+          "duration": "7:54"
+        },
+        {
+          "name": "嬰兒式",
+          "en": "Child's Pose",
+          "kind": "release",
+          "target": "腰段豎脊肌、背闊肌、臀大肌",
+          "dose": "停留 60–90 秒，配合 8–10 次深呼吸",
+          "title": "「嬰兒姿child's pose」輕柔伸展下背部、臀部、大腿及腳踝，在瑜珈名稱為Balasana 是一個重要寧靜的休息姿勢。可作為運動後收操或睡前的伸展運動。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=XHFeeRSib18",
+          "duration": "3:36"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "下肢、小腿與足底放鬆",
+      "type": "movement",
+      "assessment": "用兩個可以量化的動作做前後對照。第一個是靠牆膝碰牆測腳踝：腳尖對牆，膝蓋往前頂到碰牆而腳跟不離地，把腳尖能離牆的最遠距離量成公分記下來，兩腳分開記。第二個是徒手深蹲蹲到最低，從正側面錄影，看腳跟會不會翹起來、骨盆在哪一點開始後傾。放鬆前各做一次，做完整組滾筒與伸展後在同一面牆、同樣赤腳再測一次。膝碰牆距離增加一到兩公分、深蹲能多蹲低而腳跟不翻起來，就是這次放鬆有效。如果隔天量回原點也很正常——放鬆撐開的範圍要留得住，得靠在新範圍裡實際負重訓練，不是靠滾更久。",
+      "tight": ["臀中肌", "梨狀肌", "髖深層外旋肌群", "股四頭肌", "腿後肌群", "內收肌群", "腓腸肌", "比目魚肌", "足底筋膜"],
+      "weak": ["臀大肌", "脛前肌", "足內在肌"],
+      "lesson": {
+        "title": "8分鐘滾筒放鬆下肢筋膜沾黏，物理治療師完整示範｜啾c物理治療師",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=T5FaG9OZnCk",
+        "duration": "8:54",
+        "why": "一支就把下肢從臀部到足底的滾筒路線走完，而且每個部位都講清楚壓哪裡、壓多久、什麼感覺該停，比零散的單一部位影片更適合當成訓練後的固定流程。"
+      },
+      "drills": [
+        {
+          "name": "臀肌按摩球放鬆",
+          "en": "Glute Ball Release",
+          "kind": "release",
+          "target": "臀中肌、臀小肌、臀大肌",
+          "dose": "每側壓 60–90 秒，找到痛點後小幅畫圈",
+          "title": "【一分鐘按摩球系列】解決腰痛及腳痺必做，臀中肌按摩球運動｜凝聚物理治療中心｜Together Physio",
+          "channel": "Together Physio骨專科物理治療",
+          "url": "https://www.youtube.com/watch?v=hdXxH0Tcx20",
+          "duration": "2:13"
+        },
+        {
+          "name": "梨狀肌伸展",
+          "en": "Piriformis Stretch",
+          "kind": "release",
+          "target": "梨狀肌、髖深層外旋肌群、臀大肌",
+          "dose": "每側 30–45 秒 × 3 回",
+          "title": "【宏康復健專科診所】梨狀肌伸展運動",
+          "channel": "復健醫陳相宏 × 復家生醫RéPOV",
+          "url": "https://www.youtube.com/watch?v=qJqECwUQVSI",
+          "duration": "0:54"
+        },
+        {
+          "name": "90/90 髖旋轉",
+          "en": "90/90 Hip Rotation",
+          "kind": "release",
+          "target": "髖深層外旋肌群、臀中肌、內收肌群",
+          "dose": "左右交替 10 次 × 2 回，末端各停 3 秒",
+          "title": "坐姿90/90髖外旋/內旋伸展",
+          "channel": "山姆伯伯工作坊",
+          "url": "https://www.youtube.com/watch?v=GULBGt5PPF8",
+          "duration": "1:00"
+        },
+        {
+          "name": "鴿式",
+          "en": "Pigeon Pose",
+          "kind": "release",
+          "target": "臀大肌、梨狀肌、髂腰肌",
+          "dose": "每側停留 60–90 秒，骨盆保持正對前方",
+          "title": "如何練習鴿式｜伸展臀腿肌群｜久坐上班族必看！ — YOGA JOURNEY 瑜珈旅程",
+          "channel": "YOGA JOURNEY瑜珈旅程",
+          "url": "https://www.youtube.com/watch?v=nYSq6XT8VTU",
+          "duration": "3:16"
+        },
+        {
+          "name": "股四頭肌滾筒放鬆",
+          "en": "Quad Foam Rolling",
+          "kind": "release",
+          "target": "股四頭肌、股直肌",
+          "dose": "每側滾 60–90 秒，卡住的點停 20 秒屈伸膝",
+          "title": "股四頭肌Quadriceps muscle : 伸展與滾筒放鬆。一條好的肌肉需要：「適當肌力強度」＋「肌肉彈性與延展性」，當我們鍛鍊股四頭肌後，我們可以利用拉筋伸展恢復延展性，利用滾筒恢復彈性。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=FPF6Gl54P9k",
+          "duration": "5:49"
+        },
+        {
+          "name": "腿後肌群滾筒放鬆",
+          "en": "Hamstring Foam Rolling",
+          "kind": "release",
+          "target": "腿後肌群",
+          "dose": "每側滾 60–90 秒，內外側各走一趟",
+          "title": "BLACKROLL 按摩滾筒使用教學-大腿後側肌群、膕旁肌",
+          "channel": "SHAPER MAN",
+          "url": "https://www.youtube.com/watch?v=qlxD-4dGybo",
+          "duration": "1:21"
+        },
+        {
+          "name": "內收肌群蛙式",
+          "en": "Frog Stretch",
+          "kind": "release",
+          "target": "內收肌群、內收大肌、髖深層外旋肌群",
+          "dose": "前後移動 10 次後停留 60 秒，膝蓋與腳踝同高",
+          "title": "青蛙趴你做對了嗎？JJ老師用教練培訓班級別的講解讓你知道如何趴青蛙！",
+          "channel": "禾鹿健身",
+          "url": "https://www.youtube.com/watch?v=I2K77_gC_LY",
+          "duration": "2:41"
+        },
+        {
+          "name": "腓腸肌滾筒放鬆",
+          "en": "Calf Foam Rolling",
+          "kind": "release",
+          "target": "腓腸肌、比目魚肌、腓骨肌群",
+          "dose": "每側滾 60–90 秒，配合勾腳背與踩下",
+          "title": "【肌筋膜放鬆】小腿肌群放鬆",
+          "channel": "GYMEFIT",
+          "url": "https://www.youtube.com/watch?v=jUuksM7zUU4",
+          "duration": "3:42"
+        },
+        {
+          "name": "比目魚肌伸展",
+          "en": "Soleus Stretch",
+          "kind": "release",
+          "target": "比目魚肌、腓腸肌",
+          "dose": "每側 30–45 秒 × 3 回，屈膝版與直膝版各做",
+          "title": "腓腸肌、比目魚肌伸展：樓梯伸展（小腿肚伸展）",
+          "channel": "Coach Hank 肌力體能訓練",
+          "url": "https://www.youtube.com/watch?v=-2wXrK76WxQ",
+          "duration": "1:32"
+        },
+        {
+          "name": "足底筋膜球放鬆",
+          "en": "Plantar Fascia Ball Release",
+          "kind": "release",
+          "target": "足底筋膜、足內在肌、屈趾長肌",
+          "dose": "每側滾 60–90 秒，力道控制在能忍受的痠",
+          "title": "足底筋膜炎居家復健：按壓＋拉筋＋訓練三管齊下｜啾c物理治療師",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=Lxt6G_-zJmc",
+          "duration": "6:38"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u4",
+      "name": "訓練前熱身四式與動態暖身",
+      "type": "movement",
+      "assessment": "熱身夠不夠，用「第一組工作組的品質」來檢核，不要用流汗程度。做法：熱身結束後直接上當天的第一個主課動作，用工作重量的六成做一組五下，從正側面錄影。如果第一下和第五下的軌跡、深度、槓位幾乎一樣，代表身體準備好了；如果前兩下明顯卡、要到第三下才順，表示熱身量不足，補一組漸進負荷再開始。反過來，如果熱身做完就覺得腿軟、握力下降、心跳降不下來，那是熱身做過頭，下次砍掉一半。還有一個誠實的前提要記住：熱身能提升當下的活動範圍與表現，但目前沒有可靠證據支持它能預防受傷，別把它當成保險。",
+      "tight": ["髂腰肌", "股直肌", "腓腸肌", "胸小肌"],
+      "weak": ["臀大肌", "臀中肌", "前鋸肌", "腹橫肌"],
+      "lesson": {
+        "title": "六組動態伸展｜直接用阻力訓練來熱身？【SBD怪獸講堂】第三季 ep.12｜S3E12 #動態伸展 #關節活動度 #SBD怪獸講堂 #怪獸訓練 #何立安博士 #SBDtaiwan #邱個",
+        "channel": "SBD Taiwan 邱個",
+        "url": "https://www.youtube.com/watch?v=JjmeEch0nS0",
+        "duration": "19:47",
+        "why": "難得有影片願意問「動態伸展到底需不需要做、還是直接用輕重量的訓練動作熱身就好」，而且全程不拿「預防受傷」當賣點。訓練前的放鬆與伸展能短期增加活動度，但對表現與傷害預防的效果有限——這支的態度跟本站的立場聲明一致，也給了實際可執行的替代方案。"
+      },
+      "drills": [
+        {
+          "name": "世界最棒伸展",
+          "en": "World's Greatest Stretch",
+          "kind": "release",
+          "target": "髂腰肌、內收肌群、腹斜肌、腿後肌群",
+          "dose": "每側 5 下，一步一停，不趕拍",
+          "title": "The World's Greatest Stretch (Mobility Exercise) by Squat University",
+          "channel": "Squat University",
+          "url": "https://www.youtube.com/watch?v=-CiWQ2IvY34",
+          "duration": "0:43"
+        },
+        {
+          "name": "熊爬",
+          "en": "Bear Crawl",
+          "kind": "activate",
+          "target": "前鋸肌、腹橫肌、腹斜肌、臀中肌",
+          "dose": "前進 8 步、後退 8 步 × 3 回，膝蓋離地兩公分",
+          "title": "【GYMEFIT 動作教室】熊爬",
+          "channel": "GYMEFIT",
+          "url": "https://www.youtube.com/watch?v=v052j3Z_L4U",
+          "duration": "9:16"
+        },
+        {
+          "name": "動態弓步轉體",
+          "en": "Walking Lunge with Rotation",
+          "kind": "release",
+          "target": "髂腰肌、股直肌、腹斜肌、臀大肌",
+          "dose": "每側 6–8 步，轉體時後腳膝蓋不落地",
+          "title": "Walking Lunge with Rotation",
+          "channel": "Body Within, Inc",
+          "url": "https://www.youtube.com/watch?v=jGP6ai53N50",
+          "duration": "0:55"
+        },
+        {
+          "name": "髖關節繞環",
+          "en": "Hip CARs",
+          "kind": "release",
+          "target": "髖深層外旋肌群、臀中肌、髂腰肌",
+          "dose": "每側 5 圈，每圈 10 秒以上，慢到能控制",
+          "title": "Controlled Articular Rotations (CARs) for Your Hips",
+          "channel": "Cleveland Clinic",
+          "url": "https://www.youtube.com/watch?v=hRMrq6G81p8",
+          "duration": "1:23"
+        },
+        {
+          "name": "腿部擺盪",
+          "en": "Leg Swings",
+          "kind": "release",
+          "target": "腿後肌群、髂腰肌、內收肌群",
+          "dose": "前後與左右各每側 10–12 下，幅度由小漸大",
+          "title": "3. Leg Swings - Active Warm-Up - Fully Fit by Runner's World",
+          "channel": "3v",
+          "url": "https://www.youtube.com/watch?v=naW8u72lOzI",
+          "duration": "0:51"
+        },
+        {
+          "name": "肩關節動態熱身",
+          "en": "Upper Body Dynamic Warm-Up",
+          "kind": "release",
+          "target": "旋轉肌群、胸大肌、背闊肌、前鋸肌",
+          "dose": "每個動作 8–10 下，推系訓練日前必做",
+          "title": "暖身到底有多重要？訓練前的動態暖身｜上肢篇",
+          "channel": "女力健身 Nuli App",
+          "url": "https://www.youtube.com/watch?v=X6OXfo-KG5A",
+          "duration": "5:23"
+        },
+        {
+          "name": "深蹲熱身序列",
+          "en": "Squat Warm-Up Sequence",
+          "kind": "release",
+          "target": "臀大肌、股四頭肌、內收肌群、比目魚肌",
+          "dose": "四個動作各 8–10 下，接著再上空槓",
+          "title": "你不可不知的4個深蹲前暖身動作👀｜練健康",
+          "channel": "練健康 LKK Wellness",
+          "url": "https://www.youtube.com/watch?v=2VLoscWpErE",
+          "duration": "1:31"
+        },
+        {
+          "name": "彈力帶臀肌啟動",
+          "en": "Mini Band Glute Activation",
+          "kind": "activate",
+          "target": "臀中肌、臀大肌、臀小肌",
+          "dose": "每個動作每側 12–15 下 × 2 回",
+          "title": "練臀只有大腿痠？3個臀腿暖身動作，喚醒臀肌、增加感受度｜女生新手健身",
+          "channel": "女力健身 Nuli App",
+          "url": "https://www.youtube.com/watch?v=uqdFR1HmXCY",
+          "duration": "1:55"
+        },
+        {
+          "name": "跳繩原地小跳",
+          "en": "Jump Rope Basics",
+          "kind": "activate",
+          "target": "腓腸肌、比目魚肌、脛前肌、足內在肌",
+          "dose": "30 秒 × 3 回，中間休息 30 秒",
+          "title": "從零開始學跳繩｜風編的速學課｜Get Hit Boxing #拳擊",
+          "channel": "Get Hit Boxing｜專業拳擊教學",
+          "url": "https://www.youtube.com/watch?v=1AZ9dwL5_Ho",
+          "duration": "1:26"
+        },
+        {
+          "name": "動態熱身完整流程",
+          "en": "Full Dynamic Warm-Up Flow",
+          "kind": "release",
+          "target": "髂腰肌、臀大肌、腿後肌群、胸段豎脊肌",
+          "dose": "十個動作各 6–8 下，全程 8–10 分鐘跑完一輪",
+          "title": "健身前的10大動態伸展動作 (中文字幕)",
+          "channel": "Fitting Room TW",
+          "url": "https://www.youtube.com/watch?v=-r0TYqz7INw",
+          "duration": "9:53"
+        }
+      ]
+    }
+  ]
+}

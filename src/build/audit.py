@@ -502,7 +502,7 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
     vmeta = load_json(DATA / "video-meta.json")
     if not isinstance(vmeta, dict):
         vmeta = {}
-        rep.warn(sec, "找不到 data/video-meta.json，長度與觀看數無從稽核（見 SKILL 第 4 節）")
+        rep.warn(sec, "找不到 data/video-meta.json，長度與觀看數無從稽核（跑 make meta 產生）")
 
     nodes = videos_of(units)
     for path in sorted(DATA.glob("alt-lessons-*.json")):
@@ -569,7 +569,7 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
         f"{slots} 個影片欄位 · 去重 {len(seen)} 支 · 中繼資料命中 {hits}/{filled}（{coverage:.1%}）"
     )
     if filled and coverage < opts["metaCoverage"]:
-        rep.err(sec, f"{line}，低於門檻 {opts['metaCoverage']:.0%}（重跑一次 innertube 取數）")
+        rep.err(sec, f"{line}，低於門檻 {opts['metaCoverage']:.0%}（跑 make meta 補齊）")
     else:
         rep.ok(sec, line)
 

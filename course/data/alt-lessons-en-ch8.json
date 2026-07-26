@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "unit": "ch8-u1",
+      "lang": "en",
+      "title": "The Best & Worst Glute Exercises (According To Science)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=3ryh7PNhz3E",
+      "why": "把臀推、臀橋、髖外展等髖主導動作依肌電與肌肥大文獻排序，正好對照中文主課的髖鉸鏈觀念——知道哪些動作真的練到臀大肌、哪些只是感覺很累。"
+    },
+    {
+      "unit": "ch8-u2",
+      "lang": "en",
+      "title": "The PERFECT Bulgarian Split Squat (Avoid These Errors!)",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=hPlKPjohFS0",
+      "why": "從物理治療角度拆解分腿蹲的重心、軀幹角度與膝蓋軌跡，錯誤示範拍得比中文版更清楚，適合拿來核對自己錄影裡看到的問題。"
+    },
+    {
+      "unit": "ch8-u3",
+      "lang": "en",
+      "title": "How To Get A Huge Squat With Perfect Technique (Fix Mistakes)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=bEv6CCg2BC8",
+      "why": "站距、腳尖角度、深度與膝蓋內夾都用文獻和實拍慢動作交代，補上中文主課沒展開的個體差異與力學細節。"
+    },
+    {
+      "unit": "ch8-u4",
+      "lang": "en",
+      "title": "Build A Bigger Deadlift With Perfect Technique (Conventional Form)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=VL5Ab0T07e4",
+      "why": "起始設定、槓路與背部姿勢逐項用側面慢動作示範，並說明傳統與相撲的力學差異，是對照中文硬舉主課最直接的英文版本。"
+    }
+  ]
+}

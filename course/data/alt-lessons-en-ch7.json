@@ -1,0 +1,44 @@
+{
+  "lessons": [
+    {
+      "unit": "ch7-u1",
+      "lang": "en",
+      "title": "Fix Scapular Winging FAST (3 Simple Steps!)",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=rel5a-IqhhE",
+      "why": "用臨床評估的邏輯把翼狀肩胛拆成活動度、啟動、負荷三步，正好對照本單元「先放鬆再啟動才進負荷」的順序，是中文主課的最佳英文互補。"
+    },
+    {
+      "unit": "ch7-u2",
+      "lang": "en",
+      "title": "8 BEST Exercises for Serratus Anterior (Shoulder and Scapular Strength)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=NjFTfr0FJJE",
+      "why": "把前鋸肌動作按支撐難度排成八階並附上研究依據，可以直接和中文主課的七階漸進交叉對照，補上壺鈴與負重支撐的進階選項。"
+    },
+    {
+      "unit": "ch7-u3",
+      "lang": "en",
+      "title": "How To Get A Huge Bench Press with Perfect Technique",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=vcBig73ojpE",
+      "why": "從握距、拱橋、肩胛設定到腳部推地逐項拆解臥推技術，補足中文主課偏重「肩膀不痛」而較少著墨的力學設定細節。"
+    },
+    {
+      "unit": "ch7-u4",
+      "lang": "en",
+      "title": "Build Bigger Shoulders With Perfect Training Technique (The Overhead Press)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=_RlRDWO2jfg",
+      "why": "以肌電與力學證據說明過頭推的槓路、握距與軀幹擺位，正好從另一個角度佐證中文主課「肩胛該上旋而非硬壓」的結論。"
+    },
+    {
+      "unit": "ch7-u5",
+      "lang": "en",
+      "title": "The Best And Worst Chest Exercises (Ranked By Science)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=fGm-ef-4PVk",
+      "why": "把各種夾胸與臥推動作依阻力曲線與肌肉活化排名，讀者做完本單元的角度自測後可以直接拿它決定要保留哪幾個動作。"
+    }
+  ]
+}

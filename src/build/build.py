@@ -336,7 +336,7 @@ def main() -> int:
 
     print(f"→ {OUT.relative_to(ROOT)}  ({OUT.stat().st_size / 1024:.0f} KB)")
     print(f"   主課單元 {unit_total} · 跟練影片 {drill_total} · 合計 {unit_total + drill_total}")
-    print(f"   放鬆 {kinds['release']} / 拉伸 {kinds['stretch']} / 訓練 {kinds['train']}")
+    print("   " + " / ".join(f"{k['label']} {kinds[k['id']]}" for k in CFG["kinds"]))
     print(
         f"   影片 {unit_total + drill_total + alt_count[0]} 個欄位"
         f"（含 {alt_count[0]} 支多語言版本）· 去重後 {len(seen_urls)} 支"

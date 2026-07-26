@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "unit": "ch3-u1",
+      "lang": "en",
+      "title": "The Ultimate Thoracic Mobility Routine (Get Rid of Stiffness Fast!)",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=5wv670fHuG4",
+      "why": "Aaron Horschig 把胸椎僵硬拆成伸展、旋轉、側屈三個方向逐一處理，每個動作都說明它針對哪一段脊椎，比中文版更完整地交代了「為什麼要這樣鬆」。"
+    },
+    {
+      "unit": "ch3-u2",
+      "lang": "en",
+      "title": "6 of the Best Lower Back Exercises: Your New Back Mobility Routine",
+      "channel": "[P]rehab",
+      "url": "https://www.youtube.com/watch?v=DXX-aoCIWIA",
+      "why": "Prehab Guys 的物理治療師群把下背活動度動作按難度排序並附上劑量建議，立場上明講活動度只是起點、還是得回到負荷訓練，跟本章的定位一致。"
+    },
+    {
+      "unit": "ch3-u3",
+      "lang": "en",
+      "title": "4 Essential Mobility Exercises for RUNNERS (Core, Ankles, Knees & Hips!)",
+      "channel": "Precision Movement",
+      "url": "https://www.youtube.com/watch?v=W2Iiyrav00I",
+      "why": "從腳踝、膝、髖一路串到核心，強調主動控制範圍而不是被動拉筋，正好補上中文主課偏重滾筒被動放鬆的缺口。"
+    },
+    {
+      "unit": "ch3-u4",
+      "lang": "en",
+      "title": "Static vs Dynamic Stretching: Which is Better? (Evidence-Based)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=r-pxOslY-q4",
+      "why": "直接引文獻回答「訓練前該靜態還是動態伸展」，明白指出靜態伸展的力量抑制效應被誇大、而伸展與傷害預防的證據薄弱——這是本章立場聲明最直接的英文佐證。"
+    }
+  ]
+}

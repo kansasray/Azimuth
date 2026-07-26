@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "unit": "ch5-u1",
+      "lang": "en",
+      "title": "The RIGHT Way to Breathe & Brace for Heavy Lifts",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=TRmayQcweUc",
+      "why": "英文圈把腹內壓講得最貼近槓鈴訓練的一支：先示範橫膈膜、腹壁與骨盆底怎麼一起圍成壓力腔，再直接把它套進蹲舉與硬舉的每一下，正好對照中文主課的解剖段落。"
+    },
+    {
+      "unit": "ch5-u2",
+      "lang": "en",
+      "title": "The Best Way to Breathe When Lifting Weights | Dr. Andy Galpin & Dr. Andrew Huberman",
+      "channel": "Huberman Lab Clips",
+      "url": "https://www.youtube.com/watch?v=nE4mvAWZKXw",
+      "why": "由運動生理學家 Andy Galpin 從呼吸生理談到 Valsalva 的血壓變化與適用時機，把「什麼時候該憋、什麼時候不該」講出機制，補上中文主課只給操作步驟的部分。"
+    },
+    {
+      "unit": "ch5-u3",
+      "lang": "en",
+      "title": "Best 3 Core Exercises? (Core Stability Science Explained)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=nFRjHgk2XS0",
+      "why": "物理治療師以文獻回顧檢視 McGill Big 3 這類基礎核心動作到底有沒有效，同時給出進退階；既示範動作也誠實交代證據限制，是本單元最好的對照組。"
+    },
+    {
+      "unit": "ch5-u4",
+      "lang": "en",
+      "title": "Core Rotation Strength & Power (Exercises and Progressions)",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=I7stbfs4s0Y",
+      "why": "把抗旋轉、控制旋轉到爆發旋轉排成一條完整進階路線，並說明各階段該用什麼負荷與速度，比單支動作教學更適合用來規劃本單元的訓練順序。"
+    }
+  ]
+}

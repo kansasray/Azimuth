@@ -10,6 +10,9 @@ import {
 import { bindKeys, listen as ytListen } from "./keys.js";
 import * as discuss from "./discuss.js";
 
+let LESSON_NOUN = "堂主課";
+let DRILL_NOUN = "支跟練影片";
+
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
@@ -69,7 +72,28 @@ function applyChrome(data) {
 
   document.title = site.title || site.name || document.title;
   document.documentElement.lang = site.locale || "zh-Hant";
+  LESSON_NOUN = c.ui?.lessonNoun || LESSON_NOUN;
+  DRILL_NOUN = c.ui?.drillNoun || DRILL_NOUN;
   set(".AppHeader__brand span", esc(site.name || ""));
+  // brandIcon 由設定檔決定，index.html 裡的是換主題前的預設值
+  if (site.brandIcon) {
+    $(".AppHeader__brand use")?.setAttribute("href", `#i-${site.brandIcon}`);
+  }
+
+  // 篩選鈕跟著 kinds 走，換主題不用改 HTML
+  const group = $(".FilterBar__group");
+  if (group && c.kinds?.length) {
+    group.innerHTML =
+      `<button class="FilterBar__btn is-active" data-filter="all" type="button">${esc(c.ui?.filterAll || "全部")}</button>` +
+      c.kinds
+        .map(
+          (k) =>
+            `<button class="FilterBar__btn" data-filter="${esc(k.id)}" type="button">` +
+            `<span class="Drill__marker" style="background:var(--fgColor-${esc(k.tone || "accent")})"></span>` +
+            `${esc(k.label)}</button>`,
+        )
+        .join("");
+  }
   $("#search")?.setAttribute("placeholder", c.ui?.searchPlaceholder || "搜尋…");
   set(".ProgressPanel__title", esc(c.ui?.progressLabel || ""));
   set("#muscleToggle span:first-of-type", esc(c.ui?.facetLabel || ""));
@@ -107,7 +131,7 @@ function renderStats() {
 
   // 371（單元）／406（影片欄位）／344（去重）是三個不同的東西，講清楚免得對不上
   $("#heroNote").innerHTML =
-    `${meta.units} 個單元 = ${meta.lesson_units} 堂主課 + ${meta.drill_units} 支跟練影片。` +
+    `${meta.units} 個項目 = ${meta.lesson_units} ${LESSON_NOUN} + ${meta.drill_units} ${DRILL_NOUN}。` +
     `另有 ${meta.alt_lessons} 支多語言版本，播放清單共 ${meta.video_slots} 支；` +
     `扣掉跨單元共用的，實際是 ${meta.video_unique} 支不重複影片，` +
     `每個語言版本都看過的話總長 ${meta.duration_all}。`;
@@ -180,7 +204,7 @@ function updateChapterMeta() {
     $(".Chapter__progress .ProgressBar__fill", el).style.width = `${pct}%`;
     const drillTotal = ch.units.reduce((n, u) => n + (u.drills?.length || 0), 0);
     $(".Chapter__meta", el).textContent =
-      `${ch.units.length} 個單元${drillTotal ? ` · ${drillTotal} 支跟練影片` : ""}${done ? ` · 已完成 ${done}` : ""}`;
+      `${ch.units.length} 個單元${drillTotal ? ` · ${drillTotal} ${DRILL_NOUN}` : ""}${done ? ` · 已完成 ${done}` : ""}`;
   });
 }
 

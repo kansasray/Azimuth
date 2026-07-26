@@ -43,20 +43,27 @@ BLOBS: dict[Path, dict] = {}
 
 
 def collect() -> list[tuple[str, str, str, dict]]:
-    """回傳 (檔名, 類別 id, pmid, citation dict)。citation 是可就地修改的參照。"""
+    """回傳 (檔名, 類別／單元 id, pmid, citation dict)。citation 是可就地修改的參照。
+
+    兩層都要驗：`drill-evidence-*.json` 的類別層級，以及 `oe-*.json` 的單元層級。
+    只驗其中一層等於留了一半的門沒鎖。
+    """
     out = []
-    for path in sorted(DATA.glob("drill-evidence-*.json")):
-        blob = json.loads(path.read_text())
-        BLOBS[path] = blob
-        for cat in blob.get("categories", []):
-            if not isinstance(cat, dict):
-                continue
-            for c in cat.get("citations", []):
-                pmid = str(c.get("pmid") or "").strip()
-                if pmid.isdigit():
-                    out.append((path.name, cat.get("id", "?"), pmid, c))
-                else:
-                    out.append((path.name, cat.get("id", "?"), "", c))
+    sources = [
+        ("drill-evidence-*.json", "categories", "id"),
+        ("oe-*.json", "conditions", "unit"),
+    ]
+    for pattern, key, id_field in sources:
+        for path in sorted(DATA.glob(pattern)):
+            blob = json.loads(path.read_text())
+            BLOBS[path] = blob
+            for entry in blob.get(key, []):
+                if not isinstance(entry, dict):
+                    continue
+                eid = entry.get(id_field, "?")
+                for c in entry.get("citations", []):
+                    pmid = str(c.get("pmid") or "").strip()
+                    out.append((path.name, eid, pmid if pmid.isdigit() else "", c))
     return out
 
 

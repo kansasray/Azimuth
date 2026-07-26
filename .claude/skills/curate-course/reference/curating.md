@@ -18,7 +18,11 @@
 **驗證要求（最重要）**：
 
 ```bash
-# 唯一可靠的程式化驗證方式
+# 搜尋：yt-dlp 的 ytsearch，直接拿到 id/標題/頻道/秒數/觀看數
+yt-dlp "ytsearch20:<查詢>" --flat-playlist --no-update \
+  --print "%(id)s|%(title)s|%(channel)s|%(duration)s|%(view_count)s"
+
+# 驗證：唯一可靠的程式化方式
 curl -s "https://www.youtube.com/oembed?url=<URL編碼的watch網址>&format=json"
 # 200 + 標題頻道相符 = 存在且公開；401/404 = 已刪除或設為私人
 ```
@@ -69,8 +73,17 @@ curl -s "https://www.youtube.com/oembed?url=<URL編碼的watch網址>&format=jso
 
 ## 中繼資料
 
-策展 agent 抄下來的長度常有 ±30 秒誤差。抓一次真的：在**真實 YouTube 分頁的 context 內**
-呼叫 innertube API（直連會被擋），把結果寫進 `course/data/video-meta.json`：
+策展 agent 抄下來的長度常有 ±30 秒誤差。抓一次真的：
+
+```bash
+make meta              # 只補還沒有的
+make meta --refresh    # 全部重抓
+```
+
+`src/build/fetch_meta.py` 掃過 `course/data/*.json` 收集所有 video id，用 yt-dlp 逐支取回
+長度、觀看數、頻道與標題。搜尋與單片查詢都不需要 cookie；
+（舊做法是在**真實 YouTube 分頁的 context 內**呼叫 innertube API，直連會被擋，現已不需要。）
+結果寫進 `course/data/video-meta.json`：
 
 ```json
 { "IasNstQF6z8": { "status": "OK", "seconds": 520, "views": 20119,

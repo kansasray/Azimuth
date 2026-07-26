@@ -1,0 +1,52 @@
+{
+  "lessons": [
+    {
+      "unit": "ch0-u1",
+      "lang": "en",
+      "title": "How To Make Gains At Every Fitness Level (ft. Picture Fit)",
+      "channel": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=EbfdMaV7qqM",
+      "why": "把新手、中階、進階各自該調整什麼串成一條路徑，正好補上中文主課沒細講的「你現在在哪一段、下一段要換掉什麼」。"
+    },
+    {
+      "unit": "ch1-u1",
+      "lang": "en",
+      "title": "The Neural Adaptations to Resistance Training",
+      "channel": "Physiology Made Easy",
+      "url": "https://www.youtube.com/watch?v=5TAN-o_7Miw",
+      "why": "用生理學課的節奏把神經適應逐項拆開——運動單位徵召、放電頻率、肌間協調、抑制解除，是中文主課的機制補充。"
+    },
+    {
+      "unit": "ch1-u2",
+      "lang": "en",
+      "title": "The Core Strength Paradox | Corporis",
+      "channel": "Corporis",
+      "url": "https://www.youtube.com/watch?v=kmL1S4jN8Eo",
+      "why": "直接檢驗「核心不穩就會腰痛」這個通俗說法，並以文獻收尾，是本單元「不把代償講成必然受傷」立場最好的英文佐證。"
+    },
+    {
+      "unit": "ch1-u3",
+      "lang": "en",
+      "title": "Torque, Force, Moment Arms",
+      "channel": "Hypertrophy Coach",
+      "url": "https://www.youtube.com/watch?v=GraYuXvtDZE",
+      "why": "在健身房實際器材上示範力矩與力臂如何改變一個動作的難度分佈與阻力曲線，比課堂式的力學講解更貼近訓練場景。"
+    },
+    {
+      "unit": "ch1-u4",
+      "lang": "en",
+      "title": "Base of Support, Stability and Balance (Basics of Biomechanics)Physiotherapy Tutorial",
+      "channel": "Movement Science",
+      "url": "https://www.youtube.com/watch?v=1gZS_BNKAow",
+      "why": "物理治療教學向的完整版，把底面積、重心線、穩定極限一次講齊，補足偏實作的中文主課所省略的定義部分。"
+    },
+    {
+      "unit": "ch1-u5",
+      "lang": "en",
+      "title": "Closed vs Open Chain Exercises for Upper Body Strength and Shoulder Rehab",
+      "channel": "E3 Rehab",
+      "url": "https://www.youtube.com/watch?v=t6KkM1knHl8",
+      "why": "循證復健頻道用上肢例子講開放鏈與閉鎖鏈各自的取捨，沒有把「閉鎖鏈比較好」講成教條，剛好接住中文主課的下半段。"
+    }
+  ]
+}

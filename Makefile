@@ -26,6 +26,9 @@ og: ## 用 headless Chrome 重新產生社群預覽圖
 	@magick $(DIST)/og.png -resize 1200x630 -strip $(DIST)/og.png
 	@echo "→ $(DIST)/og.png"
 
+meta: ## 用 yt-dlp 補齊 video-meta.json（長度、觀看數、頻道）
+	$(PY) src/build/fetch_meta.py
+
 audit: ## 離線稽核設定檔、配額、影片長度與實證深度（確定性，不打網路）
 	$(PY) src/build/audit.py
 
@@ -53,4 +56,4 @@ check: lint build audit ## 提交前跑這個（含離線稽核）
 clean: ## 清掉建置暫存
 	rm -rf .tmp .wrangler .ruff_cache dist **/__pycache__
 
-.PHONY: help build icons og audit verify serve deploy lint fmt check clean
+.PHONY: help build icons og meta audit verify serve deploy lint fmt check clean

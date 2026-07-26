@@ -58,13 +58,19 @@ ICONS = [
     "scan-line",
     "book-open",
     # 章節
-    "user-round",  # CH4 頸椎
-    "bone",  # CH5 胸椎
-    "shirt",  # CH7 肩胛骨
-    "diamond",  # CH8 骨盆
-    "move-diagonal",  # CH10 膝蓋
-    "footprints",  # CH11 足踝
-    "wind",  # CH3 呼吸
+    "brain",  # CH1 訓練的科學基礎
+    "waves",  # CH3 釋放身體限制
+    "clipboard-list",  # CH4 訓練邏輯與課表設計
+    "wind",  # CH5 呼吸與核心
+    "move-down",  # CH6 上肢拉系
+    "move-up",  # CH7 上肢推系
+    "footprints",  # CH8 下肢動作
+    "link",  # CH9 動力鏈整合
+    # 其他可選圖示
+    "bone",
+    "move-vertical",
+    "move-diagonal",
+    "user-round",
 ]
 
 

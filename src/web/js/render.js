@@ -432,7 +432,7 @@ export function renderChapter(ch, doneSet) {
             ${esc(ch.title)}
           </span>
           <span class="Chapter__meta">
-            ${ch.units.length} 個單元${drillTotal ? ` · ${drillTotal} 支跟練影片` : ""}
+            ${ch.units.length} 個單元${drillTotal ? ` · ${drillTotal} ${UI.drillNoun || "支跟練影片"}` : ""}
             ${doneCount ? ` · 已完成 ${doneCount}` : ""}
           </span>
         </span>
@@ -485,7 +485,7 @@ export function renderHome(course) {
         <span class="ChapterCard__icon">${icon(ch.icon || "circle-dot", 18)}</span>
         <span class="ChapterCard__main">
           <span class="ChapterCard__title"><span class="Chapter__code">${esc(ch.code)}</span> ${esc(ch.title)}</span>
-          <span class="ChapterCard__meta">${ch.units.length} 單元${drills ? ` · ${drills} 支跟練` : ""}</span>
+          <span class="ChapterCard__meta">${ch.units.length} 單元${drills ? ` · ${drills} ${UI.drillNoun || "支跟練影片"}` : ""}</span>
           <span class="ChapterCard__units">${ch.units.map((u) => esc(u.name)).join("、")}</span>
         </span>
       </button>`;
