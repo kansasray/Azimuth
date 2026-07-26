@@ -1,6 +1,6 @@
 # 實證查核規格書
 
-專案根目錄 `/Users/htlin/gym-course`。課程：《高效健身訓練系統》策展版。
+所有路徑都相對於 repo 根目錄。課程：《高效健身訓練系統》策展版。
 
 這一層是這門課跟一般訓練影片清單最大的差別。**誠實比好看重要**——
 如果查證結果顯示某個健身房共識證據薄弱，就照實寫，標成 `limited` 或 `contested`。
@@ -18,10 +18,10 @@
 
 ```bash
 # 搜尋（回傳 PMID / 年 / 期刊 / 類型 / 標題）
-python3 /private/tmp/claude-501/-Users-htlin-body-course/4bc4db84-1e78-479b-b5fd-57b5fe48810c/scratchpad/pm.py search "<query>" 8
+python3 src/build/pubmed.py search "<query>" 8
 
 # 抓摘要（確認 takeaway 用）
-python3 /private/tmp/claude-501/-Users-htlin-body-course/4bc4db84-1e78-479b-b5fd-57b5fe48810c/scratchpad/pm.py abs <PMID> <PMID> ...
+python3 src/build/pubmed.py abs <PMID> <PMID> ...
 ```
 
 原始 API 也可以直接打：
