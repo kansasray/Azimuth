@@ -512,6 +512,23 @@ function bindEvents() {
     discuss.syncTheme();
   });
 
+  // 點側欄章節：讓對應的卡片閃一下描邊。
+  // 大螢幕上整份大綱一眼看完，單純捲動等於沒有回饋，所以要指出「是這一張」。
+  // 用事件委派，因為 renderNav() 會整個重畫 #nav 的 innerHTML。
+  let flashTimer;
+  $("#nav")?.addEventListener("click", (e) => {
+    const link = e.target.closest("[data-nav]");
+    if (!link) return;
+    const card = $(`.Chapter[data-chapter="${CSS.escape(link.dataset.nav)}"]`);
+    if (!card) return;
+
+    clearTimeout(flashTimer);
+    $$(".Chapter--flash").forEach((c) => c.classList.remove("Chapter--flash"));
+    void card.offsetWidth; // 強制重排，連點同一章才會重新播放動畫
+    card.classList.add("Chapter--flash");
+    flashTimer = setTimeout(() => card.classList.remove("Chapter--flash"), 1150);
+  });
+
   // 側欄高亮
   const observer = new IntersectionObserver(
     (entries) => {
