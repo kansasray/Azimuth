@@ -26,7 +26,7 @@ def _get(path: str, params: dict) -> str:
         try:
             with urllib.request.urlopen(url, timeout=30) as res:
                 return res.read().decode()
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             if attempt == 3:
                 raise
             print(f"  retry {attempt + 1}: {exc}", file=sys.stderr)

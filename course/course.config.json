@@ -389,10 +389,10 @@
   },
   "discussions": {
     "provider": "giscus",
-    "repo": "htlin222/curate-course",
-    "repoId": "R_kgDOTjdcNg",
+    "repo": "htlin222/gym-course",
+    "repoId": "R_kgDOTkKb5Q",
     "category": "General",
-    "categoryId": "DIC_kwDOTjdcNs4DB9da",
+    "categoryId": "DIC_kwDOTkKb5c4DCBFj",
     "mapping": "specific",
     "termPrefix": "gym",
     "lang": "zh-TW",
