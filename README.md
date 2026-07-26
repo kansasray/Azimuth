@@ -1,5 +1,26 @@
 # gym-course — 高效健身訓練系統
 
+**Live site**: <https://gym-course.pages.dev> · Course content is in **Traditional Chinese**;
+each unit also links an English-language video covering the same topic.
+
+> **In English.** An evidence-graded strength-training course curated entirely from public
+> YouTube videos — 11 chapters, 44 units, 316 movement demos, 31 hours. The syllabus follows
+> the structure of a Mandarin course by coach Jimmy Yang; **none of the content is his** —
+> every video is a third-party YouTube upload that this site only links to and verifies.
+>
+> What makes it more than a playlist: quotas are enforced at build time, all 378 unique links
+> are re-checked against the YouTube oEmbed API, and every movement category carries an
+> evidence grade backed by PubMed citations that are re-verified against the live API
+> (280 citations, 190 unique PMIDs, 100% confirmed). The grading is deliberately unflattering
+> — **only 2 of 65 evidence claims reach "strong"**, 30 are "limited" and 15 are "contested".
+> Findings that undercut the course's own premises are published as-is; see
+> [這門課的立場 / Where this course stands](https://gym-course.pages.dev).
+>
+> Built on `curate-course`, a topic-agnostic framework: replace `course/` and the same
+> machinery produces a guitar course, a statistics course, a welding course.
+
+---
+
 把 YouTube 上散落的好內容，變成一門**結構完整、連結全數驗證、來源可查**的課程網站。
 
 這個 repo 裝的是一門健身訓練課：十一個章節，從訓練力學、活動度限制、呼吸與腹內壓，
