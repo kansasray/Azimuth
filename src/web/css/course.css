@@ -341,30 +341,3 @@
   border-color: var(--fgColor-accent);
   font-weight: 600;
 }
-
-/* 點側欄章節時，對應卡片閃一下描邊。
-   靜態的 box-shadow 先套上，所以 prefers-reduced-motion 把動畫關掉時仍看得見高亮；
-   動畫只負責脈衝兩下（低於每秒三閃的無障礙門檻）。 */
-.Chapter--flash > .Chapter__header {
-  border-color: var(--borderColor-accent-emphasis);
-  box-shadow: 0 0 0 2px var(--borderColor-accent-emphasis);
-  animation: chapterFlash 1.1s ease-out;
-}
-
-@keyframes chapterFlash {
-  0% {
-    box-shadow: 0 0 0 0 color-mix(in srgb, var(--borderColor-accent-emphasis) 70%, transparent);
-  }
-  25% {
-    box-shadow: 0 0 0 6px color-mix(in srgb, var(--borderColor-accent-emphasis) 22%, transparent);
-  }
-  50% {
-    box-shadow: 0 0 0 2px var(--borderColor-accent-emphasis);
-  }
-  75% {
-    box-shadow: 0 0 0 6px color-mix(in srgb, var(--borderColor-accent-emphasis) 22%, transparent);
-  }
-  100% {
-    box-shadow: 0 0 0 2px var(--borderColor-accent-emphasis);
-  }
-}

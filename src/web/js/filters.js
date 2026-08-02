@@ -1,66 +1,67 @@
-// filters.js — 搜尋、動作類型、肌群篩選
+// filters.js — 搜尋、項目類型、分面篩選
 import { icon } from "./icons.js";
 import { esc, UI } from "./render.js";
+import { rich, text } from "./copy.js";
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
-/* --- 肌群面板 ------------------------------------------------------------ */
+/* --- 分面面板 ------------------------------------------------------------ */
 
-export function renderMusclePanel(course) {
+export function renderFacetPanel(course) {
   const list = course.facets || [];
   if (!list.length) {
-    $("#musclePanel")?.remove();
+    $("#facetPanel")?.remove();
     return;
   }
 
   const byGroup = new Map();
-  for (const m of list) {
-    if (!byGroup.has(m.group)) byGroup.set(m.group, []);
-    byGroup.get(m.group).push(m);
+  for (const f of list) {
+    if (!byGroup.has(f.group)) byGroup.set(f.group, []);
+    byGroup.get(f.group).push(f);
   }
 
-  $("#muscleCount").textContent = list.length;
-  $("#muscleBody").innerHTML =
+  $("#facetCount").textContent = list.length;
+  $("#facetBody").innerHTML =
     [...byGroup]
       .map(
-        ([group, ms]) => `
-        <div class="MuscleGroup__title">${esc(group)}</div>
-        <div class="MuscleChips">
-          ${ms
+        ([group, items]) => `
+        <div class="FacetGroup__title">${esc(group)}</div>
+        <div class="FacetChips">
+          ${items
             .map(
-              (m) => `
-            <button class="MuscleChip" type="button" data-muscle="${esc(m.name)}">
-              ${esc(m.name)}<span class="MuscleChip__n">${m.count}</span>
+              (f) => `
+            <button class="FacetChip" type="button" data-facet="${esc(f.name)}">
+              ${esc(f.name)}<span class="FacetChip__n">${f.count}</span>
             </button>`,
             )
             .join("")}
         </div>`,
       )
       .join("") +
-    `<button class="btn MusclePanel__clear" id="muscleClear" type="button">
-       ${icon("rotate-ccw", 12)} ${esc(UI.facetClear || "")}
+    `<button class="btn FacetPanel__clear" id="facetClear" type="button">
+       ${icon("rotate-ccw", 12)} ${rich(UI.facetClear || "")}
      </button>`;
 }
 
-/** 同步所有肌群按鈕（側欄 chip + 動作內的標籤）的選取狀態 */
-export function syncMuscleChips(selected) {
-  $$("[data-muscle]").forEach((el) =>
-    el.classList.toggle("is-active", selected.has(el.dataset.muscle)),
+/** 同步所有分面按鈕（側欄 chip + 項目內的標籤）的選取狀態 */
+export function syncFacetChips(selected) {
+  $$("[data-facet]").forEach((el) =>
+    el.classList.toggle("is-active", selected.has(el.dataset.facet)),
   );
-  const panel = $("#musclePanel");
+  const panel = $("#facetPanel");
   if (panel && selected.size) panel.classList.add("is-open");
 }
 
 /* --- 主篩選 -------------------------------------------------------------- */
 
 /**
- * 依 state 顯示／隱藏章節、單元與動作。
- * state: { query, filter, muscles:Set }
+ * 依 state 顯示／隱藏章節、單元與項目。
+ * state: { query, filter, facets:Set }
  */
 export function applyFilters(state, course) {
   const q = state.query.trim().toLowerCase();
-  const sel = state.muscles;
+  const sel = state.facets;
   let visibleUnits = 0;
   let visibleDrills = 0;
 
@@ -68,10 +69,10 @@ export function applyFilters(state, course) {
     let chapterHasMatch = false;
 
     $$(".Unit", chEl).forEach((unitEl) => {
-      const unitMuscles = (unitEl.dataset.facets || "").split("|").filter(Boolean);
-      const muscleOk = !sel.size || unitMuscles.some((m) => sel.has(m));
+      const unitFacets = (unitEl.dataset.facets || "").split("|").filter(Boolean);
+      const facetOk = !sel.size || unitFacets.some((f) => sel.has(f));
       const textOk = !q || unitEl.textContent.toLowerCase().includes(q);
-      const match = muscleOk && textOk;
+      const match = facetOk && textOk;
 
       unitEl.hidden = !match;
       if (!match) return;
@@ -79,16 +80,16 @@ export function applyFilters(state, course) {
       chapterHasMatch = true;
       visibleUnits++;
 
-      // 動作層級：類型 + 肌群兩個維度
+      // 項目層級：類型 + 分面兩個維度
       $$(".Drill", unitEl).forEach((d) => {
         const kindOk = state.filter === "all" || d.dataset.kind === state.filter;
-        const dm = (d.dataset.facets || "").split("|").filter(Boolean);
-        const mOk = !sel.size || dm.some((m) => sel.has(m));
-        d.hidden = !(kindOk && mOk);
-        if (kindOk && mOk) visibleDrills++;
+        const df = (d.dataset.facets || "").split("|").filter(Boolean);
+        const fOk = !sel.size || df.some((f) => sel.has(f));
+        d.hidden = !(kindOk && fOk);
+        if (kindOk && fOk) visibleDrills++;
       });
 
-      // 整組動作都被篩掉就把標題也收起來
+      // 整組項目都被篩掉就把標題也收起來
       $$(".DrillGroup", unitEl).forEach((g) => {
         const anyVisible = $$(".Drill", g).some((d) => !d.hidden);
         g.hidden = !anyVisible;
@@ -102,11 +103,14 @@ export function applyFilters(state, course) {
   const totalDrills = course.meta.drill_units;
   const parts = [];
   if (q) parts.push(`「${state.query.trim()}」`);
-  if (sel.size) parts.push(`${UI.facetPrefix || ""}：${[...sel].join("、")}`);
+  if (sel.size) parts.push(`${text(UI.facetPrefix || "")}：${[...sel].join("、")}`);
+
+  // paywall 鎖住的章節不渲染動作，所以分母對不上時要講清楚為什麼
+  const locked = state.lockedNote ? ` · ${state.lockedNote}` : "";
 
   $("#filterCount").textContent = parts.length
-    ? `${visibleUnits} 個單元 · ${visibleDrills} 支動作符合 ${parts.join(" + ")}`
-    : `顯示 ${visibleDrills} / ${totalDrills} 支跟練影片`;
+    ? `${visibleUnits} ${text(UI.unitNoun || "個單元")} · ${visibleDrills} ${text(UI.drillNoun || "支跟練影片")}符合 ${parts.join(" + ")}`
+    : `顯示 ${visibleDrills} / ${totalDrills} ${text(UI.drillNoun || "支跟練影片")}${locked}`;
 
   toggleBlankslate(visibleUnits);
   return { visibleUnits, visibleDrills };
@@ -120,8 +124,8 @@ function toggleBlankslate(visibleUnits) {
       "beforeend",
       `<div class="Blankslate" id="filterBlank">
          ${icon("inbox", 32)}
-         <p class="Blankslate__heading">${esc(UI.emptyTitle || "")}</p>
-         <p>${esc(UI.emptyHint || "")}</p>
+         <p class="Blankslate__heading">${rich(UI.emptyTitle || "")}</p>
+         <p>${rich(UI.emptyHint || "")}</p>
        </div>`,
     );
   } else if (visibleUnits > 0 && existing) {

@@ -18,18 +18,24 @@ from __future__ import annotations
 
 import importlib
 import json
-import os
 import re
+import subprocess
 import sys
 from collections import Counter, defaultdict
+from datetime import date
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-COURSE = Path(os.environ.get("COURSE") or ROOT / "course").resolve()
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import coursepath  # 框架自己的模組，要先把 src/build 加進路徑
+
+ROOT = coursepath.ROOT
+COURSE = coursepath.course_dir()
+COURSE_REL = COURSE.relative_to(ROOT) if COURSE.is_relative_to(ROOT) else COURSE
 DATA = COURSE / "data"
 WEB = ROOT / "src" / "web"
-DIST = Path(os.environ.get("DIST") or ROOT / "dist").resolve()
+DIST = coursepath.dist_dir(COURSE)
 SCHEMA = Path(__file__).parent / "course.schema.json"
+MIGRATION = "docs/MIGRATION.md"
 
 # 沒寫 audit 區塊時的通則門檻。單位：秒數用 "分:秒" 字串，比例用 0–1。
 DEFAULTS = {
@@ -46,12 +52,28 @@ DEFAULTS = {
     "minAssessmentChars": 40,
     "minCitations": 1,
     "allowMissingUrls": 0,
+    # 單一類別佔「已分類項目」的比例上限。超過通常代表 patterns 寫得太寬
+    # （典型死法：把會出現在 target 欄位的分面詞彙拿來當 pattern），
+    # 那一類會把別類餓死，而歸類結果不會有任何錯誤訊息。
+    "maxCategoryShare": 0.25,
+    # course/data/ 底下刻意不給建置讀的檔案（草稿、備份）。其餘讀不到的一律報錯。
+    "ignoreDataFiles": [],
 }
 
 YT = re.compile(
     r"^https://(?:www\.)?youtube\.com/watch\?v=[\w-]{11}(?:&\S*)?$|^https://youtu\.be/[\w-]{11}"
 )
-SECTIONS = ("設定檔", "結構與配額", "影片", "內容深度")
+SECTIONS = ("設定檔", "文案", "主題耦合", "結構與配額", "影片", "內容深度")
+
+# 文案欄位所在的頂層區塊。這些區塊底下的字串一律走「先逸出、只認得 **粗體**」，
+# 寫 HTML 標籤不會有效果，只會原樣印在頁面上。
+COPY_SECTIONS = ("site", "hero", "ui", "nav", "landing", "stance", "footer", "llms", "og",
+                 "kinds", "grades", "languages", "counter", "paywall")
+
+# 資料檔依「頂層有哪些鍵」判斷用途，不看檔名——oe- / drill-evidence- 這些前綴
+# 是「這門課用 OpenEvidence」的歷史，而 ui.evidenceSource 是可換的。
+DATA_KEYS = ("conditions", "categories", "lessons", "chapters", "chapter", "units")
+VIDEO_META = "video-meta.json"
 
 
 # ── 小工具 ────────────────────────────────────────────────────────────────
@@ -99,6 +121,50 @@ def load_json(path: Path):
         return None
     except json.JSONDecodeError as e:
         return e
+
+
+_BLOBS: dict[Path, dict] | None = None
+_BAD_JSON: list[tuple[str, str]] = []  # (檔名, 說明)
+
+
+def data_blobs() -> dict[Path, dict]:
+    """course/data/*.json 一次全部讀進來（只留解析成功的物件），與 build.py 同一套規則。"""
+    global _BLOBS
+    if _BLOBS is None:
+        _BLOBS = {}
+        for path in sorted(DATA.glob("*.json")):
+            blob = load_json(path)
+            if isinstance(blob, dict):
+                _BLOBS[path] = blob
+            elif isinstance(blob, json.JSONDecodeError):
+                _BAD_JSON.append((path.name, f"data/{path.name}：第 {blob.lineno} 行 {blob.msg}"))
+    return _BLOBS
+
+
+def data_rows(key: str):
+    """yield (path, dict)：所有資料檔頂層 `key` 陣列裡的物件節點。"""
+    for path, blob in data_blobs().items():
+        node = blob.get(key)
+        if isinstance(node, list):
+            for row in node:
+                if isinstance(row, dict):
+                    yield path, row
+
+
+def stance_prefix(cfg: dict) -> str:
+    return (cfg.get("stance") or {}).get("keyPrefix") or "concept-"
+
+
+def load_taxonomy(cfg: dict, key: str):
+    """匯入課程的詞彙模組；沒設定或匯入失敗都回 None（失敗由 audit_config 報）。"""
+    name = (cfg.get("taxonomy") or {}).get(key)
+    if not name:
+        return None
+    sys.path.insert(0, str(COURSE))
+    try:
+        return importlib.import_module(name)
+    except Exception:
+        return None
 
 
 class Report:
@@ -176,6 +242,19 @@ def validate(node, schema: dict, path: str, defs: dict, out: list[str]) -> None:
         out.append(f"{path} 應為 integer")
         return
 
+    if variants := schema.get("oneOf"):
+        # 任一分支通過就算過（paywall.products[].unlocks 是 "*" 或章節陣列）
+        failures = []
+        for variant in variants:
+            errs: list[str] = []
+            validate(node, variant, path, defs, errs)
+            if not errs:
+                failures = []
+                break
+            failures.append(errs)
+        if failures:
+            out.append(f"{path} 不符合任何一種允許的形式：{node!r}")
+
     if (enum := schema.get("enum")) and node not in enum:
         out.append(f"{path} 只能是 {'/'.join(map(str, enum))}，實際是 {node!r}")
     if (pat := schema.get("pattern")) and isinstance(node, str) and not re.match(pat, node):
@@ -213,9 +292,23 @@ def validate(node, schema: dict, path: str, defs: dict, out: list[str]) -> None:
 # ── 設定檔 ────────────────────────────────────────────────────────────────
 
 
-def sprite_icons() -> set[str]:
-    m = re.search(r"ICON_NAMES = (\[.*?\]);", (WEB / "js" / "icons.js").read_text(), re.S)
+def _sprite_names(path: Path) -> set[str]:
+    if not path.is_file():
+        return set()
+    m = re.search(r"ICON_NAMES = (\[.*?\]);", path.read_text(), re.S)
     return set(json.loads(m.group(1))) if m else set()
+
+
+def sprite_icons() -> set[str]:
+    """這門課線上實際會拿到的圖示。
+
+    sync_web() 先複製 src/web、再讓 $COURSE/assets/ 覆蓋，所以課程有自己的
+    sprite 時，dist 拿到的是課程那一份。稽核必須看同一份，否則 A 課的
+    sprite 會替 B 課背書——這正是 sprite 還是全域檔案時的老問題。
+    """
+    return _sprite_names(COURSE / "assets" / "js" / "icons.js") or _sprite_names(
+        WEB / "js" / "icons.js"
+    )
 
 
 def css_tones() -> set[str]:
@@ -223,10 +316,377 @@ def css_tones() -> set[str]:
     return set(re.findall(r"\.Label--([a-z-]+)", (WEB / "css" / "tokens.css").read_text()))
 
 
+def audit_topic_coupling(cfg: dict, rep: Report) -> None:
+    """抓「換主題時會靜靜壞掉」的那一類問題。
+
+    這些 bug 的共同特徵是**不會報錯**：類型 id 寫死在前端，換主題後項目全部
+    不顯示；`teaches` 找不到單元就產出空陣列，JSON-LD 依然合法。稽核不查，
+    就要等上線後使用者回報。
+    """
+    sec = "主題耦合"
+    src = ROOT / "src" / "web"
+    kind_ids = {k.get("id") for k in cfg.get("kinds") or [] if isinstance(k, dict)}
+
+    # 1) 前端不得寫死任何 kind id
+    offenders = []
+    for f in [*sorted(src.glob("js/*.js")), src / "index.html"]:
+        if not f.exists() or f.name == "icons.js":
+            continue
+        for i, line in enumerate(f.read_text().splitlines(), 1):
+            code = line.split("//")[0]
+            # data-filter="${...}" 是 renderFilterBar() 自己在生成，那是正解不是問題
+            if "data-filter=" in code and 'data-filter="all"' not in code and "${" not in code:
+                offenders.append(f"{f.name}:{i} 篩選鈕寫死 kind id，應由 renderFilterBar() 生成")
+            for kid in kind_ids:
+                if kid and f'"{kid}"' in code and "Drill__marker--" not in code:
+                    offenders.append(f"{f.name}:{i} 寫死 kind id「{kid}」，應迭代 CFG.kinds")
+    if offenders:
+        rep.err(sec, f"前端寫死了項目類型 id（{len(offenders)} 處）", offenders[:8])
+    else:
+        rep.ok(sec, "前端未寫死任何項目類型 id")
+
+    # 1b) 建置腳本同理。它不會讓網站壞掉，但輸出與產物會**用上一個主題的話講話**：
+    #     `ui.problemType` 退回寫死的預設值，換主題後統計數字會莫名歸零或亂數。
+    vocab = {
+        **{k: "kinds" for k in kind_ids if k},
+        **{k: "ui.unitTypes" for k in (cfg.get("ui") or {}).get("unitTypes", {})},
+        **{g.get("id"): "grades" for g in cfg.get("grades") or [] if isinstance(g, dict)},
+    }
+    leaks = []
+    for f in sorted((ROOT / "src" / "build").glob("*.py")):
+        for i, line in enumerate(f.read_text().splitlines(), 1):
+            code = line.split("#")[0]
+            for word, origin in vocab.items():
+                if word and f'"{word}"' in code:
+                    leaks.append(f"{f.name}:{i} 寫死了 {origin} 的 id「{word}」")
+    if leaks:
+        rep.warn(sec, f"建置腳本寫死了課程詞彙（{len(leaks)} 處），換主題會靜靜講錯話", leaks)
+
+    # 2) ui.problemType 必須真的對得到單元，否則 JSON-LD 的 teaches 會是空的
+    ptype = (cfg.get("ui") or {}).get("problemType")
+    if ptype and ptype not in (cfg.get("ui") or {}).get("unitTypes", {}):
+        rep.err(sec, f"ui.problemType「{ptype}」不在 ui.unitTypes 裡，JSON-LD 的 teaches 會是空的")
+
+
+# ── 文案 ──────────────────────────────────────────────────────────────────
+# 這一節看的是「設定檔的字怎麼變成頁面上的字」。三種失敗都不會讓建置掛掉，
+# 只會讓使用者看到字面的 {{ui.progressLabel}} 或 <strong>——所以只能靠稽核擋。
+
+# 文案佔位符只有這一份定義，必須與 src/build/seo.py 的 TOKEN_FIELDS
+# 及 src/web/js/copy.js 的 TOKEN_FIELDS 完全一致（tests/copy-contract.test.js 會比對）。
+COPY_TOKENS = ("units", "lessonUnits", "drillUnits", "slots", "videos", "problems", "evidence")
+
+# HTML 標籤：文案契約改成「逸出 + **粗體**」之後，這些寫法一律無效。
+# 從舊版本升級上來的設定檔會靜靜地把 <strong> 印在畫面上，所以要主動抓。
+TAG = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*\s*/?>")
+
+# ── AI 寫作痕跡 ──────────────────────────────────────────────────────────
+#
+# 這份表跟這一節其他檢查不同：其他幾條問「會不會壞」，這一條問「讀起來像不像
+# 人寫的」。文案是課程唯一直接對使用者說話的地方，而 LLM 寫出來的中文有一組
+# 很固定的痕跡——三段式、否定式排比、揭示前的破折號、沒有出處的「專家認為」。
+# 它們不會讓 build 掛掉，網站看起來也完全正常，只是聽起來像機器。
+#
+# 一律只警告，不擋交付。風格要判斷力，而稽核沒有判斷力：「三類」在這門課裡
+# 是真的有三種動作類型，不是為了湊三段式。命中之後自己讀一遍再決定。
+#
+# 樣式來自 Wikipedia:Signs of AI writing（WikiProject AI Cleanup 整理），
+# 中文對照取自 kevintsai1202/Humanizer-zh-TW。只收誤判率低、而且改法明確的；
+# 需要讀懂整段語意才判斷得出來的（虛假範圍、同義詞循環）留給人看。
+SLOP = [
+    (
+        "否定式排比",
+        re.compile(r"(?:不只|不僅|不光|不單)(?:是)?[^。！？]{0,25}(?:而是|而且|還是)"
+                   r"|不是[^。！？]{0,25}而是"),
+        "直接講你要講的那一半。「不是 A 而是 B」多半只需要 B",
+    ),
+    (
+        "膚淺的意義昇華",
+        re.compile(r"彰顯了?|凸顯了?|體現了?|標誌著|見證了|奠定了?[^。]{0,6}基礎"
+                   r"|反映了更廣泛|為[^。]{0,10}做出貢獻|不斷演進|持續演進"),
+        "刪掉這句，或換成一個具體事實",
+    ),
+    (
+        "宣傳性語言",
+        re.compile(r"最大的|最好的|最重要的|最佳|首屈一指|獨一無二|令人讚嘆|嘆為觀止"
+                   r"|充滿活力|坐落[於在]|必[遊看]|開創性|革命性|前所未有"),
+        "拿掉最高級。要主張比別人好，得給得出比較的依據",
+    ),
+    (
+        "模糊歸因",
+        re.compile(r"專家(?:認為|指出|表示)|業界報告|研究表明|眾所周知|一般認為"
+                   r"|普遍認為|許多人認為"),
+        "指名道姓：哪一篇、哪一年、連結在哪。這門課有 PMID，用它",
+    ),
+    (
+        "填充連接詞",
+        re.compile(r"此外[，,]|值得注意的是|總而言之|綜上所述|簡言之|換句話說"
+                   r"|深入探討|至關重要|在這個時間點|為了實現這一目標"),
+        "刪掉即可，句子的意思不會少",
+    ),
+    (
+        "通用積極結論",
+        re.compile(r"未來可期|值得期待|邁出了?[^。]{0,6}重要的?一步|開啟[^。]{0,6}新篇章"
+                   r"|前景[光廣]明"),
+        "換成一件具體會發生的事，或整句刪掉",
+    ),
+    (
+        "過度限定",
+        re.compile(r"可能潛在|或許可能|某種程度上可以說|在一定程度上可能|似乎有可能"),
+        "留一個限定詞就好",
+    ),
+    (
+        "對話殘留",
+        re.compile(r"希望這對[你您]有幫助|好問題|當然！|如有需要請告訴我"),
+        "這是聊天視窗裡的話，不是課程文案",
+    ),
+]
+
+BOLD = re.compile(r"\*\*.+?\*\*")
+
+# 破折號單獨處理，不放進 SLOP。
+#
+# 中文破折號有正當用法（補充說明、話題轉換），逐處報警會產生幾十行「這處其實
+# 沒問題」，而一個天天喊狼來了的檢查等於沒有檢查。Humanizer 原文抱怨的也是
+# **頻率**——「LLM 使用破折號比人類更頻繁」——所以這裡量的是密度，不是實例。
+# 超過門檻才報一則，附幾個例子讓人抽查。門檻走 audit.copyStyle.maxDashRatio。
+DASH = re.compile("——")
+DASH_RATIO = 0.05
+
+
+def copy_strings(cfg: dict):
+    """yield (dotted path, 字串)：設定檔裡所有會變成畫面文案的字串。"""
+
+    def walk(node, path):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                walk(v, f"{path}.{k}")
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                walk(v, f"{path}[{i}]")
+        elif isinstance(node, str):
+            yield_.append((path.lstrip("."), node))
+
+    yield_: list[tuple[str, str]] = []
+    for key in COPY_SECTIONS:
+        if key in cfg:
+            walk(cfg[key], key)
+    return yield_
+
+
+def template_tokens() -> list[str]:
+    """index.html 裡所有 {{a.b}}。這是「首屏需要哪些設定欄位」唯一的真相來源。"""
+    path = WEB / "index.html"
+    if not path.exists():
+        return []
+    return sorted(set(re.findall(r"\{\{([\w.]+)\}\}", path.read_text())))
+
+
+def audit_copy(cfg: dict, rep: Report) -> None:
+    sec = "文案"
+
+    # 1) 佔位符打錯字：{units} 打成 {unit} 會原樣印在頁面上。
+    #    ui.facetFilterHint 有自己的 {name}（由前端填入分面名稱），不走這套。
+    bad = [
+        f"{path} 用了未定義的佔位符 {{{tok}}}"
+        for path, val in copy_strings(cfg)
+        for tok in re.findall(r"\{(\w+)\}", val)
+        if tok not in COPY_TOKENS and not (path == "ui.facetFilterHint" and tok == "name")
+    ]
+    if bad:
+        rep.err(sec, f"文案佔位符打錯字（{len(bad)} 處），會原樣印在頁面上"
+                     f"。可用：{'、'.join(COPY_TOKENS)}", bad[:8])
+
+    # 2) #28：index.html 用到的 {{a.b}} 沒設定，就會原樣輸出到正式 HTML。
+    #    以前 build 只印一行「未解析 [...]」，audit 依然 0 錯誤——換主題的人根本
+    #    不知道有這幾個欄位存在（它們也不在 schema 裡，見 #15）。
+    def lookup(dotted: str):
+        node = cfg
+        for part in dotted.split("."):
+            if not isinstance(node, dict) or part not in node:
+                return None
+            node = node[part]
+        return node
+
+    tokens = template_tokens()
+    if missing := [t for t in tokens if lookup(t) is None]:
+        rep.err(
+            sec,
+            f"index.html 用到 {len(missing)} 個沒有設定的文案欄位，"
+            "會有字面的 {{…}} 出現在正式頁面上",
+            [f"{{{{{t}}}}} ← 設定檔缺 {t}" for t in missing],
+        )
+    elif tokens:
+        rep.ok(sec, f"index.html 的 {len(tokens)} 個文案佔位符都有對應的設定")
+
+    # 3) 產物複驗：真的送出去的那份 HTML 裡不該有任何 {{…}}。
+    #    第 2 條只看得到 index.html 這個模板，這一條連 seo.py 自己漏掉的都抓得到。
+    built = DIST / "index.html"
+    dist_cfg = load_json(DIST / "course.json")
+    same_course = isinstance(dist_cfg, dict) and (dist_cfg.get("config") or {}).get(
+        "site", {}
+    ).get("project") == (cfg.get("site") or {}).get("project")
+    if built.exists() and same_course:
+        if left := sorted(set(re.findall(r"\{\{[\w.]+\}\}", built.read_text()))):
+            rep.err(sec, f"{DIST.name}/index.html 還有 {len(left)} 個沒替換掉的佔位符"
+                         "（重跑 make build 再看一次）", left)
+        else:
+            rep.ok(sec, f"{DIST.name}/index.html 沒有殘留的佔位符")
+
+    # 4) 文案不吃 HTML：一律先逸出，只認得 `**粗體**`。
+    #    寫 <strong> 以前在少數幾個欄位「剛好會生效」，其餘欄位原樣印出——
+    #    同一個 stance 物件的 intro 與 outro 就是相反的（#20）。現在全部一致。
+    if tagged := [f"{path}：{val[:60]}" for path, val in copy_strings(cfg) if TAG.search(val)]:
+        rep.err(
+            sec,
+            f"{len(tagged)} 個文案欄位寫了 HTML 標籤。文案一律先逸出，"
+            "標籤只會原樣印在頁面上——要強調請改用 **粗體**",
+            tagged[:8],
+        )
+    else:
+        rep.ok(sec, "文案欄位都沒有 HTML 標籤（一律逸出 + **粗體**）")
+
+
+def prose_strings(units: list[dict]):
+    """(path, 字串)：資料檔裡由人（或策展 agent）寫的散文。
+
+    `units` 是 walk() 的回傳值，形狀是 [{code, unit}]，不是裸的單元。
+
+    只收散文。`title` / `channel` 是照抄 YouTube 的事實，`name` / `en` /
+    `target` / `dose` 是課程術語——那些欄位改一個字就是錯的，不該進風格檢查。
+    """
+    out: list[tuple[str, str]] = []
+    for row in units:
+        u = row.get("unit") if isinstance(row, dict) and "unit" in row else row
+        if not isinstance(u, dict):
+            continue
+        uid = u.get("id") or "?"
+        for key in ("summary", "assessment"):
+            if v := u.get(key):
+                out.append((f"{uid}.{key}", v))
+        lesson = u.get("lesson") or {}
+        for key in ("why", "note"):
+            if v := lesson.get(key):
+                out.append((f"{uid}.lesson.{key}", v))
+        for d in u.get("drills") or []:
+            if v := (d or {}).get("note"):
+                out.append((f"{uid}.drills[{(d or {}).get('name') or '?'}].note", v))
+    return out
+
+
+def audit_copy_style(cfg: dict, units: list[dict], rep: Report) -> None:
+    """AI 寫作痕跡。只警告，見 SLOP 上方的說明。
+
+    同時掃兩處：設定檔的文案欄位（slogan、立場、頁尾）與資料檔的散文
+    （`assessment`、`lesson.why`、留空的 `note`）。後者是策展 agent 寫的，
+    量比前者大得多，而且沒有任何人會逐條讀完——正是最需要機器先看一眼的地方。
+
+    只在中文語系跑：詞表是中文的，套到別的語系一個字都不會命中，卻會讓人
+    以為「檢查過了」——沉默的通過跟沉默的失敗一樣貴。
+    """
+    sec = "文案"
+    locale = str((cfg.get("site") or {}).get("locale") or "")
+    if not locale.lower().startswith("zh"):
+        rep.ok(sec, f"文案風格檢查不適用於 {locale or '未宣告的語系'}（詞表是中文的）")
+        return
+
+    hits: list[str] = []
+    dashed: list[str] = []
+    scanned = 0
+    for path, val in [*copy_strings(cfg), *prose_strings(units)]:
+        # 短欄位是按鈕與標籤，塞不下這些寫法，掃了只會製造雜訊
+        if len(val) < 8:
+            continue
+        scanned += 1
+        for label, pattern, fix in SLOP:
+            if m := pattern.search(val):
+                start = max(0, m.start() - 12)
+                hits.append(f"{path}：{label} →「…{val[start:m.end() + 12]}…」／{fix}")
+        if m := DASH.search(val):
+            dashed.append(f"{path}：「…{val[max(0, m.start() - 14):m.end() + 14]}…」")
+        # 三個以上粗體並排：粗體用來標記重點，三個就沒有重點了。
+        # 這同時是「三段式法則」最好抓的形態——LLM 很愛把想法湊成三組再各自加粗。
+        if len(BOLD.findall(val)) >= 3:
+            hits.append(f"{path}：連續 {len(BOLD.findall(val))} 個 **粗體**"
+                        "／留一個真正的重點，其餘寫成白話")
+
+    limit = float(((cfg.get("audit") or {}).get("copyStyle") or {}).get("maxDashRatio", DASH_RATIO))
+    ratio = len(dashed) / scanned if scanned else 0.0
+    if dashed and ratio > limit:
+        rep.warn(
+            sec,
+            f"{len(dashed)} 個欄位用了破折號（占 {ratio:.0%}，門檻 {limit:.0%}）"
+            "。中文破折號有正當用法，但這個密度是 AI 文本的特徵——抽查幾處，"
+            "用在「揭示前製造停頓」的改成句號",
+            dashed[:6],
+        )
+
+    if hits:
+        rep.warn(
+            sec,
+            f"{len(hits)} 處文案有 AI 寫作痕跡（風格問題，逐條看過再決定；"
+            "改法見 skill 的 reference/writing.md）",
+            hits[:12],
+        )
+    else:
+        rep.ok(sec, "設定檔文案與單元散文都沒有常見的 AI 寫作痕跡")
+
+
+def audit_framework_version(cfg: dict, rep: Report) -> None:
+    """設定檔宣告的框架版號 vs 這份框架自己的版號。
+
+    這是**第一個**該回答的問題：版號對不上的話，底下所有檢查都是在拿新框架的
+    規則去量一份舊設定檔，錯誤訊息會指向一堆不是根因的地方。破壞性變更的代價
+    也不會是紅色的——設定檔照樣通過 schema，build 照樣成功，只有頁面上的字
+    悄悄變成字面的 `<strong>`。
+    """
+    sec = "設定檔"
+    fw = coursepath.FRAMEWORK_VERSION
+    fw_major = coursepath.major(fw)
+    if fw_major is None:
+        rep.warn(sec, "讀不到框架版號（pyproject.toml 的 project.version），略過版號檢查")
+        return
+
+    declared = cfg.get("frameworkVersion")
+    if declared is None:
+        rep.err(
+            sec,
+            f"設定檔沒有 frameworkVersion，視為 v1；這份框架是 v{fw_major}（{fw}）",
+            [
+                f"照 {MIGRATION} 的「v1 → v2」逐項改完，再把",
+                f'"frameworkVersion": "{fw}" 加到設定檔頂層',
+            ],
+        )
+        return
+
+    dec_major = coursepath.major(declared)
+    if dec_major is None:
+        rep.err(sec, f"frameworkVersion「{declared}」不是 semver（要 主.次.修，例如 {fw}）")
+    elif dec_major < fw_major:
+        rep.err(
+            sec,
+            f"設定檔寫給 v{dec_major}，框架已經是 v{fw_major}（{fw}）——中間有破壞性變更",
+            [
+                *(f"{MIGRATION} 的「v{n} → v{n + 1}」" for n in range(dec_major, fw_major)),
+                f'全部做完再把 frameworkVersion 改成 "{fw}"',
+            ],
+        )
+    elif dec_major > fw_major:
+        rep.err(
+            sec,
+            f"設定檔寫給 v{dec_major}，但這份框架只到 v{fw_major}（{fw}）——太舊的是框架",
+            ["git pull 更新框架，不要把設定檔的版號改回去遷就它"],
+        )
+    else:
+        rep.ok(sec, f"框架 v{fw} · 設定檔宣告 {declared}")
+
+
 def audit_config(cfg: dict, rep: Report) -> None:
     sec = "設定檔"
     # 設定檔可能本身就壞掉——稽核要能報出來，不能自己爆掉，所以一律用 .get()
     chapters = [c for c in cfg.get("chapters") or [] if isinstance(c, dict)]
+
+    audit_framework_version(cfg, rep)
 
     schema = load_json(SCHEMA)
     if isinstance(schema, dict):
@@ -284,7 +744,7 @@ def audit_config(cfg: dict, rep: Report) -> None:
     if absent := sorted(label for label, name in used.items() if name and name not in icons):
         rep.err(
             sec,
-            f"{len(absent)} 個圖示不在 sprite 內（把名稱加進 build_icons.py 的 ICONS 再跑 make icons）",
+            f"{len(absent)} 個圖示不在 sprite 內（跑 COURSE={COURSE_REL} make icons 重打包）",
             absent,
         )
     else:
@@ -346,20 +806,130 @@ def audit_config(cfg: dict, rep: Report) -> None:
                 [f"可用：{'、'.join(sorted(fields))}"],
             )
 
-    # 文案佔位符：只有這幾個會被替換，寫錯就會原樣印在頁面上
-    known = {"units", "problems", "videos", "evidence"}
-    stray = []
-    for path, text in (
-        ("hero.lede", cfg.get("hero", {}).get("lede")),
-        ("landing.ctaLede", cfg.get("landing", {}).get("ctaLede")),
-        ("llms.summary", cfg.get("llms", {}).get("summary")),
-        ("llms.stanceIntro", cfg.get("llms", {}).get("stanceIntro")),
-    ):
-        for token in re.findall(r"\{(\w+)\}", text or ""):
-            if token not in known:
-                stray.append(f"{path} 的 {{{token}}}")
-    if stray:
-        rep.err(sec, f"{len(stray)} 個佔位符不會被替換（可用：{'、'.join(sorted(known))}）", stray)
+    # 佔位符檢查已移到 audit_topic_coupling()：那裡掃 hero/landing/llms/stance
+    # 的所有欄位，涵蓋範圍比這裡原本寫死的四條路徑廣。
+
+
+def checkout_repo() -> str | None:
+    """這個 checkout 對應的 GitHub repo（owner/name）；問不到回 None。
+
+    只讀本地 git 設定，不打網路，符合這支腳本「同樣輸入永遠同樣輸出」的前提。
+    """
+    try:
+        out = subprocess.run(
+            ["git", "config", "--get", "remote.origin.url"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            timeout=5,
+        )
+    except Exception:
+        return None
+    m = re.search(r"github\.com[/:]([\w.-]+/[\w.-]+?)(?:\.git)?$", out.stdout.strip())
+    return m.group(1) if m else None
+
+
+def audit_identity(cfg: dict, rep: Report) -> None:
+    """留言與網址必須指向**這門課自己**，不是上一個主題、也不是框架作者。
+
+    這一條是真的發生過的：`discussions` 沿用了範例值，讀者的留言全部靜靜流進
+    框架自己的 repo，上線之後才被框架作者發現。失敗模式特別惡劣——前端不報錯、
+    討論面板正常顯示、出事的是讀者、發現的是別人。
+
+    判斷基準刻意用「這個 checkout 的 origin」而不是寫死框架的 repo 名：
+    寫死只擋得住指向框架的那一種，而且框架自己要填回真值就得再寫死一個例外
+    （「site.project 不是 body-course 才檢查」——那是把範例課程的名字寫進框架，
+    正是這個專案在消滅的東西）。比對 origin 一併擋掉「從別的課程複製設定檔」，
+    範例課程也不需要任何例外。
+    """
+    sec = "設定檔"
+    site = cfg.get("site") or {}
+    project = str(site.get("project") or "")
+
+    # 1) site.url 與 site.project 對不起來 → sitemap、JSON-LD、OG 卡全指向別人的網域
+    m = re.match(r"^https://([\w-]+)\.pages\.dev/?$", str(site.get("url") or ""))
+    if m and project and m.group(1) != project:
+        rep.err(
+            sec,
+            f"site.url 指向 {m.group(1)}.pages.dev，但 site.project 是 {project}"
+            f"：sitemap、JSON-LD 與 OG 卡都會指向別人的網站",
+        )
+
+    disc = cfg.get("discussions") or {}
+    if not disc:
+        return  # 沒有討論面板是合法的（也是還沒有自己 repo 時的正解）
+
+    # 2) 佔位值只警告：出貨的設定檔本來就是 REPLACE_ME，壞掉好過靜靜送進別人家
+    fields = ("repo", "repoId", "categoryId")
+    todo = [k for k in fields if not disc.get(k) or "REPLACE_ME" in str(disc.get(k))]
+    if todo:
+        rep.warn(
+            sec,
+            f"discussions 有 {len(todo)} 個欄位還沒換（{'、'.join(todo)}）：討論面板會顯示 giscus "
+            f"錯誤。到 https://giscus.app 換成自己的 repo，或整組 discussions 刪掉",
+        )
+        return  # 還是佔位就沒有「指向誰」的問題
+
+    repo = str(disc.get("repo"))
+    if disc.get("allowExternalRepo"):
+        rep.ok(sec, f"discussions 指向 {repo}（已宣告 allowExternalRepo）")
+        return
+
+    own = checkout_repo()
+    if own and repo.lower() != own.lower():
+        rep.err(
+            sec,
+            f"discussions.repo 是 {repo}，但這個 checkout 是 {own}"
+            f"：讀者的留言會靜靜送進別人的 repo。刻意要送到別的 repo 請設"
+            f" discussions.allowExternalRepo: true",
+        )
+    elif own:
+        rep.ok(sec, f"discussions 指向這個 checkout 自己的 repo（{own}）")
+    elif project and repo.split("/")[-1] != project:
+        # 問不到 origin（下載 tarball、沒有 remote）就退回名字比對這個較弱的訊號
+        rep.warn(
+            sec,
+            f"問不到這個 checkout 的 GitHub repo，無法確認 discussions.repo（{repo}）"
+            f"指向自己；它的 repo 名與 site.project（{project}）也對不起來，請人工確認",
+        )
+
+
+def audit_data_files(cfg: dict, opts: dict, rep: Report) -> None:
+    """course/data/ 底下每個 JSON 都要有人讀。
+
+    建置改成看內容不看檔名之後，「檔名不對所以整片實證消失」不會再發生；
+    剩下的沉默失敗是**頂層鍵打錯**（conditions 寫成 condition）或章節檔沒被
+    任何 chapters[].source 指到——資料在檔案裡，網站上卻沒有，且不報錯。
+    """
+    sec = "設定檔"
+    blobs = data_blobs()
+    sources = {c.get("source") for c in cfg.get("chapters") or [] if isinstance(c, dict)}
+    ignore = set(opts["ignoreDataFiles"])
+
+    # 章節來源檔的解析錯誤由 walk() 報過了，這裡只補其餘的檔案
+    if broken := [msg for name, msg in _BAD_JSON if Path(name).stem not in sources]:
+        rep.err(sec, f"{len(broken)} 個資料檔不是合法 JSON（內容會整片被跳過）", broken)
+
+    orphan, unused = [], []
+    for path, blob in blobs.items():
+        if path.name == VIDEO_META or path.name in ignore:
+            continue
+        if not any(k in blob for k in DATA_KEYS):
+            orphan.append(f"data/{path.name}（頂層鍵：{'、'.join(list(blob)[:6]) or '空的'}）")
+        elif ("chapter" in blob or "chapters" in blob) and path.stem not in sources:
+            unused.append(f"data/{path.name}")
+
+    if orphan:
+        rep.err(
+            sec,
+            f"{len(orphan)} 個資料檔沒有任何一步會讀到"
+            f"（可用的頂層鍵：{'、'.join(DATA_KEYS)}；刻意放的請列進 audit.ignoreDataFiles）",
+            orphan,
+        )
+    if unused:
+        rep.warn(sec, f"{len(unused)} 個章節檔沒有被任何 chapters[].source 指到", unused)
+    if blobs and not orphan:
+        rep.ok(sec, f"course/data/ 的 {len(blobs)} 個資料檔全部讀得到（依內容判斷，不看檔名）")
 
 
 # ── 資料走訪 ──────────────────────────────────────────────────────────────
@@ -481,6 +1051,64 @@ def audit_structure(cfg: dict, units: list[dict], opts: dict, rep: Report) -> No
     rep.stats.update(chapters=len(quota), lesson_units=total_u, drill_units=total_d)
 
 
+def audit_taxonomy(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
+    """分類分布：單一類別吃掉不成比例的項目 = patterns 寫太寬。
+
+    根因幾乎都是同一個：`classify()` 的 haystack 含 `target`，所以拿**會出現在
+    target 的詞**（分面詞彙、部位詞、目標詞）當 pattern，等於比對到所有以它為
+    目標的項目。兩個 taxonomy 模組的詞彙必須互斥。這件事不會報錯，只會讓
+    歸類結果悄悄變形，所以改用統計特徵抓。
+    """
+    sec = "結構與配額"
+    mod = load_taxonomy(cfg, "categories")
+    if mod is None:
+        return  # 沒設定分類維度是合法的，不是缺陷，別發假警報
+
+    counts: Counter = Counter()
+    uncategorised = 0
+    for r in units:
+        for d in r["unit"].get("drills") or []:
+            try:
+                cid = mod.classify(d)
+            except Exception as e:
+                rep.err(sec, f"taxonomy.categories 的 classify() 執行失敗：{type(e).__name__}: {e}")
+                return
+            if cid:
+                counts[cid] += 1
+            else:
+                uncategorised += 1
+
+    classified = sum(counts.values())
+    total = classified + uncategorised
+    if not total:
+        return
+    names = getattr(mod, "NAMES", {})
+    top = [
+        f"{names.get(cid, cid)} {n}（{n / classified:.0%}）" for cid, n in counts.most_common(3)
+    ]
+    line = (
+        f"{len(counts)} 個類別 · 已分類 {classified}/{total}"
+        f"（未分類 {uncategorised}，{uncategorised / total:.0%}）· 前三：{'、'.join(top)}"
+    )
+
+    share = counts.most_common(1)[0][1] / classified if classified else 0
+    if share > opts["maxCategoryShare"]:
+        cid, n = counts.most_common(1)[0]
+        rep.warn(
+            sec,
+            f"「{names.get(cid, cid)}」吃掉 {n}/{classified} 個已分類項目（{share:.0%}），"
+            f"超過 audit.maxCategoryShare {opts['maxCategoryShare']:.0%}"
+            f"——patterns 是不是用到了會出現在 target 欄位的詞？",
+            [line],
+        )
+    elif classified == 0:
+        rep.warn(sec, f"{total} 個項目一個都沒被分類（patterns 對不上資料？）")
+    else:
+        rep.ok(sec, line)
+
+    rep.stats.update(categories_used=len(counts), uncategorised=uncategorised)
+
+
 # ── 影片 ──────────────────────────────────────────────────────────────────
 
 
@@ -502,7 +1130,7 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
     vmeta = load_json(DATA / "video-meta.json")
     if not isinstance(vmeta, dict):
         vmeta = {}
-        rep.warn(sec, "找不到 data/video-meta.json，長度與觀看數無從稽核（跑 make meta 產生）")
+        rep.warn(sec, "找不到 data/video-meta.json，長度與觀看數無從稽核（見 SKILL 第 4 節）")
 
     nodes = videos_of(units)
     for path in sorted(DATA.glob("alt-lessons-*.json")):
@@ -569,7 +1197,7 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
         f"{slots} 個影片欄位 · 去重 {len(seen)} 支 · 中繼資料命中 {hits}/{filled}（{coverage:.1%}）"
     )
     if filled and coverage < opts["metaCoverage"]:
-        rep.err(sec, f"{line}，低於門檻 {opts['metaCoverage']:.0%}（跑 make meta 補齊）")
+        rep.err(sec, f"{line}，低於門檻 {opts['metaCoverage']:.0%}（重跑一次 innertube 取數）")
     else:
         rep.ok(sec, line)
 
@@ -625,6 +1253,104 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
         duration_seconds=total,
     )
 
+    audit_selection(cfg, units, opts, rep)
+
+
+def audit_selection(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
+    """選片品質——不是「有沒有片」，是「挑得好不好」。
+
+    這一節的每一條都是實測有分辨力才留下的。試過但**丟掉**的：
+
+    - 「動作名與影片標題的字元重疊率」當相關性代理。人工把關過的策展在這個
+      指標上是最差的（覆蓋率中位數 0%，43 支裡 39 支「完全無關」）——因為
+      中文動作名配英文標題的好影片，重疊本來就是 0。它量的是語言巧合，不是
+      相關性，上線只會反過來懲罰做得好的多語言策展。
+    - 「長度貼著門檻邊緣的比例」。三份資料的方向相反，分不出好壞。
+
+    給好資料與壞資料同一個數字的指標不是指標。
+    """
+    sec = "影片"
+
+    # 逐章統計，不是整門課統計。策展是一章一章做的，出問題也是一章一章出——
+    # 整門課 37 支主課裡有 4 支被濾短了，中位數幾乎不動，指標就完全看不見。
+    # 粒度錯的指標跟沒有指標一樣。
+    by_chapter: dict[str, list[int]] = defaultdict(list)
+    channels = Counter()
+    for row in units:
+        u = row.get("unit") if isinstance(row, dict) and "unit" in row else row
+        code = row.get("code") if isinstance(row, dict) else None
+        if not isinstance(u, dict):
+            continue
+        for role, item in [
+            ("lesson", u.get("lesson")),
+            *(("drill", d) for d in (u.get("drills") or [])),
+        ]:
+            if not isinstance(item, dict) or not item.get("url"):
+                continue
+            if ch := item.get("channel"):
+                channels[ch] += 1
+            if (s := parse_clock(item.get("duration"))) < 0:
+                continue
+            if role == "lesson":
+                by_chapter[code or "?"].append(s)
+
+    lessons = [s for xs in by_chapter.values() for s in xs]
+
+    # ── 主課是不是照著動作的長度挑的
+    #
+    # 實測踩到：策展 agent 的搜尋過濾器沿用了動作的長度上限，於是超過那條線的
+    # 講解型長片從來沒進過它的視野。選出來的每一支都「符合門檻」，稽核一句話
+    # 都不會說，但主課長度中位數只有人工策展的一半——整章的深度就這樣少了。
+    #
+    # 判準不看絕對值（每門課的主課該多長不一樣），看**設定檔給了主課更寬的
+    # 區間，實際卻沒有用到**。那代表挑的時候根本沒把長片納入考慮。
+    # 判準是「跟這門課自己的其他章比」，不是絕對長度。
+    #
+    # 試過而且**丟掉**的版本：「一章的主課全部在動作上限以內」——實測時那一章
+    # 剛好有一支 616 秒踩過 600 秒的線，整條規則就失效了。再試「中位數低於動作
+    # 上限」——12 章裡標記 6 章，誤報率 50%，因為這門課本來就有很多章的主課在
+    # 十分鐘以內。絕對門檻在這件事上沒有意義：每章的主題深度本來就不一樣。
+    #
+    # 有意義的是**離群**。實測退步的那一章比值 0.52，而正常章節最低 0.68。
+    medians = {code: sorted(xs)[len(xs) // 2] for code, xs in by_chapter.items() if len(xs) >= 3}
+    if len(medians) >= 4:
+        course = sorted(medians.values())[len(medians) // 2]
+        limit = float((cfg.get("audit") or {}).get("minChapterLessonRatio", 0.6))
+        short = [
+            f"{code}：中位 {clock(m)}，只有全課中位（{clock(course)}）的 {m / course:.0%}"
+            for code, m in sorted(medians.items())
+            if course and m / course < limit
+        ]
+        if short:
+            rep.warn(
+                sec,
+                f"{len(short)} 章的主課明顯比其他章短（門檻 {limit:.0%}）"
+                "——檢查策展時是不是沿用了動作的長度門檻，把講解型的長片濾掉了",
+                short,
+            )
+        else:
+            median = sorted(lessons)[len(lessons) // 2]
+            rep.ok(
+                sec,
+                f"主課長度中位 {clock(median)} · 各章之間沒有明顯偏短的"
+                f"（最低 {min(m / course for m in medians.values()):.0%}）",
+            )
+
+    # ── 頻道集中度。少數幾個頻道包辦整章，通常代表搜尋關鍵字換得不夠，
+    # 而不是那幾個頻道真的最好。這條只提醒，因為「一個頻道剛好很強」是可能的。
+    if channels:
+        top, n = channels.most_common(1)[0]
+        share = n / sum(channels.values())
+        limit = float((cfg.get("audit") or {}).get("maxChannelShare", 0.25))
+        if share > limit:
+            rep.warn(
+                sec,
+                f"單一頻道佔 {share:.0%}（{top}，{n} 支，門檻 {limit:.0%}）"
+                "——多半是搜尋關鍵字換得不夠，不是那個頻道真的最好",
+            )
+        else:
+            rep.ok(sec, f"{len(channels)} 個不同頻道 · 最大單一頻道佔 {share:.0%}")
+
 
 # ── 內容深度 ──────────────────────────────────────────────────────────────
 
@@ -659,48 +1385,65 @@ def audit_depth(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
 
     # 單元層級實證
     ev_units, bad_grade = set(), []
-    for path in sorted(DATA.glob("oe-*.json")):
-        blob = load_json(path)
-        for cond in (blob or {}).get("conditions", []) if isinstance(blob, dict) else []:
-            if not isinstance(cond, dict) or not cond.get("unit"):
-                continue
-            ev_units.add(cond["unit"])
-            if grades and cond.get("evidence_grade") not in grades:
-                bad_grade.append(
-                    f"{path.name} · {cond['unit']} grade={cond.get('evidence_grade')!r}"
-                )
+    for path, cond in data_rows("conditions"):
+        if not cond.get("unit"):
+            continue
+        ev_units.add(cond["unit"])
+        if grades and cond.get("evidence_grade") not in grades:
+            bad_grade.append(f"{path.name} · {cond['unit']} grade={cond.get('evidence_grade')!r}")
 
     alias = cfg.get("evidenceAlias", {})
+
+    # 實證條目的 key 只有兩種歸宿：對得到單元，或是立場聲明（前綴 concept-）。
+    # 兩者皆非就是寫了也不會出現在網站任何地方，而且數字照樣把它算進去。
+    prefix = stance_prefix(cfg)
+    all_ids = {r["unit"].get("id") for r in units}
+    valid = all_ids | {alias.get(i, i) for i in all_ids}
+    if lost := sorted(k for k in ev_units if k not in valid and not k.startswith(prefix)):
+        rep.err(
+            sec,
+            f"{len(lost)} 筆實證的 unit 既對不到單元，也不是立場聲明"
+            f"（要當立場聲明請用 {prefix}* 命名，要掛到單元請用 evidenceAlias）",
+            lost,
+        )
+
+    stance_keys = sorted(k for k in ev_units if k.startswith(prefix))
     targeted = {
         alias.get(r["unit"].get("id"), r["unit"].get("id"))
         for r in units
         if r["unit"].get("type") in need
     }
-    if need and targeted:
+    # config 沒有 grades 就是宣告「這門課沒有實證維度」（語言課、技能課常見）。
+    # 這時候還一直列出「未查核」的單元只是噪音，會淹掉真正該看的警告。
+    if need and targeted and grades:
         covered = len(targeted & ev_units)
         gap = sorted(targeted - ev_units)
         msg = f"實證查核 {covered}/{len(targeted)} 個主題（另有 {len(ev_units - targeted)} 個非章節主題）"
         rep.warn(sec, msg + "，未查核：" + "、".join(gap), []) if gap else rep.ok(sec, msg)
 
     # 類別層級文獻
-    cats, thin_cats, bad_pmid = {}, [], []
-    for path in sorted(DATA.glob("drill-evidence-*.json")):
-        blob = load_json(path)
-        for cat in (blob or {}).get("categories", []) if isinstance(blob, dict) else []:
-            if not isinstance(cat, dict) or not cat.get("id"):
-                continue
-            cats[cat["id"]] = cat
-            if grades and cat.get("evidence_grade") not in grades:
-                bad_grade.append(f"{path.name} · {cat['id']} grade={cat.get('evidence_grade')!r}")
-            cites = cat.get("citations") or []
-            if len(cites) < opts["minCitations"]:
-                thin_cats.append(f"{cat['id']}（{len(cites)} 篇）")
-            for c in cites:
-                pmid = str(c.get("pmid") or "").strip()
-                if not (pmid.isdigit() and 6 <= len(pmid) <= 9):
-                    bad_pmid.append(
-                        f"{cat['id']} · pmid={c.get('pmid')!r} · {(c.get('title') or '')[:40]}"
-                    )
+    cats, thin_cats, bad_ref = {}, [], []
+    for path, cat in data_rows("categories"):
+        if not cat.get("id"):
+            continue
+        cats[cat["id"]] = cat
+        if grades and cat.get("evidence_grade") not in grades:
+            bad_grade.append(f"{path.name} · {cat['id']} grade={cat.get('evidence_grade')!r}")
+        cites = cat.get("citations") or []
+        if len(cites) < opts["minCitations"]:
+            thin_cats.append(f"{cat['id']}（{len(cites)} 篇）")
+        for c in cites:
+            # 生醫走 PubMed（pmid），人文社科走 Crossref（doi）——兩者擇一即可。
+            # PubMed 幾乎不收邏輯、語言學、倫理學的期刊，硬要 PMID 只會逼出捏造的引用。
+            pmid = str(c.get("pmid") or "").strip()
+            doi = str(c.get("doi") or "").strip()
+            ok_pmid = pmid.isdigit() and 6 <= len(pmid) <= 9
+            ok_doi = doi.startswith("10.") and "/" in doi
+            if not (ok_pmid or ok_doi):
+                bad_ref.append(
+                    f"{cat['id']} · pmid={c.get('pmid')!r} doi={c.get('doi')!r}"
+                    f" · {(c.get('title') or '')[:40]}"
+                )
 
     if bad_grade:
         rep.err(
@@ -708,17 +1451,197 @@ def audit_depth(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
             f"{len(bad_grade)} 筆 evidence_grade 不在 config.grades（{'、'.join(sorted(grades))}）",
             bad_grade,
         )
-    if bad_pmid:
+    if bad_ref:
         rep.err(
-            sec, f"{len(bad_pmid)} 筆 PMID 格式不合法（跑 make verify 打真實 API 才算數）", bad_pmid
+            sec,
+            f"{len(bad_ref)} 筆引用沒有合法的 pmid 或 doi（跑 make verify 打真實 API 才算數）",
+            bad_ref,
         )
     if thin_cats:
         rep.warn(sec, f"{len(thin_cats)} 個類別的文獻少於 {opts['minCitations']} 篇", thin_cats)
     if cats:
         n_cites = sum(len(c.get("citations") or []) for c in cats.values())
-        rep.ok(sec, f"{len(cats)} 個類別 · {n_cites} 篇引用 · {len(ev_units)} 個單元層級查核")
+        # 三個數字一起講。只講其中一個，README 與首頁就會各說各話（#16）。
+        rep.ok(
+            sec,
+            f"實證合計 {len(ev_units) + len(cats)} 則 = 單元層級 {len(ev_units)}"
+            f"（含立場聲明 {len(stance_keys)}）+ 類別層級 {len(cats)} · 引用 {n_cites} 篇",
+        )
 
-    rep.stats.update(evidence_units=len(ev_units), categories=len(cats))
+    rep.stats.update(
+        evidence_units=len(ev_units),
+        stance=len(stance_keys),
+        categories=len(cats),
+        evidence_total=len(ev_units) + len(cats),
+    )
+    audit_evidence_backing(cfg, rep)
+    audit_built_meta(cfg, units, ev_units, stance_keys, cats, rep)
+
+
+def audit_evidence_backing(cfg: dict, rep: Report) -> None:
+    """證據分級撐不撐得住底下的引用。
+
+    `evidence_grade` 本來是純粹的宣稱：說 strong 就是 strong，掛三篇敘述性
+    回顧也沒人管。實測這門課 4 個 strong 裡有 2 個的引用**完全沒標研究設計**，
+    框架無從知道那是統合分析還是個案報告。有引用不等於有所本。
+
+    **框架不預設任何一套證據階梯。** 生醫的「統合分析 > RCT > 佇列」套到
+    生產力或技能課是錯的——那裡的階梯可能是「隨機田野實驗 > 實驗室實驗 >
+    長期追蹤問卷 > 個案 > 專家意見」，而且「專家意見」在某些領域是合理的
+    最高層。所以階梯、門檻、年限全部由課程在 `evidence` 區塊自己宣告，
+    沒宣告就整組略過並明講略過了——沉默的通過跟沉默的失敗一樣貴。
+    """
+    sec = "內容深度"
+    ev = cfg.get("evidence") or {}
+    tiers = {str(k).lower(): int(v) for k, v in (ev.get("designTiers") or {}).items()}
+    requires = {str(k): int(v) for k, v in (ev.get("gradeRequires") or {}).items()}
+    max_age = {str(k): int(v) for k, v in (ev.get("maxAgeYears") or {}).items()}
+    need_caveats = set(ev.get("requireCaveats") or [])
+    min_caveat_chars = int(ev.get("minCaveatChars") or 40)
+
+    if not (tiers or requires or max_age or need_caveats):
+        if cfg.get("grades"):
+            rep.warn(
+                sec,
+                "設定檔沒有 evidence 區塊，所以「分級撐不撐得住引用」完全沒有檢查"
+                "——evidence_grade 目前只是宣稱。見 skill 的 reference/evidence.md",
+            )
+        return
+
+    # 條目 = 單元層級的 conditions + 類別層級的 categories，兩者同一套規矩
+    entries = [
+        (f"{row.get('unit') or row.get('id') or '?'}", row)
+        for key in ("conditions", "categories")
+        for _, row in data_rows(key)
+    ]
+
+    unknown_design, ungraded, weak_backing, stale, no_caveats = [], [], [], [], []
+    unverifiable = []
+    year_now = date.today().year
+
+    for label, row in entries:
+        grade = row.get("evidence_grade")
+        cites = row.get("citations") or []
+
+        # 沒有 pmid／doi 的引用**任何人都無法覆核**，在稽核上跟捏造的沒有分別。
+        # audit 以前只對 categories 做這個檢查，conditions 那一層完全沒查——
+        # 而實測 conditions 的 144 筆引用是 100% 沒有識別碼的。
+        # quality.md 早就記過同一個坑（「只驗一層等於留了一半的門沒鎖」），
+        # verify_refs.py 修過了，audit 沒有。同一個教訓要記兩次。
+        for c in cites:
+            pmid = str(c.get("pmid") or "").strip()
+            doi = str(c.get("doi") or "").strip()
+            if not ((pmid.isdigit() and 6 <= len(pmid) <= 9) or (doi.startswith("10.") and "/" in doi)):
+                unverifiable.append(f"{label} · {(c.get('title') or '?')[:44]}")
+        designs = [str(c.get("design") or "").strip().lower() for c in cites]
+
+        if tiers:
+            for d in designs:
+                if d and d not in tiers:
+                    unknown_design.append(f"{label} · design={d!r}")
+            if cites and not any(designs):
+                ungraded.append(f"{label}（{len(cites)} 篇全部沒標 design）")
+
+        # 分級要有夠高層的設計撐著
+        if (want := requires.get(grade)) is not None and tiers:
+            best = min((tiers[d] for d in designs if d in tiers), default=None)
+            if best is None or best > want:
+                got = f"最佳第 {best} 層" if best else "沒有任何一篇標了 design"
+                weak_backing.append(f"{label}（{grade}）需要第 {want} 層以上，{got}")
+
+        # 新鮮度。這一條的結果會隨「今天是哪一年」改變，是刻意的——引用會變舊，
+        # 而「去年還過、今年該重看」正是它要講的話。所以只警告，不擋交付。
+        if (limit := max_age.get(grade)) is not None and cites:
+            years = [c.get("year") for c in cites if isinstance(c.get("year"), int)]
+            if years and year_now - max(years) > limit:
+                stale.append(f"{label}（{grade}）最新一篇是 {max(years)}，超過 {limit} 年")
+
+        # 「說有爭議就要寫出爭議在哪」——但爭議寫在哪一個欄位，兩層不一樣：
+        # conditions 有專屬的 caveats，categories 沒有那個欄位，內容寫在 summary
+        # 裡（實測那四個 contested 類別的 summary 都已經帶著 Cochrane 結論與效果量）。
+        # 硬要求一個不存在的欄位只會逼人把同一段話抄兩次。所以兩個都算，但要夠長
+        # ——一句話講不完一個爭議。長度不是實質，是這個 codebase 既有的代理指標
+        # （minAssessmentChars 同一套邏輯）。
+        if grade in need_caveats:
+            said = str(row.get("caveats") or "").strip() or str(row.get("summary") or "").strip()
+            if len(said) < min_caveat_chars:
+                no_caveats.append(f"{label}（{len(said)} 字，至少 {min_caveat_chars}）")
+
+    if unverifiable:
+        rep.err(
+            sec,
+            f"{len(unverifiable)} 筆引用沒有 pmid 或 doi——沒有識別碼就沒有人能覆核，"
+            "在稽核上跟捏造的沒有分別（試 make verify ARGS=--resolve 用標題反查）",
+            unverifiable[:10],
+        )
+    if unknown_design:
+        rep.warn(
+            sec,
+            f"{len(unknown_design)} 筆引用的 design 不在 evidence.designTiers 裡"
+            "（拼字不同就是不同的層，階梯要對得上才有意義）",
+            unknown_design[:8],
+        )
+    if ungraded:
+        rep.warn(
+            sec,
+            f"{len(ungraded)} 個條目的引用完全沒標 design——無從判斷分級撐不撐得住",
+            ungraded[:8],
+        )
+    if weak_backing:
+        rep.err(
+            sec,
+            f"{len(weak_backing)} 個條目的證據分級撐不住底下的引用",
+            weak_backing,
+        )
+    if stale:
+        rep.warn(sec, f"{len(stale)} 個高分級條目的文獻偏舊（值得回頭看一次）", stale[:8])
+    if no_caveats:
+        rep.err(
+            sec,
+            f"{len(no_caveats)} 個條目的分級是 {'、'.join(sorted(need_caveats))} 卻沒寫出爭議在哪"
+            "——caveats 或 summary 擇一寫清楚，否則那個分級只是個標籤",
+            no_caveats,
+        )
+    if not (weak_backing or no_caveats):
+        rep.ok(
+            sec,
+            f"分級與引用相符 · 階梯 {len(tiers)} 層 · 有門檻的分級 {'、'.join(sorted(requires)) or '（無）'}",
+        )
+
+
+def audit_built_meta(
+    cfg: dict, units: list[dict], ev_units: set, stance_keys: list, cats: dict, rep: Report
+) -> None:
+    """比對 build 產物與稽核自己數出來的數字。
+
+    #13 的病徵就是這個：資料裡有 7 則立場聲明，audit 數得出來，build 只放了 3 則，
+    兩邊對不起來卻沒有人比對。這條規則讓「build 悄悄丟掉資料」直接變成錯誤。
+    """
+    sec = "內容深度"
+    built = load_json(DIST / "course.json")
+    if not isinstance(built, dict):
+        return  # 還沒建置過就沒得比
+    meta = built.get("meta") or {}
+    if meta.get("lesson_units") != len(units):
+        return  # dist/ 是別門課或還沒重建的產物，比了只會誤報
+
+    expect = {
+        "stance（首頁立場聲明）": (len(built.get("stance") or []), len(stance_keys)),
+        "meta.evidence_checked": (meta.get("evidence_checked"), len(ev_units)),
+    }
+    for key, want in (
+        ("meta.category_evidence_checked", len(cats)),
+        ("meta.evidence_total", len(ev_units) + len(cats)),
+    ):
+        if key.split(".")[1] in meta:
+            expect[key] = (meta[key.split(".")[1]], want)
+
+    if off := [f"{k}：產物 {got}，資料裡有 {want}" for k, (got, want) in expect.items() if got != want]:
+        rep.err(
+            sec,
+            f"{len(off)} 個數字與 dist/course.json 對不起來（build 把資料丟掉了？重跑 make build）",
+            off,
+        )
 
 
 # ── 進入點 ────────────────────────────────────────────────────────────────
@@ -736,8 +1659,15 @@ def main() -> int:
 
     rep = Report()
     audit_config(cfg, rep)
+    audit_copy(cfg, rep)
+    audit_topic_coupling(cfg, rep)
+    audit_identity(cfg, rep)
+    audit_data_files(cfg, opts, rep)
     units = walk(cfg, rep)
+    # 排在 walk 之後：這一條要同時看設定檔的文案與資料檔的散文
+    audit_copy_style(cfg, units, rep)
     audit_structure(cfg, units, opts, rep)
+    audit_taxonomy(cfg, units, opts, rep)
     audit_videos(cfg, units, opts, rep)
     audit_depth(cfg, units, opts, rep)
 

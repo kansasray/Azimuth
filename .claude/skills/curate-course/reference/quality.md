@@ -17,10 +17,13 @@
 
 | 面向 | 檢查 |
 |---|---|
-| 設定檔 | schema（欄位拼錯、型別、`tone` 值）、圖示是否已打包、`nav` 是否漏章或指向不存在的章、`taxonomy` 模組能不能 import、`ui.stats` 參照的統計欄位存不存在、文案佔位符會不會被替換 |
+| 設定檔 | **`frameworkVersion` 的主版號對不對得上這份框架**（對不上就指向 `docs/MIGRATION.md`，其餘檢查都是拿新規則量舊設定檔）、schema（欄位拼錯、型別、`tone` 值）、圖示是否已打包、`nav` 是否漏章或指向不存在的章、`taxonomy` 模組能不能 import、`ui.stats` 參照的統計欄位存不存在、文案佔位符會不會被替換 |
 | 結構 | 各章配額、單元 id 唯一、`kind`/`type` 是否已定義、同單元項目重名、每單元項目數是否失衡、`evidenceAlias` 指向幽靈單元 |
 | 影片 | 中繼資料覆蓋率、不可用狀態、URL 格式、同單元重複、跨單元共用過多、**長度是否落在設定的區間**、宣稱長度與實際的誤差、觀看數低標、留空的格子有沒有寫 `note` |
 | 內容深度 | 指定型別的單元有沒有可操作的 `assessment`、主課有沒有 `why`、`evidence_grade` 是否合法、PMID 格式、每個類別的文獻篇數 |
+| 實證可辯護性 | 每一筆引用都有 `pmid`／`doi`（**兩層都查**，沒有識別碼就沒有人能覆核）、`evidence_grade` 有夠高層的研究設計撐著（`evidence.gradeRequires`）、高分級的文獻不能太舊、宣稱有爭議就要寫出爭議在哪 |
+| 選片品質 | **不是「有沒有片」，是「挑得好不好」**（只警告）：某一章的主課長度中位數明顯低於其他章（多半是策展時沿用了動作的長度門檻，把講解型長片濾掉了）、單一頻道佔比過高（搜尋關鍵字換得不夠）|
+| 文案風格 | **AI 寫作痕跡**（只警告）：否定式排比、宣傳性最高級、模糊歸因、填充連接詞、三個以上並排的粗體，以及破折號的**密度**。同時掃設定檔文案與資料檔散文（`summary`／`assessment`／`why`／`note`）。只在 `site.locale` 為 `zh-*` 時啟用，改法見 `writing.md` |
 
 ## 門檻寫在哪
 
@@ -40,7 +43,10 @@
   "requireAssessment": ["posture"],              // 這些 unitType 必須寫自我評估
   "minAssessmentChars": 80,
   "minCitations": 2,           // 每個文獻類別至少幾篇
-  "allowMissingUrls": 4        // 容許幾個「誠實留空且有 note」的格子
+  "allowMissingUrls": 4,       // 容許幾個「誠實留空且有 note」的格子
+  "copyStyle": { "maxDashRatio": 0.05 },        // 容許幾成文案欄位用破折號
+  "maxChannelShare": 0.25,     // 單一頻道最多佔整門課幾成
+  "minChapterLessonRatio": 0.6 // 一章的主課中位長度，最低是全課中位的幾成
 }
 ```
 
@@ -64,11 +70,14 @@ COURSE=courses/guitar python3 src/build/audit.py   # 多課程並存
 |---|---|
 | `WebFetch` 打 `youtube.com/watch` 拿不到東西 | 會被 Google 導向 captcha 頁，改用 oEmbed 端點 |
 | `yt-dlp` 說影片不存在 | 無 cookie 時會誤報「Sign in to confirm you're not a bot」，不是影片失效。單次搜尋沒事，連抓數百支就會被擋——加 `--cookies-from-browser chrome` 借用登入狀態即可。另有少數影片要 `--ignore-no-formats-error` 才拿得到中繼資料 |
-| innertube API 回 ERROR | 必須在真實 YouTube 分頁的 context 內呼叫才有效 |
+| **`yt-dlp` 什麼都沒說**（exit 0 + 空 stdout） | 被限流的樣子，不是影片下架。同一支影片 oEmbed 照樣回 200，`--flat-playlist` 的搜尋也照樣正常，休息一陣子單片查詢就自己好了。**自製複查腳本一定要比對輸入 id 數與輸出行數**，不要「沒回東西就標成失效」——跑得越久、規模越大，被誤殺的越多 |
+| 影片明明能播，網站上卻是死掉的播放器 | 能播 ≠ 能嵌入。yt-dlp 拿得到完整中繼資料、innertube 回 `playabilityStatus: OK`，都不代表允許 iframe 嵌入。**只有 oEmbed（`make verify`）算數**，401 就是不能嵌入，得換片 |
+| innertube API 回 ERROR | 必須在真實 YouTube 分頁的 context 內呼叫才有效——但那是備案，中繼資料改用 `yt-dlp --batch-file` 就不必開瀏覽器（見 `curating.md`） |
+| `--print "%(id)s\t…"` 解析出 0 筆 | `--print` 不解析跳脫序列，`\t` 輸出的是字面上的反斜線加 t（`od -c` 看得到）。改用 `\|` 當分隔符，並把可能含 `\|` 的 `title` 排在最後一欄 |
 | 改了樣式但線上沒變 | 檢查 `_headers` 的 Cache-Control，沒有 hash 檔名就別設長快取 |
 | 並行 agent 互相覆蓋檔案 | 每個 agent 給獨立的輸出路徑與檔名前綴，**暫存目錄也要各給一個子目錄**——`q1.txt` 這種通用檔名一定會被別人蓋掉 |
 | 數字對不起來 | 單元數、影片欄位數、去重後支數是三個不同的東西，UI 上要講清楚 |
-| 章節圖示顯示空白 | 圖示沒加進 `build_icons.py` 的 `ICONS`，或加了沒跑 `make icons` |
+| 章節圖示顯示空白 | 設定檔改了圖示但沒跑 `make icons` 重打包這門課的 sprite |
 | 標籤沒有顏色 | `tone` 只能用 `tokens.css` 裡有 `.Label--<tone>` 的那幾個 |
 | 側欄少一整章 | `nav` 分組沒列到那個章節碼——章節存在不代表側欄看得到 |
 | 總時長怪怪的 | 多語言版本會灌進「所有欄位合計」，課程時長只算主要版本 |
@@ -77,6 +86,49 @@ COURSE=courses/guitar python3 src/build/audit.py   # 多課程並存
 
 
 ## 換主題時最容易漏掉的
+
+**大部分已經有稽核在擋了。** `make audit` 的「主題耦合」區段會抓兩件事：前端有沒有寫死
+項目類型 id、`ui.problemType` 對不對得到單元；「文案」區段再抓三件：佔位符有沒有打錯字、
+`index.html` 需要的文案欄位有沒有漏填、文案裡有沒有寫 HTML 標籤。這幾種 bug 的共同
+特徵是**不會報錯**——類型 id 寫死在前端，換主題後項目全部不顯示但主控台一片安靜；
+`teaches` 找不到單元就產出空陣列，JSON-LD 依然合法。沉默的失敗最貴。
+
+### 主題詞彙一律走設定檔
+
+程式裡不該出現任何主題名詞。`ui` 底下這幾個欄位就是為此存在的：
+
+| 欄位 | 用在哪 | 體態課的值 |
+|---|---|---|
+| `unitNoun` / `lessonNoun` / `drillNoun` / `drillNounShort` | 統計行、章節卡片、篩選計數 | 個單元／堂主課／支跟練影片／支跟練 |
+| `kindFilterLabel` | 篩選列的無障礙標籤 | 動作類型篩選 |
+| `missingTitle` / `missingHint` | 找不到合格影片時的卡片 | 尚未找到合格影片／… |
+| `lessonLangLabel` / `watchLabel` / `facetFilterHint` | 語言分頁、項目連結、分面標籤的 title | — |
+| `evidenceSource` / `evidenceSourceLink` | 實證查核的來源名稱與連結文字 | OpenEvidence／在 OpenEvidence 讀完整回答 |
+
+全部有預設值，不填不會壞，但會講出上一個主題的話。
+
+### 文案佔位符有七個，別只用 {units}
+
+`{units}` 是**所有影片欄位合計**（主課 + 項目），不是章節單元數。體態課刻意把 371 個
+欄位統稱為「單元」，所以那裡沒問題；但塔羅課有 62 個單元、368 個欄位，寫
+「{units} 個單元」就會印出「368 個單元」——數字沒錯，話講錯了。
+
+| 佔位符 | 意義 |
+|---|---|
+| `{units}` | 影片欄位合計（主課 + 項目） |
+| `{lessonUnits}` / `{drillUnits}` | 章節單元數／項目數 |
+| `{slots}` / `{videos}` | 影片欄位數／去重後實際支數 |
+| `{problems}` / `{evidence}` | 主題單元數／實證查核則數 |
+
+打錯字會被稽核擋下，不會原樣印到頁面上。建置期（`seo.py`）與執行期（`copy.js`）用的是
+同一份對應表，同一個 token 在首屏與前端一定得到同一個數字。
+
+### 文案不吃 HTML，只吃 `**粗體**`
+
+所有文案欄位一律先逸出，唯一認得的標記是 `**粗體**`；寫 `<strong>` 會被稽核擋下來。
+細節見 `config.md` 的「文案怎麼寫」。
+
+### 剩下這些還是要自己看
 
 這些不會讓 `make audit` 變紅，但會讓網站繼續講上一個主題的事——上線後才被使用者發現。
 
@@ -87,7 +139,9 @@ COURSE=courses/guitar python3 src/build/audit.py   # 多課程並存
 | 篩選籤寫著上一個主題的類型 | FilterBar 的按鈕若寫死在 `index.html`，換 `kinds` 不會跟著變。要從設定檔產生 |
 | `make build` 的類型統計全是 0 | 統計行若寫死 `kinds['release']` 這種 id，換主題就對不到。改成迭代 `CFG["kinds"]` |
 | 「支跟練影片」之類的名詞不對題 | 項目名詞要放進 `ui`（例如 `ui.drillNoun`），不要寫死在 JS 裡 |
-| `og.png` 還是舊課程 | `src/web/og.html` 是靜態模板，數字與文案都要手動對齊 `make build` 的輸出，再跑 `make og` |
+| `og.png` 還是舊課程 | 模板本身已經不用管了——`make build` 會把統計與分級注入 `dist/og.html`，少填一個佔位符就直接讓 build 掛掉。會留下的是 **`assets/og.png` 這個提交進 repo 的截圖檔**：數字變了沒人會提醒你，換主題或改完統計要重跑 `make og` 再 `git add` |
+| `LICENSE` 掛著別人的名字 | `Copyright (c) 2026 curate-course contributors` 是框架的，clone 下來要換成自己的。免責聲明框架只給通用句，主題專屬的那句寫在 `course.config.json` 的 `footer.disclaimer` 與 `llms.disclaimer` |
+| `docs/plans/` 留著範例課程的設計文件 | `2026-07-25-example-course-design.md` 記的是 `examples/body/` 的規劃，不是你的課的。要嘛刪掉，要嘛換成自己的 |
 
 ### giscus 到底接上了沒
 
