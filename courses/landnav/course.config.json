@@ -195,9 +195,16 @@
       "survey and experimental study": 3,
       "narrative review": 4
     },
-    "gradeRequires": { "strong": 1, "moderate": 2 },
-    "maxAgeYears": { "strong": 15 },
-    "requireCaveats": ["contested"],
+    "gradeRequires": {
+      "strong": 1,
+      "moderate": 2
+    },
+    "maxAgeYears": {
+      "strong": 15
+    },
+    "requireCaveats": [
+      "contested"
+    ],
     "minCaveatChars": 40
   },
   "chapters": [
@@ -373,7 +380,7 @@
     "outro": "把準則當操作規範照著練。它是幾十年實務累積下來的,即使沒有 RCT 背書,也遠比自己瞎摸強。但別把它當科學結論去對別人宣稱。\n\n特別提醒兩件事。第一,**步幅計數的誤差沒有任何一篇研究直接量測過**,課程裡給的坡度與負重修正百分比是經驗法則而非文獻數字,請務必自己在已知距離上標定。第二,磁偏角逐年漂移是這整份查核裡唯一證據充分的一條,而它剛好也是最多人忘記更新的一項。你手上那張圖印的磁偏角,可能已經差了好幾度。"
   },
   "footer": {
-    "credits": "課程大綱參考坊間「地圖學與軍用陸地導航」實體課程的主題架構;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。",
+    "credits": "課程大綱參考坊間「地圖學與軍用陸地導航」實體課程的主題架構;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。**姊妹課程**:電子設備還能用的時候,怎麼把全隊接在同一張數位地圖上,見「ATAK 防災地圖」 atak-course.pages.dev,與本課第 11 章的 GPS 備援互為正反面。",
     "disclaimer": "本課程僅供教育與自主學習參考。野外活動與任何實地操作的風險由使用者自負;涉及軍事應用的內容請以所屬單位現行準則為準。"
   },
   "llms": {
@@ -386,7 +393,7 @@
     "chapterItem": "- [[code]] [[title]]([[unitCount]] 個單元)",
     "disclaimerTitle": "版權與免責",
     "disclaimer": "所有影片為第三方 YouTube 頻道的公開內容,本站僅做策展與連結,不擁有任何影片。內容僅供教育參考,實地操作風險自負。",
-    "footer": "由 curate-course 框架建置。"
+    "footer": "由 curate-course 框架建置。姊妹課程(手機還有電時的數位態勢圖):[ATAK 防災地圖](https://atak-course.pages.dev/)"
   },
   "audit": {
     "duration": {
