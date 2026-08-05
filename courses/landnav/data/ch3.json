@@ -1,0 +1,252 @@
+{
+  "chapter": "CH3",
+  "title": "座標與網格系統",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "經緯度與地理座標",
+      "type": "concept",
+      "lesson": {
+        "title": "108新課綱｜國七地理｜經緯度座標系統",
+        "channel": "臺北酷課雲",
+        "url": "https://www.youtube.com/watch?v=UJaFe0m9mco",
+        "lang": "zh",
+        "why": "台北市官方教育平台製作,把經緯度表示法(度分秒與十進位度)與地理座標系統講得扎實嚴謹,是這個單元最好找到的中文入口影片;大地基準造成同一點座標不同的觀念則由後續 drills 的英文內容補足。"
+      },
+      "drills": [
+        {
+          "name": "大地基準是什麼",
+          "en": "A Simple Explanation of Datum",
+          "kind": "theory",
+          "target": "大地基準、datum、座標偏移",
+          "title": "A Simple Explanation of Datum",
+          "channel": "GIS & GPS Tips and Techniques",
+          "url": "https://www.youtube.com/watch?v=xKGlMp__jog"
+        },
+        {
+          "name": "為何要用在地大地基準",
+          "en": "Why We Use Local Datums Instead of WGS84?",
+          "kind": "theory",
+          "target": "大地基準、WGS84、在地基準",
+          "title": "Why We Use Local Datums Instead of WGS84?",
+          "channel": "Offshore Surveys",
+          "url": "https://www.youtube.com/watch?v=KgZ9hM0uk9E"
+        },
+        {
+          "name": "地圖上的度分秒讀法",
+          "en": "Understanding Latitude and Longitude and Using Degrees Minutes and Seconds on Maps",
+          "kind": "theory",
+          "target": "經緯度、度分秒、十進位度",
+          "title": "Understanding Latitude and Longitude and Using Degrees Minutes and Seconds on Maps",
+          "channel": "Ruppert Rocks Geology",
+          "url": "https://www.youtube.com/watch?v=a08GsyV1NMQ"
+        },
+        {
+          "name": "度分小數與度分秒換算實作",
+          "kind": "practice",
+          "target": "度分秒、十進位度、換算",
+          "title": "LeadSurvey說明示範  06轉換度分小數為度分秒",
+          "channel": "曾俊彬",
+          "url": "https://www.youtube.com/watch?v=FPJxGadv4uk"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "UTM投影原理",
+      "type": "concept",
+      "lesson": {
+        "title": "Introduction to UTM, Universal Transverse Mercator",
+        "channel": "GIS & GPS Tips and Techniques",
+        "url": "https://www.youtube.com/watch?v=LcVlx4Gur7I",
+        "lang": "en",
+        "why": "這個頻道是英文供給裡座標系統主題的骨幹之一,這支影片把「為什麼要投影」「UTM如何分帶」「東距/北距怎麼定義」一次講清楚,是這個單元最直接對應課綱內容的入門影片;中文供給在這個純投影原理的子題上找不到對等品質的影片,因此以英文為主課,誠實不硬湊中文。"
+      },
+      "drills": [
+        {
+          "name": "UTM分帶與東距北距",
+          "en": "Understanding UTM Grid Zones, Easting & Northing",
+          "kind": "theory",
+          "target": "UTM分帶、東距、北距",
+          "title": "Understanding UTM Grid Zones, Easting & Northing",
+          "channel": "Offshore Surveys",
+          "url": "https://www.youtube.com/watch?v=kKylXnTI4Dg"
+        },
+        {
+          "name": "UTM投影到底是什麼",
+          "en": "What is the UTM map projection?",
+          "kind": "theory",
+          "target": "UTM投影、橫麥卡托",
+          "title": "What is the UTM map projection?",
+          "channel": "Spatial Monkey",
+          "url": "https://www.youtube.com/watch?v=cfrxauufID4"
+        },
+        {
+          "name": "UTM座標與格網參考簡介",
+          "en": "Introduction to UTM coordinates and Grid References (simple)",
+          "kind": "theory",
+          "target": "UTM座標、格網參考",
+          "title": "Introduction to UTM coordinates and Grid References (simple)",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=P0EcAuKLS-0"
+        },
+        {
+          "name": "地圖投影原理總覽",
+          "kind": "theory",
+          "target": "地圖投影、橫麥卡托",
+          "title": "地圖投影",
+          "channel": "光復中學 洪敏勝教師",
+          "url": "https://www.youtube.com/watch?v=48F-s9Z7_Qg"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "MGRS軍用網格與座標位數",
+      "type": "skill",
+      "assessment": "在一張軍用地形圖上任選一個未知點,依序判讀六位、八位、十位座標:先讀橫座標(東距,由左至右)、後讀縱座標(北距,由下至上),口訣是「先橫後縱」。六位座標應能把位置鎖定在100公尺方格內,八位座標鎖定在10公尺內,十位座標鎖定在1公尺內。若你標出的點落在方格外、或與答案差了將近一整個方格的寬度,通常是橫縱讀反,或估讀方格內的十分位數時看錯刻度。找同伴或用手機GPS在同一點覆核,誤差若超過對應精度的一個網格單位,回頭檢查有沒有漏看100km方格區的字母代碼。那會讓整組座標對到別的區域去,而不是量測本身不準。",
+      "lesson": {
+        "title": "071-COM-1002 在軍用地圖上判斷網格座標",
+        "channel": "社團法人台灣民團協會課務組",
+        "url": "https://www.youtube.com/watch?v=OarXcxgUGzY",
+        "lang": "zh",
+        "why": "以美軍SMCT 071-COM任務編號為架構的中文系列,直接對應「在軍用地圖上判斷網格座標」這個任務,是本課中文供給最強主題之一的骨幹影片,任務導向的教學框架與本課定位高度吻合。"
+      },
+      "drills": [
+        {
+          "name": "MGRS軍用方格網怎麼量",
+          "en": "How to measure the Military Grid Reference System (MGRS)",
+          "kind": "walkthrough",
+          "target": "MGRS、100km方格字母、軍用方格網",
+          "title": "如何量度 軍用方格網  Military Grid Reference Sysytem (MGRS)",
+          "channel": "Mountaineering Council of Hong Kong         香港山藝協會",
+          "url": "https://www.youtube.com/watch?v=SS54P6iV0-U"
+        },
+        {
+          "name": "MGRS八位座標實測",
+          "en": "Measuring MGRS 8-digit coordinates",
+          "kind": "walkthrough",
+          "target": "MGRS、八位座標",
+          "title": "量度 軍用方格網(MGRS)  8 位坐標",
+          "channel": "sunny leung",
+          "url": "https://www.youtube.com/watch?v=fS3gsACu1-g"
+        },
+        {
+          "name": "八位座標讀圖順序:先橫後縱",
+          "kind": "pitfall",
+          "target": "八位座標、讀圖順序、先橫後縱",
+          "title": "點讀圖「先直後橫？」八位座標讀圖法【後生癡呆地圖閱讀系列】",
+          "channel": "向 晴Ckrystin",
+          "url": "https://www.youtube.com/watch?v=CozCR5SKvEc"
+        },
+        {
+          "name": "六位、八位、十位座標的精確度差異",
+          "en": "Master How to Plot 6, 8, and 10 Grid Coordinates on a Topographical Map",
+          "kind": "walkthrough",
+          "target": "六位座標、八位座標、十位座標、精確度",
+          "title": "Master How to Plot 6, 8, and 10 Grid Coordinates on a Topographical Map",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=LmU32lCMYQY"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u4",
+      "name": "台灣的TWD97與二度分帶",
+      "type": "skill",
+      "assessment": "拿一份台灣經建版地形圖(TWD97二度分帶),在圖上任選一點讀出其TM2座標(東距、北距,估讀到公尺),再用手機GPS切到TWD97坐標顯示,於同一位置實測。因TWD97與WGS84同屬衛星大地系統,理論上只有公分等級的差異,實測誤差應落在10公尺以內(多半來自GPS本身精度,不是換算錯誤)。若你的App其實顯示的是舊制TWD67坐標卻誤當TWD97使用,東距會整整偏移約828公尺、北距偏移約207公尺。差距這麼大又剛好貼近這兩個數字,幾乎可以確定是基準面選錯而非量測失準。台灣主流登山App預設多半是WGS84經緯度,要在經建版地形圖上直接量座標仍須切到TWD97 TM2格式,動手量測前務必先核對App當下的坐標系統設定。",
+      "lesson": {
+        "title": "高一地理｜1-5｜臺灣橫麥卡托二度分帶座標系統",
+        "channel": "臺北酷課雲",
+        "url": "https://www.youtube.com/watch?v=xwHXZ2VH1tM",
+        "lang": "zh",
+        "why": "標題直接對應「臺灣橫麥卡托二度分帶座標系統」,是官方教育平台製作、觀看數破四萬的台灣本地內容,避免直接拿美規UTM教學硬套在TWD97上,是這個中文供給稀缺主題裡少數對齊度最高的影片。"
+      },
+      "drills": [
+        {
+          "name": "橫麥卡托二度分帶投影原理",
+          "en": "TM2 projection explained",
+          "kind": "theory",
+          "target": "TM2、橫麥卡托二度分帶",
+          "title": "橫麥卡托二度分帶投影（TM2）",
+          "channel": "光復中學 洪敏勝教師",
+          "url": "https://www.youtube.com/watch?v=VU5ROfeeutY"
+        },
+        {
+          "name": "在台灣地圖上標TM2座標",
+          "kind": "practice",
+          "target": "TM2座標、標繪",
+          "title": "畫台灣地圖&標上TM2座標",
+          "channel": "光復中學 洪敏勝教師",
+          "url": "https://www.youtube.com/watch?v=Jvy469mj__I"
+        },
+        {
+          "name": "網格座標判讀與TM2座標書寫實作",
+          "kind": "walkthrough",
+          "target": "網格座標判讀、tm2座標書寫",
+          "title": "高中地理 翰林第一冊 ch2-2 台灣的地圖投影和座標④網格座標判讀與tm2座標書寫",
+          "channel": "教育雲地理師林鶴峰",
+          "url": "https://www.youtube.com/watch?v=aFpyHSDExJY"
+        },
+        {
+          "name": "地圖投影、UTM帶區與TWD97二度分帶總覽",
+          "kind": "theory",
+          "target": "UTM帶區、TWD97二度分帶",
+          "title": "測量五十講  V2.地圖投影、UTM帶區、TWD97二度分帶坐標",
+          "channel": "HC",
+          "url": "https://www.youtube.com/watch?v=F-MdQDMjgJ4"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u5",
+      "name": "座標尺與量角器實際判讀",
+      "type": "field",
+      "assessment": "帶一份印出的地形圖或軍用地圖、一把座標尺(Romer/Roamer)或量角器,實際在圖上任選三個點,各自量出八位座標(精確到10公尺)。量完後用手機GPS或Google地球核對這三點,誤差若都在15公尺以內即合格。這個容許範圍主要來自紙圖印刷與量測本身的誤差,不是超過就代表沒學會。常見錯誤有兩種:一是座標尺的0刻度沒對齊方格線左下角就開始讀數,會讓整組讀數系統性偏移;二是東距、北距順序讀反(先橫後縱讀成先縱後橫)。這種錯誤的特徵是三個點的誤差方向都一致地偏向圖的左上或右下,而不是隨機分散,看到這個規律就該回頭檢查讀圖順序而不是重新對刻度。",
+      "lesson": {
+        "title": "座標量度尺（Roamer / Romer)使用方法~山藝小知識～一級山藝地圖閱讀",
+        "channel": "山川",
+        "url": "https://www.youtube.com/watch?v=EBbEi_vkPF4",
+        "lang": "zh",
+        "why": "香港一級山藝訓練課程的教學片段,直接示範座標量度尺(Romer/Roamer)在圖上的實際操作,與本課使用者的課程贈品「網格與密位測量尺」使用情境最接近,觀看數雖不高但主題對齊度是這批候選裡最高的。"
+      },
+      "drills": [
+        {
+          "name": "用座標尺量出八位座標",
+          "en": "How to Plot 8 Digit Grid Coordinates",
+          "kind": "walkthrough",
+          "target": "座標尺、八位座標、圖上標繪",
+          "title": "How to Plot 8 Digit Grid Coordinates",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=OWTd0StOur0"
+        },
+        {
+          "name": "量角器讀格網座標的簡化法",
+          "en": "Protractor Grid References - much simpler method",
+          "kind": "walkthrough",
+          "target": "量角器、格網座標",
+          "title": "Protractor Grid References - much simpler method",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=JmmqGUkXplg"
+        },
+        {
+          "name": "用格網工具標繪UTM座標",
+          "en": "Plotting UTM Coordinates with a Grid Tool",
+          "kind": "walkthrough",
+          "target": "格網工具、UTM座標標繪",
+          "title": "Plotting UTM Coordinates with a Grid Tool",
+          "channel": "MapTools",
+          "url": "https://www.youtube.com/watch?v=mv7ZnNFsgsQ"
+        },
+        {
+          "name": "用軍用量角器算網格方位角",
+          "kind": "walkthrough",
+          "target": "量角器、網格方位角",
+          "title": "071-COM-0018 使用量角器計算網格方位角",
+          "channel": "社團法人台灣民團協會課務組",
+          "url": "https://www.youtube.com/watch?v=F64h4yhB0QY"
+        }
+      ]
+    }
+  ]
+}

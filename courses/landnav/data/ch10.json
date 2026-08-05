@@ -1,0 +1,176 @@
+{
+  "chapter": "CH10",
+  "title": "觀測記錄與回報",
+  "units": [
+    {
+      "id": "ch10-u1",
+      "name": "寫景圖調製",
+      "type": "skill",
+      "assessment": "找一個至少能看到三個以上顯著地物（建築、稜線、路口）、視野涵蓋至少300公尺外地形的觀測位置，在15分鐘內徒手畫出一張橫向全景素描，把畫面依左右分成三段並標出每段的磁方位角（用指北針實測，不是用地圖量）與到每個顯著地物的距離。畫完後檢查兩點：（1）同一個地物分兩次獨立測量方位角，兩次讀數差若超過3度，表示指北針讀數不穩或素描比例位置抓錯；（2）拿同一角度拍一張照片對照，若素描漏掉照片裡任何一個能當導航或射擊參考的顯著地物，表示地物篩選標準抓錯了。應該優先標「稀有、明顯、不隨季節改變」的地物，而不是隨手挑最近的東西畫。",
+      "lesson": {
+        "title": "Indication of land Marks and Target | Types of Ground | Field Craft and Battle Craft",
+        "channel": "NCC ARMY WING",
+        "url": "https://www.youtube.com/watch?v=6ufj0FjJDfM",
+        "lang": "en",
+        "why": "找遍中英文關鍵字都查無直接教「寫景圖」繪製步驟的影片；這支印度學生軍(NCC)野戰教範是本次盤點內容最接近的替代,涵蓋近／中／遠景地形分區與地物指示技巧(GRAD公式)，是動筆畫寫景圖前必備的觀察與描述基礎，但不含實際素描繪製過程，讀者需另外搭配 assessment 的自我練習補上畫圖步驟。程序性內容另可參照 TC 3-25.26 第10章的寫景圖規範。"
+      },
+      "drills": [
+        {
+          "name": "地形分區描述（近景／中景／遠景）",
+          "en": "Description of Ground",
+          "kind": "theory",
+          "target": "地形分區、近景、中景、遠景、地物描述用語",
+          "title": "Description of Ground",
+          "channel": "Class Notes",
+          "url": "https://www.youtube.com/watch?v=tz9Pzh652pI"
+        },
+        {
+          "name": "寫景圖動筆標繪示範",
+          "en": "Panoramic sketch annotation demo",
+          "kind": "walkthrough",
+          "target": "寫景圖、方位角標註、距離標註",
+          "title": null,
+          "channel": null,
+          "url": null,
+          "note": "查過「panoramic sketch military」「panoramic sketch observation post drawing」「field sketching military observation training」「annotated terrain sketch labeling reference points」「sketch map annotate reference points army training example」「Ranger Handbook panoramic sketch」，中文查過「寫景圖」「寫景圖 教學」「寫景圖 軍事」「軍事寫景圖教學」。中文結果被短劇／遊戲攻略完全淹沒；英文結果被城市速寫／透視畫法教學（TobySketchLoose、Circle Line Art School、Linescapes 等一般美術頻道）佔滿，找不到任何一支示範軍用寫景圖動筆標繪方位角與距離步驟的影片，誠實留空。"
+        },
+        {
+          "name": "素描優於照片的實例對比",
+          "en": "Sketch vs photo for observation reporting",
+          "kind": "pitfall",
+          "target": "素描、照片對比、標註彈性、光線限制",
+          "title": null,
+          "channel": null,
+          "url": null,
+          "note": "查過「OP sketch vs photo military」「why sketch instead of photo military observation」「artillery observer sketch panorama drawing terrain」「reconnaissance patrol sketch report drawing example military」，中文查過「觀測記錄 敵情回報 陸軍」「陣地略圖 要圖 教學」。同樣被戰爭劇／遊戲內容與一般美術教學淹沒，查無任何影片示範或討論「素描優於照片」（可標註重點、不受光線限制）這個論點，只能在 lesson.why／assessment 用文字說明，誠實留空。"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u2",
+      "name": "射界卡調製",
+      "type": "skill",
+      "assessment": "在你熟悉的一個地點（陽台、頂樓、空地皆可）假想一挺自動武器陣地，填一張射界卡：標出主射向的方位角、射界左右限的方位角、至少兩個目標參考點（TRP）與各自的實測或圖上量測距離、以及死角範圍。若手邊有課程附的實體射擊測距卡，直接拿來核對你標的方位角與距離基準是否一致。畫完後實際站到你標的射界左右限方位，目視確認那真的是能持續有效觀測的邊界，而不是隨便抓的整數方位角；若邊界外還有超過視野三分之一的可通視空間沒被涵蓋，表示射界抓得太保守，要重畫。TRP距離若用地圖量測，需與步幅或測距機實測值誤差在10%以內，超過表示地圖判讀或比例尺換算有誤。",
+      "lesson": {
+        "title": "How To: Fill Out a Range Card",
+        "channel": "Military.com",
+        "url": "https://www.youtube.com/watch?v=XCpT7-AD3gk",
+        "lang": "en",
+        "why": "軍事官方媒體製作，3分鐘內完整走過射界卡六大要素（主射向、射界限、TRP、距離、死角），是本主題查到最精簡扼要的入門教學，適合單元開場定調。程序性內容另可參照 TC 3-25.26 第10章的射界卡規範。"
+      },
+      "drills": [
+        {
+          "name": "填寫射界卡實例（士官預校版）",
+          "en": "How to complete a Range Card - Cadet Manor",
+          "kind": "walkthrough",
+          "target": "射界卡、主射向、射界左右限",
+          "title": "How to complete a Range Card - Cadet Manor",
+          "channel": "Cyclone Battalion SI",
+          "url": "https://www.youtube.com/watch?v=N5OpddMNyjs"
+        },
+        {
+          "name": "目標參考點（TRP）選定",
+          "en": "Selecting Target Reference Points",
+          "kind": "theory",
+          "target": "目標參考點、TRP、測距",
+          "title": "Fieldcraft- Selecting TRPs Target Reference Points",
+          "channel": "SecurityGuy42",
+          "url": "https://www.youtube.com/watch?v=rV97tx8woFM"
+        },
+        {
+          "name": "射界卡填寫示範（Raider Brigade版）",
+          "en": "Range Card",
+          "kind": "practice",
+          "target": "射界卡填寫、死角標示",
+          "title": "Range Card",
+          "channel": "Raider Brigade",
+          "url": "https://www.youtube.com/watch?v=FLrsAV4iUJE"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u3",
+      "name": "陣地略圖",
+      "type": "skill",
+      "assessment": "以班或排為單位（至少3個射擊位置），把每個位置各自的射界卡疊到同一張陣地要圖上，檢查兩件事：（1）相鄰兩個射界之間有沒有超過10度的重疊，重疊太多代表火力浪費、掩護縱深不足的方向卻沒人顧；（2）用透明片或色筆把每個射界的左右限畫出來後，沿陣地正面掃過一圈，若某段方位角完全沒被任何一個射界卡涵蓋，要立刻回頭調整相鄰位置的主射向或射界限，不是事後才發現有死角。完成的陣地略圖應該讓不在現場的人，光看圖就能指出防線上哪個方向暴露、哪個方向火力最集中。",
+      "lesson": {
+        "title": "Range Cards and Sector Sketches",
+        "channel": "Silver Beaty - Army ROTC",
+        "url": "https://www.youtube.com/watch?v=FddlMu0j-A4",
+        "lang": "en",
+        "why": "33分鐘完整銜接「單一射界卡」與「整合陣地略圖」兩個層次，是本次盤點少數同時講清楚兩者關係的影片，直接對應本單元把多個射界卡疊成陣地略圖的核心任務。程序性內容另可參照 TC 3-25.26 第10章的陣地要圖規範。"
+      },
+      "drills": [
+        {
+          "name": "射界卡與陣地略圖整合基礎",
+          "en": "Range Card & Sector Sketch Basics",
+          "kind": "theory",
+          "target": "陣地略圖、射界卡整合",
+          "title": "[ BASICS ] Range Card & Sector Sketch",
+          "channel": "ForTheInfantry",
+          "url": "https://www.youtube.com/watch?v=fsvKSfTby2A"
+        },
+        {
+          "name": "野戰簡便畫法（Dorito Sketch）",
+          "en": "Marking Sectors of Fire — the Dorito Sketch",
+          "kind": "practice",
+          "target": "射界標示、野戰簡便畫法、Ranger School",
+          "title": "Marking Sectors of Fire in Ranger School- the Dorito Sketch secret!",
+          "channel": "Gibsons Tactical Tavern",
+          "url": "https://www.youtube.com/watch?v=pOZ_BUo2byk"
+        },
+        {
+          "name": "射界重疊與死角檢查",
+          "en": "Sector Sketches & Fields of Fire",
+          "kind": "pitfall",
+          "target": "射界重疊、死角、視野死區",
+          "title": "Sector Sketches & Fields of Fire: The Tactical Framework Every Homeowner Needs",
+          "channel": "Civilian Rifleman",
+          "url": "https://www.youtube.com/watch?v=NbZD1g11t60"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u4",
+      "name": "座標回報與目標指示",
+      "type": "skill",
+      "assessment": "用一張地圖或衛星圖挑一個目標點，分別用兩種方式回報它的位置給隊友：先用6位或8位格網座標寫下來，再用「以自己為基準點、方位角加距離」的極座標方式口頭描述一次，讓隊友各自在自己的地圖上標點，兩點誤差若超過100公尺，表示座標讀取位數不夠或方位角量測有誤。接著練習一次完整的SALUTE格式敵情回報（規模、活動、位置、單位、時間、裝備）口述，錄音後回放檢查六個要素是否每項都講到、且位置要素有具體座標而不是「在那邊」這種空泛描述。漏講任何一項或位置沒給座標，都算沒通過。",
+      "lesson": {
+        "title": "Basic Call For Fire Training",
+        "channel": "Cyclone Battalion SI",
+        "url": "https://www.youtube.com/watch?v=WIlng_sV6P0",
+        "lang": "en",
+        "why": "Army ROTC 訓練官方錄影，12分鐘內完整走過座標回報、極座標描述目標與呼叫火力支援的基本流程，直接對應本單元「座標回報與目標指示」的核心任務。call for fire 的完整程序另可參照 TC 3-25.26 與 ATP 3-25.26 相關章節。"
+      },
+      "drills": [
+        {
+          "name": "SALUTE 格式敵情回報示範",
+          "en": "Basic Warrior Tasks: SALUTE Report",
+          "kind": "walkthrough",
+          "target": "SALUTE格式、敵情回報、座標回報",
+          "title": "Basic Warrior Tasks: Report Intelligence Information (SALUTE Report)",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=YRfXkRPhFsU"
+        },
+        {
+          "name": "Call For Fire 六要素",
+          "en": "6 Elements of Call For Fire",
+          "kind": "theory",
+          "target": "call for fire、六要素、目標指示",
+          "title": "6 Elements of Call For Fire",
+          "channel": "Raider Brigade",
+          "url": "https://www.youtube.com/watch?v=SoHZ467hNEI"
+        },
+        {
+          "name": "目標指示法示範（前皇家海軍陸戰隊員）",
+          "en": "Target Indication",
+          "kind": "walkthrough",
+          "target": "目標指示、方位描述、參考點法",
+          "title": "Target Indication explained by former Royal Marines Commando",
+          "channel": "StallionBen83",
+          "url": "https://www.youtube.com/watch?v=yF1nVqwno9E"
+        }
+      ]
+    }
+  ]
+}

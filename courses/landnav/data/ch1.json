@@ -1,0 +1,207 @@
+{
+  "chapter": "CH1",
+  "title": "地圖判讀基礎",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "軍用地圖的種類與比例尺",
+      "type": "concept",
+      "lesson": {
+        "title": "US Military Basic Land Navigation (Part 1.2) - Topographical Maps and Land/Map Association",
+        "channel": "SF Actual",
+        "url": "https://www.youtube.com/watch?v=eePmfuzDODg",
+        "lang": "en",
+        "why": "美軍陸地導航系統教學系列裡專講地形圖(topographic map)的一集,說明地形圖如何呈現地貌並建立圖上判讀與實地地形的對應關係。地形圖是軍用地圖種類裡最基礎、佔比也最高的一種,這支影片正好補上認識地圖種類的核心入門,比零散的地理課等高線教學更貼近軍用陸地導航的語境。"
+      },
+      "drills": [
+        {
+          "name": "比例尺的意義與使用場合",
+          "en": "Map Scales Explained",
+          "kind": "theory",
+          "target": "比例尺、1:25000、1:50000、1:250000、使用場合",
+          "title": "Map Scales explained",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=lq4HyANjTRM"
+        },
+        {
+          "name": "地圖比例尺基礎與表示法",
+          "en": "Map Reading 001 - Map Scale",
+          "kind": "theory",
+          "target": "比例尺、圖上距離、實際距離、比例尺表示法",
+          "title": "地圖閱讀 Map Reading 001 地圖比例尺 Map Scale (Geo-wisdom 地談)",
+          "channel": "Geo-wisdom地談",
+          "url": "https://www.youtube.com/watch?v=xK8UIC8rgLU"
+        },
+        {
+          "name": "比例尺換算實作練習",
+          "kind": "practice",
+          "target": "比例尺換算、圖上距離、實際距離、解題",
+          "title": "【解題】地圖比例尺的應用",
+          "channel": "均一教育平台 Junyi Academy",
+          "url": "https://www.youtube.com/watch?v=qgDYM1OUcVo"
+        },
+        {
+          "name": "影像地圖與城鎮圖(其他地圖種類)",
+          "kind": "theory",
+          "target": "影像地圖、城鎮圖、聯合作戰用圖",
+          "title": null,
+          "channel": null,
+          "url": null,
+          "note": "查過 photomap、image map military、aerial photograph reading tutorial、城鎮圖、聯合作戰用圖、軍用地圖種類 影像圖 城鎮圖 等中英關鍵字,YouTube 上找不到針對「影像地圖(image/photo map)」或「城鎮圖/聯合作戰用圖(town plan / joint operations graphic)」這兩種軍用地圖分類的獨立教學影片,只查到軍方教範文件(FM 21-25/21-26)PDF,沒有可用影片,誠實留空。這兩種地圖種類留待課程文案以文字補充說明,不影響本單元以地形圖與比例尺為骨幹的判讀訓練。"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "圖廓資料與圖例判讀",
+      "type": "skill",
+      "assessment": "攤開任何一張軍用地形圖,在 3 分鐘內從圖廓外找出以下五項並用手指出來:圖號與圖名、比例尺條、圖例區塊、磁偏角圖示、製圖或修訂年份。五項全部指認正確且在時限內完成才算過關;若花超過 5 分鐘還在圖上到處找,代表還沒建立「圖廓資料固定分布在哪個角落」的空間記憶,建議重新看一次圖廓總覽再練一次。另外拿出製圖年份自問:若超過 15 年沒改版,你能不能主動說出磁偏角度數可能因地磁年變率而偏移、局部地貌(道路、植被、新建物)可能與現況不符。答不出這兩點,表示還沒理解「舊圖為什麼危險」,這比認得出圖例符號更容易被忽略。",
+      "lesson": {
+        "title": "【童軍探索獎章】認識地圖及習用圖例 - 圖邊資料",
+        "channel": "NTR Region",
+        "url": "https://www.youtube.com/watch?v=xJhHOSQh8tw",
+        "lang": "zh",
+        "why": "香港童軍探索獎章教學系列,逐項講解圖邊資料(圖名圖號、比例尺、圖例、磁偏角、鄰接圖)的判讀方法,是中文裡少見直接對應「圖廓外資料」整體概念的系統教學,適合作單元開場。"
+      },
+      "drills": [
+        {
+          "name": "圖例符號判讀",
+          "en": "Identify Topographic Symbols on a Military Map",
+          "kind": "walkthrough",
+          "target": "圖例、地形符號、軍用地圖符號",
+          "title": "Identify topographic symbols on a military map CIT (BLC)",
+          "channel": "Christine Marquina",
+          "url": "https://www.youtube.com/watch?v=67zxWugui5U"
+        },
+        {
+          "name": "磁偏角圖示判讀",
+          "en": "Declination Diagrams on a Topographic Map",
+          "kind": "theory",
+          "target": "磁偏角圖示、磁北、真北、格網北",
+          "title": "Declination Diagrams on a Topographic Map",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=CO_izq3YBLc"
+        },
+        {
+          "name": "鄰接圖表與比例尺條判讀",
+          "en": "Map Reading -- Marginal Information, Part 2",
+          "kind": "theory",
+          "target": "鄰接圖表、比例尺條、格網參考框",
+          "title": "ROTC Lesson 96: Map Reading -- Marginal Information, Part 2 of 6",
+          "channel": "Colonel Dennis Eclarin",
+          "url": "https://www.youtube.com/watch?v=NK2guL7wlaQ"
+        },
+        {
+          "name": "製圖年份的重要性",
+          "kind": "theory",
+          "target": "製圖年份、版本、磁偏角資料時效、地貌變化",
+          "title": null,
+          "channel": null,
+          "url": null,
+          "note": "查過 map edition date importance、USGS revision date、地圖 測量年份 過時、地圖 版本 磁偏角 地貌 等中英關鍵字,沒有找到以「製圖年份及其重要性」為單一主題的獨立教學影片。這個子題目前只在圖廓資料總覽類影片(如本單元主課)裡順帶提及日期欄位,不構成獨立影片,誠實留空。製圖年份的重要性改在 assessment 裡納入自我檢查項目補足。"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u3",
+      "name": "地圖的摺疊、保養與野外防水",
+      "type": "skill",
+      "assessment": "把你的地圖照軍用摺法摺好後,單手從口袋或圖夾裡抽出、攤開到目前位置那一格,整個動作若超過 10 秒或需要用到兩隻手才能完成,摺法還不夠標準。多半是摺線沒有對齊圖廓分界、或摺成的格數超過單手掌握的大小(可先抓攤開後單邊不超過 20 公分為基準調整摺法)。防水檢查:把摺好的地圖放進水裡泡 30 秒後取出,若邊緣滲水或字跡暈開,護貝或防水處理不合格,需要重做,不要等到野外下雨才發現。標繪工具檢查:用你選的筆在圖上畫一條線,拿橡皮擦或濕布擦拭,蠟質油性筆(chinagraph)應該可以擦掉不留痕跡;若用了永久性 Marker 卻擦不掉,代表選錯了筆。軍用地圖需要能反覆標繪、清除舊資料重複使用。",
+      "lesson": {
+        "title": "How to Fold a Topographic Map and Other Techniques",
+        "channel": "ITS Tactical / Imminent Threat Solutions",
+        "url": "https://www.youtube.com/watch?v=7AERUazh1qo",
+        "lang": "en",
+        "why": "示範地形圖的兩種摺法(基本方格摺法與可展開頁式摺法),這是中英文 YouTube 上少見專門講「地圖怎麼摺」的教學。內容不含防水與標繪,但摺法子題本身找不到更完整的候選,故以此開場,防水與標繪工具由跟練影片補足。中文搜尋(軍用地圖摺法、地圖摺疊方法、地圖防水、地圖護貝、地圖標繪工具)完全沒有命中合格影片,本單元三個子題確認以英文為骨幹。"
+      },
+      "drills": [
+        {
+          "name": "野外地圖防水處理(DIY)",
+          "en": "DIY Waterproof Maps for Hiking and Backpacking",
+          "kind": "walkthrough",
+          "target": "地圖防水、DIY處理、健行地圖保養",
+          "title": "HOW TO WATERPROOF MAPS // DIY Waterproof Maps for Hiking and Backpacking",
+          "channel": "Outside Chronicles",
+          "url": "https://www.youtube.com/watch?v=0-u4TC7SKL0"
+        },
+        {
+          "name": "圖夾與地圖袋的選用及自製",
+          "en": "Map Case - What to Use, How to Make Your Own",
+          "kind": "walkthrough",
+          "target": "圖夾、地圖袋、防水收納、自製",
+          "title": "Map case - what to use - how to make your own",
+          "channel": "Jake Marcin",
+          "url": "https://www.youtube.com/watch?v=ZA7FtkA2j2U"
+        },
+        {
+          "name": "地圖標繪筆具選用:油性筆 vs 一般Marker",
+          "en": "Marking Up Maps Using Chinagraph Pencils and Marker Pens",
+          "kind": "theory",
+          "target": "油性筆、蠟質鉛筆、Marker筆、標繪規矩",
+          "title": "Marking up maps using Chinagraph (grease) pencils and Marker Pens",
+          "channel": "Ultimate Nav",
+          "url": "https://www.youtube.com/watch?v=BlXjvesQooo"
+        },
+        {
+          "name": "軍用量角器標繪方位角與座標",
+          "en": "How to Use a Military Protractor for Land Navigation",
+          "kind": "walkthrough",
+          "target": "量角器、方位角標繪、座標繪製",
+          "title": "How to use a Military Protractor for Land Navigation",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=pZPji5ivuf8"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u4",
+      "name": "正置地圖(地圖定向)",
+      "type": "field",
+      "assessment": "在戶外找一個看得到至少兩個明顯地貌(如山頭、河谷、明顯道路彎道)的定點,分別用兩種方法把地圖正置:先用地貌對照法轉地圖對齊眼前地貌,再用指北針蓋在圖上、把磁北對齊圖廓磁偏角圖示重新轉一次。比較兩次正置後地圖上北方箭頭指向的方向,若兩種方法轉出來的方向相差超過 10 度,表示地貌對照時選錯了地標(通常是選了太近或太籠統的地標),或指北針正置時磁偏角加減方向弄反了。正置完成的判準是:圖上任一條你認得出的道路或稜線,延伸方向要跟你眼前實地看到的方向一致。如果地圖上的路是「往你左手邊延伸」但實地卻是往右手邊,代表地圖還沒轉對,之後量的所有方位角都會反過來,這是初學者最常見也最危險的失敗模式。",
+      "lesson": {
+        "title": "Wilderness Navigation #7 - Orienting your Map",
+        "channel": "Columbia River Orienteering Club",
+        "url": "https://www.youtube.com/watch?v=krkNQ1VlEgI",
+        "lang": "en",
+        "why": "野外導航系統教學系列的第七集,同時示範地貌對照與指北針兩種正置地圖的方法,並說明「正置」這個動作在整個導航流程裡的角色,涵蓋面比單一手法的教學影片更完整,適合作單元開場。"
+      },
+      "drills": [
+        {
+          "name": "用地貌對照正置地圖",
+          "en": "Orientating a Map Based Off Terrain Association",
+          "kind": "walkthrough",
+          "target": "地貌對照、地標比對、不靠指北針",
+          "title": "Orientating a map based off terrain association",
+          "channel": "Northeast Alpine Start",
+          "url": "https://www.youtube.com/watch?v=7T2WRVaFVRw"
+        },
+        {
+          "name": "用指北針正置地圖",
+          "kind": "walkthrough",
+          "target": "指北針正置、磁北對齊、轉動地圖",
+          "title": "指南針正置地圖",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=rA1tpbnoh_A"
+        },
+        {
+          "name": "正置後的應用練習:量測方位角",
+          "en": "How to Orient a Map and Take a Bearing With a Compass",
+          "kind": "practice",
+          "target": "正置後應用、方位角量測、指北針與地圖搭配",
+          "title": "How to orient a map and take a bearing with a compass.  The basics of how to use a compass and map.",
+          "channel": "PreppingItForward",
+          "url": "https://www.youtube.com/watch?v=inmlJpCWZss"
+        },
+        {
+          "name": "正置地圖的常見迷思與誤用",
+          "en": "Do Not Orient a Map - When Using With a Compass",
+          "kind": "pitfall",
+          "target": "正置迷思、方位角量測時機、常見錯誤",
+          "title": "Do not orient a map - when using with a compass",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=AWiMV4T5kPc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "$schema": "../../src/build/course.schema.json",
+  "frameworkVersion": "2.0.0",
+  "site": {
+    "project": "landnav",
+    "name": "地圖學與軍用陸地導航",
+    "url": "https://landnav.pages.dev",
+    "locale": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "brandIcon": "compass",
+    "title": "地圖學與軍用陸地導航 — 一門連結全數驗證的策展課程",
+    "description": "從等高線判讀、MGRS 網格座標、磁偏角換算到指北針實地行進與步幅測距,一門策展自 YouTube 公開影片的繁體中文陸地導航課程。每個連結都經 oEmbed 實際驗證,每條實證主張都掛可覆核的 PubMed 或 Crossref 文獻。",
+    "keywords": [
+      "地圖判讀",
+      "陸地導航",
+      "等高線",
+      "MGRS",
+      "UTM",
+      "磁偏角",
+      "指北針",
+      "方位角",
+      "密位",
+      "步幅計步",
+      "TWD97",
+      "定向越野"
+    ],
+    "educationalLevel": "beginner to intermediate",
+    "audience": "登山野外活動者、後備軍人、定向越野入門者",
+    "about": [
+      "地圖學",
+      "陸地導航",
+      "野外求生",
+      "軍事訓練"
+    ],
+    "learningResourceType": [
+      "策展影片課程",
+      "自我檢測清單"
+    ]
+  },
+  "hero": {
+    "eyebrow": "策展課程 · 連結全數驗證",
+    "heading": "GPS 會失效。失效那天,你手上只剩地圖跟指北針。",
+    "lede": "**{lessonUnits} 個單元、{videos} 支影片**,從圖廓資料一路帶到依方位角行進與步幅測距。內容全數策展自 YouTube 第三方公開影片,本站只做選片、驗證與連結,不擁有任何影片。所有連結都經 YouTube oEmbed API 實際打過,{evidence} 條實證主張各自掛著可覆核的 PubMed 或 Crossref 文獻。"
+  },
+  "og": {
+    "title": "地圖學與軍用陸地導航",
+    "lede": "{lessonUnits} 個單元 · {videos} 支已驗證影片\n連結全數實打驗證,實證主張全數可覆核"
+  },
+  "ui": {
+    "stats": [
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "單元"
+      },
+      {
+        "icon": "clapperboard",
+        "field": "video_unique",
+        "label": "影片"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "總長度"
+      },
+      {
+        "icon": "microscope",
+        "field": "evidence_total",
+        "label": "實證查核"
+      }
+    ],
+    "unitTypes": {
+      "skill": "技能",
+      "concept": "觀念",
+      "field": "野外實作"
+    },
+    "problemType": "skill",
+    "evidenceRows": [
+      {
+        "field": "summary",
+        "label": "查了文獻之後"
+      }
+    ],
+    "unitNoun": "個單元",
+    "lessonNoun": "堂主課",
+    "drillNoun": "支延伸影片",
+    "drillNounShort": "支延伸",
+    "kindFilterLabel": "影片類型篩選",
+    "missingTitle": "尚未找到合格影片",
+    "missingHint": "這一格是空的,不是漏做。查過的關鍵字與不合格的原因寫在下面。寧可留白,也不放一支濫竽充數的影片。",
+    "lessonLangLabel": "語言",
+    "watchLabel": "看這支",
+    "evidenceSource": "PubMed / Crossref",
+    "evidenceSourceLink": "查看原始文獻",
+    "filterAllLabel": "全部",
+    "assessmentLabel": "自己檢查有沒有學會",
+    "unitEvidenceLabel": "實證查核",
+    "categoryNoun": "類別",
+    "searchPlaceholder": "搜尋單元、技能或器材",
+    "playlistSearch": "搜尋影片",
+    "progressLabel": "學習進度",
+    "facetLabel": "分面篩選",
+    "lessonLabel": "主課",
+    "doneLabel": "已完成",
+    "prevLabel": "上一個",
+    "nextLabel": "下一個",
+    "moreLabel": "還有",
+    "openExternal": "在 YouTube 開啟",
+    "emptyTitle": "沒有符合的單元",
+    "emptyHint": "換個關鍵字,或把篩選清掉。",
+    "tabs": {
+      "landing": "首頁",
+      "course": "課程",
+      "stance": "這門課的立場",
+      "player": "上課"
+    }
+  },
+  "languages": {
+    "zh": "繁中",
+    "en": "English"
+  },
+  "kinds": [
+    {
+      "id": "theory",
+      "label": "原理",
+      "tone": "neutral"
+    },
+    {
+      "id": "walkthrough",
+      "label": "示範",
+      "tone": "accent"
+    },
+    {
+      "id": "practice",
+      "label": "練習",
+      "tone": "success"
+    },
+    {
+      "id": "pitfall",
+      "label": "常見錯誤",
+      "tone": "danger"
+    }
+  ],
+  "grades": [
+    {
+      "id": "strong",
+      "label": "證據充分",
+      "tone": "success"
+    },
+    {
+      "id": "moderate",
+      "label": "證據中等",
+      "tone": "accent"
+    },
+    {
+      "id": "limited",
+      "label": "證據有限",
+      "tone": "attention"
+    },
+    {
+      "id": "contested",
+      "label": "有爭議",
+      "tone": "danger"
+    },
+    {
+      "id": "doctrine-only",
+      "label": "僅準則規範",
+      "tone": "neutral"
+    }
+  ],
+  "evidence": {
+    "designTiers": {
+      "meta-analysis": 1,
+      "systematic review": 1,
+      "meta-analytic reanalysis of experimental datasets": 1,
+      "geodetic measurement and modeling study": 1,
+      "geomagnetic model synthesis": 1,
+      "model uncertainty analysis": 1,
+      "mathematical/geodetic modeling study": 1,
+      "measurement and modeling study": 1,
+      "modeling methodology study": 1,
+      "randomized controlled trial": 2,
+      "experimental study": 2,
+      "within-subjects experimental study": 2,
+      "comparative experimental study": 2,
+      "field experimental study": 2,
+      "eye-tracking and fnirs experimental study": 2,
+      "field measurement study": 2,
+      "cohort": 3,
+      "observational study": 3,
+      "cross-sectional study": 3,
+      "comparative study": 3,
+      "cross-sectional comparative study": 3,
+      "cross-sectional observational study": 3,
+      "survey and experimental study": 3,
+      "narrative review": 4
+    },
+    "gradeRequires": { "strong": 1, "moderate": 2 },
+    "maxAgeYears": { "strong": 15 },
+    "requireCaveats": ["contested"],
+    "minCaveatChars": 40
+  },
+  "chapters": [
+    {
+      "code": "CH1",
+      "title": "地圖判讀基礎",
+      "icon": "map",
+      "source": "ch1",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH2",
+      "title": "地形判讀與等高線",
+      "icon": "mountain",
+      "source": "ch2",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH3",
+      "title": "座標與網格系統",
+      "icon": "grid-3x3",
+      "source": "ch3",
+      "units": 5,
+      "drills": 20
+    },
+    {
+      "code": "CH4",
+      "title": "方位角與三北關係",
+      "icon": "compass",
+      "source": "ch4",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH5",
+      "title": "指北針操作",
+      "icon": "navigation",
+      "source": "ch5",
+      "units": 5,
+      "drills": 20
+    },
+    {
+      "code": "CH6",
+      "title": "距離判斷與測量",
+      "icon": "ruler",
+      "source": "ch6",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH7",
+      "title": "陸地導航實作",
+      "icon": "route",
+      "source": "ch7",
+      "units": 5,
+      "drills": 20
+    },
+    {
+      "code": "CH8",
+      "title": "交會定位",
+      "icon": "crosshair",
+      "source": "ch8",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH9",
+      "title": "夜間與惡劣條件導航",
+      "icon": "moon",
+      "source": "ch9",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH10",
+      "title": "觀測記錄與回報",
+      "icon": "pencil-ruler",
+      "source": "ch10",
+      "units": 4,
+      "drills": 12
+    },
+    {
+      "code": "CH11",
+      "title": "電子地圖整合與 GPS 備援",
+      "icon": "smartphone",
+      "source": "ch11",
+      "units": 4,
+      "drills": 16
+    }
+  ],
+  "evidenceAlias": {
+    "ch4-u1": "ch4-u2",
+    "ch3-u4": "ch3-u1",
+    "ch6-u4": "ch6-u3",
+    "ch5-u2": "ch5-u1"
+  },
+  "nav": [
+    {
+      "title": "判圖篇",
+      "chapters": [
+        "CH1",
+        "CH2",
+        "CH3"
+      ]
+    },
+    {
+      "title": "定向與測距",
+      "chapters": [
+        "CH4",
+        "CH5",
+        "CH6"
+      ]
+    },
+    {
+      "title": "導航實作",
+      "chapters": [
+        "CH7",
+        "CH8",
+        "CH9"
+      ]
+    },
+    {
+      "title": "觀測與電子整合",
+      "chapters": [
+        "CH10",
+        "CH11"
+      ]
+    }
+  ],
+  "landing": {
+    "howTitle": "這門課怎麼運作",
+    "steps": [
+      {
+        "icon": "list-ordered",
+        "title": "照順序走",
+        "body": "判圖篇建立底子,定向與測距讓你動起來,實作篇把前面所有技能整合成一趟真的走得完的路線。跳著看也行,但方位角那章沒讀完就練行進,一定會把磁偏角加錯邊。"
+      },
+      {
+        "icon": "video",
+        "title": "先看主課,再看延伸",
+        "body": "延伸影片分四類:原理、示範、練習、常見錯誤。時間有限就先看示範跟常見錯誤,後者省下的冤枉路最多。"
+      },
+      {
+        "icon": "clipboard-check",
+        "title": "做自我檢查",
+        "body": "每個技能單元底下都有一段自我檢查。那不是考試,是可以自己執行、有具體判準的檢驗方法。做不到判準就回去重看,不要自我感覺良好地往下走。"
+      },
+      {
+        "icon": "footprints",
+        "title": "帶著裝備到戶外",
+        "body": "標記為「野外實作」的單元,在室內看再多遍也學不會。地圖、指北針、一段已知距離的路,這三樣是最低配備。"
+      }
+    ],
+    "chaptersTitle": "十一個章節",
+    "stanceTitle": "先說清楚這門課的立場",
+    "stanceLede": "這門課教的東西,大部分是**準則**而不是**實證結論**。查了文獻之後,有些流傳很廣的說法其實沒什麼證據支撐。那些發現原樣寫在下面,包含對這門課自己不利的部分。",
+    "ctaTitle": "從第一章開始",
+    "ctaLede": "{lessonUnits} 個單元、{videos} 支已驗證影片、{evidence} 條掛著文獻的實證查核。全部免費,因為內容本來就是別人放在 YouTube 上的公開影片。"
+  },
+  "stance": {
+    "title": "這門課的立場",
+    "intro": "策展一門課,最容易的作法是把所有內容都講得很有把握。這門課不那樣做。\n\n陸地導航的知識有兩種來源。一種是軍用準則,主要是 US Army TC 3-25.26《Map Reading and Land Navigation》,它規定「該怎麼做」。另一種是實證研究,它回答「這樣做有沒有效、誤差多大」。這兩者常被混為一談,但證據強度差很多。準則寫得斬釘截鐵,不代表背後有人拿實驗驗證過。\n\n所以這門課把兩者分開。程序性的內容照準則教,像是怎麼摺地圖、怎麼讀 MGRS 座標、怎麼取反方位角,出處寫在單元說明裡。可以被經驗檢驗的主張則逐條去查文獻並給出證據分級,像是步幅計數準不準、磁偏角一年漂多少、GPS 在樹冠下誤差多大、空間能力能不能練。\n\n查核的結果是:**16 條實證主張裡只有 1 條拿到「證據充分」,而且它不是來自認知科學,是來自地磁模型的誤差量化論文。** 另有 2 條被判為「有爭議」,4 條「證據有限」。這個結果對一門想把自己講得很硬的課並不光彩,但它就是文獻長的樣子。",
+    "keyPrefix": "concept-",
+    "verdicts": {
+      "concept-gps-reliability": "樹冠遮蔽與城市峽谷會讓 GNSS 定位變差是工程共識,長期依賴電子導航也確實與空間記憶弱化有關聯,但兩者可逐篇引用的同儕審查研究都比想像中少。",
+      "concept-fatigue-lowlight": "疲勞、睡眠剝奪與低光會拖垮導航所需的認知功能,方向明確;但直接對應「夜間陸地導航」的軍事研究多半是未經同儕審查的政府技術報告,不符本課引用標準。",
+      "concept-trainability": "「多練就會變聰明」不成立,最強的證據只支持近遷移(練什麼變強什麼)。專家與新手判圖的差異可觀測,但那是專長研究,不等於訓練有效的證據。",
+      "concept-sex-differences": "導航能力的性別差異在統計上存在,但把它解釋成演化適應是另一回事,兩者證據強度差很多。"
+    },
+    "outroTitle": "所以該怎麼用這門課",
+    "outro": "把準則當操作規範照著練。它是幾十年實務累積下來的,即使沒有 RCT 背書,也遠比自己瞎摸強。但別把它當科學結論去對別人宣稱。\n\n特別提醒兩件事。第一,**步幅計數的誤差沒有任何一篇研究直接量測過**,課程裡給的坡度與負重修正百分比是經驗法則而非文獻數字,請務必自己在已知距離上標定。第二,磁偏角逐年漂移是這整份查核裡唯一證據充分的一條,而它剛好也是最多人忘記更新的一項。你手上那張圖印的磁偏角,可能已經差了好幾度。"
+  },
+  "footer": {
+    "credits": "課程大綱參考坊間「地圖學與軍用陸地導航」實體課程的主題架構;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。",
+    "disclaimer": "本課程僅供教育與自主學習參考。野外活動與任何實地操作的風險由使用者自負;涉及軍事應用的內容請以所屬單位現行準則為準。"
+  },
+  "llms": {
+    "summary": "[[course]] — 一門策展自 YouTube 公開影片的繁體中文地圖學與陸地導航課程,共 [[durationHours]] 小時。每個連結都經 YouTube oEmbed API 驗證,每條實證主張都掛可覆核的 PubMed 或 Crossref 文獻。網址:[[url]]",
+    "stanceTitle": "這門課的立場",
+    "stanceIntro": "程序性內容依軍用準則(US Army TC 3-25.26)教學;可經驗檢驗的主張逐條查文獻並給出證據分級。分級刻意不美化。",
+    "stanceItem": "- [[name]](分級:[[grade]]):[[summary]]",
+    "stanceConclusion": "16 條實證主張裡只有 1 條達到「證據充分」,2 條「有爭議」,4 條「證據有限」。",
+    "chaptersTitle": "章節",
+    "chapterItem": "- [[code]] [[title]]([[unitCount]] 個單元)",
+    "disclaimerTitle": "版權與免責",
+    "disclaimer": "所有影片為第三方 YouTube 頻道的公開內容,本站僅做策展與連結,不擁有任何影片。內容僅供教育參考,實地操作風險自負。",
+    "footer": "由 curate-course 框架建置。"
+  },
+  "audit": {
+    "duration": {
+      "lesson": {
+        "min": "1:00",
+        "max": "45:00"
+      },
+      "drill": {
+        "min": "0:30",
+        "max": "25:00"
+      }
+    },
+    "driftSeconds": 30,
+    "minViews": 300,
+    "metaCoverage": 1,
+    "drillsPerUnit": {
+      "min": 3,
+      "max": 6
+    },
+    "maxSharedVideos": 20,
+    "requireAssessment": [
+      "skill",
+      "field"
+    ],
+    "minAssessmentChars": 80,
+    "minCitations": 2,
+    "allowMissingUrls": 6
+  }
+}

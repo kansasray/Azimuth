@@ -1,0 +1,208 @@
+{
+  "chapter": "CH4",
+  "title": "方位角與三北關係",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "真北、磁北、圖北",
+      "type": "concept",
+      "lesson": {
+        "title": "True North, Magnetic North, Grid North; Magnetic  Declination",
+        "channel": "Fish",
+        "url": "https://www.youtube.com/watch?v=UtmwAw30Xjc",
+        "lang": "en",
+        "why": "一支影片把三個北的定義、彼此的角度關係、以及地圖圖廓上聲明磁偏角的方式一次講完，是這個單元最直接對應的教材，後面兩個單元的換算與密位都建立在這裡的三北關係上。"
+      },
+      "drills": [
+        {
+          "name": "影子定位法找真北",
+          "en": "Shadow-tip method for true north",
+          "kind": "walkthrough",
+          "target": "真北、影子定位法、野外定向",
+          "title": "How to find TRUE North without a Compass : using the Shadow Method",
+          "channel": "KGB Survivalist",
+          "url": "https://www.youtube.com/watch?v=WUSx0BHYTJ8"
+        },
+        {
+          "name": "影子法找北的替代示範",
+          "en": "Sticks-and-shadow method (alternate demo)",
+          "kind": "practice",
+          "target": "真北、影子定位法、動手驗證",
+          "title": "Find North with Sticks and Shadows - The Primitive Compass",
+          "channel": "AlfieAesthetics",
+          "url": "https://www.youtube.com/watch?v=kZL0qGkoJIk"
+        },
+        {
+          "name": "為什麼圖北不等於磁北",
+          "en": "Why grid north isn't magnetic north",
+          "kind": "theory",
+          "target": "圖北、磁北、方位角換算的起點",
+          "title": "Land Nav   grid to magnetic",
+          "channel": "Jarhead Survivor",
+          "url": "https://www.youtube.com/watch?v=aHUFGOjm5I8"
+        },
+        {
+          "name": "磁偏角什麼時候真的重要",
+          "en": "When declination actually matters",
+          "kind": "pitfall",
+          "target": "磁偏角、常見誤解、野外實用門檻",
+          "title": "Compass Declination. Why it doesn’t matter explained . Impact On Land Navigation",
+          "channel": "Very Survival",
+          "url": "https://www.youtube.com/watch?v=Qz5tl5IXw3k"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "磁偏角與 G-M angle 換算",
+      "type": "skill",
+      "assessment": "找一份你所在區域的地形圖，讀出圖廓上聲明的磁偏角或 G-M angle 數值與方向（東偏或西偏）。任選圖上一段已知方位角的路段，手算換算成磁方位角：西偏方向用「圖到磁角度加、磁到圖角度減」，東偏方向規則相反。先自己講出這條加減規則再動手，講不出來代表還沒學會，不要急著查表。實際拿指北針到現場核對，你的磁方位角讀數與換算結果應在 3 度以內；差超過 5 度，九成是加減方向搞反了，回頭重算一次而不是重量一次。同時查這份地圖的出版年份，超過 10 年就先上網查目前磁偏角修正了多少度，再拿舊圖上的數值去用。",
+      "lesson": {
+        "title": "Calculating Grid Magnetic Angle",
+        "channel": "Campbell College CCF Training",
+        "url": "https://www.youtube.com/watch?v=hVai8JwvwrM",
+        "lang": "en",
+        "why": "英國軍事幹部訓練團（CCF）拍攝，直接示範怎麼從圖上的聲明圖算出 G-M angle 並套用到方位角換算，是這個單元「怎麼加減」的核心教材。"
+      },
+      "drills": [
+        {
+          "name": "把圖上方位角換算成磁方位角",
+          "en": "Applying the G-M angle: grid to magnetic",
+          "kind": "walkthrough",
+          "target": "G-M angle、方位角換算、加減方向",
+          "title": "Land Nav   application of grid to magnetic",
+          "channel": "Jarhead Survivor",
+          "url": "https://www.youtube.com/watch?v=Qgjcyw4W3SU"
+        },
+        {
+          "name": "查出自己的磁偏角並調整指北針",
+          "en": "Finding your declination and adjusting the compass",
+          "kind": "practice",
+          "target": "磁偏角、指北針校正",
+          "title": "Declination? Find your true declination and make adjustments simple. Map and Compass made Easy",
+          "channel": "David Canterbury",
+          "url": "https://www.youtube.com/watch?v=y3afR1iD20o"
+        },
+        {
+          "name": "磁偏角逐年變化，查最新值",
+          "en": "Declination changes over time — get the current value",
+          "kind": "theory",
+          "target": "磁偏角逐年變化、地圖製圖年份、查詢方法",
+          "title": "Get Your Exact Magnetic Declination",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=oHi239ithnk"
+        },
+        {
+          "name": "用量角器計算網格方位角（中文示範）",
+          "en": "Determining grid azimuth with a protractor",
+          "kind": "walkthrough",
+          "target": "量角器、網格方位角、SMCT 071-COM",
+          "title": "071-COM-0018 使用量角器計算網格方位角",
+          "channel": "社團法人台灣民團協會課務組",
+          "url": "https://www.youtube.com/watch?v=F64h4yhB0QY"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "密位（mil）與度的換算",
+      "type": "concept",
+      "lesson": {
+        "title": "Compass Measurement Types DEG, QUAD, MILS 10 min to Better Land Navigation Part 14",
+        "channel": "David Canterbury",
+        "url": "https://www.youtube.com/watch?v=FRceL17OWes",
+        "lang": "en",
+        "why": "同一支指北針上度、象限方位、密位三種刻度並列，這支影片直接比較三種量測系統怎麼讀、什麼時候用哪一種，是密位單元最合適的開場。"
+      },
+      "drills": [
+        {
+          "name": "軍規指北針的密位計算入門",
+          "en": "Military compass mil calculations, introduction",
+          "kind": "theory",
+          "target": "密位、NATO 6400、指北針刻度",
+          "title": "Military Compass Calculations - introduction",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=K01opp1zwp0"
+        },
+        {
+          "name": "軍用量角器的密位與度雙刻度",
+          "en": "Reading mils and degrees on a military protractor",
+          "kind": "walkthrough",
+          "target": "量角器、密位刻度、度刻度",
+          "title": "How to use a Military Protractor for Land Navigation",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=pZPji5ivuf8"
+        },
+        {
+          "name": "密位測距公式",
+          "en": "Mil-dot range estimation formula",
+          "kind": "theory",
+          "target": "密位、測距公式、砲兵應用",
+          "title": "Mil Dot Range Estimation Formula: Learn how to Calculate Distance with MILs | Ryan Cleckner",
+          "channel": "NSSF—The Firearm Industry Trade Association",
+          "url": "https://www.youtube.com/watch?v=LeG1JanVmEE"
+        },
+        {
+          "name": "密位公式的第二個講法",
+          "en": "Mil relation formula, a second explanation",
+          "kind": "practice",
+          "target": "密位公式、交叉驗證",
+          "title": "Mil relation Formula",
+          "channel": "DoubleTapLLC",
+          "url": "https://www.youtube.com/watch?v=D4WBR7hc8zQ"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u4",
+      "name": "方位角與反方位角",
+      "type": "skill",
+      "assessment": "在地圖上任選一條方位角大於 180 度、一條小於 180 度的路段，各自心算出反方位角：大於 180 度就減 180，小於 180 度就加 180，兩條都要自己算過一次再核對，不能只套公式不驗算。常見錯誤是不管方位角大小一律用加或一律用減。如果你算出的反方位角小於 0 度或大於 360 度，就是這裡出錯了。拿量角器在圖上實際畫出反方位角的線，方向應該與原方位角的箭頭恰好相反（180 度），用透明尺目視對齊，誤差不超過 2 到 3 度算合格。這個技巧最常用在：後方交會時把「我看到目標」的方位角換成「目標指向我」的反方位角來畫定位線，以及原路折返時不重新讀圖、直接用反方位角走回起點。",
+      "lesson": {
+        "title": "How to get a Back Azimuth",
+        "channel": "The American Backpacker",
+        "url": "https://www.youtube.com/watch?v=6xYePpD4XP4",
+        "lang": "en",
+        "why": "直接示範 ±180 度規則的實際操作，從讀方位角到算出反方位角一步步做給你看，是這個單元最核心的技能示範。"
+      },
+      "drills": [
+        {
+          "name": "轉換方位角、計算後方位角（中文示範）",
+          "en": "Converting azimuth to back azimuth",
+          "kind": "walkthrough",
+          "target": "反方位角、±180 度規則、SMCT 071-COM",
+          "title": "071-COM-1016/7 轉換方位角，計算後方位角",
+          "channel": "社團法人台灣民團協會課務組",
+          "url": "https://www.youtube.com/watch?v=_QbGfyH_BlQ"
+        },
+        {
+          "name": "後方交會與反方位角的關係",
+          "en": "Resection vs intersection — where back azimuth is used",
+          "kind": "theory",
+          "target": "後方交會、前方交會、反方位角應用",
+          "title": "Resection vs Intersection navigation, what's the difference?",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=VSbyY4jMGfY"
+        },
+        {
+          "name": "用量角器畫出方位角與反方位角",
+          "en": "Plotting azimuth and back azimuth with a protractor",
+          "kind": "practice",
+          "target": "量角器、繪圖練習、方位角",
+          "title": "How to use a Military Protractor on a Map",
+          "channel": "The American Backpacker",
+          "url": "https://www.youtube.com/watch?v=Y0CJC2_F2q0"
+        },
+        {
+          "name": "反方位角常見算錯示範",
+          "en": "Common back-azimuth mistakes",
+          "kind": "pitfall",
+          "target": "反方位角、常見錯誤、加減方向搞反",
+          "title": "Compass Basics PT2: How to Shoot a Back Azimuth (Back Bearing)🔅",
+          "channel": "BLACK HAT BUSHCRAFT",
+          "url": "https://www.youtube.com/watch?v=IhkqBKqFUJc"
+        }
+      ]
+    }
+  ]
+}

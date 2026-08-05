@@ -1,0 +1,201 @@
+{
+  "chapter": "CH2",
+  "title": "地形判讀與等高線",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "等高線原理與地形起伏",
+      "type": "concept",
+      "lesson": {
+        "title": "How to Read a Topo Map",
+        "channel": "REI",
+        "url": "https://www.youtube.com/watch?v=CoVcRxza8nI",
+        "lang": "en",
+        "why": "REI 製作的入門總覽，從等高距與等高線的基本定義講起，示範疏密如何對應坡度陡緩，適合當本單元「等高線是什麼」的第一支影片；內容不涉及特定地貌，留給後面兩個單元專門處理。"
+      },
+      "drills": [
+        {
+          "name": "等高線地形圖判讀（第二視角）",
+          "en": "Contour Map / Topographic Map Reading",
+          "kind": "theory",
+          "target": "等高距、等高線地形圖判讀",
+          "title": "Contour Map / Topographic Map Reading",
+          "channel": "Rene Quibodeaux-Kidder",
+          "url": "https://www.youtube.com/watch?v=bFP4rCJcKd8"
+        },
+        {
+          "name": "等高距與計曲線、首曲線、間曲線",
+          "kind": "theory",
+          "target": "等高距、計曲線、首曲線、間曲線",
+          "title": "國中地理  等高線地形圖的判讀_2636",
+          "channel": "臺北酷課雲",
+          "url": "https://www.youtube.com/watch?v=RnYg7qqWfa8"
+        },
+        {
+          "name": "戶外情境下的等高線判讀",
+          "kind": "theory",
+          "target": "等高線、疏密與坡度",
+          "title": "地圖閱讀等高線",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=8GrSwqO90L4"
+        },
+        {
+          "name": "陡坡緩坡與河谷山脊初判",
+          "kind": "theory",
+          "target": "等高線疏密、坡度、河谷、山脊",
+          "title": "等高線判讀：判讀陡坡與緩坡、判讀河谷與山脊/國一地理：地形篇/五分鐘地理教室",
+          "channel": "Yvonne",
+          "url": "https://www.youtube.com/watch?v=juEnzFoVz3M"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "五大地貌特徵",
+      "type": "skill",
+      "assessment": "找一張有明顯地形起伏的等高線地形圖（可用經建版地形圖或地圖App的等高線圖層），在圖上任選10個等高線圖形，遮住地名只看線條，逐一判斷是山頂、鞍部、山谷、山脊還是窪地，寫下答案後翻回地形陰影圖或3D地形圖核對。10題答對8題以上算通過；若把窪地判成山頂，通常是漏看了圈內指示線的方向。指示線（內縮的短刺）指向低處才是窪地，指向高處才是山頂。若山脊、山谷分不清，檢查等高線凸出的方向：凸向低處是山脊，凸向高處是山谷，這是TC 3-25.26第十章的判準。",
+      "lesson": {
+        "title": "Major Terrain Features on a Hand - map reading basics",
+        "channel": "STOKERMATIC",
+        "url": "https://www.youtube.com/watch?v=U3RnecKIJBg",
+        "lang": "en",
+        "why": "用握拳比手勢的方式把五大地貌（山頂、鞍部、山谷、山脊、窪地）一次講完，還順帶預告下一單元的三個次要地貌，是把 TC 3-25.26 地形分類講得最好記的一支；STOKERMATIC 是這個主題的英文旗艦頻道。"
+      },
+      "drills": [
+        {
+          "name": "五大地貌總覽（第二次示範）",
+          "en": "Identifying Terrain Features on a Map",
+          "kind": "theory",
+          "target": "山頂、鞍部、山谷、山脊、窪地",
+          "title": "Identifying Terrain Features on a Map",
+          "channel": "The American Backpacker",
+          "url": "https://www.youtube.com/watch?v=-k2HDBgfioE"
+        },
+        {
+          "name": "窪地的等高線畫法",
+          "en": "Depressions and Contour Lines",
+          "kind": "theory",
+          "target": "窪地、指示等高線",
+          "title": "Depressions and Contour Lines",
+          "channel": "Andrew Orgonik",
+          "url": "https://www.youtube.com/watch?v=2rYYi-BwpjU"
+        },
+        {
+          "name": "沙盤模型示範：山谷、山脊、鞍部、分水嶺",
+          "kind": "walkthrough",
+          "target": "山谷、山脊、鞍部、分水嶺",
+          "title": "互動式沙盒示範教學：山谷/山脊/鞍部/分水嶺",
+          "channel": "黃柏欽的線上地理教室",
+          "url": "https://www.youtube.com/watch?v=42lK-W052e8"
+        },
+        {
+          "name": "鞍部專題判讀",
+          "kind": "theory",
+          "target": "鞍部",
+          "title": "02 地圖判讀｜等高線地形圖｜鞍部 p55",
+          "channel": "Ning的地理教室",
+          "url": "https://www.youtube.com/watch?v=8gwMJt11hrk"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "三個次要地貌與兩個人工地貌",
+      "type": "skill",
+      "assessment": "在等高線圖上找5處等高線局部凸出或密集的地方，先不看比例尺，判斷各屬於凹溝、凸稜、斷崖、切方還是填方。凹溝和山谷都是等高線凸向高處，差別在凸出的長度與幅度。凹溝的凸出通常只跨1到2條等高線、範圍窄小；跨越整條主要山谷的凸出才算山谷。凸稜和山脊的辨法相同，凸稜規模較小。斷崖的判準是多條等高線幾乎重疊或間距小於地圖比例尺換算後的實際3公尺。切方與填方只出現在道路或鐵路穿越等高線處，伴隨的短刻度線方向朝路面是切方、朝低處是填方。5處全部標對才算熟練，錯在凹溝/山谷或凸稜/山脊之間，回頭比對跨越的等高線條數，這是最常見的混淆來源。",
+      "lesson": {
+        "title": "Contour Lines, Slopes, River Valleys & Spurs",
+        "channel": "Magfar Online School",
+        "url": "https://www.youtube.com/watch?v=JLjzP4FrYDQ",
+        "lang": "en",
+        "why": "把坡度陡緩、河谷與凸稜放在同一支裡對照講，直接示範等高線凸出方向如何區分兩者，正好對應本單元「draw 與 valley、spur 與 ridge 最容易混淆」的核心問題。"
+      },
+      "drills": [
+        {
+          "name": "凸稜與山谷的 V/U 型判準",
+          "en": "Spur and Valley",
+          "kind": "theory",
+          "target": "凸稜、山谷、V形、U形",
+          "title": "Spur and Valley",
+          "channel": "AVATECH",
+          "url": "https://www.youtube.com/watch?v=Y1AqkvC0eSc"
+        },
+        {
+          "name": "斷崖辨識",
+          "en": "How To Identify Cliffs On A Map",
+          "kind": "theory",
+          "target": "斷崖、等高線密集",
+          "title": "How To Identify Cliffs On A Map",
+          "channel": "onX Hunt",
+          "url": "https://www.youtube.com/watch?v=Xi2Ij0jlW68"
+        },
+        {
+          "name": "山谷山脊斷崖混淆點快速釐清",
+          "kind": "pitfall",
+          "target": "山谷、山脊、斷崖、沖積扇",
+          "title": "分不清山谷還是山脊？原來等高線這樣判斷！",
+          "channel": "龍騰地理",
+          "url": "https://www.youtube.com/watch?v=hW1kH31Ht3c"
+        },
+        {
+          "name": "地形特徵辨識任務完整示範",
+          "en": "071-COM-1001 Identify Terrain Features on a Map",
+          "kind": "walkthrough",
+          "target": "凹溝、凸稜、斷崖、切方、填方",
+          "title": "SPC Clarke, C - 071-COM-1001 Identify Terrain Features on a Map (BLC)",
+          "channel": "Carey Clarke",
+          "url": "https://www.youtube.com/watch?v=3_Q6MIVKf2k"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "由圖到地：地貌對照實作",
+      "type": "field",
+      "assessment": "帶著地圖走到看得見至少兩個山頭的高地或稜線附近，不先看GPS，在地圖上圈出你認為自己所在的位置，再抬頭比對眼前天際線的起伏（峰、鞍、谷的高低順序）與地圖等高線畫出的稜線輪廓是否吻合。至少辨認3個看得到的地貌特徵（例如兩山頭中間的鞍部、腳下的山谷）並在地圖上指出對應位置，3個全對才算通過。之後用GPS或已知地標核對實際位置，誤差在100公尺內視為地貌對照成功；若持續對不上，檢查是不是把兩條相鄰的山脊誤認成同一條，這是地貌對照最常見的錯誤。這也是它比純航位推算更能自我糾錯的原因：看得到天際線就能隨時核對，不像航位推算要一路累積誤差走完全程才發現走錯。",
+      "lesson": {
+        "title": "An Intro to Terrain Association vs Dead Reckoning - Land Navigation Essentials",
+        "channel": "STOKERMATIC",
+        "url": "https://www.youtube.com/watch?v=Xw7qxEUZjGw",
+        "lang": "en",
+        "why": "直接對比地貌對照與航位推算兩種導航法的優缺點，說明地貌對照因為能不斷用眼前地形核對位置而比航位推算更能容錯，是本單元「為什麼地貌對照比純航位推算耐錯」的正面來源，而不是只教操作步驟。"
+      },
+      "drills": [
+        {
+          "name": "地貌對照技巧養成",
+          "en": "Terrain Association: How to Learn this Vital Land Nav Skill",
+          "kind": "theory",
+          "target": "地貌對照、天際線判讀",
+          "title": "Terrain Association: How to Learn this Vital Land Nav Skill",
+          "channel": "TREX LABS",
+          "url": "https://www.youtube.com/watch?v=leIKYS3egI4"
+        },
+        {
+          "name": "地圖與地形實地對照示範",
+          "en": "US Military Basic Land Navigation (Part 1.2)",
+          "kind": "walkthrough",
+          "target": "地圖地形對照、地貌對照",
+          "title": "US Military Basic Land Navigation (Part 1.2) - Topographical Maps and Land/Map Association",
+          "channel": "SF Actual",
+          "url": "https://www.youtube.com/watch?v=eePmfuzDODg"
+        },
+        {
+          "name": "辨向步行實作示範",
+          "kind": "walkthrough",
+          "target": "辨向步行、地貌對照",
+          "title": "071-COM-1006 辨識方向，從一點步行至另一點",
+          "channel": "社團法人台灣民團協會課務組",
+          "url": "https://www.youtube.com/watch?v=gpUBsX8E3RM"
+        },
+        {
+          "name": "指南針前進方位應用",
+          "kind": "practice",
+          "target": "前進方位、地貌對照",
+          "title": "指南針前進方位應用",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=YMDPJAY_EnE"
+        }
+      ]
+    }
+  ]
+}

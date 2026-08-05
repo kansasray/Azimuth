@@ -1,0 +1,210 @@
+{
+  "chapter": "CH6",
+  "title": "距離判斷與測量",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "步幅計步與計步珠",
+      "type": "field",
+      "assessment": "先在已知的平坦 100 公尺路段(操場跑道或事先量過的直路)正常步伐往返走三趟,只算慣用腳落地次數,三趟讀數的最大差若超過 3 步,代表步伐不穩,加走兩趟取五趟平均當作平地基準。記下基準後依經驗法則做修正:持續上坡步數比平地基準多加 10%(例如平地 65 步、上坡抓 72 步)、負重超過 15 公斤加 5%、夜間或濃密植被再加 10–15%。實際驗證時背平常的裝備,在天黑後走一段已知距離的步道,用戰術計步珠記錄(每 9 下下珠翻一次上珠代表 100 公尺一輪),抵達後用下珠數乘以單輪距離、再套用當下的修正係數,若與地圖量出的實際距離誤差超過 10%,代表基準或修正係數需要重新校正,不是走錯路。",
+      "lesson": {
+        "title": "Pace Counting Basics",
+        "channel": "David Canterbury",
+        "url": "https://www.youtube.com/watch?v=NnVNNgyOUCU",
+        "lang": "en",
+        "why": "David Canterbury 的「10 Min to Better Land Navigation」系列以步幅計步開篇,把校準流程與計步珠搭配講得有條理,是中文供給幾乎空白的這個主題裡最系統的入門版本。"
+      },
+      "drills": [
+        {
+          "name": "標定個人基準步幅",
+          "en": "Calibrate Your Pace Count",
+          "kind": "practice",
+          "target": "已知距離、步幅基準、100公尺",
+          "title": "Discover Your Pace Count for Land Navigation",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=cxytD5_-rZw"
+        },
+        {
+          "name": "步幅計步與航位推算整合",
+          "en": "Pace Count & Dead Reckoning",
+          "kind": "theory",
+          "target": "航位推算、步幅計步、方位角",
+          "title": "Pace Counting and Dead Reckoning",
+          "channel": "David Canterbury",
+          "url": "https://www.youtube.com/watch?v=oqywD453Rgo"
+        },
+        {
+          "name": "自製戰術計步珠",
+          "en": "DIY Pace Count (Ranger) Beads",
+          "kind": "walkthrough",
+          "target": "戰術計步珠、九下四上、繩結",
+          "title": "How To Make Your Own Pace Count Beads for Land Navigation",
+          "channel": "ITS Tactical / Imminent Threat Solutions",
+          "url": "https://www.youtube.com/watch?v=4MEynCUua-0"
+        },
+        {
+          "name": "計步珠實地操作",
+          "en": "Ranger Beads Field Use",
+          "kind": "walkthrough",
+          "target": "戰術計步珠、步幅計步、下珠",
+          "title": "How to Ranger Beads and Pace Count Land Nav Tips  | Green Beret",
+          "channel": "FNG ACADEMY",
+          "url": "https://www.youtube.com/watch?v=KxnXZg15BWg"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "地圖上的距離量測",
+      "type": "skill",
+      "assessment": "在地圖上選一段你認得現地實際長度的直線路段(例如兩個路口間量過的產業道路),先用比例尺條或直尺量出圖上長度換算成實際距離,和已知數字的誤差若超過 5%,代表比例尺讀取或位置判讀有問題,重新對齊圖廓的比例尺條再量一次。接著換一段彎曲的步道,用細繩沿路徑貼齊後拉直量長,或用測距儀(map measurer)沿路徑滾過,兩種方法量出的距離互相比對,差距應在 3% 以內,超過表示繩子沒貼齊彎道或測距儀輪子打滑。最後檢查坡度效應:若這段路的等高線顯示爬升超過 100 公尺,圖上量出的水平距離要再加 5–10% 的坡度修正才會接近實際走的距離,忘記加這一步是新手最常低估路程時間的原因。",
+      "lesson": {
+        "title": "地圖閱讀量度距離",
+        "channel": "寂靜的戶外活動大本營",
+        "url": "https://www.youtube.com/watch?v=VI3vZdHBEcw",
+        "lang": "zh",
+        "why": "少數以中文、戶外語境講地圖量距的教學,直接示範比例尺條操作,補足這個主題中文供給最弱的缺口;測距儀與坡度修正等其餘工具再靠英文影片補齊。"
+      },
+      "drills": [
+        {
+          "name": "比例尺條量直線距離",
+          "en": "Map Scale Bar for Straight-Line Distance",
+          "kind": "walkthrough",
+          "target": "比例尺條、圖上距離、直尺",
+          "title": "How to use a Map Scale to Measure Linear Distance",
+          "channel": "Mr Gedge's Geography Channel",
+          "url": "https://www.youtube.com/watch?v=y6ewBk__Lg8"
+        },
+        {
+          "name": "紙條量彎曲路徑距離",
+          "en": "Paper-Strip Method for Curved Routes",
+          "kind": "practice",
+          "target": "紙條、比例尺、彎曲路徑",
+          "title": "Demo - Measuring Distance on a Map Using Scale",
+          "channel": "Megan Bailey",
+          "url": "https://www.youtube.com/watch?v=ZEWH58yMsAQ"
+        },
+        {
+          "name": "測距儀滾輪操作",
+          "en": "Map Measurer (Curvimeter) Operation",
+          "kind": "walkthrough",
+          "target": "測距儀、滾輪、地圖比例",
+          "title": "Plott Carta Measuring Wheel Features & Basic Operation",
+          "channel": "Ewing Outdoor Supply",
+          "url": "https://www.youtube.com/watch?v=5I6tfjEkVC0"
+        },
+        {
+          "name": "圖上距離與坡度誤差",
+          "en": "Map Distance vs Slope Distance",
+          "kind": "pitfall",
+          "target": "水平距離、坡度修正、等高線",
+          "title": "Topo Maps Part 5: Calculating Horizontal Distance and Slope",
+          "channel": "dogofthedesert",
+          "url": "https://www.youtube.com/watch?v=SFg7hxhFBNg"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "目視距離判斷",
+      "type": "skill",
+      "assessment": "找三個你事先量好實際距離的定點(例如 100、300、600 公尺處的明顯地標),站在起點只用眼睛估測到各點的距離,寫下數字後才用地圖或已知資料核對。100 公尺處的估測誤差應在 10% 以內(約 ±10 公尺),300 公尺處誤差在 15% 以內,600 公尺處誤差在 20% 以內。距離越遠、能看清的細節越少,允許的誤差本來就該放寬。如果誤差比這個範圍大很多,回頭練習可見細節判斷法:能看清人臉輪廓約在 100 公尺內、能分辨手腳動作約在 200–300公尺、只看得出人形輪廓約在 400–500 公尺。同時注意光線與地形的系統性偏差:逆光、上坡看目標、或視野中沒有中間參照物(例如隔著一片水面或空曠原野)都會讓你把距離低估,晴天順光或有連續參照物則容易高估。同一個目標在不同時段重測一次,兩次估測差超過 20% 就代表被光線或地形騙了。",
+      "lesson": {
+        "title": "Solo Overnight Using Estimation by Eye and the Appearance of Objects to Accurately Guess Distances",
+        "channel": "Corporals Corner",
+        "url": "https://www.youtube.com/watch?v=RQPSuVhjnwQ",
+        "lang": "en",
+        "why": "直接在真實野外環境示範 appearance-of-objects 估距法,一邊走一邊講解判斷依據,而不是課堂條列原則,比純講理論的影片更貼近實作。"
+      },
+      "drills": [
+        {
+          "name": "目視估距三法:眼估、步測、計時",
+          "en": "Eye, Pacing & Timing Estimation",
+          "kind": "theory",
+          "target": "目視估距、步測、計時法",
+          "title": "ACF Navigation: Ispec 7 - Estimating distance on the ground using eye, pacing and timing.",
+          "channel": "Cadet Books",
+          "url": "https://www.youtube.com/watch?v=S_nvpSAeOjA"
+        },
+        {
+          "name": "地形中的視覺估距示範",
+          "en": "Visual Range Estimation in Terrain",
+          "kind": "walkthrough",
+          "target": "可見細節、地形判斷、視覺估距",
+          "title": "Long Range 101 Part 81 - Ranging the Target - Visual Estimation Techniques HD",
+          "channel": "TiborasaurusRex",
+          "url": "https://www.youtube.com/watch?v=K_YpR8i0gEI"
+        },
+        {
+          "name": "快速估距口訣練習",
+          "en": "Quick Range Estimation Drill",
+          "kind": "practice",
+          "target": "已知物體、快速估距、驗證",
+          "title": "Range estimation: be deadly accurate in 3 minutes",
+          "channel": "299 Scouts (‪299 Scouts‬)",
+          "url": "https://www.youtube.com/watch?v=8l7tzL6Mfi8"
+        },
+        {
+          "name": "常見估距誤判與修正",
+          "en": "Common Range Judging Errors",
+          "kind": "pitfall",
+          "target": "逆光、地形起伏、系統性高估低估",
+          "title": "Delta Force Operator Reveals How To Judge Distance",
+          "channel": "BattleBites",
+          "url": "https://www.youtube.com/watch?v=hyvo-jLKMu4"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u4",
+      "name": "密位公式與測距卡",
+      "type": "skill",
+      "assessment": "用密位公式 W(公尺)= R(公里)× m(密位)反過來驗證:找一個你已經知道實際寬度的物體(例如車道兩線距約 3.5 公尺、成人肩寬約 0.5 公尺),用指北針或光學鏡的密位刻度量出它張角的密位數,代入公式反推距離,和你用地圖或步測量出的實際距離比較,誤差若超過 10% 通常是密位讀數手抖或物體寬度估錯,不是公式算錯。換算時記得單位:密位公式以公里為距離單位、公尺為寬度單位,常見算錯的地方是把公里當公尺代入,結果差了 1000 倍卻沒發現數字不合理。最後用測距卡(range card)交叉核對:把同一個物體的密位讀數對到卡片對應的距離刻度,兩種方法讀出的距離差距若在 200 公尺以內就算通過,超過表示密位讀取角度不穩,重新讀三次取中位數再比對。",
+      "lesson": {
+        "title": "Mil Dot Range Estimation Formula: Learn how to Calculate Distance with MILs | Ryan Cleckner",
+        "channel": "NSSF—The Firearm Industry Trade Association",
+        "url": "https://www.youtube.com/watch?v=LeG1JanVmEE",
+        "lang": "en",
+        "why": "由退役狙擊教官親自講解密位公式(W=R×m)的推導與常見算錯之處,權威性與教學密度在同類影片中最高,適合作為公式類單元的骨幹。"
+      },
+      "drills": [
+        {
+          "name": "密位公式第二視角",
+          "en": "Mil Relation Formula (Alt. Explanation)",
+          "kind": "theory",
+          "target": "密位公式、W=R×m、單位換算",
+          "title": "Mil relation Formula",
+          "channel": "DoubleTapLLC",
+          "url": "https://www.youtube.com/watch?v=D4WBR7hc8zQ"
+        },
+        {
+          "name": "用密位刻度反推距離",
+          "en": "Ranging Targets with Mil-Dots",
+          "kind": "walkthrough",
+          "target": "密位刻度、光學鏡、反推距離",
+          "title": "Long Range 101 Part 84 - How Mil-Dots are Used for Ranging Targets",
+          "channel": "TiborasaurusRex",
+          "url": "https://www.youtube.com/watch?v=l-WNofGasFo"
+        },
+        {
+          "name": "密位公式實算練習",
+          "en": "Mil-Dot Math Practice",
+          "kind": "practice",
+          "target": "密位公式、實算範例、驗算",
+          "title": "Ranging with Mil Dots: Math for Long Range Shooting",
+          "channel": "InnerBark Outdoors",
+          "url": "https://www.youtube.com/watch?v=tEXBh1n4o0A"
+        },
+        {
+          "name": "測距卡工具操作",
+          "en": "Ranging Card / Mildot Master Tool",
+          "kind": "walkthrough",
+          "target": "測距卡、密位換算尺、免心算",
+          "title": "Long Range 101 Part 95 - MILDOT MASTER Tutorial and Review",
+          "channel": "TiborasaurusRex",
+          "url": "https://www.youtube.com/watch?v=XNxpVBq0kng"
+        }
+      ]
+    }
+  ]
+}

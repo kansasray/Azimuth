@@ -1,0 +1,159 @@
+{
+  "chapter": "CH9",
+  "title": "夜間與惡劣條件導航",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "夜間指北針操作",
+      "type": "field",
+      "assessment": "天黑後不開任何手電筒,只靠稜鏡式指北針的夜光點操作:先摸出刻度環上的喀答聲(多數美軍稜鏡式指北針每格 3 度、一圈 120 格),盲摸轉出一個你已用白天量過的已知方位角(例如 270 度即摸 90 格喀答聲),摸完才開紅光手電筒核對讀數。誤差超過 6 度(相當於摸錯 2 格喀答聲以上),代表你摸格數算錯或起始零位沒有先對齊,要重摸到誤差穩定在 3 度以內才算過關。接著測紅光與白光的差別:先用白光看地圖 30 秒後熄燈,計時到你能重新辨識掌心手指輪廓所需的秒數;換紅光看地圖再熄燈,同樣計時。若紅光後的恢復時間比白光後快 5 倍以上(白光通常要 20 分鐘以上、紅光只要數秒到 1 分鐘),代表濾片確實擋掉了會破壞夜視的藍光段;若兩者恢復時間接近,代表濾片只是染色玻璃紙擋不住有效波長,要換整片式紅光濾鏡而不是紅色玻璃紙貼片。",
+      "lesson": {
+        "title": "How to use a compass at night - Land Nav Tips",
+        "channel": "STOKERMATIC",
+        "url": "https://www.youtube.com/watch?v=-Fkx5gDvB8A",
+        "lang": "en",
+        "why": "STOKERMATIC 是美軍陸地導航訓練圈的旗艦頻道,這支影片專講夜間如何操作稜鏡式指北針(不開燈校準、讀取喀答聲刻度),對應 TC 3-25.26 有關夜間導航裝備操作的章節,是這個主題目前找得到最直接對應的教學,中文完全沒有對應內容。"
+      },
+      "drills": [
+        {
+          "name": "夜光刻度與喀答定位",
+          "en": "Luminous Dial & Bezel Click-Stops",
+          "kind": "walkthrough",
+          "target": "稜鏡式指北針、夜光點、刻度環喀答聲",
+          "title": "Night time navigation with the Military Lensatic Compass",
+          "channel": "Mike Martinez",
+          "url": "https://www.youtube.com/watch?v=tKy8n-mMTx8"
+        },
+        {
+          "name": "不開燈預校方位角",
+          "en": "Presetting an Azimuth Without Light",
+          "kind": "practice",
+          "target": "預校方位角、盲摸操作、稜鏡式指北針",
+          "title": "How to Preset Your Lensatic Compass - 2 minute survival hack",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=j7FAvMC1aDQ"
+        },
+        {
+          "name": "紅光與白光對夜視的影響",
+          "en": "Red Light vs White Light Effect on Night Vision",
+          "kind": "theory",
+          "target": "紅光濾鏡、夜視恢復、判圖照明",
+          "title": "Using White, Blue, Green or Red Light during nightops",
+          "channel": "Instructor White",
+          "url": "https://www.youtube.com/watch?v=4ZTeFZdXQDI"
+        },
+        {
+          "name": "夜視鏡下判圖的限制",
+          "en": "Map Reading Limitations Under Night Vision Goggles",
+          "kind": "pitfall",
+          "target": "PVS-14、夜視鏡、地圖判讀限制",
+          "title": "Land Navigation w/ Night Vision (POV PVS-14)! Garmin Foretrex 901 801",
+          "channel": "Don’t Do Daylight",
+          "url": "https://www.youtube.com/watch?v=fAJf9tZOBxw"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "夜間與低能見度的移動",
+      "type": "field",
+      "assessment": "在你熟悉的平地路段(白天已量過真實距離,例如 200 公尺)太陽下山後重新測一次個人步幅:正常步伐走完全程,只算慣用腳落地次數,和白天基準比較。多數人夜間步數會比白天基準多 5-10%,因為步伐變短、繞避看不清的障礙物次數變多;若夜間步數比白天基準多超過 15%,代表你走得太謹慎或路線繞了遠路,要重新確認方向而不是照抄白天的換算係數。接著找三名同伴排成一路縱隊夜間行進 300 公尺,全程只用紅光或不開燈,靠口令與觸摸前一人背包確認間距,抵達後量測隊伍拉開的總長度與該路段實際距離的偏差;若最後一人偏離預定方位角超過 10 度,或隊伍中段有人跟丟超過 20 秒才追上,代表口令間隔太長或摸黑跟隊距離抓太遠(超過一隻手臂)。最後在起霧或飄雨的天候下,把行進距離切成每 50 公尺一段、每段到點就停下核對指北針與步數,如果連續兩段都要靠摸地物才能確認位置,代表能見度已經低到該縮短分段距離,不是硬撐原本的配速。",
+      "lesson": {
+        "title": "Night navigation with map and compass",
+        "channel": "The Map Reading Company",
+        "url": "https://www.youtube.com/watch?v=2hI9Hqqc1Uc",
+        "lang": "en",
+        "why": "The Map Reading Company 把地圖與指北針的夜間協同操作講得完整,不是只談單一工具,涵蓋夜間移動時如何持續核對位置,適合當這個單元的骨幹;中文搜尋這個主題幾乎全是車用/船舶導航機,英文是唯一有深度的供給來源。"
+      },
+      "drills": [
+        {
+          "name": "夜間步幅重新標定",
+          "en": "Recalibrating Pace Count at Night",
+          "kind": "theory",
+          "target": "步幅計步、夜間校正、距離感失真",
+          "title": "Land Navigation Harder at Night? | Former Green Beret",
+          "channel": "FNG ACADEMY",
+          "url": "https://www.youtube.com/watch?v=xqLEGc7Em3A"
+        },
+        {
+          "name": "官方夜間陸地導航訓練實錄",
+          "en": "Official Night Land Navigation Training",
+          "kind": "walkthrough",
+          "target": "夜間陸地導航、距離判斷、官方訓練紀錄",
+          "title": "BWC 2013 - Night Land Navigation,  No Easy Task",
+          "channel": "U.S. Army Reserve",
+          "url": "https://www.youtube.com/watch?v=vzflE0VaM4Y"
+        },
+        {
+          "name": "夜間隊形跟隨與方向維持",
+          "en": "Night Formation Movement & Direction Keeping",
+          "kind": "walkthrough",
+          "target": "縱隊行進、口令管制、方向維持",
+          "title": "INFANTRYMAN'S GUIDE: Basic Night Operations",
+          "channel": "Brent0331",
+          "url": "https://www.youtube.com/watch?v=bZvFEwD8vjA"
+        },
+        {
+          "name": "濃霧與低能見度的行進處置",
+          "en": "Movement Procedures in Fog & Low Visibility",
+          "kind": "pitfall",
+          "target": "濃霧、低能見度、分段核對",
+          "title": "The Alpkit Survival Guide | How to Navigate in Poor Visibility with the Edale Mountain Rescue",
+          "channel": "Alpkit",
+          "url": "https://www.youtube.com/watch?v=CiYYN5FBEds"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u3",
+      "name": "自然指向與備援判向",
+      "type": "skill",
+      "assessment": "找一個晴朗無月光污染的夜晚,先用指北針量出正北方位角當作答案,再用北極星(北半球)或南十字星延伸交會法(南半球)目視估出北或南方,估完才核對指北針讀數。北極星法估出的方位通常誤差在 1 度以內(北極星本身離天球北極只差不到 1 度,是所有星象定向法裡最準的);南十字星交會法的誤差則常在 5-10 度,因為要靠兩顆參考星目測延伸比例,手感每次不同。白天則找一根 1 公尺長的直桿垂直插在平地上,標記桿影頂點,等 15-20 分鐘影子明顯移動後標記第二點,兩點連線東西向、垂直方向即南北。這個日影法的誤差通常在 10-15 度,比指北針差了一個數量級,只能用來判斷大概方向、不能拿來走精確方位角。月相定向法誤差更大,滿月前後可粗估到 20-30 度,上下弦月時誤差可能超過 45 度,幾乎只能分辨「大概哪一側」。這三種方法的共同教訓是:天候或地形一旦擋住星空月光就完全失效,實務上只當指北針故障或遺失時的最後備援,平常訓練時每次都要跟指北針讀數核對誤差多少,才知道這套本事在關鍵時刻能信到什麼程度。",
+      "lesson": {
+        "title": "Navigation without a compass or map",
+        "channel": "Coalcracker Bushcraft",
+        "url": "https://www.youtube.com/watch?v=pdKjCQ_Jm9Q",
+        "lang": "en",
+        "why": "Coalcracker Bushcraft 這支影片把星象、日影等多種免用指北針的定向法整理成一支完整教學,對應 TC 3-25.26 附錄裡列出的應急定向法,適合當這個單元先建立「有哪些備援選項」的總覽,再由 drills 分別深入每一種方法的精度與限制;中文在這個子題幾乎完全找不到對應內容。"
+      },
+      "drills": [
+        {
+          "name": "北極星定北",
+          "en": "Finding North with Polaris",
+          "kind": "theory",
+          "target": "北極星、大熊座、天球北極",
+          "title": "Find North using the Stars - Ursa Major/Polaris - Navigation without a Compass",
+          "channel": "AlfieAesthetics",
+          "url": "https://www.youtube.com/watch?v=7DjJ3r4XG0E"
+        },
+        {
+          "name": "南十字星定南",
+          "en": "Finding South with the Southern Cross",
+          "kind": "theory",
+          "target": "南十字星、指極星、南半球定向",
+          "title": "How to Find South with the Southern Cross",
+          "channel": "Lotsafreshair",
+          "url": "https://www.youtube.com/watch?v=kRlCbrl9dgw"
+        },
+        {
+          "name": "日影法定向",
+          "en": "Shadow-Stick Method",
+          "kind": "practice",
+          "target": "直桿、影子移動、東西向連線",
+          "title": "Shadow Stick Method for Finding Direction",
+          "channel": "SensiblePrepper",
+          "url": "https://www.youtube.com/watch?v=A6McnNPHJIA"
+        },
+        {
+          "name": "月相定向法",
+          "en": "Moon-Phase Direction Finding",
+          "kind": "theory",
+          "target": "月相、上下弦月、粗估方向",
+          "title": "Find North with the Moon - Full Moons - Natural Navigation (Northern Hemisphere)",
+          "channel": "AlfieAesthetics",
+          "url": "https://www.youtube.com/watch?v=oEWPDQ91jlM"
+        }
+      ]
+    }
+  ]
+}

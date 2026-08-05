@@ -1,0 +1,160 @@
+{
+  "chapter": "CH8",
+  "title": "交會定位",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "後方交會",
+      "type": "field",
+      "assessment": "在地圖上任選一個你能實際站上去的已知點,走到現場。選三個在地圖上找得到、彼此方位角相差最好接近 120 度、至少相差 45 度以上的明顯地標,分別用指北針取方位角,各自換算成反方位角(反方位角=方位角±180度,超過360度就減360、小於0度就加360),在圖上從三個地標各畫一條反方位角方向的直線。三條線應該收斂成一個小三角形(誤差三角形),邊長若小於 100 公尺算合格;超過 100 公尺,通常是某條方位角讀錯了 10 度以上,或挑的地標之間夾角太小(小於 30 度)。只用兩個地標時無法自我檢查對錯,因為兩條線永遠只交於一點、不管讀數準不準。這正是後方交會要取三條線而非兩條的原因,第三條線是用來驗證前兩條的。",
+      "lesson": {
+        "title": "071-COM-1015 以後方交會法，定位出地圖上的未知點",
+        "channel": "社團法人台灣民團協會課務組",
+        "url": "https://www.youtube.com/watch?v=an_ZLB623A8",
+        "lang": "zh",
+        "why": "以美軍 SMCT 071-COM 任務編號逐步示範後方交會的完整流程(選點、取方位角、轉繪反方位角、畫線定位),是本主題中文供給最完整的頻道,任務導向的教學框架直接對應『我在哪裡』這個問題的實務需求。"
+      },
+      "drills": [
+        {
+          "name": "後方交會法(學術課堂版)",
+          "en": "Resection — Classroom Lecture",
+          "kind": "theory",
+          "target": "後方交會法、反方位角、圖上作業",
+          "title": "地圖量測與判讀-後方交會法",
+          "channel": "光復中學 洪敏勝教師",
+          "url": "https://www.youtube.com/watch?v=Nn7XE_G17DI"
+        },
+        {
+          "name": "後方交會的定義與適用時機",
+          "en": "What Resection Is and When to Use It",
+          "kind": "theory",
+          "target": "resection、已知地物、地圖定位",
+          "title": "Resection / Land Navigation Techniques",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=DPKX0gfwka8"
+        },
+        {
+          "name": "美軍步驟化示範:定向地圖、選點、標記",
+          "en": "US Army Step-by-Step Resection Procedure",
+          "kind": "walkthrough",
+          "target": "定向地圖、明顯地標、標定方位角",
+          "title": "P8: Resection and Military Maps",
+          "channel": "3BCT 82ND Public Affairs",
+          "url": "https://www.youtube.com/watch?v=JWS73MrtN-g"
+        },
+        {
+          "name": "後方交會失手的常見場景",
+          "en": "Why Resection Can Save You (or Fail You)",
+          "kind": "pitfall",
+          "target": "地標誤判、緊急定位、後方交會",
+          "title": "This Land Nav Skill Could Save You",
+          "channel": "BL RANCH",
+          "url": "https://www.youtube.com/watch?v=15KmRWRdDMI"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "前方交會",
+      "type": "skill",
+      "assessment": "找兩個相距至少 200 公尺、都能看到同一個遠方目標(例如一根電線桿或明顯地形轉角)的已知點,分別在兩點對目標取方位角、轉繪在地圖上畫線,兩條線的交點就是目標位置。用地圖上量出的實際目標座標核對:交點與真實座標的誤差若小於 50 公尺算合格。誤差超過 50 公尺,常見原因是兩個觀測點對目標的夾角太小(視線幾乎平行,交角小於 20 度時誤差會被放大好幾倍)、或其中一次方位角轉繪成圖上方位角時忘記加減磁偏角。前方交會的判準跟後方交會相反:後方交會是『我不知道自己在哪、但知道要瞄準的東西在哪』,前方交會是『我知道自己在哪、但不知道遠方那個東西在哪』。實務上常用在通報敵情位置或標定目標座標,兩個觀測哨各自回報方位角,由指揮所在圖上畫線交會出目標點。",
+      "lesson": {
+        "title": "071-COM-1014 以前方交會法，定位地面上的未知點",
+        "channel": "社團法人台灣民團協會課務組",
+        "url": "https://www.youtube.com/watch?v=2yqp4JvwCo8",
+        "lang": "zh",
+        "why": "與後方交會同一系列、同一任務編號架構,示範反過來的操作:知道自己在哪,對遠方目標取方位角,兩個已知點的方位角線交會出目標位置,是前方交會在中文裡少見的完整任務式教學。"
+      },
+      "drills": [
+        {
+          "name": "前方交會的坐標計算",
+          "en": "Intersection — Coordinate Calculation",
+          "kind": "theory",
+          "target": "前方交會、坐標計算、正弦定理",
+          "title": "測量學027-前方交會法及坐標計算(附CC字幕)",
+          "channel": "wayne Huang",
+          "url": "https://www.youtube.com/watch?v=Ty6L0anCgDU"
+        },
+        {
+          "name": "前方交會與後方交會的差異",
+          "en": "Resection vs Intersection — The Difference",
+          "kind": "theory",
+          "target": "intersection、resection、觀測站",
+          "title": "Resection and Intersection",
+          "channel": "Back Pack Hack",
+          "url": "https://www.youtube.com/watch?v=U66x3FmSGM4"
+        },
+        {
+          "name": "前方交會實地示範",
+          "en": "Intersection Field Demonstration",
+          "kind": "walkthrough",
+          "target": "兩觀測點、方位角回報、圖上交會",
+          "title": "Intersection and Resection",
+          "channel": "RangerKSchool",
+          "url": "https://www.youtube.com/watch?v=8C0tfsb2sLA"
+        },
+        {
+          "name": "前進觀測員如何用交會定位標定目標",
+          "en": "How Forward Observers Use Intersection to Fix Targets",
+          "kind": "theory",
+          "target": "前進觀測員、通報敵情、標定座標",
+          "title": "How Forward Observers Operate in the Military to Coordinate Artillery",
+          "channel": "Task & Purpose",
+          "url": "https://www.youtube.com/watch?v=ekhQTYEXd0o"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u3",
+      "name": "極座標定位與修正版交會",
+      "type": "skill",
+      "assessment": "從一個已知點,用指北針對某個看得到但地圖上找不到的目標取方位角,再用步幅計步或測距儀量出到目標的距離,把方位角換算成圖上方位角(加減磁偏角)後,用量角器在圖上畫出該方向、按比例尺量出距離定出目標點,這就是極座標定位(polar plot)。回頭用地圖或 GPS 核對,誤差應在距離的 10% 以內(例如量了 500 公尺,誤差要小於 50 公尺),超過的話多半是步幅或測距儀本身的系統誤差沒校正過。若你人正站在一條線形地物(道路、稜線、溪流)上,只需對一個已知地標取一條反方位角、與你所在的線形地物相交,交點就是你的位置,這是修正版交會法(modified resection),比標準後方交會少一個地標,但只能在確定自己站在該線形地物上時使用。地標選擇的共同原則:兩個以上地標之間的方位角夾角越接近 90 度,誤差三角形越小;夾角小於 30 度時兩條線幾乎重疊,交點對讀數誤差極度敏感,量出來的點可能偏移數百公尺仍看起來像收斂,這種地標組合能不選就不選。",
+      "lesson": {
+        "title": "測量學015-從已知點推算未知點坐標值(附CC字幕)",
+        "channel": "wayne Huang",
+        "url": "https://www.youtube.com/watch?v=fdGYJde8EDo",
+        "lang": "zh",
+        "why": "極座標定位的核心就是『從一個已知點,用方位角加距離算出未知點的座標』,這支測量學課程影片把推算邏輯講得比一般陸地導航教材扎實,補足陸軍教材通常只給操作步驟、不解釋原理的缺口。"
+      },
+      "drills": [
+        {
+          "name": "輔助(簡化)前方交會法",
+          "en": "Auxiliary / Modified Intersection Method",
+          "kind": "theory",
+          "target": "輔助前方交會、簡化作業、修正版交會",
+          "title": "測量學028-輔助前方交會法(附CC字幕)",
+          "channel": "wayne Huang",
+          "url": "https://www.youtube.com/watch?v=kXvC-LhqG10"
+        },
+        {
+          "name": "支距法與雙點定位(線形地物上的簡化交會)",
+          "en": "Offset Method & Two-Point Fix on Linear Features",
+          "kind": "theory",
+          "target": "支距法、雙點定位、線形地物",
+          "title": "測量五十講  C2. 坐標幾何、前方交會、側方交會、交弧法、支距法、雙點定位、後方交會、四點交會",
+          "channel": "HC",
+          "url": "https://www.youtube.com/watch?v=noowpcE2wBM"
+        },
+        {
+          "name": "修正版交會實地示範",
+          "en": "Modified Resection Demo",
+          "kind": "walkthrough",
+          "target": "modified resection、線形地物、單一地標",
+          "title": "Modified Resection Land Nav",
+          "channel": "Steve Balestrieri",
+          "url": "https://www.youtube.com/watch?v=zEnn3LffFwg"
+        },
+        {
+          "name": "地標夾角與誤差三角形",
+          "en": "Landmark Angle Spread and the Triangle of Error",
+          "kind": "pitfall",
+          "target": "地標夾角、誤差三角形、選點原則",
+          "title": null,
+          "channel": null,
+          "url": null,
+          "note": "查過 resection tips choosing landmarks compass bearing spread out、land navigation landmarks 90 degrees apart resection accuracy、resection common mistakes tips accuracy、後方交會 選點 夾角 誤差 精度 等中英關鍵字,YouTube 上找不到專門講『地標之間夾角太小會放大交會誤差』這個子題的獨立教學影片,搜到的多半是全站儀測量課程或一般後方/前方交會流程示範,沒有專門討論選點原則與夾角關係的內容。這個判準已經寫進本單元 assessment 的自我檢查項目(夾角小於 30 度時誤差對讀數極度敏感),不影響單元核心技能的可執行性,誠實留空。"
+        }
+      ]
+    }
+  ]
+}

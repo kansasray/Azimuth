@@ -1,0 +1,246 @@
+{
+  "chapter": "CH7",
+  "title": "陸地導航實作",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "航位推算",
+      "type": "field",
+      "assessment": "找一段至少500公尺、你事先在圖上量好方位角與距離的直線路徑，只靠指北針方位角與計步珠計數走完，中途不看地圖、不刻意核對明顯地標。走到自己判斷的終點才停下確認實際位置：偏移在直線距離的10%以內（500公尺路徑約50公尺內）算過關；超過10%，先查計步珠是不是漏撥一輪整數（100步一顆的計步珠最容易在整百步處漏算），再查指北針讀數有沒有被坡度傾斜或身上金屬物干擾。連續三段不同地形都超過15%，就代表這段地形不適合硬撐航位推算，該換地貌對照或提早找明顯地標重新定位，而不是繼續累積誤差走下去。",
+      "lesson": {
+        "title": "Dead Reckoning Techniques | Intermediate Land Navigation",
+        "channel": "Civilian Rifleman",
+        "url": "https://www.youtube.com/watch?v=3mRut4k9XKE",
+        "lang": "en",
+        "why": "Civilian Rifleman 陸地導航進階系列裡專講航位推算的一集，把前面章節學過的方位角行進與步幅計數直接組成一套可執行的流程，而不是分開講，適合當本單元把技能兜起來的第一支。"
+      },
+      "drills": [
+        {
+          "name": "航位推算原理精簡版",
+          "en": "Dead Reckoning for Land Navigation",
+          "kind": "theory",
+          "target": "方位角、步幅計數、誤差來源",
+          "title": "Dead Reckoning  for Land Navigation",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=2RzOgUjDZ4Y"
+        },
+        {
+          "name": "用計步珠追蹤航位推算距離",
+          "kind": "walkthrough",
+          "target": "計步珠、距離追蹤、誤差累積",
+          "title": "Land Navigation - Dead Reckoning w/ Pace Beads",
+          "channel": "Raven Wilderness School",
+          "url": "https://www.youtube.com/watch?v=x8Uvn2s3Gxs"
+        },
+        {
+          "name": "打方位角、走距離、找到點位實作",
+          "kind": "practice",
+          "target": "方位角測定、步行距離、點位核對",
+          "title": "Land Navigation Course 4: Shooting azimuths, walking distances, and finding points.",
+          "channel": "Calculated Survival",
+          "url": "https://www.youtube.com/watch?v=fP_kzbbQTuM"
+        },
+        {
+          "name": "軍事考核陸地導航科目常見失誤",
+          "kind": "pitfall",
+          "target": "常見錯誤、時間壓力、誤差累積",
+          "title": "Land Navigation Tips for Passing SFAS, SMU, Ranger School, SFQC, Star Course, EIB, ESB and More",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=tCb4OYruDyc"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "地貌對照",
+      "type": "field",
+      "assessment": "選一段清楚可辨的地形路線（例如沿稜線、跨過兩個明顯山鞍），出發前先在圖上標記三個預期會經過的地形特徵（如山頭、鞍部、溪谷交會），行進時只靠眼前地貌與圖上等高線對照確認位置，不量方位角、不算步數。抵達每個預期特徵時停下核對：三個都判斷在合理誤差內（同一個地貌單元，如同一段稜線或同一個山頭）算過關。若有兩個以上判斷錯誤，通常是把等高線疏密念反（疏代表緩坡、密代表陡坡），或把稜線與溪谷搞混:稜線兩側等高線凸向低處、溪谷兩側等高線凸向高處。地形起伏平緩、地貌特徵稀少的地區（如大片平坦林地），地貌對照會失靈，這時該換回航位推算，不要硬找不存在的地標。",
+      "lesson": {
+        "title": "Terrain Association & Map Reading",
+        "channel": "STOKERMATIC",
+        "url": "https://www.youtube.com/watch?v=xHZD9_6gz6c",
+        "lang": "en",
+        "why": "STOKERMATIC 專講靠地形本身導航而非死盯方位角與步數，示範怎麼把圖上等高線、山脊、溪谷跟眼前地貌對上，是本單元「不靠角度與步數走」核心概念的直接示範。"
+      },
+      "drills": [
+        {
+          "name": "依地形地貌判斷自身位置",
+          "en": "Terrain association positioning",
+          "kind": "walkthrough",
+          "target": "地貌辨識、地圖方位、任務式教學",
+          "title": "071-COM-1012 根據地形地貌，定位地圖方位",
+          "channel": "社團法人台灣民團協會課務組",
+          "url": "https://www.youtube.com/watch?v=CQ_fl0_qL-k"
+        },
+        {
+          "name": "判讀軍用地圖上的地形特徵",
+          "kind": "theory",
+          "target": "地形特徵、軍用地圖、SMCT",
+          "title": "SMCT Identify Terrain Features on a Military Map",
+          "channel": "Delta Company RSP, Iowa National Guard",
+          "url": "https://www.youtube.com/watch?v=clTQorEIvDg"
+        },
+        {
+          "name": "靠地貌對照確定地面位置",
+          "kind": "practice",
+          "target": "地貌對照、位置判定",
+          "title": "SMCT Determine a Location on the Ground by Terrain Association",
+          "channel": "Delta Company RSP, Iowa National Guard",
+          "url": "https://www.youtube.com/watch?v=4qzCPjVij8o"
+        },
+        {
+          "name": "地貌對照入門總覽",
+          "kind": "theory",
+          "target": "地貌對照、地圖判讀",
+          "title": "Land Navigation 3 -  Intro to Terrain Association",
+          "channel": "AlwaysEndeavor",
+          "url": "https://www.youtube.com/watch?v=_Tq0kQgf1oE"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u3",
+      "name": "攔截線、導向點與攻擊點",
+      "type": "skill",
+      "assessment": "在地圖上規劃一段路線，依序標出至少一條可以沿走的線形地物（handrail，如道路、溪流、稜線）、一個走過頭就會撞上的攔截物（catching feature/backstop，通常選在目標之後、與行進方向大致垂直的明顯地物），以及最後準備換成短距離精確接近的攻擊點（attack point，離目標通常在100-300公尺內的明確地標）。實際依規劃行進後自我檢查：有沒有真的沿著handrail走而不是憑感覺抄近路；有沒有在抵達catching feature前就先確認自己還沒走過頭；從attack point到目標的最後一段，方位角與步數是否事先算好而不是臨場亂猜。三項有任一項是抵達目標後才想起來該做，就代表規劃時漏掉了，不是執行出問題。",
+      "lesson": {
+        "title": "Become a pro navigator by using Handrails, check points, Attack points and catching features",
+        "channel": "Discover Dartmoor",
+        "url": "https://www.youtube.com/watch?v=xv-i6r8NenU",
+        "lang": "en",
+        "why": "同一支影片把 handrail、catching feature/backstop、attack point 三個概念放進同一趟真實路線裡串起來講，比分開三支各講一個概念更能呈現它們在實務上怎麼組合使用，適合當本單元的總覽主片。"
+      },
+      "drills": [
+        {
+          "name": "沿線形地物走的攔截線技巧",
+          "en": "Using handrails",
+          "kind": "theory",
+          "target": "handrail、線形地物、方向確認",
+          "title": "Using Handrails in Navigation",
+          "channel": "Back Pack Hack",
+          "url": "https://www.youtube.com/watch?v=ttl5EYNU_dI"
+        },
+        {
+          "name": "設定走過頭會撞到的攔截物",
+          "en": "Catching features",
+          "kind": "theory",
+          "target": "catching feature、backstop、超界警示",
+          "title": "Orienteering Techniques (5/5) - Catching Features",
+          "channel": "Navigation Maniac",
+          "url": "https://www.youtube.com/watch?v=2uhDInk1iPE"
+        },
+        {
+          "name": "選定最後衝刺的攻擊點",
+          "en": "Attack points",
+          "kind": "theory",
+          "target": "attack point、最終接近、精確定位",
+          "title": "Orienteering Techniques (3/5) - Attack Points",
+          "channel": "Navigation Maniac",
+          "url": "https://www.youtube.com/watch?v=8D1isHbXVVI"
+        },
+        {
+          "name": "攻擊點選定的第二視角範例",
+          "kind": "walkthrough",
+          "target": "attack point、明顯地標、最終接近",
+          "title": "Orienteering Attack Points",
+          "channel": "Orienteering Learning Videos",
+          "url": "https://www.youtube.com/watch?v=tD1sNwEHZS0"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u4",
+      "name": "蓄意偏離",
+      "type": "skill",
+      "assessment": "找一個目標在一條線形地物（如道路、溪流）附近、但抵達線形地物時不容易判斷目標在左邊還是右邊的情境。出發前先決定往哪一側刻意偏移（例如故意瞄準目標右側10-15度），行進到接觸線形地物後，只靠「該往哪個方向轉」這個已知答案往目標走，不用回頭猜測。自我檢查的判準：抵達線形地物時，能不能立刻說出該左轉還是右轉，不用停下來討論或重新看地圖判斷。能立刻確定方向就是抓對了蓄意偏離的角度與方向；若抵達後仍然要花時間判斷該轉哪邊，代表偏移角度太小（通常小於5度容易被步行的自然偏移誤差吃掉）或方向記錯了。反過來，若直接瞄準目標中心線走、不做蓄意偏離，抵達線形地物時完全無法判斷該轉哪邊，正是這個技巧要解決的問題本身。",
+      "lesson": {
+        "title": "Wilderness Navigation- Intentional Offsets",
+        "channel": "Northeast Alpine Start",
+        "url": "https://www.youtube.com/watch?v=nA2mtUVKml8",
+        "lang": "en",
+        "why": "直接以「蓄意偏離」為主題，講清楚為什麼故意瞄準目標一側、抵達線形地物後就能確定該往哪轉，比直接瞄準目標本身更可靠，是這個技巧最直接對應的教學。"
+      },
+      "drills": [
+        {
+          "name": "蓄意偏離確保找到目標點",
+          "kind": "walkthrough",
+          "target": "蓄意偏離、控制點、方向確定",
+          "title": "Aiming off while navigating to ensure you find your control point",
+          "channel": "Glenmore Lodge",
+          "url": "https://www.youtube.com/watch?v=2BkG98RmhZA"
+        },
+        {
+          "name": "什麼時候該用蓄意偏離",
+          "kind": "theory",
+          "target": "蓄意偏離、適用時機",
+          "title": "What is aiming off and when do we use it when navigating?",
+          "channel": "Fell Running Guide",
+          "url": "https://www.youtube.com/watch?v=7m-aHvyitpE"
+        },
+        {
+          "name": "蓄意偏離技巧練習",
+          "kind": "practice",
+          "target": "蓄意偏離、角度選定、練習",
+          "title": "Orienteering Techniques (2/5) - Aiming Off",
+          "channel": "Navigation Maniac",
+          "url": "https://www.youtube.com/watch?v=PbIoD1gzyeg"
+        },
+        {
+          "name": "蓄意偏離操作示範第二視角",
+          "kind": "walkthrough",
+          "target": "蓄意偏離、實地操作",
+          "title": "Aiming Off When Navigating",
+          "channel": "The Bushcraft Padawan",
+          "url": "https://www.youtube.com/watch?v=kOXhT1uEgM0"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u5",
+      "name": "航線規劃與航段切分",
+      "type": "skill",
+      "assessment": "在圖上規劃一段至少三個航段（leg）的路線，每段各自寫下方位角（精確到個位數的度數）與距離（公尺），而不是整趟路只寫一個籠統方向。規劃完成後自我檢查：每一段的轉折點是不是都選在圖上找得到、走到現場也認得出的明確地物（如路口、鞍部、溪流交會），而不是隨便切在地圖的中間點；地形起伏大的路段，實際要走的距離是不是比圖上量到的水平距離多抓一到兩成（對應爬升坡度）；還有，規劃時有沒有比較過改走稍長但沿明顯地物（如稜線、道路）的路線、跟走最短直線但要穿越難行地形（密林、陡坡、沼澤）兩個方案的時間成本，而不是自動選最短距離。三項都做到才算完整的航段切分，只寫方位角與距離但轉折點選在圖上隨意一點，規劃在現場會對不上。",
+      "lesson": {
+        "title": "Plan A Patrol Route Using Land Nav Skills",
+        "channel": "STOKERMATIC",
+        "url": "https://www.youtube.com/watch?v=XjbXlhzTvDo",
+        "lang": "en",
+        "why": "示範出發前怎麼在圖上把整趟路線切成一段段航段（leg），每段各自記方位角與距離，而不是把整趟路徑當一個大方位角走，是本單元「切航段」技巧最直接的實作示範。"
+      },
+      "drills": [
+        {
+          "name": "航線規劃的另一種思路",
+          "kind": "theory",
+          "target": "航線規劃、航段切分",
+          "title": "Route Plans - a different approach",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=CbHCmfqt9iE"
+        },
+        {
+          "name": "陸軍遊騎兵不迷路的規劃紀律",
+          "kind": "theory",
+          "target": "路線規劃、紀律、地圖準備",
+          "title": "How Army Rangers NEVER Get Lost (Land Nav Explained)",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=el3HwKhEl0k"
+        },
+        {
+          "name": "進階路線規劃實作",
+          "kind": "practice",
+          "target": "進階規劃、航段、地形選擇",
+          "title": "ADVANCED LAND NAVIGATION: NEVER GET LOST AGAIN",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=Op3l-aGuX10"
+        },
+        {
+          "name": "危險地形的路線抉擇",
+          "kind": "pitfall",
+          "target": "危險地形、路線抉擇、風險評估",
+          "title": "Navigating in Dangerous Terrain",
+          "channel": "The Map Reading Company",
+          "url": "https://www.youtube.com/watch?v=L7W-x2w9Ti0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "chapter": "CH11",
+  "title": "電子地圖整合與 GPS 備援",
+  "units": [
+    {
+      "id": "ch11-u1",
+      "name": "離線地圖 App 與圖資準備",
+      "type": "skill",
+      "assessment": "出發前一天,在有網路的地方把預定路線範圍的離線地圖圖資與航跡(GPX)都下載進 App,接著切成飛航模式或關閉行動數據,實地打開 App 檢查三件事:地圖圖磚能不能顯示到規劃路線最外圍、定位藍點是否穩定不跳動、預先匯入的航跡線還看不看得到。三項有一項失敗,代表下載範圍抓太小或圖資快取被系統清掉,要重新下載並確認手機儲存空間留有 1GB 以上餘裕。同時打開 App 的座標顯示設定,確認它跟你紙本地圖圖廓標示的系統(TWD97 二度分帶或 WGS84 經緯度)一致。兩者不一致時App 讀出來的座標無法直接拿去對照紙圖,這是新手最常漏掉的一步。",
+      "lesson": {
+        "title": "離線地圖使用教學、必學救命知識｜登山必備 APP，完整支援 iOS & Android",
+        "channel": "Hikingbook",
+        "url": "https://www.youtube.com/watch?v=czblrqbK_x0",
+        "lang": "zh",
+        "why": "台灣登山圈觀看數最高的離線地圖教學之一,把「為什麼要下載離線圖資」與「怎麼下載」一次講清楚,直接對應本單元的核心動作,是這個主題中文供給最強的一支開場影片。"
+      },
+      "drills": [
+        {
+          "name": "下載離線地圖圖資",
+          "en": "Download Offline Map Data",
+          "kind": "walkthrough",
+          "target": "Garmin Explore App、離線地圖下載、Outdoor Maps+",
+          "title": "【教學】Garmin Explore App 地圖功能完整教學｜離線地圖下載 + Outdoor Maps+ 進階地圖一次搞定",
+          "channel": "Garmin Taiwan",
+          "url": "https://www.youtube.com/watch?v=SpH2GZXlSjs"
+        },
+        {
+          "name": "匯入 GPX 航跡並離線導航",
+          "en": "Import GPX Track for Offline Navigation",
+          "kind": "walkthrough",
+          "target": "GPX 航跡、離線導航、路線匯入",
+          "title": "【教學】如何匯入GPX與使用GPX導航",
+          "channel": "Garmin Taiwan",
+          "url": "https://www.youtube.com/watch?v=BZwGNyDqy9g"
+        },
+        {
+          "name": "App 綜合功能實測:離線圖、軌跡、座標",
+          "en": "App Walkthrough: Offline Map, Track, Coordinates",
+          "kind": "practice",
+          "target": "離線地圖、軌跡紀錄、座標定位",
+          "title": "IOS登山必備 APP | 離線地圖| 軌跡圖| 座標定位| 行程分析| 肉比頭 Zoebitalk",
+          "channel": "Zoebitalk肉比頭",
+          "url": "https://www.youtube.com/watch?v=HcXUYYqgrR4"
+        },
+        {
+          "name": "手機查詢經緯度座標",
+          "en": "Look Up Coordinates on Your Phone",
+          "kind": "theory",
+          "target": "經緯度座標、Google地圖、座標系統",
+          "title": "用Google地圖查經緯度座標教學📍｜電腦、iPhone、Android手機查經緯度",
+          "channel": "痞凱踏踏 PKstep",
+          "url": "https://www.youtube.com/watch?v=fMFWtRzYVD0"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u2",
+      "name": "GPS/GNSS 的原理與精度限制",
+      "type": "concept",
+      "lesson": {
+        "title": "【教學】什麼是GPS?",
+        "channel": "Garmin Taiwan",
+        "url": "https://www.youtube.com/watch?v=u54tYw5_NsY",
+        "lang": "zh",
+        "why": "Garmin 官方頻道製作,用最短篇幅講完衛星定位的基本運作原理,是這個觀念單元最適合的中文開場。後面幾支延伸影片再往精度限制與 GNSS/GPS 差異細部展開。"
+      },
+      "drills": [
+        {
+          "name": "GNSS 與 GPS 的差別",
+          "en": "GNSS vs GPS Explained",
+          "kind": "theory",
+          "target": "GNSS、GPS、衛星導航系統",
+          "title": "GNSS 與 GPS 入門簡介",
+          "channel": "台灣儀器行",
+          "url": "https://www.youtube.com/watch?v=haQaWeM70Tw"
+        },
+        {
+          "name": "三邊定位如何算出你的位置",
+          "en": "Trilateration Explained",
+          "kind": "theory",
+          "target": "三邊定位、衛星測距、定位原理",
+          "title": "How GPS works? Trilateration explained",
+          "channel": "unfa🇺🇦",
+          "url": "https://www.youtube.com/watch?v=4O3ZVHVFhes"
+        },
+        {
+          "name": "多路徑效應:訊號反射造成的誤差",
+          "en": "Multipath Error Explained",
+          "kind": "pitfall",
+          "target": "多路徑效應、訊號反射、樹冠與峽谷遮蔽",
+          "title": "Multipath Is Screwing Your GPS/GNSS Accuracy: Don't Fall For This RTK Mistake...",
+          "channel": "Bench-Mark Equipment and Supplies",
+          "url": "https://www.youtube.com/watch?v=rQkLlpMkxB0"
+        },
+        {
+          "name": "水平精度數字代表什麼:HDOP",
+          "en": "What HDOP Accuracy Numbers Mean",
+          "kind": "theory",
+          "target": "HDOP、水平精度、衛星幾何分佈",
+          "title": "What is HDOP and  VDOP? | GPS Accuracy & Drone Flying Made Simple",
+          "channel": "DroneForge",
+          "url": "https://www.youtube.com/watch?v=H4MEft0JorU"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u3",
+      "name": "電子失效的徵候與備援程序",
+      "type": "skill",
+      "assessment": "先默寫一次備援順序:備用電源(行動電源/太陽能板)→紙本地圖→指北針→地貌對照,確認四個步驟先後沒有顛倒,少一步都算沒過。接著做兩項情境自測:(1)把手機電量放到 20% 以下,在低溫環境(接近 0°C 戶外或冷藏庫放 10 分鐘)測掉電速度,若 10 分鐘內多掉 5% 以上,代表電池對低溫敏感,行程規劃要把備用電源啟用門檻抓得更保守,不能等到真的沒電才拿出來;(2)查你手機的防水等級,IP67 以上才耐得住短暫涉水或大雨,查不到等級或低於 IP67 就要另外準備防水袋,不能只靠機身。兩項有一項答不出來或做不到,代表備援程序還沒內化,回頭重讀本單元再測一次。",
+      "lesson": {
+        "title": "Backpacking Navigation Basics: What to Do When GPS or Your Phone Fails",
+        "channel": "Secondactbackpacking",
+        "url": "https://www.youtube.com/watch?v=Dhgqng23m1c",
+        "lang": "en",
+        "why": "直接以「GPS 或手機失效時該怎麼辦」為題,把失效徵候與備援順序放在同一支影片講完,是這個單元最貼題的骨幹影片;中文內容目前只找得到分散的個別失效模式教學,沒有同等完整度的整合版。"
+      },
+      "drills": [
+        {
+          "name": "手機進水的黃金處理時刻",
+          "en": "Phone Water Damage: First Response",
+          "kind": "pitfall",
+          "target": "手機進水、黃金時刻、防水等級",
+          "title": "掌握黃金時刻！手機進水自救記住4口訣 這「3 不」千萬毋湯",
+          "channel": "自由電子報3C科技",
+          "url": "https://www.youtube.com/watch?v=h09yjmkrqAQ"
+        },
+        {
+          "name": "低溫如何加速電池耗損",
+          "en": "Cold Weather Battery Drain",
+          "kind": "pitfall",
+          "target": "低溫掉電、鋰電池、電量門檻",
+          "title": "【TVBS】天冷耗電！零度C以下　手機電力耗損快一倍",
+          "channel": "TVBS NEWS",
+          "url": "https://www.youtube.com/watch?v=GbLFFLZDK7c"
+        },
+        {
+          "name": "訊號被地形遮蔽時的克難作法",
+          "en": "Improvised Signal Boost When Blocked",
+          "kind": "walkthrough",
+          "target": "訊號遮蔽、山區收訊、克難天線",
+          "title": "登山「手機訊號差」山難怎麼求救？實測鍋蓋放手機後方　結果竟然...｜祝你健康",
+          "channel": "祝你健康",
+          "url": "https://www.youtube.com/watch?v=E-rPJoLB_j0"
+        },
+        {
+          "name": "紙本地圖是備援的標準配備",
+          "en": "Paper Maps as the Backup Standard",
+          "kind": "theory",
+          "target": "紙本地圖、備援標準、GPS 失效",
+          "title": "Broken GPS? Paper Maps are the Backup Standard......What's Your Backup?",
+          "channel": "WaypointADV-USA",
+          "url": "https://www.youtube.com/watch?v=anjs3T7phV0"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u4",
+      "name": "電子與紙圖的交叉驗證",
+      "type": "field",
+      "assessment": "在有訊號的健行路段,用離線地圖 App 讀出目前位置的座標(記下顯示的座標系統,TWD97 二度分帶或 WGS84 經緯度),同時攤開同一路段的紙本地圖,用比例尺或方格網手動量出你判斷的所在位置座標。兩者的東距、北距若差在 100 公尺以內(1:25000 地圖上約 4 毫米),算是可接受的手動量測誤差;超過 100 公尺,先檢查是不是座標系統選錯:TWD97 當成 WGS84 讀、或經緯度分秒沒換算好是最常見的錯,排除這個錯誤後才輪到懷疑 App 定位不準。收工後把 App 記錄的完整航跡匯出來,攤開紙本地圖逐段比對,凡是航跡明顯偏離原訂路線的路段,回想當下是不是地形判斷錯了或抄了近路。電子航跡在這裡是拿來檢討自己地貌對照練得準不準的工具。",
+      "lesson": {
+        "title": "Wilderness Navigation: Finding Your Way Using Map, Compass, Altimeter & GPS",
+        "channel": "Secret Stuff",
+        "url": "https://www.youtube.com/watch?v=7tuoKeo2Hi0",
+        "lang": "en",
+        "why": "同時示範地圖、指北針、高度計、GPS 四種工具並用的野外導航流程,把「電子工具是輔助、不是唯一依據」的框架講得完整,適合作為交叉驗證單元的開場。"
+      },
+      "drills": [
+        {
+          "name": "用地貌交會法獨立定出位置",
+          "en": "Independently Fix Position by Resection",
+          "kind": "walkthrough",
+          "target": "後方交會法、地貌對照、獨立定位",
+          "title": "Land Navigation Intersection and Resection",
+          "channel": "Delta Company RSP, Iowa National Guard",
+          "url": "https://www.youtube.com/watch?v=T-LY8PYZgzQ"
+        },
+        {
+          "name": "用已知控制點座標核對定位",
+          "en": "Verify Position Against a Known Control Point",
+          "kind": "practice",
+          "target": "點之記、控制點座標、座標核對",
+          "title": "使用Google Map 導航到「點之記」紀錄的控制點位置",
+          "channel": "Surveying Lee",
+          "url": "https://www.youtube.com/watch?v=9jq4rFOOqKI"
+        },
+        {
+          "name": "電子航跡作為事後檢討工具",
+          "en": "Using GPS Tracks for After-Action Review",
+          "kind": "walkthrough",
+          "target": "航跡繪製、事後檢討、迷途自救",
+          "title": "登山迷途怎自救? 離線地圖定位繪製「生命線」｜TVBS新聞",
+          "channel": "TVBS NEWS",
+          "url": "https://www.youtube.com/watch?v=AqVM1Qbo02A"
+        },
+        {
+          "name": "實地手把手示範:離線地圖走一段古道",
+          "en": "Field Walkthrough: Navigating a Trail with an Offline Map",
+          "kind": "practice",
+          "target": "離線地圖實地操作、古道導航、路徑比對",
+          "title": "如何使用手機離線地圖走山路不迷路-以淡蘭古道為例例手把手說明！#淡蘭古道#山林日誌#健行筆記",
+          "channel": "巧克力先生的Vision",
+          "url": "https://www.youtube.com/watch?v=6gWr9-Ydv6M"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "conditions": [
+    {
+      "unit": "ch6-u1",
+      "name": "步幅計數的個人基準變異與負重對步態的影響",
+      "evidence_grade": "moderate",
+      "summary": "個人身高、年齡、體重本來就會讓自然步幅相差一大截，而背負戰鬥裝備行進時步幅會系統性縮短、步態時空參數改變——這是生物力學上被多篇獨立研究穩定觀察到的現象。但沒有一篇研究直接量測「用固定步幅係數／計步珠換算距離」在負重情境下的實際誤差率是多少公尺或百分之多少，把步態變化換算成具體的導航誤差數字，是課程自己的推論延伸，不是文獻直接給出的結論。",
+      "citations": [
+        {
+          "pmid": "11292147",
+          "title": "Differences in gait parameters at a preferred walking speed in healthy subjects due to age, height and body weight.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11292147/",
+          "journal": "Aging (Milan, Italy)",
+          "year": 2001,
+          "design": "cross-sectional study"
+        },
+        {
+          "pmid": "33215681",
+          "title": "Spatiotemporal and Kinematic Comparisons Between Anthropometrically Paired Male and Female Soldiers While Walking With Heavy Loads.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33215681/",
+          "journal": "Military medicine",
+          "year": 2021,
+          "design": "randomized controlled trial"
+        },
+        {
+          "pmid": "39264271",
+          "title": "The effect of weapon handling during load carriage across a range of military-relevant walking speeds.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39264271/",
+          "journal": "Ergonomics",
+          "year": 2025,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "41902126",
+          "title": "Changes in Spatiotemporal Parameters During Gait of Special Forces Operators with Additional External Load.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41902126/",
+          "journal": "Sensors (Basel, Switzerland)",
+          "year": 2026,
+          "design": "observational study"
+        }
+      ]
+    },
+    {
+      "unit": "ch4-u2",
+      "name": "磁偏角隨時間漂移與地磁模型的量化不確定性",
+      "evidence_grade": "strong",
+      "summary": "磁偏角逐年變化是由全球地磁觀測站與衛星資料持續量測、並由國際合作的地磁參考場模型（IGRF）定期發布修正值的物理量測事實，不是有爭議的假說；部分地區每年可漂移超過 0.1 度，模型本身也附有正式量化的不確定性估計。結論很直接：舊圖資或久未校正的磁偏角修正值可能已經偏移到不能忽略的程度，「這張圖印的偏角要自己查有效年份」不是保守建議而是有模型證據支撐的必要動作。",
+      "citations": [
+        {
+          "doi": "10.1186/s40623-020-01254-7",
+          "title": "Geomagnetic core field models and secular variation forecasts for the 13th International Geomagnetic Reference Field (IGRF-13)",
+          "url": "https://doi.org/10.1186/s40623-020-01254-7",
+          "journal": "Earth, Planets and Space",
+          "year": 2020,
+          "design": "geomagnetic model synthesis"
+        },
+        {
+          "doi": "10.1186/s40623-022-01572-y",
+          "title": "Evidence-based uncertainty estimates for the International Geomagnetic Reference Field",
+          "url": "https://doi.org/10.1186/s40623-022-01572-y",
+          "journal": "Earth, Planets and Space",
+          "year": 2022,
+          "design": "model uncertainty analysis"
+        },
+        {
+          "doi": "10.1111/j.1365-246x.2011.04988.x",
+          "title": "Signal from noise in geomagnetic field modelling: denoising data for secular variation studies",
+          "url": "https://doi.org/10.1111/j.1365-246x.2011.04988.x",
+          "journal": "Geophysical Journal International",
+          "year": 2011,
+          "design": "modeling methodology study"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u4",
+      "name": "航位推算（依方位角徒步行進）的誤差隨距離與路徑複雜度累積",
+      "evidence_grade": "moderate",
+      "summary": "數十年累積的路徑整合（path integration）研究方向一致：人在缺乏地標或視覺回饋時，僅靠自身運動線索估算的行進距離與轉向角度會系統性偏移，且偏移量隨路徑長度與轉彎複雜度增加而放大。這是野外「盲走一段方位角、靠感覺回頭找路」這種做法為什麼不可靠的實證基礎；但多數原始研究是在室內或受控空間做的小尺度盲走實驗，直接外推到公里級的野外徒步導航需要保留一些不確定性，不宜當成精確的誤差率數字使用。",
+      "citations": [
+        {
+          "pmid": "36401122",
+          "title": "Does path integration contribute to human navigation in large-scale space?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36401122/",
+          "journal": "Psychonomic bulletin & review",
+          "year": 2023,
+          "design": "narrative review"
+        },
+        {
+          "pmid": "22840893",
+          "title": "Path integration: effect of curved path complexity and sensory system on blindfolded walking.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22840893/",
+          "journal": "Gait & posture",
+          "year": 2013,
+          "design": "randomized controlled trial"
+        },
+        {
+          "pmid": "26854843",
+          "title": "Going round the bend: Persistent personal biases in walked angles.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26854843/",
+          "journal": "Neuroscience letters",
+          "year": 2016,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-gps-reliability",
+      "name": "GPS/GNSS 的可靠性邊界與依賴的認知代價",
+      "evidence_grade": "moderate",
+      "summary": "結合環境物理限制與使用心理兩個面向的證據，強度並不一致。樹冠遮蔽和都市峽谷造成的訊號遮擋與多路徑效應，是二十年來多篇獨立野外實測一致證實的工程事實，密林與高樓區的定位誤差可以到數公尺甚至十公尺以上。但「習慣依賴 GPS 會削弱自主空間認知能力」這個更常被引用的說法證據薄弱且矛盾——有觀察性研究測到自主導航測驗表現變差、有實驗顯示車用導航系統會讓原本擅長導航的人使用輔助後空間學習能力下降，但也有研究指出只要把導航指令設計成引導使用者注意環境地標，使用輔助時仍能產生附帶的空間學習。結論：環境會不會讓 GPS 失準是紮實的工程證據；GPS 會不會讓人變路痴是還沒有定論的心理學問題，兩者不該被課程混為一談、等量齊觀地當作「不能信 GPS」的理由。",
+      "citations": [
+        {
+          "doi": "10.3390/s22031289",
+          "title": "Evaluation of Static Autonomous GNSS Positioning Accuracy Using Single-, Dual-, and Tri-Frequency Smartphones in Forest Canopy Environments",
+          "url": "https://doi.org/10.3390/s22031289",
+          "journal": "Sensors",
+          "year": 2022,
+          "design": "field measurement study"
+        },
+        {
+          "doi": "10.5849/forsci.11-015",
+          "title": "Tree Location Measurement Accuracy with a Mapping-Grade GPS Receiver under Forest Canopy",
+          "url": "https://doi.org/10.5849/forsci.11-015",
+          "journal": "Forest Science",
+          "year": 2012,
+          "design": "field measurement study"
+        },
+        {
+          "doi": "10.1080/02827580260138099",
+          "title": "Assessing Point Accuracy of DGPS Under Forest Canopy Before Data Acquisition, in the Field and After Postprocessing",
+          "url": "https://doi.org/10.1080/02827580260138099",
+          "journal": "Scandinavian Journal of Forest Research",
+          "year": 2002,
+          "design": "field measurement study"
+        },
+        {
+          "doi": "10.3390/s18041149",
+          "title": "Statistical Multipath Model Based on Experimental GNSS Data in Static Urban Canyon Environment",
+          "url": "https://doi.org/10.3390/s18041149",
+          "journal": "Sensors",
+          "year": 2018,
+          "design": "field measurement study"
+        },
+        {
+          "doi": "10.1109/iceict53123.2021.9531262",
+          "title": "Experimental Analysis of Multipath Effects on GNSS Positioning in Urban Canyon",
+          "url": "https://doi.org/10.1109/iceict53123.2021.9531262",
+          "journal": "2021 IEEE 4th International Conference on Electronic Information and Communication Technology (ICEICT)",
+          "year": 2021,
+          "design": "field measurement study"
+        },
+        {
+          "pmid": "32286340",
+          "title": "Habitual use of GPS negatively impacts spatial memory during self-guided navigation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32286340/",
+          "journal": "Scientific reports",
+          "year": 2020,
+          "design": "observational study"
+        },
+        {
+          "pmid": "39193381",
+          "title": "How Do In-Car Navigation Aids Impair Expert Navigators' Spatial Learning Ability?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39193381/",
+          "journal": "Annals of the American Association of Geographers",
+          "year": 2024,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "28243219",
+          "title": "Modified Navigation Instructions for Spatial Navigation Assistance Systems Lead to Incidental Spatial Learning.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28243219/",
+          "journal": "Frontiers in psychology",
+          "year": 2017,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-fatigue-lowlight",
+      "name": "疲勞與低光對導航表現的影響",
+      "evidence_grade": "limited",
+      "summary": "現有證據薄弱且分散，來源分成兩條線：低光/夜視情境下的空間知識習得反而比裸視組差、老年人視覺輸入減少會削弱步行時的空間更新能力；睡眠有助鞏固剛學會的路徑記憶、睡眠剝奪則會改變學習策略並削弱空間注意力轉移的效率。但這些研究多半是室內虛擬環境或眼動實驗室任務，不是負重徒步的野外導航表現，「熬夜或沒睡飽會在野外迷路」這句話目前只有間接支持，不是被直接驗證過的結論。",
+      "citations": [
+        {
+          "pmid": "18516841",
+          "title": "The impact of night vision goggles on way-finding performance and the acquisition of spatial knowledge.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18516841/",
+          "journal": "Human factors",
+          "year": 2008,
+          "design": "comparative experimental study"
+        },
+        {
+          "pmid": "23713200",
+          "title": "Reduced vision selectively impairs spatial updating in fall-prone older adults.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23713200/",
+          "journal": "Multisensory research",
+          "year": 2013,
+          "design": "comparative study"
+        },
+        {
+          "pmid": "18493970",
+          "title": "Sleep to find your way: the role of sleep in the consolidation of memory for navigation in humans.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18493970/",
+          "journal": "Hippocampus",
+          "year": 2008,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "21102988",
+          "title": "Coping with sleep deprivation: shifts in regional brain activity and learning strategy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21102988/",
+          "journal": "Sleep",
+          "year": 2010,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "16497551",
+          "title": "Total sleep deprivation effect on disengagement of spatial attention as assessed by saccadic eye movements.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16497551/",
+          "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+          "year": 2006,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-trainability",
+      "name": "導航能力與空間能力能不能被訓練",
+      "evidence_grade": "contested",
+      "summary": "這是一個統合分析彼此打架、加上專家-新手比較研究拼起來的綜合領域。空間技能訓練的近遷移（練的技能本身進步）證據較好，但遠遷移（練了以後在完全不同任務上表現變好，例如「玩電動能讓你野外不迷路」）證據薄弱且有爭議，一篇規模更大的統合分析甚至直接反駁「玩電玩訓練能提升一般認知能力」的說法，另一篇則顯示動作類電玩對知覺與注意力有中等效果、對更高階認知的遷移證據較弱。另一方面，用眼動、EEG/fNIRS、神經心理測驗比較競技定向越野好手與新手的三篇研究方向一致，顯示地圖判讀技能確實隨長期訓練累積出系統性差異——但這批樣本清一色是競技選手，能不能類推到一般休閒者的學習曲線並未被驗證。結論：「地圖判讀是可被訓練的技能」有合理支持，但「訓練會不會遷移成真正的野外導航能力」仍是未解的問題，不該被課程講成已有定論。",
+      "citations": [
+        {
+          "pmid": "22663761",
+          "title": "The malleability of spatial skills: a meta-analysis of training studies.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22663761/",
+          "journal": "Psychological bulletin",
+          "year": 2013,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "29239631",
+          "title": "Video game training does not enhance cognitive ability: A comprehensive meta-analytic investigation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29239631/",
+          "journal": "Psychological bulletin",
+          "year": 2018,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "29172564",
+          "title": "Meta-analysis of action video game impact on perceptual, attentional, and cognitive skills.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29172564/",
+          "journal": "Psychological bulletin",
+          "year": 2018,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "31497408",
+          "title": "Visual search characteristics of precise map reading by orienteers.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31497408/",
+          "journal": "PeerJ",
+          "year": 2019,
+          "design": "cross-sectional comparative study"
+        },
+        {
+          "pmid": "40936776",
+          "title": "Processing characteristics of visuospatial working memory in map cognition by orienteering athletes: evidence from behavioral and EEG studies.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40936776/",
+          "journal": "PeerJ",
+          "year": 2025,
+          "design": "cross-sectional comparative study"
+        },
+        {
+          "pmid": "40360286",
+          "title": "Neuropsychological Assessment in Orienteers: Implications for Sports Performance and Cognitive Health.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40360286/",
+          "journal": "Perceptual and motor skills",
+          "year": 2025,
+          "design": "cross-sectional observational study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-sex-differences",
+      "name": "男女與個體在空間導航能力上的差異",
+      "evidence_grade": "contested",
+      "summary": "一篇統合分析確實測到男女在若干導航任務（如指向準確度、路徑效率）上有小到中等的平均差異，且這個差異在成年中期依然存在；但 2024 年的一篇回顧直接挑戰「這種差異是演化適應」的說法，指出證據更支持這些差異主要來自後天經驗（童年自由探索機會、空間活動練習量）而非天生能力上限。本課程的立場是：群體平均差異的統計存在與它的因果解釋是兩件事，後者證據遠比前者薄弱，不該被拿來當「某類人天生不適合導航」的藉口。",
+      "citations": [
+        {
+          "pmid": "31270765",
+          "title": "A meta-analysis of sex differences in human navigation skills.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31270765/",
+          "journal": "Psychonomic bulletin & review",
+          "year": 2019,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "38234440",
+          "title": "Still little evidence sex differences in spatial navigation are evolutionary adaptations.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38234440/",
+          "journal": "Royal Society open science",
+          "year": 2024,
+          "design": "narrative review"
+        },
+        {
+          "pmid": "33819436",
+          "title": "Age-Related Changes in Spatial Navigation Are Evident by Midlife and Differ by Sex.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33819436/",
+          "journal": "Psychological science",
+          "year": 2021,
+          "design": "cross-sectional study"
+        }
+      ]
+    },
+    {
+      "unit": "ch1-u4",
+      "name": "地圖旋轉未對正時的判讀與定向表現下降（map alignment effect）",
+      "evidence_grade": "moderate",
+      "summary": "兩篇以競技定向越野選手為受試者的行為加眼動／fNIRS研究方向一致：地圖與實際地形、與北方未對齊（旋轉）時，符號辨識正確率下降、反應時間拉長、視覺搜尋與腦區同步負荷都增加。這支持「地圖一定要轉到與地面對正」這個教學重點有神經行為層面的證據基礎，而不只是經驗法則。但受試者都是有經驗的定向越野選手，這個效應在一般新手身上是否等比例出現，文獻沒有直接回答。",
+      "citations": [
+        {
+          "pmid": "37868057",
+          "title": "Effects of mental rotation on map representation in orienteers-behavioral and fNIRS evidence.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37868057/",
+          "journal": "PeerJ",
+          "year": 2023,
+          "design": "within-subjects experimental study"
+        },
+        {
+          "pmid": "41153105",
+          "title": "Neural Mechanisms of the Impact of Rotated Terrain Symbols on Spatial Representation in Orienteers: Evidence from Eye-Tracking and Whole-Brain fNIRS Synchronization.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41153105/",
+          "journal": "Behavioral sciences (Basel, Switzerland)",
+          "year": 2025,
+          "design": "eye-tracking and fNIRS experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch2-u1",
+      "name": "等高線判讀的稜線／山谷誤認錯誤率",
+      "evidence_grade": "moderate",
+      "summary": "從1991年到2023年，兩篇相隔超過三十年、彼此獨立的研究都記錄到受試者讀等高線圖時會系統性混淆稜線與山谷方向，其中較新的一篇量化到約15%的受試者把所有稜線誤判為山谷、反之亦然。這顯示「等高線原理」不是背會判讀規則就等於學會判讀，實際錯誤率並不低。但兩篇都是一般性地圖判讀研究，不是針對軍用地形圖或野外實測情境。",
+      "citations": [
+        {
+          "doi": "10.1002/acp.2350050503",
+          "title": "Selective encoding in the interpretation of topographic maps",
+          "url": "https://doi.org/10.1002/acp.2350050503",
+          "journal": "Applied Cognitive Psychology",
+          "year": 1991,
+          "design": "experimental study"
+        },
+        {
+          "doi": "10.3390/ijgi12120479",
+          "title": "Understanding Map Misinterpretation: Factors Influencing Correct Map Reading and Common Errors",
+          "url": "https://doi.org/10.3390/ijgi12120479",
+          "journal": "ISPRS International Journal of Geo-Information",
+          "year": 2023,
+          "design": "survey and experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u1",
+      "name": "大地基準轉換誤差的量化案例（WGS84 與在地基準）",
+      "evidence_grade": "moderate",
+      "summary": "兩篇分別針對迦納與蒲隆地、在地大地基準與WGS84之間座標轉換的實測研究，都提供了具體的轉換參數與殘餘誤差量，證實「用錯基準或沒做基準轉換」造成的位移不是理論假設，而是可實測、因地區而異的具體公尺級數字。但這兩個案例是特定國家的在地基準，量值不能直接套用到台灣或其他地區，只能作為「基準誤差確實存在且量值可觀」的證據，不是精確的誤差預測值。",
+      "citations": [
+        {
+          "doi": "10.2478/rgg-2024-0021",
+          "title": "Implementation of the dual quaternion algorithm for 3D similarity-based coordinate transformation between Ghana’s local geodetic datum and WGS84",
+          "url": "https://doi.org/10.2478/rgg-2024-0021",
+          "journal": "Reports on Geodesy and Geoinformatics",
+          "year": 2024,
+          "design": "geodetic measurement and modeling study"
+        },
+        {
+          "doi": "10.4236/ijg.2016.75048",
+          "title": "Geodetic Datum Transformation Parameters towards WGS84 Applicable to the 1/50k Topographical Map (1981) of Burundi",
+          "url": "https://doi.org/10.4236/ijg.2016.75048",
+          "journal": "International Journal of Geosciences",
+          "year": 2016,
+          "design": "geodetic measurement and modeling study"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u3",
+      "name": "數字轉錄／易位錯誤的認知基礎（間接證據）",
+      "evidence_grade": "limited",
+      "summary": "這兩篇是一般性的短期記憶／序列回憶研究，顯示人在覆誦或抄寫一串數字時，系統性容易發生「易位」（把相鄰兩個數字或位置對調）的錯誤，這是坐標抄寫容易出錯的認知機制基礎。但兩篇都不是針對軍用座標讀取或MGRS位數的直接研究，只是類比性的間接證據，不能直接引申出「讀MGRS坐標的實際錯誤率是多少」，證據強度只能算limited。",
+      "citations": [
+        {
+          "pmid": "15948612",
+          "title": "Transposition asymmetry in immediate serial recall.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15948612/",
+          "journal": "Memory (Hove, England)",
+          "year": 2005,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "25280733",
+          "title": "A matter of emphasis: Linguistic stress habits modulate serial recall.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25280733/",
+          "journal": "Memory & cognition",
+          "year": 2015,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch4-u4",
+      "name": "無地標情境下角度重現與方位維持的系統性偏誤",
+      "evidence_grade": "moderate",
+      "summary": "三篇實驗方向一致：人在缺乏外部參照（地標、視覺線索）時，無論是原地重現一個角度、或蒙眼直行，都會出現系統性且持續的角度偏誤，且左右轉之間的偏誤並不對稱。這是「算完方位角、反方位角之後，光靠感覺走一段路容易偏」的實證基礎。但多數受試者是在室內或受控空間做小尺度測試，量值不能直接套用到野外長距離徒步的方位角誤差。",
+      "citations": [
+        {
+          "pmid": "28303327",
+          "title": "Rotational error in path integration: encoding and execution errors in angle reproduction.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28303327/",
+          "journal": "Experimental brain research",
+          "year": 2017,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "19699093",
+          "title": "Walking straight into circles.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19699093/",
+          "journal": "Current biology : CB",
+          "year": 2009,
+          "design": "field experimental study"
+        },
+        {
+          "doi": "10.1038/s41598-026-44217-w",
+          "title": "Uncovering persistent biases in human path integration by separating left and right trials",
+          "url": "https://doi.org/10.1038/s41598-026-44217-w",
+          "journal": "Scientific Reports",
+          "year": 2026,
+          "design": "meta-analytic reanalysis of experimental datasets"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u1",
+      "name": "鐵磁性金屬物對磁羅盤讀數的干擾",
+      "evidence_grade": "limited",
+      "summary": "兩篇航海羅盤校正領域的工程文獻確認，鄰近的鐵磁性金屬（船體結構、金屬物件）會讓磁羅盤產生可量測的殘餘偏差，必須經過校正程序才能消除，物理機制與陸地指北針受金屬物（武器、金屬扣具、電子裝置）干擾是同一套電磁原理。但這兩篇的實測對象是船用羅盤而非手持式陸地指北針，安全距離之類的量值不能直接套用，只能作為「金屬物干擾磁羅盤是有實測基礎的物理效應」的支持證據。",
+      "citations": [
+        {
+          "doi": "10.3390/jmse9020204",
+          "title": "Determining Residual Deviation and Analysis of the Current Use of the Magnetic Compass",
+          "url": "https://doi.org/10.3390/jmse9020204",
+          "journal": "Journal of Marine Science and Engineering",
+          "year": 2021,
+          "design": "field measurement study"
+        },
+        {
+          "doi": "10.1017/s0373463316000138",
+          "title": "Towards an Improvement of Magnetic Compass Accuracy and Adjustment",
+          "url": "https://doi.org/10.1017/s0373463316000138",
+          "journal": "Journal of Navigation",
+          "year": 2016,
+          "design": "measurement and modeling study"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u5",
+      "name": "繞行障礙物時的路徑規劃與轉向行為",
+      "evidence_grade": "limited",
+      "summary": "這兩篇知覺-行動控制研究說明人類繞行障礙物時如何依據障礙的角度、距離動態調整路徑與轉向量，顯示繞障礙物本身是有規律可循的行為，不是隨機亂走。但研究情境是室內短距離的行走實驗，沒有一篇測試「繞過障礙物之後，能不能準確恢復原本要走的方位角」這個land navigation情境最關心的問題，證據只能算間接、limited。",
+      "citations": [
+        {
+          "pmid": "34315936",
+          "title": "Target position and avoidance margin effects on path planning in obstacle avoidance.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34315936/",
+          "journal": "Scientific reports",
+          "year": 2021,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "12760620",
+          "title": "Behavioral dynamics of steering, obstacle avoidance, and route selection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12760620/",
+          "journal": "Journal of experimental psychology. Human perception and performance",
+          "year": 2003,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u2",
+      "name": "地圖投影造成的距離量測系統性誤差（以UTM為例）",
+      "evidence_grade": "moderate",
+      "summary": "大地測量文獻確認UTM投影的比例因子（k0=0.9996）是刻意設計來把整個投影帶內的比例誤差壓在一個可控範圍內，但代價是圖上量出來的距離本來就不等於地表真實距離，誤差量隨著離中央經線的距離增加而放大；不同投影系統之間換算座標時，誤差還會再疊加一層。這是測量學上被證實的系統性效應，不是野外實測的人為判讀誤差，兩者不該被課程混為一談。",
+      "citations": [
+        {
+          "doi": "10.1007/bf03655477",
+          "title": "The optimal universal transverse Mercator projection",
+          "url": "https://doi.org/10.1007/bf03655477",
+          "journal": "manuscripta geodaetica",
+          "year": 1995,
+          "design": "mathematical/geodetic modeling study"
+        },
+        {
+          "doi": "10.1080/00050326.1975.10440773",
+          "title": "Transformation of coordinates from the Gauss Conform Projection to the Universal Transverse Mercator Projection",
+          "url": "https://doi.org/10.1080/00050326.1975.10440773",
+          "journal": "Australian Surveyor",
+          "year": 1975,
+          "design": "mathematical/geodetic modeling study"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u3",
+      "name": "目視／步行距離估計的系統性偏誤",
+      "evidence_grade": "moderate",
+      "summary": "三篇獨立心理物理學研究方向一致：人對地面延伸距離的知覺存在系統性各向異性與偏誤，口頭報告的距離估計和蒙眼行走的距離估計會出現不同方向、不同量值的誤差，且這個現象在虛擬與真實環境中都能觀察到。這支持「光用眼睛估的距離不可靠，要有量測或步數校正」的教學重點，但這些研究多在中短距離（公尺至數十公尺）進行，套用到目視判斷數百公尺外目標距離時，誤差型態可能不同。",
+      "citations": [
+        {
+          "pmid": "34211686",
+          "title": "Distance Estimation in Virtual Reality Is Affected by Both the Virtual and the Real-World Environments.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34211686/",
+          "journal": "i-Perception",
+          "year": 2021,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "22889186",
+          "title": "On the anisotropy of perceived ground extents and the interpretation of walked distance as a measure of perception.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22889186/",
+          "journal": "Journal of experimental psychology. Human perception and performance",
+          "year": 2013,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "16900829",
+          "title": "Using verbal and blind-walking distance estimates to investigate the two visual systems hypothesis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16900829/",
+          "journal": "Perception & psychophysics",
+          "year": 2006,
+          "design": "experimental study"
+        }
+      ]
+    }
+  ]
+}

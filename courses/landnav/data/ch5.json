@@ -1,0 +1,258 @@
+{
+  "chapter": "CH5",
+  "title": "指北針操作",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "稜鏡式指北針的構造與持握",
+      "type": "skill",
+      "assessment": "矇眼摸出稜鏡式指北針的四個部位:錶蓋(含準星)、刻度轉盤、放大鏡、拇指環,五秒內全部說對名稱才算認得構造。接著分別用 center-hold 與 compass-to-cheek 兩種持握法,對同一個遠方定點各取三次方位角:compass-to-cheek 三次讀數互差在 1 度以內、center-hold 互差在 3 度以內,代表持握姿勢與瞄準線對齊沒有問題;若 center-hold 誤差常態性超過 5 度,通常是刻度轉盤沒對齊準星,或手肘沒撐穩造成晃動。這也是為什麼 compass-to-cheek 精度較高、適合精確瞄準,center-hold 較快、適合行進間概略取向。",
+      "lesson": {
+        "title": "【軍武小尖兵EP51】- 指揮工具-指北針應用",
+        "channel": "軍武小尖兵Military Vanguard",
+        "url": "https://www.youtube.com/watch?v=oK3cRZCXIvc",
+        "lang": "zh",
+        "why": "軍武小尖兵EP51以軍用語境介紹指北針的沿革、分類與差異,是本次盤點中少數把稜鏡式指北針放進「指揮工具」框架講解的中文影片,適合作為構造與持握這個單元的中文主課;細部持握動作再由英文示範影片補足。"
+      },
+      "drills": [
+        {
+          "name": "稜鏡式指北針完整操作示範",
+          "en": "Lensatic Compass Full Demo",
+          "kind": "walkthrough",
+          "target": "稜鏡式指北針、構造、兩種持握法",
+          "title": "Land Nav 101: How to Use a Lensatic Compass the Right Way. A Beginners Guide!",
+          "channel": "Coalcracker Bushcraft",
+          "url": "https://www.youtube.com/watch?v=cEHsySgwEzo"
+        },
+        {
+          "name": "Center-Hold 持握法特寫",
+          "en": "Center-Hold Technique",
+          "kind": "walkthrough",
+          "target": "center-hold 持握法",
+          "title": "center hold technique",
+          "channel": "Steven Beck",
+          "url": "https://www.youtube.com/watch?v=h1KsfY3J8Lw"
+        },
+        {
+          "name": "Compass-to-Cheek 持握法特寫",
+          "en": "Compass-to-Cheek Technique",
+          "kind": "walkthrough",
+          "target": "compass-to-cheek 持握法",
+          "title": "compass to cheek technique",
+          "channel": "Steven Beck",
+          "url": "https://www.youtube.com/watch?v=F8ZNuLoTpco"
+        },
+        {
+          "name": "兩種持握法的精度比較",
+          "en": "Center Hold vs Cheek Hold",
+          "kind": "theory",
+          "target": "持握法比較、精度與適用場合",
+          "title": "Center Hold or Cheek Hold Compass",
+          "channel": "OmegaGear",
+          "url": "https://www.youtube.com/watch?v=NEhaIsIjN8g"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "透明底板式指北針與 Silva 1-2-3",
+      "type": "skill",
+      "assessment": "在地圖上用透明底板式指北針走一次 Silva 1-2-3:step 1 把底板邊緣對齊起點到終點的直線、step 2 轉刻度環讓南北線與地圖經線平行(北對北)、step 3 把身體轉到磁針紅色端疊上底盤的紅色方向箭(紅疊紅)。三步驟都做對,轉盤讀出的角度應與地圖上量角器量出的方位角相差不超過 3 度;差超過 5 度,最常見的錯法是 step 2 把南北轉反,或紅疊紅時把紅黑兩端看反。稜鏡式指北針精度較高但讀圖要分兩手操作,底板式可以直接壓在地圖上量角、速度較快。選哪一種,取決於你要精度還是要地圖操作的速度。",
+      "lesson": {
+        "title": "一級山藝～【地圖指南針必學 silva 1-2-3】  part 1 山川山藝知識",
+        "channel": "山川",
+        "url": "https://www.youtube.com/watch?v=ICcrk0MCiFc",
+        "lang": "zh",
+        "why": "山川這支影片的說明欄直接寫出 Silva 1-2-3 的三個步驟(對齊起訖點、北對北、紅疊紅),是香港一級山藝課程的複習教材,把系統拆解得比多數英文影片更精簡,適合當中文主課;實機示範留給同系列 part 2 當練習。"
+      },
+      "drills": [
+        {
+          "name": "Silva 1-2-3 實機示範",
+          "en": "Silva 1-2-3 Demo",
+          "kind": "walkthrough",
+          "target": "Silva 1-2-3、實作示範",
+          "title": "一級山藝～【地圖指南針必學 silva 1-2-3 part 2】  part 2 山川山藝知識",
+          "channel": "山川",
+          "url": "https://www.youtube.com/watch?v=je7pWRt9uHc"
+        },
+        {
+          "name": "Silva 原廠官方教學",
+          "en": "SILVA 1-2-3 System Official",
+          "kind": "theory",
+          "target": "Silva 1-2-3 系統、官方教學",
+          "title": "SILVA 1-2-3 System – navigate with map and compass as easy as 1-2-3",
+          "channel": "SILVA Global",
+          "url": "https://www.youtube.com/watch?v=fi6vCQIsXvU"
+        },
+        {
+          "name": "透明底板式指北針入門",
+          "en": "Baseplate Compass 101",
+          "kind": "walkthrough",
+          "target": "透明底板式指北針、基本操作",
+          "title": "Compass 101 - How to Use a Baseplate Compass",
+          "channel": "MRCAParks",
+          "url": "https://www.youtube.com/watch?v=7MQUIYsmQhc"
+        },
+        {
+          "name": "稜鏡式與底板式的取捨",
+          "en": "Lensatic vs Baseplate Compass",
+          "kind": "theory",
+          "target": "稜鏡式與透明底板式指北針的比較",
+          "title": "Lensatic Compass vs. Baseplate Compass",
+          "channel": "The American Backpacker",
+          "url": "https://www.youtube.com/watch?v=R0UkLfvaBs8"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "用指北針為地圖定向",
+      "type": "skill",
+      "assessment": "找一條你熟悉、走向明確的道路或稜線,先查當地磁偏角(依所在經緯度查最新等磁偏線圖,台灣目前約在 -4° 上下的西偏),把指北針的刻度轉盤依磁偏角方向轉開對應角度,再把指北針長邊貼齊地圖上的南北格線,轉動整張地圖直到磁針北端與刻度盤的北標記重合。定向完成後,實地眼前那條路的走向應該與地圖上畫的走向目視吻合。把地圖上另一個已知地標的方位線延伸到你腳下的位置,誤差若超過地圖比例尺換算後的 50 公尺,通常是磁偏角的東偏西偏方向加減反了。",
+      "lesson": {
+        "title": "071-COM-1011 用透鏡式指南針確定地圖方向",
+        "channel": "社團法人台灣民團協會課務組",
+        "url": "https://www.youtube.com/watch?v=BXOeGrVa4ww",
+        "lang": "zh",
+        "why": "071-COM-1011 標題就是「用透鏡式指南針確定地圖方向」,與本單元名稱幾乎逐字對應,是社團法人台灣民團協會課務組依美軍 SMCT 任務編號系統化拍攝的教學,任務導向的講法比一般戶外頻道更貼近軍用陸地導航語境。"
+      },
+      "drills": [
+        {
+          "name": "指北針正置地圖(基礎版)",
+          "kind": "walkthrough",
+          "target": "地圖定向、指北針正置",
+          "title": "指南針正置地圖",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=rA1tpbnoh_A"
+        },
+        {
+          "name": "指北針正置地圖(童軍版)",
+          "kind": "walkthrough",
+          "target": "地圖定向、指北針正置",
+          "title": "正置地圖",
+          "channel": "NTR Region",
+          "url": "https://www.youtube.com/watch?v=B_wQ1gHXGeo"
+        },
+        {
+          "name": "單切法定位",
+          "en": "Single-line resection",
+          "kind": "practice",
+          "target": "單切法定位、地圖定向",
+          "title": "指南針尋找自身位置單切法.wmv",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=sEcWt3-WY04"
+        },
+        {
+          "name": "稜鏡式指北針的磁偏角修正",
+          "en": "Declination Adjustment on a Lensatic Compass",
+          "kind": "walkthrough",
+          "target": "磁偏角修正、稜鏡式指北針",
+          "title": "How to adjust  Magnetic  Declination on a Lensatic Compass",
+          "channel": "The American Backpacker",
+          "url": "https://www.youtube.com/watch?v=c1toDkLMYWo"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u4",
+      "name": "依方位角行進",
+      "type": "field",
+      "assessment": "在開闊地取一個方位角,先在前方選一個至少 50 公尺外、容易和周圍地物區分的地標(steering mark)當接力點。單獨一棵樹或一塊突出的大石頭會比一整排樹好認,因為排列中的個體在你移動時容易互相混淆,走近了反而分不出原本瞄準的是哪一棵。收起指北針直接走向它,到了地標再重新取一次方位角、選下一個接力點。全程不要邊走邊盯著指北針讀數,那樣走出來的路線會左右畫龍。兩次取的方位角應完全相同(誤差在 1 度內),超過就是走歪了要重取。身上或 1 公尺內若帶著金屬裝備、行動電話,指北針讀數常會偏移超過 5 度,務必先把這些東西移到至少 1 公尺外再取方位角;靠近車輛、電線則至少要離開 10 公尺才能信任讀數。",
+      "lesson": {
+        "title": "In and Out Navigation: The Easiest Way to Use a Compass",
+        "channel": "Coalcracker Bushcraft",
+        "url": "https://www.youtube.com/watch?v=mZF-RKJcODQ",
+        "lang": "en",
+        "why": "這支影片直接示範「選遠方地標接力、不盯著指北針走」這個核心技巧,是頻道觀看數最高的系列之一。本子題(steering marks 與干擾距離)中文供給薄弱,找不到同等系統性的中文教學,故以此片為主課,中文影片改放進 drills 補充前視方位的實作片段。"
+      },
+      "drills": [
+        {
+          "name": "前視方位實測",
+          "en": "Direct Bearing",
+          "kind": "walkthrough",
+          "target": "方位角、前視方位",
+          "title": "How to use a compass指南針運用(Direct Bearing) 前視方位",
+          "channel": "sunny leung",
+          "url": "https://www.youtube.com/watch?v=bzDaufnYJVo"
+        },
+        {
+          "name": "前進方位實地應用",
+          "kind": "walkthrough",
+          "target": "方位角行進、前進方位應用",
+          "title": "指南針前進方位應用",
+          "channel": "寂靜的戶外活動大本營",
+          "url": "https://www.youtube.com/watch?v=YMDPJAY_EnE"
+        },
+        {
+          "name": "快速取方位角技巧",
+          "en": "Fast Azimuth Technique",
+          "kind": "practice",
+          "target": "方位角行進、快速取向",
+          "title": "Land Navigation with a Lensatic Compass - fast azimuth technique",
+          "channel": "asimplegenius",
+          "url": "https://www.youtube.com/watch?v=nDyNdeWWtfc"
+        },
+        {
+          "name": "陸地導航常見錯誤",
+          "en": "Land Navigation Mistakes to Avoid",
+          "kind": "pitfall",
+          "target": "常見錯誤、走向偏移",
+          "title": "Land Navigation Mistakes to Avoid",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=LI2tRaIE_lM"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u5",
+      "name": "繞越障礙",
+      "type": "field",
+      "assessment": "遇到擋路的水塘或密林時用 box method 繞行:原方位角轉 90 度走出去繞過障礙,同時計數走了幾步;繞到障礙另一側後再轉 90 度走回原方位角方向,走的步數要與繞出去時完全相同;最後再轉 90 度回到原方位角繼續前進。全程三段轉彎都以 90 度為準,角度差超過 5 度、或往返步數對不起來超過 3 步,回到原航線的落點就會偏移超過障礙物本身的寬度。整個繞行過程步數帳要持續累加,不能因為繞路而歸零重算,否則後續的距離判斷會整段跑掉。",
+      "lesson": {
+        "title": "Around Obstacles - No Maths",
+        "channel": "The Map Reading Company",
+        "url": "https://www.youtube.com/watch?v=ZsjE30-vCwk",
+        "lang": "en",
+        "why": "這支影片先講清楚傳統 box method(90 度繞行)的做法,再示範一種不必計算角度的替代技巧,並明確提到「pacing keeps you accurate」,直接對應本單元「繞行後如何回到原航線並保持步數帳」的要求,是本次盤點裡對這個主題講解最完整的一支;中文內容在這個技術細節上沒有找到對應教學,故主課採英文。"
+      },
+      "drills": [
+        {
+          "name": "小型障礙繞行示範",
+          "en": "Negotiate Minor Obstacles",
+          "kind": "walkthrough",
+          "target": "繞越障礙、小型障礙",
+          "title": "Negotiate Impassable Obstacles While Conducting Land Navigation",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=DARf-I4iPP8"
+        },
+        {
+          "name": "步幅計步基礎",
+          "en": "Pace Counting Basics",
+          "kind": "theory",
+          "target": "步數帳、步幅計步",
+          "title": "Pace Counting Basics",
+          "channel": "David Canterbury",
+          "url": "https://www.youtube.com/watch?v=NnVNNgyOUCU"
+        },
+        {
+          "name": "自製計步珠",
+          "en": "Pace Count Beads",
+          "kind": "practice",
+          "target": "計步珠、步數帳",
+          "title": "How To Make Your Own Pace Count Beads for Land Navigation",
+          "channel": "ITS Tactical / Imminent Threat Solutions",
+          "url": "https://www.youtube.com/watch?v=4MEynCUua-0"
+        },
+        {
+          "name": "大型障礙進階繞行",
+          "en": "Advanced Obstacle Negotiation",
+          "kind": "walkthrough",
+          "target": "繞越障礙、大型障礙",
+          "title": "ADVANCED LANDNAV: NEGOTIATE OBSTACLES",
+          "channel": "STOKERMATIC",
+          "url": "https://www.youtube.com/watch?v=c48uvDmjuYM"
+        }
+      ]
+    }
+  ]
+}
