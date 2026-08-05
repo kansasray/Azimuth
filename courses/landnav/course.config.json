@@ -113,7 +113,9 @@
       "course": "課程",
       "stance": "這門課的立場",
       "player": "上課"
-    }
+    },
+    "discussLabel": "討論",
+    "discussNote": "留言會同步到這門課 GitHub repo 的 Discussions,需要 GitHub 帳號才能發言。每支影片各有一串。"
   },
   "languages": {
     "zh": "繁中",
@@ -382,6 +384,18 @@
   "footer": {
     "credits": "課程大綱參考坊間「地圖學與軍用陸地導航」實體課程的主題架構;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。**姊妹課程**:電子設備還能用的時候,怎麼把全隊接在同一張數位地圖上,見「ATAK 防災地圖」 atak-course.pages.dev,與本課第 11 章的 GPS 備援互為正反面。",
     "disclaimer": "本課程僅供教育與自主學習參考。野外活動與任何實地操作的風險由使用者自負;涉及軍事應用的內容請以所屬單位現行準則為準。"
+  },
+  "discussions": {
+    "provider": "giscus",
+    "repo": "kansasray/Azimuth",
+    "repoId": "R_kgDOTuxAfQ",
+    "category": "Q&A",
+    "categoryId": "DIC_kwDOTuxAfc4DCueF",
+    "mapping": "specific",
+    "termPrefix": "landnav",
+    "lang": "zh-TW",
+    "reactions": true,
+    "inputPosition": "top"
   },
   "llms": {
     "summary": "[[course]] — 一門策展自 YouTube 公開影片的繁體中文地圖學與陸地導航課程,共 [[durationHours]] 小時。每個連結都經 YouTube oEmbed API 驗證,每條實證主張都掛可覆核的 PubMed 或 Crossref 文獻。網址:[[url]]",

@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 gym-course contributors
+Copyright (c) 2026 gym-course contributors（curate-course 框架）
+Copyright (c) 2026 kansasray（courses/landnav/ 的課程內容與繁中文案）
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,4 +34,5 @@ SOFTWARE.
 - **PubMed 與 OpenEvidence 引用的文獻**，著作權屬各出版者；本專案僅存書目
   資訊與連結。
 
-課程內容為衛教與運動指引，不構成醫療診斷或治療建議。
+courses/landnav/ 的課程內容為地圖判讀與陸地導航的教育參考。野外活動與任何實地
+操作的風險由使用者自負；涉及軍事應用的內容請以所屬單位現行準則為準。
