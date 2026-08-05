@@ -5,7 +5,9 @@
 // 預設不開字幕,學員每支都要手動齒輪→字幕→自動翻譯→中文(繁體)。
 // 中文影片加了這些參數也不會變差,播放器會直接選它自己的中文字幕軌。
 //
-// 與上游的唯一差異:iframe 網址多了三個參數
+// 與上游的差異有兩處:
+// (1) play() 尾端追加「自動開啟繁中字幕」的 IFrame API bootstrap(見該段註解)
+// (2) iframe 網址多了三個參數
 //   cc_load_policy=1      強制開啟字幕
 //   cc_lang_pref=zh-Hant  字幕語言偏好設為繁體中文
 //   hl=zh-TW              播放器介面語言設為繁中
@@ -154,6 +156,29 @@ export function play(item, { total }) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen></iframe>`;
+
+  // ── 課程層追加:自動開啟繁中字幕(自動翻譯) ──────────────────────────
+  // cc_lang_pref 只能在「已存在的字幕軌」之間挑語言;這些影片多半只有
+  // 自動產生的英文字幕,繁中要靠播放器的「自動翻譯」,那只有 IFrame API
+  // 的 setOption 才叫得動。做法:先開英文軌(CC on),再把翻譯語言設成
+  // zh-Hant。影片沒有英文軌時(例如中文影片)指令靜默失敗,行為同現況。
+  // 模組載入時機不定,固定重打幾次,指令冪等。
+  {
+    const yt = $("#playerFrame iframe");
+    const post = (func, args = []) =>
+      yt?.contentWindow?.postMessage(
+        JSON.stringify({ event: "command", func, args }),
+        "https://www.youtube-nocookie.com",
+      );
+    const kick = () => {
+      post("loadModule", ["captions"]);
+      post("setOption", ["captions", "track", { languageCode: "en" }]);
+      post("setOption", ["captions", "translationLanguage", { languageCode: "zh-Hant" }]);
+    };
+    yt?.addEventListener("load", () =>
+      [600, 1800, 3600, 6500].forEach((ms) => setTimeout(kick, ms)),
+    );
+  }
 
   const k = item.kind === "lesson" ? null : KIND[item.kind];
   const badge = k
