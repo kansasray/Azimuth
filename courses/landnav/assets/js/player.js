@@ -170,14 +170,15 @@ export function play(item, { total }) {
         JSON.stringify({ event: "command", func, args }),
         "https://www.youtube-nocookie.com",
       );
-    const kick = () => {
-      post("loadModule", ["captions"]);
-      post("setOption", ["captions", "track", { languageCode: "en" }]);
+    // 分階段:loadModule 只做一次(重載會把已設定的翻譯語言洗掉,
+    // 之前的版本就是這樣只剩英文軌),開軌一次,之後只重設翻譯語言。
+    const setTrans = () =>
       post("setOption", ["captions", "translationLanguage", { languageCode: "zh-Hant" }]);
-    };
-    yt?.addEventListener("load", () =>
-      [600, 1800, 3600, 6500].forEach((ms) => setTimeout(kick, ms)),
-    );
+    yt?.addEventListener("load", () => {
+      setTimeout(() => post("loadModule", ["captions"]), 600);
+      setTimeout(() => post("setOption", ["captions", "track", { languageCode: "en" }]), 1500);
+      [2500, 4500, 8000].forEach((ms) => setTimeout(setTrans, ms));
+    });
   }
 
   const k = item.kind === "lesson" ? null : KIND[item.kind];
