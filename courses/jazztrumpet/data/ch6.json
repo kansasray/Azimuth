@@ -1,0 +1,209 @@
+{
+  "chapter": "CH6",
+  "title": "爵士語彙",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "藍調：第一個共同語言",
+      "type": "skill",
+      "assessment": "任選一首 F 調藍調的伴奏，吹完 12 小節藍調的完整一輪（不含前奏），記錄自己在哪一小節迷路或搶拍。連續三輪都能準確落在第五小節轉 IV 級、第九小節轉 V 級，且藍調音階以外至少用兩個和弦內音收尾樂句，才算通過。若總是在第九小節提早或延後進 V 級，代表你在數小節而不是聽和聲移動，回去對著和弦圖跟唱貝斯線，直到耳朵能預測下一小節再吹。",
+      "lesson": {
+        "title": "F Blues Soloing: Using a Blues Melody | Jazz Trumpet Lesson",
+        "channel": "The Black Trumpeter",
+        "url": "https://www.youtube.com/watch?v=ThpchVDDrbc",
+        "lang": "en",
+        "why": "小號視角直接示範怎麼用藍調旋律在 F 調上即興，F 調是管樂 jam session 最常見的開口調，比找薩克斯風或鋼琴視角的藍調教學更貼近小號手實際會遇到的情境。"
+      },
+      "drills": [
+        {
+          "name": "12 小節藍調形式",
+          "en": "12-Bar Blues Form",
+          "kind": "theory",
+          "target": "12小節藍調、IV級V級轉位、爵士藍調變體",
+          "title": "3 Jazz Blues Forms Every Jazz Musician Needs to Know",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=6e3yWfX-4SI"
+        },
+        {
+          "name": "藍調音階的濫用陷阱",
+          "en": "Blues Scale Pitfalls",
+          "kind": "pitfall",
+          "target": "藍調音階、濫用、和弦內音",
+          "title": "AVOID THIS with The Blues Scale",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=QZPPOjhXII8"
+        },
+        {
+          "name": "F 調藍調跟奏練習",
+          "en": "F Blues Backing Track",
+          "kind": "practice",
+          "target": "F調、跟奏、12小節",
+          "title": "Blues in F (jazz) : Backing Track",
+          "channel": "Guitare Improvisation",
+          "url": "https://www.youtube.com/watch?v=YzuMzRhRTPE"
+        },
+        {
+          "name": "12 小節藍調中文導論（鋼琴視角）",
+          "en": "What Is a 12-Bar Blues",
+          "kind": "theory",
+          "target": "12小節藍調、和絃進行、鋼琴視角",
+          "title": "什麼是「12 小節藍調」？（12-bar blues）",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=WId0K_X0MHc"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "Lick 的學法",
+      "type": "skill",
+      "assessment": "挑一句你已經會吹的 ii-V-I lick，依序完成四步驟並逐項打勾：一、不看譜純用哼的唱出整句，音準抓對到能跟鋼琴對上；二、吹奏還原，速度可以放慢但音要對；三、換三個不同調（至少含一個升記號調、一個降記號調）重吹同一句，全程不看譜；四、找一首含 ii-V-I 的標準曲，把這句塞進第一次過門。四步驟同一天內全數完成才算過，只做到唱和吹不算，移調卡住就是還沒真的內化，回頭把該句拆成兩小節一組再唱一次。",
+      "lesson": {
+        "title": "How to Learn AUTHENTIC Jazz Vocabulary (feat. Bruce Harris)",
+        "channel": "Jazz Lesson Videos",
+        "url": "https://www.youtube.com/watch?v=iNgtPSlhe6A",
+        "lang": "en",
+        "why": "由職業爵士小號家 Bruce Harris 親自講解「怎麼學一句真正管用的爵士語彙」，把唱、聽、內化的完整流程講清楚，不是丟一堆 lick 譜要你死背。"
+      },
+      "drills": [
+        {
+          "name": "唱、吹、移調的內化流程",
+          "en": "Sing, Play, Transpose",
+          "kind": "theory",
+          "target": "內化流程、唱奏對應、移調",
+          "title": "Grant Green's Method To Master Jazz Language (Honestly, A Must Know!)",
+          "channel": "Nathan Borton ",
+          "url": "https://www.youtube.com/watch?v=Vp6DqGcDbuw"
+        },
+        {
+          "name": "Minor ii-V 起手樂句",
+          "en": "Minor ii-V Vocabulary Starters",
+          "kind": "walkthrough",
+          "target": "ii-V樂句、起手小樂句、小號視角",
+          "title": "Minor ii-V Vocabulary Starters",
+          "channel": "John Raymond",
+          "url": "https://www.youtube.com/watch?v=um0KX7g61Nk"
+        },
+        {
+          "name": "II-V 樂句與十二調移調練習",
+          "en": "Transposing a ii-V Lick",
+          "kind": "practice",
+          "target": "ii-V樂句、移調、十二調",
+          "title": "召喚「三七仔」來創造更棒的II-V樂句，以及教你如何輕鬆移調一打十二！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=sU5qqd48eBQ"
+        },
+        {
+          "name": "不死背 Licks 的樂句建構法（吉他視角）",
+          "en": "Build Phrases Instead of Memorizing Licks",
+          "kind": "pitfall",
+          "target": "死背樂句、樂句建構、內化",
+          "title": "即興不背Licks！簡單元素建構無限樂句 - 非典型結他研習所",
+          "channel": "非典型結他研習所",
+          "url": "https://www.youtube.com/watch?v=2wueBBtIGT0"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "採譜方法",
+      "type": "skill",
+      "assessment": "挑一段 60 秒以內、速度中庸、音域落在中音域的獨奏（先別選超高音或超快的），用降速軟體放到七成速，先只用哼的把整句旋律唱出來，唱對再拿起小號吹，最後對照原曲核對音準與節奏。同一段獨奏連續三次都能一次到位（不中斷、不靠哼修正）才算通過。若吹出來的音永遠比唱出來的準，代表你在用手指記憶取代耳朵，回去把小號放下只練唱一週。",
+      "lesson": {
+        "title": "How to Transcribe Jazz Solos",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=JuaEWI2x6Wc",
+        "lang": "en",
+        "why": "完整走過採譜的標準流程（選曲、聽記、驗證），是入門採譜方法論最系統化的單支教學，後面四支 drill 分別補上選曲、工具、內化步驟的細節。"
+      },
+      "drills": [
+        {
+          "name": "新手該從哪首獨奏開始採譜",
+          "en": "Which Solo Should You Transcribe First",
+          "kind": "theory",
+          "target": "入門solo、短慢中音域、選曲",
+          "title": "The Easiest Jazz Solos to Learn",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=cBqHFSZRGCU"
+        },
+        {
+          "name": "降速軟體工具介紹",
+          "en": "Slow-Down Software for Transcription",
+          "kind": "walkthrough",
+          "target": "降速軟體、Transcribe!、工具選擇",
+          "title": "Transcribe! The MUST OWN Slow Down Software For Video & Audio - Learn ANY Music The Easy Way!",
+          "channel": "Levi Clay",
+          "url": "https://www.youtube.com/watch?v=FJfoMOcPl70"
+        },
+        {
+          "name": "採譜流程實戰示範",
+          "en": "How I Transcribe Solos",
+          "kind": "walkthrough",
+          "target": "唱在吹之前、採譜流程、聽寫",
+          "title": "How I Transcribe Solos (and Why I Do It This Way)",
+          "channel": "Bob Reynolds",
+          "url": "https://www.youtube.com/watch?v=vBji9Z70WO0"
+        },
+        {
+          "name": "扒譜對學爵士到底有沒有用",
+          "en": "Is Transcription Actually Worth It",
+          "kind": "theory",
+          "target": "採譜、學習成效、爭議",
+          "title": "爵士专业课16：扒谱学爵士真的有用吗？",
+          "channel": "XinJazz法国爵士阿欣",
+          "url": "https://www.youtube.com/watch?v=5OMnZA0CvIE"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u4",
+      "name": "裝飾與小號慣用語",
+      "type": "concept",
+      "lesson": {
+        "title": "Special Effects (Part I) Trumpet Tips & Tricks with Charlie Porter",
+        "channel": "Charlie Porter",
+        "url": "https://www.youtube.com/watch?v=7mFZ5uaJQ3Y",
+        "lang": "en",
+        "why": "訂閱數與教學產量在英文小號頻道裡名列前茅，示範單元最常見的花奏效果（下滑尾音 fall、上揚尾音 doit 這類），當作總覽起點，後面四支 drill 再逐一拆解 ghost notes、shake、half-valve、growl 四個具體技巧。"
+      },
+      "drills": [
+        {
+          "name": "Ghost Notes 的搖擺用法",
+          "en": "Ghosted Notes",
+          "kind": "walkthrough",
+          "target": "ghost notes、搖擺感、弱音符",
+          "title": "How to Swing - Ghosted Notes!",
+          "channel": "Adam Meckler",
+          "url": "https://www.youtube.com/watch?v=ZcxaUUKUxL0"
+        },
+        {
+          "name": "Shake 唇顫音技巧",
+          "en": "Shake",
+          "kind": "walkthrough",
+          "target": "shake、唇顫音、音頭裝飾",
+          "title": "How to do a Shake on the Trumpet",
+          "channel": "Adam Meckler",
+          "url": "https://www.youtube.com/watch?v=ZGfah1GOIb0"
+        },
+        {
+          "name": "Half-Valve 半按閥技巧",
+          "en": "Half Valve",
+          "kind": "walkthrough",
+          "target": "half-valve、半按閥、音色變化",
+          "title": "Extended Techniques: How to Half Valve on Trumpet",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=1LPH6hRMbxk"
+        },
+        {
+          "name": "Growl 與花舌技巧",
+          "en": "Growl & Flutter Tongue",
+          "kind": "walkthrough",
+          "target": "growl、悶音、花舌",
+          "title": "How to Growl and Flutter Tongue on Trumpet | #TrumpetProTips 5",
+          "channel": "Bryan Davis - Airflow Music",
+          "url": "https://www.youtube.com/watch?v=CfsisBcoL5M"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "chapter": "CH5",
+  "title": "節奏與 Swing",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "時間感的地基",
+      "type": "skill",
+      "assessment": "打開節拍器設到 80 BPM,只讓它敲在每小節的第 2、4 拍（不是 1、3）,同時吹一段你熟悉的音階或藍調樂句。錄下自己 2 分鐘,回放時標出每一個音頭落在節拍器聲響前後的位置。判準:20 個音頭裡要有 16 個以上落在節拍器聲響前後 80 毫秒內,且不能連續 3 個音頭同一個方向偏移（全部搶拍或全部拖拍算方向性偏移,代表 pulse 還沒內化,回去做只跟拍不吹奏的空拍練習）。把速度提到 120 BPM 再測一次,判準不變。",
+      "lesson": {
+        "title": "How to Better Use a Metronome in Your Practice Routines",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=Ab1Zg4ibe30",
+        "lang": "en",
+        "why": "這支影片直接示範把節拍器點改成 2、4 拍而不是 1、3 拍的爵士式用法,和坊間常見的節拍器教學方向相反,適合當這個單元的第一支。"
+      },
+      "drills": [
+        {
+          "name": "節拍器放在 2、4 拍",
+          "en": "Metronome on 2 & 4",
+          "kind": "walkthrough",
+          "target": "節拍器、正拍反拍",
+          "title": "Metronome on 2 & 4 - How to get started practicing 2&4 swing feel - Jazz Guitar Lesson",
+          "channel": "Jens Larsen",
+          "url": "https://www.youtube.com/watch?v=7cEjm9Sj9AU"
+        },
+        {
+          "name": "內化 Pulse",
+          "en": "Metronome Inner Pulse",
+          "kind": "theory",
+          "target": "內化拍感、subdivision",
+          "title": "Percussion Lesson - Metronome Inner Pulse",
+          "channel": "Interlochen Center for the Arts",
+          "url": "https://www.youtube.com/watch?v=OsMpODPDdhg"
+        },
+        {
+          "name": "小號手的節拍器練習日誌",
+          "kind": "practice",
+          "target": "節拍器練習、練習方法",
+          "title": "董舜文今天練什麼？[01] 來練節拍器吧！",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=8q_Vlpk1Pzo"
+        },
+        {
+          "name": "為什麼你的時間感抓不穩",
+          "en": "Why Your Time Playing Sucks",
+          "kind": "pitfall",
+          "target": "搶拍、拖拍、常見時間感錯誤",
+          "title": "Why Your Time Playing Sucks! 😫 - And How To Fix It Overnight! 😃 (From A Drummer To ALL MUSICIANS!)",
+          "channel": "Rob Brown",
+          "url": "https://www.youtube.com/watch?v=vrqAiROsydc"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "Swing 八分音符",
+      "type": "skill",
+      "assessment": "播放節拍器 100 BPM,對著八分音符念 doo-bah doo-bah 念滿 8 小節,錄音下來量每一對音符的長短比例:前一個音要佔這一拍時值的六到七成,後一個音只佔三到四成,8 小節裡至少 6 小節維持這個比例才算過。接著換小號吹同一段音型,再錄一次做同樣的測量。最後挑一段中板 swing 錄音（例如 Count Basie 樂團的中板曲目）,跟著吹同一句旋律,音頭要能疊在鼓手 ride cymbal 的節奏型上,連續 4 小節不脫拍才算通過;總是慢半拍才進音,代表耳朵聽和嘴巴吹之間有時間差,回去先只用耳朵跟唱旋律不吹奏,練到能預判下一個音落點再拿起小號。",
+      "lesson": {
+        "title": "Jazz Fundamentals: What Is Swing?",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=31JgwfP15kw",
+        "lang": "en",
+        "why": "用最短的篇幅把 swing 和 straight eighth 的差異講清楚,是這題被引用最多的入門影片,觀看數 40 萬+,適合當單元的地基課。"
+      },
+      "drills": [
+        {
+          "name": "Swing 不是三連音公式",
+          "en": "How To Really Start Swinging",
+          "kind": "theory",
+          "target": "swing feel、三連音迷思",
+          "title": "How To Really Start Swinging",
+          "channel": "Aimee Nolte Music",
+          "url": "https://www.youtube.com/watch?v=AToPlzdqvtw"
+        },
+        {
+          "name": "Swing 節奏總覽",
+          "kind": "theory",
+          "target": "swing 節奏、拍子感",
+          "title": "好和弦教你如何 Swing！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=vIGoV2XRPI0"
+        },
+        {
+          "name": "初學者與大師的 Swing 差異",
+          "kind": "walkthrough",
+          "target": "swing 八分音符、初學與大師對比",
+          "title": "爵士初學與大師的一線之隔，搖擺swing八分音符的兩種不同彈法",
+          "channel": "邱立婷-婷婷爵士 Li-Ting Chiu",
+          "url": "https://www.youtube.com/watch?v=gitSJw3zoaQ"
+        },
+        {
+          "name": "Doo-Bah 分句吐音",
+          "en": "Swing 8th Notes (Doo, Bah)",
+          "kind": "walkthrough",
+          "target": "doo-bah、swing articulation",
+          "title": "The Jazz Ensemble - The basics of jazz style - Lesson 6 - Swing 8th Notes",
+          "channel": "Musicideas",
+          "url": "https://www.youtube.com/watch?v=XhB-DoJqRL0"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "節奏語彙與 phrasing",
+      "type": "concept",
+      "lesson": {
+        "title": "Jazz Phrasing- Ahead, Behind, And Right In Time",
+        "channel": "Aimee Nolte Music",
+        "url": "https://www.youtube.com/watch?v=9E_adydkQqo",
+        "lang": "en",
+        "why": "這支影片示範樂器是鋼琴不是小號,但前推、正拍、後拉三種時間位置的聽感差異原理相通,是少見能讓抽象的「前推後拉」真正聽得出來的教學。"
+      },
+      "drills": [
+        {
+          "name": "休止讓樂句更好聽",
+          "en": "Less Is More",
+          "kind": "theory",
+          "target": "休止、留白、less is more",
+          "title": "WHY DOES IT SOUND BETTER WHEN I STOP PLAYING? (Less is more)",
+          "channel": "Chase Sanborn",
+          "url": "https://www.youtube.com/watch?v=9EDYtKWcwOM"
+        },
+        {
+          "name": "Miles Davis 的空間美學",
+          "en": "10 Things That Made Miles Davis, Miles Davis",
+          "kind": "listen",
+          "target": "Miles Davis、空間感、極簡風格",
+          "title": "10 Things That Made Miles Davis, Miles Davis",
+          "channel": "Aimee Nolte Music",
+          "url": "https://www.youtube.com/watch?v=DSmU7r9sfbo"
+        },
+        {
+          "name": "落後拍子的彈法",
+          "en": "Playing Behind the Beat",
+          "kind": "walkthrough",
+          "target": "behind the beat、前推後拉",
+          "title": "Playing Behind the Beat",
+          "channel": "Berklee Online",
+          "url": "https://www.youtube.com/watch?v=TD6Y68sGX0c"
+        },
+        {
+          "name": "節奏語彙的練習秘訣",
+          "kind": "theory",
+          "target": "節奏語彙、練習方法",
+          "title": "不管什麼節奏，都能彈對的練習秘訣！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=NkYhAmIGSOw"
+        }
+      ]
+    }
+  ]
+}

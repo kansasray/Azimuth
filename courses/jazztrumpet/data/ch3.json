@@ -1,0 +1,155 @@
+{
+  "chapter": "CH3",
+  "title": "音色養成",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "長音:音色的地基",
+      "type": "skill",
+      "assessment": "含住吹嘴,選中音域的G(第二線)當測試音,面前擺調音器同時錄音自己吹奏。閉眼吹滿4拍,起音的瞬間開始聽三件事:氣柱有沒有抖動、音色有沒有從扁平逐漸變開闊、收音瞬間有沒有漏氣的沙聲。連續吹10個長音,要求每個都吹滿4拍以上、調音器指針落在中央區間內、且沒有沙聲,10個裡至少7個過關才算通過。若指針前2拍偏低之後才慢慢爬回中央,通常是先用嘴唇撐住音高再等氣跟上,回頭去做只送氣不出聲的buzzing暖身,把氣先送滿,音準自然會穩。",
+      "lesson": {
+        "title": "Trumpet 🎺小號教學【聽我曼曼說-05】/小號長音練習",
+        "channel": "飛常人觀察日記",
+        "url": "https://www.youtube.com/watch?v=q-aD7FeAAqM",
+        "lang": "zh",
+        "why": "飛常人觀察日記的編號教學系列裡專講長音練習的一集,是中文圈少數直接對應「長音怎麼練」的小號專門教學。系統性的方法論(聽什麼、盯什麼、Cichowicz 素材)交給本單元的英文 drills 補齊深度。"
+      },
+      "drills": [
+        {
+          "name": "音色不穩的常見錯誤",
+          "kind": "pitfall",
+          "target": "音色一致性、常見錯誤、長音練習迷思",
+          "title": "【小號音色教學】練不好是因為這個錯誤！提升 Trumpet 音色一致性的關鍵技巧",
+          "channel": "下班後練小號",
+          "url": "https://www.youtube.com/watch?v=B9AQYChlMQs"
+        },
+        {
+          "name": "Cichowicz Flow Studies 跟練",
+          "en": "Cichowicz Flow Studies II Play-Along",
+          "kind": "practice",
+          "target": "Cichowicz、長音、氣柱流動、Play-Along",
+          "title": "Complete Cichowicz Play Along for Trumpet - Flow Studies ll",
+          "channel": "Jonas Marti",
+          "url": "https://www.youtube.com/watch?v=0SDd10b0W7c"
+        },
+        {
+          "name": "長音該聽什麼",
+          "en": "Listening to Long Tones",
+          "kind": "theory",
+          "target": "聆聽重點、音色開闊度、氣柱穩定",
+          "title": "Trumpet - Listening to Long Tones",
+          "channel": "FJHmusic",
+          "url": "https://www.youtube.com/watch?v=Wun3zLGKeZ4"
+        },
+        {
+          "name": "每日長音課表跟練",
+          "kind": "practice",
+          "target": "每日課表、長音、Play-Along",
+          "title": "# 01 Lone Tones｜Trumpet Daily Routine｜Play - Along｜基本練習一起吹系列【長音】",
+          "channel": "喇叭小姐 Ms. Trumpet",
+          "url": "https://www.youtube.com/watch?v=-Z_tqs1aH3c"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "音準與聽自己",
+      "type": "skill",
+      "assessment": "打開調音器,吹中央C到高音C之間任選5個音,每個音先不看指針,靠耳朵猜自己偏高或偏低,再看指針核對,5題裡面能猜對方向超過3題才算對聽力有感覺。接著把1加3指法的高音D單獨吹給調音器聽,記下音準偏移量;小號1加3指法先天會偏高,若沒動第一或第三滑管就落在中央區間內,代表滑管沒有推出足夠的補償距離,回頭把第一滑管往外拉到記號處再重測一次。最後錄下自己吹一整個音階,回放時只用耳朵挑出哪個音聽起來刺耳或發悶,寫下音名,跟調音器實測的偏移方向對照,兩者吻合才代表耳朵真的聽得出自己的音準問題。",
+      "lesson": {
+        "title": "How To Play In Tune On The Trumpet",
+        "channel": "Ryan Beach",
+        "url": "https://www.youtube.com/watch?v=j4F2uy2f0_k",
+        "lang": "en",
+        "why": "中文圈沒有針對小號音準的系統性教學,這支影片把調音器使用、耳朵判斷、小號音準習慣一次講清楚,是本單元最合適的入口影片,滑管補償與自我錄音的細節再由 drills 補上。"
+      },
+      "drills": [
+        {
+          "name": "一三指滑管的音準補償",
+          "en": "First and Third Valve Slides",
+          "kind": "walkthrough",
+          "target": "1加3指法、滑管補償、音準偏高",
+          "title": "How to Use the First and Third Valve Slides on the Trumpet",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=hXjYkk8fAeU"
+        },
+        {
+          "name": "調音器怎麼用才對",
+          "en": "Basic Tuning on the Trumpet",
+          "kind": "theory",
+          "target": "調音器、基礎調音、音準概念",
+          "title": "Basic Tuning on the Trumpet",
+          "channel": "Trumpet Master Classes with Dr. Brian Shook",
+          "url": "https://www.youtube.com/watch?v=P3Di9WGlszI"
+        },
+        {
+          "name": "用耳朵訓練修正音準",
+          "en": "How to Improve Intonation",
+          "kind": "practice",
+          "target": "耳朵訓練、音準修正、聽自己",
+          "title": "Sulliman- How to Improve Intonation",
+          "channel": "Jason Sulliman",
+          "url": "https://www.youtube.com/watch?v=l74cdgiaGeQ"
+        },
+        {
+          "name": "錄音自我檢視的方法",
+          "kind": "practice",
+          "target": "錄音、自我檢視、器材選擇",
+          "title": "【小號練習必看】錄音機 vs 手機收音差異｜提升吹奏實力的關鍵練習技巧！",
+          "channel": "下班後練小號",
+          "url": "https://www.youtube.com/watch?v=odzFx3hjJxY"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "音色概念與模仿對象",
+      "type": "concept",
+      "lesson": {
+        "title": "How to Get a 'Dark and Smoky' Sound With a Trumpet",
+        "channel": "Jonathan Milam",
+        "url": "https://www.youtube.com/watch?v=kTGl-UkwQoI",
+        "lang": "en",
+        "why": "討論「暗而煙燻」音色怎麼練出來的教學不多,這支影片直接示範如何調整口腔與氣流塑造更暗的音色,對應「你想要的聲音是聽來的」這個核心觀念,比單純的器材介紹更貼近本單元想談的音色養成。"
+      },
+      "drills": [
+        {
+          "name": "Miles Davis的暗色調與Harmon弱音器",
+          "en": "Blue in Green",
+          "kind": "listen",
+          "target": "Miles Davis、暗色調、Harmon mute",
+          "title": "Miles Davis - Blue In Green (Official Audio)",
+          "channel": "MilesDavisVEVO",
+          "url": "https://www.youtube.com/watch?v=TLDflhhdPCg"
+        },
+        {
+          "name": "弱音器種類與音色入門",
+          "en": "Trumpet Mutes: Sound & Uses",
+          "kind": "theory",
+          "target": "弱音器、Harmon、Straight、Cup、Bucket",
+          "title": "Trumpet Mutes: Sound & Uses (Straight, Cup, Harmon & Bucket)",
+          "channel": "Gil Evans Inside Out",
+          "url": "https://www.youtube.com/watch?v=507RWMfpOoI"
+        },
+        {
+          "name": "Clifford Brown的圓潤音色",
+          "en": "April in Paris",
+          "kind": "listen",
+          "target": "Clifford Brown、圓潤音色、伴奏中的音色",
+          "title": "Sarah Vaughan with Clifford Brown - April in Paris (EmArcy Records 1954)",
+          "channel": "RoundMidnightTV",
+          "url": "https://www.youtube.com/watch?v=E6f9FKBdnjI"
+        },
+        {
+          "name": "Chris Botti的氣音音色",
+          "en": "My Funny Valentine feat. Sting",
+          "kind": "listen",
+          "target": "Chris Botti、氣音、breathy tone",
+          "title": "\"My Funny Valentine\" feat. Sting",
+          "channel": "Chris Botti",
+          "url": "https://www.youtube.com/watch?v=eryKY1fhUlo"
+        }
+      ]
+    }
+  ]
+}

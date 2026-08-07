@@ -1,0 +1,131 @@
+{
+  "chapter": "CH10",
+  "title": "合奏與登台",
+  "units": [
+    {
+      "id": "ch10-u1",
+      "name": "Combo 裡的角色",
+      "type": "concept",
+      "lesson": {
+        "title": "How to STOP Getting Lost When Playing a Jazz Standard",
+        "channel": "Learn Jazz Standards",
+        "url": "https://www.youtube.com/watch?v=Q0OVMa8ofCo",
+        "lang": "en",
+        "why": "講清楚一首爵士曲的 head、solo 段落、trading、out chorus 怎麼串起來,小號手在 combo 裡不是只顧自己吹,得先認得整個 form 走到哪一段,才知道現在該吹旋律、伴奏還是準備接手。"
+      },
+      "drills": [
+        {
+          "name": "Trading Fours 實戰教學",
+          "en": "Trading Fours in Jazz",
+          "kind": "walkthrough",
+          "target": "trading fours、四小節輪奏、即興接龍",
+          "title": "Trading Fours in Jazz",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=pQ1NGd7o0DQ"
+        },
+        {
+          "name": "主奏小號的角色",
+          "en": "Playing Lead Trumpet",
+          "kind": "walkthrough",
+          "target": "主奏小號、head、大樂團領奏",
+          "title": "Playing Lead Trumpet by Wayne Bergeron",
+          "channel": "Alfred Music Jazz",
+          "url": "https://www.youtube.com/watch?v=GtepdJngvvk"
+        },
+        {
+          "name": "台上手勢與提示",
+          "en": "Hand Signals During a Jam",
+          "kind": "theory",
+          "target": "手勢、cue、迷路救援",
+          "title": "Using Hand Signals During a Jam Session - GroMusic's School of Jam",
+          "channel": "GroMusic",
+          "url": "https://www.youtube.com/watch?v=nYCIA90EP44"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u2",
+      "name": "Jam Session 生存指南",
+      "type": "skill",
+      "assessment": "去之前列出五首你不看譜、換調也吹得出來的標準曲,至少含一首中板搖擺與一首藍調,曲名、調性、速度先寫在紙上。到現場主持人問要吹什麼,你要能五秒內講出一首並報出調性,不能愣在台上。輪到你數拍開始一首曲子,用踩腳打四拍前奏,力度要讓貝斯手聽得到起拍,同一首曲子連續兩次數拍都落在同一速度才算過關。遇到完全不熟的曲子,先把小號放下聽兩個 chorus 抓和聲走向,再進場吹兩到三個長音試探,不要在不熟的地方硬 solo 搶戲。",
+      "lesson": {
+        "title": "BB3 Presents: Jam Session Etiquette (Tips To Not Get Vibed)",
+        "channel": "Benny Benack III",
+        "url": "https://www.youtube.com/watch?v=Gm92F-ea5aY",
+        "lang": "en",
+        "why": "由職業爵士小號家 Benny Benack III 本人講解 jam session 最常見的失禮行為,例如搶麥、曲子拖太長、不看指揮,用小號手的第一人稱視角講清楚新手最容易踩的雷,比其他樂器視角的禮儀教學更貼近小號手會遇到的情境。"
+      },
+      "drills": [
+        {
+          "name": "十首必會標準曲",
+          "en": "10 Must-Know Jazz Standards",
+          "kind": "theory",
+          "target": "曲目庫、標準曲、必會清單",
+          "title": "10 Must-Know Jazz Standards for Jam Sessions",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=kYDOY_p62AE"
+        },
+        {
+          "name": "第一次上台前的準備",
+          "en": "How to Approach a Jam Session",
+          "kind": "theory",
+          "target": "叫曲、上台流程、事前準備",
+          "title": "How to Approach a Jam Session",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=EwIHg8nBIX8"
+        },
+        {
+          "name": "Jam Session 潛規則",
+          "en": "Jam Session Unwritten Rules",
+          "kind": "pitfall",
+          "target": "潛規則、張力鋪陳、眼神交流",
+          "title": "走啊 Jam 一下！等等，這些 Jam Session 潛規則你都知道嗎？ #育哥放大爵 || 樂手巢",
+          "channel": "YSOLIFE",
+          "url": "https://www.youtube.com/watch?v=2Kmdu4Wm6fc"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u3",
+      "name": "登台與麥克風",
+      "type": "skill",
+      "assessment": "上台前用手機錄音 app 對著麥克風站定位置測試:號口距離麥克風約一個拳頭,10 到 15 公分,角度偏離麥克風軸心 15 到 30 度,不要正對著吹,奏一段中強音的長音後回放,檢查有沒有爆音或蓋過旁邊樂器的聲音。監聽聽不到自己的小號時,要能在下一首歌開始前用手勢跟音控要求加大小號的量,不要等整場結束才反應。上台前五分鐘做四拍呼吸法:吸四拍、閉四拍、吐四拍、閉四拍,連續三輪,手抖或嘴唇發緊的感覺降到能穩穩含住吹嘴才算過關。",
+      "lesson": {
+        "title": "Proper Trumpet Microphone Technique for Live Performance",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=xZQDbd6tW9M",
+        "lang": "en",
+        "why": "直接示範小號麥克風的距離與角度怎麼抓,收音教學多數是講人聲或吉他,這支片專門對著小號說,新手常見的錯是把麥克風架好就不管,這支片會講清楚為什麼距離角度不對會爆音或收不到聲音。"
+      },
+      "drills": [
+        {
+          "name": "小號手的上台緊張",
+          "en": "Dealing with Performance Anxiety",
+          "kind": "theory",
+          "target": "緊張管理、上台前準備、呼吸",
+          "title": "Allen Vizzutti Trumpet - Dealing with performance anxiety",
+          "channel": "dawkesmusic",
+          "url": "https://www.youtube.com/watch?v=3vRXoUrbxC4"
+        },
+        {
+          "name": "入耳式監聽入門",
+          "en": "IEM Monitor Basics",
+          "kind": "walkthrough",
+          "target": "監聽、IEM 耳返、音量溝通",
+          "title": "Fender Audio︱使用 IEM 入耳式監聽表演要知道的事︱feat. 江力平(濁水溪公社)",
+          "channel": "海國樂器",
+          "url": "https://www.youtube.com/watch?v=rJ3RlFEFMwQ"
+        },
+        {
+          "name": "Set 曲目安排",
+          "en": "Perfect Set List for Gigs",
+          "kind": "theory",
+          "target": "set list、曲序、能量安排",
+          "title": "8 Must-Know Jazz Standards for Jazz Gigs (Perfect Set List)",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=6oM_rRCcasQ"
+        }
+      ]
+    }
+  ]
+}

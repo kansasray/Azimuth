@@ -1,0 +1,216 @@
+{
+  "chapter": "CH9",
+  "title": "大師研究",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "Miles Davis:空間與歌唱",
+      "type": "master",
+      "assessment": "隨機播三段1950年代末到1960年代的小號獨奏錄音,你要能在30秒內指出哪段是Miles Davis,並說出兩個依據:樂句與樂句之間留有超過一拍的呼吸空隙,音符數量明顯少於同時代的Bebop樂手,且中低音域出現頻率高於高音區的炫技音。挑一段他的獨奏,用碼表數每8小節的停頓次數,少於兩次代表你聽錯人了。說不出依據就回去把《So What》獨奏的採譜對照原曲慢速跟唱一次,專門聽他把音符省掉的地方。",
+      "lesson": {
+        "title": "Miles Davis - Solo analysis -  \"SO WHAT\"",
+        "channel": "Jazzduets",
+        "url": "https://www.youtube.com/watch?v=s5fc7gEh5r0",
+        "lang": "en",
+        "why": "Jazzduets這支影片直接對Miles Davis在《So What》裡的獨奏逐句分析,把「用空間說話」這個抽象說法對應到具體的樂句與停頓位置,是本單元最貼合「空間與歌唱」主題的拆解影片。"
+      },
+      "drills": [
+        {
+          "name": "《So What》獨奏逐音跟譜",
+          "en": "So What Trumpet Solo Transcription",
+          "kind": "listen",
+          "target": "採譜視覺化、So What、樂句停頓",
+          "title": "Miles Davis ¨So What¨ - Trumpet Solo (Transcription C)",
+          "channel": "Santiago Montaña",
+          "url": "https://www.youtube.com/watch?v=xhNM8vNl-Co"
+        },
+        {
+          "name": "1959年電視錄影名演",
+          "en": "The Robert Herridge Theater Performance",
+          "kind": "listen",
+          "target": "名演、現場演出、Miles Davis與Coltrane",
+          "title": "Miles Davis - So What - The Robert Herridge Theater, New York - April 2, 1959",
+          "channel": "999dsfa",
+          "url": "https://www.youtube.com/watch?v=diHFEapOr_E"
+        },
+        {
+          "name": "So What風格模仿練習",
+          "en": "Modal Soloing in the Style of Miles Davis",
+          "kind": "practice",
+          "target": "模仿練習、調式獨奏、So What風格",
+          "title": "Modal Soloing: \"So What\" Solo In the Style of Miles Davis",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=VVF5EvL2h8U"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "Clifford Brown:清晰與樂句的建築",
+      "type": "master",
+      "assessment": "隨機播三段1950年代小號獨奏,你要能在30秒內指出哪段是Clifford Brown,並說出兩個依據:連續八分音符的長樂句一口氣跨兩到四小節不斷氣,且幾乎每個重拍都精準落在和弦內音上,音頭乾淨沒有滑音修飾。找一段他的獨奏,數看看最長的一句連續八分音符跑了幾小節,少於兩小節代表你選錯示範段落。說不出依據就回去把《Joy Spring》的採譜整段跟唱三遍,直到能不看譜哼出樂句的骨架音。",
+      "lesson": {
+        "title": "This Is How Clifford Brown Built His Solos",
+        "channel": "Jazz Language Lab",
+        "url": "https://www.youtube.com/watch?v=AA0--EtTPTg",
+        "lang": "en",
+        "why": "Jazz Language Lab這支影片專門拆解Clifford Brown獨奏樂句的構造邏輯,直接對應「樂句的建築」這個單元主題,比單純的採譜更著重他怎麼把音符組裝成長句。"
+      },
+      "drills": [
+        {
+          "name": "《Joy Spring》獨奏逐音跟譜",
+          "en": "Joy Spring Trumpet Solo Transcription",
+          "kind": "listen",
+          "target": "採譜視覺化、Joy Spring、樂句構造",
+          "title": "Joy Spring - Clifford Brown Trumpet Solo Transcription (in C)",
+          "channel": "My Favorite Lines",
+          "url": "https://www.youtube.com/watch?v=gc2nrk77oaM"
+        },
+        {
+          "name": "與Max Roach合作的《Cherokee》名演",
+          "en": "Cherokee with Max Roach",
+          "kind": "listen",
+          "target": "名演、Cherokee、連續八分音符",
+          "title": "Clifford Brown & Max Roach - Cherokee",
+          "channel": "masqualero",
+          "url": "https://www.youtube.com/watch?v=UXPzAasKWQg"
+        },
+        {
+          "name": "Clifford Brown lick內化練習",
+          "en": "Internalizing a Clifford Brown Lick",
+          "kind": "practice",
+          "target": "模仿練習、lick內化、樂句拆解",
+          "title": "I Analyzed Clifford Brown's Jazz Lick: Here's How to Internalize it",
+          "channel": "Eric Jacobson Jazz Trumpeter and Jazz Instructor",
+          "url": "https://www.youtube.com/watch?v=bGPErKFoatE"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u3",
+      "name": "Roy Hargrove:hard bop 的當代傳承",
+      "type": "master",
+      "assessment": "隨機播三段1990年代之後的小號獨奏,你要能在30秒內指出哪段是Roy Hargrove,並說出兩個依據:樂句裡混著Bebop的快速音群與藍調的滑音修飾,音色比Bebop前輩更暗更厚,句尾常用小三度或藍音收尾而不是單純落在和弦音。播《Strasbourg St. Denis》任一版本的拆解,對照原曲數出前八小節裡用了幾次半音接近音,少於三次代表你聽的不是同一段獨奏。說不出依據就回去把兩支拆解教學交叉聽一次,找出兩位老師分析角度不一致的地方。",
+      "lesson": {
+        "title": "Breaking Down Roy Hargrove's Strasbourg St Denis",
+        "channel": "John Nathan Cordy",
+        "url": "https://www.youtube.com/watch?v=UONt6_5bngM",
+        "lang": "en",
+        "why": "John Nathan Cordy對《Strasbourg St. Denis》的完整拆解版本,是本單元的主線教材,講解Roy Hargrove怎麼把Bebop語彙與藍調樂句揉在同一個樂句裡。"
+      },
+      "drills": [
+        {
+          "name": "《Strasbourg St. Denis》第二版拆解對照",
+          "en": "Strasbourg St. Denis Transcription Breakdown (Alt. Version)",
+          "kind": "listen",
+          "target": "對照拆解、Strasbourg St. Denis、不同教學視角",
+          "title": "How To Play Strasbourg St. Denis-Roy Hargrove Transcription Breakdown",
+          "channel": "Shawn Bell",
+          "url": "https://www.youtube.com/watch?v=NsPgmirHTcM"
+        },
+        {
+          "name": "RH Factor現場:放克靈魂樂的另一面",
+          "en": "The RH Factor Live",
+          "kind": "listen",
+          "target": "RH Factor、放克靈魂樂、跨界",
+          "title": "Renee Neufville w/ Roy Hargrove's RH Factor - Forget Regret (Live Burghausen 2005)",
+          "channel": "reneeneufvillemusic",
+          "url": "https://www.youtube.com/watch?v=RUPycMvuW5w"
+        },
+        {
+          "name": "Hargrove招牌ii-V-I樂句練習",
+          "en": "Roy Hargrove's ii-V-I Lick",
+          "kind": "practice",
+          "target": "模仿練習、ii-V-I、Hargrove語彙",
+          "title": "How Roy Hargrove Improvised over a Major ii V I [Jazz Trumpet Lick #1]",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=ZRxz4RIECE4"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u4",
+      "name": "Chris Botti:抒情與音色的商業高峰",
+      "type": "master",
+      "assessment": "隨機播三段抒情爵士小號演奏,你要能在30秒內指出哪段是Chris Botti,並說出兩個依據:音色偏氣音,高音域少有金屬感的刺耳泛音,伴奏編制多半是弦樂或鋼琴三重奏而非傳統爵士鼓貝斯配置,旋律幾乎不脫離原曲主題做大幅度即興。挑一段他演奏的抒情曲,計時看他吹超過四小節連續即興樂句的次數,若超過兩次代表你選到的可能不是他的代表演出。說不出依據就回去把《When I Fall in Love》與《Emmanuel》兩段演出對照聽一次,專心聽他怎麼把旋律唱歌化。",
+      "lesson": {
+        "title": "Chris Botti - CHS Masterclass",
+        "channel": "Cedarburg Performing Arts Center (CPAC)",
+        "url": "https://www.youtube.com/watch?v=y8A3XQgl_h0",
+        "lang": "en",
+        "why": "全網查無Chris Botti的技法或音色拆解教學,中英文皆然,盤點已確認。本單元以他本人少見公開的大師班片段當lesson,再以演出與訪談讓學生認識他的音樂觀,不硬找不合格的教學片充當拆解。"
+      },
+      "drills": [
+        {
+          "name": "《When I Fall in Love》官方演出",
+          "en": "When I Fall in Love",
+          "kind": "listen",
+          "target": "名演、抒情演奏、氣音音色",
+          "title": "When I Fall in Love",
+          "channel": "Chris Botti - Topic",
+          "url": "https://www.youtube.com/watch?v=HJheZYZTVmE"
+        },
+        {
+          "name": "《Emmanuel》官方演出",
+          "en": "Emmanuel",
+          "kind": "listen",
+          "target": "名演、旋律歌唱化、弦樂編制",
+          "title": "Emmanuel",
+          "channel": "Chris Botti - Topic",
+          "url": "https://www.youtube.com/watch?v=mTeEGvWC38s"
+        },
+        {
+          "name": "Bone2Pick深度專訪",
+          "en": "Bone2Pick: Chris Botti Interview",
+          "kind": "listen",
+          "target": "訪談、音樂觀、職業歷程",
+          "title": "Bone2Pick: Chris Botti Interview, Part 1",
+          "channel": "HipBoneMusic",
+          "url": "https://www.youtube.com/watch?v=DWOdrRvcLP0"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u5",
+      "name": "更多巨人:Dizzy、Freddie Hubbard、Lee Morgan、Wynton",
+      "type": "master",
+      "assessment": "隨機播四段咆勃到後咆勃時期的小號獨奏,你要能在30秒內配對出哪段是Dizzy Gillespie、哪段是Freddie Hubbard、哪段是Lee Morgan、哪段是Wynton Marsalis,並各說出一個依據:Dizzy的樂句帶明顯的和聲跳進與升高把位的滑音,Hubbard在調式曲目裡常用五聲音階堆疊音域,Morgan的樂句短促俏皮且常用重複音型,Wynton的音色最乾淨、節奏最貼近古典訓練的精準咬字。四段全對才算過,錯一段就回去把對應那位大師的拆解或採譜再聽一次。",
+      "lesson": {
+        "title": "Wynton Marsalis Trumpet Master Class University of Arizona 1992",
+        "channel": "Bobby Roubal",
+        "url": "https://www.youtube.com/watch?v=nVQCF3TCd_o",
+        "lang": "en",
+        "why": "Wynton Marsalis在四人裡教學紀錄最完整,這支大學大師班錄影涵蓋技巧與即興觀念,適合當「更多巨人」單元的主線,再用三支各自代表作把Dizzy、Hubbard、Morgan分別接上。"
+      },
+      "drills": [
+        {
+          "name": "Dizzy親自講解爵士咬字",
+          "en": "Dizzy Gillespie on Jazz Articulation",
+          "kind": "theory",
+          "target": "Dizzy Gillespie、咬字、一手資料",
+          "title": "Dizzy Gillespie explaining jazz articulation etc.",
+          "channel": "TrumpetPlayerOnline",
+          "url": "https://www.youtube.com/watch?v=G6fZicJ1P5M"
+        },
+        {
+          "name": "Hubbard《Joy Spring》獨奏採譜",
+          "en": "Freddie Hubbard's Joy Spring Solo Transcription",
+          "kind": "listen",
+          "target": "採譜、Freddie Hubbard、調式語彙",
+          "title": "Freddie Hubbard's solo on 'Joy Spring' (Transcription)",
+          "channel": "The Music Stand",
+          "url": "https://www.youtube.com/watch?v=KEFRc7GbUyI"
+        },
+        {
+          "name": "Lee Morgan招牌樂句拆解練習",
+          "en": "Lee Morgan ii-V-I Lick Breakdown",
+          "kind": "practice",
+          "target": "模仿練習、Lee Morgan、ii-V-I",
+          "title": "How Lee Morgan Improvises over Major ii V I Chord Progression | Lick Breakdown",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=zDtLYu3oBAM"
+        }
+      ]
+    }
+  ]
+}

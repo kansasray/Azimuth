@@ -1,0 +1,173 @@
+{
+  "chapter": "CH11",
+  "title": "職業之路與樂手健康",
+  "units": [
+    {
+      "id": "ch11-u1",
+      "name": "職業樂手的一天",
+      "type": "concept",
+      "lesson": {
+        "title": "What It ACTUALLY Takes To Be a Jazz Musician in 2022...",
+        "channel": "Patrick Bartley",
+        "url": "https://www.youtube.com/watch?v=OekOEw8vbUU",
+        "lang": "en",
+        "why": "薩克斯風視角,但講的是「職業爵士樂手」共通的現實:練習量、收入落差、與同輩的焦慮比較,是這個單元最完整的開場片,比零星訪談片段更能建立整體圖像。"
+      },
+      "drills": [
+        {
+          "name": "巡演小號手的真實工作",
+          "en": "Life on Tour as a Trumpet Player",
+          "kind": "theory",
+          "target": "巡演生活、收入來源、職業現實",
+          "title": "Bruno Mars Trumpet Player “Jimmy King” talks Tour Life, Success, and more",
+          "channel": "R3D's View",
+          "url": "https://www.youtube.com/watch?v=qJZayrsAAr4"
+        },
+        {
+          "name": "音樂工作能不能養活自己",
+          "en": "Can You Actually Make a Living in Music?",
+          "kind": "pitfall",
+          "target": "收入結構、兼職模式、常見迷思",
+          "title": "我做過哪些音樂工作，好賺嗎？學音樂如何不餓死的完全指南！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=tNt8yMwSZ8Y"
+        },
+        {
+          "name": "爵士樂手的十種收入來源",
+          "en": "10+ Ways to Earn Income as a Jazz Musician",
+          "kind": "theory",
+          "target": "收入結構、教學、演出、版稅",
+          "title": "How to MAKE MONEY as a Jazz Musician | 10+ Ways to earn income!",
+          "channel": "Nick Finzer",
+          "url": "https://www.youtube.com/watch?v=g0gilvJ0wZc"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u2",
+      "name": "錄音與 Audition",
+      "type": "skill",
+      "assessment": "用手機或一支入門麥克風,在安靜房間錄一段90秒的獨奏,回放時分三次專注聽:第一次只聽音量有沒有爆音、第二次只聽房間殘響有沒有蓋過音色細節、第三次只聽有沒有環境雜音蓋過弱音段落。三項裡有兩項以上不合格,先換錄音位置或加毯子吸音,不要急著換麥克風。接著挑一首熟悉的標準曲錄三個不同速度的版本投出去試水溫,兩週內若投遞的地方都沒回音,先檢討曲目與錄音品質再重投,被拒絕是常態,五次投遞裡有一次回覆已經算正常比例。",
+      "lesson": {
+        "title": "What Does It Take To Win A Professional Trumpet Audition?￼",
+        "channel": "Ryan Beach",
+        "url": "https://www.youtube.com/watch?v=kWcAzkn5FZo",
+        "lang": "en",
+        "why": "職業小號教育者用具體的準備時間表帶你走一次試奏準備的全過程,從練習曲目的優先順序到臨場心理調適都涵蓋在內,是這個單元建立「試奏是可以被系統化準備」這個觀念的起點。"
+      },
+      "drills": [
+        {
+          "name": "小號在家錄音的最簡配置",
+          "en": "Minimal Home Recording Setup for Trumpet",
+          "kind": "walkthrough",
+          "target": "麥克風、介面、錄音位置",
+          "title": "My Home Recording Set-Up for Trumpet | Mic, Interface, DAW",
+          "channel": "Chloe Swindler",
+          "url": "https://www.youtube.com/watch?v=4OA9_REx_5M"
+        },
+        {
+          "name": "試奏帶最常見的錯誤",
+          "en": "Common Mistakes in Audition Tapes",
+          "kind": "pitfall",
+          "target": "試奏帶、錄音失誤、剪輯誠實度",
+          "title": "Don't Make These Mistakes When Making an Audition Tape",
+          "channel": "Ryan Beach",
+          "url": "https://www.youtube.com/watch?v=70Ey5YXZ5t4"
+        },
+        {
+          "name": "被拒絕是這行的常態",
+          "en": "Rejection Is Part of the Job",
+          "kind": "theory",
+          "target": "被拒絕、心理調適、長期心態",
+          "title": "How To *Musician* EPISODE 5 : Rejection",
+          "channel": "Cory Wong",
+          "url": "https://www.youtube.com/watch?v=TqD4o2SVT1s"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u3",
+      "name": "聽力保護",
+      "type": "skill",
+      "assessment": "排練或演出前,先做一次耳塞密合度測試:戴好音樂家耳塞後用手指分別按住左右耳塞根部再放開,聽音量有沒有明顯忽大忽小,沒有變化才代表塞得夠密合,一放手音量就彈回來,代表耳道貼合度不夠,要換一個尺寸的耳塞或耳套。接著用手機分貝計app,站在自己平常排練的位置量測整場的音量峰值,峰值若常態超過100分貝,代表這個空間在一小時內就可能造成暫時性聽力閾值偏移,下一步是拉開與音源的距離或加裝吸音板,不是靠意志力忍過去。連續三次排練後如果耳朵有悶脹感或耳鳴超過半小時才消退,那就是暴露量已經超標的訊號,下一場一定要戴耳塞。",
+      "lesson": {
+        "title": "How I Protect My Hearing as a Musician",
+        "channel": "Pierre Piscitelli",
+        "url": "https://www.youtube.com/watch?v=ubYsl1-c9n0",
+        "lang": "en",
+        "why": "職業樂手第一手講述自己聽力受損後才開始戴耳塞的經過,不是廠商置入式介紹,講清楚哪些場合非戴不可、哪些場合可以不戴,是這個單元最具體的開場片。"
+      },
+      "drills": [
+        {
+          "name": "音樂家耳塞怎麼選",
+          "en": "Choosing Musician's Earplugs",
+          "kind": "walkthrough",
+          "target": "音樂家耳塞、選購、配戴",
+          "title": "聽力學家超驚訝｜音樂工作者都沒在保護聽力？快接住這個音樂耳塞｜Musician's hearing is at risk, catch this musician earplug here EnSub",
+          "channel": "聽力公主・Hearing Action",
+          "url": "https://www.youtube.com/watch?v=HSz_4aQxabc"
+        },
+        {
+          "name": "音量如何造成聽力損傷",
+          "en": "How Loud Music Damages Your Hearing",
+          "kind": "theory",
+          "target": "聽力損傷機制、暴露量、科學實證",
+          "title": "Can loud music damage your hearing? - Heather Malyuk",
+          "channel": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=-R307w05iJc"
+        },
+        {
+          "name": "現場演出的音量抓多大才安全",
+          "en": "How Loud Is Too Loud in Live Sound",
+          "kind": "pitfall",
+          "target": "音量管理、舞台音量、排練現場",
+          "title": "How Loud Is Too Loud In Live Sound",
+          "channel": "Offshore Audio",
+          "url": "https://www.youtube.com/watch?v=14QDjJYeEQY"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u4",
+      "name": "嘴唇與身體的永續",
+      "type": "skill",
+      "assessment": "每次練習後把感覺分兩種記下來對照:一種是嘴唇痠、像跑完步的大腿一樣悶脹,休息15分鐘後力氣會回來,這是正常的肌肉疲勞。另一種是嘴唇某個定點刺痛、發麻,或吹到熟悉的音突然抖動跑音,休息一晚隔天一碰吹嘴同一個地方立刻又痛,這是身體在示警,不是單純沒睡飽。連續兩週出現第二種訊號還硬練,就是在往embouchure崩潰或focal dystonia(局部肌張力不全,少見但存在,一旦發生需要專業復健介入)的方向走,該做的是停練三天並找教師或醫療人員評估,不是換個吹嘴繼續撐。同時檢查鏡子裡的坐姿,肩膀有沒有不自覺聳起、下巴有沒有前伸頂著吹嘴,這兩個姿勢長期下來會把頸椎與呼吸的負擔轉嫁到嘴唇上,拖長恢復期。",
+      "lesson": {
+        "title": "Trumpet tip,  trumpet related injuries, conditions and recovery",
+        "channel": "Rufftips trumpet stuff",
+        "url": "https://www.youtube.com/watch?v=t3-oonauf48",
+        "lang": "en",
+        "why": "少見的小號專門「傷害與復健」整理,把常見的嘴唇、口腔、呼吸相關問題與復健方向逐一點名,不是嚇唬人的警世片,是這個單元建立「身體訊號要認得出來」這個觀念的起點。"
+      },
+      "drills": [
+        {
+          "name": "下嘴唇塌陷的觀察指標",
+          "en": "Top Lip Set Point and Bottom Lip Collapse",
+          "kind": "theory",
+          "target": "嘴唇塌陷、embouchure崩壞、觀察指標",
+          "title": "Top Lip Set Point and Bottom Lip Collapse",
+          "channel": "Trumpet Thoughts",
+          "url": "https://www.youtube.com/watch?v=9RCu1vFfJBU"
+        },
+        {
+          "name": "職業小號家親歷 Focal Dystonia",
+          "en": "A Professional Trumpeter's Account of Embouchure Dystonia",
+          "kind": "pitfall",
+          "target": "focal dystonia、embouchure崩壞、職業生涯衝擊",
+          "title": "Philip Smith - Dealing with Embouchure Dystonia",
+          "channel": "Amersham Band",
+          "url": "https://www.youtube.com/watch?v=Ct2uGgySOGI"
+        },
+        {
+          "name": "頸部與背部的長期保養",
+          "en": "Neck and Back Care for Trumpet Players",
+          "kind": "walkthrough",
+          "target": "姿勢、頸椎、背部張力",
+          "title": "Muscle Control to Eliminate Neck and Back Pain Associated with Trumpet Playing",
+          "channel": "BlackwellsTrumpetBasics",
+          "url": "https://www.youtube.com/watch?v=4N_3KYu_hgQ"
+        }
+      ]
+    }
+  ]
+}

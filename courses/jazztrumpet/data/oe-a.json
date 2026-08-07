@@ -1,0 +1,492 @@
+{
+  "conditions": [
+    {
+      "unit": "ch2-u2",
+      "name": "呼吸支撐與管樂/銅管演奏的呼吸功能",
+      "evidence_grade": "moderate",
+      "summary": "銅管與木管樂手的肺功能被多篇研究記錄到與非樂手族群有系統性差異,1964年Bouhuys的經典生理量測更早早確立了管樂演奏對呼吸型態的特殊要求;但這不等於「額外做呼吸支撐訓練有用」——2024年一篇針對職業小號手的對照介入研究顯示,五週吐氣肌力訓練確實提升了最大吐氣壓力,卻對長音、高音、動態、樂句等實際演奏表現沒有可測得的影響,研究者直接下結論這類訓練對已具備優異呼吸控制的職業演奏者「似乎沒有必要」。課程教「呼吸支撐很重要」有生理學基礎,但教「買呼吸訓練器材能讓你吹更好」目前最直接的對照實驗給的是否定答案。",
+      "citations": [
+        {
+          "pmid": "16624650",
+          "title": "Reduced pulmonary function in wind instrument players.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16624650/",
+          "journal": "Archives of medical research",
+          "year": 2006,
+          "design": "cross-sectional comparative study"
+        },
+        {
+          "pmid": "14207753",
+          "title": "LUNG VOLUMES AND BREATHING PATTERNS IN WIND-INSTRUMENT PLAYERS.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14207753/",
+          "journal": "Journal of applied physiology",
+          "year": 1964,
+          "design": "physiological measurement study"
+        },
+        {
+          "pmid": "38413827",
+          "title": "Effect of Expiratory Muscle Strength Training on the Performance of Professional Male Trumpet Players.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38413827/",
+          "journal": "Medical problems of performing artists",
+          "year": 2024,
+          "design": "controlled intervention study"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u2",
+      "name": "音準的聽覺-動作回饋控制(證據來自聲樂,非銅管直接研究)",
+      "evidence_grade": "limited",
+      "summary": "兩篇聲樂領域的研究顯示,音準準確度建立在聽覺回饋與動作(肌肉運動覺)回饋的整合上,而且專業聲樂訓練會改變歌手對自己音準的知覺——某些受過訓練的歌手對自己實際唱準與否的判斷反而會出現系統性偏差。但這兩篇研究的對象都是歌手,不是銅管或木管樂手;小號音準涉及的是嘴唇張力與氣柱的物理耦合,和聲帶的神經肌肉控制機制不同,能不能直接套用到吹奏樂器上,文獻沒有回答,是課程自己做的類比延伸。",
+      "citations": [
+        {
+          "pmid": "36732108",
+          "title": "The Key to Singing Off-Key: The Trained Singer and Pitch Perception Distortion.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36732108/",
+          "journal": "Journal of voice : official journal of the Voice Foundation",
+          "year": 2025,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "15193657",
+          "title": "Effects of a professional solo singer education on auditory and kinesthetic feedback--a longitudinal study of singers' pitch control.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15193657/",
+          "journal": "Journal of voice : official journal of the Voice Foundation",
+          "year": 2004,
+          "design": "longitudinal study"
+        }
+      ]
+    },
+    {
+      "unit": "ch4-u4",
+      "name": "高音域演奏所需的嘴唇張力與腔內氣壓(銅管生物力學)",
+      "evidence_grade": "moderate",
+      "summary": "兩篇銅管演奏生物力學的經典測量研究確認,音高升高時吹嘴接觸力與腔內氣壓會同步上升,顯示「音域擴展」在物理上必然伴隨嘴唇張力與氣壓控制能力的增加,不是單純換氣方式或想像就能達成。但這兩篇都是1980、90年代的小樣本儀器量測研究,量的是物理量本身而非教學介入的成效,不能直接告訴課程「該怎麼練音域」,只能確立音域擴展背後的生理限制是真實存在的。",
+      "citations": [
+        {
+          "pmid": "3417693",
+          "title": "Mouthpiece forces produced while playing the trumpet.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3417693/",
+          "journal": "Journal of biomechanics",
+          "year": 1988,
+          "design": "biomechanical measurement study"
+        },
+        {
+          "pmid": "7699175",
+          "title": "Acoustical behavior of brass player's lips.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7699175/",
+          "journal": "The Journal of the Acoustical Society of America",
+          "year": 1995,
+          "design": "acoustic measurement study"
+        }
+      ]
+    },
+    {
+      "unit": "ch4-u5",
+      "name": "分散練習優於集中練習、睡眠鞏固運動記憶",
+      "evidence_grade": "moderate",
+      "summary": "一篇涵蓋數十年研究的統合分析確認,把同樣的練習量分散在多個時段比集中一次練完(massed practice)記得更牢,是認知科學中少數效果量穩定且被大量複製的發現;另一篇經典實驗顯示,包含睡眠的間隔會鞏固剛學會的手指動作序列,單純時間流逝做不到同樣效果。但這兩篇分散練習與睡眠鞏固的核心證據來自一般語文或按鍵序列作業,直接針對「音樂練習」的證據薄很多——僅有一篇小規模研究測到練習中段休息的安排會影響隔夜鍵盤旋律記憶鞏固,樣本小,不能等同於前兩篇的證據強度。",
+      "citations": [
+        {
+          "pmid": "16719566",
+          "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+          "journal": "Psychological bulletin",
+          "year": 2006,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "12123620",
+          "title": "Practice with sleep makes perfect: sleep-dependent motor skill learning.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/",
+          "journal": "Neuron",
+          "year": 2002,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "19673774",
+          "title": "Effects of early and late rest breaks during training on overnight memory consolidation of a keyboard melody.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19673774/",
+          "journal": "Annals of the New York Academy of Sciences",
+          "year": 2009,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u1",
+      "name": "節奏訓練對時間知覺與計時學習的影響",
+      "evidence_grade": "limited",
+      "summary": "一篇短期節奏訓練實驗測到,經過多感官節奏訓練後,大腦處理節奏的皮質活動出現可測得的改變;另一篇研究則發現鋼琴家的計時與力度控制學習表現,會被疲勞這類生理狀態系統性影響。兩篇都支持「時間感是可以被訓練、也會被生理狀態干擾的技能」這個大方向,但都是小樣本、短期的實驗室研究,沒有回答「哪種節奏練習方法最有效」,更沒有針對爵士樂手的swing時間感做過直接測試。",
+      "citations": [
+        {
+          "pmid": "21747907",
+          "title": "Cortical plasticity induced by short-term multimodal musical rhythm training.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21747907/",
+          "journal": "PloS one",
+          "year": 2011,
+          "design": "controlled training study"
+        },
+        {
+          "pmid": "38062126",
+          "title": "Behavioral and physiological fatigue-related factors influencing timing and force control learning in pianists.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38062126/",
+          "journal": "Scientific reports",
+          "year": 2023,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u2",
+      "name": "Swing八分音符的微時值模式是否有一致的量化規律",
+      "evidence_grade": "contested",
+      "summary": "對真實錄音進行精密時值測量的研究確實存在,而且發現了一致的方向:兩篇聲學測量研究(涵蓋各種速度下的爵士合奏與爵士鼓手)都測到swing的八分音符時值比例並非固定的2:1或3:1,而是隨速度系統性變化、且在合奏中呈現共同的節奏模式。但另一篇對大量錄音做微時值分析的民族音樂學研究直接挑戰「用單一時值比例描述swing」這個簡化模型本身,指出實際錄音中的八分音符時值遠比任何固定比例公式更多樣、更依賴個別樂手與樂句脈絡。換句話說,「swing的時值不是機械的固定比例」有紮實測量證據,但「該用什麼模型描述它」仍有爭議,課程若教一個固定的swing比例公式,會比實際錄音測到的現象更簡化。",
+      "citations": [
+        {
+          "doi": "10.1525/mp.2002.19.3.333",
+          "title": "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern",
+          "url": "https://doi.org/10.1525/mp.2002.19.3.333",
+          "journal": "Music Perception",
+          "year": 2002,
+          "design": "acoustic measurement study"
+        },
+        {
+          "doi": "10.1121/1.426228",
+          "title": "Jazz drummers’ swing ratio in relation to tempo",
+          "url": "https://doi.org/10.1121/1.426228",
+          "journal": "The Journal of the Acoustical Society of America",
+          "year": 1999,
+          "design": "acoustic measurement study"
+        },
+        {
+          "doi": "10.2307/20174424",
+          "title": "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm",
+          "url": "https://doi.org/10.2307/20174424",
+          "journal": "Ethnomusicology",
+          "year": 2006,
+          "design": "corpus microrhythm analysis"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u3",
+      "name": "音程辨識與旋律音高變化偵測的聽知覺基礎",
+      "evidence_grade": "limited",
+      "summary": "三篇聽知覺心理物理學研究顯示,人耳辨識音程大小的門檻會隨標準音程本身的大小系統性變化,而在覆誦或偵測旋律中的音高變化時,節拍與和聲脈絡也會影響偵測準確度——這些都是「採譜」(把聽到的旋律轉寫成音符)背後必須具備的基礎聽覺辨識能力。但三篇都是實驗室裡的純音或短旋律片段測驗,不是「聽爵士獨奏採譜」這種真實、長樂句、含即興裝飾音的任務,證據只能算是採譜所需能力的間接基礎,不是採譜訓練本身成效的直接證據。",
+      "citations": [
+        {
+          "pmid": "41583764",
+          "title": "Cognitive control in music: adaptive strategies for relative pitch across the absolute-pitch proficiency continuum.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41583764/",
+          "journal": "Frontiers in psychology",
+          "year": 2025,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "28935162",
+          "title": "Standard-interval size affects interval-discrimination thresholds for pure-tone melodic pitch intervals.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28935162/",
+          "journal": "Hearing research",
+          "year": 2017,
+          "design": "psychophysical experimental study"
+        },
+        {
+          "pmid": "2527955",
+          "title": "Effects of metric and harmonic rhythm on the detection of pitch alterations in melodic sequences.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2527955/",
+          "journal": "Journal of experimental psychology. Human perception and performance",
+          "year": 1989,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch8-u1",
+      "name": "即興演奏是否徵用與背譜演奏不同的大腦歷程",
+      "evidence_grade": "limited",
+      "summary": "2008年一篇被高度引用的fMRI研究讓爵士鋼琴家在演奏背好的樂句與自由即興時分別掃描腦部,測到即興時前額葉背外側區域活動下降、內側前額葉活動上升,支持「即興動用的是和背譜演奏不同的神經歷程」這個假說;後續的回顧文章也把這個框架當作領域的起點。但這個經典發現只來自個位數受試者的單一實驗室研究,至今沒有大規模重複驗證,「自我監控系統關閉、自發表達系統開啟」這套敘事在領域內被廣泛引用,證據強度其實遠不如引用次數給人的印象。",
+      "citations": [
+        {
+          "pmid": "18301756",
+          "title": "Neural substrates of spontaneous musical performance: an FMRI study of jazz improvisation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18301756/",
+          "journal": "PloS one",
+          "year": 2008,
+          "design": "fMRI experimental study"
+        },
+        {
+          "pmid": "25601088",
+          "title": "The neuroscience of musical improvisation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25601088/",
+          "journal": "Neuroscience and biobehavioral reviews",
+          "year": 2015,
+          "design": "narrative review"
+        }
+      ]
+    },
+    {
+      "unit": "ch9-u1",
+      "name": "即興演奏的神經歷程如何隨專業程度改變",
+      "evidence_grade": "limited",
+      "summary": "三篇各自獨立的腦造影/腦刺激研究方向大致一致:專家與生手在即興時徵用的神經網絡確實不同,其中一篇經顱直流電刺激研究甚至測到同一種刺激對生手是「提升表現」、對專家卻是「妨礙表現」的相反效果,顯示即興能力隨經驗累積後,對認知控制介入的需求方式已經改變。但三篇都是十幾到幾十人的小樣本研究,分屬EEG、fMRI、tDCS三種不同技術與不同的專業程度切分方式,彼此的具體神經機制描述並不完全一致,只能說「專業程度會改變即興的大腦歷程」這個方向站得住腳,細節機制還沒有收斂成一致的圖像。",
+      "citations": [
+        {
+          "pmid": "38387554",
+          "title": "Creative flow as optimized processing: Evidence from brain oscillations during jazz improvisations by expert and non-expert musicians.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38387554/",
+          "journal": "Neuropsychologia",
+          "year": 2024,
+          "design": "EEG experimental study"
+        },
+        {
+          "pmid": "27899889",
+          "title": "Anodal tDCS to Right Dorsolateral Prefrontal Cortex Facilitates Performance for Novice Jazz Improvisers but Hinders Experts.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27899889/",
+          "journal": "Frontiers in human neuroscience",
+          "year": 2016,
+          "design": "sham-controlled experimental study"
+        },
+        {
+          "pmid": "34561516",
+          "title": "Functional network connectivity during Jazz improvisation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34561516/",
+          "journal": "Scientific reports",
+          "year": 2021,
+          "design": "fMRI experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch10-u3",
+      "name": "音樂表演焦慮的盛行率與治療手段(含beta阻斷劑)",
+      "evidence_grade": "moderate",
+      "summary": "一篇系統性回顧彙整了職業樂手音樂表演焦慮的盛行率、危險因子與各種治療手段的成效,是這個主題證據品質最好的單篇文獻;beta阻斷劑對表演焦慮生理症狀(手抖、心悸)的壓制效果,則有一篇對照臨床試驗直接測到beta阻斷後歌唱表現的改變。但那篇臨床試驗年代較久、樣本小、對象是歌手而非銅管演奏者,「登台前吃藥能不能讓小號吹得更穩」這個具體問題沒有直接的銅管樂手對照試驗可以引用,課程若提到藥物介入,誠實的說法是「有生理學基礎但缺乏樂器別的直接驗證」,不是「已證實有效」。",
+      "citations": [
+        {
+          "pmid": "31474244",
+          "title": "Performance anxiety in professional musicians: a systematic review on prevalence, risk factors and clinical treatment effects.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31474244/",
+          "journal": "Psychological medicine",
+          "year": 2019,
+          "design": "systematic review"
+        },
+        {
+          "pmid": "2866749",
+          "title": "Effect of beta blockade on singing performance.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2866749/",
+          "journal": "The Annals of otology, rhinology, and laryngology",
+          "year": 1985,
+          "design": "controlled clinical trial"
+        },
+        {
+          "pmid": "21987072",
+          "title": "Music performance anxiety-part 2. a review of treatment options.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21987072/",
+          "journal": "Medical problems of performing artists",
+          "year": 2011,
+          "design": "narrative review"
+        }
+      ]
+    },
+    {
+      "unit": "ch11-u3",
+      "name": "樂手噪音性聽力損失的盛行率與耳塞防護的實測效果",
+      "evidence_grade": "strong",
+      "summary": "一篇系統性回顧暨統合分析與一篇範圍回顧(scoping review)都獨立確認,樂手因長期暴露在高聲壓環境下,聽力症狀與噪音性聽力損失的盛行率明顯高於一般族群,這是這門課實證層裡證據等級最高的一條;耳塞防護的實測研究也提供了具體可行動的結論——樂手專用耳塞相對於一般泡棉耳塞能在較小犧牲聲音品質的前提下提供保護,且聽眾多半聽不出演奏者戴著耳塞的差異,顯示「戴耳塞會毀掉音樂性」這個常見的抗拒理由缺乏實證支持。",
+      "citations": [
+        {
+          "pmid": "41474194",
+          "title": "Auditory Symptoms Among Musicians: A Systematic Review and Meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41474194/",
+          "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+          "year": 2026,
+          "design": "systematic review and meta-analysis"
+        },
+        {
+          "pmid": "40017553",
+          "title": "A scoping review of the prevalence of musicians' hearing loss.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40017553/",
+          "journal": "Frontiers in public health",
+          "year": 2025,
+          "design": "scoping review"
+        },
+        {
+          "pmid": "35903731",
+          "title": "Effect of Hearing Protection Use on Pianists' Performance and Experience: Comparing Foam and Musician Earplugs.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35903731/",
+          "journal": "Frontiers in psychology",
+          "year": 2022,
+          "design": "controlled experimental study"
+        },
+        {
+          "pmid": "33740821",
+          "title": "Hearing Protection Success: Musicians Have a Favorable Response to Hearing Protection and Listeners Are Unable to Identify Music Produced by Musicians Wearing Hearing Protection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33740821/",
+          "journal": "Journal of the American Academy of Audiology",
+          "year": 2020,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch11-u4",
+      "name": "口型肌張力異常(embouchure dystonia)的成因與練習行為風險",
+      "evidence_grade": "moderate",
+      "summary": "2023年一系列由同一組德國研究團隊發表的論文,把口型肌張力異常定位為一種神經網絡疾病並開發了經檢驗的嚴重度量表,顯示這個曾被視為「單純肌肉過度使用」的問題,現在有更完整的神經機制框架與可量化的評估工具。其中一篇病例對照研究提供了對課程教學特別重要、也可能不太中聽的發現:比較患病鋼琴家與健康對照組的練習史,兩組童年練習量並無差異,但患病者在成年後把每日練習量拉高的幅度顯著大於對照組,顯示「練習量在短期內快速增加」本身可能是誘發風險因子,不是「練得越多越安全」。但這是相對罕見的職業病,樣本量仍然有限,不能把單一病例對照研究的關聯直接當成因果證據。",
+      "citations": [
+        {
+          "pmid": "37338695",
+          "title": "Embouchure Dystonia as a Network Disease.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37338695/",
+          "journal": "Advances in neurobiology",
+          "year": 2023,
+          "design": "narrative review"
+        },
+        {
+          "pmid": "37633870",
+          "title": "Practice behaviors as trigger factor for the onset of Musicians' Dystonia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37633870/",
+          "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+          "year": 2023,
+          "design": "case-control study"
+        },
+        {
+          "pmid": "37258280",
+          "title": "Reliability and Validity of the Embouchure Dystonia Severity Rating Scale.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37258280/",
+          "journal": "Journal of movement disorders",
+          "year": 2023,
+          "design": "psychometric validation study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-deliberate-practice",
+      "name": "刻意練習理論(一萬小時定律)能不能解釋專家表現",
+      "evidence_grade": "contested",
+      "summary": "這是行為科學裡少數雙方都拿統合分析對打的經典爭議。2014年一篇涵蓋音樂、遊戲、運動、教育、專業領域的大型統合分析發現,刻意練習平均只能解釋表現差異的一小部分,遠低於Ericsson原始理論暗示的「幾乎全部」;隨後另一篇重新分析Ericsson、Krampe與Tesch-Römer 1993年那篇奠定整個理論的小提琴手原始研究,也發現原始資料本身能支持的因果強度比後來被廣泛引用的版本更弱。但刻意練習陣營持續發表回應,主張批評者用的統合分析把「任何形式的練習」都算進去,稀釋了「真正符合刻意練習定義的練習」的效果量,雙方對「該怎麼定義與測量刻意練習」本身仍有根本分歧,沒有共識。",
+      "citations": [
+        {
+          "pmid": "24986855",
+          "title": "Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24986855/",
+          "journal": "Psychological science",
+          "year": 2014,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "31598236",
+          "title": "The role of deliberate practice in expert performance: revisiting Ericsson, Krampe & Tesch-Römer (1993).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31598236/",
+          "journal": "Royal Society open science",
+          "year": 2019,
+          "design": "replication study"
+        },
+        {
+          "pmid": "27217248",
+          "title": "How Important Is Deliberate Practice? Reply to Ericsson (2016).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27217248/",
+          "journal": "Perspectives on psychological science : a journal of the Association for Psychological Science",
+          "year": 2016,
+          "design": "theoretical commentary"
+        }
+      ]
+    },
+    {
+      "unit": "concept-mental-practice",
+      "name": "心智練習(意象練習)對音樂表現的效果",
+      "evidence_grade": "moderate",
+      "summary": "一篇跨領域的統合分析確認心智練習(不實際動作、只在腦中想像演練)對技能表現有真實但中等的效果,通常小於實際動作練習、且與實際練習合併時效果最好;一篇針對音樂表現的實驗直接測到「想像+哼唱+實際演奏」三者合併練習比單純物理練習成效更好。但音樂領域直接測試心智練習成效的實驗研究數量少、樣本小,大部分支撐心智練習有效的統合分析證據來自運動與醫療技能訓練這類其他領域,能不能等比例套用到吹奏樂器這種需要精細唇部肌肉協調的技能,證據還不夠直接。",
+      "citations": [
+        {
+          "pmid": "34759873",
+          "title": "Imagine, Sing, Play- Combined Mental, Vocal and Physical Practice Improves Musical Performance.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34759873/",
+          "journal": "Frontiers in psychology",
+          "year": 2021,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "39588129",
+          "title": "Voluntary musical imagery in music practice: contextual meaning, neuroscientific mechanisms and practical applications.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39588129/",
+          "journal": "Frontiers in psychology",
+          "year": 2024,
+          "design": "narrative review"
+        },
+        {
+          "pmid": "26556071",
+          "title": "From Mind to Body: Is Mental Practice Effective on Strength Gains? A Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26556071/",
+          "journal": "CNS & neurological disorders drug targets",
+          "year": 2015,
+          "design": "meta-analysis"
+        }
+      ]
+    },
+    {
+      "unit": "concept-talent-trainability",
+      "name": "音樂能力是先天還是可訓練:絕對音感與音樂訓練的遷移效果",
+      "evidence_grade": "contested",
+      "summary": "這個主題有兩條分開但都指向「先天沒有課程通常暗示的那麼不重要」的證據線。第一條是絕對音感:雙生子研究顯示童年音樂訓練量與絕對音感能力有關聯,但也有實驗顯示成年後透過密集訓練仍能後天習得接近絕對音感的準確判斷,兩者強調的重點相反。第二條是音樂訓練的「遠遷移」效果——學音樂能不能讓人在完全不相關的認知能力上變好:一篇被廣泛引用的回顧直接主張西洋棋、音樂、工作記憶訓練都沒有可靠的遠遷移證據;但另一篇兒童多層次統合分析卻測到音樂訓練與認知、學業表現之間有小而顯著的正相關。兩派證據都在,「學音樂讓你變聰明」與「音樂能力主要是天生的」這兩種簡化敘事,目前都沒有被證據徹底否決或徹底證實。",
+      "citations": [
+        {
+          "pmid": "35969033",
+          "title": "Investigating the Relationship Between Childhood Music Practice and Pitch-Naming Ability in Professional Musicians and a Population-Based Twin Sample.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35969033/",
+          "journal": "Twin research and human genetics : the official journal of the International Society for Twin Studies",
+          "year": 2022,
+          "design": "twin study"
+        },
+        {
+          "pmid": "31686378",
+          "title": "Is it impossible to acquire absolute pitch in adulthood?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31686378/",
+          "journal": "Attention, perception & psychophysics",
+          "year": 2020,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "29276344",
+          "title": "Does Far Transfer Exist? Negative Evidence From Chess, Music, and Working Memory Training.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29276344/",
+          "journal": "Current directions in psychological science",
+          "year": 2017,
+          "design": "narrative review"
+        },
+        {
+          "pmid": "32728850",
+          "title": "Cognitive and academic benefits of music training with children: A multilevel meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32728850/",
+          "journal": "Memory & cognition",
+          "year": 2020,
+          "design": "meta-analysis"
+        }
+      ]
+    },
+    {
+      "unit": "concept-practice-quantity",
+      "name": "練習時數能不能解釋音樂成就的多寡:量 vs 質",
+      "evidence_grade": "moderate",
+      "summary": "一篇專門針對音樂成就的統合分析算出,刻意練習時數平均只能解釋音樂表現差異的約26%,意味著練習量確實有貢獻,但遠不是決定性的唯一因素。更值得課程誠實面對的是2024年一篇涵蓋6471對雙生子的大型行為遺傳學研究:它直接測試「刻意練習理論」的核心預測——練習越多,基因對音樂能力的影響應該越小——結果測到的卻是相反方向,練習量增加後,音樂能力差異中由基因解釋的比例反而上升,不是下降。這代表「只要練得夠多,人人都能達到某個水準」這句課程常見的鼓勵語,在最直接測試這個假說的大型研究裡,得到的是不利的結果。",
+      "citations": [
+        {
+          "pmid": "25018742",
+          "title": "The influence of deliberate practice on musical achievement: a meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25018742/",
+          "journal": "Frontiers in psychology",
+          "year": 2014,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "39330466",
+          "title": "Testing the Deliberate Practice Theory: Does Practice Reduce the Heritability of Musical Expertise?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39330466/",
+          "journal": "Journal of Intelligence",
+          "year": 2024,
+          "design": "twin study"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "chapter": "CH1",
+  "title": "入門與裝備",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "認識小號與選第一把琴",
+      "type": "concept",
+      "lesson": {
+        "title": "What are the Parts of the Trumpet?",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=lNFwUfIzdFI",
+        "lang": "en",
+        "why": "中文圈查無小號構造與各部位名稱的系統教學，這支用實機逐一指認吹嘴、主調音管、活塞、滑管等部位，是認識小號零件最直接的入門片。"
+      },
+      "drills": [
+        {
+          "name": "活塞構造與運作原理",
+          "en": "Understanding the Trumpet Valves",
+          "kind": "theory",
+          "target": "活塞構造、按鍵運作、半音階",
+          "title": "Understanding the Trumpet Valves: How They Work, What They Do and the Chromatic Scale",
+          "channel": "BlackwellsTrumpetBasics",
+          "url": "https://www.youtube.com/watch?v=Z3rFA8lNnGY"
+        },
+        {
+          "name": "學生琴、中階琴、專業琴差在哪",
+          "en": "Student vs Intermediate vs Professional Trumpet",
+          "kind": "theory",
+          "target": "學生琴、中階琴、專業琴、音色差異",
+          "title": "$1 vs $5,000 Trumpet | Can You Hear The Difference?",
+          "channel": "DDTRUMPET",
+          "url": "https://www.youtube.com/watch?v=uq5iNEkYNpo"
+        },
+        {
+          "name": "第一把小號的預算怎麼配",
+          "en": "Budgeting for Your First Trumpet",
+          "kind": "theory",
+          "target": "預算配置、初學選購",
+          "title": "How to Choose a Trumpet for Your Beginner Trumpet",
+          "channel": "Schmitt Music",
+          "url": "https://www.youtube.com/watch?v=_vTZTFAoD7s"
+        },
+        {
+          "name": "二手小號檢查清單",
+          "en": "What to Look For When Buying a Used Trumpet",
+          "kind": "walkthrough",
+          "target": "二手琴檢查、活塞密合度、外觀凹陷",
+          "title": "What to Look For When Buying a Pre-Owned Instrument: ACB Mini-Lesson #69",
+          "channel": "Austin Custom Brass",
+          "url": "https://www.youtube.com/watch?v=hYfzZSG01EQ"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "吹嘴的選擇與迷思",
+      "type": "concept",
+      "lesson": {
+        "title": "How To CHOOSE a TRUMPET MOUTHPIECE (Should you, or shouldn't you?)",
+        "channel": "Chase Sanborn",
+        "url": "https://www.youtube.com/watch?v=v_BZFYPPVHI",
+        "lang": "en",
+        "why": "資深小號教育者用同一套邏輯講清楚何時該換吹嘴、何時不該換，先問你卡在哪一種問題，適合完全沒摸過吹嘴規格的初學者。"
+      },
+      "drills": [
+        {
+          "name": "吹嘴規格怎麼讀：杯深與口徑",
+          "en": "Trumpet Mouthpiece Specs Explained",
+          "kind": "theory",
+          "target": "杯深、口徑、吹嘴規格代號",
+          "title": "Navigating The World of Trumpet Mouthpieces",
+          "channel": "tonebase Brass",
+          "url": "https://www.youtube.com/watch?v=zb9r6g19RFo"
+        },
+        {
+          "name": "初學者該用什麼吹嘴：過來人經驗",
+          "en": "Which Mouthpiece Should Beginners Use",
+          "kind": "theory",
+          "target": "初學吹嘴、過來人經驗",
+          "title": "每個小號手都該知道的吹嘴差異｜過來人分享",
+          "channel": "下班後練小號",
+          "url": "https://www.youtube.com/watch?v=nzO6wGsM3qE"
+        },
+        {
+          "name": "吹高音不舒服，真的是吹嘴的問題嗎",
+          "en": "Is Your Mouthpiece Really Why High Notes Hurt",
+          "kind": "pitfall",
+          "target": "高音迷思、換吹嘴迷思、施壓",
+          "title": "吹高音不是用力就對！小號高音不舒服的真正原因是這個…#小號",
+          "channel": "下班後練小號",
+          "url": "https://www.youtube.com/watch?v=csyPepSgk8A"
+        },
+        {
+          "name": "7C 吹嘴迷思",
+          "en": "The 7C Mouthpiece Myth",
+          "kind": "pitfall",
+          "target": "7C迷思、初學吹嘴選擇",
+          "title": "7c Mouthpiece: The Grim Destroyer of Trumpet Growth",
+          "channel": "Marcus Grant",
+          "url": "https://www.youtube.com/watch?v=bQMhUdF6IN8"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u3",
+      "name": "持琴姿勢與手型",
+      "type": "skill",
+      "assessment": "站立時雙腳與肩同寬，身體放鬆不靠牆，左手三指托住第一按鍵套管、小指鉤環與吹嘴接口，右手三指指尖輕觸活塞頂端，虎口不夾住琴身。請人從側面拍照檢查：三個活塞應與地面垂直，手肘外張角度不超過十五度，吹嘴中心對準嘴唇正中線。若照片裡吹嘴明顯偏向一側，或手肘緊貼肋骨，代表在用手臂夾琴而非用手指托琴，回去練習右手掌心懸空、只用指尖接觸活塞，直到連續十次舉琴都能維持活塞垂直。",
+      "lesson": {
+        "title": "Trumpet 🎺小號教學【聽我曼曼說-04】/正確的拿小號",
+        "channel": "飛常人觀察日記",
+        "url": "https://www.youtube.com/watch?v=l1ms95RvVZw",
+        "lang": "zh",
+        "why": "台灣中文小號教學編號系列裡專講拿法的一集，鏡頭正對持琴示範，左右手托法與角度看得清楚，是這個單元最直接對題的中文素材。"
+      },
+      "drills": [
+        {
+          "name": "左手握法",
+          "en": "Left Hand Grip",
+          "kind": "walkthrough",
+          "target": "左手握法、指托",
+          "title": "FBL Video 4 Holding the Trumpet Correctly with the Left Hand",
+          "channel": "Free Band Lessons",
+          "url": "https://www.youtube.com/watch?v=z-2v4w9yz6M"
+        },
+        {
+          "name": "右手指位與拿法",
+          "en": "Right Hand Finger Position",
+          "kind": "walkthrough",
+          "target": "拿法、右手指位",
+          "title": "小號初階 怎樣拿樂器 Trumpet Lesson for Beginners in Cantonese Part 1+ how to hold the trumpet ～ Edmond 哥哥",
+          "channel": "Edmond哥哥",
+          "url": "https://www.youtube.com/watch?v=CjnJO1Tairc"
+        },
+        {
+          "name": "常見姿勢問題",
+          "en": "Common Posture Mistakes",
+          "kind": "pitfall",
+          "target": "常見姿勢問題、常見錯誤",
+          "title": "5 Mistakes Trumpet Players Make (And How to Fix Them!)",
+          "channel": "Mrs. Allen",
+          "url": "https://www.youtube.com/watch?v=RYGVoq8850U"
+        },
+        {
+          "name": "站姿與坐姿練習",
+          "en": "Standing and Sitting Posture Practice",
+          "kind": "walkthrough",
+          "target": "坐姿、呼吸配合",
+          "title": "小號初階 第一課 坐姿＆呼吸 Trumpet Lesson for Beginners in Cantonese Part 1 ～ Edmond 哥哥",
+          "channel": "Edmond哥哥",
+          "url": "https://www.youtube.com/watch?v=X1vsT1ooqXc"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u4",
+      "name": "日常保養",
+      "type": "skill",
+      "assessment": "每次吹奏前把三個活塞逐一拔出到看得見底部，滴一滴活塞油後轉半圈再插回，活塞應能靠重力自由落下不卡頓，若某個活塞明顯比其他兩個慢半拍才回彈，代表油量不夠或活塞裝反了方向。每週把主調音管拔出擦淨，薄塗一層凡士林後用手轉動插回，轉動時阻力該均勻不忽鬆忽緊。每一到兩個月做一次全琴清水沐浴：拆下所有活塞與滑管，泡溫水十分鐘後用通條刷過內管，刷出的水若還是混濁或帶黑色油垢，代表保養週期拖太久，下次要縮短到三週內。",
+      "lesson": {
+        "title": "【小號的清潔保養/維修】｜居家就可以做的簡易保養絕對要學起來｜feat. 安邦樂器工作室",
+        "channel": "喇叭小姐 Ms. Trumpet",
+        "url": "https://www.youtube.com/watch?v=8DyQVkvXMj8",
+        "lang": "zh",
+        "why": "與樂器維修工作室合作拍攝，從上油到滑管保養一次示範完整流程，是中文圈少見的系統化居家保養教學，適合當日常保養的主課。"
+      },
+      "drills": [
+        {
+          "name": "活塞上油",
+          "en": "Oiling the Valves",
+          "kind": "walkthrough",
+          "target": "活塞上油、油品選擇",
+          "title": "上油保養小號的方法",
+          "channel": "Murphy Chen",
+          "url": "https://www.youtube.com/watch?v=wj-VBbd7W90"
+        },
+        {
+          "name": "全琴清洗流程",
+          "en": "Full Trumpet Cleaning (Bath)",
+          "kind": "walkthrough",
+          "target": "清洗流程、全琴沐浴",
+          "title": "How to Clean a Trumpet",
+          "channel": "AmroMusic",
+          "url": "https://www.youtube.com/watch?v=5AyPIfb13hQ"
+        },
+        {
+          "name": "滑管與調音管保養",
+          "en": "Slide and Tuning Slide Maintenance",
+          "kind": "walkthrough",
+          "target": "滑管保養、調音管、潤滑油",
+          "title": "小號調音管保養",
+          "channel": "內思高工管樂團新竹縣",
+          "url": "https://www.youtube.com/watch?v=pIqVx7SLt2g"
+        },
+        {
+          "name": "保養頻率與清潔效果",
+          "en": "How Often Should You Clean Your Trumpet",
+          "kind": "theory",
+          "target": "保養頻率、清潔效果",
+          "title": "How Much of a Difference Does Cleaning Your Trumpet REALLY Make?",
+          "channel": "Ryan Beach",
+          "url": "https://www.youtube.com/watch?v=f1WcvS1UE4Y"
+        }
+      ]
+    }
+  ]
+}

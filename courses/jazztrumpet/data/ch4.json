@@ -1,0 +1,258 @@
+{
+  "chapter": "CH4",
+  "title": "技巧建構",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "吐音基礎",
+      "type": "skill",
+      "assessment": "用節拍器設 80(每拍一個四分音符),在中音域吹一條 G 到高音 G 再回來的音階,每個音都用單吐起音(舌尖輕點上齒齦背面發 ta 或 too)。錄音回放檢查:20 個音裡有沒有超過 2 個音頭模糊、像先聽到氣噴出來才聽到音高。接著把節拍器切到 120,同一條音階改成兩音一組的圓滑吐音,只有每組第一音起舌、第二音靠氣延續過去,聽兩音之間有沒有斷開的空隙。若吐音時下巴或喉頭跟著用力聳動,代表舌位太靠後、卡住氣流,回去做只用氣不出聲的長音、同時舌尖輕觸上齒齦背面的練習,直到舌頭動作變小為止。",
+      "lesson": {
+        "title": "The Best Trumpet Tonguing Technique",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=q5YQ_5TluWU",
+        "lang": "en",
+        "why": "系統整理單吐從舌位、音節選擇到清晰度的完整邏輯，是建立正確吐音觀念的起點，比零散的示範片段更適合當這個單元第一支看的影片。"
+      },
+      "drills": [
+        {
+          "name": "舌位與氣流協調",
+          "en": "Tongue Position & Air Patterns",
+          "kind": "walkthrough",
+          "target": "舌位、氣流、吐音清晰度",
+          "title": "Trumpet Lesson: Tongue Position and Air Patterns",
+          "channel": "Caitlin Teaches Trumpet",
+          "url": "https://www.youtube.com/watch?v=csvQevozY80"
+        },
+        {
+          "name": "圓滑吐音示範",
+          "en": "Legato Tonguing",
+          "kind": "walkthrough",
+          "target": "圓滑吐音、連音、力度對比",
+          "title": "Learn Trumpet From A Master: Lesson 13 Staccato, Legato, Slur, Accent With Virtuoso Daniel Rosenboom",
+          "channel": "Music Lifeboat",
+          "url": "https://www.youtube.com/watch?v=qUjwbqxX3k8"
+        },
+        {
+          "name": "吐音清晰度準則",
+          "en": "Clean Articulation Rule",
+          "kind": "pitfall",
+          "target": "吐音準則、清晰度",
+          "title": "#1 Rule for Clean Articulation on Trumpet",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=yjrm50E5LBo"
+        },
+        {
+          "name": "點舌基礎練習",
+          "en": "Basic Tonguing Practice",
+          "kind": "practice",
+          "target": "點舌基礎、節奏感",
+          "title": "Trumpet 🎺小號教學&Flute 🎼長笛教學-08 【點舌練習】",
+          "channel": "飛常人觀察日記",
+          "url": "https://www.youtube.com/watch?v=GNcLCwPn8Zo"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "雙吐與三吐",
+      "type": "skill",
+      "assessment": "先不含小號,對著鏡子快速念「tu-ku-tu-ku」,確認舌尖點上齒齦發 tu、舌根頂軟腭發 ku 是兩個分開的動作,不能含糊成「tu-gu」或整片舌頭一起動。含上小號後,節拍器從 76(每拍兩個八分音符)開始吹雙吐音階,每次拍速加 4,能吐到 132 而每個 ku 音仍與 tu 音同樣清晰、音量不掉,才算通過這一階段。若拍速一提高 ku 音就開始比 tu 音小聲或慢半拍才進來,代表舌根的獨立控制還沒建立,退回 76 重新練,不要硬撐速度往前衝。",
+      "lesson": {
+        "title": "小號吐音技巧｜雙吐、三吐（Multiple Tonguing）完整解析",
+        "channel": "下班後練小號",
+        "url": "https://www.youtube.com/watch?v=3R2uDLrVlDM",
+        "lang": "zh",
+        "why": "中文圈少數把雙吐三吐從舌位建立講到實用速度的完整解析，填補這個主題中文供給稀少的缺口，由台灣小號教學頻道親自示範發音位置。"
+      },
+      "drills": [
+        {
+          "name": "雙吐三吐技巧解密",
+          "en": "Double & Triple Tonguing Secrets",
+          "kind": "walkthrough",
+          "target": "雙吐、三吐、舌位建立",
+          "title": "The Secret To Successful Double (and Triple) Tonguing On Trumpet",
+          "channel": "Ryan Beach",
+          "url": "https://www.youtube.com/watch?v=QJL1yWYP3Us"
+        },
+        {
+          "name": "三吐練習課",
+          "en": "Triple-Tonguing Lesson",
+          "kind": "practice",
+          "target": "三吐、音階應用",
+          "title": "Trumpet Lesson: Triple-Tonguing",
+          "channel": "Interlochen Center for the Arts",
+          "url": "https://www.youtube.com/watch?v=BqrBK_GUHxw"
+        },
+        {
+          "name": "吐音加速練習",
+          "en": "Increase Tonguing Speed",
+          "kind": "practice",
+          "target": "吐音速度、漸進節拍",
+          "title": "Increase Your Tonguing Speed on the Trumpet!",
+          "channel": "Rex Richardson - Trumpeter, Educator, Composer",
+          "url": "https://www.youtube.com/watch?v=M5Byq1W8-pQ"
+        },
+        {
+          "name": "雙吐常見問題排解",
+          "en": "Fixing Double Tonguing Problems",
+          "kind": "pitfall",
+          "target": "雙吐常見錯誤、ku 音節校正",
+          "title": "Can't double tongue? - Watch this.",
+          "channel": "Kyle Raftery",
+          "url": "https://www.youtube.com/watch?v=6FiS1VqmolI"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "唇滑音與柔軟度",
+      "type": "skill",
+      "assessment": "吹 Irons 或 Colin 一類的唇滑音練習,選中低音域一組(例如 C 到 G 再回到 C 的滑音),嘴唇不離開吹嘴、靠氣的變化與嘴唇肌肉張力改變讓音高在音與音之間平滑過渡,不能用舌頭或下巴頂出新的音。連續吹 8 小節,錄音回放聽轉音瞬間有沒有雜音或斷點,8 個轉音裡有 6 個以上乾淨過渡才算過。如果轉到高音時嘴唇會不自覺往吹嘴裡塞、或音量忽然變小,代表柔軟度還沒撐開音域,退回節拍器 60 以下的慢速版本重練,不要直接挑戰更高的音組。",
+      "lesson": {
+        "title": "Trumpet: Flexibility (Lip Slurs)- David Dash",
+        "channel": "UNCSA School of Music",
+        "url": "https://www.youtube.com/watch?v=AkL74s7_qcM",
+        "lang": "en",
+        "why": "音樂院等級的唇滑音教學，示範動作精準、講解嘴唇肌肉如何在不換舌位的情況下平滑轉音，中文圈搜尋唇滑音幾乎全數混入薩克斯風滑音內容，這支是補齊缺口的首選。"
+      },
+      "drills": [
+        {
+          "name": "Irons 唇滑音練習（伴奏版）",
+          "en": "Irons Method Play-Along",
+          "kind": "practice",
+          "target": "唇滑音、音程跳進、柔軟度",
+          "title": "Irons Method #1 (Play Along)",
+          "channel": "Eastern Trumpet",
+          "url": "https://www.youtube.com/watch?v=QSnyZkgCQgQ"
+        },
+        {
+          "name": "Colin 進階唇滑音練習",
+          "en": "Colin Advanced Lip Flexibilities",
+          "kind": "practice",
+          "target": "進階唇滑音、氣息支撐",
+          "title": "Trumpet Advanced Lip Flexibility   Charles Colin - 002",
+          "channel": "Trumpeter's Stuff",
+          "url": "https://www.youtube.com/watch?v=UGc3iNnaeZ4"
+        },
+        {
+          "name": "唇滑音完整指南",
+          "en": "The Trumpet Lip Slurs Guide",
+          "kind": "theory",
+          "target": "唇滑音原理、音域地基",
+          "title": "The Trumpet Lip Slurs Guide For You",
+          "channel": "Chris Davis (TRUMPET LESSONS HQ)",
+          "url": "https://www.youtube.com/watch?v=NB5KToa-KQ0"
+        },
+        {
+          "name": "唇滑音（中文）",
+          "kind": "practice",
+          "target": "唇滑音、柔軟度",
+          "url": null,
+          "note": "查過「唇滑音 小號」「小號 靈活度 練習」「lip slur 小號 教學」等中英文關鍵字，命中結果多是薩克斯風滑音/vibrato 教學、舞蹈與健身柔軟度訓練、認知訓練影片，唯一沾邊的一支是長號（非小號）的 Lip Slur 泛音練習。中文圈確實查無小號專門的唇滑音教學，與內容供給盤點的既有結論一致，誠實留白。"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u4",
+      "name": "音域擴展",
+      "type": "skill",
+      "assessment": "吹一條從中音 C 往上爬的半音階,每往上一個音就把小號離開嘴唇 1 秒再貼回去吹下一個音,同時錄影側面拍嘴唇周圍。回放檢查:音爬升的過程中,吹嘴壓在嘴唇上留下的紅印範圍有沒有隨音高越爬越大、嘴角有沒有越來越往兩側咧開。走氣的路徑,紅印範圍不該隨音高擴大,主要靠氣流加速與嘴唇內部肌肉收緊撐住音高。若音一高就得整隻手往臉上壓、或音色突然變扁變緊,代表在用壓力硬擠而不是用氣支撐,退回一個八度,先把氣流練足再往上挑戰。",
+      "lesson": {
+        "title": "吹高音超吃力？高音訓練方法｜你可能忽略的關鍵技巧！",
+        "channel": "下班後練小號",
+        "url": "https://www.youtube.com/watch?v=d1CuMFQcm0E",
+        "lang": "zh",
+        "why": "台灣小號教學頻道直接點出多數人吹高音卡關的關鍵技巧盲點，用中文講解務實好懂，適合當這個單元先建立正確方向的入門影片。"
+      },
+      "drills": [
+        {
+          "name": "音域擴展技巧",
+          "en": "Range Building",
+          "kind": "walkthrough",
+          "target": "高音技巧、氣流效率",
+          "title": "How to Play High on the Trumpet (Range Building) | Part 1/3",
+          "channel": "Trumpet Guy",
+          "url": "https://www.youtube.com/watch?v=q-zMF4B7Mdk"
+        },
+        {
+          "name": "吹嘴壓力迷思破解",
+          "en": "Playing In The Red Of The Lips",
+          "kind": "pitfall",
+          "target": "吹嘴壓力、迷思破解",
+          "title": "Playing In The \"Red\" Of The Lips: Why Players Do It And How To Avoid It",
+          "channel": "Charlie Porter",
+          "url": "https://www.youtube.com/watch?v=KOhOM1fNwvE"
+        },
+        {
+          "name": "高音迷思：別夾緊嘴唇",
+          "en": "Don't Tighten Your Lips",
+          "kind": "pitfall",
+          "target": "嘴唇張力、高音迷思",
+          "title": "Trumpet Tip: Don't Tighten Your Lips to Play High Notes",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=H1O4j_dlhX8"
+        },
+        {
+          "name": "耐力建立十招",
+          "en": "10 Trumpet Endurance Tips",
+          "kind": "practice",
+          "target": "耐力管理、練習分配",
+          "title": "How To Build Trumpet Endurance To Make Playing Easier - 10 Trumpet Endurance Tips",
+          "channel": "Chris Davis (TRUMPET LESSONS HQ)",
+          "url": "https://www.youtube.com/watch?v=OemlIcMOACA"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u5",
+      "name": "練習的結構",
+      "type": "concept",
+      "lesson": {
+        "title": "The Three Parts to an Effective Trumpet Practice Routine",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=UDUYkPQZGWc",
+        "lang": "en",
+        "why": "把每天練習拆成三個明確段落，講清楚順序背後的邏輯而不只是列清單，是這個單元建立練習架構觀念最合適的起點影片。"
+      },
+      "drills": [
+        {
+          "name": "熱身的關鍵要素",
+          "en": "Key Ingredients To A Good Warm-Up",
+          "kind": "theory",
+          "target": "熱身結構、練習順序",
+          "title": "The Key Ingredients to a Good Trumpet Warm-Up",
+          "channel": "tonebase Brass",
+          "url": "https://www.youtube.com/watch?v=0yIKwBoMG0Y"
+        },
+        {
+          "name": "何時該讓嘴唇休息",
+          "en": "When Should You Rest Your Chops",
+          "kind": "theory",
+          "target": "休息時機、嘴唇疲勞",
+          "title": "When Should You Rest Your Chops? Try This (BTBLOG 66)",
+          "channel": "BlackwellsTrumpetBasics",
+          "url": "https://www.youtube.com/watch?v=74I8U-jBZxA"
+        },
+        {
+          "name": "練習時長怎麼抓",
+          "en": "How Much To Practice",
+          "kind": "theory",
+          "target": "練習時長、分段安排",
+          "title": "Two Minute Trumpet Tips | HOW MUCH TO PRACTICE?",
+          "channel": "Mark Van Cleave",
+          "url": "https://www.youtube.com/watch?v=pGrVSAVy01U"
+        },
+        {
+          "name": "練習時間安排（中文）",
+          "en": "Arranging Your Practice Time",
+          "kind": "theory",
+          "target": "練習時間安排、每日規劃",
+          "title": "小号系列教学13（练习时间的安排）",
+          "channel": "Tian Yi",
+          "url": "https://www.youtube.com/watch?v=DLtvHatZyxk"
+        }
+      ]
+    }
+  ]
+}

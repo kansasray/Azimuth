@@ -1,0 +1,209 @@
+{
+  "chapter": "CH7",
+  "title": "音階與和聲",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "十二個大調與音階練習法",
+      "type": "skill",
+      "assessment": "不看譜、不停頓,把十二個大調的音階依五度圈順序,從主音吹到高八度再回到主音,節拍器設在每分鐘 76 拍、四分音符一拍,中途不能停下來想指法。連續兩輪、十二個調全數一次到位才算通過。如果只有升記號調吹得順、降記號調(尤其 Db、Gb、Cb)一律在音階中段卡住,代表你是靠小號常用調的肌肉記憶硬撐,沒有真的把那幾個調的按鍵組合練熟,回去把卡住的兩三個調單獨挑出來,用半速吹到不看譜也不用想指法才進下一步。",
+      "lesson": {
+        "title": "How to Practice in ALL Keys | You'll Hear It",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=WA8UyINUars",
+        "lang": "en",
+        "why": "完整講解為什麼要練十二個調、以及怎麼練才不會淪為機械式跑音階,把音階練習跟實際即興的耳朵訓練連起來,是這個單元建立核心觀念的起點。"
+      },
+      "drills": [
+        {
+          "name": "十二調全跑的意義",
+          "en": "Why Practice All 12 Keys",
+          "kind": "theory",
+          "target": "十二個調、耳朵訓練、非機械練習",
+          "title": "Three reasons JaZZ musicians practice in all 12 keys",
+          "channel": "Tony Winston",
+          "url": "https://www.youtube.com/watch?v=0CLqJpXV8LU"
+        },
+        {
+          "name": "小號難調實戰:F#/Gb 大調音階",
+          "en": "Trumpet's Hardest Key: F#/Gb",
+          "kind": "walkthrough",
+          "target": "F#/Gb調、指法難度、小號視角",
+          "title": "董舜文今天練什麼? [11]今天來挑戰最後一個大調音階吧！Part 4/4(F#/Gb)",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=zlONUnYvAkk"
+        },
+        {
+          "name": "十二調音階跟奏練習",
+          "en": "12-Key Scale Play-Along",
+          "kind": "practice",
+          "target": "十二個調、play along、跟奏練習",
+          "title": "Trumpet Major Scale Workout in 12 Keys | Play along - 1/8 Notes at 70 BPM | Free PDF in description",
+          "channel": "Anwyll on Music",
+          "url": "https://www.youtube.com/watch?v=2f8j9UvSLgg"
+        },
+        {
+          "name": "練音階也要練得開心:避免機械式練法",
+          "en": "How to Practice Scales and Have Fun",
+          "kind": "pitfall",
+          "target": "機械式練習、練習方法、音樂性連結",
+          "title": "HOW TO PRACTICE SCALES (AND HAVE FUN DOING IT): PART 1",
+          "channel": "John Raymond",
+          "url": "https://www.youtube.com/watch?v=ji07_QK7FGQ"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "和弦內音與琶音",
+      "type": "skill",
+      "assessment": "挑一條 ii-V-I 的和弦進行(例如 Dm7-G7-CMaj7),不看譜只用琶音把三個和弦的 1-3-5-7 依序吹過一輪,每個和弦四拍、節拍器 60 拍,連續三輪音都對、指法不打結才算過。接著換成只吹每個和弦的 guide tones(3 音與 7 音),同樣連續三輪要準確銜接到下一個和弦最近的 guide tone(音程距離不超過一個全音)才算真的懂。若琶音吹得順但 guide tones 老是找不到最近的音、要跳大老遠才接得上,代表你背的是整組琶音而不是和弦之間的聲部進行,回去把三個和弦的 3 音與 7 音單獨挑出來畫成一條旋律線再唱一次。",
+      "lesson": {
+        "title": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+        "channel": "Jeff Schneider",
+        "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA",
+        "lang": "en",
+        "why": "完整說明為什麼和弦內音(chord tones)是即興的骨架、比音階更直接對應到和聲進行,是這個單元建立核心觀念的起點,後面四支 drill 分別補上 maj7/min7/dom7 琶音的具體練法與小號視角的操作示範。"
+      },
+      "drills": [
+        {
+          "name": "Maj7、Min7、Dom7 琶音總覽",
+          "en": "Maj7 Dom7 Min7 Arpeggios",
+          "kind": "theory",
+          "target": "maj7琶音、min7琶音、dom7琶音",
+          "title": "Maj7, Dom7, Min7 Arpeggios",
+          "channel": "Remy Hansen",
+          "url": "https://www.youtube.com/watch?v=wVqDnf3K8EY"
+        },
+        {
+          "name": "小號和弦內音練習曲",
+          "en": "Chord Tone Etude for Trumpet",
+          "kind": "practice",
+          "target": "小號視角、和弦內音、練習曲",
+          "title": "Chord Tone Etude #1 for Trumpet | Exercise of the Week #39",
+          "channel": "Bryan Davis - Airflow Music",
+          "url": "https://www.youtube.com/watch?v=YMjop3FsFZE"
+        },
+        {
+          "name": "藍調進行上的七和弦琶音示範",
+          "en": "7th Chord Arpeggios over a Blues",
+          "kind": "walkthrough",
+          "target": "Bb藍調、七和弦琶音、小號示範",
+          "title": "Bb Blues Progression 7th Chord Arpeggios | Jazz Trumpet Lesson",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=rvLZEVqLMcU"
+        },
+        {
+          "name": "Guide Tones:三音與七音",
+          "en": "Guide Tones: 3rds and 7ths",
+          "kind": "theory",
+          "target": "guide tones、三音七音、聲部進行",
+          "title": "解密爵士流行和聲 17頁到21 頁 / Guide Tones",
+          "channel": "Major Huang",
+          "url": "https://www.youtube.com/watch?v=BoOXf8KXFPE"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u3",
+      "name": "ii-V-I",
+      "type": "skill",
+      "assessment": "放一段任意的爵士標準曲伴奏,只要聽到裡面出現 ii-V-I(不管大調還是小調),在四拍內喊出來或舉手標記,連續聽完一首 32 小節曲式,抓到的 ii-V-I 出現次數要跟實際和弦表對得上、誤差不超過一次。接著換成吹奏:任選一個 ii-V-I 進行,在十二個調上各吹一句能收在主音或三音的樂句,全程不看譜、速度不低於每分鐘 100 拍,十二調全數完成且音準對得上鋼琴伴奏才算通過。如果聽辨準但十二調吹不完,通常是只背了一個調的指法、沒有真的理解和弦音在不同調的相對位置,回去把同一句樂句改用唱名(不是音名)重新唱一次。",
+      "lesson": {
+        "title": "The Secret to Effortless ii–V–I Phrases (feat. Kellin Hanas)",
+        "channel": "Jazz Lesson Videos",
+        "url": "https://www.youtube.com/watch?v=liBTBAufjRo",
+        "lang": "en",
+        "why": "客座小號家 Kellin Hanas 示範怎麼讓 ii-V-I 樂句聽起來不生硬,把 ii-V-I 從樂理符號講成聽得見的和聲移動,後面四支 drill 分別補上聽辨、中文動機講解與十二調移調的具體練法。"
+      },
+      "drills": [
+        {
+          "name": "從真實獨奏聽 ii-V-I 的用法",
+          "en": "Hearing ii-V-I in a Real Solo",
+          "kind": "walkthrough",
+          "target": "Roy Hargrove、ii-V-I、小號獨奏拆解",
+          "title": "How Roy Hargrove Improvised over a Major ii V I [Jazz Trumpet Lick #1]",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=ZRxz4RIECE4"
+        },
+        {
+          "name": "為什麼一定要練 II-V-I(中文)",
+          "en": "Why Practice II-V-I",
+          "kind": "theory",
+          "target": "II-V-I、練習動機、中文講解",
+          "title": "爵士专业课1：为什么要练II V I？",
+          "channel": "XinJazz法国爵士阿欣",
+          "url": "https://www.youtube.com/watch?v=Vr1CUeD4Z9Q"
+        },
+        {
+          "name": "十二調 ii-V-I 樂句配 Bebop Scale",
+          "en": "ii-V-I Lick with Bebop Scale in 12 Keys",
+          "kind": "practice",
+          "target": "十二個調、bebop scale、小號視角",
+          "title": "Jazz ii V I  Lick Using Bebop Scales in All 12 Keys",
+          "channel": "Jeff Lewis Trumpet",
+          "url": "https://www.youtube.com/watch?v=_91ifyzVO_0"
+        },
+        {
+          "name": "ii-V-I 進行的走法系統整理",
+          "en": "How to Navigate a ii-V-I Progression",
+          "kind": "theory",
+          "target": "ii-V-I、和聲走法、系統化教學",
+          "title": "Jazz Improvisation Ep. 3: How to Navigate a ii-V-I Progression",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=j1ZXMrFCLbY"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u4",
+      "name": "調式與其他常用音階",
+      "type": "concept",
+      "lesson": {
+        "title": "Major Scale Modes for Jazz Improvisation",
+        "channel": "Jeff Lewis Trumpet",
+        "url": "https://www.youtube.com/watch?v=zC6hpZy0hPM",
+        "lang": "en",
+        "why": "小號視角直接講解調式在爵士即興上的實際用法,不是抽象的樂理名詞堆疊,適合當這個觀念單元的起點;後面四支 drill 分別聚焦 Mixolydian、Dorian 的實際用法,以及藍調音階回顧、altered 與 diminished 該什麼時候才碰。"
+      },
+      "drills": [
+        {
+          "name": "小號 Mixolydian 與趨近音練習",
+          "en": "Mixolydian + Approach Notes for Trumpet",
+          "kind": "walkthrough",
+          "target": "Mixolydian、趨近音、小號練習",
+          "title": "\"Mixolydian + Approach Notes\" for Trumpet | Exercise of the Week #61",
+          "channel": "Bryan Davis - Airflow Music",
+          "url": "https://www.youtube.com/watch?v=DZv3kAy5TAY"
+        },
+        {
+          "name": "Dorian 調式是什麼(中文)",
+          "en": "What Is the Dorian Mode",
+          "kind": "theory",
+          "target": "Dorian調式、Ionian、Aeolian",
+          "title": "Ionian/Dorian/Aeolian 調式！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=WExmjdfPN64"
+        },
+        {
+          "name": "藍調音階回顧:別只會跑音階",
+          "en": "Really Improvising with the Blues Scale",
+          "kind": "theory",
+          "target": "藍調音階、回顧、避免死板套用",
+          "title": "How To REALLY Improvise Using The Blues Scale",
+          "channel": "PianoPig",
+          "url": "https://www.youtube.com/watch?v=CjJwxtahGtw"
+        },
+        {
+          "name": "Altered 與 Diminished 什麼時候才需要",
+          "en": "Altered and Diminished Ideas over the Blues",
+          "kind": "theory",
+          "target": "altered scale、diminished scale、藍調應用",
+          "title": "How to add Jazz to your Blues - II V I, Altered and Diminished Ideas",
+          "channel": "John Nathan Cordy",
+          "url": "https://www.youtube.com/watch?v=fytI7e2SF4M"
+        }
+      ]
+    }
+  ]
+}

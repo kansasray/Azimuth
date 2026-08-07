@@ -1,0 +1,196 @@
+{
+  "chapter": "CH2",
+  "title": "發聲基礎",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "口型建立",
+      "type": "skill",
+      "assessment": "含住吹嘴,只用氣吹出中央C上方的G（第二線）,用調音器看:音頭出現後的第一秒之內,如果指針從高於目標音超過15音分才慢慢滑回穩定,代表是用嘴唇擠出音而不是用氣柱推出音,回去做「只吹氣不出聲」的練習,直到音頭乾淨為止。同時錄15秒正面影片回放檢查三個訊號:嘴角是否往兩側咧開像在笑、下巴是否往上頂而不是自然放平、吹嘴是否在嘴唇上壓出一圈明顯白痕。三個訊號只要出現一個,就代表口型需要調整。但這不代表要換成某張「範例照片」的嘴型,因為每個人唇形、齒列、下巴骨架不同,別人的口型套在自己臉上不一定管用。",
+      "lesson": {
+        "title": "吹奏教學之吹奏小號時的嘴型",
+        "channel": "林育興",
+        "url": "https://www.youtube.com/watch?v=DQbxZ64M4C8",
+        "lang": "zh",
+        "why": "台灣小號教師直接示範口型建立的核心步驟,對應初學者最常卡關的嘴角與吹嘴擺位問題,是中文圈這個子題最扎實的單支教學。"
+      },
+      "drills": [
+        {
+          "name": "為何沒有唯一正確口型",
+          "en": "Why Your Embouchure Was Never Built For You",
+          "kind": "theory",
+          "target": "唇形、齒列、下巴骨架",
+          "title": "why your trumpet embouchure was never built for you",
+          "channel": "Harrisson Ball",
+          "url": "https://www.youtube.com/watch?v=qatVi0QbN3s"
+        },
+        {
+          "name": "口型與唇振練習",
+          "kind": "walkthrough",
+          "target": "口型、唇振",
+          "title": "铜管乐器小号吹奏教学教程04-口型与唇振练习",
+          "channel": "Chuan Gao",
+          "url": "https://www.youtube.com/watch?v=ZT0m18J0m4c"
+        },
+        {
+          "name": "常見口型問題訊號",
+          "kind": "pitfall",
+          "target": "常見口型錯誤",
+          "title": "Trumpet Embouchure 4 Things (you probably want to avoid)",
+          "channel": "Jeff Lewis Trumpet",
+          "url": "https://www.youtube.com/watch?v=bs65wygep88"
+        },
+        {
+          "name": "口型調整實作",
+          "kind": "walkthrough",
+          "target": "口型調整、耐力",
+          "title": "How to Get the Most Out of Your Trumpet Embouchure",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=aMtXio7j094"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "呼吸與氣的支撐",
+      "type": "skill",
+      "assessment": "吸氣時一隻手放在肚子上、一隻手放在上胸,用四拍吸滿氣:如果上胸那隻手先動、肩膀跟著往上聳,代表吸氣主要靠胸式呼吸而不是橫膈膜下沉,氣量不會夠。接著吹一個中音域的長音,吐氣八拍,能不能全程八拍音量與音高都不往下掉;掉到第五拍以前就代表氣柱支撐不夠,要先把八拍長音練到能穩定吹滿。第二個判準是喉嚨:吹奏時用手指輕觸喉結兩側,如果吹到中高音時喉結明顯往上頂、肌肉緊繃鼓起,是用喉嚨擠音而不是用氣推音,回去做「只呼氣不吹嘴」的四拍吸八拍吐練習,把氣的流動感抓回來,不要在吹嘴上找答案。",
+      "lesson": {
+        "title": "呼吸如何影響小號的演奏｜小號吸氣技巧全解析｜這一步做錯耐力一定不好",
+        "channel": "下班後練小號",
+        "url": "https://www.youtube.com/watch?v=9nrxmuioMn0",
+        "lang": "zh",
+        "why": "完整拆解吸氣的量與速度如何影響耐力與氣柱穩定,是中文圈少見把呼吸原理講到操作層級的教學。"
+      },
+      "drills": [
+        {
+          "name": "氣柱與呼吸支撐原理",
+          "en": "Playing on the Air Stream",
+          "kind": "theory",
+          "target": "氣柱、呼吸支撐",
+          "title": "Playing on the Air Stream for Trumpet",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=IJXitiVI4k8"
+        },
+        {
+          "name": "Breathing Gym 入門練習",
+          "kind": "practice",
+          "target": "橫膈膜、吸氣量",
+          "title": "Breathing Gym: Introduction",
+          "channel": "Trumpet Master Classes with Dr. Brian Shook",
+          "url": "https://www.youtube.com/watch?v=ty5fbD0bvtQ"
+        },
+        {
+          "name": "橫膈膜迷思與喉嚨擠壓",
+          "kind": "pitfall",
+          "target": "橫膈膜迷思、喉嚨擠壓",
+          "title": "What I Got Wrong About Using Your Diaphragm When Playing Trumpet",
+          "channel": "Ridgewood School of Music",
+          "url": "https://www.youtube.com/watch?v=EOqAJstBC60"
+        },
+        {
+          "name": "坐姿與呼吸入門",
+          "kind": "walkthrough",
+          "target": "坐姿、呼吸",
+          "title": "小號初階 第一課 坐姿＆呼吸 Trumpet Lesson for Beginners in Cantonese Part 1 ～ Edmond 哥哥",
+          "channel": "Edmond哥哥",
+          "url": "https://www.youtube.com/watch?v=X1vsT1ooqXc"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "Buzzing 的用法與爭議",
+      "type": "concept",
+      "lesson": {
+        "title": "Buzzing or Not? 你真的了解小號是如何發聲的嗎?!",
+        "channel": "喇叭小姐 Ms. Trumpet",
+        "url": "https://www.youtube.com/watch?v=oXvuelmi804",
+        "lang": "zh",
+        "why": "中文圈少數正面處理 buzzing 爭議的影片,把「該不該練 buzzing」的正反考量講給初學者聽,銜接後面英文的正反論戰素材。"
+      },
+      "drills": [
+        {
+          "name": "Lip Buzzing 入門示範",
+          "kind": "walkthrough",
+          "target": "lip buzzing、嘴唇振動",
+          "title": "How to Buzz Your Lips for Trumpet Playing",
+          "channel": "The Black Trumpeter",
+          "url": "https://www.youtube.com/watch?v=jzFQHGN6vm4"
+        },
+        {
+          "name": "支持 buzzing 的論點",
+          "kind": "theory",
+          "target": "buzzing 支持論點",
+          "title": "Why Trumpeters Should Practice Lip Buzzing",
+          "channel": "tonebase Brass",
+          "url": "https://www.youtube.com/watch?v=BvWaxlvesQQ"
+        },
+        {
+          "name": "反對 buzzing 的論點",
+          "en": "Misconceptions of Buzzing",
+          "kind": "pitfall",
+          "target": "buzzing 反方論點、迷思",
+          "title": "Producing Sounds & the Misconceptions of Buzzing | Wayne Bergeron",
+          "channel": "The King's Academy, WPB, FL",
+          "url": "https://www.youtube.com/watch?v=fzB7r9C_LrU"
+        },
+        {
+          "name": "Mouthpiece Buzzing 練習routine",
+          "kind": "practice",
+          "target": "mouthpiece buzzing、練習routine",
+          "title": "Trumpet Mouthpiece Buzzing Routine (that avoids bad habits) | KGU Embouchure Trainer Review",
+          "channel": "Trumpet Headquarters",
+          "url": "https://www.youtube.com/watch?v=50N3Hc-2W6w"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "第一個音到第一條音階",
+      "type": "skill",
+      "assessment": "對著吹嘴穩定吹出中央C上方的G（第二線）三次,每次音頭乾淨、沒有氣音雜訊、能撐滿四拍才算過;接著加上F、A、降B、C,五個音各自都能一次吹準,不需要重複起音兩次以上修正。最後吹C大調從中央C到高音C的一個八度音階,上行與下行合計八拍節奏平均,音與音之間不拖泥帶水、不漏音,用節拍器設60的四分音符對著吹,連續吹兩次都不斷不錯才算通過。每天練習的前十分鐘固定分成三段:兩分鐘只吹氣不出聲熱嘴、三分鐘長音、五分鐘音階,順序不要顛倒——顛倒容易在嘴唇還沒熱開前就硬吹高音,增加疲勞。",
+      "lesson": {
+        "title": "Trumpet 🎺小號教學【聽我曼曼說-10】/小號指法2-八度音階",
+        "channel": "飛常人觀察日記",
+        "url": "https://www.youtube.com/watch?v=gpo4H462n14",
+        "lang": "zh",
+        "why": "從指法帶入C大調一個八度的完整音階示範,銜接前面五個音的練習,適合當作本單元的收束教材。"
+      },
+      "drills": [
+        {
+          "name": "中音域五個音指法",
+          "kind": "walkthrough",
+          "target": "中音域五個音、指法",
+          "title": "Trumpet 🎺小號教學【聽我曼曼說-09】/小號指法-Do到Sol",
+          "channel": "飛常人觀察日記",
+          "url": "https://www.youtube.com/watch?v=-IXIkaAGvgo"
+        },
+        {
+          "name": "First Five Notes",
+          "kind": "walkthrough",
+          "target": "first five notes、音準",
+          "title": "How to Play the Trumpet - First Five Notes",
+          "channel": "Adam Meckler",
+          "url": "https://www.youtube.com/watch?v=j5hZ5ombwns"
+        },
+        {
+          "name": "吹出第一個音",
+          "kind": "walkthrough",
+          "target": "第一個音、發聲",
+          "title": "一分鐘教你吹出聲音?!!｜小號吹奏超入門｜CarolBrass",
+          "channel": "喇叭小姐 Ms. Trumpet",
+          "url": "https://www.youtube.com/watch?v=q9nR7Lpu5Sw"
+        },
+        {
+          "name": "起音每日練習",
+          "kind": "practice",
+          "target": "起音、每日練習",
+          "title": "# 03 Attack｜Trumpet Daily Routine｜Play - Along｜基本練習一起吹系列【起音】",
+          "channel": "喇叭小姐 Ms. Trumpet",
+          "url": "https://www.youtube.com/watch?v=Q56E14jJIaM"
+        }
+      ]
+    }
+  ]
+}

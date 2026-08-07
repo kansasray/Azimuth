@@ -1,0 +1,209 @@
+{
+  "chapter": "CH8",
+  "title": "即興實作",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "第一次即興",
+      "type": "skill",
+      "assessment": "播放一段 F 大調 80 BPM 的 backing track，全程只用 Do、Mi、Sol 三個音（C、E、G）即興吹兩分鐘，同時錄音。回放時檢查兩件事：每個樂句的第一個音有沒有準時落在小節的正拍上，以及兩分鐘裡有沒有連續超過四拍完全不吹的空白。判準是至少八成樂句準時進拍，而且沒有因為猶豫吹錯音就把整句停掉。如果常常吹到一半突然停住，代表注意力還放在「會不會吹錯」而不是「拍子有沒有跟上」，回去把小號放下，先用嘴巴哼完整兩分鐘的三音樂句，哼順了再拿起樂器重錄一次。",
+      "lesson": {
+        "title": "How Does Jazz Improvisation Work?",
+        "channel": "Ridgewood School of Music",
+        "url": "https://www.youtube.com/watch?v=Ate-6DO_lVA",
+        "lang": "en",
+        "why": "完整解釋即興的運作原理，從調式與和弦音的關係講到樂句怎麼構成，是這門課選到的英文入門總覽裡涵蓋面最廣的一支，適合當第一次即興前的觀念鋪墊。"
+      },
+      "drills": [
+        {
+          "name": "小號視角的第一次即興",
+          "en": "Trumpet Jazz Improv 1",
+          "kind": "walkthrough",
+          "target": "小號視角、第一次即興、簡單樂句",
+          "title": "小號爵士即興1",
+          "channel": "Major Huang",
+          "url": "https://www.youtube.com/watch?v=URToRxVoOsA"
+        },
+        {
+          "name": "無樂器的節奏練習",
+          "en": "Rhythmic Practice Without an Instrument",
+          "kind": "practice",
+          "target": "律動優先、無樂器節奏練習、內在拍感",
+          "title": "Basic Jazz rhythmic practice - (without instrument)",
+          "channel": "Jazzduets",
+          "url": "https://www.youtube.com/watch?v=biK7-sZgS2c"
+        },
+        {
+          "name": "Backing Track 的用法陷阱",
+          "en": "How Backing Tracks Can Ruin Your Time",
+          "kind": "pitfall",
+          "target": "backing track、跟奏迷思、獨立節奏感",
+          "title": "Practice with Backing Tracks will ruin your Rhythm and Timing!",
+          "channel": "Jens Larsen",
+          "url": "https://www.youtube.com/watch?v=XUnu-oYWvtM"
+        },
+        {
+          "name": "舞台上沒有錯的音",
+          "en": "There Are No Mistakes on the Bandstand",
+          "kind": "theory",
+          "target": "舞台心態、克服怕吹錯、即興勇氣",
+          "title": "Stefon Harris: There are no mistakes on the bandstand",
+          "channel": "TED",
+          "url": "https://www.youtube.com/watch?v=7shXEFuxHAA"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "Guide Tones 與跟著和聲走",
+      "type": "skill",
+      "assessment": "挑一首含四個以上不同和弦的中板 standard（例如 Autumn Leaves），只用每個和弦的三音與七音連成一條線，不加其他經過音，把整首和弦進行吹過一輪並錄音。回放時逐一和弦檢查：三音與七音有沒有對應該小節的和弦性質（大三小三分清楚、屬七的七音要降半音），以及換和弦時這條線是不是用級進或小跳銜接，而不是每個和弦重新起音。判準是連續十六小節裡至少十四個和弦的三音七音都對，線條斷掉不超過兩次。若整條線忽高忽低沒有方向，代表你在背音符而不是跟著和聲走，回去只彈和弦樂器的和弦音，用耳朵先聽出每次換和弦的聲響變化，再拿起小號重來一次。",
+      "lesson": {
+        "title": "Jazz Improvisation - Guide Tones",
+        "channel": "Walk That Bass",
+        "url": "https://www.youtube.com/watch?v=zuXhDQNohlE",
+        "lang": "en",
+        "why": "用貝斯視角把 guide tones 的概念講得直觀：為什麼三音與七音兩個音就能撐起和弦的色彩，原理跨樂器通用，是這個主題被引用最多的入門教學之一。"
+      },
+      "drills": [
+        {
+          "name": "Guide Tone 連線的三種用法",
+          "en": "3 Things to Do with Guidetone Lines",
+          "kind": "theory",
+          "target": "guide tone連線、三音七音、和弦連接",
+          "title": "3 Things to Do with Guidetone Lines",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=p802QgGHjW0"
+        },
+        {
+          "name": "用耳朵聽出和弦進行",
+          "en": "Hearing Chord Progressions by Ear",
+          "kind": "theory",
+          "target": "聽和弦進行、耳朵訓練、和聲移動",
+          "title": "How to Learn Chord Progressions by Ear (No Sheet Music)",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=5qm62741AEQ"
+        },
+        {
+          "name": "小號視角的目標音練習",
+          "en": "Target Notes for Jazz Vocabulary",
+          "kind": "practice",
+          "target": "目標音、targeting、小號視角",
+          "title": "How to practice Target notes for jazz vocabulary",
+          "channel": "Darren Lloyd Jazz Trumpet",
+          "url": "https://www.youtube.com/watch?v=leoAVVoHyuU"
+        },
+        {
+          "name": "三音和絃配置（鋼琴視角）",
+          "en": "3-Note Jazz Voicing",
+          "kind": "theory",
+          "target": "三音和絃配置、鋼琴視角、聲響核心",
+          "title": "快速找到爵士聲響的方法 - 爵士樂中的簡易三音和絃配置（3-note Jazz Voicing）一點通",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=ErTzxUehTsY"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u3",
+      "name": "動機發展與說故事",
+      "type": "skill",
+      "assessment": "錄一段十六小節的即興，先只用一個兩到三個音的短動機（例如三個八分音符的節奏型）開場，接著在後面三次重複這個動機時各做一種變化：一次移到不同音高、一次拉長時值、一次留白不吹讓它像沒說完的話。錄完自己聽，檢查四件事是否都做到：動機第一次出現時清楚可辨、至少一次移位、至少一次時值變化、整段裡有一次超過兩拍的完全停頓。四件事全部做到才算過。若聽起來像四段互不相干的樂句拼在一起，代表動機沒有被真正發展，只是換了個開頭，回去先把同一個動機唱十次、每次唱法都要不一樣，唱順了再吹。",
+      "lesson": {
+        "title": "Motivic Development In Jazz - 10 Exercises For More Musical Solos",
+        "channel": "Magnus Bakken",
+        "url": "https://www.youtube.com/watch?v=ByOqfC0jntc",
+        "lang": "en",
+        "why": "把動機發展拆成十個具體練習，不是只講「要有動機」這種空泛的建議，每個練習都對應一種明確的變形方式（移位、擴大、縮小），適合當這個單元的操作總覽。"
+      },
+      "drills": [
+        {
+          "name": "動機發展與半音趨近",
+          "en": "Motivic Development & Chromatic Approach",
+          "kind": "theory",
+          "target": "動機發展、半音趨近、樂句改編",
+          "title": "運用半音趨近與動機發展的法則在《There Will Never Be Another You》中即興得漂亮！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=PjcQ4KBVL6Q"
+        },
+        {
+          "name": "問答式的 Call and Response",
+          "en": "Call & Response Phrasing",
+          "kind": "walkthrough",
+          "target": "call and response、問答式樂句",
+          "title": "How the PROS use Call & Response (must-know solo trick!)",
+          "channel": "Paul Davids",
+          "url": "https://www.youtube.com/watch?v=6n2308MSpjk"
+        },
+        {
+          "name": "留白與呼吸感",
+          "en": "Using Space in Your Solos",
+          "kind": "walkthrough",
+          "target": "留白、呼吸感、吉他視角",
+          "title": "BREATHE: How To Use Space To Improve Your Jazz Guitar Solos #9",
+          "channel": "Richie Zellon",
+          "url": "https://www.youtube.com/watch?v=AbHzi39IwKQ"
+        },
+        {
+          "name": "Solo 的起承轉合",
+          "en": "How to Tell a Story in Your Solo",
+          "kind": "theory",
+          "target": "solo敘事、起承轉合",
+          "title": "How To Tell A Story In Your Jazz Solos",
+          "channel": "Nick Mainella",
+          "url": "https://www.youtube.com/watch?v=33xUObT_DGw"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u4",
+      "name": "曲目建立：你的前十首 Standards",
+      "type": "concept",
+      "lesson": {
+        "title": "The First 10 Jazz Standards You Need To Know",
+        "channel": "Jens Larsen",
+        "url": "https://www.youtube.com/watch?v=1q0BrTKK6gk",
+        "lang": "en",
+        "why": "直接列出十首建議優先學的標準曲，並說明為什麼是這十首（涵蓋 blues、rhythm changes、幾種常見和聲模式），是同類選曲建議裡條理最清楚的一支。"
+      },
+      "drills": [
+        {
+          "name": "Rhythm Changes 入門",
+          "en": "How to Master Rhythm Changes",
+          "kind": "theory",
+          "target": "rhythm changes、藍調變體、常見進行",
+          "title": "How to Master Rhythm Changes",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=BPU9X_GDKNQ"
+        },
+        {
+          "name": "背譜的系統化方法",
+          "en": "The Simple System to Remember Any Jazz Standard",
+          "kind": "theory",
+          "target": "背譜方法、旋律優先、系統化記憶",
+          "title": "The Simple System to Remember Any Jazz Standard",
+          "channel": "Josh Walsh",
+          "url": "https://www.youtube.com/watch?v=V4wrcZlHWEc"
+        },
+        {
+          "name": "iReal Pro 的七種用法",
+          "en": "7 Ways of Practicing Jazz With iReal Pro",
+          "kind": "practice",
+          "target": "iReal Pro、練習工具、薩克斯風視角",
+          "title": "7 Ways of Practicing Jazz With iReal Pro You Didn't Know",
+          "channel": "Thomas SAX",
+          "url": "https://www.youtube.com/watch?v=umWPlgIAugs"
+        },
+        {
+          "name": "實戰示範：Green Dolphin Street",
+          "en": "On Green Dolphin Street Workshop Demo",
+          "kind": "walkthrough",
+          "target": "標準曲實戰、Green Dolphin Street、工作坊示範",
+          "title": "國際級爵士樂手教你如何有效地即興與合奏《On Green Dolphin Street》　蟻正行義x謝啟彬　台北專場工作坊開場示範演奏",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=MOw0VYJXLO0"
+        }
+      ]
+    }
+  ]
+}
