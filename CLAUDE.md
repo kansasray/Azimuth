@@ -2,7 +2,11 @@
 
 這個 repo 源自 `htlin222/gym-course`(現在 `upstream` 指向我們自己 fork 的 `kansasray/gym-course`),底層是 **curate-course**:一個主題無關的框架,把 YouTube 公開影片組裝成連結全數驗證、實證主張可覆核的靜態課程網站。上游附的 `courses/gym/`(健身課)保留不動當參考範例。
 
-**我們自己的課是 `courses/landnav/`——「地圖學與軍用陸地導航」**,繁體中文,策展自第三方 YouTube 公開影片,不擁有任何影片。課程大綱參考坊間同名實體課程的主題架構(地圖學/網格定位/指南針/測距/寫景圖與射界卡/電子地圖整合)。CH1–CH11 全數策展完成:判圖、地形、座標、方位角、指北針、測距、導航實作、交會定位、夜間導航、觀測回報、GPS 備援。
+**我們自己的課(皆繁中、皆已上線)**:
+- `courses/landnav/` 「地圖學與軍用陸地導航」→ https://landnav.pages.dev (11 章 45 單元)
+- `courses/jazztrumpet/` 「爵士小號之路」→ https://jazz-trumpet.pages.dev (11 章 43 單元,精神座標 Miles/Clifford Brown/Hargrove/Botti)
+
+策展自第三方 YouTube 公開影片,不擁有任何影片。
 
 ## 每次開工先知道的三件事
 
@@ -40,10 +44,8 @@
 
 ## 狀態
 
-- CH1–CH11 全數策展完成:**45 個單元、176 支延伸影片**,每支都經 oEmbed 實打驗證;5 格誠實留白(`allowMissingUrls` 設 6)
-- 留白集中在中文與英文都真的沒有內容的地方:寫景圖(panoramic sketch)的實際繪製示範中英文皆查無、影像地圖/城鎮圖的分類教學、製圖年份的專門討論、地標夾角與誤差三角形
-- 實證層 16 條、52 筆引用(PubMed 35 / Crossref 17),全部經 API 實打驗證
-- 分級刻意不美化:16 條裡只有 1 條 `strong`(磁偏角漂移,來自 IGRF 誤差量化論文),2 條 `contested`(空間能力可訓練性、導航的性別差異)
-- **已上線**:https://landnav.pages.dev(Cloudflare Pages 專案名 `landnav`,production branch `main`,wrangler 手動部署)
+- **landnav**(2026-08-05):45 單元/176 延伸,verify 連結 207/207、引用 52/52;5 格留白;實證 16 條僅 1 strong(磁偏角漂移)
+- **jazztrumpet**(2026-08-08):43 單元/160 延伸,verify 連結 200/200、引用 45/45;1 格留白(唇滑音中文查無);實證 16 條僅 1 strong(樂手聽損與耳塞),Botti 單元定調演出賞析(全網無技法拆解);地基篇中文主軸(台灣小號頻道),爵士篇英文主軸
+- 兩門課的 Cloudflare Pages 專案名:`landnav` / `jazz-trumpet`(production branch `main`,wrangler 手動部署)
 - **GitHub**:`kansasray/Azimuth`(public,Discussions 已開,giscus 設定已填但 App 待安裝)。`upstream` 指向 `kansasray/gym-course`——**那是我們自己 fork 的框架副本,不再直接依賴 htlin222 的 repo**
 - 部署坑:`make deploy` 前必須先手動 `npx wrangler@4 pages project create <名字> --production-branch main`,Makefile 不會代建專案
