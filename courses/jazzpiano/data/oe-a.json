@@ -1,0 +1,508 @@
+{
+ "conditions": [
+  {
+   "unit": "ch2-u1",
+   "name": "音階與指法背後的動作學習機制",
+   "evidence_grade": "moderate",
+   "summary": "一篇經典的遷移學習實驗發現,鋼琴家練熟一首曲子後,遷移到新曲目的表現高度依賴「概念層面」(旋律與和聲關係)是否維持不變,而非實際彈奏所用的手指與手部動作是否相同——顯示到了進階程度,腦中對指法的心智計畫會脫離具體動作本身,這正是音階指法訓練最終希望達到的狀態。另兩篇針對頂尖鋼琴家與一般鋼琴家的動作學研究進一步顯示,就算是國際大賽得主,節奏與力度的細微不一致仍然來自手指關節角速度與非彈奏手指的動作干擾,並非光靠多年訓練就能徹底消除;認知上的樂句分段(chunking)與生物力學上的手指耦合各自獨立影響音符的時間與力度表現。三篇研究對象都是鋼琴家,但都是小樣本的實驗室測量,沒有直接測試哪一種指法教學法學得最快這個更貼近課程實務的問題。",
+   "citations": [
+    {
+     "pmid": "11228845",
+     "title": "Conceptual and motor learning in music performance",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11228845/",
+     "journal": "Psychol Sci",
+     "year": 2000,
+     "design": "experimental study"
+    },
+    {
+     "pmid": "27537686",
+     "title": "Kinematic Origins of Motor Inconsistency in Expert Pianists",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27537686/",
+     "journal": "PLoS One",
+     "year": 2016,
+     "design": "biomechanical measurement study"
+    },
+    {
+     "pmid": "17093990",
+     "title": "Cognitive and biomechanical influences in pianists' finger tapping",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17093990/",
+     "journal": "Exp Brain Res",
+     "year": 2007,
+     "design": "experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch2-u2",
+   "name": "手指獨立控制的生物力學與神經適應(鋼琴家 vs 非鋼琴家)",
+   "evidence_grade": "moderate",
+   "summary": "2026年一篇涵蓋53篇研究、跨五個資料庫的系統性回顧確認,觸鍵方式與手指獨立性等生物力學參數,會隨演奏者技巧程度、手部尺寸與肌肉疲勞而系統性變化,是這個主題證據品質最好的單篇文獻;一篇針對鋼琴家與非鋼琴家的比較研究也直接測到,鋼琴家的敲擊力道與節奏時間之間的相關性顯著低於非鋼琴家,支持長期訓練確實能提升手指力道與時間控制之間的獨立性。但另一篇用機器人被動活動手指的實驗發現了更複雜的圖像:鋼琴家的無名指被動移動時,鄰指跟著晃動的幅度確實比非鋼琴家小(生物力學上更獨立),可是無名指主動移動時,鋼琴家鄰指的皮質脊髓抑制反而變弱,顯示神經層面上手指之間的耦合其實變強了——「練到手指完全獨立」這個常見說法,在神經控制層面可能是簡化甚至方向相反的敘述。",
+   "citations": [
+    {
+     "pmid": "41561601",
+     "title": "The biomechanics of piano playing: a systematic review of kinematic, kinetic, and electromyographic literature",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41561601/",
+     "journal": "Front Psychol",
+     "year": 2025,
+     "design": "systematic review"
+    },
+    {
+     "pmid": "11769912",
+     "title": "Independence of timing and force control during finger-tapping sequences by pianists",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11769912/",
+     "journal": "Percept Mot Skills",
+     "year": 2001,
+     "design": "cross-sectional comparative study"
+    },
+    {
+     "pmid": "34426838",
+     "title": "Adaptation of the Corticomuscular and Biomechanical Systems of Pianists",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34426838/",
+     "journal": "Cereb Cortex",
+     "year": 2022,
+     "design": "controlled experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch2-u3",
+   "name": "觸鍵是否能改變單音音色(聲學爭議)",
+   "evidence_grade": "contested",
+   "summary": "這是鋼琴演奏裡最經典的直覺與物理學拉鋸戰之一。2014年一篇聲學測量研究開宗明義指出「單一音符的音色與力度,物理上完全由琴槌敲弦速度決定」這個傳統物理學共識,但接著用兩個聽覺實驗證明,鋼琴家確實能分辨出敲弦速度相同、觸鍵方式不同所產生的音,只是可分辨的線索被歸因於手指觸鍵時的額外聲音與琴鍵觸底聲這類機械雜音,而不是琴弦本身的振動被觸鍵方式改變。十一年後,2025年一篇PNAS研究用非接觸式高解析動作感測直接挑戰了這個「只是雜音」的解釋:研究者辨識出五種與音色感知(重量感、清晰度、明亮度)緊密相關的觸鍵動作特徵,而且直接操縱其中一項動作特徵,就能讓聽眾感知到的音色系統性改變,提供了因果證據。兩篇研究用的方法與定義的「音色」範疇並不完全一樣,觸鍵是否真的能改變琴弦本身的音色,還是只透過額外聲音與知覺偏誤起作用,目前並沒有定論,課程若教「觸鍵能改變單音音色」是有真研究支持的說法,但教「觸鍵改變的就是弦音本身」目前仍缺乏一致的物理機制解釋。",
+   "citations": [
+    {
+     "pmid": "25373983",
+     "title": "Perception of touch quality in piano tones",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25373983/",
+     "journal": "J Acoust Soc Am",
+     "year": 2014,
+     "design": "acoustic measurement study"
+    },
+    {
+     "pmid": "40982693",
+     "title": "Motor origins of timbre in piano performance",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40982693/",
+     "journal": "Proc Natl Acad Sci U S A",
+     "year": 2025,
+     "design": "controlled experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch5-u1",
+   "name": "節奏訓練對時間知覺與計時學習的影響",
+   "evidence_grade": "limited",
+   "summary": "一篇短期節奏訓練實驗測到,經過多感官節奏訓練後,大腦處理節奏的皮質活動出現可測得的改變,顯示時間感是可以透過特定訓練被形塑的技能;另一篇研究對象正是鋼琴家,直接測到疲勞這類生理狀態會系統性干擾鋼琴家在計時與力度控制上的學習表現,對每天練多久才有效這個實務問題提供了警訊。兩篇都是小樣本、短期的實驗室研究,沒有回答哪種節奏練習方法對鋼琴家的搖擺時間感最有效,課程教時間感訓練的原理有實證基礎,但具體練法仍是課程自己的教學設計,不是直接來自這兩篇文獻。",
+   "citations": [
+    {
+     "pmid": "21747907",
+     "title": "Cortical plasticity induced by short-term multimodal musical rhythm training",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21747907/",
+     "journal": "PLoS One",
+     "year": 2011,
+     "design": "controlled training study"
+    },
+    {
+     "pmid": "38062126",
+     "title": "Behavioral and physiological fatigue-related factors influencing timing and force control learning in pianists",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38062126/",
+     "journal": "Sci Rep",
+     "year": 2023,
+     "design": "experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch5-u2",
+   "name": "Swing八分音符的微時值模式是否有一致的量化規律",
+   "evidence_grade": "contested",
+   "summary": "對真實錄音進行精密時值測量的研究確實存在,而且發現了一致的方向:兩篇聲學測量研究(涵蓋各種速度下的爵士合奏,以及爵士鼓手的獨奏)都測到swing的八分音符時值比例並非固定的2:1或3:1,而是隨速度系統性變化、且合奏中各聲部呈現共同的節奏模式,鋼琴伴奏與獨奏理論上也受同一套合奏節奏規律約束。但另一篇對大量錄音做微時值分析的民族音樂學研究直接挑戰用單一時值比例描述swing這個簡化模型本身,指出實際錄音中的八分音符時值遠比任何固定比例公式更多樣、更依賴個別樂手與樂句脈絡。這三篇研究都沒有把鋼琴單獨拆出來分析,課程若教一個固定的swing比例公式給右手單音線條或左手伴奏,會比實際錄音測到的現象更簡化。",
+   "citations": [
+    {
+     "doi": "10.1525/mp.2002.19.3.333",
+     "title": "Swing Ratios and Ensemble Timing in Jazz Performance: Evidence for a Common Rhythmic Pattern",
+     "url": "https://doi.org/10.1525/mp.2002.19.3.333",
+     "journal": "Music Perception",
+     "year": 2002,
+     "design": "acoustic measurement study"
+    },
+    {
+     "doi": "10.1121/1.426228",
+     "title": "Jazz drummers’ swing ratio in relation to tempo",
+     "url": "https://doi.org/10.1121/1.426228",
+     "journal": "The Journal of the Acoustical Society of America",
+     "year": 1999,
+     "design": "acoustic measurement study"
+    },
+    {
+     "doi": "10.2307/20174424",
+     "title": "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm",
+     "url": "https://doi.org/10.2307/20174424",
+     "journal": "Ethnomusicology",
+     "year": 2006,
+     "design": "corpus microrhythm analysis"
+    }
+   ]
+  },
+  {
+   "unit": "ch6-u3",
+   "name": "音程辨識與旋律音高變化偵測的聽知覺基礎",
+   "evidence_grade": "limited",
+   "summary": "三篇聽知覺心理物理學研究顯示,人耳辨識音程大小的門檻會隨標準音程本身的大小系統性變化,而在覆誦或偵測旋律中的音高變化時,節拍與和聲脈絡也會影響偵測準確度——這些都是採譜(把聽到的鋼琴獨奏轉寫成音符)背後必須具備的基礎聽覺辨識能力。但三篇都是實驗室裡的純音或短旋律片段測驗,不是聽一整段爵士鋼琴即興獨奏採譜這種真實、長樂句、含裝飾音與複雜和聲的任務,證據只能算是採譜所需能力的間接基礎,不是採譜訓練本身成效的直接證據。",
+   "citations": [
+    {
+     "pmid": "41583764",
+     "title": "Cognitive control in music: adaptive strategies for relative pitch across the absolute-pitch proficiency continuum",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41583764/",
+     "journal": "Front Psychol",
+     "year": 2025,
+     "design": "experimental study"
+    },
+    {
+     "pmid": "28935162",
+     "title": "Standard-interval size affects interval-discrimination thresholds for pure-tone melodic pitch intervals",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28935162/",
+     "journal": "Hear Res",
+     "year": 2017,
+     "design": "psychophysical experimental study"
+    },
+    {
+     "pmid": "2527955",
+     "title": "Effects of metric and harmonic rhythm on the detection of pitch alterations in melodic sequences",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2527955/",
+     "journal": "J Exp Psychol Hum Percept Perform",
+     "year": 1989,
+     "design": "experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch8-u1",
+   "name": "即興演奏是否徵用與背譜演奏不同的大腦歷程(受試者為爵士鋼琴家)",
+   "evidence_grade": "limited",
+   "summary": "2008年一篇被高度引用的fMRI研究,讓職業爵士鋼琴家在演奏背好的樂句與自由即興時分別掃描腦部,測到即興時前額葉背外側區域活動下降、內側前額葉活動上升,支持即興動用的是和背譜演奏不同的神經歷程這個假說,這篇研究的受試者正是鋼琴家,結果直接適用於這門課的第一次即興單元;後續的回顧文章也把這個框架當作領域的起點。但這個經典發現只來自個位數受試者的單一實驗室研究,至今沒有大規模重複驗證,自我監控系統關閉、自發表達系統開啟這套敘事在領域內被廣泛引用,證據強度其實遠不如引用次數給人的印象。",
+   "citations": [
+    {
+     "pmid": "18301756",
+     "title": "Neural substrates of spontaneous musical performance: an FMRI study of jazz improvisation",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/18301756/",
+     "journal": "PLoS One",
+     "year": 2008,
+     "design": "fMRI experimental study"
+    },
+    {
+     "pmid": "25601088",
+     "title": "The neuroscience of musical improvisation",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25601088/",
+     "journal": "Neurosci Biobehav Rev",
+     "year": 2015,
+     "design": "narrative review"
+    }
+   ]
+  },
+  {
+   "unit": "ch9-u1",
+   "name": "即興演奏的神經歷程如何隨專業程度改變",
+   "evidence_grade": "limited",
+   "summary": "三篇各自獨立的腦造影/腦刺激研究方向大致一致:專家與生手在即興時徵用的神經網絡確實不同,其中一篇經顱直流電刺激研究的受試者正是爵士鋼琴家,測到同一種刺激對生手是提升表現、對專家卻是妨礙表現的相反效果,顯示Bill Evans這類大師級即興能力隨經驗累積後,對認知控制介入的需求方式已經改變。但另外兩篇分屬EEG與fMRI技術,受試者分別是爵士吉他手與未指名樂器的爵士樂手,不是鋼琴家專屬證據,三篇對專業程度的切分方式也不完全一致,只能說「專業程度會改變即興的大腦歷程」這個方向站得住腳,細節機制還沒有收斂成一致的圖像,更不能直接證明鋼琴即興本身有什麼特殊之處。",
+   "citations": [
+    {
+     "pmid": "27899889",
+     "title": "Anodal tDCS to Right Dorsolateral Prefrontal Cortex Facilitates Performance for Novice Jazz Improvisers but Hinders Experts",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27899889/",
+     "journal": "Front Hum Neurosci",
+     "year": 2016,
+     "design": "sham-controlled experimental study"
+    },
+    {
+     "pmid": "34561516",
+     "title": "Functional network connectivity during Jazz improvisation",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34561516/",
+     "journal": "Sci Rep",
+     "year": 2021,
+     "design": "fMRI experimental study"
+    },
+    {
+     "pmid": "38387554",
+     "title": "Creative flow as optimized processing: Evidence from brain oscillations during jazz improvisations by expert and non-expert musicians",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/38387554/",
+     "journal": "Neuropsychologia",
+     "year": 2024,
+     "design": "EEG experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch10-u2",
+   "name": "鋼琴二重奏的節奏同步機制",
+   "evidence_grade": "moderate",
+   "summary": "三篇研究都直接以鋼琴二重奏為實驗材料,提供了這個主題證據品質相對集中的一組文獻。一篇經典研究發現,鋼琴家與自己先前錄音合奏的準確度,比與別人的錄音合奏更高,而且能認出哪段錄音是自己彈的,顯示同步演奏可能仰賴演奏者在腦中模擬對方接下來會怎麼彈;另一篇腦波研究測到,主奏與伴奏角色的不對稱會影響大腦alpha波活動與實際的節奏同步精準度;第三篇則測試網路遠距合奏下的傳輸延遲,發現延遲越長,雙方節奏偏移越大、整體速度越慢,但擔任先開始角色的一方能相對維持速度穩定。三篇都出自小樣本、實驗室或半實驗室情境,對象也集中在受過古典訓練的鍵盤手,能不能直接套用到爵士伴奏即興跟奏(comping)的真實情境,還缺少直接證據。",
+   "citations": [
+    {
+     "pmid": "16466932",
+     "title": "Pianists duet better when they play with themselves: on the possible role of action simulation in synchronization",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16466932/",
+     "journal": "Conscious Cogn",
+     "year": 2007,
+     "design": "experimental study"
+    },
+    {
+     "pmid": "31680824",
+     "title": "Musical Role Asymmetries in Piano Duet Performance Influence Alpha-Band Neural Oscillation and Behavioral Synchronization",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31680824/",
+     "journal": "Front Neurosci",
+     "year": 2019,
+     "design": "EEG experimental study"
+    },
+    {
+     "pmid": "34630213",
+     "title": "Temporal Coordination in Piano Duet Networked Music Performance (NMP): Interactions Between Acoustic Transmission Latency and Musical Role Asymmetries",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34630213/",
+     "journal": "Front Psychol",
+     "year": 2021,
+     "design": "controlled experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "ch11-u2",
+   "name": "音樂表演焦慮的盛行率與治療手段(含beta阻斷劑)",
+   "evidence_grade": "moderate",
+   "summary": "一篇系統性回顧彙整了職業樂手音樂表演焦慮的盛行率、危險因子與各種治療手段的成效,是這個主題證據品質最好的單篇文獻;beta阻斷劑對表演焦慮生理症狀(手抖、心悸)的壓制效果,則有一篇對照臨床試驗直接測到beta阻斷後演奏表現的改變。但那篇臨床試驗年代較久、樣本小,對象是歌手而非鋼琴演奏者,「上場前吃藥能不能讓錄音試奏彈得更穩」這個具體問題沒有直接的鋼琴家對照試驗可以引用,課程若提到藥物介入,誠實的說法是有生理學基礎但缺乏樂器別的直接驗證,不是已證實有效。",
+   "citations": [
+    {
+     "pmid": "31474244",
+     "title": "Performance anxiety in professional musicians: a systematic review on prevalence, risk factors and clinical treatment effects",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31474244/",
+     "journal": "Psychol Med",
+     "year": 2019,
+     "design": "systematic review"
+    },
+    {
+     "pmid": "2866749",
+     "title": "Effect of beta blockade on singing performance",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2866749/",
+     "journal": "Ann Otol Rhinol Laryngol",
+     "year": 1985,
+     "design": "RCT"
+    },
+    {
+     "pmid": "21987072",
+     "title": "Music performance anxiety-part 2. a review of treatment options",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21987072/",
+     "journal": "Med Probl Perform Art",
+     "year": 2011,
+     "design": "narrative review"
+    }
+   ]
+  },
+  {
+   "unit": "ch11-u3",
+   "name": "鋼琴家的演奏相關肌肉骨骼傷害(PRMD)與肌張力異常盛行率",
+   "evidence_grade": "strong",
+   "summary": "兩篇分別於2006年與2018年發表的系統性回顧,各自彙整了十幾篇針對鋼琴家與鍵盤樂手的研究,結論方向一致:演奏相關肌肉骨骼傷害(PRMD)在鋼琴家族群中盛行率非常高,兩篇回顧測到的區間分別是26%至93%與25.8%至77%,是這門課實證層裡證據等級最高的一條;但兩篇回顧也都誠實承認,個別研究方法異質性太大、樣本測量方式不一,連PRMD的操作型定義都沒有共識,導致哪些具體風險因子最重要目前作者之間仍沒有共識,2006年那篇甚至直接下結論現有證據不足以支持明確的風險因子。一篇病例對照研究進一步指出,罹患肌張力異常(dystonia)的鋼琴家與健康對照組童年練習量並無差異,但成年後把每日練習量拉高的幅度顯著更大,顯示練習量短期內快速增加本身可能是誘發風險因子;另一篇2024年針對中國音樂院鋼琴系學生的調查則測到82.6%曾有過至少一次PRMD,手腕是最常受影響的部位。整體而言鋼琴家的手很容易受傷有紮實的盛行率證據撐著,但該怎麼預防這個更實用的問題,證據品質明顯弱得多。",
+   "citations": [
+    {
+     "pmid": "16275655",
+     "title": "A systematic review of prevalence and risk factors associated with playing-related musculoskeletal disorders in pianists",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16275655/",
+     "journal": "Occup Med (Lond)",
+     "year": 2006,
+     "design": "systematic review"
+    },
+    {
+     "pmid": "29705171",
+     "title": "Prevalence and Risk Factors for Musculoskeletal Pain in Keyboard Musicians: A Systematic Review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29705171/",
+     "journal": "PM R",
+     "year": 2018,
+     "design": "systematic review"
+    },
+    {
+     "pmid": "37633870",
+     "title": "Practice behaviors as trigger factor for the onset of Musicians' Dystonia",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37633870/",
+     "journal": "J Neural Transm (Vienna)",
+     "year": 2023,
+     "design": "case-control study"
+    },
+    {
+     "pmid": "39469245",
+     "title": "Playing-related musculoskeletal disorders among Chinese conservatoire piano students: prevalence, risk factors and preventive interventions",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39469245/",
+     "journal": "Front Psychol",
+     "year": 2024,
+     "design": "cross-sectional comparative study"
+    }
+   ]
+  },
+  {
+   "unit": "ch11-u4",
+   "name": "樂手噪音性聽力損失的盛行率與耳塞防護的實測效果(含鋼琴家研究)",
+   "evidence_grade": "strong",
+   "summary": "一篇系統性回顧暨統合分析與一篇範圍回顧(scoping review)都獨立確認,樂手因長期暴露在高聲壓環境下,聽力症狀與噪音性聽力損失的盛行率明顯高於一般族群,是這門課實證層裡證據等級最高的一條;其中一篇耳塞防護的對照實驗研究對象正是鋼琴家,直接測到鋼琴家專用耳塞相對於一般泡棉耳塞,能在較小犧牲聲音品質的前提下提供保護,鋼琴家自己也回報使用經驗偏正面。另一篇聽眾辨識實驗則顯示,聽眾多半聽不出演奏者戴著耳塞的差異,顯示戴耳塞會毀掉音樂性這個常見的抗拒理由缺乏實證支持,對長時間在電鋼琴或音箱旁邊練習、伴奏的鋼琴手同樣適用。",
+   "citations": [
+    {
+     "pmid": "41474194",
+     "title": "Auditory Symptoms Among Musicians: A Systematic Review and Meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41474194/",
+     "journal": "Otolaryngol Head Neck Surg",
+     "year": 2026,
+     "design": "meta-analysis"
+    },
+    {
+     "pmid": "40017553",
+     "title": "A scoping review of the prevalence of musicians' hearing loss",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40017553/",
+     "journal": "Front Public Health",
+     "year": 2025,
+     "design": "scoping review"
+    },
+    {
+     "pmid": "35903731",
+     "title": "Effect of Hearing Protection Use on Pianists' Performance and Experience: Comparing Foam and Musician Earplugs",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35903731/",
+     "journal": "Front Psychol",
+     "year": 2022,
+     "design": "controlled experimental study"
+    },
+    {
+     "pmid": "33740821",
+     "title": "Hearing Protection Success: Musicians Have a Favorable Response to Hearing Protection and Listeners Are Unable to Identify Music Produced by Musicians Wearing Hearing Protection",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33740821/",
+     "journal": "J Am Acad Audiol",
+     "year": 2020,
+     "design": "experimental study"
+    }
+   ]
+  },
+  {
+   "unit": "concept-deliberate-practice",
+   "name": "刻意練習理論(一萬小時定律)能不能解釋專家表現",
+   "evidence_grade": "contested",
+   "summary": "這是行為科學裡少數雙方都拿統合分析對打的經典爭議,對鋼琴這種特別強調刻意練習文化的樂器尤其切身。2014年一篇涵蓋音樂、遊戲、運動、教育、專業領域的大型統合分析發現,刻意練習平均只能解釋表現差異的一小部分,遠低於Ericsson原始理論暗示的幾乎全部;隨後另一篇重新分析Ericsson、Krampe與Tesch-Römer 1993年那篇奠定整個理論的小提琴手原始研究,也發現原始資料本身能支持的因果強度比後來被廣泛引用的版本更弱。但刻意練習陣營持續發表回應,主張批評者用的統合分析把任何形式的練習都算進去,稀釋了真正符合刻意練習定義的練習的效果量,雙方對該怎麼定義與測量刻意練習本身仍有根本分歧,沒有共識。課程教刻意練習的具體技巧(慢練、分段、錄音回聽)有其他證據支持,但只要刻意練習就能保證達到職業水準這句話本身,是這場爭議裡站不住腳的簡化版本。",
+   "citations": [
+    {
+     "pmid": "24986855",
+     "title": "Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24986855/",
+     "journal": "Psychol Sci",
+     "year": 2014,
+     "design": "meta-analysis"
+    },
+    {
+     "pmid": "31598236",
+     "title": "The role of deliberate practice in expert performance: revisiting Ericsson, Krampe & Tesch-Römer (1993)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31598236/",
+     "journal": "R Soc Open Sci",
+     "year": 2019,
+     "design": "replication study"
+    },
+    {
+     "pmid": "27217248",
+     "title": "How Important Is Deliberate Practice? Reply to Ericsson (2016)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27217248/",
+     "journal": "Perspect Psychol Sci",
+     "year": 2016,
+     "design": "theoretical commentary"
+    }
+   ]
+  },
+  {
+   "unit": "concept-mental-practice",
+   "name": "心智練習(意象練習)對音樂表現的效果",
+   "evidence_grade": "moderate",
+   "summary": "一篇跨領域的統合分析確認心智練習(不實際動手、只在腦中想像演練指法與和聲進行)對技能表現有真實但中等的效果,通常小於實際動作練習、且與實際練習合併時效果最好;一篇針對音樂表現的實驗直接測到想像、哼唱、實際演奏三者合併練習比單純物理練習成效更好,對沒有鋼琴可用時默背和弦進行、在腦中預演即興句子的做法提供了支持。但音樂領域直接測試心智練習成效的實驗研究數量少、樣本小,大部分支撐心智練習有效的統合分析證據來自運動與醫療技能訓練這類其他領域,能不能等比例套用到需要精細手指觸鍵與雙手獨立協調的鋼琴演奏,證據還不夠直接。",
+   "citations": [
+    {
+     "pmid": "34759873",
+     "title": "Imagine, Sing, Play- Combined Mental, Vocal and Physical Practice Improves Musical Performance",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/34759873/",
+     "journal": "Front Psychol",
+     "year": 2021,
+     "design": "experimental study"
+    },
+    {
+     "pmid": "39588129",
+     "title": "Voluntary musical imagery in music practice: contextual meaning, neuroscientific mechanisms and practical applications",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39588129/",
+     "journal": "Front Psychol",
+     "year": 2024,
+     "design": "narrative review"
+    },
+    {
+     "pmid": "26556071",
+     "title": "From Mind to Body: Is Mental Practice Effective on Strength Gains? A Meta-Analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26556071/",
+     "journal": "CNS Neurol Disord Drug Targets",
+     "year": 2015,
+     "design": "meta-analysis"
+    }
+   ]
+  },
+  {
+   "unit": "concept-talent-trainability",
+   "name": "音樂能力是先天還是可訓練:絕對音感與音樂訓練的遷移效果",
+   "evidence_grade": "contested",
+   "summary": "這個主題有兩條分開但都指向先天沒有課程通常暗示的那麼不重要的證據線。第一條是絕對音感(對鋼琴家判斷和弦、聽記和聲特別關鍵的能力):雙生子研究顯示童年音樂訓練量與絕對音感能力有關聯,但也有實驗顯示成年後透過密集訓練仍能後天習得接近絕對音感的準確判斷,兩者強調的重點相反。第二條是音樂訓練的遠遷移效果——學鋼琴能不能讓人在完全不相關的認知能力上變好:一篇被廣泛引用的回顧直接主張西洋棋、音樂、工作記憶訓練都沒有可靠的遠遷移證據;但另一篇兒童多層次統合分析卻測到音樂訓練與認知、學業表現之間有小而顯著的正相關。兩派證據都在,學鋼琴讓你變聰明與即興能力主要是天生的這兩種簡化敘事,目前都沒有被證據徹底否決或徹底證實。",
+   "citations": [
+    {
+     "pmid": "35969033",
+     "title": "Investigating the Relationship Between Childhood Music Practice and Pitch-Naming Ability in Professional Musicians and a Population-Based Twin Sample",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/35969033/",
+     "journal": "Twin Res Hum Genet",
+     "year": 2022,
+     "design": "twin study"
+    },
+    {
+     "pmid": "31686378",
+     "title": "Is it impossible to acquire absolute pitch in adulthood?",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31686378/",
+     "journal": "Atten Percept Psychophys",
+     "year": 2020,
+     "design": "experimental study"
+    },
+    {
+     "pmid": "29276344",
+     "title": "Does Far Transfer Exist? Negative Evidence From Chess, Music, and Working Memory Training",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29276344/",
+     "journal": "Curr Dir Psychol Sci",
+     "year": 2017,
+     "design": "narrative review"
+    },
+    {
+     "pmid": "32728850",
+     "title": "Cognitive and academic benefits of music training with children: A multilevel meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/32728850/",
+     "journal": "Mem Cognit",
+     "year": 2020,
+     "design": "meta-analysis"
+    }
+   ]
+  },
+  {
+   "unit": "concept-practice-quantity",
+   "name": "練習時數能不能解釋音樂成就的多寡:量 vs 質",
+   "evidence_grade": "moderate",
+   "summary": "一篇專門針對音樂成就的統合分析算出,刻意練習時數平均只能解釋音樂表現差異的約26%,意味著練習量確實有貢獻,但遠不是決定性的唯一因素。更值得課程誠實面對的是2024年一篇涵蓋6471對雙生子的大型行為遺傳學研究:它直接測試刻意練習理論的核心預測——練習越多,基因對音樂能力的影響應該越小,結果測到的卻是相反方向,練習量增加後,音樂能力差異中由基因解釋的比例反而上升,不是下降。這代表只要練得夠多,人人都能彈到某個水準這句課程常見的鼓勵語,在最直接測試這個假說的大型研究裡,得到的是不利的結果。",
+   "citations": [
+    {
+     "pmid": "25018742",
+     "title": "The influence of deliberate practice on musical achievement: a meta-analysis",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25018742/",
+     "journal": "Front Psychol",
+     "year": 2014,
+     "design": "meta-analysis"
+    },
+    {
+     "pmid": "39330466",
+     "title": "Testing the Deliberate Practice Theory: Does Practice Reduce the Heritability of Musical Expertise?",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/39330466/",
+     "journal": "J Intell",
+     "year": 2024,
+     "design": "twin study"
+    }
+   ]
+  }
+ ]
+}

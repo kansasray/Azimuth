@@ -1,0 +1,173 @@
+{
+  "chapter": "CH11",
+  "title": "職業之路與樂手健康",
+  "units": [
+    {
+      "id": "ch11-u1",
+      "name": "職業樂手的一天",
+      "type": "concept",
+      "lesson": {
+        "title": "The Dark Side of Being a Cruise Ship Musician",
+        "channel": "Jeff Schneider",
+        "url": "https://www.youtube.com/watch?v=PnBGTFKUkK8",
+        "lang": "en",
+        "why": "Jeff Schneider是活躍的爵士鋼琴教育者與職業樂手,這支影片誠實講出巡演與駐演演出光鮮外表下的真實作息與收入結構,是這個單元最貼近鋼琴手視角的開場片,比一般空泛的勵志片更有具體細節。"
+      },
+      "drills": [
+        {
+          "name": "教會音樂人的一天",
+          "en": "Day In The Life Of A Church Musician",
+          "kind": "theory",
+          "target": "教會伴奏、多重收入身分、日常結構",
+          "title": "Day In The Life Of A Church Musician",
+          "channel": "Kell Bailey",
+          "url": "https://www.youtube.com/watch?v=I_VtsyPr7Dg"
+        },
+        {
+          "name": "酒吧駐場的接案技巧",
+          "en": "Getting Gigs as a Bar Pianist",
+          "kind": "walkthrough",
+          "target": "商業演出、接案技巧、駐場鋼琴",
+          "title": "How To Get Gigs as Bar Pianist, Practical Tips",
+          "channel": "Christian Fuchs",
+          "url": "https://www.youtube.com/watch?v=pzUR2KojBqE"
+        },
+        {
+          "name": "教學收入的真實現況",
+          "en": "The Real Income of a Piano Teacher",
+          "kind": "theory",
+          "target": "教學收入、多重身份、香港個案",
+          "title": "職業秘聞—教琴日賺過千話咁易？演奏級鋼琴老師：「我份糧唔包教仔」  (果籽 Appledaily)",
+          "channel": "果籽",
+          "url": "https://www.youtube.com/watch?v=X2JdEr1ER1o"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u2",
+      "name": "錄音與 Audition",
+      "type": "skill",
+      "assessment": "用數位鋼琴的耳機孔或USB直接輸出錄一段九十秒的即興或標準曲片段，同時用手機在同一個房間另外收一次音，兩個檔案回放比較三件事：直錄有沒有把觸鍵力度的細節壓平成一片、手機收音的房間殘響有沒有蓋過弱音段落、兩者的音量在整段裡有沒有忽大忽小到一耳就聽出差異。直錄乾淨但音色單薄，混一點殘響或改用手機收音版本；手機收音有雜訊，先換到地毯多的房間或加毯子吸音，不要急著先換設備。錄音前用手心貼著心口數十五秒的心跳次數，若比平常安靜時快兩成以上，先做四秒吸氣、六秒吐氣的呼吸練習到心跳降下來再按下錄音鍵，這是表演焦慮的生理訊號，不是靠意志力壓下去就能消除。錄好後對照兩個audition常見要求自我打分：拿到譜之後三十秒內能不能視奏出譜面寫的和弦進行、同一首曲子能不能示範至少兩種touch（從輕觸鍵的ballad到有力度的up-tempo）。連續投遞demo三次，只要有一次進入複試，這套流程就算堪用；三次都沒有回音，先重錄檢查音質與選曲，被拒絕是這行的常態，不代表要放棄。",
+      "lesson": {
+        "title": "Tips on Auditioning for a Jazz Conservatory",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=bL7q_dTfJgw",
+        "lang": "en",
+        "why": "Jazz at Lincoln Center's JAZZ ACADEMY用機構級的角度講清楚爵士甄試準備該注意的曲目選擇、視奏與臨場心理,是這個單元建立「甄試可以被系統化準備」這個觀念的起點。"
+      },
+      "drills": [
+        {
+          "name": "數位鋼琴直錄與收音比較",
+          "en": "Digital Piano Recording: Direct vs Mic'd",
+          "kind": "walkthrough",
+          "target": "數位鋼琴直錄、麥克風收音、Stereo與Mono",
+          "title": "Digital Piano Recording / Performance: Studio vs Live - Stereo vs Mono",
+          "channel": "PianoManChuck",
+          "url": "https://www.youtube.com/watch?v=Q10D3-wloWg"
+        },
+        {
+          "name": "被拒絕是這行的常態",
+          "en": "Rejection Is Part of the Job",
+          "kind": "theory",
+          "target": "被拒絕、心態調適、長期心態",
+          "title": "How To *Musician* EPISODE 5 : Rejection",
+          "channel": "Cory Wong",
+          "url": "https://www.youtube.com/watch?v=TqD4o2SVT1s"
+        },
+        {
+          "name": "表演焦慮是什麼",
+          "en": "Understanding Performance Anxiety",
+          "kind": "theory",
+          "target": "表演焦慮、生理反應、認知因應",
+          "title": "每次表演/上台都好緊張？一起來認識「表演焦慮」｜Yuu的音樂微科學",
+          "channel": "Yuu的音樂微科學",
+          "url": "https://www.youtube.com/watch?v=x3OZlSK48aw"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u3",
+      "name": "手部健康與 RSI",
+      "type": "skill",
+      "assessment": "每次練習後把手部感覺分兩種記下來對照：一種是手指與前臂痠、像跑完步的大腿一樣悶脹，休息十五分鐘到半小時後力氣會回來，這是正常的肌肉疲勞。另一種是某根手指或手腕固定一點刺痛、發麻，或彈到熟悉的樂句突然抓不住鍵、手指不聽使喚地打結，休息一晚隔天一碰琴鍵同一個地方立刻又痛，這是身體在示警，不是單純沒睡飽。連續兩週出現第二種訊號還硬練，就是在往肌腱炎或focal dystonia（局部性肌張力不全，少見但存在，一旦發生需要專業復健介入，不是靠意志力練得過去）的方向走，該做的是停練三天並找教師或醫療人員評估，不是換個指法繼續撐。每次練習前留五分鐘做手腕環繞與手指伸展暖身，練滿四十五分鐘就強制起身休息五到十分鐘。連續三個月沒有安排過一天完全不彈的休息日，又同時出現前述任何一種疼痛訊號，就是過度使用的警訊，該調整的是練習總量。",
+      "lesson": {
+        "title": "How to Avoid Piano Injuries | Get Rid of Tension and Pain [Hand, Wrist, Elbow, Shoulder & Back]",
+        "channel": "PianoCareer",
+        "url": "https://www.youtube.com/watch?v=tf2rbCjOpfA",
+        "lang": "en",
+        "why": "PianoCareer把鋼琴家最常見的手、腕、肘、肩、背傷害成因與預防一次講完,涵蓋面比單一部位的教學片更完整,適合當這個單元的入門總覽,後面的drill再深入拆解focal dystonia與暖身細節。"
+      },
+      "drills": [
+        {
+          "name": "Focal Dystonia的早期徵兆",
+          "en": "Early Signs of Focal Dystonia",
+          "kind": "theory",
+          "target": "focal dystonia、早期徵兆、嚴重度",
+          "title": "NEVER Ignore These Early Signs | Focal Dystonia Explained",
+          "channel": "Denis Zhdanov",
+          "url": "https://www.youtube.com/watch?v=s5psBrOtu6A"
+        },
+        {
+          "name": "五分鐘暖手與預防伸展",
+          "en": "5-Minute Warm-Up Routine for Pianists",
+          "kind": "practice",
+          "target": "暖手、預防性伸展、休息紀律",
+          "title": "Our 5 minute routine to help PIANO PLAYERS prevent injury!",
+          "channel": "Osteo and Physio",
+          "url": "https://www.youtube.com/watch?v=PDHJ3vNreIM"
+        },
+        {
+          "name": "受傷後的練習調整",
+          "en": "Practicing After a Musician's Injury",
+          "kind": "theory",
+          "target": "受傷後恢復、練習調整、復健",
+          "title": "音樂家復健: 受傷後的練習  by 蘇炯睿醫師",
+          "channel": "Daniel su",
+          "url": "https://www.youtube.com/watch?v=Qzv4Ngis_FA"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u4",
+      "name": "聽力保護",
+      "type": "skill",
+      "assessment": "排練或演出前，先做一次耳塞密合度測試：戴好音樂家耳塞後用手指分別按住左右耳塞根部再放開，聽音量有沒有明顯忽大忽小，沒有變化才代表塞得夠密合，一放手音量就彈回來，代表耳道貼合度不夠，要換一個尺寸的耳塞或耳套。接著用手機分貝計app，站在自己平常排練或演出的位置量測整場音量峰值，峰值若常態超過一百分貝，代表這個空間在一小時內就可能造成暫時性聽力閾值偏移，下一步是拉開與音源（尤其是鼓組與貝斯音箱）的距離，或請樂手降低monitor音量，不是靠忍耐撐過去。連續三次排練後如果耳朵有悶脹感或耳鳴超過三十分鐘才消退，那就是暴露量已經超標的訊號，下一場一定要戴耳塞，不管當晚彈的是安靜的trio還是吵鬧的big band。",
+      "lesson": {
+        "title": "Tinnitus: The Musicians Demon (and mine)",
+        "channel": "Rick Beato",
+        "url": "https://www.youtube.com/watch?v=WdINYxLWGXs",
+        "lang": "en",
+        "why": "Rick Beato以自己的耳鳴經驗第一手講述聽力受損怎麼發生、事後才懊悔沒有及早保護,不是廠商置入式的說教,是這個單元最有說服力的開場片。"
+      },
+      "drills": [
+        {
+          "name": "職業樂手的耳塞怎麼選",
+          "en": "Choosing Earplugs for Professional Musicians",
+          "kind": "walkthrough",
+          "target": "耳塞選購、衰減量、密合度",
+          "title": "How to Choose Earplugs for Professional Musicians",
+          "channel": "Sound Culture",
+          "url": "https://www.youtube.com/watch?v=1137azHSiIY"
+        },
+        {
+          "name": "把過大的舞台音量降下來",
+          "en": "Turning Down a Loud Band's Stage Volume",
+          "kind": "pitfall",
+          "target": "舞台音量、排練音量管理、樂團溝通",
+          "title": "How to get Loud Bands to Turn Down Their Stage Volume",
+          "channel": "bacontrees",
+          "url": "https://www.youtube.com/watch?v=DhCtV8x-TvU"
+        },
+        {
+          "name": "音樂家專用耳塞介紹",
+          "en": "Musician's Earplugs Explained",
+          "kind": "walkthrough",
+          "target": "音樂耳塞、選購配戴",
+          "title": "聽力學家超驚訝｜音樂工作者都沒在保護聽力？快接住這個音樂耳塞｜Musician's hearing is at risk, catch this musician earplug here EnSub",
+          "channel": "聽力公主・Hearing Action",
+          "url": "https://www.youtube.com/watch?v=HSz_4aQxabc"
+        }
+      ]
+    }
+  ]
+}

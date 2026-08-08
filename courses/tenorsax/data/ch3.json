@@ -1,0 +1,200 @@
+{
+  "chapter": "CH3",
+  "title": "音色養成",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "長音:音色的地基",
+      "type": "skill",
+      "assessment": "打開調音器與手機錄音,選中音域 Bb(中間 B♭)當測試音,吹滿 8 拍為一次,連續吹 10 次。每次起音瞬間到收音前,耳朵盯三件事:音頭有沒有雜音、音色中段有沒有從扁平慢慢變開闊、氣柱有沒有抖動。10 次裡面至少 7 次維持指針在中央刻度左右 10 音分內、且沒有雜音才算過關。若前 2 拍音準明顯偏低之後才爬升,通常是嘴唇先撐住音高等氣跟上,回頭做只送氣不出聲的暖身,把氣先送滿,音準才會一開始就穩定。",
+      "lesson": {
+        "title": "七種有效率練長音的方法  / 提升你的音色與音準",
+        "channel": "威廉音樂Dr. Sax",
+        "url": "https://www.youtube.com/watch?v=GKYsZ-lPTjg",
+        "lang": "zh",
+        "why": "威廉音樂Dr. Sax 一支影片講完長音練習的七種方法,涵蓋聽力重點與音準連動,觀看數逾五萬,是中文圈對「長音怎麼練才有效」最系統的入口教學。"
+      },
+      "drills": [
+        {
+          "name": "為什麼要練長音",
+          "kind": "theory",
+          "target": "長音、練習動機、聽力重點",
+          "title": "《有意識的練習》為什麼要練長音？",
+          "channel": "薩克斯風不落轟小鄧老師（小鄧薩克斯風教室）",
+          "url": "https://www.youtube.com/watch?v=tibbQTEzFYU"
+        },
+        {
+          "name": "漸強漸弱練習",
+          "en": "Crescendo Decrescendo Practice",
+          "kind": "practice",
+          "target": "長音、漸強漸弱、動態控制",
+          "title": "《每日來一課》漸強漸弱練習 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=vnHNIZ-CS14"
+        },
+        {
+          "name": "長音吹不長怎麼辦",
+          "kind": "pitfall",
+          "target": "長音、氣柱耐力、常見問題",
+          "title": "《每日來一課》#長音吹不長 怎麼辦？ #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=q8z2Vp-V9Bk"
+        },
+        {
+          "name": "職業樂手的長音課表",
+          "en": "A Pro's Daily Long Tone Routine",
+          "kind": "walkthrough",
+          "target": "長音、每日課表、專業練習示範",
+          "title": "董舜文今天練什麼？[03] 今天來練長音吧！",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=0E1cHlQh_UI"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "泛音練習",
+      "type": "skill",
+      "assessment": "含住吹嘴,只按最低音 Bb 的指法,喉嚨放鬆、口腔想像打哈欠般撐開,試著不改變指法只靠口腔與喉部動作把泛音一路吹到第四個泛音(高八度的 F 附近)。連續吹 10 次完整的泛音列上行,若有 7 次以上能吹到第三個泛音以上且音與音之間沒有斷裂雜音,才算通過。若卡在第二個泛音上不去,多半是舌根壓太低或喉嚨沒有收緊到位;若聲音破裂發尖,多半是嘴唇咬太緊,先把嘴型放鬆一格再重試。能穩定吹滿泛音列,是之後練超高音(altissimo)的先決條件,吹不上去代表口腔控制還沒準備好進入超高音的階段。",
+      "lesson": {
+        "title": "小鄧薩克斯風教室-泛音-舌根與喉嚨有字幕）",
+        "channel": "薩克斯風不落轟小鄧老師（小鄧薩克斯風教室）",
+        "url": "https://www.youtube.com/watch?v=ME2mwNXuqYA",
+        "lang": "zh",
+        "why": "小鄧薩克斯風教室直接示範舌根與喉嚨在吹泛音時該怎麼動,對應本單元「口腔與喉部調整」這個最抽象、中文教學裡少見講到具體肌肉動作的環節。"
+      },
+      "drills": [
+        {
+          "name": "低音 Bb 泛音列練習",
+          "en": "Low Bb Overtone Series",
+          "kind": "walkthrough",
+          "target": "泛音列、低音 Bb、超高音先決條件",
+          "title": "《每日來一課》超高音：bB泛音列練習 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=d68rMM8fNIE"
+        },
+        {
+          "name": "泛音為何是音色訓練核心",
+          "kind": "theory",
+          "target": "泛音、音色、基礎原理",
+          "title": "How to Play OVERTONES on Saxophone for a better SOUND",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=H7MkMvfJfnc"
+        },
+        {
+          "name": "泛音與超高音的四個訣竅",
+          "en": "Overtones and Altissimo: 4 Tips",
+          "kind": "walkthrough",
+          "target": "泛音、altissimo、口腔調整",
+          "title": "How to play OVERTONES and ALTISSIMO on saxophone 【 4 Tips 】",
+          "channel": "Wonki Lee",
+          "url": "https://www.youtube.com/watch?v=gsoFsaZFGRo"
+        },
+        {
+          "name": "泛音的日常練習訣竅",
+          "kind": "practice",
+          "target": "泛音、每日練習、口腔技巧",
+          "title": "Practicing Overtones: Tips And Tricks",
+          "channel": "Thomas SAX",
+          "url": "https://www.youtube.com/watch?v=02f1Uq4eB8g"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "Subtone 與音色光譜",
+      "type": "concept",
+      "lesson": {
+        "title": "Jazz Subtone - 如何吹出沙啞渾厚的薩克斯風音色？",
+        "channel": "威廉音樂Dr. Sax",
+        "url": "https://www.youtube.com/watch?v=wzBPg-guArc",
+        "lang": "zh",
+        "why": "威廉音樂Dr. Sax 直接示範次中音沙啞渾厚的音色怎麼吹出來,觀看數超過十萬,是進入本單元「音色光譜」討論前必備的技術基礎。"
+      },
+      "drills": [
+        {
+          "name": "Getz 的氣音抒情",
+          "en": "Desafinado",
+          "kind": "listen",
+          "target": "Stan Getz、氣音、抒情音色",
+          "title": "Desafinado (Mono Version)",
+          "channel": "Stan Getz - Topic",
+          "url": "https://www.youtube.com/watch?v=kGomV5yhu40"
+        },
+        {
+          "name": "Coltrane 的亮與密",
+          "en": "Giant Steps",
+          "kind": "listen",
+          "target": "Coltrane、亮而密、sheets of sound",
+          "title": "John Coltrane - Giant Steps (2020 Remaster) [Official Audio]",
+          "channel": "John Coltrane",
+          "url": "https://www.youtube.com/watch?v=KwIC6B_dvW4"
+        },
+        {
+          "name": "Brecker 的現代亮核",
+          "en": "Delta City Blues",
+          "kind": "listen",
+          "target": "Brecker、現代亮核、超高音音色",
+          "title": "Michael Brecker - Delta City Blues - 1998",
+          "channel": "mobiusII",
+          "url": "https://www.youtube.com/watch?v=gcIIkrBLUmg"
+        },
+        {
+          "name": "三位大師的音色怎麼模仿",
+          "kind": "theory",
+          "target": "音色比較、模仿方法、三位大師",
+          "title": "The Secret Way to Get The Sound Of John Coltrane, Sonny Rollins and Stan Getz",
+          "channel": "Thomas SAX",
+          "url": "https://www.youtube.com/watch?v=AlHu2II81AM"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u4",
+      "name": "Vibrato 與音準",
+      "type": "skill",
+      "assessment": "打開節拍器設 60,吹中音域一個長音,用下顎小幅度的上下擺動做抖音,目標是每拍晃動 4 次、音高擺動範圍在 ±20 音分以内,連續吹 8 拍。錄下來回放,數一數 8 拍裡有幾拍的抖音次數落在每拍 3 到 5 次之間,8 拍中要有 6 拍以上命中才算通過。次中音本身高音域偏容易發尖、超高音容易偏高,吹到第二泛音以上的音時額外對著調音器確認,指針持續往右超過 15 音分就代表吹嘴含太少,咬合放鬆一點再測。每週至少錄一次自己吹的長音音階拿去跟調音器畫面比對,能聽出哪個音容易跑掉,才代表耳朵真的在進步。",
+      "lesson": {
+        "title": "想用抖音增添演奏情感嗎？2個步驟教你學會薩克斯風抖音技巧 | Chisax 薩克斯風演奏教學",
+        "channel": "Chisax薩克斯風演奏教學",
+        "url": "https://www.youtube.com/watch?v=m4Bhm-_aSSk",
+        "lang": "zh",
+        "why": "Chisax薩克斯風演奏教學把下顎抖音拆成兩個可操作步驟,中文教學裡少見把速度控制講得這麼具體,是本單元的入口影片。"
+      },
+      "drills": [
+        {
+          "name": "抖音節奏跟練",
+          "kind": "practice",
+          "target": "抖音、跟練、節奏感",
+          "title": "《每日來一課》一起來練習 #抖音 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=deBlaHXUrWs"
+        },
+        {
+          "name": "抖音速度控制練習與作業",
+          "kind": "practice",
+          "target": "抖音速度、練習作業、下顎控制",
+          "title": "Saxophone Vibrato: Exercises, Tips and Homework",
+          "channel": "Saxophone Academy",
+          "url": "https://www.youtube.com/watch?v=8ZhFgjuX82k"
+        },
+        {
+          "name": "薩克斯風的先天音準傾向",
+          "kind": "theory",
+          "target": "音準、樂器先天傾向、次中音",
+          "title": "How to Play Sax In Tune",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=P1RQi6YG1Xg"
+        },
+        {
+          "name": "調音器自我檢查練習",
+          "kind": "practice",
+          "target": "調音器、音準自檢、每日練習",
+          "title": "My  EXCRUCIATING Daily tuning practice",
+          "channel": "Jazzduets",
+          "url": "https://www.youtube.com/watch?v=W2m5bXK-6Ak"
+        }
+      ]
+    }
+  ]
+}

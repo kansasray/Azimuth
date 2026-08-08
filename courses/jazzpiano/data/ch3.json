@@ -1,0 +1,209 @@
+{
+  "chapter": "CH3",
+  "title": "和聲基礎",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "讀 Lead Sheet",
+      "type": "skill",
+      "assessment": "任選一首沒彈過的 Real Book 標準曲 lead sheet（建議 iReal Pro 或 Real Book 6th edition 裡的中等難度曲目），右手照譜彈旋律、左手同時彈出對應和弦的根音與三音或七音，速度抓 60 BPM 以下先求音對。整首曲子彈完後檢查兩件事：和弦記號有沒有認錯（m7 彈成 maj7、ø 彈成 dim 是最常見的兩種）、旋律有沒有漏掉或彈錯八度。連續兩首曲子都不犯這兩類錯誤才算過關，犯錯就回頭比對原譜的和弦記號逐一核對。",
+      "lesson": {
+        "title": "How To Read Lead Sheets On Piano",
+        "channel": "London Contemporary School of Piano",
+        "url": "https://www.youtube.com/watch?v=tN0ZHQxaUhs",
+        "lang": "en",
+        "why": "把讀 lead sheet 的完整流程講清楚，從和弦記號辨識到旋律與和聲同時視奏都涵蓋到，是這個主題裡少數把整套讀譜步驟串起來教的英文影片。"
+      },
+      "drills": [
+        {
+          "name": "和弦記號系統總覽",
+          "en": "Modern Chord Symbol Notation",
+          "kind": "theory",
+          "target": "和弦記號、maj7、屬七、半減七、減七",
+          "title": "十分鐘以內，一次搞懂所有的現代和弦代號！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=I0y2LY4sPZA"
+        },
+        {
+          "name": "Lead Sheet 常見讀譜錯誤",
+          "en": "Common Lead Sheet Reading Mistakes",
+          "kind": "pitfall",
+          "target": "節奏誤讀、和弦記號混淆、反覆記號",
+          "title": "爵士樂的視譜(Lead Sheet)：最常見的三個錯誤",
+          "channel": "Dennis 爵士鋼琴",
+          "url": "https://www.youtube.com/watch?v=_lO6LLfElFo"
+        },
+        {
+          "name": "Real Book 文化與爭議",
+          "en": "The Real Book: A Jazz Shibboleth",
+          "kind": "theory",
+          "target": "Real Book 歷史、盜版樂譜、爵士曲庫文化",
+          "title": "What is the Real Book? (a jazz shibboleth)",
+          "channel": "Adam Neely",
+          "url": "https://www.youtube.com/watch?v=dD0e5e6wI_A"
+        },
+        {
+          "name": "三步驟彈出 Lead Sheet",
+          "en": "How to Play Lead Sheets (3 Steps)",
+          "kind": "walkthrough",
+          "target": "旋律視奏、左手和弦、雙手同步",
+          "title": "How to play lead sheets on piano (3 steps)",
+          "channel": "Piano Fluency",
+          "url": "https://www.youtube.com/watch?v=tKF0ubi5_-o"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "七和弦家族",
+      "type": "skill",
+      "assessment": "在鋼琴上以 C 為根音，連續彈出 Cmaj7、Cm7、C7、Cø(Cm7b5) 四種七和弦各一次，每種都要能立刻說出組成音（大三或小三度、完全五度或減五度、大七或小七度）。接著換到 F、Bb、Eb 三個調重複同樣的四種和弦，十二調全部彈過一輪不查表、不停頓超過五秒才算完成第一階段。第二階段找人或用耳訓練 App 隨機播放四種七和弦各三次，共十二題，聽辨正確率要達到十題以上才算過，錯的題目回去對照結構重彈一次加深印象。",
+      "lesson": {
+        "title": "Jazz Piano Chords Explained: Maj7, Min7, Dom7, Half-Diminished (The 4 Core Jazz Chords)",
+        "channel": "Jazz Tutorial | Julian Bradley",
+        "url": "https://www.youtube.com/watch?v=kwdajj_In5A",
+        "lang": "en",
+        "why": "一支影片講完 maj7、m7、屬七、半減七四種核心七和弦的結構與聲響對比，放在同一個根音上直接比較，比分散在多支影片裡學更容易建立聽覺對照。"
+      },
+      "drills": [
+        {
+          "name": "屬七和弦的結構",
+          "en": "Dominant 7th Chord Construction",
+          "kind": "theory",
+          "target": "屬七和弦、大三度、小七度",
+          "title": "如何彈出又帥氣又糾結的屬七和弦？",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=GhrXnVxcW9I"
+        },
+        {
+          "name": "半減七和弦的結構",
+          "en": "Half-Diminished 7th Chord (ø)",
+          "kind": "theory",
+          "target": "半減七和弦、ø 記號、減五度",
+          "title": "半減七和弦！（The ø Chord）",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=2jHyteJq1BQ"
+        },
+        {
+          "name": "七和弦十二調練習",
+          "en": "Practicing Seventh Chords in All Keys",
+          "kind": "practice",
+          "target": "轉位、十二調、和弦進行",
+          "title": "How to Practice Seventh Chords on Piano (Inversions, Voicings & Progressions)",
+          "channel": "Carnegie Studios",
+          "url": "https://www.youtube.com/watch?v=_rv68ukrYy0"
+        },
+        {
+          "name": "七和弦聽辨練習",
+          "en": "7th Chord Ear Training",
+          "kind": "practice",
+          "target": "maj7、m7、半減七、減七聽辨",
+          "title": "Ear Training Practice - 7th Chords (maj7, min7, dim7,half dim) on Piano",
+          "channel": "Ear Training Practice",
+          "url": "https://www.youtube.com/watch?v=AsUY_uReHTs"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "Shell Voicings",
+      "type": "skill",
+      "assessment": "選一首含四個以上和弦的爵士標準曲（建議 Autumn Leaves 或 Blue Bossa），左手只用三音的 shell voicing（根音加三音、七音兩個聲部）彈完整首和弦進行，右手同時彈主旋律。彈奏時檢查換和弦時左手有沒有大跳超過一個八度，理想的 shell 連接應該讓相鄰兩個和弦共用或接近共用某一個聲部，移動距離通常落在一個全音到小三度之間。連續彈三次同一首曲子都能一次到底不中斷、不低頭找鍵，才算完成這個單元。",
+      "lesson": {
+        "title": "Shell Voicings Explained Clearly (Beginner Jazz Piano)",
+        "channel": "Jazz Tutorial | Julian Bradley",
+        "url": "https://www.youtube.com/watch?v=_ldxtscmCpo",
+        "lang": "en",
+        "why": "把 shell voicing 只留根音、三音、七音三個聲部的原理講得很清楚，而且直接示範左手怎麼在鍵盤上找到這三個音，是這個主題裡對初學者最友善的入門影片。"
+      },
+      "drills": [
+        {
+          "name": "Shell Voicing 初階建構",
+          "en": "Shell Voicings for Beginners",
+          "kind": "walkthrough",
+          "target": "根音、三音、七音、左手指法",
+          "title": "Jazz Piano for Beginners: Shell Voicings (Lesson 4)",
+          "channel": "MangoldProject",
+          "url": "https://www.youtube.com/watch?v=WJd5xh7eAQo"
+        },
+        {
+          "name": "三音固定和弦活用",
+          "en": "3-Note Fixed Chord Application",
+          "kind": "walkthrough",
+          "target": "三音和弦、左手固定指型",
+          "title": "鋼琴最常用三音固定和弦教學活用全國第一名爵士鋼琴何俊秀",
+          "channel": "何俊秀",
+          "url": "https://www.youtube.com/watch?v=krKdsD-Z0j0"
+        },
+        {
+          "name": "ii-V-I 的 Shell 連接",
+          "en": "ii-V-I with Shell Voicings in 12 Keys",
+          "kind": "practice",
+          "target": "ii-V-I、shell voicing、十二調",
+          "title": "How to Play The 2-5-1 Chord Progression (ii-V-I) with Shell Voicings in 12 Major & Minor Keys!",
+          "channel": "Play Jazz Piano",
+          "url": "https://www.youtube.com/watch?v=NGeVdFkoxsQ"
+        },
+        {
+          "name": "簡易三音和絃配置",
+          "en": "Simple 3-Note Jazz Voicing",
+          "kind": "theory",
+          "target": "三音配置、爵士聲響",
+          "title": "快速找到爵士聲響的方法 - 爵士樂中的簡易三音和絃配置（3-note Jazz Voicing）一點通",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=ErTzxUehTsY"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u4",
+      "name": "Voice Leading（聲部進行）",
+      "type": "concept",
+      "lesson": {
+        "title": "Voice Leading - A Beginner Piano Lesson in Smooth Chord Progressions",
+        "channel": "MangoldProject",
+        "url": "https://www.youtube.com/watch?v=ZKM8FtLgvRk",
+        "lang": "en",
+        "why": "從最小移動與共同音保留兩個核心原則出發，用實際和弦進行示範聲部怎麼平滑接續，是這個主題裡把「為什麼要顧慮聲部進行」講得最系統的一支。"
+      },
+      "drills": [
+        {
+          "name": "爵士聲部進行深化",
+          "en": "Jazz Piano Voice Leading",
+          "kind": "theory",
+          "target": "聲部進行、平滑和弦連接",
+          "title": "Jazz Piano Tutorial - Voice Leading",
+          "channel": "Walk That Bass",
+          "url": "https://www.youtube.com/watch?v=SzZqwETn0Lw"
+        },
+        {
+          "name": "Voice Leading 法則與祕訣",
+          "en": "Voice Leading Rules & Tips",
+          "kind": "theory",
+          "target": "聲部進行法則、和弦連接",
+          "title": "爵士鋼琴_重要的Voice Leading法則與實用祕訣 -預覽",
+          "channel": "Blackflavour Jazz",
+          "url": "https://www.youtube.com/watch?v=QDluNCZg-Vs"
+        },
+        {
+          "name": "和弦進行的聲部帶領",
+          "en": "How to Voice Lead a Chord Progression",
+          "kind": "theory",
+          "target": "共同音保留、最小移動",
+          "title": "How to voice lead a chord progression",
+          "channel": "David Bennett Music Theory",
+          "url": "https://www.youtube.com/watch?v=FNl6bb755Z4"
+        },
+        {
+          "name": "讓和弦聽起來平滑",
+          "en": "Make Your Chords Sound Smooth",
+          "kind": "walkthrough",
+          "target": "聲部平滑、和弦轉換",
+          "title": "Voice Leading: Make Your Chords Sound SMOOTH",
+          "channel": "PianoPig",
+          "url": "https://www.youtube.com/watch?v=Xzp-JIZw2Xs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "chapter": "CH7",
+  "title": "音階與和聲",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "十二個大調與音階練習法",
+      "type": "skill",
+      "assessment": "把節拍器設定在 92 BPM，十二個大調音階各吹一輪上行下行，不看指法表也不停頓才算完整跑完一圈。跑完一圈後單獨挑出 B 大調與 Gb 大調重測，若這兩個調的指法卡頓超過兩次或整段吹到走音，代表移調系統還沒真正內化，回頭把這兩個調拆成四小節單獨練到不卡再重跑全圈。連續兩次十二調都能不停頓吹完整圈，且 B 與 Gb 都沒有超過兩次卡頓，才算真正學會這套練習法。",
+      "lesson": {
+        "title": "只要5個音輕鬆學會12大調！並且徹底搞懂移調系統，免費贈送講義｜Chisax薩克斯風演奏教學",
+        "channel": "Chisax薩克斯風演奏教學",
+        "url": "https://www.youtube.com/watch?v=-tZmTGLmBb4",
+        "lang": "zh",
+        "why": "用五個音的架構把十二大調的移調系統一次講清楚，不要求硬背十二套指法，是這次盤點裡對『為什麼要練十二調』講得最系統的中文教學。"
+      },
+      "drills": [
+        {
+          "name": "快速學會十二大調的方法",
+          "en": "How I Learned ALL 12 Major Scales Quickly",
+          "kind": "walkthrough",
+          "target": "十二大調、快速練習法",
+          "title": "How I Learned ALL 12 Major Scales Quickly",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=NtBhVH6bIYg"
+        },
+        {
+          "name": "爵士音階的練習原則",
+          "en": "How to Practice Scales in Jazz",
+          "kind": "theory",
+          "target": "音階練習法、routine",
+          "title": "How to Practice Scales in Jazz",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=Anq26tezBSk"
+        },
+        {
+          "name": "薩克斯風上的困難調",
+          "en": "Playing in Difficult Keys on Saxophone",
+          "kind": "pitfall",
+          "target": "困難調、指法卡頓",
+          "title": "Playing in Difficult Keys on Saxophone",
+          "channel": "Brian Hayes",
+          "url": "https://www.youtube.com/watch?v=y6i3aYqtE5w"
+        },
+        {
+          "name": "單一大調的音階練習法",
+          "kind": "practice",
+          "target": "C大調、音階練習",
+          "title": "017 - [C]音階練習法",
+          "channel": "魔法大衛直覺式薩克斯風",
+          "url": "https://www.youtube.com/watch?v=RCfTGA1ezUQ"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "和弦內音與琶音",
+      "type": "skill",
+      "assessment": "挑一首藍調或簡單的爵士標準曲，只用和弦的三度與七度音(guide tones)不加其他音，跟著原曲和聲吹完整首並錄音。回放時逐一比對每個和弦轉換處落的音，八成以上的轉換點都準確落在該和弦的三度或七度才算通過。如果連續三個轉換點都亂猜或跳到不相干的音，代表琶音還沒背熟，先把 maj7、min7、dom7 三種七和弦琶音各自單獨吹十二調練到不假思索，再回來重測整首曲子。",
+      "lesson": {
+        "title": "即興的第一步 認識順階和弦  - 薩克斯風小秘訣中階班  - Learn about diatonic chords before Improvise Saxophone Tips",
+        "channel": "江川徹",
+        "url": "https://www.youtube.com/watch?v=PJk1aUIPGHk",
+        "lang": "zh",
+        "why": "在教和弦內音與琶音之前先建立順階和弦的觀念，讓學生知道每個和弦音從哪裡來，是這個單元少見能補上『為什麼』而非只教『怎麼吹』的中文教學。"
+      },
+      "drills": [
+        {
+          "name": "和弦進行的吹奏方法",
+          "en": "Learn to Play Chord Changes",
+          "kind": "walkthrough",
+          "target": "和弦進行、chord tones應用",
+          "title": "Learn to Play Chord Changes - Beginner to Advanced",
+          "channel": "Online Sax Academy",
+          "url": "https://www.youtube.com/watch?v=GRMTTNoHqTo"
+        },
+        {
+          "name": "七和弦琶音練習(次中音)",
+          "en": "Seventh Chord Chord Tones Exercise",
+          "kind": "practice",
+          "target": "七和弦琶音、次中音",
+          "title": "8-minute 48 Seventh Chord Chord Tones Exercise For Tenor Saxophone",
+          "channel": "Ken Chow",
+          "url": "https://www.youtube.com/watch?v=aH8eP3_VmxY"
+        },
+        {
+          "name": "用 chord tones 當即興骨架",
+          "en": "The RIGHT Way to Improvise with Chord Tones",
+          "kind": "theory",
+          "target": "chord tones、即興骨架",
+          "title": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+          "channel": "Jeff Schneider",
+          "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA"
+        },
+        {
+          "name": "認識 Guide Tones",
+          "en": "What Are Guide Tones?",
+          "kind": "theory",
+          "target": "guide tones、三度七度",
+          "title": "What Are Guide Tones?? PART 1 (3rds and 7ths)",
+          "channel": "School of Sax - George Philips",
+          "url": "https://www.youtube.com/watch?v=AVDW8peOxN8"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u3",
+      "name": "ii-V-I",
+      "type": "skill",
+      "assessment": "播放一段隨機調的 ii-V-I 進行(可用手機 app 或找人彈)，在聽到第一個和弦後三秒內喊出這是大調還是小調的 ii-V-I，連續十組要對八組以上才算耳朵真的聽得出來。接著換成自己吹，用 bebop scale 在 V7 上加一個經過音把八分音符對齊到強拍，十二個調各吹一次，允許停頓找指法但不能吹錯和弦音。十二調都吹完且耳朵測驗通過，兩項都做到才算真的掌握這個進行。",
+      "lesson": {
+        "title": "簡單上手爵士251和弦  / 3分鐘小教室 #4",
+        "channel": "威廉音樂Dr. Sax",
+        "url": "https://www.youtube.com/watch?v=tFHzoAw0dmc",
+        "lang": "zh",
+        "why": "三分鐘把爵士最常見的 2-5-1(即 ii-V-I)和弦進行講清楚，短小精悍，適合當這個單元的中文入口，再接後面的耳朵訓練與十二調練習。"
+      },
+      "drills": [
+        {
+          "name": "聽出和弦進行的耳朵訓練",
+          "en": "Jazz Ear Training",
+          "kind": "theory",
+          "target": "耳朵訓練、和聲聽辨",
+          "title": "JAZZ Ear Training They DON'T Teach You In Music School",
+          "channel": "Tim Collins",
+          "url": "https://www.youtube.com/watch?v=Mq0P4r6XZy8"
+        },
+        {
+          "name": "十二調 ii-V-I 跟奏(次中音)",
+          "en": "Major ii-V-I Exercise in ALL 12 keys",
+          "kind": "practice",
+          "target": "十二調、跟奏track、次中音",
+          "title": "Major ii-V-I Exercise in ALL 12 keys - Backing Track for Tenor Sax, BPM 108",
+          "channel": "Yasuhiro Fujii",
+          "url": "https://www.youtube.com/watch?v=hr11PfXDth8"
+        },
+        {
+          "name": "Bebop Scale 的用法",
+          "en": "Unlock the Power of the Bebop Scale",
+          "kind": "theory",
+          "target": "bebop scale、V7 經過音",
+          "title": "Unlock the Power of the Bebop Scale",
+          "channel": "Jazz Lesson Videos",
+          "url": "https://www.youtube.com/watch?v=KrxjJvIxG_A"
+        },
+        {
+          "name": "五句必學的 ii-V-I Licks",
+          "en": "5 Essential ii-V-I Licks",
+          "kind": "walkthrough",
+          "target": "ii-V-I licks、樂句",
+          "title": "5 Essential ii-V-I Licks for Jazz Musicians",
+          "channel": "Jazz Lesson Videos",
+          "url": "https://www.youtube.com/watch?v=r2f8kn1pNcA"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u4",
+      "name": "調式與其他常用音階",
+      "type": "concept",
+      "lesson": {
+        "title": "The Only Scales You Need to Know For Jazz Improvisation",
+        "channel": "Chad LB",
+        "url": "https://www.youtube.com/watch?v=zZYv8rjDJzU",
+        "lang": "en",
+        "why": "職業爵士次中音薩克斯風手直接講清楚真正常用的音階其實沒有想像中多，呼應這個單元『Dorian/Mixolydian 就夠用』的核心論點，比逐一列舉音階的教學更貼近實際演奏需求。"
+      },
+      "drills": [
+        {
+          "name": "Dorian 調式怎麼用",
+          "en": "Dorian Minor Scale for Saxophone",
+          "kind": "walkthrough",
+          "target": "Dorian、小調調式",
+          "title": "Dorian Minor Scale for Saxophone 🎷 How to Build & Use It",
+          "channel": "Lynden Blades -Sax Made Simple",
+          "url": "https://www.youtube.com/watch?v=vK6C1ofStgk"
+        },
+        {
+          "name": "Mixolydian 屬音階",
+          "en": "Learn the Dominant Scale (Mixolydian Mode)",
+          "kind": "walkthrough",
+          "target": "Mixolydian、屬音階",
+          "title": "Learn the Dominant Scale on SAX! (Mixolydian Mode) - Saxophone Lesson by Paul Haywood",
+          "channel": "Paul Haywood - Sax School",
+          "url": "https://www.youtube.com/watch?v=sieZ2mQpWSg"
+        },
+        {
+          "name": "十二調藍調音階回顧",
+          "en": "Learn All 12 Blues Scales",
+          "kind": "practice",
+          "target": "藍調音階、十二調",
+          "title": "Learn All 12 Blues Scales: 5 min Play-Along Warm Up #84",
+          "channel": "Online Sax Academy",
+          "url": "https://www.youtube.com/watch?v=0RIvu1ScgAo"
+        },
+        {
+          "name": "Altered 音階何時登場",
+          "en": "The Altered Scale Made Easy",
+          "kind": "theory",
+          "target": "altered音階、屬七和弦",
+          "title": "This Simple Trick Makes The ALTERED SCALE Easy",
+          "channel": "Thomas SAX",
+          "url": "https://www.youtube.com/watch?v=AaqiNJOJvvo"
+        }
+      ]
+    }
+  ]
+}

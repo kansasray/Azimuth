@@ -1,0 +1,209 @@
+{
+  "chapter": "CH8",
+  "title": "即興實作",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "第一次即興",
+      "type": "skill",
+      "assessment": "用 C 大調五聲音階（C、D、E、G、A 五個音）配一個 80 BPM、八小節反覆的 C 大調 backing track，右手只用這五個音自由彈兩輪，不看譜、不先想好要彈的樂句。先只顧拍子：backing track 每兩小節換一次和弦，你要在換和弦的瞬間就跟上，不是聽了半小節才發現自己慢半拍。拍子穩了才回頭聽音準，刺耳的音記下來，把速度砍到 60 BPM 重彈到刺耳感消失為止。連續兩輪不中斷、不停下來想下一個音才算過關，中途停頓超過兩次就代表還在用挑音取代跟拍子，先回去單獨跟節拍器拍手兩分鐘再重彈。",
+      "lesson": {
+        "title": "爵士钢琴课12：爵士Solo怎么练？（多器乐通用）",
+        "channel": "XinJazz法国爵士阿欣",
+        "url": "https://www.youtube.com/watch?v=Y1No4lGLuoo",
+        "lang": "zh",
+        "why": "用一般性的 solo 練習法破題，把「不知道從哪裡下手」的第一次即興焦慮拆成具體步驟，多器樂通用的角度讓鋼琴初學者不用先啃完整套樂理就能直接照著練。"
+      },
+      "drills": [
+        {
+          "name": "五聲音階與藍調音起手式",
+          "en": "Pentatonics, Blue Notes and How Improvisation Works",
+          "kind": "walkthrough",
+          "target": "五聲音階、藍調音、即興起手音",
+          "title": "Jazz Piano For Beginners || Tutorial #2: pentatonics, blue notes and how improvisation works",
+          "channel": "Bill Hilton",
+          "url": "https://www.youtube.com/watch?v=WZxYMVef6Kc"
+        },
+        {
+          "name": "節奏比音準更重要",
+          "en": "Why Rhythm Matters More Than Notes",
+          "kind": "theory",
+          "target": "律動、節奏優先、拍子穩定度",
+          "title": "Why Rhythm Matters More Than Notes (And How to Practice It)",
+          "channel": "The Sound Kitchen",
+          "url": "https://www.youtube.com/watch?v=za1M1UKFzyI"
+        },
+        {
+          "name": "十分鐘 backing track 跟奏練習",
+          "en": "The Essential 10-Min C Am F G Jazz Backing Track for Solo Practice",
+          "kind": "practice",
+          "target": "backing track、跟奏、速度感",
+          "title": "The Essential 10-Min C Am F G Jazz Backing Track for Solo Practice (From Viral Short)",
+          "channel": "PRACTICE JAZZ",
+          "url": "https://www.youtube.com/watch?v=JwcCBGqPmwU"
+        },
+        {
+          "name": "沒有彈錯的音這回事",
+          "en": "There Are No Wrong Notes.",
+          "kind": "pitfall",
+          "target": "彈錯音恐懼、心理障礙、完美主義",
+          "title": "There Are No Wrong Notes.",
+          "channel": "MangoldProject",
+          "url": "https://www.youtube.com/watch?v=m9BFZsNZA98"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "雙手的協調",
+      "type": "skill",
+      "assessment": "右手單獨彈一條八小節的即興線條或熟悉旋律,先確認不停頓、音準對。接著左手只用全音符 shell voicing(三音、七音兩個音)跟著和弦進行墊入,每小節換一次和弦,節拍器 60 BPM,連續彈兩輪不斷奏、不搶拍才算過關。通過後把左手節奏密度加快一級,全音符改成二分音符,每小節彈兩次,同一條旋律線條與同樣節拍器速度再測一次。若右手線條因為左手加密而斷句、掉拍或搶拍,代表兩手分工還沒獨立,退回全音符那一級,單獨慢練左手節奏型三次再合手,通過才准再往上加密。",
+      "lesson": {
+        "title": "Solo Jazz Piano: What Do I Do with my Left Hand???",
+        "channel": "Jeremy Siskind",
+        "url": "https://www.youtube.com/watch?v=jtvVaPy7_4c",
+        "lang": "en",
+        "why": "直接講 solo piano 裡左手該扮演的角色與進場時機,直接拆解右手 lines 跟左手 comping 怎麼分配注意力、避免兩手一開始就搶拍衝在一起,是這個單元最切題的骨幹片。"
+      },
+      "drills": [
+        {
+          "name": "雙手節奏協調練習",
+          "en": "Rhythmic Hand Coordination Exercises",
+          "kind": "practice",
+          "target": "雙手節奏同步、獨立性",
+          "title": "RHYTHMIC JAZZ EXERCISES - Coordinate Left & Right Hand",
+          "channel": "NewJazz",
+          "url": "https://www.youtube.com/watch?v=SE27Uy1jAg8"
+        },
+        {
+          "name": "左手節奏密度漸進練習",
+          "en": "Progressive Left Hand Comping Rhythms",
+          "kind": "practice",
+          "target": "左手節奏密度、漸進練習",
+          "title": "Best Left Hand Comping Exercises & Rhythms [Jazz Piano Tutorial]",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=V688USxrOb4"
+        },
+        {
+          "name": "左手進場時機",
+          "en": "When Should Your Left Hand Come In",
+          "kind": "theory",
+          "target": "左手進場時機、雙手分工",
+          "title": "What Should Your Left Hand Do? The Simple Answer",
+          "channel": "JazzSkills",
+          "url": "https://www.youtube.com/watch?v=fjg2w0Kr5Pg"
+        },
+        {
+          "name": "左右手慢動作組合練習",
+          "en": "Slow-Motion Left-Right Hand Combos",
+          "kind": "practice",
+          "target": "左右手慢動作、Comping 組合",
+          "title": "跟著我左手右手一個慢動作 - 三種鋼琴上Jazz Comping的有效練習與組合",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=C4-6GUDx8Zk"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u3",
+      "name": "動機發展與說故事",
+      "type": "skill",
+      "assessment": "錄下自己 32 小節的 blues solo,回放時做四項檢查。第一,標出主動機(3 到 5 個音的短樂句)在哪些小節重複出現,變形手法(移調、節奏改變、音程翻轉)至少用出兩種。第二,找出至少兩處問答句結構,前句與後句各 2 小節,後句要像回應前句而不是另起爐灶。第三,量休止與長音佔全曲時值的比例,低於 15% 代表音符擠得太滿,回去對照留白教材重錄一次。第四,整段 solo 要能切成起、承、轉、合四段,每段至少 4 小節,四段都指認得出來、每段的音樂性格不同,才算過關。四項有一項做不到,回頭聽對應的示範影片抓一句照套再錄一次。",
+      "lesson": {
+        "title": "Motivic Development In Jazz - 10 Exercises For More Musical Solos",
+        "channel": "Magnus Bakken",
+        "url": "https://www.youtube.com/watch?v=ByOqfC0jntc",
+        "lang": "en",
+        "why": "中文完全查無動機發展教學(多輪關鍵字搜尋窮盡確認),這支把動機的重複、移位、節奏變形拆成十個可操作的練習,直接對應這個單元的核心主題。"
+      },
+      "drills": [
+        {
+          "name": "從 Guide Tone Line 長出旋律線",
+          "en": "Guide Tone Line to Melodic Line",
+          "kind": "walkthrough",
+          "target": "旋律線條、Guide Tone Line、節奏性、和聲性",
+          "title": "爵士樂的旋律線條就這麼變出來！ - 從Guide Tone Line出發掌握音符的節奏性與和聲性",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=QovJSZU5Sa8"
+        },
+        {
+          "name": "Guide Tones 建構線條原理",
+          "en": "Jazz Improvisation - Guide Tones",
+          "kind": "theory",
+          "target": "guide tones、線條建構、和聲骨幹",
+          "title": "Jazz Improvisation - Guide Tones",
+          "channel": "Walk That Bass",
+          "url": "https://www.youtube.com/watch?v=zuXhDQNohlE"
+        },
+        {
+          "name": "獨奏鋼琴的問答句",
+          "en": "Solo Piano Basics: Call and Response",
+          "kind": "walkthrough",
+          "target": "問答句、call and response、樂句呼應",
+          "title": "Solo Piano Basics: Call and Response",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=ogqbom8SI_A"
+        },
+        {
+          "name": "樂句與曲式練習",
+          "en": "Best Exercises for Phrasing and Following Form",
+          "kind": "practice",
+          "target": "留白、呼吸、樂句形式、起承轉合",
+          "title": "Jazz Improv - Best Exercises for Phrasing and Following Form",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=M5vF89o6Ul0"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u4",
+      "name": "曲目建立:前十首 Standards",
+      "type": "concept",
+      "lesson": {
+        "title": "5 Jazz Standards Every Jazz Piano Beginner Should Know!",
+        "channel": "Jazzmentl",
+        "url": "https://www.youtube.com/watch?v=YwD2X3CAajQ",
+        "lang": "en",
+        "why": "逐一講解 Autumn Leaves、Take the A Train、Just Friends、Blue Bossa、Summertime 五首曲子的調性、律動、速度、曲式與建議和聲進行,是「該從哪些曲子入手」這個問題最直接的實作示範,結構簡單、和聲重複性高、jam session 常遇到,可搭配 drills 補足到十首的完整概念。"
+      },
+      "drills": [
+        {
+          "name": "十首入門必彈標準曲總覽",
+          "en": "The First 10 Jazz Standards You Need To Know",
+          "kind": "theory",
+          "target": "曲目清單、曲式分類、常見調性、學習優先順序",
+          "title": "The First 10 Jazz Standards You Need To Know",
+          "channel": "Jens Larsen",
+          "url": "https://www.youtube.com/watch?v=1q0BrTKK6gk"
+        },
+        {
+          "name": "一年背下一百首曲子的方法",
+          "en": "How I Memorized 100 Jazz Standards In One Year",
+          "kind": "theory",
+          "target": "旋律優先於和弦、耳朵優先於譜面、重複練習排程",
+          "title": "How I Memorized 100 Jazz Standards In One Year",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=apzaK2wnTDs"
+        },
+        {
+          "name": "iReal Pro 操作教學",
+          "en": "iReal Pro Piano Tutorial",
+          "kind": "walkthrough",
+          "target": "backing track 播放、調性移調、和弦圖表閱讀",
+          "title": "iReal Pro Piano Tutorial",
+          "channel": "TopMusicCo - Tim Topham",
+          "url": "https://www.youtube.com/watch?v=ZqdTAUHLWFA"
+        },
+        {
+          "name": "不死背的曲目學習法(中文)",
+          "en": "How to Learn a Jazz Standard Without Rote Memorization",
+          "kind": "theory",
+          "target": "移調、即興銜接、曲目內化",
+          "title": "如何學習一首Jazz Standard？用啟彬老師的教法你不用死背、還能移調，且能即興得好！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=q07G75HZGUo"
+        }
+      ]
+    }
+  ]
+}

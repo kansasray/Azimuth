@@ -1,0 +1,216 @@
+{
+  "chapter": "CH9",
+  "title": "大師研究",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "Bill Evans：內聲部與抒情",
+      "type": "master",
+      "assessment": "隨機播放兩段鋼琴三重奏抒情曲錄音，一段是 Bill Evans 彈奏，另一段是別人彈同一首歌，你要能在 20 秒內指出哪一段是 Evans，並說出至少兩個具體依據：左手 rootless voicing 省略根音、旋律與內聲部同時緩慢移動、觸鍵偏柔不重擊琴鍵。接著只聽《Peace Piece》開場八小節，寫下左手固定音型與右手旋律何時開始明顯脫離同步、變成兩條獨立線，誤差在正負兩小節內算過。連續三次測驗都答不出具體依據，回去重聽 rootless voicing 那支拆解影片，對照譜例逐音檢查左手音符組成。",
+      "lesson": {
+        "title": "凱雅老師與啟彬老師在講堂現場，為各位示範解析了爵士鋼琴大師Bill Evans的傳世演奏風格，以及Voicing的重要",
+        "channel": "chipinkaiyajazz",
+        "url": "https://www.youtube.com/watch?v=fQaJK4uxPlg",
+        "lang": "zh",
+        "why": "台灣資深爵士教育者啟彬與凱雅在講堂現場實際彈奏示範，直接拆解 Evans 的 voicing 邏輯與演奏風格從何而來，是中文圈唯一具備技術深度的 Bill Evans 分析內容，比英文的通論式介紹更貼近「現場拆給你看」。"
+      },
+      "drills": [
+        {
+          "name": "Peace Piece 原始錄音",
+          "en": "Peace Piece (Original Recording)",
+          "kind": "listen",
+          "target": "Peace Piece、靜態和聲、聆聽素材",
+          "title": "Peace Piece",
+          "channel": "Bill Evans - Topic",
+          "url": "https://www.youtube.com/watch?v=nWN_Pt9SiH4"
+        },
+        {
+          "name": "Waltz for Debby 現場錄音",
+          "en": "Waltz For Debby (Live)",
+          "kind": "listen",
+          "target": "Waltz for Debby、三重奏互動、聆聽素材",
+          "title": "Waltz For Debby (Live)",
+          "channel": "Bill Evans - Topic",
+          "url": "https://www.youtube.com/watch?v=yGQUyh6Zx68"
+        },
+        {
+          "name": "Rootless Voicing 和弦分析",
+          "en": "Rootless Voicing Chord Analysis",
+          "kind": "theory",
+          "target": "rootless voicing、內聲部移動、和弦分析",
+          "title": "Bill Evans, My Foolish Heart, Art  of the Rootless Voicing, chord analysis",
+          "channel": "Kent Hewitt",
+          "url": "https://www.youtube.com/watch?v=BgItQOto_5g"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "Oscar Peterson：炫技與藍調",
+      "type": "master",
+      "assessment": "隨機播放三段鋼琴獨奏或三重奏錄音，其中一段是 Oscar Peterson，你要能在 30 秒內指認出來，依據至少兩項：右手單音線條密度高、常見連續八分音符跑動橫跨兩個以上八度、藍調樂句裡大量使用三度與五度的滑音式修飾、左手伴奏與右手線條保持穩定交替而不互相打架。再聽一段慢速藍調，數出右手在 12 小節裡用了幾次同一個藍調音階的重複樂句片段，答對範圍落在實際數字正負一次內算過。答不出依據或數錯超過一次，回去重聽炫技拆解影片，對照示範放慢速度逐句跟彈確認手指落點。",
+      "lesson": {
+        "title": "Oscar Peterson's Signature Sound",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=s5y_ABjdx-4",
+        "lang": "en",
+        "why": "由 Open Studio 系統拆解 Peterson 招牌的高密度右手線條與觸鍵特質從何而來，把「技巧驚人」講成可辨識、可練習的具體元素，是本單元最直接的入門總覽。中文圈查無 Oscar Peterson 的教學或分析內容，全英文是誠實結果。"
+      },
+      "drills": [
+        {
+          "name": "招牌音色的實際彈法",
+          "en": "Signature Sound Piano Lesson",
+          "kind": "walkthrough",
+          "target": "招牌音色、右手線條、實際示範",
+          "title": "Oscar Peterson's Signature Sound Ft. Jacob Dupre (Piano Lesson)",
+          "channel": "Pianote",
+          "url": "https://www.youtube.com/watch?v=M232KsQmyuo"
+        },
+        {
+          "name": "如何彈得像 Oscar Peterson",
+          "en": "How to Play Piano Like Oscar Peterson",
+          "kind": "theory",
+          "target": "技巧傳統、藍調語彙、風格拆解",
+          "title": "How to Play Piano Like Oscar Peterson [2021]",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=vVJx2xqza8o"
+        },
+        {
+          "name": "Night Train 原始錄音",
+          "en": "Night Train (Original Recording)",
+          "kind": "listen",
+          "target": "Night Train、藍調語彙、trio 互動、聆聽素材",
+          "title": "Night Train",
+          "channel": "Oscar Peterson - Topic",
+          "url": "https://www.youtube.com/watch?v=NfdNjxe1c8I"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u3",
+      "name": "Herbie Hancock：從 hard bop 到放克",
+      "type": "master",
+      "assessment": "隨機播放兩段鋼琴獨奏或小組錄音，一段是 Herbie Hancock 彈奏的曲子，另一段是別人彈類似風格，你要能在 30 秒內指出哪一段是 Hancock，並說出至少兩項依據：和弦選用偏好加了延伸音的四度堆疊與小十一和弦、右手旋律常留白讓和聲說話而不塞滿音符、伴奏節奏會在 swing 與放克律動之間切換而不固定一種。接著只聽《Maiden Voyage》主題句前八小節，寫下和弦根音改變了幾次，答案要落在實際次數正負一次內。連續兩次答不出依據或數錯超過一次，回去重聽 Maiden Voyage 拆解影片，對照和弦圖逐小節核對。",
+      "lesson": {
+        "title": "Maiden Voyage, Herbie Hancock's Iconic Song, A Jazz Tutorial and Analysis..",
+        "channel": "Kent Hewitt",
+        "url": "https://www.youtube.com/watch?v=vec22UbV4GM",
+        "lang": "en",
+        "why": "完整拆解 Herbie Hancock 最具代表性的《Maiden Voyage》，從和弦選用到整首曲式逐段講解，一支影片就把本單元「代表作拆解」與「和聲語言」兩個重點串起來，比只講單一片段的短影片更適合當入門總覽。"
+      },
+      "drills": [
+        {
+          "name": "三個核心原則",
+          "en": "The 3 Principles Of Herbie Hancock",
+          "kind": "theory",
+          "target": "和聲語言、跨界、風格原則",
+          "title": "The 3 Principles Of Herbie Hancock",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=NJIIno_kxrw"
+        },
+        {
+          "name": "Cantaloupe Island 原始錄音",
+          "en": "Cantaloupe Island (Original Recording)",
+          "kind": "listen",
+          "target": "Cantaloupe Island、放克律動、聆聽素材",
+          "title": "Cantaloupe Island (Remastered 1999/Rudy Van Gelder Edition)",
+          "channel": "Herbie Hancock - Topic",
+          "url": "https://www.youtube.com/watch?v=otFVFLtRF_s"
+        },
+        {
+          "name": "小十一和弦 Voicing",
+          "en": "Minor 11th Chord Voicing",
+          "kind": "theory",
+          "target": "小十一和弦、四度堆疊、和聲語言",
+          "title": "Herbie Hancock Chord Voicing - Minor 11th Chord Piano",
+          "channel": "PianoGroove",
+          "url": "https://www.youtube.com/watch?v=z-UcHpG3Fxs"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u4",
+      "name": "Thelonious Monk：不和諧的建築師",
+      "type": "master",
+      "assessment": "隨機播放三段鋼琴獨奏錄音，其中一段是 Thelonious Monk，你要能在 20 秒內指認出來，依據至少兩項：和弦裡常出現大二度或小九度這類刻意保留的不和諧音程、樂句中間常有明顯停頓或整拍空白而不是連續填滿、觸鍵偏重偏方正不追求圓滑。接著只聽一句含全音音階的短樂句，判斷用了幾個音，答案要落在實際數字正負一個內。連續兩次答不出依據，回去重聽風格拆解影片，對照譜例找出每個不和諧音程與空拍出現的確切位置。",
+      "lesson": {
+        "title": "What Makes Monk Sound Like Monk",
+        "channel": "Aimee Nolte Music",
+        "url": "https://www.youtube.com/watch?v=oEqWxgFGi_Q",
+        "lang": "en",
+        "why": "逐一拆解 Monk 招牌的不和諧音程、獨特節奏感與觸鍵方式，把「聽起來很怪」講成可辨識的具體元素，是本單元最完整的風格總覽。中文圈查無 Thelonious Monk 的教學或分析內容，全英文是誠實結果。"
+      },
+      "drills": [
+        {
+          "name": "Monk 和弦 Voicing 的秘密",
+          "en": "The Secrets of Monk's Chord Voicings",
+          "kind": "theory",
+          "target": "不和諧音程、和弦voicing、建築感",
+          "title": "The Secrets of Monk's Chord Voicings...Revealed!",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=BxZbjPTXE9k"
+        },
+        {
+          "name": "Blue Monk 現場錄音",
+          "en": "Blue Monk (Live)",
+          "kind": "listen",
+          "target": "Blue Monk、空拍、聆聽素材",
+          "title": "Blue Monk (Live)",
+          "channel": "Thelonious Monk - Topic",
+          "url": "https://www.youtube.com/watch?v=r9aTsCF0Syk"
+        },
+        {
+          "name": "如何彈得像 Thelonious Monk",
+          "en": "How to Sound Like Thelonious Monk",
+          "kind": "theory",
+          "target": "節奏空拍、觸鍵方式、風格拆解",
+          "title": "How to Sound Like Thelonious Monk",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=D3thK-ZFoJ4"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u5",
+      "name": "更多巨人：Powell、Tyner、Corea、Jarrett",
+      "type": "master",
+      "assessment": "隨機播放四段鋼琴獨奏錄音，分別出自 Bud Powell、McCoy Tyner、Chick Corea、Keith Jarrett 四人之一，你要能在 30 秒內對出人名與至少一項依據：Powell 的右手線條像薩克斯風手在吹奏、雙手節奏緊咬 bebop 律動；Tyner 的左手常用四度堆疊而非傳統三度疊置和弦，聲音開闊帶金屬感；Corea 的和聲會混拉丁節奏與現代爵士和弦色彩；Jarrett 的即興常用長樂句與大量的自由速度變化。四人中答對三人以上算通過，答錯或說不出依據的那個人，回去重聽對應那支拆解影片，把該樂手的和聲或節奏特徵單獨列出來對照著再聽一次。",
+      "lesson": {
+        "title": "The Pianist That Influenced A Generation",
+        "channel": "Rick Beato",
+        "url": "https://www.youtube.com/watch?v=U5oVWVH43Dc",
+        "lang": "en",
+        "why": "從 Bud Powell 如何把薩克斯風式的單音線條帶進鋼琴、進而影響後續整個世代的鋼琴語言講起，是本單元裡涵蓋面最廣的一支：一支影片同時交代了「巨人們從哪裡來」的系譜脈絡，而不只是單一樂手的孤立介紹。"
+      },
+      "drills": [
+        {
+          "name": "如何彈得像 McCoy Tyner",
+          "en": "How to Sound Like McCoy Tyner",
+          "kind": "theory",
+          "target": "四度堆疊、五聲音階、風格拆解",
+          "title": "How to Sound Like McCoy Tyner: Pentatonics & Melodic Cells for Sick Lines [Jazz Piano Tutorial]",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=BnCl0UkKftM"
+        },
+        {
+          "name": "Chick Corea 的聲音是什麼（中文）",
+          "en": "What Is Chick Corea's Sound",
+          "kind": "theory",
+          "target": "拉丁節奏、和弦色彩、風格拆解",
+          "title": "什麼是爵士鋼琴家Chick Corea的聲音？認識他的音樂，只要知道《Spain》就夠了嗎？",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=kOnrsBX4fHI"
+        },
+        {
+          "name": "Keith Jarrett 最具突破性的 Voicing",
+          "en": "Keith Jarrett's Most Groundbreaking Voicings",
+          "kind": "theory",
+          "target": "自由速度、長樂句、voicing 分析",
+          "title": "Keith Jarrett's Most Groundbreaking Voicings Explained",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=bM7IURRDwtI"
+        }
+      ]
+    }
+  ]
+}

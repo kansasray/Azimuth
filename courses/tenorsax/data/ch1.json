@@ -1,0 +1,208 @@
+{
+  "chapter": "CH1",
+  "title": "入門與裝備",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "認識薩克斯風與選第一把琴",
+      "type": "concept",
+      "lesson": {
+        "title": "【 次中音薩克斯風演奏訣竅大公開 】次中音薩克斯風全解析！樂器、吹嘴怎麼買？指法、嘴型差在哪？｜#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=H4Jtfnvbb9E",
+        "lang": "zh",
+        "why": "全中文圈少見的『次中音專屬』全解析，一次講清楚器材怎麼買、指法與嘴型跟中音的差異，適合當選琴前的完整入門地圖。"
+      },
+      "drills": [
+        {
+          "name": "薩克斯風家族與構造",
+          "en": "Saxophone Family & Construction",
+          "kind": "theory",
+          "target": "音域、家族、構造",
+          "title": "Alto Tenor傻傻分不清！薩克斯風家族種類介紹 【給初學者的武功秘笈EP3】",
+          "channel": "Aidis Instruments艾笛斯樂器",
+          "url": "https://www.youtube.com/watch?v=LY9pPZuFSlo"
+        },
+        {
+          "name": "次中音與中音怎麼選",
+          "en": "Alto vs Tenor: How to Choose",
+          "kind": "theory",
+          "target": "次中音、中音、選購比較",
+          "title": "Alto Saxophone Vs. Tenor Saxophone",
+          "channel": "SAX",
+          "url": "https://www.youtube.com/watch?v=nVhgAtMUgBk"
+        },
+        {
+          "name": "學生琴與專業琴的差異",
+          "en": "Student vs Professional Horn",
+          "kind": "walkthrough",
+          "target": "學生琴、專業琴、價差",
+          "title": "5000元 vs 150000元的薩克斯風",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=FeLsgb-H714"
+        },
+        {
+          "name": "二手薩克斯風怎麼挑",
+          "en": "Checking a Used Saxophone",
+          "kind": "theory",
+          "target": "二手樂器、檢查重點",
+          "title": "色士風有話兒  二手樂器如何選擇",
+          "channel": "小柱導師ChiliSaxo",
+          "url": "https://www.youtube.com/watch?v=x-jlZpkmi8o"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "吹嘴、竹片與束圈",
+      "type": "concept",
+      "lesson": {
+        "title": "薩克斯風吹嘴怎麼挑??（可點擊cc開啟字幕）",
+        "channel": "La cor薩克斯風專門店 朱孝宗",
+        "url": "https://www.youtube.com/watch?v=GT6QJLQfAYE",
+        "lang": "zh",
+        "why": "樂器行專門店視角，從吹嘴材質、開口大小講到適合誰用，給出具體的挑選邏輯，是本單元竹片與束圈知識的入口。"
+      },
+      "drills": [
+        {
+          "name": "吹嘴開口規格怎麼讀",
+          "en": "Reading Mouthpiece Tip Opening",
+          "kind": "theory",
+          "target": "吹嘴開口、tip opening",
+          "title": "Which Saxophone Mouthpiece Tip Opening Is Right For YOU?",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=OJdm1KfbwZw"
+        },
+        {
+          "name": "束圈為什麼重要",
+          "en": "Why Ligatures Matter",
+          "kind": "theory",
+          "target": "束圈、音色差異",
+          "title": "Why Ligatures Matter | It's NOT How You Think...",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=iAqL1nVQfFs"
+        },
+        {
+          "name": "竹片號數與初學配置",
+          "en": "Reed Strength & Beginner Setup",
+          "kind": "walkthrough",
+          "target": "竹片號數、初學配置",
+          "title": "如何挑選適合自己的竹片？用三種竹片帶你來看看！",
+          "channel": "薩克斯風不落轟小鄧老師（小鄧薩克斯風教室）",
+          "url": "https://www.youtube.com/watch?v=ozPuRdGXEIY"
+        },
+        {
+          "name": "換裝備能解決一切嗎",
+          "en": "The Gear-Fixes-Everything Myth",
+          "kind": "pitfall",
+          "target": "裝備迷思、練習與器材",
+          "title": "換了這把神兵利器，從此不用再練薩克斯風？新年該換新樂器嗎？",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=5lv-mB9ZpfM"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u3",
+      "name": "組裝、頸帶與姿勢",
+      "type": "skill",
+      "assessment": "把薩克斯風完全拆開後重新組裝，從裝上頸帶到吹嘴、簧片、束圈全部就定位，計時應該在90秒內完成，而且簧片沒有裝反或裂開。吊帶調整後放開雙手，吹嘴應該自然落在嘴唇正前方，不需要低頭或聳肩去就它；彎腰超過15度或墊高椅子才吹得到，代表頸帶太長。持續五分鐘的長音練習後，如果肩膀或手腕開始痠痛，先檢查坐姿是否前傾、雙腳有沒有平放地面，而不是先換樂器。",
+      "lesson": {
+        "title": "Beginner Saxophone Lesson 3 - Setup, Ideal Hand & Body Position",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=7C8o2TWHxjI",
+        "lang": "en",
+        "why": "中文圈找不到同時涵蓋組裝、手型與身體姿勢的單一系統教學，Better Sax 這支旗艦入門系列逐步拆解示範，適合當全單元的總覽。"
+      },
+      "drills": [
+        {
+          "name": "組裝順序與竹片安裝",
+          "en": "Assembly Order & Reed Installation",
+          "kind": "walkthrough",
+          "target": "組裝順序、竹片安裝",
+          "title": "薩克斯風錯誤組裝讓樂器受重傷?! || 讓專業的管樂技師教你脖子＆吹嘴＆簧片 正確的拆裝方式！",
+          "channel": "TRIO Music",
+          "url": "https://www.youtube.com/watch?v=C1O0OqsonJU"
+        },
+        {
+          "name": "頸帶高度怎麼調",
+          "en": "Neck Strap Height",
+          "kind": "walkthrough",
+          "target": "頸帶、高度調整",
+          "title": "《每日來一課》不可不知的 #吊帶高度 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=ZXm2-au4PyE"
+        },
+        {
+          "name": "站姿與坐姿",
+          "en": "Standing & Sitting Posture",
+          "kind": "walkthrough",
+          "target": "站姿、坐姿",
+          "title": "Posture for Sax - How to sit and stand to play Sax",
+          "channel": "GoBravo Music Studio",
+          "url": "https://www.youtube.com/watch?v=TnWsSwsId2U"
+        },
+        {
+          "name": "手指與按鍵的手型",
+          "en": "Hand & Finger Position on the Keys",
+          "kind": "walkthrough",
+          "target": "手型、按鍵",
+          "title": "《每日來一課》手指與按鍵 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=m6iMbMUYDtI"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u4",
+      "name": "日常保養",
+      "type": "skill",
+      "assessment": "每次吹完先卸下吹嘴，用冷水沖洗簧片接觸面與內壁，再把通條布從主管上端穿入一次到底拉出，重複三次直到布面完全乾燥不再沾水才算完成。吹嘴每兩週用溫水加中性清潔劑泡五分鐘後刷洗，水垢或黃垢完全消失才算過關。皮墊每半年檢查一次：拿一張薄紙夾在每個音孔下方輕輕抽拉，如果某一孔的紙可以毫不費力抽出，代表那個皮墊已經漏氣，要送修不要再拖。超過一個月沒做過通條以外的保養，直接排進下一次練習前的行程，不要等音準跑掉才處理。",
+      "lesson": {
+        "title": "你不能不知道！薩克斯風清潔與保養Tips",
+        "channel": "Aidis Instruments艾笛斯樂器",
+        "url": "https://www.youtube.com/watch?v=cLePbRTUeVM",
+        "lang": "zh",
+        "why": "樂器代理商視角的保養總覽，把通條、吹嘴、皮墊、保養頻率四件事一次帶過，適合當日常保養單元的入口。"
+      },
+      "drills": [
+        {
+          "name": "通條布怎麼用",
+          "en": "Using a Swab",
+          "kind": "walkthrough",
+          "target": "通條、擦拭",
+          "title": "《小鄧說明書》通條布的置入方向",
+          "channel": "薩克斯風不落轟小鄧老師（小鄧薩克斯風教室）",
+          "url": "https://www.youtube.com/watch?v=NyT0118I_K4"
+        },
+        {
+          "name": "皮墊保養",
+          "en": "Pad Care",
+          "kind": "walkthrough",
+          "target": "皮墊、保養",
+          "title": "怎麼保養Sax的皮墊？讓董舜文告訴妳！Let me show how to take good care of your saxophone pads",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=-6uhftnZknM"
+        },
+        {
+          "name": "吹嘴清洗",
+          "en": "Cleaning the Mouthpiece",
+          "kind": "walkthrough",
+          "target": "吹嘴、清洗",
+          "title": "How To REALLY Clean Your Sax Mouthpiece! | Quick & Easy Guide",
+          "channel": "SaxTuition",
+          "url": "https://www.youtube.com/watch?v=KO395bHGbqY"
+        },
+        {
+          "name": "保養多久做一次",
+          "en": "How Often to Clean",
+          "kind": "theory",
+          "target": "保養頻率、判斷時機",
+          "title": "Time to Clean Your Saxophone?",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=5TIP-ffw8lQ"
+        }
+      ]
+    }
+  ]
+}

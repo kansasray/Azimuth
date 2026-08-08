@@ -1,0 +1,155 @@
+{
+  "chapter": "CH5",
+  "title": "節奏與 Swing",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "時間感的地基",
+      "type": "skill",
+      "assessment": "把節拍器設在 80 BPM,只讓它敲在每小節的第 2、4 拍,對著一段熟悉的音階或藍調樂句吹奏兩分鐘並錄音。回放時抓出 20 個音頭,逐一判斷每個音頭落在節拍器聲響前後的位置:要有 16 個以上落在正負 80 毫秒內才算通過。若連續 3 個音頭偏向同一個方向(全部搶拍或全部拖拍),代表 pulse 還沒真正內化,先做只跟拍不吹奏的空拍練習,能穩定跟住 2、4 拍點兩分鐘不跑掉再回來重測。把速度換到 60 BPM 與 140 BPM 各測一次,三個速度都通過才算真正過關,只在中速通過不夠,因為 pulse 感需要跨速度站得住。",
+      "lesson": {
+        "title": "【 節奏大百科 - 算拍子的訣竅 】什麼是拍子？韻律感？切分音？連結線？｜#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=d_aMwVuLJ4k",
+        "lang": "zh",
+        "why": "從拍子、韻律感一路講到切分音、連結線,是本次盤點裡最完整的節奏地基課,適合當這個單元的第一支。"
+      },
+      "drills": [
+        {
+          "name": "節拍器放在 2、4 拍",
+          "en": "Counting 2 & 4 with a Metronome",
+          "kind": "walkthrough",
+          "target": "節拍器、2 4 拍、backbeat",
+          "title": "How to count on 2 & 4 with a Metronome by Greg Fishman (from Lesson Module 23)",
+          "channel": "Greg Fishman",
+          "url": "https://www.youtube.com/watch?v=cV8cWog7198"
+        },
+        {
+          "name": "節奏訓練跟練",
+          "en": "Rhythm Workout",
+          "kind": "practice",
+          "target": "subdivision、節奏訓練",
+          "title": "Amazing Rhythm Workout - Play Along Challenge!",
+          "channel": "Online Sax Academy",
+          "url": "https://www.youtube.com/watch?v=vabQ0ikNGEo"
+        },
+        {
+          "name": "基礎節奏練習法",
+          "kind": "theory",
+          "target": "算拍子、內化拍感",
+          "title": "【 基礎節奏練習法 - 上集 】節奏要怎麼算呢？拍子不穩該怎麼辦呢？輕鬆讓你學會節奏，讓你面對節奏不再恐懼！｜#米特薩克斯風線上課程",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=jRu-21Wnuhw"
+        },
+        {
+          "name": "錄音自我檢查",
+          "en": "Record Yourself",
+          "kind": "pitfall",
+          "target": "錄音自檢、時間感校正",
+          "title": "ALL Musicians Should Record Themselves!",
+          "channel": "DeMarius Jackson",
+          "url": "https://www.youtube.com/watch?v=NFjejdg-udY"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "Swing 八分音符",
+      "type": "skill",
+      "assessment": "播放節拍器 96 BPM,對著八分音符念 doo-dah doo-dah 念滿 8 小節並錄音,量每一對音符的長短比例:前一個音要佔這一拍時值的六到七成,後一個音只佔三到四成,8 小節裡至少 6 小節維持這個比例才算過。接著換薩克斯風吹同一段音型,再錄一次做同樣的測量,音頭的長短感要跟剛才念的版本相符。最後跟著一段中板 swing 錄音吹同一句旋律,音頭要能疊在鼓手 ride cymbal 的節奏型上,連續 4 小節不脫拍才算通過;若總是慢半拍才進音,代表耳朵聽和嘴巴吹之間有時間差,回去先只用耳朵跟唱旋律不吹奏,練到能預判下一個音落點再拿起薩克斯風。",
+      "lesson": {
+        "title": "HOW TO PLAY SWING 8th NOTES",
+        "channel": "Scott Paddock",
+        "url": "https://www.youtube.com/watch?v=_cVgkx2SEsQ",
+        "lang": "en",
+        "why": "職業薩克斯風演奏家親自示範 swing 八分音符怎麼吹,從音符長短比例講到實際演奏,是這個單元最直接的示範課。"
+      },
+      "drills": [
+        {
+          "name": "Swing 吐音與 Doo-Dah",
+          "en": "Elements of Swing - Articulation",
+          "kind": "walkthrough",
+          "target": "doo-dah、吐音、swing articulation",
+          "title": "Jazz InBetween-isode #5 - \"Elements of Swing - Articulation\"",
+          "channel": "Jeff Antoniuk",
+          "url": "https://www.youtube.com/watch?v=SXdOF1RuDfI"
+        },
+        {
+          "name": "Swing 律動拆解",
+          "en": "Jazz Swing Feel Explained",
+          "kind": "theory",
+          "target": "swing feel、律動拆解",
+          "title": "How to swing rhythms | Jazz Swing Feel Explained",
+          "channel": "DeMarius Jackson",
+          "url": "https://www.youtube.com/watch?v=PLuH5HYUN-Y"
+        },
+        {
+          "name": "初學與大師的 Swing 差異",
+          "kind": "walkthrough",
+          "target": "swing 八分音符、初學與大師對比",
+          "title": "爵士初學與大師的一線之隔，搖擺swing八分音符的兩種不同彈法",
+          "channel": "邱立婷-婷婷爵士 Li-Ting Chiu",
+          "url": "https://www.youtube.com/watch?v=gitSJw3zoaQ"
+        },
+        {
+          "name": "跟真實節奏組對齊",
+          "en": "Body and Soul Play-Along",
+          "kind": "practice",
+          "target": "跟名演對齊、真實節奏組",
+          "title": "Body and Soul I Jazz Doblestandard Play-Alongs",
+          "channel": "Jazz Doblestandard",
+          "url": "https://www.youtube.com/watch?v=zstP30EII9Q"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "節奏語彙與 Phrasing",
+      "type": "concept",
+      "lesson": {
+        "title": "Playing on the beat, behind the beat and in front of the beat",
+        "channel": "Conor Guilfoyle",
+        "url": "https://www.youtube.com/watch?v=GlcSuJlOwJ0",
+        "lang": "en",
+        "why": "把正拍、前推、後拉三種時間位置的聽感差異講得最直接的一支,示範樂器是節奏樂器而非薩克斯風,但原理相通,是這個抽象概念少見能真正聽得出來的教學。"
+      },
+      "drills": [
+        {
+          "name": "Dexter Gordon 的音色秘密",
+          "en": "Dexter's Sound",
+          "kind": "listen",
+          "target": "Dexter Gordon、behind-the-beat",
+          "title": "71% of Musicians Miss THIS Secret to Dexter’s Sound",
+          "channel": "Josh Wakeham",
+          "url": "https://www.youtube.com/watch?v=Go4NKDFMRys"
+        },
+        {
+          "name": "Lester Young 的藍調樂句",
+          "kind": "listen",
+          "target": "Lester Young、blues 樂句",
+          "title": "The Greatest Jazz Saxophone Blues Motifs #5 ala Lester Young",
+          "channel": "Randy Hunter",
+          "url": "https://www.youtube.com/watch?v=9UN7-yBb5XY"
+        },
+        {
+          "name": "大師談節奏語彙",
+          "en": "Jazz Rhythm Masterclass",
+          "kind": "theory",
+          "target": "節奏語彙、大師觀點",
+          "title": "Dave Liebman - Jazz Rhythm Saxophone Masterclass",
+          "channel": "MyMusicMasterclass",
+          "url": "https://www.youtube.com/watch?v=_IG_vHMSZyg"
+        },
+        {
+          "name": "休止比音符更重要",
+          "en": "It's Not More Notes",
+          "kind": "theory",
+          "target": "休止、留白、less is more",
+          "title": "Instantly Make Your Solos & Melodies Sound More Interesting! (it's not more notes)",
+          "channel": "Scott Paddock",
+          "url": "https://www.youtube.com/watch?v=ZvSnvHiIHVE"
+        }
+      ]
+    }
+  ]
+}

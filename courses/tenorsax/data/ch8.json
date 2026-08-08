@@ -1,0 +1,209 @@
+{
+  "chapter": "CH8",
+  "title": "即興實作",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "第一次即興",
+      "type": "skill",
+      "assessment": "找一支慢速的 Bb 藍調 backing track，只用根音、三度、五度這三個音在裡面吹滿兩分鐘，中途不能停下來想下一個音該選哪個。先不管吹到哪個音，光跟著鼓的重拍拍手數完整整四小節，確認身體抓得住律動再開始吹，這樣才算做到先律動後音高。錄音回放時數一下停頓超過兩秒的次數，全程少於三次算過關；若超過五次，代表腦子還在找音符而不是靠身體感受節奏，先把樂器放下單獨拍手練兩分鐘律動，練熟再重測整段。",
+      "lesson": {
+        "title": "Beginner’s Guide To Learning to Improvise (7 Steps)",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=Bx47CscHp1E",
+        "lang": "en",
+        "why": "把即興入門拆解成七個循序漸進的步驟，從第一個音、律動到加入音階都涵蓋，比只示範單一技巧的教學更適合當這個單元的總覽入門課。"
+      },
+      "drills": [
+        {
+          "name": "三個音就能即興",
+          "en": "Improvise with Three Notes",
+          "kind": "walkthrough",
+          "target": "三音即興、入門練習",
+          "title": "【每日爵士作業3】用三個音，開始爵士即興的入門練習｜WooSax薩克斯風演奏教學",
+          "channel": "Ryan WooSax",
+          "url": "https://www.youtube.com/watch?v=5oJvNsAQfoM"
+        },
+        {
+          "name": "只用一個音也能即興",
+          "en": "Improvise with Just One Note",
+          "kind": "walkthrough",
+          "target": "單音即興、節奏感",
+          "title": "Can you improvise with just One Note?! ft. Adam Neely + Leo P + Grace Kelly | Saxophone Masterclass",
+          "channel": "2SAXY",
+          "url": "https://www.youtube.com/watch?v=0OoH1Ge-oxQ"
+        },
+        {
+          "name": "跟奏 track 練習(次中音)",
+          "en": "Backing Track Practice",
+          "kind": "practice",
+          "target": "次中音、跟奏track",
+          "title": "Autumn Leaves - Backing Track with Sheet Music for Tenor Sax (Take-2, Revised)",
+          "channel": "Yasuhiro Fujii",
+          "url": "https://www.youtube.com/watch?v=WDV0BYlIelg"
+        },
+        {
+          "name": "沒有真正的錯音",
+          "en": "No Such Thing as a Wrong Note",
+          "kind": "pitfall",
+          "target": "怕吹錯、即興心態",
+          "title": "Herbie Hancock: No Such Thing as a Wrong Note | MasterClass Moments | MasterClass",
+          "channel": "MasterClass",
+          "url": "https://www.youtube.com/watch?v=C-GrRIgdmW8"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "Guide tones 與跟著和聲走",
+      "type": "skill",
+      "assessment": "挑一首熟悉的 Autumn Leaves 或藍調，全程只吹每個和弦的三度與七度音(guide tones)，速度放到 60 BPM 跟著和聲移動吹完整首，過程中不加任何經過音或裝飾音。錄音回放，在每個和弦轉換的當下要能準確落在新和弦的三度或七度上，十六個轉換點裡至少十三個對準才算通過。若連續三個轉換點都猜錯或吹到前一個和弦的音，代表耳朵還沒跟上和聲移動的速度，先把速度砍半到 40 BPM 重練，抓穩每個轉換的瞬間再逐步加速回到 60 BPM。",
+      "lesson": {
+        "title": "Guide tones 認識和使用(示範歌曲: Autumn leaves)",
+        "channel": "張寶文",
+        "url": "https://www.youtube.com/watch?v=MF_qDWPzsyk",
+        "lang": "zh",
+        "why": "直接示範《Autumn Leaves》這首曲子怎麼用 guide tones 跟著和聲走，把理論直接套進真實曲目而不是只講定義，是中文圈少見的示範型教學，適合當這個單元的中文入口。"
+      },
+      "drills": [
+        {
+          "name": "把 guide tones 連成一條線",
+          "en": "Guide Tone Line",
+          "kind": "theory",
+          "target": "guide tone line、音符連線",
+          "title": "爵士樂的旋律線條就這麼變出來！ - 從Guide Tone Line出發掌握音符的節奏性與和聲性",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=QovJSZU5Sa8"
+        },
+        {
+          "name": "聽出和弦換的瞬間",
+          "en": "How to Hear Chord Changes",
+          "kind": "theory",
+          "target": "和聲聽辨、換和弦時機",
+          "title": "HOW TO HEAR CHORD CHANGES",
+          "channel": "Scott Paddock",
+          "url": "https://www.youtube.com/watch?v=ieW4mB7ajTs"
+        },
+        {
+          "name": "用經過音瞄準目標音",
+          "en": "Enclosures vs. Approach Notes",
+          "kind": "theory",
+          "target": "approach note、enclosure",
+          "title": "enclosures vs. approach notes for jazz improvisation",
+          "channel": "Jeff Schneider",
+          "url": "https://www.youtube.com/watch?v=EjbpPSx3450"
+        },
+        {
+          "name": "和弦音瞄準練習",
+          "en": "Chord Tone Targeting Exercise",
+          "kind": "practice",
+          "target": "chord tones、瞄準練習",
+          "title": "EASY Chord Tone Exercise (Must Know)",
+          "channel": "Sax Wizard",
+          "url": "https://www.youtube.com/watch?v=-q3BwE5zrfY"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u3",
+      "name": "動機發展與說故事",
+      "type": "skill",
+      "assessment": "挑一句四小節的簡單動機(motif)，先重複吹兩次不改變，第三次把節奏拉長一倍、第四次移高小三度，做完這套「重複、變形、移位」四小節後，接一句對應的四小節回應樂句，整段八小節錄下來聽。回放時檢查前四小節有沒有清楚聽出同一個動機在變化而不是隨機換音，後四小節的回應是否呼應前面的節奏或音型而不是自說自話。中間至少留一次半拍以上的停頓當呼吸，整段八小節能一次吹完沒有卡頓，且動機變化聽得出脈絡，才算完成一次起承轉合。",
+      "lesson": {
+        "title": "How To Tell A Story In Your Jazz Solos",
+        "channel": "Nick Mainella",
+        "url": "https://www.youtube.com/watch?v=33xUObT_DGw",
+        "lang": "en",
+        "why": "職業薩克斯風教育者直接講清楚怎麼用一個動機說完一整段 solo 的故事，把『動機發展』與『說故事』兩個抽象概念連在一起講，適合當這個單元的總覽入門課。"
+      },
+      "drills": [
+        {
+          "name": "動機的模進與變形",
+          "en": "Motif Sequence and Variation",
+          "kind": "theory",
+          "target": "動機、模進、移位",
+          "title": "再論即興的元素模進與動機",
+          "channel": "林有龍",
+          "url": "https://www.youtube.com/watch?v=Y8kRHtDF7js"
+        },
+        {
+          "name": "即興裡的問答句",
+          "en": "Call and Response",
+          "kind": "walkthrough",
+          "target": "call and response、問答句",
+          "title": "Jazz Improv for Beginners: Level 10 Call & Response (Double-Time & Triplets)",
+          "channel": "ImprovPathways",
+          "url": "https://www.youtube.com/watch?v=OrsB46dDNkQ"
+        },
+        {
+          "name": "在 solo 裡留白",
+          "en": "Leaving Space in Your Solos",
+          "kind": "theory",
+          "target": "留白、呼吸",
+          "title": "How To Improvise Jazz - Lesson 2 | Leaving Space in your Solos",
+          "channel": "dawkesmusic",
+          "url": "https://www.youtube.com/watch?v=tg_HVQ9OXOY"
+        },
+        {
+          "name": "讓 solo 有頭有尾",
+          "en": "Create Cohesive Jazz Solos",
+          "kind": "theory",
+          "target": "solo結構、起承轉合",
+          "title": "Create COHESIVE Jazz Solos with This Technique",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=rXDudxojf-k"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u4",
+      "name": "曲目建立:前十首 standards",
+      "type": "concept",
+      "lesson": {
+        "title": "3 Songs Perfect for Beginner Saxophone Players",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=VYDj33HwwBo",
+        "lang": "en",
+        "why": "Better Sax 直接推薦三首最適合初學者起步的標準曲，是這批候選裡觀看數最高的一支，適合當『從哪首開始』這個問題的總覽入門課。"
+      },
+      "drills": [
+        {
+          "name": "第一首必學：All The Things You Are",
+          "en": "Must-Learn First Standard",
+          "kind": "walkthrough",
+          "target": "入門曲目、選曲",
+          "title": "必學入門爵士樂曲All The Things You Are ｜降E&降B調動態樂譜",
+          "channel": "Ryan WooSax",
+          "url": "https://www.youtube.com/watch?v=o4PjeZObVEA"
+        },
+        {
+          "name": "不死背也能學會一首曲子",
+          "en": "Learn a Standard Without Rote Memorization",
+          "kind": "theory",
+          "target": "背譜方法、移調練習",
+          "title": "如何學習一首Jazz Standard？用啟彬老師的教法你不用死背、還能移調，且能即興得好！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=q07G75HZGUo"
+        },
+        {
+          "name": "iReal Pro 使用教學",
+          "en": "iReal Pro Tutorial",
+          "kind": "walkthrough",
+          "target": "iReal Pro、練習軟體",
+          "title": "超實用爵士樂練習軟體 (APP) --- iReal Pro 的使用教學",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=DE9GxuiLdck"
+        },
+        {
+          "name": "一年背下一百首曲子的方法",
+          "en": "How I Memorized 100 Jazz Standards In One Year",
+          "kind": "theory",
+          "target": "背譜系統、長期練習",
+          "title": "How I Memorized 100 Jazz Standards In One Year",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=apzaK2wnTDs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "chapter": "CH11",
+  "title": "職業之路與樂手健康",
+  "units": [
+    {
+      "id": "ch11-u1",
+      "name": "職業樂手的一天",
+      "type": "concept",
+      "lesson": {
+        "title": "爵士樂手都很窮？金曲演奏家的爵士人生 ft. 楊曉恩老師  || 育哥放大爵",
+        "channel": "YSOLIFE",
+        "url": "https://www.youtube.com/watch?v=1OES-xsInPI",
+        "lang": "zh",
+        "why": "YSOLIFE 請到金曲入圍的職業爵士樂手楊曉恩，直球回應「爵士樂手是不是很窮」這個外界最常有的疑問，把巡演、教學、演出接案疊在一起的真實收入結構攤開來講，是全課少見用中文直接談錢的入口影片。"
+      },
+      "drills": [
+        {
+          "name": "巡演樂手的多重身分",
+          "en": "Life as a Touring Sideman",
+          "kind": "theory",
+          "target": "巡演樂手、多重收入身分、心路歷程",
+          "title": "董舜文 專訪 1-1【音樂不設限】與爵士樂奮鬥的戰士",
+          "channel": "音樂不設限",
+          "url": "https://www.youtube.com/watch?v=O_mrCne6iqg"
+        },
+        {
+          "name": "職業次中音的養成故事",
+          "en": "How a Pro Tenor Player Was Made",
+          "kind": "theory",
+          "target": "職業養成、爵士樂路、心路歷程",
+          "title": "董舜文 專訪 1-3【音樂不設限】與爵士樂奮鬥的戰士",
+          "channel": "音樂不設限",
+          "url": "https://www.youtube.com/watch?v=lWhOGPIfcx4"
+        },
+        {
+          "name": "台灣特有的街頭藝人證照路",
+          "en": "Taiwan's Street Performer License",
+          "kind": "walkthrough",
+          "target": "街頭藝人證照、考證現場、在地職業路徑",
+          "title": "直擊街頭藝人考證　1/4表演薩克斯風",
+          "channel": "TVBS NEWS",
+          "url": "https://www.youtube.com/watch?v=diMocQbVjFU"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u2",
+      "name": "錄音與 Audition",
+      "type": "skill",
+      "assessment": "用手機或最基本的USB麥克風，在安靜房間錄一段九十秒的即興或標準曲片段，錄完立刻回放檢查三件事：背景有沒有持續的電流嗡嗡聲、自己的音量在整段有沒有忽大忽小到一耳就聽出差異、有沒有踩到拍子外的雜音（椅子摩擦聲、翻譜聲）。三項都沒出現才算完成一份能拿去投遞的demo。若嗡嗡聲一直在，先檢查麥克風線是否纏繞電源線或距離電腦太近；若音量忽大忽小，退半步離麥克風遠一點再錄一次。錄好後對照兩個常見audition要求自我打分：拿到譜之後三十秒內能不能開口視奏、同一段落內能不能示範兩種音色（從subtone到明亮音）各三秒以上。連續投遞三次audition，只要有一次進入複試，這套demo流程就算堪用；三次都沒有回音，先重錄檢查音質，不要急著先換更貴的器材。",
+      "lesson": {
+        "title": "教你如何『快速錄製自己的薩克斯風演奏影片』/薩克斯風宅錄的好幫手/直播神器/YAMAHA AG06 for Saxophone Recording",
+        "channel": "薩克斯瘋人誌 Sax Madness",
+        "url": "https://www.youtube.com/watch?v=3g1yxWt9Eyk",
+        "lang": "zh",
+        "why": "薩克斯瘋人誌 Sax Madness 示範用一台入門級USB混音介面就能把手機或家用麥克風升級成可直播、可錄demo的簡易配置，不需要專業錄音室，直接對應「在家錄demo最低配置」這個最現實的起手問題。"
+      },
+      "drills": [
+        {
+          "name": "簡易收音架設與技巧",
+          "en": "Easy Recording Setup and Tips",
+          "kind": "walkthrough",
+          "target": "麥克風擺位、房間處理、收音技巧",
+          "title": "Easy Recording Setup and Tips for Saxophone",
+          "channel": "Better Sax",
+          "url": "https://www.youtube.com/watch?v=ZXiZheL6XGU"
+        },
+        {
+          "name": "爵士學院甄試準備建議",
+          "en": "Auditioning for a Jazz Conservatory",
+          "kind": "walkthrough",
+          "target": "audition準備、曲目選擇、心態建議",
+          "title": "Tips on Auditioning for a Jazz Conservatory",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=bL7q_dTfJgw"
+        },
+        {
+          "name": "被拒絕是常態",
+          "en": "Rejection Is Normal",
+          "kind": "pitfall",
+          "target": "被拒絕、心態調適、常態化",
+          "title": "How To *Musician* EPISODE 5 : Rejection",
+          "channel": "Cory Wong",
+          "url": "https://www.youtube.com/watch?v=TqD4o2SVT1s"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u3",
+      "name": "聽力保護",
+      "type": "skill",
+      "assessment": "排練或演出後的兩小時內，自我檢查耳朵有沒有出現耳鳴或悶塞感，只要出現任何一種，代表這次的音量或曝露時間已經超標，下次同場地要戴耳塞或往後退離喇叭至少一公尺。準備一副樂手專用耳塞（不是工地用的泡棉耳塞），塞好後自己吹一段中音長音，若音色聽起來像蒙了一層布、高頻整個消失，代表選錯衰減量，樂手耳塞的衰減曲線該是平均的，二十五分貝上下的款式適合多數練團場合。連續三次團練都記錄音量計app讀數與有沒有耳鳴，若讀數持續超過一百分貝且每次都有耳鳴，這代表現在的防護等級不夠，要換到衰減量更高的款式而不是忍耐撐過去。一年做一次聽力檢查，把結果存下來跟去年比對，高頻聽力有明顯下降才是最終判準，不是自己覺得聽起來還好。",
+      "lesson": {
+        "title": "Best Earplugs for Audio Engineers & Musicians",
+        "channel": "Audio University",
+        "url": "https://www.youtube.com/watch?v=ihif-XEL6XQ",
+        "lang": "en",
+        "why": "Audio University 把樂手與音響工程師常見的耳塞選項一次比較清楚，從衰減量、頻率響應到價格帶都有具體數字，是「musician's earplugs怎麼選」這個問題最系統的入口，中文圈這個子題完全查無教學可對照。"
+      },
+      "drills": [
+        {
+          "name": "多年跑場後的聽力檢查",
+          "en": "Getting My Hearing Tested After Years of Gigging",
+          "kind": "pitfall",
+          "target": "聽損現實、聽力檢查、跑場代價",
+          "title": "How Loud Is Too Loud? I Got My Hearing Tested After Years of Gigging",
+          "channel": "Dan Forshaw",
+          "url": "https://www.youtube.com/watch?v=RYGlzAMAfzY"
+        },
+        {
+          "name": "客製耳塞怎麼戴",
+          "en": "Inserting Custom Hearing Protection",
+          "kind": "walkthrough",
+          "target": "客製耳塞、配戴方法、密合度",
+          "title": "How to CORRECTLY Insert Your Custom Made Hearing Protection",
+          "channel": "HearingTracker",
+          "url": "https://www.youtube.com/watch?v=SaVVTgiODJc"
+        },
+        {
+          "name": "排練與演出的音量控制",
+          "en": "Controlling Stage Volume",
+          "kind": "theory",
+          "target": "舞台音量、排練音量管理、音量迷思",
+          "title": "Controlling Stage Volume: More is Less | Sound Advice",
+          "channel": "QSC",
+          "url": "https://www.youtube.com/watch?v=BGIyyFjlt-Y"
+        }
+      ]
+    },
+    {
+      "id": "ch11-u4",
+      "name": "身體的永續",
+      "type": "skill",
+      "assessment": "吹奏連續四十分鐘後，自我檢查頸部與慣用手手腕：痠痛感在停下來的十分鐘內明顯消退算是疲勞，若休息十分鐘後那個點還是持續痛、甚至按壓會痛或出現刺麻感，這是疼痛訊號，代表當天要停止練習而不是換個姿勢撐過去。背上頸帶站立五分鐘，吹嘴該自然落在嘴唇正前方，不需要低頭或聳肩去就它；如果每次都要低頭超過十五度才吹得到，或肩頸開始緊繃，換成分散重量到雙肩或腰部的背帶式選項，不要繼續用同一條頸帶硬撐。吹完一段長時間練習後，用舌尖檢查上排門牙後方有沒有痛感或壓痕變深，壓痕在半小時內消退算正常，超過一小時沒消退代表咬合力道該往下調。每週排至少一天完全不吹奏的休息日，累計三個月都沒有休息日又同時出現前述任何一種疼痛訊號，就是過度使用的警訊，該調整的是練習總量而不是止痛藥。",
+      "lesson": {
+        "title": "Saxholder Saxophone Harness Review",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=tynxDd0XwXY",
+        "lang": "en",
+        "why": "Better Sax 實測 Saxholder 這款把重量從頸部分散到背部與腰部的背帶式替代方案，直接對應「頸帶與頸部/手腕負荷」這個技巧單元裡最常被忽略、卻是職業樂手長期演出後最先出問題的環節，中文圈查無對應的替代方案教學。"
+      },
+      "drills": [
+        {
+          "name": "手腕與手部傷害預防",
+          "en": "Preventing Hand and Wrist Injuries",
+          "kind": "theory",
+          "target": "手腕負荷、疼痛訊號、傷害預防",
+          "title": "How to Prevent Hand and Wrist Injuries for Musicians",
+          "channel": "Donna Schwartz",
+          "url": "https://www.youtube.com/watch?v=V4MWXpvP6ZQ"
+        },
+        {
+          "name": "上排牙齒的長期影響",
+          "en": "Why Your Top Teeth Matter",
+          "kind": "theory",
+          "target": "口腔負荷、上排牙齒、長期磨損",
+          "title": "Why Your Top Teeth Matter More Than You Think",
+          "channel": "Secrets of Sax ",
+          "url": "https://www.youtube.com/watch?v=Qzem9QkjPrw"
+        },
+        {
+          "name": "樂手治療師的三個健康習慣",
+          "en": "3 Healthy Habits for Instrumentalists",
+          "kind": "theory",
+          "target": "休息紀律、健康習慣、樂手治療",
+          "title": "3 Healthy Habits for Instrumentalists with Musician Therapist Martha Paterson",
+          "channel": "Virtual Hand Care",
+          "url": "https://www.youtube.com/watch?v=Oynvo8Qjr0o"
+        }
+      ]
+    }
+  ]
+}

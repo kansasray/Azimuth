@@ -1,0 +1,209 @@
+{
+  "chapter": "CH2",
+  "title": "發聲基礎",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "口型建立",
+      "type": "skill",
+      "assessment": "對著鏡子吹中音域的長音，確認下唇邊緣微微內捲蓋住下排牙齒、上排牙齒輕靠在吹嘴上緣、嘴角像發「u」的嘴形一樣向內收攏，吹嘴含入口中大約一到一點五公分，抓到竹片開始穩定震動的深度，這個姿勢要能撐住十五秒不破音、不夾雜氣音才算過關。音一出來就偏高又發緊，多半是咬得太用力，先放鬆下巴重新找角度；完全發不出聲音或明顯漏氣，通常是嘴角沒收緊或吹嘴含得太淺。每個人嘴唇厚薄、齒列咬合不同，最後找到的角度會有落差，判準是音色乾淨、聲音穩定，不是照抄某一張示範照片的嘴型。",
+      "lesson": {
+        "title": "【 #薩克斯風嘴型 輕鬆三步驟！】老手新手都要看！#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=2v_JbBL_144",
+        "lang": "zh",
+        "why": "三步驟把下唇墊牙、上牙靠吹嘴、嘴角收攏這三個動作拆開示範，新手可以照步驟一步步組裝口型，不用憑感覺瞎猜，是這個單元最直接的開場影片。"
+      },
+      "drills": [
+        {
+          "name": "嘴型與發音入門完整示範",
+          "en": "Embouchure and First Sound Walkthrough",
+          "kind": "walkthrough",
+          "target": "口型、發音、複習",
+          "title": "薩克斯風入門第一堂課（上半堂）嘴型發音介紹及複習。",
+          "channel": "陳哲明",
+          "url": "https://www.youtube.com/watch?v=-wF4hCUqfiI"
+        },
+        {
+          "name": "下唇墊牙的具體位置",
+          "en": "Lower Lip Cushion Placement",
+          "kind": "walkthrough",
+          "target": "下唇、口型",
+          "title": "《每日來一課》兩塊小肉肉解決嘴型問題 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=okHUotasp1k"
+        },
+        {
+          "name": "吹嘴含入深度",
+          "en": "Mouthpiece Depth",
+          "kind": "walkthrough",
+          "target": "吹嘴深度、含入角度",
+          "title": "薩克斯風教學 吹嘴含多深之嘴型篇 - 薩克斯風小秘訣",
+          "channel": "江川徹",
+          "url": "https://www.youtube.com/watch?v=IJLJ9f9V6CM"
+        },
+        {
+          "name": "口型因人而異",
+          "en": "Finding Your Natural Embouchure",
+          "kind": "theory",
+          "target": "口型差異、個人化調整",
+          "title": "How To Find YOUR \"Natural\" Embouchure",
+          "channel": "Max Parrish",
+          "url": "https://www.youtube.com/watch?v=6ypqbb1xX1s"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "呼吸與氣的支撐",
+      "type": "skill",
+      "assessment": "深吸一口氣讓腰腹周圍向外撐開，不是聳肩、也不是胸口先鼓起，從吸氣結束到吹出穩定長音之間銜接不超過兩秒，吹一個中音域長音要能撐滿十二秒，而且音量從頭到尾沒有明顯忽大忽小才算過關。如果撐不到八秒就洩氣，或者音量吹到一半明顯下滑，代表吸氣量不夠或氣柱中途洩掉，先加大吸氣量並放慢吐氣速度；如果吹沒幾秒就頭暈、肩膀往上抬，代表吸氣時用了胸式呼吸，回去對鏡子檢查肩膀有沒有跟著動。腹式呼吸的重點是橫膈膜下降讓空氣有地方進來，肚子只是跟著自然外推，刻意用力頂肚子反而會製造多餘的肌肉緊張，這是新手最常見的迷思。",
+      "lesson": {
+        "title": "【 吐納之間 - 呼吸與演奏 】肺活量不好可以吹樂器嗎？打破你對氣短的迷思！｜#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=hQare6YE0xU",
+        "lang": "zh",
+        "why": "直接處理新手最常見的焦慮：肺活量不好能不能吹樂器，同時示範呼吸怎麼銜接到演奏，把這個單元的正確理解與常見迷思一次講清楚。"
+      },
+      "drills": [
+        {
+          "name": "吸氣量與速度",
+          "en": "How Much and How Fast to Inhale",
+          "kind": "walkthrough",
+          "target": "吸氣量、吸氣速度",
+          "title": "《每日來一課》#吸氣 小建議 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=66AVsqR1k5M"
+        },
+        {
+          "name": "氣柱穩定的吹奏效率",
+          "en": "Efficient Airstream Control",
+          "kind": "walkthrough",
+          "target": "氣柱穩定、吹氣效率",
+          "title": "3招學會不費「力」「氣」吹樂器｜揪要薩克斯風#3",
+          "channel": "歡歡 歡阿惠",
+          "url": "https://www.youtube.com/watch?v=NJieJ4lXg3s"
+        },
+        {
+          "name": "腹式呼吸兩種練法",
+          "en": "Two Diaphragmatic Breathing Drills",
+          "kind": "walkthrough",
+          "target": "腹式呼吸、橫膈膜",
+          "title": "《每日來一課》腹式呼吸兩式 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=i4CbMlt255U"
+        },
+        {
+          "name": "腹式呼吸的迷思",
+          "en": "Diaphragm Breathing Myths",
+          "kind": "pitfall",
+          "target": "腹式呼吸迷思、鼓肚子",
+          "title": "Power Breathing for Saxophone - Diaphragm Support or Belly Breath",
+          "channel": "Key Leaves",
+          "url": "https://www.youtube.com/watch?v=VwWL_LsGQXM"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "第一個音到第一條音階",
+      "type": "skill",
+      "assessment": "只裝上吹嘴和脖管，不接管身，吹一口氣測試能不能穩定發出接近次中音脖管目標音高（一般落在鋼琴或調音 App 上的 D 到 E 之間）的聲音，音要撐住三秒不破音、不變成雙音，才算抓對含吹嘴的角度和氣壓。抓穩之後接回全管，先吹第一個音，通常是中音 C 附近的指法，連續吹五次都能一次發聲才算過關；接著往上練中音域的五個音，每個音之間換氣不超過一秒，音與音要清楚分開，不能滑音黏在一起；最後把這五個音加上其餘音級組成第一條大調音階，上行下行各吹一次，六十秒內完成兩趟，中途不停下來重新換氣才算通過。哪一關卡住，就退回吹嘴加脖管單獨練習找回目標音高，不要跳過這一步直接硬吹全管。",
+      "lesson": {
+        "title": "【次中音薩克斯風的必練練習】練完功力直接翻倍！#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=p54rYq_yeTU",
+        "lang": "zh",
+        "why": "專門針對次中音示範從單音到音階的必練菜單，把吹嘴脖管練習、第一個音與第一條大調音階串成一條路徑，是這個單元的骨幹影片。"
+      },
+      "drills": [
+        {
+          "name": "吹嘴加脖管發聲判準",
+          "en": "Mouthpiece and Neck Pitch Target",
+          "kind": "walkthrough",
+          "target": "吹嘴脖管、目標音高",
+          "title": "《每日來一課》新手村：頸管練習 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=4KkVL_C4Pck"
+        },
+        {
+          "name": "次中音的第一個音",
+          "en": "First Note on Tenor Sax",
+          "kind": "walkthrough",
+          "target": "第一個音、發聲",
+          "title": "Beginning Sax First Notes! (Tenor and Soprano)",
+          "channel": "Stoked on Sax",
+          "url": "https://www.youtube.com/watch?v=d5ZXx_lAy2Y"
+        },
+        {
+          "name": "中音域的前幾個音",
+          "en": "First Notes in the Middle Register",
+          "kind": "walkthrough",
+          "target": "中音域、指法銜接",
+          "title": "Beginner Saxophone Quickstart 3 - First 6 Notes on Tenor Sax",
+          "channel": "Sax School Online",
+          "url": "https://www.youtube.com/watch?v=JMI-vgyZx_w"
+        },
+        {
+          "name": "第一條大調音階",
+          "en": "First Major Scale",
+          "kind": "practice",
+          "target": "大調音階、上行下行",
+          "title": "朱老師的sax小教室 Lesson 8  大調音階",
+          "channel": "La cor薩克斯風專門店 朱孝宗",
+          "url": "https://www.youtube.com/watch?v=n552dJ_YIVQ"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "常見發聲問題",
+      "type": "concept",
+      "lesson": {
+        "title": "學薩克斯風卡關？手痛？嘴酸？破音？常見問題自我檢測｜揪要薩克斯風｜歡歡教學",
+        "channel": "歡歡 歡阿惠",
+        "url": "https://www.youtube.com/watch?v=TZSQeq7nQpc",
+        "lang": "zh",
+        "why": "用一支自我檢測影片把卡關、手痛、嘴酸、破音這幾個新手最常遇到的狀況整理成排查清單，可以對照後面四支各自針對單一成因的補充影片。"
+      },
+      "drills": [
+        {
+          "name": "咬太緊的成因",
+          "en": "Biting Too Hard",
+          "kind": "pitfall",
+          "target": "咬合太緊、音準偏高、音色擠",
+          "title": "《每日來一課》嘴巴太緊可能的原因 #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=2fUlrsDg_wY"
+        },
+        {
+          "name": "擠喉嚨的成因",
+          "en": "Throat Tension",
+          "kind": "pitfall",
+          "target": "喉嚨緊繃、音色悶塞",
+          "title": "How To Relax Your Throat And Improve Your Saxophone Sound: The Hairdryer Exercise",
+          "channel": "Thomas SAX",
+          "url": "https://www.youtube.com/watch?v=6I2t3lOOYSg"
+        },
+        {
+          "name": "漏氣的成因",
+          "en": "Air Leaking",
+          "kind": "pitfall",
+          "target": "漏氣、嘴角密合",
+          "title": "《每日來一課》#嘴巴漏氣 怎麼辦？ #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=Nkyr1EWj2x4"
+        },
+        {
+          "name": "竹片尖叫的成因",
+          "en": "Reed Squeak",
+          "kind": "pitfall",
+          "target": "竹片尖叫、破音",
+          "title": "WHAT CAUSES SQUEAKS ON THE SAX?",
+          "channel": "Scott Paddock",
+          "url": "https://www.youtube.com/watch?v=kGiEqJig3n4"
+        }
+      ]
+    }
+  ]
+}

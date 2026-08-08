@@ -1,0 +1,208 @@
+{
+  "chapter": "CH7",
+  "title": "音階與和聲進階",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "調式(Modes)",
+      "type": "concept",
+      "lesson": {
+        "title": "看完這片不用再看別片 - 一次幫你把調式概念搞清楚也明白實用的道理，不管在什麼音樂上！",
+        "channel": "chipinkaiyajazz",
+        "url": "https://www.youtube.com/watch?v=7LSlBx8U5h0",
+        "lang": "zh",
+        "why": "用中文從樂理根源講清楚調式與調性混合調式的差異,避免把調式當成純指法背誦,是全中文圈少數把這個常被誤解的概念講到位的教學,適合放在底下三個具體調式與 modal jazz 語境之前打底。"
+      },
+      "drills": [
+        {
+          "name": "Dorian 聲響與 Solo 應用",
+          "en": "Dorian Color Solo Guide",
+          "kind": "walkthrough",
+          "target": "Dorian 音階、Solo 語彙",
+          "title": "爵士钢琴Dorian色彩Solo指南",
+          "channel": "XinJazz法国爵士阿欣",
+          "url": "https://www.youtube.com/watch?v=ND8uK1P_v-Y"
+        },
+        {
+          "name": "Mixolydian 聲響與用法",
+          "en": "Introduction to Mixolydian Scale",
+          "kind": "theory",
+          "target": "Mixolydian 音階、屬七和弦語境",
+          "title": "Introduction to MIXOLYDIAN scale - and beyond...",
+          "channel": "NewJazz",
+          "url": "https://www.youtube.com/watch?v=D5eRO_cuwDc"
+        },
+        {
+          "name": "Lydian 聲響與即興應用",
+          "en": "Using the Lydian Sound to Improvise",
+          "kind": "theory",
+          "target": "Lydian 音階、大七和弦張力音",
+          "title": "How to use the Lydian sound/Lydian scale to improvise on the piano",
+          "channel": "Sean Wilson Piano",
+          "url": "https://www.youtube.com/watch?v=q3e3wfVmfLg"
+        },
+        {
+          "name": "Modal Jazz 和聲語境",
+          "en": "Modal Jazz Explained",
+          "kind": "theory",
+          "target": "調式和聲、無功能進行",
+          "title": "Modal Jazz Explained - Improvisation and Harmony",
+          "channel": "Walk That Bass",
+          "url": "https://www.youtube.com/watch?v=mb0EFwzXIEo"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "Bebop 音階建構",
+      "type": "skill",
+      "assessment": "在 C7 上彈奏 Bebop Dominant Scale(Mixolydian 音階外加一個經過音,填補 b7 到根音之間的半音)上行下行各兩個八度,節拍器 96 BPM 八分音符,連續彈三次,每次小節第一拍都要準確落在和弦音(1、3、5、7 其中一個)上才算過關。接著在 F 大調用 Bebop Major Scale(自然大調外加一個經過音,填補 5 到 6 之間的升 5)彈同樣的上下行測試。最後把兩種音階套進 Dm7-G7-Cmaj7 這組 ii-V-I,每個和弦彈滿兩小節,十二個調各過一輪不中斷。若經過音跑到強拍上、或換和弦時和弦音沒對上拍點,先把該小節單獨抽出來用四分音符慢練,聽清楚經過音該落在弱拍再加速。",
+      "lesson": {
+        "title": "The Ultimate Guide To Bebop Scales",
+        "channel": "Piano With Jonny",
+        "url": "https://www.youtube.com/watch?v=UyMAriK0Rmo",
+        "lang": "en",
+        "why": "一支影片同時交代 bebop dominant 與 bebop major 兩種音階的構造原理與彈奏示範,作為底下兩支各自聚焦單一音階的教學之前的總覽,是同主題英文教學裡涵蓋面最完整的一支。"
+      },
+      "drills": [
+        {
+          "name": "Bebop Dominant Scale 構造",
+          "en": "The Bebop Dominant Scale",
+          "kind": "theory",
+          "target": "Bebop Dominant Scale、b7 到根音經過音",
+          "title": "How To Play Bebop Piano Lesson 1 The Bebop Dominant Scale: PDF In All Keys",
+          "channel": "Peter Anderson Online Piano Teacher",
+          "url": "https://www.youtube.com/watch?v=nDmSHps9R7w"
+        },
+        {
+          "name": "Bebop Major Scale 構造",
+          "en": "The Bebop Major Scale",
+          "kind": "theory",
+          "target": "Bebop Major Scale、5 到 6 經過音",
+          "title": "How To Play Bebop Piano Lesson 4 The Bebop Major Scale: PDF In All Keys",
+          "channel": "Peter Anderson Online Piano Teacher",
+          "url": "https://www.youtube.com/watch?v=WgD2HeDgNF0"
+        },
+        {
+          "name": "為什麼要加經過音",
+          "en": "The 15 Notes You NEED To Know",
+          "kind": "theory",
+          "target": "經過音落拍邏輯、和弦音對強拍",
+          "title": "The 15 Notes You NEED To Know",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=HADgC9boReM"
+        },
+        {
+          "name": "Bebop Scale 套進 ii-V-I 練習",
+          "en": "Bebop II V I Workout",
+          "kind": "practice",
+          "target": "ii-V-I 套用、十二調銜接",
+          "title": "Jazz Piano Practice Session - Bebop II V I Workout",
+          "channel": "Stijn Wauters",
+          "url": "https://www.youtube.com/watch?v=hxJiyYNk5-A"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u3",
+      "name": "ii-V-I 經典線條",
+      "type": "skill",
+      "assessment": "選一組 ii-V-I(Dm7-G7-Cmaj7)彈奏經典的 3-5-7-9 線條:Dm7 從 3 音起、G7 走到 3 音、最後用 enclosure(先彈目標音上方半音、再彈下方半音,最後落到目標音)包圍 Cmaj7 的 3 音收尾。節拍器 92 BPM 四分音符,十二個調各彈一次不中斷,每次落在 Cmaj7 第一拍都要準確對到 3 音才算過關。接著挑一首熟悉的標準曲,在 solo 裡找到一個 ii-V-I,把剛練熟的這條線直接套進去彈,前後樂句銜接不能出現停頓或速度掉格。若十二個調裡有超過兩個調 enclosure 半音方向抓錯,或套進 solo 時明顯卡頓,先回到彈得順的那個調搞清楚上下半音順序,再往陌生調移。",
+      "lesson": {
+        "title": "爵士专业课13：大/小 II V I怎么Solo？（多器乐通用）",
+        "channel": "XinJazz法国爵士阿欣",
+        "url": "https://www.youtube.com/watch?v=bi7-HpnbD9o",
+        "lang": "zh",
+        "why": "以中文直接拆解大調與小調 ii-V-I 該怎麼構思 solo 線條,涵蓋本單元底下會逐項拆解的 guide tone、enclosure 與十二調練習,是中文圈少數把 ii-V-I 語彙講到可操作程度的教學。"
+      },
+      "drills": [
+        {
+          "name": "Guide Tone Line 構造(3-5-7-9)",
+          "en": "Guide Tones Practice Session",
+          "kind": "theory",
+          "target": "guide tone line、3-5-7-9",
+          "title": "Jazz Piano Practice Session - Guide Tones",
+          "channel": "Stijn Wauters",
+          "url": "https://www.youtube.com/watch?v=y-VxqFK6ylk"
+        },
+        {
+          "name": "Enclosure 包圍目標音",
+          "en": "Enclosure Madness for Jazz Improvisers",
+          "kind": "walkthrough",
+          "target": "enclosure、目標音包圍",
+          "title": "Enclosure Madness for Jazz Improvisers",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=1uUw59KBbbA"
+        },
+        {
+          "name": "十二個調練習法",
+          "en": "Practicing the 12 Keys",
+          "kind": "practice",
+          "target": "十二調練習、12 keys",
+          "title": "[爵士鋼琴教學] 怎樣練習爵士鋼琴的 12 個 keys ??",
+          "channel": "hansunchan",
+          "url": "https://www.youtube.com/watch?v=cilU1fggecI"
+        },
+        {
+          "name": "把經典 Lick 套進 Solo",
+          "en": "Bill Evans Lick in 12 Keys",
+          "kind": "walkthrough",
+          "target": "line 套用 solo、樂句銜接",
+          "title": "Bill Evans Lick in 12 keys, Jazz Tutorial on II-V-I",
+          "channel": "Kent Hewitt",
+          "url": "https://www.youtube.com/watch?v=8jl81JRJ1SA"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u4",
+      "name": "代理和弦入門(Reharmonization)",
+      "type": "concept",
+      "lesson": {
+        "title": "Reharmonization: How to Reharmonize a Song",
+        "channel": "Walk That Bass",
+        "url": "https://www.youtube.com/watch?v=hhMCNhfZ8Iw",
+        "lang": "en",
+        "why": "完整走過爵士代理和弦最常見的幾種手法與判斷邏輯,作為底下四支各自聚焦單一技巧(三全音代理、次屬和弦、代理和弦目錄、過度代理的陷阱)之前的總覽,是這個主題裡理論鋪陳最扎實的英文教學。"
+      },
+      "drills": [
+        {
+          "name": "三全音代理(Tritone Substitution)",
+          "en": "Tritone Substitution Explained",
+          "kind": "theory",
+          "target": "三全音代理、subV7",
+          "title": "Tritone Substitution Explained for Jazz Piano",
+          "channel": "Jazz Tutorial | Julian Bradley",
+          "url": "https://www.youtube.com/watch?v=ye0JRyR57vY"
+        },
+        {
+          "name": "次屬和弦(Secondary Dominants)",
+          "en": "Secondary Dominants",
+          "kind": "theory",
+          "target": "次屬和弦、tonicization",
+          "title": "The Jazz Piano Course: Secondary dominants are the best thing since sliced bread! (Lesson 5)",
+          "channel": "MangoldProject",
+          "url": "https://www.youtube.com/watch?v=if7llrQBy9E"
+        },
+        {
+          "name": "常用代理和弦目錄",
+          "en": "7 Sick Chord Substitutions",
+          "kind": "theory",
+          "target": "常用代理和弦目錄、和聲選項",
+          "title": "7 SICK Chord Substitutions",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=hWCX9-DnMG0"
+        },
+        {
+          "name": "過度代理的陷阱與收手判準",
+          "en": "Stop Overthinking Passing Chords",
+          "kind": "pitfall",
+          "target": "過度代理陷阱、收手判斷",
+          "title": "Stop Overthinking Passing Chords (this exercise makes it easy)",
+          "channel": "Jeff Schneider",
+          "url": "https://www.youtube.com/watch?v=YRPGz1qYUtY"
+        }
+      ]
+    }
+  ]
+}

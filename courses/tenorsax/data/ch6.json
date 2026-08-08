@@ -1,0 +1,209 @@
+{
+  "chapter": "CH6",
+  "title": "爵士語彙",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "藍調:第一個共同語言",
+      "type": "skill",
+      "assessment": "對著 Bb 藍調 backing track 吹完整輪十二小節，不看譜也不數拍，能準確聽出並落在第五小節轉 IV 和弦、第九小節轉 V 和弦這兩個轉換點才算過關。如果整輪只重複同幾個 blues scale 音、完全不理會第九小節的 V7 和弦音，就是濫用 blues scale 的訊號，回頭對照該小節和弦音再吹一次做比較。連續兩輪都抓對轉換點，才算真的學會這個共同語言。",
+      "lesson": {
+        "title": "How to play a 12 Bar Blues: Beginner, Intermediate and Advanced #35",
+        "channel": "Online Sax Academy",
+        "url": "https://www.youtube.com/watch?v=kDeaybz4fzo",
+        "lang": "en",
+        "why": "同一支影片把初、中、高三種程度的十二小節藍調吹法排在一起講，比只示範單一程度的教學更適合當這個單元的入門總覽。"
+      },
+      "drills": [
+        {
+          "name": "藍調的起源與 AAB 結構",
+          "en": "What Are the Blues?",
+          "kind": "theory",
+          "target": "藍調起源、AAB 歌詞結構",
+          "title": "Jazz Fundamentals: What Are the Blues?",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=aBg_gQxAShM"
+        },
+        {
+          "name": "Blues Scale 濫用警訊",
+          "en": "Avoid This with the Blues Scale",
+          "kind": "pitfall",
+          "target": "blues scale 濫用、和弦音忽略",
+          "title": "AVOID THIS with The Blues Scale",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=QZPPOjhXII8"
+        },
+        {
+          "name": "Bb 藍調跟奏練習",
+          "en": "Bb Blues Play-Along",
+          "kind": "practice",
+          "target": "Bb 藍調、跟奏、次中音",
+          "title": "Medium Blues Backing Track in Bb for Soprano Tenor Sax, Trumpet, Clarinet... - 110 BPM",
+          "channel": "dalSegno",
+          "url": "https://www.youtube.com/watch?v=kn2loJGoAg4"
+        },
+        {
+          "name": "藍調音階入門",
+          "en": "Blues Scale in 3 Minutes",
+          "kind": "walkthrough",
+          "target": "藍調音階、指法",
+          "title": "三分鐘學會藍調音階",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=hFYCzoSj4K0"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "Lick 的學法",
+      "type": "skill",
+      "assessment": "挑一句十六小節內的 ii-V lick，先唱三遍再吹三遍，音準對上原曲後移調到另外三個調各吹一次，最後找一首熟悉的 standard，在對應和弦處把這句 lick 塞進去而不打斷節奏。四個調都吹得出來、塞進曲子時速度沒掉，才算學會這一句。判準是能不能在十句以內做到這整套流程，而不是背了上百句卻沒有一句真正能移調應用。",
+      "lesson": {
+        "title": "The Fastest Way To Learn Jazz Vocabulary",
+        "channel": "Bob Reynolds",
+        "url": "https://www.youtube.com/watch?v=RXFfkxZYC9c",
+        "lang": "en",
+        "why": "Bob Reynolds 是職業爵士次中音薩克斯風手，這支直接講清楚語彙的學習順序與心法，比單純列一堆 licks 的影片更適合當開場方法課。"
+      },
+      "drills": [
+        {
+          "name": "十句起手 licks",
+          "en": "10 Easy Licks Every Jazz Musician Should Know",
+          "kind": "walkthrough",
+          "target": "起手 licks、常用樂句",
+          "title": "10 Easy Licks Every Jazz Musician Should Know",
+          "channel": "Jeff Schneider",
+          "url": "https://www.youtube.com/watch?v=DqWyncmN4Ko"
+        },
+        {
+          "name": "ii-V-I Licks 練習包",
+          "en": "12 Great Short II V I Licks",
+          "kind": "practice",
+          "target": "ii-V-I licks、次中音指法",
+          "title": "12 Great (Short) II V I Licks: Beginners, Intermediates and Advanced #71",
+          "channel": "Online Sax Academy",
+          "url": "https://www.youtube.com/watch?v=yQpUMr0Yqss"
+        },
+        {
+          "name": "唱奏移調學習法",
+          "en": "The Jazz Lick Method",
+          "kind": "theory",
+          "target": "唱奏移調、學習流程",
+          "title": "The Jazz Lick Method That Is 100x Better Than Yours",
+          "channel": "SorenBallegaardMusic",
+          "url": "https://www.youtube.com/watch?v=2SDinWDU81g"
+        },
+        {
+          "name": "Bebop 語彙三步驟",
+          "en": "Bebop Vocabulary in 3 Steps",
+          "kind": "walkthrough",
+          "target": "Bebop 語彙、三步驟學習法",
+          "title": "正確的Bebop Jazz語彙三步驟，連國中生都學得會！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=76lE_MhT1xg"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "採譜方法",
+      "type": "skill",
+      "assessment": "挑一段四到八小節的獨奏樂句，用降速工具放到原速的一半，先跟著唱到完全不看譜也能唱對音高與節奏，再拿薩克斯風吹出來，最後才對照原譜確認音符。整個流程唱在吹之前、吹在看譜之前，順序顛倒就不算真的採過譜。能在不看譜的狀況下把這句唱對、並用樂器吹出同樣的音高與節奏，才算完成一次採譜。",
+      "lesson": {
+        "title": "「鋼琴」挑戰「薩克斯風」譜容易嗎？什麼是「採譜」呢？ 教學篇#1 ( 中文字幕/ 免費樂譜）Transcription of Micheal Brecker ( Timeline)",
+        "channel": "邱立婷-婷婷爵士 Li-Ting Chiu",
+        "url": "https://www.youtube.com/watch?v=HinRQsUtx78",
+        "lang": "zh",
+        "why": "全中文圈少見針對「採譜是什麼」的方法論講解，用 Michael Brecker 的樂句當範例且附中文字幕，是這個技巧單元最合適的中文開場。"
+      },
+      "drills": [
+        {
+          "name": "為何採譜是核心學法",
+          "en": "How I Transcribe Solos (and Why I Do It This Way)",
+          "kind": "theory",
+          "target": "採譜動機、流程",
+          "title": "How I Transcribe Solos (and Why I Do It This Way)",
+          "channel": "Bob Reynolds",
+          "url": "https://www.youtube.com/watch?v=vBji9Z70WO0"
+        },
+        {
+          "name": "從哪些 solo 開始",
+          "en": "The Easiest Jazz Solos to Learn",
+          "kind": "theory",
+          "target": "入門 solo、選曲判準",
+          "title": "The Easiest Jazz Solos to Learn",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=cBqHFSZRGCU"
+        },
+        {
+          "name": "降速工具實作",
+          "en": "Transcribe! Slow Down Software",
+          "kind": "practice",
+          "target": "降速軟體、工具操作",
+          "title": "Transcribe! The MUST OWN Slow Down Software For Video & Audio - Learn ANY Music The Easy Way!",
+          "channel": "Levi Clay",
+          "url": "https://www.youtube.com/watch?v=FJfoMOcPl70"
+        },
+        {
+          "name": "唱在吹之前",
+          "en": "How To Play What You're Hearing",
+          "kind": "theory",
+          "target": "先唱後吹、聽力先行",
+          "title": "How To Play What You're Hearing",
+          "channel": "Chad LB",
+          "url": "https://www.youtube.com/watch?v=UoNEuZ7yT2c"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u4",
+      "name": "Sax 慣用語與裝飾",
+      "type": "concept",
+      "lesson": {
+        "title": "Learn Bending, Growling and Vibrato on Saxophone with Grace Kelly and Leo P",
+        "channel": "2SAXY",
+        "url": "https://www.youtube.com/watch?v=ZsD2EYn4K8w",
+        "lang": "en",
+        "why": "由 Grace Kelly 與 Leo P 兩位有實際演出資歷的薩克斯風手在鏡頭前示範 bend、growl、vibrato，比單一技巧的短片更適合當裝飾語彙的總覽。"
+      },
+      "drills": [
+        {
+          "name": "Fall 句尾下滑",
+          "en": "How to Play a Fall on the Sax",
+          "kind": "walkthrough",
+          "target": "fall、句尾裝飾",
+          "title": "HOW TO PLAY A FALL ON THE SAX",
+          "channel": "Scott Paddock",
+          "url": "https://www.youtube.com/watch?v=DOUSL5ZOlX0"
+        },
+        {
+          "name": "Ghost Notes 幽靈音",
+          "en": "How to Ghost Notes",
+          "kind": "walkthrough",
+          "target": "ghost notes、吐音",
+          "title": "How to ghost notes | Jazz articulation",
+          "channel": "DeMarius Jackson",
+          "url": "https://www.youtube.com/watch?v=S_bSUSOAdYM"
+        },
+        {
+          "name": "花舌與音色顫音",
+          "en": "Flutter Tongue, Bending, and Timbre Trills",
+          "kind": "walkthrough",
+          "target": "flutter、花舌",
+          "title": "Saxophone Flutter Tongue, Bending, and Timbre Trills",
+          "channel": "Saxophone Academy",
+          "url": "https://www.youtube.com/watch?v=atJHtqJfe7s"
+        },
+        {
+          "name": "薩克斯風喉音",
+          "en": "Saxophone Growling",
+          "kind": "walkthrough",
+          "target": "growl、喉音",
+          "title": "五種方法，學會薩克斯風喉音 / Saxophone Growling",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=iuC-uIZVWrc"
+        }
+      ]
+    }
+  ]
+}

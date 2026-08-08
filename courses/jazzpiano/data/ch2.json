@@ -1,0 +1,208 @@
+{
+  "chapter": "CH2",
+  "title": "基礎技術",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "音階與指法",
+      "type": "skill",
+      "assessment": "閉譜彈奏 C、G、F、D 四個調的大調音階,各兩個八度,上行下行都要彈,節拍器設定 80 BPM 十六分音符,連續彈三次都不錯音、不停頓才算通過。彈奏過程中留意換指位置:C 大調右手上行在 E-F 間、左手在 F-G 間換大拇指,F 大調右手第四指負責 Bb,這些位置最容易卡頓。若某個調連續三次都在同一個換指點出錯,就把那兩三個音獨立抽出來,速度砍半單獨練習,練順了再接回整條音階。",
+      "lesson": {
+        "title": "钢琴基础教学： 十分钟学会12个大调音阶指法",
+        "channel": "Shijun Wang",
+        "url": "https://www.youtube.com/watch?v=P6F3rMVFu2I",
+        "lang": "zh",
+        "why": "十分鐘內講完十二個大調的指法邏輯,教你看懂調號怎麼決定換指,免去逐調死背位置,是整個單元最系統性的入門片。"
+      },
+      "drills": [
+        {
+          "name": "音階指法的分組邏輯",
+          "en": "Scale Fingering Logic",
+          "kind": "theory",
+          "target": "指法規律、分組邏輯",
+          "title": "鋼琴音階指法有規律！快速搞懂音階怎麼彈｜鋼琴初學必看（音階系列3）",
+          "channel": "意music鋼琴教室",
+          "url": "https://www.youtube.com/watch?v=DhG6Wzygi2o"
+        },
+        {
+          "name": "換指與轉指技巧",
+          "en": "Finger-Crossing Technique",
+          "kind": "walkthrough",
+          "target": "換指原理、轉指技巧",
+          "title": "弹钢琴手指跑动不流畅？4个超硬核转指技巧让你实现快速跑动！",
+          "channel": "科学钢琴",
+          "url": "https://www.youtube.com/watch?v=ScmPIiOhvaQ"
+        },
+        {
+          "name": "音階常見換指錯誤",
+          "en": "Common Scale Fingering Mistakes",
+          "kind": "pitfall",
+          "target": "換指錯誤、彈奏卡頓",
+          "title": "音階為什麼彈快不流暢？3個常見錯誤與技巧分析",
+          "channel": "意music鋼琴教室",
+          "url": "https://www.youtube.com/watch?v=vg6HOxHeuHY"
+        },
+        {
+          "name": "拇指技巧與音階銜接",
+          "en": "Thumb Technique in Scales",
+          "kind": "walkthrough",
+          "target": "拇指運用、音階銜接",
+          "title": "How To CORRECTLY Use Your Thumb In Piano Scales | How To Practice Scales On The Piano Part 4",
+          "channel": "PIANO LAB",
+          "url": "https://www.youtube.com/watch?v=WawD9kw4Pfs"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "手指獨立與放鬆",
+      "type": "skill",
+      "assessment": "彈奏抬指練習時錄一段 30 秒影片,檢查手腕是否隨手指動作上下浮動、肩膀是否隨彈奏聳起,出現任何一項就是緊繃訊號,要停下來甩手放鬆再彈。獨立性判準:右手彈固定和弦,左手單獨做 1-2-3-4-5 指的抬指練習,連續 20 次不靠手腕帶動、不靠手臂晃動完成才算過關。哈農練習每天不超過 15 分鐘,超過容易養成用蠻力壓鍵的壞習慣——速度提升應該來自手指反應變快,不是肌肉更用力。",
+      "lesson": {
+        "title": "练对一次，受用一生的弹琴方法|19年教学精华：哈农这样练才高效！",
+        "channel": "菲比钢琴",
+        "url": "https://www.youtube.com/watch?v=xMDCD5lb_Ac",
+        "lang": "zh",
+        "why": "十九年教學經驗總結哈農怎麼練才有效,直接點出多數人練哈農只是機械重複、沒有練到手指獨立性的濫用問題,是這個單元最切題的切入點。"
+      },
+      "drills": [
+        {
+          "name": "爵士手指獨立性練習",
+          "en": "Hand Independence Exercises for Jazz Piano",
+          "kind": "practice",
+          "target": "手指獨立、左右手協調",
+          "title": "Hand Independence Exercises for Jazz Piano",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=jEdEcaLDnt0"
+        },
+        {
+          "name": "抬指練習建立手指獨立性",
+          "en": "Lifting Fingers for Independence",
+          "kind": "practice",
+          "target": "手指獨立性、抬指",
+          "title": "建立独立的手指: 抬指练习 (building independent fingers: lifting fingers)",
+          "channel": "黃光立",
+          "url": "https://www.youtube.com/watch?v=iYErUPqV33k"
+        },
+        {
+          "name": "手痠與緊繃的成因",
+          "kind": "pitfall",
+          "target": "緊繃訊號、手痠成因",
+          "title": "〔演奏觀念與迷思 2〕輕鬆彈琴不是夢！手痠成因解析大公開，不可不知的放鬆彈琴秘密part2",
+          "channel": "樂談 U-TONE",
+          "url": "https://www.youtube.com/watch?v=MsRMr_rwIG0"
+        },
+        {
+          "name": "手腕與手臂的放鬆參與",
+          "en": "Relaxed Arms, Hands and Wrists",
+          "kind": "walkthrough",
+          "target": "手腕放鬆、手臂參與",
+          "title": "弹钢琴如何放松手臂?|学钢琴Learn Piano:Relaxed Arms,Hands and Wrists",
+          "channel": "How视频",
+          "url": "https://www.youtube.com/watch?v=IO1M_xOcshU"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "觸鍵與音色",
+      "type": "skill",
+      "assessment": "同一個 C 大調音階,分別用 legato(連奏)與 staccato(斷奏)各彈一次,錄音回放比對:legato 版本每個音要銜接到聽不出斷點,staccato 版本每個音要留清楚空隙,音長約是原本時值的一半。強弱層次判準:同一句旋律,從 pp 到 ff 分五個等級各彈一次,錄音後請旁人矇眼盲聽,能正確排出五段音量順序才算通過。爵士 swing 觸鍵的檢驗:彈一段八分音符樂句,錄音丟進節拍分析軟體看波形,長短音比例接近 2:1 而非平均分配,才是 swing 感,不是拖拍。",
+      "lesson": {
+        "title": "钢琴基础教学: 如何弹出不同的音色。",
+        "channel": "Shijun Wang",
+        "url": "https://www.youtube.com/watch?v=JIurDZzlglk",
+        "lang": "zh",
+        "why": "完整示範觸鍵動作怎麼改變聲音的軟硬明暗,把「音色」從抽象形容詞變成可以模仿的具體手指動作,是這個單元最直接的入門教材。"
+      },
+      "drills": [
+        {
+          "name": "連奏(Legato)的彈法",
+          "en": "How to Play Legato",
+          "kind": "walkthrough",
+          "target": "連奏、legato控制",
+          "title": "04: 关于连奏的弹法 (how to play legato)",
+          "channel": "黃光立",
+          "url": "https://www.youtube.com/watch?v=ZpFrmGUWAnk"
+        },
+        {
+          "name": "斷奏(Staccato)與反彈力",
+          "en": "Staccato Technique",
+          "kind": "walkthrough",
+          "target": "斷奏、staccato控制、反彈力",
+          "title": "【鋼琴技巧大破解】斷奏演奏方法！善用反彈力，演奏不卡卡",
+          "channel": "樂悅彈琴 - Hello music",
+          "url": "https://www.youtube.com/watch?v=gYGi-XIA2Hk"
+        },
+        {
+          "name": "音量控制的十種層次",
+          "en": "10 Levels of Dynamic Control",
+          "kind": "practice",
+          "target": "音量控制、強弱層次",
+          "title": "10 種程度的鋼琴音量控制技巧～學起來馬上就可以彈得更好聽！",
+          "channel": "NiceChord+ (好和弦+)",
+          "url": "https://www.youtube.com/watch?v=m4KrefQBHGs"
+        },
+        {
+          "name": "爵士 Swing 觸鍵與分句",
+          "en": "Play a Perfect Jazz Swing Feel",
+          "kind": "practice",
+          "target": "swing觸鍵、articulation",
+          "title": "Play a Perfect Jazz Swing Feel (Articulation Lesson)",
+          "channel": "Josh Walsh",
+          "url": "https://www.youtube.com/watch?v=YdoK5VJlZRk"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "踏板",
+      "type": "skill",
+      "assessment": "彈一小段和聲進行,踏板要在彈下和弦之後才踩下(音後踏板/切分踏板),不是跟手同時踩,錄音回放,若能聽到兩個和弦交界處有清楚不糊的轉換,判定為過關。過度踏板的訊號:錄音放給自己聽,若聽到前一個和弦的殘響蓋過下一個和弦、或旋律線條糊成一片聽不出音高輪廓,就是踩太深或換得太慢,要踩淺一點或換踏板的動作加快。爵士曲目建議先完全不用踏板彈過一次,確認手指銜接沒有破洞,再加回踏板,加回時每小節最多踩兩次,不要習慣性把踏板當作遮蓋手指銜接不好的工具。",
+      "lesson": {
+        "title": "（cc字幕）彈琴手忙腳更亂/談談延音踏板的使用——踏板系列上集",
+        "channel": "意music鋼琴教室",
+        "url": "https://www.youtube.com/watch?v=Es4YWeiikC0",
+        "lang": "zh",
+        "why": "完整解釋延音踏板「音後踩下」的時機原理,不是單純教你踩踏板的動作,是理解「正確時機」這個核心概念最直接的起點。"
+      },
+      "drills": [
+        {
+          "name": "踏板操作與避免糊音",
+          "en": "Pedal Basics: Avoiding Blur",
+          "kind": "walkthrough",
+          "target": "踏板操作、避免糊音",
+          "title": "钢琴踏板操作指南！一次性解决新手踏板糊成一片的问题",
+          "channel": "科学钢琴",
+          "url": "https://www.youtube.com/watch?v=WTHjDpCkQ7A"
+        },
+        {
+          "name": "延音踏板銜接練習",
+          "kind": "practice",
+          "target": "踏板銜接、基本踩法",
+          "title": "彈琴手忙腳更亂/延音踏板基本踩法與練習——踏板系列下集",
+          "channel": "意music鋼琴教室",
+          "url": "https://www.youtube.com/watch?v=Lwfp0zoNKLU"
+        },
+        {
+          "name": "爵士即興中的踏板時機",
+          "en": "Sustain Pedal in Jazz Improvisation",
+          "kind": "theory",
+          "target": "爵士踏板、少用原因",
+          "title": "How to use the SUSTAIN PEDAL when improvising JAZZ",
+          "channel": "NewJazz",
+          "url": "https://www.youtube.com/watch?v=1KTmp-mNvzk"
+        },
+        {
+          "name": "半踏板與過度踏板的訊號",
+          "en": "Half-Pedalling Technique",
+          "kind": "theory",
+          "target": "半踏板、過度踏板訊號",
+          "title": "How do the best jazz pianists use half-pedalling? (part 1)",
+          "channel": "MusicwithMatt",
+          "url": "https://www.youtube.com/watch?v=6WIz2JfX4sY"
+        }
+      ]
+    }
+  ]
+}

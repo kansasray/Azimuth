@@ -1,0 +1,145 @@
+{
+  "chapter": "CH1",
+  "title": "入門與裝備",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "琴的選擇",
+      "type": "concept",
+      "lesson": {
+        "title": "鋼琴、數碼鋼琴、Keyboard有何分別？適合什麼學生？｜附Yamaha入門型號推薦｜家長、新手必看！",
+        "channel": "Enjoy Learning With Abby",
+        "url": "https://www.youtube.com/watch?v=6Jk8wvQTKHU",
+        "lang": "zh",
+        "why": "用中文一次講清楚傳統鋼琴、數位鋼琴與Keyboard三者的定位差異,並針對不同學生族群給出選購方向,適合當本單元的入門總覽。"
+      },
+      "drills": [
+        {
+          "name": "鍵盤配重與觸鍵手感",
+          "kind": "theory",
+          "target": "鍵盤配重、觸鍵手感",
+          "title": "🎹﻿ Weighted vs Unweighted Piano Keys | A Comprehensive Comparison ﻿🎹",
+          "channel": "Merriam Music",
+          "url": "https://www.youtube.com/watch?v=zaQuKVl-Yck"
+        },
+        {
+          "name": "認識 stage piano",
+          "kind": "theory",
+          "target": "stage piano、舞台琴特性",
+          "title": "What's a Stage Piano? Yamaha CP73 & Kawai MP7SE",
+          "channel": "Alamo Music Center - Pianos and Keyboards",
+          "url": "https://www.youtube.com/watch?v=ZhT-tqY7gEU"
+        },
+        {
+          "name": "預算配置與入門機型",
+          "kind": "walkthrough",
+          "target": "預算配置、入門電鋼琴選購",
+          "title": "初學能不能用「電鋼琴」？！觸鍵太輕怎麼辦？我推薦的3款入門電鋼琴",
+          "channel": "檸檬卷 Janet",
+          "url": "https://www.youtube.com/watch?v=hfyD0YcU9Us"
+        },
+        {
+          "name": "二手鋼琴與保值",
+          "kind": "theory",
+          "target": "二手鋼琴選購、保值",
+          "title": "如何挑選二手鋼琴？如何讓自己的鋼琴保值？",
+          "channel": "檸檬卷 Janet",
+          "url": "https://www.youtube.com/watch?v=SsSaMYYxl4I"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "坐姿、手型與觸鍵基礎",
+      "type": "skill",
+      "assessment": "對著鏡子或用手機錄影,彈奏C大調音階上行下行兩遍,檢查三個動作:椅子高度是否讓手肘與琴鍵面齊平或略高、手腕彈奏時是否維持水平不上翹不下塌、指尖觸鍵瞬間第一關節是否微彎不塌陷。彈完一分鐘後感受前臂與肩膀,如果出現痠脹緊繃,代表重量卡在手指硬撐而不是從手臂自然落下,把速度砍半重彈一次。連續三天做到手腕水平、關節不塌、彈完一分鐘不痠,這個單元才算過關。",
+      "lesson": {
+        "title": "钢琴教学第一课| 正确坐姿 手型 触键 |初学者必看",
+        "channel": "菲比钢琴",
+        "url": "https://www.youtube.com/watch?v=fnXUSeJERgc",
+        "lang": "zh",
+        "why": "把坐姿、手型、觸鍵三個新手最容易忽略的基本功放進同一支影片示範,是本單元最完整的起點教材。"
+      },
+      "drills": [
+        {
+          "name": "椅高與坐姿距離",
+          "kind": "walkthrough",
+          "target": "椅高、坐姿、與琴鍵距離",
+          "title": "OP.1 基本姿勢–坐姿｜《彈奏鋼琴的基本運動系列》｜在鋼琴前面輕鬆坐著不就好了嗎？其實光是坐著就要顧的事情有很多~【基礎鋼琴課程】【Richard Piano Gym】",
+          "channel": "Richard Piano, Color-mirrored music",
+          "url": "https://www.youtube.com/watch?v=uxp5-6oO2L4"
+        },
+        {
+          "name": "手型與支撐",
+          "kind": "walkthrough",
+          "target": "手型、手指弧度、支撐",
+          "title": "OP.2 基本姿勢–手型｜《彈奏鋼琴的基本運動系列》｜稍微的深入講解手型~你的手有站好嗎？【基礎鋼琴課程】【Richard Piano Gym】",
+          "channel": "Richard Piano, Color-mirrored music",
+          "url": "https://www.youtube.com/watch?v=y-9javIThSU"
+        },
+        {
+          "name": "手腕放鬆與觸鍵發力",
+          "kind": "walkthrough",
+          "target": "手腕放鬆、觸鍵發力",
+          "title": "（cc字幕）鋼琴技巧：手腕放鬆/用手腕就能彈快？/樂句變好聽了！",
+          "channel": "意music鋼琴教室",
+          "url": "https://www.youtube.com/watch?v=iYuimmJTHFQ"
+        },
+        {
+          "name": "手型迷思與放鬆支撐",
+          "kind": "pitfall",
+          "target": "手型迷思、放鬆支撐",
+          "title": "〔演奏觀念與迷思9〕彈琴基本功：漂亮手型如何正確支撐同時放鬆？！",
+          "channel": "樂談 U-TONE",
+          "url": "https://www.youtube.com/watch?v=f1pJV-PNJp4"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u3",
+      "name": "練習環境與工具",
+      "type": "concept",
+      "lesson": {
+        "title": "彈琴好吵？/如何降低鋼琴音量安心練琴的幾大方法",
+        "channel": "意music鋼琴教室",
+        "url": "https://www.youtube.com/watch?v=UZ140Mf2fZA",
+        "lang": "zh",
+        "why": "直接處理新手最常卡關的現實問題「彈琴太吵怎麼辦」,把降低音量與安心練琴的具體方法整理成清單,是練習環境單元最實用的切入點。"
+      },
+      "drills": [
+        {
+          "name": "耳機挑選與音量控制",
+          "kind": "theory",
+          "target": "耳機挑選、練習音量控制",
+          "title": "Best Headphones for Digital Piano in 2026 - Top 6 Closed-Back & Open-Back Picks (Budget to Premium)",
+          "channel": "Your Next Pick",
+          "url": "https://www.youtube.com/watch?v=E7Gph5aVslA"
+        },
+        {
+          "name": "節拍器 App 入門",
+          "kind": "walkthrough",
+          "target": "節拍器App、調音頻率",
+          "title": "音樂人必備App／開箱2款特別功能的節拍器App／教學與自用必備節拍器／播放440、442頻率給你調音／Smart Metronome&Tuner、節拍器EX／免費App",
+          "channel": "小眼JING",
+          "url": "https://www.youtube.com/watch?v=lFmhjxSJ0Vc"
+        },
+        {
+          "name": "iReal Pro 伴奏工具初識",
+          "kind": "walkthrough",
+          "target": "iReal Pro、伴奏工具",
+          "title": "超實用爵士樂練習軟體 (APP) --- iReal Pro 的使用教學",
+          "channel": "威廉音樂Dr. Sax",
+          "url": "https://www.youtube.com/watch?v=DE9GxuiLdck"
+        },
+        {
+          "name": "錄音自檢的收音配置",
+          "kind": "walkthrough",
+          "target": "錄音自檢、收音設定",
+          "title": "How to Record Piano with Phone or Other Microphones",
+          "channel": "Sangah Noona",
+          "url": "https://www.youtube.com/watch?v=lPQD1C2_pRs"
+        }
+      ]
+    }
+  ]
+}

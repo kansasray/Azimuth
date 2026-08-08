@@ -1,0 +1,426 @@
+{
+  "$schema": "../../src/build/course.schema.json",
+  "frameworkVersion": "2.0.0",
+  "site": {
+    "project": "jazz-tenor-sax",
+    "name": "爵士次中音薩克斯風之路",
+    "url": "https://jazz-tenor-sax.pages.dev",
+    "locale": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "brandIcon": "music",
+    "title": "爵士次中音薩克斯風之路 — 從新手到職業的策展課程",
+    "description": "從第一口氣、口型與長音,一路到泛音、altissimo、即興、大師研究與職業之路。一門策展自 YouTube 公開影片的繁體中文次中音薩克斯風課程,精神座標是 John Coltrane、Sonny Rollins、Stan Getz 與 Michael Brecker。每個連結經 oEmbed 實際驗證,每條實證主張掛可覆核的 PubMed 或 Crossref 文獻。",
+    "keywords": [
+      "爵士薩克斯風",
+      "次中音薩克斯風",
+      "薩克斯風教學",
+      "即興",
+      "泛音",
+      "altissimo",
+      "subtone",
+      "採譜",
+      "John Coltrane",
+      "Sonny Rollins",
+      "Stan Getz",
+      "Michael Brecker",
+      "jam session"
+    ],
+    "educationalLevel": "beginner to professional",
+    "audience": "從零開始的薩克斯風學習者、想轉爵士的古典管樂手、以職業為目標的樂手",
+    "about": [
+      "爵士薩克斯風",
+      "即興演奏",
+      "音樂練習科學"
+    ],
+    "learningResourceType": [
+      "策展影片課程",
+      "自我檢測清單"
+    ]
+  },
+  "hero": {
+    "eyebrow": "策展課程 · 連結全數驗證",
+    "heading": "從第一口氣,到你自己的聲音。",
+    "lede": "**{lessonUnits} 個單元、{videos} 支影片**,從選琴、吹嘴竹片、口型長音,一路帶到泛音、ii-V-I、即興、大師研究與職業之路。內容全數策展自 YouTube 第三方公開影片,本站只做選片、驗證與連結,不擁有任何影片。所有連結經 YouTube oEmbed API 實際打過,{evidence} 條實證主張各自掛著可覆核的 PubMed 或 Crossref 文獻。"
+  },
+  "og": {
+    "title": "爵士次中音薩克斯風之路",
+    "lede": "{lessonUnits} 個單元 · {videos} 支已驗證影片\n從新手到職業,連結全數實打驗證"
+  },
+  "ui": {
+    "stats": [
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "單元"
+      },
+      {
+        "icon": "clapperboard",
+        "field": "video_unique",
+        "label": "影片"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "總長度"
+      },
+      {
+        "icon": "microscope",
+        "field": "evidence_total",
+        "label": "實證查核"
+      }
+    ],
+    "unitTypes": {
+      "skill": "技巧",
+      "concept": "觀念",
+      "master": "大師研究"
+    },
+    "problemType": "skill",
+    "evidenceRows": [
+      {
+        "field": "summary",
+        "label": "查了文獻之後"
+      }
+    ],
+    "unitNoun": "個單元",
+    "lessonNoun": "堂主課",
+    "drillNoun": "支延伸影片",
+    "drillNounShort": "支延伸",
+    "kindFilterLabel": "影片類型篩選",
+    "missingTitle": "尚未找到合格影片",
+    "missingHint": "這一格是空的,不是漏做。查過的關鍵字與不合格的原因寫在下面。寧可留白,也不放一支濫竽充數的影片。",
+    "lessonLangLabel": "語言",
+    "watchLabel": "看這支",
+    "evidenceSource": "PubMed / Crossref",
+    "evidenceSourceLink": "查看原始文獻",
+    "filterAllLabel": "全部",
+    "assessmentLabel": "自己檢查有沒有學會",
+    "unitEvidenceLabel": "實證查核",
+    "categoryNoun": "類別",
+    "searchPlaceholder": "搜尋單元、技巧或大師",
+    "playlistSearch": "搜尋影片",
+    "progressLabel": "學習進度",
+    "facetLabel": "分面篩選",
+    "lessonLabel": "主課",
+    "doneLabel": "已完成",
+    "prevLabel": "上一個",
+    "nextLabel": "下一個",
+    "moreLabel": "還有",
+    "openExternal": "在 YouTube 開啟",
+    "emptyTitle": "沒有符合的單元",
+    "emptyHint": "換個關鍵字,或把篩選清掉。",
+    "tabs": {
+      "landing": "首頁",
+      "course": "課程",
+      "stance": "這門課的立場",
+      "player": "上課"
+    }
+  },
+  "languages": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "kinds": [
+    {
+      "id": "theory",
+      "label": "原理",
+      "tone": "neutral"
+    },
+    {
+      "id": "walkthrough",
+      "label": "示範",
+      "tone": "accent"
+    },
+    {
+      "id": "practice",
+      "label": "練習",
+      "tone": "success"
+    },
+    {
+      "id": "pitfall",
+      "label": "常見錯誤",
+      "tone": "danger"
+    },
+    {
+      "id": "listen",
+      "label": "聆聽",
+      "tone": "done"
+    }
+  ],
+  "grades": [
+    {
+      "id": "strong",
+      "label": "證據充分",
+      "tone": "success"
+    },
+    {
+      "id": "moderate",
+      "label": "證據中等",
+      "tone": "accent"
+    },
+    {
+      "id": "limited",
+      "label": "證據有限",
+      "tone": "attention"
+    },
+    {
+      "id": "contested",
+      "label": "有爭議",
+      "tone": "danger"
+    },
+    {
+      "id": "doctrine-only",
+      "label": "僅傳統共識",
+      "tone": "neutral"
+    }
+  ],
+  "evidence": {
+    "designTiers": {
+      "force measurement study": 2,
+      "tms neurophysiology comparative study": 2,
+      "cross-sectional comparative study": 3,
+      "physiological measurement study": 2,
+      "acoustic impedance measurement study": 2,
+      "controlled acoustic measurement study": 2,
+      "acoustic measurement study": 2,
+      "meta-analysis": 1,
+      "experimental study": 2,
+      "corpus microrhythm analysis": 2,
+      "psychophysical experimental study": 2,
+      "fmri experimental study": 2,
+      "narrative review": 4,
+      "eeg experimental study": 2,
+      "sham-controlled experimental study": 2,
+      "systematic review": 1,
+      "controlled clinical trial": 2,
+      "systematic review and meta-analysis": 1,
+      "scoping review": 4,
+      "controlled experimental study": 2,
+      "cross-sectional survey study": 3,
+      "pilot biomechanical measurement study": 2,
+      "replication study": 2,
+      "theoretical commentary": 4,
+      "twin study": 2
+    },
+    "gradeRequires": {
+      "strong": 1,
+      "moderate": 2
+    },
+    "maxAgeYears": {
+      "strong": 15
+    },
+    "requireCaveats": [
+      "contested"
+    ],
+    "minCaveatChars": 40
+  },
+  "chapters": [
+    {
+      "code": "CH1",
+      "title": "入門與裝備",
+      "icon": "package",
+      "source": "ch1",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH2",
+      "title": "發聲基礎",
+      "icon": "wind",
+      "source": "ch2",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH3",
+      "title": "音色養成",
+      "icon": "waves",
+      "source": "ch3",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH4",
+      "title": "技巧建構",
+      "icon": "zap",
+      "source": "ch4",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH5",
+      "title": "節奏與 Swing",
+      "icon": "timer",
+      "source": "ch5",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH6",
+      "title": "爵士語彙",
+      "icon": "quote",
+      "source": "ch6",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH7",
+      "title": "音階與和聲",
+      "icon": "music-2",
+      "source": "ch7",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH8",
+      "title": "即興實作",
+      "icon": "sparkles",
+      "source": "ch8",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH9",
+      "title": "大師研究",
+      "icon": "crown",
+      "source": "ch9",
+      "units": 5,
+      "drills": 15
+    },
+    {
+      "code": "CH10",
+      "title": "合奏與登台",
+      "icon": "users",
+      "source": "ch10",
+      "units": 3,
+      "drills": 9
+    },
+    {
+      "code": "CH11",
+      "title": "職業之路與樂手健康",
+      "icon": "heart-pulse",
+      "source": "ch11",
+      "units": 4,
+      "drills": 12
+    }
+  ],
+  "evidenceAlias": {
+    "ch3-u1": "ch4-u4",
+    "ch3-u4": "ch3-u2",
+    "ch4-u2": "ch2-u1",
+    "ch11-u2": "ch10-u3"
+  },
+  "nav": [
+    {
+      "title": "地基篇",
+      "chapters": [
+        "CH1",
+        "CH2",
+        "CH3",
+        "CH4"
+      ]
+    },
+    {
+      "title": "爵士篇",
+      "chapters": [
+        "CH5",
+        "CH6",
+        "CH7",
+        "CH8"
+      ]
+    },
+    {
+      "title": "大師與舞台",
+      "chapters": [
+        "CH9",
+        "CH10",
+        "CH11"
+      ]
+    }
+  ],
+  "landing": {
+    "howTitle": "這門課怎麼運作",
+    "steps": [
+      {
+        "icon": "list-ordered",
+        "title": "照順序走",
+        "body": "地基篇把琴、口型、音色、技巧建起來;爵士篇進入 swing、語彙、和聲與即興;最後是大師研究與職業之路。已有底子的人可以從爵士篇切入,但口型或音準有問題,遲早要回地基篇還債。"
+      },
+      {
+        "icon": "video",
+        "title": "先看主課,再看延伸",
+        "body": "延伸影片分五類:原理、示範、練習、常見錯誤、聆聽。時間有限就先看示範跟常見錯誤;大師章請把聆聽類當正課,那才是爵士的教科書。"
+      },
+      {
+        "icon": "clipboard-check",
+        "title": "做自我檢查",
+        "body": "每個技巧單元底下都有一段可以自己執行、有具體判準的檢驗方法。調音器、節拍器、錄音,三樣工具就能完成大部分檢查。做不到判準就回去重練,不要自我感覺良好地往下走。"
+      },
+      {
+        "icon": "mic",
+        "title": "吹,而且錄下來",
+        "body": "看影片不會讓你變強,吹才會。每天的練習錄一段,一週後回聽。你的耳朵進步永遠比嘴唇快,錄音是讓兩者對話的方法。"
+      }
+    ],
+    "chaptersTitle": "十一個章節",
+    "stanceTitle": "先說清楚這門課的立場",
+    "stanceLede": "音樂教育圈流傳很多斬釘截鐵的說法。查了文獻之後,有些撐得住,有些撐不住,還有些只對了一半(口腔與音色就是)。那些發現原樣寫在下面,包含對這門課自己不利的部分。",
+    "ctaTitle": "從第一章開始",
+    "ctaLede": "{lessonUnits} 個單元、{videos} 支已驗證影片、{evidence} 條掛著文獻的實證查核。全部免費,因為內容本來就是別人放在 YouTube 上的公開影片。"
+  },
+  "stance": {
+    "title": "這門課的立場",
+    "intro": "策展一門課,最容易的作法是把所有內容都講得很有把握。這門課不那樣做。\n\n薩克斯風教學圈同樣有大量互相矛盾的教條:口腔喉部到底影不影響音色、高音靠什麼、一天該練幾小時。可以查文獻的部分,我們逐條查了:**練習科學與樂手健康的 16 條經驗性主張**,每條給出證據分級。\n\n查核結果:**16 條裡只有 1 條拿到「證據充分」(樂手的噪音性聽損風險與耳塞的保護效果),4 條「有爭議」。** 幾個值得先講的:「口腔與喉部形狀決定音色」這句薩克斯風老師的口頭禪,在一般音域的量測研究裡是有爭議的,1985 年的聲學阻抗研究說影響「可忽略」,2008 年《Science》的研究則證實聲道調頻在 altissimo 是必要條件,但也明說一般音域找不到簡單對應。教學傳統講對了一半。另外,一項 109 位薩克斯風手的調查裡,76% 曾有演奏相關的肌肉骨骼疼痛;而管樂演奏與肺功能量測值的關係,方向甚至是負的。這些結果對一門教人吹奏的課並不方便,但它就是文獻長的樣子。",
+    "keyPrefix": "concept-",
+    "verdicts": {
+      "concept-deliberate-practice": "「一萬小時刻意練習決定一切」在統合分析裡撐不住:練習量只解釋音樂成就變異的兩到三成,Ericsson 與 Macnamara 兩派的統合分析結論直接相反。",
+      "concept-mental-practice": "不拿琴的心智練習確實有效,尤其與實際練習交替使用時,證據中等。對通勤與嘴唇疲勞時段是好消息。",
+      "concept-talent-trainability": "「人人都能練成」與「天分決定論」都撐不住:絕對音感有明確的童年關鍵期,音樂訓練的遠遷移效果在最嚴格的統合分析裡趨近於零。",
+      "concept-practice-quantity": "練習時數與成就相關,但 2024 年六千餘對雙生子研究發現:練習量增加後,基因解釋的比例不降反升。量重要,但它不是把每個人拉到同一條線的等化器。"
+    },
+    "outroTitle": "所以該怎麼用這門課",
+    "outro": "把教學影片當**可檢驗的建議**,不是聖旨。口腔喉部的作用,在泛音與 altissimo 練習裡照做(那部分有《Science》級的證據),在一般音域則用自己的錄音當裁判。文獻站得住的(聽力保護、分散練習、心智練習),直接照做。\n\n兩個提醒。第一,**聽力保護是全課唯一「證據充分」的一條**,而次中音的音量直接打在自己右耳附近。耳塞不是不專業,是職業壽命的保險。第二,76% 的薩克斯風手有過演奏相關疼痛,右手拇指、頸部、下顎是重災區:頸帶與替代背帶的比較研究還沒有定論,但「痛就停、調整再繼續」有。疼痛不是勳章。"
+  },
+  "footer": {
+    "credits": "課程結構、選片理由與自我檢查為本站原創;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。",
+    "disclaimer": "本課程僅供教育與自主學習參考。樂器學習涉及身體使用,疼痛持續請諮詢教師或醫療專業;聽力與嘴唇健康的內容不能替代醫療建議。"
+  },
+  "llms": {
+    "summary": "[[course]] — 一門策展自 YouTube 公開影片的繁體中文爵士次中音薩克斯風課程,從新手到職業,共 [[durationHours]] 小時。每個連結經 YouTube oEmbed API 驗證,每條實證主張掛可覆核的 PubMed 或 Crossref 文獻。網址:[[url]]",
+    "stanceTitle": "這門課的立場",
+    "stanceIntro": "教學法爭議原樣呈現正反方;可經驗檢驗的練習科學與樂手健康主張逐條查文獻並分級,分級刻意不美化。",
+    "stanceItem": "- [[name]](分級:[[grade]]):[[summary]]",
+    "stanceConclusion": "16 條實證主張裡只有 1 條達到「證據充分」(聽力保護),4 條「有爭議」(含「口腔喉部決定音色」這條教學圈口頭禪)。",
+    "chaptersTitle": "章節",
+    "chapterItem": "- [[code]] [[title]]([[unitCount]] 個單元)",
+    "disclaimerTitle": "版權與免責",
+    "disclaimer": "所有影片為第三方 YouTube 頻道的公開內容,本站僅做策展與連結,不擁有任何影片。內容僅供教育參考,涉及身體與聽力健康的部分不能替代醫療建議。",
+    "footer": "由 curate-course 框架建置。"
+  },
+  "audit": {
+    "duration": {
+      "lesson": {
+        "min": "1:00",
+        "max": "45:00"
+      },
+      "drill": {
+        "min": "0:30",
+        "max": "25:00"
+      }
+    },
+    "driftSeconds": 30,
+    "minViews": 300,
+    "metaCoverage": 1,
+    "drillsPerUnit": {
+      "min": 3,
+      "max": 6
+    },
+    "maxSharedVideos": 20,
+    "requireAssessment": [
+      "skill",
+      "master"
+    ],
+    "minAssessmentChars": 80,
+    "minCitations": 2,
+    "allowMissingUrls": 2
+  }
+}

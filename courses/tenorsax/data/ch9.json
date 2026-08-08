@@ -1,0 +1,216 @@
+{
+  "chapter": "CH9",
+  "title": "大師研究",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "John Coltrane：探索的化身",
+      "type": "master",
+      "assessment": "隨機播放三段獨奏音檔：一段出自 Coltrane 高速轉調的曲子（如 Giant Steps 一類的和聲進行），一段是他慢速抒情的演出，一段是別的次中音手。你要能在 20 秒內指認出哪一段是 Coltrane，並說出至少兩個依據：音符密度是否明顯高於正常速度、是否聽得出快速三度音級轉調的 sheets of sound 手法、音色是否偏亮而緊。三段都答對且依據具體才算過關，只答對曲名答不出依據代表只是記歌不是聽出風格，回頭重聽拆解影片裡對和聲進行的分析再測一次。",
+      "lesson": {
+        "title": "Sheets of Sound Explained (John Coltrane)",
+        "channel": "Walk That Bass",
+        "url": "https://www.youtube.com/watch?v=3j6-7N_QhRw",
+        "lang": "en",
+        "why": "把「sheets of sound」這個常被抽象化的術語拆解成具體的音符密度與和聲手法，並用 Giant Steps 的轉調結構當範例，是本次盤點裡對 Coltrane 招牌風格講得最扎實的一支。"
+      },
+      "drills": [
+        {
+          "name": "Giant Steps 採譜動畫",
+          "en": "Animated Sheet Music: Giant Steps",
+          "kind": "listen",
+          "target": "Giant Steps、採譜視覺化、和聲進行",
+          "title": "Animated Sheet Music: \"Giant Steps\" by John Coltrane",
+          "channel": "dancohen",
+          "url": "https://www.youtube.com/watch?v=2kotK9FNEYU"
+        },
+        {
+          "name": "My Favorite Things 現場名演",
+          "en": "My Favorite Things Live 1965",
+          "kind": "listen",
+          "target": "現場即興、模態探索、Coltrane 晚期風格",
+          "title": "John Coltrane Quartet My Favorite Things Live in Comblain-La-Tour 1965",
+          "channel": "Vince Cho",
+          "url": "https://www.youtube.com/watch?v=ehYM_cg2DHI"
+        },
+        {
+          "name": "Giant Steps 慢速伴奏跟練",
+          "en": "Giant Steps Slow Backing Track",
+          "kind": "practice",
+          "target": "轉調和聲、跟練、慢速還原",
+          "title": "Giant Steps - Slow Version - Backing Track - 10 min shed",
+          "channel": "Phil Wilkinson Music",
+          "url": "https://www.youtube.com/watch?v=ru9h_cIcoLU"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "Sonny Rollins：動機的建築師",
+      "type": "master",
+      "assessment": "播放三段薩克斯風獨奏，其中一段是 Sonny Rollins 在 St. Thomas 或 Tenor Madness 裡的即興，另外兩段換成別的次中音手。你要能在聽完 30 秒內指認出哪段是 Rollins，依據要包含：同一個短動機是否被反覆變形超過三次（拉長、移調、換節奏型態各算一種）、樂句之間是否留有明顯的呼吸空白、有沒有一種說故事式的幽默感。若只能聽出「這段比較有旋律感」卻說不出動機被怎麼變形，代表還沒抓到動機發展的具體手法，回去重看動機拆解的影片，標出至少三處動機重複出現的時間點再重測。",
+      "lesson": {
+        "title": "Improvisation - Create Melodic & Interesting Lines (Learn It From Sonny Rollins)",
+        "channel": "Get Your Sax Together",
+        "url": "https://www.youtube.com/watch?v=-t4epnKHYmA",
+        "lang": "en",
+        "why": "職業薩克斯風教育者直接以 Rollins 的即興邏輯當範本，講解一個動機如何被拉長、移調、換節奏型態反覆發展成完整樂句，對應「動機的建築師」這個定位最直接。"
+      },
+      "drills": [
+        {
+          "name": "St. Thomas 樂理拆解",
+          "en": "Jazz Theory with Sonny Rollins: St Thomas",
+          "kind": "theory",
+          "target": "St. Thomas、加勒比節奏、曲式結構",
+          "title": "Jazz Theory with Sonny Rollins: \"St Thomas\"",
+          "channel": "David Bennett Thomas",
+          "url": "https://www.youtube.com/watch?v=B8X8AsLbPxA"
+        },
+        {
+          "name": "Tenor Madness 兩大次中音對談",
+          "en": "Tenor Madness",
+          "kind": "listen",
+          "target": "Rollins、Coltrane、同台較勁",
+          "title": "Sonny Rollins Quartet with John Coltrane - Tenor Madness",
+          "channel": "60otaku4",
+          "url": "https://www.youtube.com/watch?v=3MkUvZUTFUc"
+        },
+        {
+          "name": "動機發展十練習",
+          "en": "Motivic Development - 10 Exercises",
+          "kind": "practice",
+          "target": "動機發展、樂句變形、練習",
+          "title": "Motivic Development In Jazz - 10 Exercises For More Musical Solos",
+          "channel": "Magnus Bakken",
+          "url": "https://www.youtube.com/watch?v=ByOqfC0jntc"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u3",
+      "name": "Stan Getz：抒情與氣音",
+      "type": "master",
+      "assessment": "播放三段抒情次中音獨奏，一段是 Stan Getz 吹的 bossa nova 曲目，一段是他吹的抒情 ballad，一段換成別的次中音手吹同類型曲子。你要能分辨出哪兩段是 Getz，並各說出一個依據：bossa nova 那段是否聽得出氣音混入音頭讓音色偏柔、樂句起伏是否貼著旋律線走而不搶拍；ballad 那段是否聽得出音量隨旋律高低自然增減、尾音是否常帶一點漸弱而不是硬切。兩段都認對且各自答出依據才算過關，只認出一段代表對氣音和樂句貼合旋律這兩個特徵還沒聽熟，回去分段重聽對應的名演片段。",
+      "lesson": {
+        "title": "Sax Player Reacts To Stan Getz's Solo On Pennies From Heaven",
+        "channel": "Nick Mainella",
+        "url": "https://www.youtube.com/watch?v=N8zceO3TOC0",
+        "lang": "en",
+        "why": "職業次中音教育者逐句拆解一段真實的 Getz 獨奏，講解氣音與音量控制怎麼服務旋律線，而不是只給「Getz 音色很美」這種空泛評語，是這個單元切入音色服務旋律最具體的一支。"
+      },
+      "drills": [
+        {
+          "name": "Girl from Ipanema 現場名演",
+          "en": "The Girl From Ipanema Live 1964",
+          "kind": "listen",
+          "target": "bossa nova、氣音、旋律貼合",
+          "title": "Astrud Gilberto and Stan Getz - The Girl From Ipanema (1964) LIVE",
+          "channel": "iTubeNL",
+          "url": "https://www.youtube.com/watch?v=sVdaFQhS86E"
+        },
+        {
+          "name": "抒情 Ballad 名演",
+          "en": "Ballad For My Dad",
+          "kind": "listen",
+          "target": "ballad、漸弱尾音、音量隨旋律起伏",
+          "title": "Ballad For My Dad (Live)",
+          "channel": "Stan Getz - Topic",
+          "url": "https://www.youtube.com/watch?v=SEAjlSP2uk8"
+        },
+        {
+          "name": "Getz 樂句十二調跟練",
+          "en": "Stan Getz Lick in 12 Keys",
+          "kind": "practice",
+          "target": "樂句模仿、十二調練習",
+          "title": "How to Improvise with a Stan Getz Lick 🎵 | Jazz Saxophone Lesson in 12 Keys",
+          "channel": "Lynden Blades -Sax Made Simple",
+          "url": "https://www.youtube.com/watch?v=UGVbqlDHp_c"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u4",
+      "name": "Michael Brecker：現代次中音的標竿",
+      "type": "master",
+      "assessment": "播放三段次中音獨奏，一段是 Michael Brecker 吹的現代爵士樂句，另外兩段是傳統 bebop 時期的次中音手。你要能在 20 秒內指認出哪段是 Brecker，依據要包含：是否聽得出音符密度突然拉高的超高音爆發、和聲語彙是否帶有半音階外音而非單純的順階音、音色是否比傳統次中音更亮更硬。認對曲子但答不出依據不算過，回去重看他本人談如何找到自己聲音的訪談片段，搭配樂句拆解影片，標出至少一處超高音爆發出現的小節再重測一次。",
+      "lesson": {
+        "title": "Michael Brecker 1996 Interview - Developing Your Own Sound",
+        "channel": "Jazz Video Guy",
+        "url": "https://www.youtube.com/watch?v=5mLDdxEhRnM",
+        "lang": "en",
+        "why": "本人第一手訪談，親口談自己怎麼找到個人音色，比任何第三方拆解影片更能回答「現代次中音的標竿」這個定位是怎麼建立起來的，第一手素材優先收錄。"
+      },
+      "drills": [
+        {
+          "name": "Brecker 招牌樂句拆解",
+          "en": "The Michael Brecker Lick",
+          "kind": "theory",
+          "target": "招牌樂句、和聲外音、超高音",
+          "title": "HOW TO PLAY THE MICHAEL BRECKER LICK",
+          "channel": "Jeff Schneider",
+          "url": "https://www.youtube.com/watch?v=OQt688I0bY0"
+        },
+        {
+          "name": "Coltrane 與 Brecker 的 Giant Steps 對比",
+          "en": "Coltrane & Brecker Over Giant Steps",
+          "kind": "theory",
+          "target": "Giant Steps、世代對比、和聲語彙演變",
+          "title": "Coltrane & Brecker Over Giant Steps | Full Breakdown",
+          "channel": "Nick Mainella",
+          "url": "https://www.youtube.com/watch?v=UdYK05eJCqA"
+        },
+        {
+          "name": "Brecker 談練習哲學",
+          "en": "Michael Brecker on Practicing",
+          "kind": "listen",
+          "target": "練習哲學、第一手訪談",
+          "title": "Michael Brecker 1996 Interview - Practicing",
+          "channel": "Jazz Video Guy",
+          "url": "https://www.youtube.com/watch?v=hfgfo1cj_BQ"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u5",
+      "name": "更多巨人：Lester Young、Dexter Gordon、Joe Henderson、Wayne Shorter",
+      "type": "master",
+      "assessment": "隨機播四段次中音獨奏，分別出自 Lester Young、Dexter Gordon、Joe Henderson、Wayne Shorter 四人，不告訴你順序。你要能在聽完每段 30 秒內至少答對三段，每答對一段要說出一個依據：Lester Young 是否聽得出音色偏輕、樂句落在拍點之後；Dexter Gordon 是否聽得出樂句被刻意拖慢、音色厚而慢；Joe Henderson 是否聽得出和聲選擇比較意外、常用外音；Wayne Shorter 是否聽得出旋律簡潔留白、和聲進行不落俗套。答對三段以上且依據對應正確才算過關，答錯的那段回頭重看排行導覽或對應的拆解影片再重測。",
+      "lesson": {
+        "title": "十大爵士次中音薩克斯風手 / TOP 10 Jazz Tenor Sax Players",
+        "channel": "威廉音樂Dr. Sax",
+        "url": "https://www.youtube.com/watch?v=NI4jwpvDyDo",
+        "lang": "zh",
+        "why": "全中文圈唯一一支針對次中音薩克斯風歷代大師做排行導覽的影片，一次帶學生認識這個單元要收的幾位名字，是全課大師章少數的中文入口。"
+      },
+      "drills": [
+        {
+          "name": "Joe Henderson 的和聲選擇",
+          "en": "Joe Henderson - Why He Is One of the Big 3",
+          "kind": "theory",
+          "target": "Joe Henderson、意外和聲選擇、外音",
+          "title": "Joe Henderson - Why He Is One of the Big 3",
+          "channel": "Jens Larsen",
+          "url": "https://www.youtube.com/watch?v=-sTHhIQ4XlA"
+        },
+        {
+          "name": "Dexter Gordon 現場名演",
+          "en": "Dexter Gordon Live: Backstairs",
+          "kind": "listen",
+          "target": "Dexter Gordon、拖拍樂句、厚實音色",
+          "title": "Dexter Gordon live: \"Backstairs\"",
+          "channel": "Rick Suchow",
+          "url": "https://www.youtube.com/watch?v=Znm88X3BVSI"
+        },
+        {
+          "name": "Wayne Shorter 的和聲魅力",
+          "en": "The Mesmerizing Harmony of Wayne Shorter",
+          "kind": "theory",
+          "target": "Wayne Shorter、和聲進行、簡潔留白",
+          "title": "The Mesmerizing Harmony of Wayne Shorter",
+          "channel": "Adam Neely",
+          "url": "https://www.youtube.com/watch?v=siHfCV6vuSc"
+        }
+      ]
+    }
+  ]
+}

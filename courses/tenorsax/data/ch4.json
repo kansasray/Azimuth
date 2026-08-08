@@ -1,0 +1,209 @@
+{
+  "chapter": "CH4",
+  "title": "技巧建構",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "吐音",
+      "type": "skill",
+      "assessment": "用節拍器設定每分鐘八十拍,吹一個中音Bb全音符分成四個四分音符,每個音都要單吐起音、乾淨斷開,不能有滑音或雜音黏在一起,連續吹四小節不出錯才算過關。若音頭悶悶的、延遲快半拍才發聲,通常是舌尖離竹片太遠或觸點跑到竹片中段而不是尖端;若音頭帶爆破雜音,多半是舌頭離開竹片的速度太快、氣沒有先預備好。接著把節拍器調到每分鐘六十拍,吹四拍圓滑線內的音改用氣息斷句而不重新起音,能明顯聽出圓滑與單吐兩種音頭的差異,才算完成這個單元的檢驗。",
+      "lesson": {
+        "title": "Beginner Saxophone Lesson 5 - Tonguing & Articulation",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=EqyAYTwpUM8",
+        "lang": "en",
+        "why": "從吹嘴機制講起,把「舌尖觸點在哪、氣要不要先於舌動」的因果關係一次講清楚,是同頻道整套入門系列裡承先啟後的一集,比單支孤立的吐音短片更適合當這個技巧單元的入口。"
+      },
+      "drills": [
+        {
+          "name": "舌尖觸竹片的位置",
+          "en": "Tongue Tip Placement",
+          "kind": "theory",
+          "target": "舌尖位置、觸點",
+          "title": "【 點舌技法全解析-上集 】點音是用舌頭點嗎？要怎麼讓舌頭變快呢？詳細的點舌技巧通通告訴您！｜#米特薩克斯風線上課程",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=5iQUM0yyf0Q"
+        },
+        {
+          "name": "單吐清晰度",
+          "en": "Single Tonguing Clarity",
+          "kind": "practice",
+          "target": "單吐、清晰度、起音",
+          "title": "How to Improve your Single Tonguing on Saxophone",
+          "channel": "Saxologic",
+          "url": "https://www.youtube.com/watch?v=n7tyfQfj5Bo"
+        },
+        {
+          "name": "legato 吐音",
+          "en": "Legato Tonguing",
+          "kind": "walkthrough",
+          "target": "圓滑吐音、氣息斷句",
+          "title": "HOW TO PLAY LEGATO",
+          "channel": "Scott Paddock",
+          "url": "https://www.youtube.com/watch?v=jim3uAfQhuI"
+        },
+        {
+          "name": "吐音與氣的協調",
+          "en": "Tongue-Air Coordination",
+          "kind": "theory",
+          "target": "氣息支撐、吐音時機",
+          "title": "Jazz articulation: The most important lesson I learned",
+          "channel": "Bob Reynolds",
+          "url": "https://www.youtube.com/watch?v=xEogLjmPKEQ"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "手指技巧與音階流暢",
+      "type": "skill",
+      "assessment": "把節拍器設定在每分鐘一百拍,用十六分音符吹一個八度的大調音階上下行,手指離鍵的高度目測不超過一枚硬幣的厚度,過音孔時不能聽到多餘的按鍵撞擊聲,連續三次無誤才算通過。錄一段手指側面的慢動作影片檢查,若左手小指按下低音C#或B時整隻手掌跟著抬起,或按側鍵需要移動整個手腕才按得到,就是指法問題還沒解決,先做小指與側鍵的定點練習,再回來測音階速度。若音與音之間出現細微空隙或雜音,通常是手指離鍵太高、下鍵速度不平均。",
+      "lesson": {
+        "title": "【八個方法，提升手指速度！】絕對有效！#米特薩克斯風線上課程",
+        "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+        "url": "https://www.youtube.com/watch?v=LHHZFZY6ExQ",
+        "lang": "zh",
+        "why": "用八個具體可執行的方法拆解手指速度的成因,而不是籠統地叫你多練習,出自中文圈系統化程度最高的薩克斯風教學頻道,直接對應這個單元「最小動作」與「音階流暢」兩個子題。"
+      },
+      "drills": [
+        {
+          "name": "手指貼鍵與最小動作",
+          "en": "Minimal Finger Motion",
+          "kind": "walkthrough",
+          "target": "指鍵距離、動作幅度",
+          "title": "Proper Sax Finger Placement | Saxophone Lessons",
+          "channel": "Howcast",
+          "url": "https://www.youtube.com/watch?v=8JjiatRtwK4"
+        },
+        {
+          "name": "左手小指常見問題",
+          "en": "Left Hand Pinky Issues",
+          "kind": "pitfall",
+          "target": "左手小指、換鍵卡頓",
+          "title": "The DREADED LH Pinkie - 6 Pro Hacks",
+          "channel": "Get Your Sax Together",
+          "url": "https://www.youtube.com/watch?v=Tj8UhsrsQCs"
+        },
+        {
+          "name": "側鍵操作",
+          "en": "Side Key Technique",
+          "kind": "walkthrough",
+          "target": "側鍵、按壓角度",
+          "title": "《每日來一課》#右手側鍵怎麼按? #薩克斯風教學",
+          "channel": "米特薩克斯風重奏團 MIT Saxophone Ensemble",
+          "url": "https://www.youtube.com/watch?v=zPMow9fYeQk"
+        },
+        {
+          "name": "音階跑動的練法",
+          "en": "Scale Run Practice",
+          "kind": "practice",
+          "target": "半音階、速度堆疊",
+          "title": "董舜文今天練什麼？[05] 今天來練半音階吧！",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=0W1UKCTzR1E"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "Altissimo(超高音)",
+      "type": "skill",
+      "assessment": "先確認前置條件:能穩定吹出高音G上方至少三個泛音且音準不亂跑,才可以開始練altissimo。用正確指法吹次中音降A這第一個altissimo音,音要能在一次呼吸內維持五秒不破音、不下滑,連續嘗試五次至少四次成功才算過關。若每次都得靠加重咬力才發得出聲音,或吹兩三次就開始頭暈、嘴唇發抖,這是還沒準備好的訊號,應該退回泛音與長音練習,不要硬撐著練指法。口腔位置可以用默念母音從窩到衣的變化自我檢查,吹奏時感覺不到口腔內部在改變形狀,代表只靠嘴唇施壓在撐音高。",
+      "lesson": {
+        "title": "How to Play Altissimo on Saxophone (alto and tenor)",
+        "channel": "Better Sax",
+        "url": "https://www.youtube.com/watch?v=vLrAEzu0IN4",
+        "lang": "en",
+        "why": "同時示範中音與次中音兩種指法差異,把altissimo需要的口腔位置變化講得比多數頻道更具體,適合當這個單元的入口影片,個別音的指法細節再交給後面的 drills 補。"
+      },
+      "drills": [
+        {
+          "name": "泛音控制是前提",
+          "en": "Overtone Control Prerequisite",
+          "kind": "theory",
+          "target": "泛音、altissimo前提",
+          "title": "How'd Mike Brecker do That?? Why You Should Practice Overtones Even if You Never Use Altissimo.",
+          "channel": "Ben Nichols Music",
+          "url": "https://www.youtube.com/watch?v=U_abH0RgZkc"
+        },
+        {
+          "name": "前幾個 altissimo 音的指法",
+          "en": "First Altissimo Fingerings",
+          "kind": "walkthrough",
+          "target": "次中音指法、altissimo G、A",
+          "title": "【指法表修正】Tenor薩克斯風飆高音！Tenor超高音小解密！ #tenorsaxophone #altissimo #薩克斯風教學",
+          "channel": "林昱廷 Dennis Sax",
+          "url": "https://www.youtube.com/watch?v=8Q0qpBOcgHs"
+        },
+        {
+          "name": "口腔位置控制",
+          "en": "Oral Cavity Voicing",
+          "kind": "theory",
+          "target": "口腔形狀、voicing",
+          "title": "Saxophone Voicing - How to get your best tone and pitch",
+          "channel": "Randal Clark Music",
+          "url": "https://www.youtube.com/watch?v=Wu5D0DjJ1m0"
+        },
+        {
+          "name": "還不該練 altissimo 的訊號",
+          "en": "Signs You're Not Ready",
+          "kind": "pitfall",
+          "target": "常見迷思、過早硬練",
+          "title": "Saxophone ALTISSIMO: Fact vs Fiction",
+          "channel": "Get Your Sax Together",
+          "url": "https://www.youtube.com/watch?v=86_HCsFUmLw"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u4",
+      "name": "練習的結構",
+      "type": "concept",
+      "lesson": {
+        "title": "How to Develop a Practice Routine",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=i51rNkIZtUE",
+        "lang": "en",
+        "why": "機構等級的系統化練習規劃講解,把「先做什麼、後做什麼」的順序邏輯講清楚,而不是條列一堆練習項目,適合當這個觀念單元的骨幹影片。"
+      },
+      "drills": [
+        {
+          "name": "每日練習順序",
+          "en": "Daily Practice Order",
+          "kind": "walkthrough",
+          "target": "練習順序、時間分配",
+          "title": "Sax Practice Routine: The Perfect HOUR? | Free .pdf of exercises!",
+          "channel": "Saxophone Academy",
+          "url": "https://www.youtube.com/watch?v=ESLu2nsXrsA"
+        },
+        {
+          "name": "warm-up 的角色",
+          "en": "Role of Warm-up",
+          "kind": "walkthrough",
+          "target": "熱身、暖身時間",
+          "title": "Essential Saxophone Warmup",
+          "channel": "Sax School Online",
+          "url": "https://www.youtube.com/watch?v=s37MsT0uJ38"
+        },
+        {
+          "name": "短高頻 vs 長時間",
+          "en": "Short-Frequent vs Long Sessions",
+          "kind": "theory",
+          "target": "練習頻率、單次時長",
+          "title": "Get Better At Music By Practicing Less",
+          "channel": "Brad Harrison Music",
+          "url": "https://www.youtube.com/watch?v=bsd1b4iF5S8"
+        },
+        {
+          "name": "職業樂手 routine 拆解",
+          "en": "Pro Musician's Routine Breakdown",
+          "kind": "walkthrough",
+          "target": "職業樂手、每日練習紀錄",
+          "title": "董舜文今天練什麼？[01] 來練節拍器吧！",
+          "channel": "董舜文的頻道",
+          "url": "https://www.youtube.com/watch?v=8q_Vlpk1Pzo"
+        }
+      ]
+    }
+  ]
+}

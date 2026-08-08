@@ -1,0 +1,209 @@
+{
+  "chapter": "CH6",
+  "title": "爵士語彙",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "藍調：第一個共同語言",
+      "type": "skill",
+      "assessment": "任選一首 F 調爵士藍調的伴奏，雙手彈完整 12 小節一輪，連續彈三輪，每一輪都要能在第五小節準確轉入 IV 級、第九小節準確轉入 V 級，而且藍調音階以外至少用兩個和弦內音收尾樂句。三輪都不迷路、不搶拍才算通過。若總是在第九小節提早或延後進 V 級，代表你在數小節而不是聽和聲移動，回去對著和弦圖跟唱貝斯線，直到耳朵能預測下一小節的和聲再彈。",
+      "lesson": {
+        "title": "12 Bar Blues Piano Lesson: From Novice To Pro",
+        "channel": "PianoGroove",
+        "url": "https://www.youtube.com/watch?v=ynPjX3lAvfM",
+        "lang": "en",
+        "why": "從最基本的 12 小節架構講到進階聲部銜接技巧，一路示範慢藍調的雙手配合與可用的和弦替換，一支影片就把本單元「形式、音階、雙手」三個重點串起來，比只教單一片段的短影片更適合當入門總覽。"
+      },
+      "drills": [
+        {
+          "name": "12 小節藍調形式",
+          "en": "12-Bar Blues Form",
+          "kind": "theory",
+          "target": "12小節形式、和弦進行、藍調架構",
+          "title": "Learn What a 12-Bar Blues Is & How to Play It on Piano",
+          "channel": "Hoffman Academy",
+          "url": "https://www.youtube.com/watch?v=vx3N6tlz9N8"
+        },
+        {
+          "name": "藍調音階的濫用陷阱",
+          "en": "Overusing the Blues Scale",
+          "kind": "pitfall",
+          "target": "藍調音階、濫用、和弦內音",
+          "title": "AVOID THIS with The Blues Scale",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=QZPPOjhXII8"
+        },
+        {
+          "name": "F 調藍調雙手配合練習",
+          "en": "F Blues Two-Hand Play-Along",
+          "kind": "practice",
+          "target": "F調、雙手配合、跟奏",
+          "title": "BLUES in F play-along 🎹 Jazz Piano Tutorial ❤ Trade riffs with me!",
+          "channel": "Tony Winston",
+          "url": "https://www.youtube.com/watch?v=lomKxuMJmxk"
+        },
+        {
+          "name": "藍調與爵士即興的差異（中文）",
+          "en": "Blues vs Jazz Improvisation",
+          "kind": "theory",
+          "target": "藍調、爵士即興、共同語言",
+          "title": "Blues v.s. Jazz - 用熟悉的爵士經典曲來示範藍調即興與爵士即興的差異",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=HMUr4CCSOWk"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "Lick 的學法",
+      "type": "skill",
+      "assessment": "挑一句你已經會彈的 ii-V-I lick，依序完成四個步驟並逐項打勾：一、不看譜純用哼的把整句旋律唱出來，音準要跟鋼琴對上；二、雙手彈奏還原，速度可以放慢但音要彈對；三、換三個不同調重彈同一句，至少含一個升記號調與一個降記號調，全程不看譜；四、找一首含 ii-V-I 的標準曲，把這句塞進第一次過門。四個步驟同一天內全數完成才算通過，只做到唱和彈不算數。移調卡住就代表還沒真的內化這句，回頭把它拆成兩小節一組再唱一次。",
+      "lesson": {
+        "title": "How To Effectively Learn Jazz Language",
+        "channel": "Jayden Blockley",
+        "url": "https://www.youtube.com/watch?v=wjSYMIcfT-0",
+        "lang": "en",
+        "why": "直接拆解出一套四步驟的採譜與練習流程（聽、唱、彈、內化），把「怎麼把一句 lick 學到真正能用」講得比大多數只丟譜例的教學更有方法論，是本單元「Lick 的學法」最貼題的起點。"
+      },
+      "drills": [
+        {
+          "name": "ii-V-I 起手 Lick 包",
+          "en": "ii-V-I Turnaround Lick Starter Pack",
+          "kind": "walkthrough",
+          "target": "ii-V-I、起手樂句、大調",
+          "title": "Major II V I & Turn Around Licks",
+          "channel": "Stijn Wauters",
+          "url": "https://www.youtube.com/watch?v=57r-M-oXpsc"
+        },
+        {
+          "name": "移調練習法",
+          "en": "Transposing Jazz Chords on Piano",
+          "kind": "practice",
+          "target": "移調、十二調、快速轉調",
+          "title": "The Fastest Way to Transpose Jazz Chords on Piano!",
+          "channel": "Piano With Jonny",
+          "url": "https://www.youtube.com/watch?v=tj7TNrdhCjg"
+        },
+        {
+          "name": "五句頂一百句",
+          "en": "5 Licks Every Musician Steals",
+          "kind": "theory",
+          "target": "精選樂句、深度內化、樂句變形",
+          "title": "5 Jazz Licks Every Musician Steals (And How To Make Them Your Own)",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=-YC6RnWOczg"
+        },
+        {
+          "name": "II-V 樂句與十二調移調（中文）",
+          "en": "II-V Lick and 12-Key Transposition",
+          "kind": "practice",
+          "target": "II-V樂句、移調、十二調",
+          "title": "召喚「三七仔」來創造更棒的II-V樂句，以及教你如何輕鬆移調一打十二！",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=sU5qqd48eBQ"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "採譜方法",
+      "type": "skill",
+      "assessment": "挑一段 60 秒以內、速度中等、音域落在中音域的鋼琴獨奏，用降速軟體放到七成速，先只用哼的把整句旋律唱出來，唱對再坐到琴前彈，最後對照原錄音核對音準與節奏。同一段獨奏連續彈三次都能一次到位、不中斷、不靠哼修正才算通過。如果彈出來的音永遠比唱出來的準，代表你在用手指記憶取代耳朵，先把琴蓋合上只練唱一週，再回來彈。",
+      "lesson": {
+        "title": "How to Get Started Transcribing - Peter Martin & Adam Maness | You'll Hear It S4E59",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=GFCDLt4qgCw",
+        "lang": "en",
+        "why": "由 Peter Martin 與 Adam Maness 兩位資深爵士鋼琴教育者親自示範，講清楚新手對採譜的心理障礙從何而來、第一步該怎麼下手，是本單元「為什麼採譜是核心學法」最直接的回答。本章中文查無專門的採譜方法教學，四支 drill 誠實維持全英文。"
+      },
+      "drills": [
+        {
+          "name": "新手該從哪首 solo 開始",
+          "en": "The Easiest Jazz Solos to Learn",
+          "kind": "theory",
+          "target": "入門solo、短慢中音域、選曲",
+          "title": "The Easiest Jazz Solos to Learn",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=cBqHFSZRGCU"
+        },
+        {
+          "name": "降速軟體工具",
+          "en": "Slow-Down Software for Transcription",
+          "kind": "walkthrough",
+          "target": "降速軟體、Transcribe!、練習工具",
+          "title": "The MUST OWN Software To Slow Down, Loop, EQ, & Help You Transcribe Music - Levi Clay",
+          "channel": "Levi Clay",
+          "url": "https://www.youtube.com/watch?v=rgk8vq82rY4"
+        },
+        {
+          "name": "唱在彈之前的內化法",
+          "en": "Point and Sing Method",
+          "kind": "walkthrough",
+          "target": "唱在彈之前、內化、耳先於手",
+          "title": "My Point And Sing Method IN PRACTICE",
+          "channel": "Aimee Nolte Music",
+          "url": "https://www.youtube.com/watch?v=1IN2-76rV0U"
+        },
+        {
+          "name": "採譜視覺化示範",
+          "en": "Tommy Flanagan Solo Transcription",
+          "kind": "listen",
+          "target": "採譜視覺化、聆聽素材、名家獨奏",
+          "title": "Tommy Flanagan \"All The Things You Are\" Piano Transcription",
+          "channel": "AT Jazz Piano Transcription",
+          "url": "https://www.youtube.com/watch?v=MGZx0gxcTKc"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u4",
+      "name": "鋼琴慣用語與裝飾",
+      "type": "concept",
+      "lesson": {
+        "title": "8 Ways to Personalize a Melody - Grace Notes, Ghost Notes, Double Notes, Oh My!",
+        "channel": "Jeremy Siskind",
+        "url": "https://www.youtube.com/watch?v=8mS3ND_B03M",
+        "lang": "en",
+        "why": "資深爵士鋼琴教育者 Jeremy Siskind 一次示範 8 種讓旋律聽起來更像爵士樂手在彈的裝飾手法，grace notes、ghost notes 等慣用語都涵蓋在內，是本單元裝飾音總覽最完整的單支影片。"
+      },
+      "drills": [
+        {
+          "name": "Enclosures 包圍音",
+          "en": "Bebop Enclosures",
+          "kind": "walkthrough",
+          "target": "enclosures、包圍音、半音趨近",
+          "title": "How To Play Bebop Jazz Piano Lesson 20 Enclosures",
+          "channel": "Peter Anderson Online Piano Teacher",
+          "url": "https://www.youtube.com/watch?v=A8ueGSWA4P8"
+        },
+        {
+          "name": "Grace Notes 與 Crushed Notes",
+          "en": "Grace Note Techniques",
+          "kind": "walkthrough",
+          "target": "grace note、crushed note、裝飾音",
+          "title": "Top 3 Grace Note Techniques Jazz Pianists Use",
+          "channel": "Jazz Tutorial | Julian Bradley",
+          "url": "https://www.youtube.com/watch?v=xmO0aohJHSU"
+        },
+        {
+          "name": "Tremolo 顫音技巧",
+          "en": "Blues Scale Tremolo",
+          "kind": "walkthrough",
+          "target": "tremolo、顫音、藍調音階",
+          "title": "How to play a tremolo on the blues scale (SHREDDER technique)",
+          "channel": "Arthur Migliazza",
+          "url": "https://www.youtube.com/watch?v=ECpyIiehFyM"
+        },
+        {
+          "name": "藍調 Slide 在名演裡的用法",
+          "en": "Blues Slide in a Real Performance",
+          "kind": "listen",
+          "target": "slide、滑音裝飾、名演聆聽",
+          "title": "Brad Mehldau // London Blues (Transcription)",
+          "channel": "Auromaton",
+          "url": "https://www.youtube.com/watch?v=SWwAJUC7hJs"
+        }
+      ]
+    }
+  ]
+}

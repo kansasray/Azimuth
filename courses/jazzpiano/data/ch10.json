@@ -1,0 +1,131 @@
+{
+  "chapter": "CH10",
+  "title": "合奏與伴奏",
+  "units": [
+    {
+      "id": "ch10-u1",
+      "name": "Trio 裡的角色",
+      "type": "concept",
+      "lesson": {
+        "title": "Tips for Playing in a Jazz Rhythm Section",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=LRQu_bclmPs",
+        "lang": "en",
+        "why": "由機構級的爵士教育單位講清楚鋼琴、貝斯、鼓三個位置在節奏組裡各自該做什麼、彼此怎麼讓路,是本單元「trio 分工」最適合的總覽起點,比單一樂手視角的分享影片更完整。"
+      },
+      "drills": [
+        {
+          "name": "鋼琴在節奏組裡的位置",
+          "en": "The Piano's Role in the Rhythm Section",
+          "kind": "walkthrough",
+          "target": "節奏組分工、左手讓位、聆聽貝斯",
+          "title": "Jazz piano tutorial. The piano role in the rhythm section. How to practice comping. Kay Benyarko",
+          "channel": "Kay Benyarko",
+          "url": "https://www.youtube.com/watch?v=Ex1yp6RTt5s"
+        },
+        {
+          "name": "Trading Fours 的對話規則",
+          "en": "Trading Fours",
+          "kind": "theory",
+          "target": "trading fours、四小節對答、即興接力",
+          "title": "Trading Fours in Jazz",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=pQ1NGd7o0DQ"
+        },
+        {
+          "name": "Jam Session 潛規則（中文）",
+          "en": "Jazz Jam Session Unwritten Rules",
+          "kind": "pitfall",
+          "target": "jam session、叫曲、數拍、backing責任",
+          "title": "走啊 Jam 一下！等等，這些 Jam Session 潛規則你都知道嗎？ #育哥放大爵 || 樂手巢",
+          "channel": "YSOLIFE",
+          "url": "https://www.youtube.com/watch?v=2Kmdu4Wm6fc"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u2",
+      "name": "伴奏的藝術",
+      "type": "skill",
+      "assessment": "找一位歌手或用人聲錄音跟彈同一首慢歌一輪（AABA 或 32 小節），全程檢查三件事：前奏是否在歌手吸氣的瞬間收掉和弦讓出空間、每句歌詞尾音拖長時是否用 fill 接住而不是搶拍進下一句、樂句之間的空拍是否真的留白而不是用和弦墊滿。跟完整首后自己倒帶聽錄音，找出至少一處「墊太滿」或「fill 慢半拍」的地方並標記出來。連續兩次跟奏都找不出這類錯誤，且歌手或聽者回饋「呼吸感抓得到」才算過關；如果每次都墊滿全部空拍,代表耳朵還在跟自己的手,不是跟人聲,先把音量砍半只彈骨幹和弦重練一輪。",
+      "lesson": {
+        "title": "How To Accompany Singers | Vocal Accompaniment Tips For Jazz Piano",
+        "channel": "PianoGroove",
+        "url": "https://www.youtube.com/watch?v=PlIwat9JCxI",
+        "lang": "en",
+        "why": "直接針對「幫歌手伴奏」這件事講清楚跟呼吸、留空間、音量拿捏三個核心原則,把本單元「伴奏的藝術」需要的心法一次講完,是全英文供給裡最貼題的總覽影片。"
+      },
+      "drills": [
+        {
+          "name": "跟人聲的四種伴奏手法",
+          "en": "Four Ways to Accompany Vocalists on Swing Tunes",
+          "kind": "walkthrough",
+          "target": "跟呼吸、前奏、fill、swing 歌曲",
+          "title": "Four Ways to Accompany Vocalists on Swing Tunes",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=rX1cRGFbfds"
+        },
+        {
+          "name": "留空間與回應獨奏者",
+          "en": "Top 5 Accompanying Tips",
+          "kind": "theory",
+          "target": "留空間、回應樂句、伴奏原則",
+          "title": "Top 5 Accompanying tips (comping)",
+          "channel": "JazzSkills",
+          "url": "https://www.youtube.com/watch?v=TDjF5GWQh0o"
+        },
+        {
+          "name": "音量與動態的十個層次",
+          "en": "Dynamic Control Practice",
+          "kind": "practice",
+          "target": "動態控制、音量層次、練習方法",
+          "title": "Why Dynamic Control Is SO Important (& How To Practice It)",
+          "channel": "PianoPig",
+          "url": "https://www.youtube.com/watch?v=7_hIdK9zrdo"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u3",
+      "name": "Solo Piano",
+      "type": "skill",
+      "assessment": "選一首熟悉的標準曲,不靠貝斯手不靠鼓手,一個人彈完整首的頭尾（含四小節以上的無伴奏前奏）,自己錄音後倒帶檢查三個判準：左手是否全程撐住可辨識的根音移動而不是斷斷續續、旋律出現時右手是否清楚浮在和聲上方而不是被自己的伴奏音量蓋掉、至少一個樂句用了 rubato（自由速度）且回到主拍時不會讓聽者迷失小節位置。三個判準都做到才算過關;如果左手撐音時右手旋律變得模糊不清,代表兩隻手在搶同一個音域,把左手音域往下移一個八度再重錄一次。",
+      "lesson": {
+        "title": "Solo Piano BASICS | You'll Hear It",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=sqzoeBNYhZI",
+        "lang": "en",
+        "why": "由 Open Studio 的資深教育者講清楚一個人撐全場時,低音、和聲、旋律三個角色怎麼在雙手之間輪流分配,是本單元「Solo Piano」最完整的觀念總覽。本章中文供給稀薄,查過「一個人彈」「無伴奏」「stride 左手」等關鍵字後,除 u1 的 jam session 禮儀外沒有找到專門的節奏組分工、伴奏藝術或 solo piano 教學,其餘單元誠實以英文為骨幹。"
+      },
+      "drills": [
+        {
+          "name": "左手該做什麼",
+          "en": "What Do I Do with My Left Hand?",
+          "kind": "walkthrough",
+          "target": "左手分配、低音與和聲、獨奏鋼琴",
+          "title": "Solo Jazz Piano: What Do I Do with my Left Hand???",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=jtvVaPy7_4c"
+        },
+        {
+          "name": "Stride 八個練習要點",
+          "en": "8 Tips for Stride Piano",
+          "kind": "practice",
+          "target": "stride、左手跳躍、傳統手法",
+          "title": "8 Tips for Being AWESOME at Stride Piano [Jazz Piano Tutorial]",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=gO4RnMY6S8M"
+        },
+        {
+          "name": "Ballad 的 Rubato 判斷",
+          "en": "Rubato vs Non-Rubato",
+          "kind": "theory",
+          "target": "rubato、自由速度、ballad",
+          "title": "Jazz Solo Piano Technique | Rubato vs non rubato",
+          "channel": "Jazzmentl",
+          "url": "https://www.youtube.com/watch?v=G9tuzVQ12Ek"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "chapter": "CH10",
+  "title": "合奏與登台",
+  "units": [
+    {
+      "id": "ch10-u1",
+      "name": "Combo 裡的角色",
+      "type": "concept",
+      "lesson": {
+        "title": "How to STOP Getting Lost When Playing a Jazz Standard",
+        "channel": "Learn Jazz Standards",
+        "url": "https://www.youtube.com/watch?v=Q0OVMa8ofCo",
+        "lang": "en",
+        "why": "把一首爵士曲從 head 到各段 solo、trading、out chorus 的走向畫成清楚的路線圖，次中音在 combo 裡最容易犯的錯不是吹錯音，是忘記自己現在該做什麼，這支片直接處理這個問題。"
+      },
+      "drills": [
+        {
+          "name": "Trading Fours 實戰教學",
+          "en": "Trading Fours in Jazz",
+          "kind": "walkthrough",
+          "target": "trading fours、四小節輪奏、即興接龍",
+          "title": "Trading Fours in Jazz",
+          "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+          "url": "https://www.youtube.com/watch?v=pQ1NGd7o0DQ"
+        },
+        {
+          "name": "大樂團薩克斯風分部練習",
+          "en": "How To Play Sax In A Big Band",
+          "kind": "walkthrough",
+          "target": "大樂團分部、跟奏練習、聲部混音",
+          "title": "How To Play Sax In A Big Band",
+          "channel": "Get Your Sax Together",
+          "url": "https://www.youtube.com/watch?v=CBctvuFNNFY"
+        },
+        {
+          "name": "認識 Lead 與 Sideman",
+          "kind": "theory",
+          "target": "Lead、Sideman、大樂團分部",
+          "title": "四個爵士大樂團的Lead Alto 薩克斯風該注意的事項",
+          "channel": "林昱廷 Dennis Sax",
+          "url": "https://www.youtube.com/watch?v=hoi0JCV_cpU"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u2",
+      "name": "Jam Session 生存指南",
+      "type": "skill",
+      "assessment": "第一次去之前先準備十首不看譜也能跟的標準曲，涵蓋一首中板搖擺、一首藍調、一首拉丁節奏，主持人問要吹什麼時能在五秒內報出曲名跟調性，講不出來代表準備還不夠。輪到你進場前，先聽貝斯手打出的起拍抓穩速度，不要自己搶進；輪到你 solo，一次只拿兩個 chorus，交棒的動作要明顯到下一位樂手看得懂，不要拖到節奏組已經在收尾還在吹。遇到完全陌生的曲子，先把樂器放下聽完一整輪和聲走向，再用兩三個長音試探該用哪個調式，抓到走向才開始加花。整場下來若沒有讓其他樂手因為你搶拍或忘記交棒而皺眉，才算真的準備好了。",
+      "lesson": {
+        "title": "How to Approach a Jam Session",
+        "channel": "Jazz at Lincoln Center's JAZZ ACADEMY",
+        "url": "https://www.youtube.com/watch?v=EwIHg8nBIX8",
+        "lang": "en",
+        "why": "機構背景的入門講解，把第一次到場前該準備什麼、到現場後怎麼觀察其他樂手講得很具體，比單一樂手憑經驗分享的內容更有系統，適合當這個單元的第一支。"
+      },
+      "drills": [
+        {
+          "name": "必會標準曲清單",
+          "en": "10 Must-Know Jazz Standards for Jam Sessions",
+          "kind": "theory",
+          "target": "曲目庫、必會清單、叫曲準備",
+          "title": "10 Must-Know Jazz Standards for Jam Sessions",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=kYDOY_p62AE"
+        },
+        {
+          "name": "Jam Session 常見失禮",
+          "en": "Jam Session Etiquette",
+          "kind": "pitfall",
+          "target": "潛規則、搶麥、失禮行為",
+          "title": "BB3 Presents: Jam Session Etiquette (Tips To Not Get Vibed)",
+          "channel": "Benny Benack III",
+          "url": "https://www.youtube.com/watch?v=Gm92F-ea5aY"
+        },
+        {
+          "name": "台灣 Jam 圈的潛規則",
+          "kind": "pitfall",
+          "target": "潛規則、張力鋪陳、眼神交流",
+          "title": "走啊 Jam 一下！等等，這些 Jam Session 潛規則你都知道嗎？ #育哥放大爵 || 樂手巢",
+          "channel": "YSOLIFE",
+          "url": "https://www.youtube.com/watch?v=2Kmdu4Wm6fc"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u3",
+      "name": "登台與麥克風",
+      "type": "skill",
+      "assessment": "上台前用手機錄音 app 對著立麥測試站位：琴身與麥克風保持一個手掌到一個前臂的距離，約 15 到 25 公分，麥克風軸心略偏離、對準指鍵區而不是正對號口，吹一段中強度的長音後回放，聽有沒有爆音或高把位的泛音被吃掉。監聽聽不到自己的次中音時，要在下一首歌開始前用眼神加手勢跟音控示意調大自己的軌道，不要撐到整首歌結束才反應。上台前用四七八呼吸法穩定情緒：吸氣四秒、閉氣七秒、吐氣八秒，連續四輪，吐氣時把注意力放在腹部，做完後如果手還在抖或嘴唇緊到含不住吹嘴，就代表還沒準備好上台。",
+      "lesson": {
+        "title": "beyerdynamic | How to mic a saxophone",
+        "channel": "beyerdynamic",
+        "url": "https://www.youtube.com/watch?v=XlYNFXVTzYI",
+        "lang": "en",
+        "why": "由專業麥克風品牌製作，針對薩克斯風收音的距離、角度給出具體原則，比單一樂手的個人心得更有廠商測試背書，適合當收音技巧的入門總覽。"
+      },
+      "drills": [
+        {
+          "name": "上台前的緊張處理",
+          "en": "How to not get nervous when performing on saxophone",
+          "kind": "theory",
+          "target": "緊張管理、上台信心",
+          "title": "How to not get nervous when performing on saxophone",
+          "channel": "Sax School Online",
+          "url": "https://www.youtube.com/watch?v=j7cT6l0k98k"
+        },
+        {
+          "name": "入耳式監聽入門",
+          "en": "IEM Monitor Basics",
+          "kind": "theory",
+          "target": "監聽、耳返溝通",
+          "title": "Fender Audio︱使用 IEM 入耳式監聽表演要知道的事︱feat. 江力平(濁水溪公社)",
+          "channel": "海國樂器",
+          "url": "https://www.youtube.com/watch?v=rJ3RlFEFMwQ"
+        },
+        {
+          "name": "Set 曲目安排",
+          "en": "Perfect Set List for Gigs",
+          "kind": "theory",
+          "target": "set list、曲序、能量安排",
+          "title": "8 Must-Know Jazz Standards for Jazz Gigs (Perfect Set List)",
+          "channel": "Learn Jazz Standards",
+          "url": "https://www.youtube.com/watch?v=6oM_rRCcasQ"
+        }
+      ]
+    }
+  ]
+}

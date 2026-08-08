@@ -1,0 +1,156 @@
+{
+  "chapter": "CH5",
+  "title": "節奏與 Swing",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "Comping 節奏",
+      "type": "skill",
+      "assessment": "把節拍器切到只敲第 2、4 拍，設 96 BPM，在一個 12 小節藍調上用 Charleston 節奏（切分到第 2 拍後半拍那個重音）彈同一個和弦四小節，錄音回放檢查：重音有沒有準時落在切分點、和弦有沒有在下一個重音前放開讓聲音斷開。連續四小節裡至少三小節維持這個切分位置才算通過。接著換成隨機安排的 comping 節奏型，不要每小節都彈同一種，同一首藍調彈完 12 小節，任何一小節的彈奏時值不能超過兩拍，超過兩拍就是佔掉獨奏者的空間，要抽出來單練縮短。速度提到 120 BPM 再測一次，判準不變。",
+      "lesson": {
+        "title": "5 Comping Rhythms Every Jazz Musician Should Know",
+        "channel": "PianoPig",
+        "url": "https://www.youtube.com/watch?v=Y8iWV65hbLE",
+        "lang": "en",
+        "why": "把最常用的幾種 comping 節奏型（含 Charleston 切分）一次示範過一遍，是這個單元建立節奏型彙的起手式。"
+      },
+      "drills": [
+        {
+          "name": "Charleston 節奏",
+          "en": "The Charleston Rhythm",
+          "kind": "walkthrough",
+          "target": "Charleston 節奏、切分重音",
+          "title": "The Charleston Rhythm piano - COOLEST piano rhythm you NEED to know",
+          "channel": "Piano and Voice with Brenda",
+          "url": "https://www.youtube.com/watch?v=Ag9DDksXtcQ"
+        },
+        {
+          "name": "Comping 到底是什麼",
+          "kind": "theory",
+          "target": "comping 定義、爵士伴奏概念",
+          "title": "康萍？康普？爵士樂中的「Comping」或動詞「Comp」到底是什麼意思？",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=qp9GA8jKsdg"
+        },
+        {
+          "name": "56 個節奏詞彙練習",
+          "en": "56 Rhythmic Words Method",
+          "kind": "practice",
+          "target": "節拍器練習、節奏詞彙庫",
+          "title": "🎹 Jazz Piano Comping Workout. The 56 Rhythmic Words Method.",
+          "channel": "mDecks Music – Piano & Harmony Tutorials",
+          "url": "https://www.youtube.com/watch?v=NRMOiFaPp4I"
+        },
+        {
+          "name": "Comping 常見錯誤",
+          "en": "4 Comping Mistakes",
+          "kind": "pitfall",
+          "target": "過度彈奏、留白不足",
+          "title": "4 Comping Mistakes Jazz Pianists Make",
+          "channel": "Sweetwater",
+          "url": "https://www.youtube.com/watch?v=y0QaLz2oYIU"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "Swing Feel",
+      "type": "skill",
+      "assessment": "節拍器設 96 BPM 只點第 2、4 拍，右手彈一個八度的音階，全部用 swing 八分音符彈奏：每一拍裡前一個音要占六到七成時值，後一個音只占三到四成，不是彈成等長的兩個音，也不是彈成附點加十六分音符那種固定比例。錄音回放，挑出哪些音符聽起來偏向等長，那通常是換指或跳音程的地方，把那半拍單獨拉出來用一半速度慢練到聽感一致。之後選一段 Red Garland 或同等級名盤的中板 swing 錄音，跟著彈同一句伴奏型，四小節裡音頭要能疊在鼓手 ride cymbal 的節奏上，錯開超過一拍就退回去，單獨聽那一小節三次再彈一次，直到疊得上為止。",
+      "lesson": {
+        "title": "7 Ways to Swing on the Piano with Peter Martin",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=FnwSlJgK1fM",
+        "lang": "en",
+        "why": "用七種不同角度示範鋼琴上做出 swing 感的方法，是市面上少見把 swing feel 拆成具體可練動作、而不只是抽象講感覺的鋼琴教學。"
+      },
+      "drills": [
+        {
+          "name": "初學與大師的 Swing 差異",
+          "en": "Beginner vs Master Swing Eighths",
+          "kind": "walkthrough",
+          "target": "swing 八分音符、觸鍵對比",
+          "title": "爵士初學與大師的一線之隔，搖擺swing八分音符的兩種不同彈法",
+          "channel": "邱立婷-婷婷爵士 Li-Ting Chiu",
+          "url": "https://www.youtube.com/watch?v=gitSJw3zoaQ"
+        },
+        {
+          "name": "彈成小叮噹的原因",
+          "kind": "pitfall",
+          "target": "swing 僵硬、分句、左手右手整合",
+          "title": "會將Swing彈成“小叮噹”是因為你不知如何分句  - 真正學會左手Comp右手Solo的整合",
+          "channel": "chipinkaiyajazz",
+          "url": "https://www.youtube.com/watch?v=PmT41bz9jEE"
+        },
+        {
+          "name": "三種解鎖 Swing 的觸鍵法",
+          "en": "3 Articulations to Unlock Swing Feel",
+          "kind": "theory",
+          "target": "articulation、圓滑與斷奏",
+          "title": "3 Articulations to Unlock Jazz Swing Feel",
+          "channel": "Jeremy Siskind",
+          "url": "https://www.youtube.com/watch?v=Fg_W-t_WBBc"
+        },
+        {
+          "name": "聽名盤 Red Garland 的 Comping",
+          "en": "How To Sound Like Red Garland",
+          "kind": "listen",
+          "target": "名盤對照、trio comping 風格",
+          "title": "How To Sound Like Red Garland",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=GErnv1FEhdQ"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "左手的角色",
+      "type": "concept",
+      "lesson": {
+        "title": "Learn The Top 10 Stride and Swing Piano LH Techniques (with application)",
+        "channel": "James Ursel",
+        "url": "https://www.youtube.com/watch?v=G8WMeHeBn7U",
+        "lang": "en",
+        "why": "一次示範十種左手技巧，從 stride 排到現代 comping 手法，是這個單元建立歷史脈絡最完整的總覽影片。"
+      },
+      "drills": [
+        {
+          "name": "Stride 入門",
+          "en": "Build Keyboard Confidence With Stride Piano",
+          "kind": "walkthrough",
+          "target": "stride、跳躍式左手",
+          "title": "Build Keyboard Confidence With Stride Piano (Beginner Lesson)",
+          "channel": "Pianote",
+          "url": "https://www.youtube.com/watch?v=lEpv6dRkOFc"
+        },
+        {
+          "name": "Walking Tenths 練習",
+          "en": "10ths Left Hand Voicings",
+          "kind": "practice",
+          "target": "walking tenths、左手跨度",
+          "title": "THE BIG SOUND: 10ths-  Left Hand Voicings.- Jazz Drills and Exercises-",
+          "channel": "Kent Hewitt",
+          "url": "https://www.youtube.com/watch?v=B5k4IWEaDhQ"
+        },
+        {
+          "name": "Rootless 對 Rooted",
+          "en": "Rootless Voicings vs. Rooted Voicings",
+          "kind": "theory",
+          "target": "rootless voicing、場合選擇",
+          "title": "Rootless Voicings vs. Rooted Voicings - Peter Martin & Adam Maness | You'll Hear It S4E5",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=NQI7V8G5_X8"
+        },
+        {
+          "name": "左手該從哪種 Voicing 學起的迷思",
+          "en": "Piano Myth-Busting: LH 3rd-7th Voicings",
+          "kind": "pitfall",
+          "target": "初學順序、左手迷思",
+          "title": "Piano Myth-Busting #2: Should beginning jazz pianists start with LH 3rd-7th voicings?",
+          "channel": "Ron Drotos KeyboardImprov",
+          "url": "https://www.youtube.com/watch?v=hEjcSMyo5MU"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "chapter": "CH4",
+  "title": "Voicings 進階",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "去根音聲位(Rootless Voicings)",
+      "type": "skill",
+      "assessment": "選 Dm7-G7-Cmaj7 這組 ii-V-I,左手在不彈根音的前提下交替彈出 A type(3-5-7-9)與 B type(7-9-3-5)兩種排列,十二個調各過一輪,節拍器 60 BPM 每兩拍換一個和弦,連續三輪不出現根音誤觸、音程也沒超過八度才算過關。若 A/B type 換調時排列亂掉,或 voicing 彈得比原本根音位還低導致濁音——先回到 C 大調單獨慢練那一個切換點,速度砍半,對照貝斯線確認省略的根音真的有被貝斯手補上。",
+      "lesson": {
+        "title": "Rootless Voicings Finally Explained - Jazz Piano Lesson",
+        "channel": "PianoGroove",
+        "url": "https://www.youtube.com/watch?v=gvntLSXK_Wc",
+        "lang": "en",
+        "why": "系統性拆解 A type 與 B type 兩種 rootless voicing 的音程排列與互換邏輯,並說明交給貝斯手彈根音之後左手為何能空出更多聲部彈張力音,是同主題英文教學中講解脈絡最完整的一支。"
+      },
+      "drills": [
+        {
+          "name": "左手聲位基礎與訣竅",
+          "en": "Left Hand Voicings: Fundamentals and Secret Sauce",
+          "kind": "theory",
+          "target": "左手聲位邏輯、省略根音的理由",
+          "title": "Left Hand Voicings: Fundamentals and Secret Sauce",
+          "channel": "Noah Kellman",
+          "url": "https://www.youtube.com/watch?v=RQp51zJOPwA"
+        },
+        {
+          "name": "A/B type 左手指法示範",
+          "en": "Dm9, G13, Cmaj9 Rootless Voicing",
+          "kind": "walkthrough",
+          "target": "A type 排列、B type 排列、Dm9/G13/Cmaj9",
+          "title": "[爵士鋼琴教學] 如何用左手彈Dm9, G13, Cmaj9 Rootless Voicing?",
+          "channel": "hansunchan",
+          "url": "https://www.youtube.com/watch?v=iaMKKaWNRSw"
+        },
+        {
+          "name": "ii-V-I 上的 rootless 連接練習",
+          "en": "II-V-I Rootless Voicings in the Key of C",
+          "kind": "practice",
+          "target": "ii-V-I 進行、聲位平滑連接",
+          "title": "Jazz Piano College *  II-V-I rootless voicings in the key of C",
+          "channel": "Tony Winston",
+          "url": "https://www.youtube.com/watch?v=dueegTbBoQQ"
+        },
+        {
+          "name": "Rootless voicing 全解析",
+          "en": "Rootless Voicings: Everything You Need to Know",
+          "kind": "walkthrough",
+          "target": "voicing 排列邏輯、常見誤用",
+          "title": "Rootless Voicings: EVERYTHING You Need To Know",
+          "channel": "PianoPig",
+          "url": "https://www.youtube.com/watch?v=w2V_1NkiK3c"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "四度堆疊聲位(Quartal Voicings)",
+      "type": "skill",
+      "assessment": "彈奏 So What voicing(完全四度堆疊,由下往上抓 E-A-D-G-C 或同型移位),在 D Dorian 與 Eb Dorian 之間切換把位,每次只移動一根手指或整組平移半音,四小節一次、不看鍵盤連續彈完六次不中斷才算通過。中途若疊成傳統的三度和弦排列,或四度音程跑掉超過半音,代表手型記憶還不穩固,退回單手在琴鍵上默寫一遍四度音程排列,再重新計時測驗。",
+      "lesson": {
+        "title": "Jazz Piano Chord Voicings - Quartal Chords",
+        "channel": "Walk That Bass",
+        "url": "https://www.youtube.com/watch?v=BmoN6v-4h7U",
+        "lang": "en",
+        "why": "從三和弦堆疊講到完全四度堆疊的聲響差異,再帶入 So What 與 McCoy Tyner 式四度和弦如何在調式語境下移動,理論鋪陳扎實,是四度堆疊主題裡內容深度與觀看數都在前段班的英文教學。"
+      },
+      "drills": [
+        {
+          "name": "四度堆疊聲位入門教學",
+          "en": "Quartal Voicings Jazz Piano Tutorial",
+          "kind": "theory",
+          "target": "四度音程堆疊、和弦型態辨識",
+          "title": "Quartal Voicings Jazz Piano Tutorial",
+          "channel": "PianoGroove",
+          "url": "https://www.youtube.com/watch?v=oioFlrb3Bu8"
+        },
+        {
+          "name": "So What voicing 拆解",
+          "en": "'So What' Jazz Chord Voicing",
+          "kind": "walkthrough",
+          "target": "So What voicing、E-A-D-G-C 排列",
+          "title": "'So What' Jazz Chord Voicing Piano | PianoGroove.com",
+          "channel": "PianoGroove",
+          "url": "https://www.youtube.com/watch?v=qhLyI4xGWnA"
+        },
+        {
+          "name": "McCoy Tyner 式四度聲位",
+          "en": "How to Play McCoy Tyner 4th Voicings",
+          "kind": "walkthrough",
+          "target": "McCoy Tyner 手法、四度平移",
+          "title": "How to play McCoy Tyner 4th Voicings",
+          "channel": "Jazz Piano School",
+          "url": "https://www.youtube.com/watch?v=SUsayXMBOhM"
+        },
+        {
+          "name": "四度和聲的 modal 語境",
+          "en": "The Secrets of Quartal Harmony",
+          "kind": "theory",
+          "target": "modal 語境、四度和聲功能",
+          "title": "The Secrets of Quartal Harmony",
+          "channel": "Aimee Nolte Music",
+          "url": "https://www.youtube.com/watch?v=ZZe9O8HZsmg"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "堵和弦(Block Chords)",
+      "type": "skill",
+      "assessment": "任選一首熟悉的爵士標準曲主題八小節,用 four-way close 疊出旋律音在最上方的封閉排列,雙手同向以 locked hands 方式彈完整段,速度落在 80 到 100 BPM 之間不中斷、旋律音不被內聲部蓋過才算過關。常見錯誤是內聲部音域跑到旋律音之上造成混濁,或 drop 2 的低音沒有真的降低八度——出現任一種狀況,先把該小節單獨挑出來只用右手彈四音和弦確認排列順序,再加回左手八度低音重新合奏。",
+      "lesson": {
+        "title": "What Are Block Chords?",
+        "channel": "Open Studio",
+        "url": "https://www.youtube.com/watch?v=EQJj3hgzTkQ",
+        "lang": "en",
+        "why": "用最短篇幅講清楚 block chords 是什麼、跟一般彈旋律加和弦有何不同,作為 four-way close 與 drop 2 兩種進階排列法之前的入門定義,適合放在單元最前面。"
+      },
+      "drills": [
+        {
+          "name": "Four-way close 與 drop 2 原理",
+          "en": "Four Way Close, Locked Hands & Drop 2",
+          "kind": "theory",
+          "target": "four-way close 排列、drop 2 移調規則",
+          "title": "Jazz Piano Chord Voicings - Four Way Close, Locked Hands & Drop 2",
+          "channel": "Walk That Bass",
+          "url": "https://www.youtube.com/watch?v=hNYJFaQZRnI"
+        },
+        {
+          "name": "用 drop 2 與 4-way close 配旋律",
+          "en": "Drop 2 Voicings & 4-Way Close",
+          "kind": "walkthrough",
+          "target": "旋律配和聲、drop 2 應用",
+          "title": "Drop 2 Voicings & 4-Way Close | How To Harmonise Melodies",
+          "channel": "PianoGroove",
+          "url": "https://www.youtube.com/watch?v=tERXfDP814w"
+        },
+        {
+          "name": "Red Garland 式 block chords 聽辨與模仿",
+          "en": "How To Sound Like Red Garland",
+          "kind": "walkthrough",
+          "target": "Red Garland 風格、block chords 聲響特徵",
+          "title": "How To Sound Like Red Garland",
+          "channel": "Open Studio",
+          "url": "https://www.youtube.com/watch?v=GErnv1FEhdQ"
+        },
+        {
+          "name": "George Shearing 式 locked hands",
+          "en": "George Shearing Block Chords",
+          "kind": "walkthrough",
+          "target": "George Shearing 風格、locked hands 手法",
+          "title": "How Jazz Works: George Shearing Block Chords",
+          "channel": "Josh Walsh",
+          "url": "https://www.youtube.com/watch?v=AjOD-sC3sI8"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u4",
+      "name": "上部結構三和弦(Upper Structures)",
+      "type": "concept",
+      "lesson": {
+        "title": "Upper Structure Triads For Jazz Piano",
+        "channel": "PianoGroove",
+        "url": "https://www.youtube.com/watch?v=K7y1Bssd0f4",
+        "lang": "en",
+        "why": "完整講解上部三和弦怎麼疊在屬七和弦上做出 altered 音響,並示範幾種常見疊法背後的和聲邏輯,是英文教學裡對 upper structure triads 概念交代最清楚的一支。"
+      },
+      "drills": [
+        {
+          "name": "上部三和弦怎麼疊",
+          "en": "How to Play Upper Structure Triads?",
+          "kind": "theory",
+          "target": "上部三和弦選擇、屬七和弦張力音",
+          "title": "How to Play Upper Structure Triads? Jazz Piano Chord Voicings Explained",
+          "channel": "mDecks Music – Piano & Harmony Tutorials",
+          "url": "https://www.youtube.com/watch?v=J8NmmG08M-k"
+        },
+        {
+          "name": "屬七和弦上的上部結構應用",
+          "en": "Upper Structures on Dominant 7 Chords",
+          "kind": "theory",
+          "target": "altered dominant、上部結構選用時機",
+          "title": "'Upper Structures' - Use these for Dominant 7 Chords (Jazz piano)",
+          "channel": "Jazz Tutorial | Julian Bradley",
+          "url": "https://www.youtube.com/watch?v=z58Vhy1uTVY"
+        },
+        {
+          "name": "《Misty》上部三和弦實奏示範",
+          "en": "Playing \"Misty\" with Upper Structure Triads",
+          "kind": "walkthrough",
+          "target": "標準曲套用、上部三和弦實例",
+          "title": "How to play \"Misty\" using Upper Structures Triads | Jazz Piano Voicings",
+          "channel": "mDecks Music – Piano & Harmony Tutorials",
+          "url": "https://www.youtube.com/watch?v=oMCARcF3UoY"
+        },
+        {
+          "name": "複雜和弦的簡化思路",
+          "en": "The Secret to Learning More Complex Chords",
+          "kind": "theory",
+          "target": "簡化思維、複雜和弦拆解、何時該用上部結構",
+          "title": "The Secret To Learning More Complex Chords",
+          "channel": "Aimee Nolte Music",
+          "url": "https://www.youtube.com/watch?v=S21TYlzbxYc"
+        }
+      ]
+    }
+  ]
+}
