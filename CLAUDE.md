@@ -4,7 +4,9 @@
 
 **我們自己的課(皆繁中、皆已上線)**:
 - `courses/landnav/` 「地圖學與軍用陸地導航」→ https://landnav.pages.dev (11 章 45 單元)
-- `courses/jazztrumpet/` 「爵士小號之路」→ https://jazz-trumpet.pages.dev (11 章 43 單元,精神座標 Miles/Clifford Brown/Hargrove/Botti)
+- `courses/jazztrumpet/` 「爵士小號之路」→ https://jazz-trumpet.pages.dev (11 章 43 單元,Miles/Clifford/Hargrove/Botti)
+- `courses/tenorsax/` 「爵士次中音薩克斯風之路」→ https://jazz-tenor-sax.pages.dev (11 章 43 單元,Coltrane/Rollins/Getz/Brecker)
+- `courses/jazzpiano/` 「爵士鋼琴之路」→ https://jazzpiano-course.pages.dev (11 章 42 單元,Evans/Peterson/Herbie/Monk;`jazz-piano` 網域被占改用 `jazzpiano-course`)
 
 策展自第三方 YouTube 公開影片,不擁有任何影片。
 
@@ -46,6 +48,8 @@
 
 - **landnav**(2026-08-05):45 單元/176 延伸,verify 連結 207/207、引用 52/52;5 格留白;實證 16 條僅 1 strong(磁偏角漂移)
 - **jazztrumpet**(2026-08-08):43 單元/160 延伸,verify 連結 200/200、引用 45/45;1 格留白(唇滑音中文查無);實證 16 條僅 1 strong(樂手聽損與耳塞),Botti 單元定調演出賞析(全網無技法拆解);地基篇中文主軸(台灣小號頻道),爵士篇英文主軸
-- 兩門課的 Cloudflare Pages 專案名:`landnav` / `jazz-trumpet`(production branch `main`,wrangler 手動部署)
+- 四門課的 Cloudflare Pages 專案名:`landnav` / `jazz-trumpet` / `jazz-tenor-sax` / `jazzpiano-course`(production branch `main`,wrangler 手動部署;**第一次部署前要先 `wrangler pages project create`**)
+- **tenorsax**(2026-08-08):43 單元/160 延伸,verify 203/203+43/43;0 留白;「口腔決定音色」contested 是招牌發現
+- **jazzpiano**(2026-08-08):42 單元/156 延伸,verify 196/196+47/47;觸鍵音色 contested(2014 JASA vs 2025 PNAS);手部健康+聽力兩條 strong
 - **GitHub**:`kansasray/Azimuth`(public,Discussions 已開,giscus 設定已填但 App 待安裝)。`upstream` 指向 `kansasray/gym-course`——**那是我們自己 fork 的框架副本,不再直接依賴 htlin222 的 repo**
 - 部署坑:`make deploy` 前必須先手動 `npx wrangler@4 pages project create <名字> --production-branch main`,Makefile 不會代建專案
