@@ -1,0 +1,430 @@
+{
+  "$schema": "../../src/build/course.schema.json",
+  "frameworkVersion": "2.0.0",
+  "site": {
+    "project": "xingcao-course",
+    "name": "行草書法之路",
+    "url": "https://xingcao-course.pages.dev",
+    "locale": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "brandIcon": "brush",
+    "title": "行草書法之路 — 二王、米芾、黃庭堅與孫過庭",
+    "description": "從文房執筆、筆法臨帖,一路深入王羲之、王獻之、孫過庭《書譜》、米芾與黃庭堅。一門策展自 YouTube 公開影片的繁體中文行草書法課程。每個連結經 oEmbed 實際驗證,每條實證主張掛可覆核的 PubMed 文獻。",
+    "keywords": [
+      "書法",
+      "行書",
+      "草書",
+      "行草",
+      "臨帖",
+      "筆法",
+      "王羲之",
+      "王獻之",
+      "蘭亭序",
+      "書譜",
+      "孫過庭",
+      "米芾",
+      "蜀素帖",
+      "黃庭堅",
+      "松風閣"
+    ],
+    "educationalLevel": "beginner to advanced",
+    "audience": "從零開始的書法學習者、想從楷書進入行草的人、要深入二王米黃與書譜的臨帖者",
+    "about": [
+      "書法",
+      "行草",
+      "帖學",
+      "中國藝術史"
+    ],
+    "learningResourceType": [
+      "策展影片課程",
+      "臨帖自我檢核"
+    ]
+  },
+  "hero": {
+    "eyebrow": "策展課程 · 連結全數驗證",
+    "heading": "從執筆的第一天,到二王的行草。",
+    "lede": "**{lessonUnits} 個單元、{videos} 支影片**,從文房、筆法、臨帖方法,一路帶進蘭亭序、書譜、蜀素帖與松風閣。內容全數策展自 YouTube 第三方公開影片,本站只做選片、驗證與連結,不擁有任何影片。所有連結經 YouTube oEmbed API 實際打過,{evidence} 條實證主張各自掛著可覆核的 PubMed 文獻。"
+  },
+  "og": {
+    "title": "行草書法之路",
+    "lede": "{lessonUnits} 個單元 · {videos} 支已驗證影片\n二王、米芾、黃庭堅與孫過庭"
+  },
+  "ui": {
+    "stats": [
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "單元"
+      },
+      {
+        "icon": "clapperboard",
+        "field": "video_unique",
+        "label": "影片"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "總長度"
+      },
+      {
+        "icon": "microscope",
+        "field": "evidence_total",
+        "label": "實證查核"
+      }
+    ],
+    "unitTypes": {
+      "skill": "技法",
+      "concept": "觀念",
+      "master": "法帖研究"
+    },
+    "problemType": "skill",
+    "evidenceRows": [
+      {
+        "field": "summary",
+        "label": "查了文獻之後"
+      }
+    ],
+    "unitNoun": "個單元",
+    "lessonNoun": "堂主課",
+    "drillNoun": "支延伸影片",
+    "drillNounShort": "支延伸",
+    "kindFilterLabel": "影片類型篩選",
+    "missingTitle": "尚未找到合格影片",
+    "missingHint": "這一格是空的,不是漏做。查過的關鍵字與不合格的原因寫在下面。寧可留白,也不放一支濫竽充數的影片。",
+    "lessonLangLabel": "語言",
+    "watchLabel": "看這支",
+    "evidenceSource": "PubMed / Crossref",
+    "evidenceSourceLink": "查看原始文獻",
+    "filterAllLabel": "全部",
+    "assessmentLabel": "自己檢查有沒有學會",
+    "unitEvidenceLabel": "實證查核",
+    "categoryNoun": "類別",
+    "searchPlaceholder": "搜尋單元、法帖或技法",
+    "playlistSearch": "搜尋影片",
+    "progressLabel": "學習進度",
+    "facetLabel": "分面篩選",
+    "lessonLabel": "主課",
+    "doneLabel": "已完成",
+    "prevLabel": "上一個",
+    "nextLabel": "下一個",
+    "moreLabel": "還有",
+    "openExternal": "在 YouTube 開啟",
+    "emptyTitle": "沒有符合的單元",
+    "emptyHint": "換個關鍵字,或把篩選清掉。",
+    "tabs": {
+      "landing": "首頁",
+      "course": "課程",
+      "stance": "這門課的立場",
+      "player": "上課"
+    }
+  },
+  "languages": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "kinds": [
+    {
+      "id": "theory",
+      "label": "講解",
+      "tone": "neutral"
+    },
+    {
+      "id": "walkthrough",
+      "label": "示範",
+      "tone": "accent"
+    },
+    {
+      "id": "practice",
+      "label": "跟寫",
+      "tone": "success"
+    },
+    {
+      "id": "pitfall",
+      "label": "常見錯誤",
+      "tone": "danger"
+    },
+    {
+      "id": "appreciate",
+      "label": "賞析",
+      "tone": "done"
+    }
+  ],
+  "grades": [
+    {
+      "id": "strong",
+      "label": "證據充分",
+      "tone": "success"
+    },
+    {
+      "id": "moderate",
+      "label": "證據中等",
+      "tone": "accent"
+    },
+    {
+      "id": "limited",
+      "label": "證據有限",
+      "tone": "attention"
+    },
+    {
+      "id": "contested",
+      "label": "有爭議",
+      "tone": "danger"
+    },
+    {
+      "id": "doctrine-only",
+      "label": "僅傳統共識",
+      "tone": "neutral"
+    }
+  ],
+  "evidence": {
+    "designTiers": {
+      "controlled experimental study": 2,
+      "exploratory eeg study": 2,
+      "pilot experimental study": 2,
+      "case-control study": 3,
+      "fmri experimental study": 2,
+      "meta-analysis": 1,
+      "systematic review": 1,
+      "experimental study": 2,
+      "eeg experimental study": 2,
+      "eeg and behavioral experimental study": 2,
+      "eye-tracking experimental study": 2,
+      "theoretical framework / narrative review": 4,
+      "cross-sectional fmri study": 3,
+      "expert-novice comparative study": 2,
+      "cross-sectional neuroimaging study": 3,
+      "replication / reanalysis study": 2,
+      "theoretical commentary": 4,
+      "voxel-based morphometry study": 2,
+      "twin study": 2,
+      "systematic review and meta-analysis": 1,
+      "randomized controlled trial": 2
+    },
+    "gradeRequires": {
+      "strong": 1,
+      "moderate": 2
+    },
+    "maxAgeYears": {
+      "strong": 15
+    },
+    "requireCaveats": [
+      "contested"
+    ],
+    "minCaveatChars": 40
+  },
+  "chapters": [
+    {
+      "code": "CH1",
+      "title": "文房與執筆",
+      "icon": "package",
+      "source": "ch1",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH2",
+      "title": "筆法基礎",
+      "icon": "brush",
+      "source": "ch2",
+      "units": 4,
+      "drills": 16
+    },
+    {
+      "code": "CH3",
+      "title": "臨帖方法論",
+      "icon": "copy",
+      "source": "ch3",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH4",
+      "title": "行書基礎",
+      "icon": "pen-tool",
+      "source": "ch4",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH5",
+      "title": "草書基礎",
+      "icon": "scroll",
+      "source": "ch5",
+      "units": 3,
+      "drills": 12
+    },
+    {
+      "code": "CH6",
+      "title": "王羲之",
+      "icon": "crown",
+      "source": "ch6",
+      "units": 5,
+      "drills": 15
+    },
+    {
+      "code": "CH7",
+      "title": "王獻之",
+      "icon": "feather",
+      "source": "ch7",
+      "units": 3,
+      "drills": 9
+    },
+    {
+      "code": "CH8",
+      "title": "孫過庭《書譜》",
+      "icon": "book-open",
+      "source": "ch8",
+      "units": 4,
+      "drills": 12
+    },
+    {
+      "code": "CH9",
+      "title": "米芾",
+      "icon": "wind",
+      "source": "ch9",
+      "units": 4,
+      "drills": 12
+    },
+    {
+      "code": "CH10",
+      "title": "黃庭堅",
+      "icon": "trees",
+      "source": "ch10",
+      "units": 4,
+      "drills": 12
+    },
+    {
+      "code": "CH11",
+      "title": "結字、章法與創作",
+      "icon": "stamp",
+      "source": "ch11",
+      "units": 4,
+      "drills": 16
+    }
+  ],
+  "evidenceAlias": {
+    "ch10-u1": "concept-deliberate-practice",
+    "ch9-u1": "concept-mental-practice",
+    "ch7-u1": "concept-talent-trainability",
+    "ch5-u1": "concept-calligraphy-wellbeing"
+  },
+  "nav": [
+    {
+      "title": "入門篇",
+      "chapters": [
+        "CH1",
+        "CH2",
+        "CH3"
+      ]
+    },
+    {
+      "title": "書體篇",
+      "chapters": [
+        "CH4",
+        "CH5"
+      ]
+    },
+    {
+      "title": "四家篇",
+      "chapters": [
+        "CH6",
+        "CH7",
+        "CH8",
+        "CH9",
+        "CH10"
+      ]
+    },
+    {
+      "title": "創作篇",
+      "chapters": [
+        "CH11"
+      ]
+    }
+  ],
+  "landing": {
+    "howTitle": "這門課怎麼運作",
+    "steps": [
+      {
+        "icon": "list-ordered",
+        "title": "照順序走",
+        "body": "入門篇把文房、筆法、臨帖方法建起來;書體篇進入行書與草書的系統;四家篇逐家深入,從蘭亭序到松風閣;最後在創作篇學著離開帖。已有楷書底子的人可以從書體篇切入,但筆法沒過關,臨什麼帖都是描字。"
+      },
+      {
+        "icon": "video",
+        "title": "先看主課,再看延伸",
+        "body": "延伸影片分五類:講解、示範、跟寫、常見錯誤、賞析。時間有限就先看示範跟常見錯誤;四家篇請把賞析當正課,高清墨跡看得夠多,手才知道要去哪裡。"
+      },
+      {
+        "icon": "clipboard-check",
+        "title": "做自我檢查",
+        "body": "每個技法與法帖單元底下都有一段可以自己執行、有具體判準的檢驗方法:翻紙對光看墨色、與原帖並排比對、遮住釋文認草字。做不到判準就回去重臨,不要自我感覺良好地往下走。"
+      },
+      {
+        "icon": "history",
+        "title": "寫,而且留下來",
+        "body": "看影片不會讓你變強,動筆才會。每天臨的紙標上日期別丟,一週後回看。你的眼睛進步永遠比手快,舊作是讓兩者對話的方法。"
+      }
+    ],
+    "chaptersTitle": "十一個章節",
+    "stanceTitle": "先說清楚這門課的立場",
+    "stanceLede": "書法圈流傳很多斬釘截鐵的說法,「書法可以靜心養生」是最常見的一句。查了文獻之後,有些撐得住,有些撐不住。那些發現原樣寫在下面,包含對這門課自己不利的部分。",
+    "ctaTitle": "從第一章開始",
+    "ctaLede": "{lessonUnits} 個單元、{videos} 支已驗證影片、{evidence} 條掛著文獻的實證查核。全部免費,因為內容本來就是別人放在 YouTube 上的公開影片。"
+  },
+  "stance": {
+    "title": "這門課的立場",
+    "intro": "策展一門課,最容易的作法是把所有內容都講得很有把握。這門課不那樣做。\n\n書法的知識有兩種。一種是一千七百年的帖學傳統:筆法、臨帖、書論,從孫過庭到歷代題跋,它是這門課的主體,以傳統本身的標準傳授,不假裝有實驗室背書。另一種是可以被經驗檢驗的主張:臨摹與觀察學習有沒有效、專家和新手看帖的眼睛差在哪、書法到底能不能靜心養生。這 16 條,我們逐條查了文獻。\n\n查核結果比想像中更不客氣:**16 條裡沒有任何一條拿到「證據充分」,4 條「有爭議」。** 最值得說的是「書法有益身心」這條:相關文獻真實存在,唯一的統合分析(21 個試驗、約千人)也確實找到焦慮與認知面的正向效果,但作者自己承認證據不足,底層試驗樣本小、且作者群高度重疊,我們照實標「有爭議」。另外還查到一篇讓人意外的 null result:下顎與坐姿位置對精細書寫動作沒有顯著影響。坐姿當然還有別的理由(疲勞、視野、長期健康),但「姿勢不正字就不正」在動作層面沒有文獻撐腰。",
+    "keyPrefix": "concept-",
+    "verdicts": {
+      "concept-deliberate-practice": "「一萬小時刻意練習決定一切」在統合分析裡撐不住:練習量只解釋技藝成就變異的一部分,兩派統合分析結論相反。黃庭堅的長槍大戟不是光靠時數堆出來的。",
+      "concept-mental-practice": "不動筆的心智練習確實有效,尤其與實際練習交替時。「意在筆先」有現代動作科學的間接支持,讀帖的時間不是浪費。",
+      "concept-talent-trainability": "「人人都能練成」與「天分決定論」都撐不住。王獻之是天賦還是家學,文獻給不了答案:知覺可塑性是真的,遺傳率也是真的。",
+      "concept-calligraphy-wellbeing": "「書法靜心養生」的文獻真實存在但強度有限:統合分析找到正向效果,同時自承證據不足、試驗小且作者群重疊。當它是可能的好處,別當它是療法。"
+    },
+    "outroTitle": "所以該怎麼用這門課",
+    "outro": "把帖學傳統當**傳統**尊重地學:筆法與臨帖方法是一千七百年篩選過的工藝知識,即使沒有 RCT,也遠比自己瞎摸強。但把可檢驗的主張當**主張**誠實地看。\n\n兩個提醒。第一,讀帖有科學撐腰:動作觀察對技能學習的效果是這份查核裡最穩的一塊,「察之者尚精」孫過庭一千三百年前就寫了。第二,書法可以是你的靜心,那是你的真實體驗,不需要文獻批准;但要對別人宣稱它治什麼,文獻目前只到「有爭議」。"
+  },
+  "footer": {
+    "credits": "課程結構、選片理由與自我檢查為本站原創;**所有影片均為 YouTube 第三方頻道的公開上傳內容,本站僅做策展、驗證與連結,不擁有、不轉載、不代表任何頻道的立場**。",
+    "disclaimer": "本課程僅供教育與自主學習參考。書寫涉及長時間姿勢與用眼,疲勞持續請休息;身心健康相關內容不能替代醫療建議。"
+  },
+  "llms": {
+    "summary": "[[course]] — 一門策展自 YouTube 公開影片的繁體中文行草書法課程,深入二王、米芾、黃庭堅與孫過庭,共 [[durationHours]] 小時。每個連結經 YouTube oEmbed API 驗證,每條實證主張掛可覆核的 PubMed 文獻。網址:[[url]]",
+    "stanceTitle": "這門課的立場",
+    "stanceIntro": "帖學傳統以傳統本身的標準傳授;可經驗檢驗的主張逐條查文獻並分級,分級刻意不美化。",
+    "stanceItem": "- [[name]](分級:[[grade]]):[[summary]]",
+    "stanceConclusion": "16 條實證主張裡沒有任何一條達到「證據充分」,4 條「有爭議」(含「書法靜心養生」)。",
+    "chaptersTitle": "章節",
+    "chapterItem": "- [[code]] [[title]]([[unitCount]] 個單元)",
+    "disclaimerTitle": "版權與免責",
+    "disclaimer": "所有影片為第三方 YouTube 頻道的公開內容,本站僅做策展與連結,不擁有任何影片。內容僅供教育參考,涉及身體與聽力健康的部分不能替代醫療建議。",
+    "footer": "由 curate-course 框架建置。"
+  },
+  "audit": {
+    "duration": {
+      "lesson": {
+        "min": "1:00",
+        "max": "45:00"
+      },
+      "drill": {
+        "min": "0:30",
+        "max": "25:00"
+      }
+    },
+    "driftSeconds": 30,
+    "minViews": 300,
+    "metaCoverage": 1,
+    "drillsPerUnit": {
+      "min": 3,
+      "max": 6
+    },
+    "maxSharedVideos": 20,
+    "requireAssessment": [
+      "skill",
+      "master"
+    ],
+    "minAssessmentChars": 80,
+    "minCitations": 2,
+    "allowMissingUrls": 2
+  }
+}

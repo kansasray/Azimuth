@@ -1,0 +1,162 @@
+{
+  "chapter": "CH10",
+  "title": "黃庭堅",
+  "units": [
+    {
+      "id": "ch10-u1",
+      "name": "黃庭堅其人與蕩槳筆意",
+      "type": "master",
+      "assessment": "從松風閣詩帖中選出五個帶長橫或長撇的字（如「風」「長」）對臨，每個字收筆時刻意讓筆桿隨手腕擺動、由慢而快帶出，模擬划槳的連續發力而非分段頓筆。寫完五字並排比對原帖：找出筆畫中段忽然變細或斷力的字，量出你寫的長筆畫佔整字寬度的比例，若五字中有三字以上不到七成，代表手腕仍在用頓挫代替蕩槳，重寫五遍到連貫的字達四成以上再過關。",
+      "lesson": {
+        "title": "一口气看完黄庭坚，桃李春风一杯酒，江湖夜雨十年灯",
+        "channel": "知识放映室",
+        "url": "https://www.youtube.com/watch?v=z_LxFdwc73A",
+        "lang": "zh",
+        "why": "從周越學書、蘇門四學士的交遊到晚年書風,一口氣講完黃庭堅生平脈絡,適合當這個人物單元的整體導讀。"
+      },
+      "drills": [
+        {
+          "name": "長槍大戟綽號的由來",
+          "kind": "theory",
+          "target": "書風綽號、長槍大戟",
+          "title": "28字體像「掛在樹上的蛇」？大蜘蛛寫法超霸氣！揭秘宋朝最酷書法家黃庭堅！",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=fNw3kdR3cq8"
+        },
+        {
+          "name": "蕩槳筆法的技法原理",
+          "kind": "theory",
+          "target": "蕩槳筆法、多關節協作",
+          "title": "【书法研究】荡桨笔法与多关节协作",
+          "channel": "鱼堂一溯",
+          "url": "https://www.youtube.com/watch?v=VuSnupnE4EY"
+        },
+        {
+          "name": "黃庭堅書法特色官方導覽",
+          "kind": "theory",
+          "target": "筆法特色、故宮導覽",
+          "title": "「107年教展輔助導覽影片」書法－4-3黃庭堅書法的特色之一",
+          "channel": "National Palace Museum國立故宮博物院",
+          "url": "https://www.youtube.com/watch?v=jPyJG248FVM"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u2",
+      "name": "松風閣詩帖:長槍大戟的行書代表作",
+      "type": "master",
+      "assessment": "對臨松風閣詩帖「閣依山築閣見平」一行，寫完與原帖並排比對：先看每個字的中宮是否收緊，量出偏旁與主筆之間的留白是否明顯小於長筆畫本身的長度；再挑出帶長撇長捺的字（如「閣」「見」），確認長筆畫是否從字心向外輻射伸展、末端力道不衰。連續對臨三行，若輻射長筆畫的末端持續變虛，回去把起筆速度放慢一半再寫，直到三行裡挑不出兩個以上力道衰弱的字才算過關。",
+      "lesson": {
+        "title": "松風閣00黃庭堅筆法 蠎蛇與木片",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=lE6L7qrUg2s",
+        "lang": "zh",
+        "why": "陳忠建在正式逐句拆解前先講黃庭堅筆法的整體特色,蟒蛇與木片的比喻直接對應長槍大戟與輻射狀長筆畫,是進入松風閣最合適的起點。"
+      },
+      "drills": [
+        {
+          "name": "松風閣逐字示範:閣依山築閣見平",
+          "kind": "walkthrough",
+          "target": "起筆、逐字示範",
+          "title": "松風閣01閣依山築閣見平",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=tLI0rer3vLk"
+        },
+        {
+          "name": "松風閣詩帖高清賞析",
+          "kind": "appreciate",
+          "target": "故宮典藏、原帖影像",
+          "title": "【故宮文物賞析 - 松風閣詩】     北宋 黃庭堅 自書 《松風閣詩》",
+          "channel": "故宮文物賞析",
+          "url": "https://www.youtube.com/watch?v=W5hSypJpqLk"
+        },
+        {
+          "name": "蔣勳講松風閣的尚意時代背景",
+          "kind": "theory",
+          "target": "尚意書風、時代背景",
+          "title": "20130813《殷瑗小聚》北宋大觀特展--黃庭堅:松風閣 (蔣勳)",
+          "channel": "TzuchiDaAi",
+          "url": "https://www.youtube.com/watch?v=KNq7iMcYoIU"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u3",
+      "name": "寒山子龐居士詩:行書的另一面",
+      "type": "master",
+      "assessment": "對臨寒山子龐居士詩帖「我見黃河水」一行，寫完先與原帖比對筆畫粗細變化，再攤開已臨過的松風閣詩帖同一時期作品並排看：量一下這兩帖的字距與行氣鬆緊有沒有明顯落差，寒山子帖的牽絲映帶通常比松風閣更多。挑出五個字判斷是連筆映帶還是獨立起收筆，連續三次對臨都能正確分辨四個以上才算過關，分辨錯的字另外抄三遍記住牽絲的實際走向。",
+      "lesson": {
+        "title": "寒山子龐居士詩01我見黃河水凡經幾度清",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=PI64uxCaT7w",
+        "lang": "zh",
+        "why": "陳忠建寒山子龐居士詩系列開場集,從我見黃河水起句進入這件晚年行書代表作,適合作為整帖導讀的起點。"
+      },
+      "drills": [
+        {
+          "name": "寒山子龐居士詩逐字示範:水流如激箭",
+          "kind": "walkthrough",
+          "target": "逐字示範、行氣",
+          "title": "寒山子龐居士詩02水流如激箭人世若浮萍",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=w2z2FNorrQs"
+        },
+        {
+          "name": "寒山子龐居士詩帖高清賞析",
+          "kind": "appreciate",
+          "target": "點畫、氣勢",
+          "title": "北宋 黃庭堅 寒山子龐居士詩帖 - 落筆雄渾，點畫流暢，氣勢飛動",
+          "channel": "書畫大觀園",
+          "url": "https://www.youtube.com/watch?v=cqw5BmgLb4w"
+        },
+        {
+          "name": "寒山子龐居士詩的行書風格解析",
+          "kind": "theory",
+          "target": "行書特色、款式",
+          "title": "黃庭堅の書道  行書-寒山子與龐居士詩  Huang Tingjian's Running Script-Poems of Han Shanzi and Pang Jushi",
+          "channel": "輝哥傳書云山齋",
+          "url": "https://www.youtube.com/watch?v=va0WFwf4jII"
+        }
+      ]
+    },
+    {
+      "id": "ch10-u4",
+      "name": "草書:諸上座帖與廉頗藺相如列傳",
+      "type": "master",
+      "assessment": "對臨諸上座帖第一到十行任選三行，寫完與原帖並排比對兩件事:一是字與字之間的留白大小是否忽大忽小、形成明顯的空間切割而非均勻分布;二是挑出帖中五個單獨成筆的點，確認每個點是否獨立完成一次起收筆、沒有跟前後筆畫用牽絲連起來。若三行裡有兩行以上留白過於平均、或五個點裡有三個以上被連筆帶過，回去放慢運筆、刻意在每個點前後停頓再寫一次。",
+      "lesson": {
+        "title": "黄庭坚诸上座 第1-10行",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=uu8luzVyTsM",
+        "lang": "zh",
+        "why": "陳忠建諸上座帖系列開場集,從第一到十行進入這件黃庭堅晚年狂草代表作,是整帖導讀的自然起點。"
+      },
+      "drills": [
+        {
+          "name": "廉頗藺相如列傳節臨示範",
+          "kind": "walkthrough",
+          "target": "節臨、狂草筆勢",
+          "title": "雷紹華節臨黃庭堅廉頗藺相如列傳",
+          "channel": "雷紹華",
+          "url": "https://www.youtube.com/watch?v=q_xEX8UYU5E"
+        },
+        {
+          "name": "諸上座帖高清賞析",
+          "kind": "appreciate",
+          "target": "字法、蒼渾筆意",
+          "title": "北宋 黃庭堅 諸上座帖 - 筆意縱橫，蒼渾雄偉，字法奇宕",
+          "channel": "書畫大觀園",
+          "url": "https://www.youtube.com/watch?v=-6To73v3ZkA"
+        },
+        {
+          "name": "黃庭堅臨懷素草書千字文:取法淵源",
+          "kind": "appreciate",
+          "target": "懷素、取法淵源",
+          "title": "宋黃庭堅臨懷素草書千字文(移動瀏覽)",
+          "channel": "Wcc",
+          "url": "https://www.youtube.com/watch?v=SbNlzNm3xMQ"
+        }
+      ]
+    }
+  ]
+}

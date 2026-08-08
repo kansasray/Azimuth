@@ -1,0 +1,476 @@
+{
+  "conditions": [
+    {
+      "unit": "ch1-u3",
+      "name": "執筆姿勢與坐姿對書寫動作的影響",
+      "evidence_grade": "contested",
+      "summary": "研究結果指向兩個方向。不同執筆方式確實改變肌肉徵召模式:比較四種常見執筆法發現外側握法會讓上斜方肌活動量高出動態四指法13.8%至16.8%,但這個差異並未反映在書寫清晰度上,兩者沒有顯著關聯。另一項測試下顎位置(閉合、張開、放鬆)是否影響手部精細動作的實驗,在36名受試者身上完全沒有測到統計顯著差異,顯示「姿勢正確才能寫好字」這句常見教學語在最直接的對照實驗裡站不住腳。筆桿的形狀與粗細則確實會改變書寫的動力學參數。三篇研究全部針對硬筆/鉛筆書寫,沒有一篇是毛筆或中文書法,課程把姿勢當作「影響手部力學表現」的合理建議可以成立,但當作「決定字寫得好不好」的必要條件,目前證據並不支持。",
+      "citations": [
+        {
+          "pmid": "34261589",
+          "title": "The relationship between muscle activation and handwriting quality with non-native grip styles.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34261589/",
+          "journal": "Journal of hand therapy : official journal of the American Society of Hand Therapists",
+          "year": 2022,
+          "design": "controlled experimental study"
+        },
+        {
+          "pmid": "33085222",
+          "title": "Can jaw position affect the fine motor activity of the hand during writing?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33085222/",
+          "journal": "Brain and behavior",
+          "year": 2020,
+          "design": "controlled experimental study"
+        },
+        {
+          "pmid": "40618453",
+          "title": "Are the shapes and sizes of pen barrel the factors to influence handwriting kinetics?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40618453/",
+          "journal": "Applied ergonomics",
+          "year": 2025,
+          "design": "controlled experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch2-u1",
+      "name": "中鋒側鋒運筆的動作控制證據(證據間接,非毛筆技法直接研究)",
+      "evidence_grade": "limited",
+      "summary": "直接測量「中鋒對側鋒」筆法本身的研究並不存在,可查到的是毛筆書寫作為一種動作行為的較上游證據。高尚仁團隊的腦電研究發現,毛筆書寫漢字時會誘發皮質θ波的興奮,並據此提出書寫涉及感覺、生理、認知回饋整合調節的「控制論」框架,但樣本規模小,屬早期探索性研究。另一項以感測器紀錄書寫壓力並即時回饋的先導實驗(僅10人,且用天城文而非中文)發現,多重回饋同時出現會顯著提高使用者的心智負荷。兩篇研究合起來只能支持「毛筆運筆是可被感測、可被回饋調節的動作技能」這個較弱的主張,無法回答中鋒與側鋒運筆孰優孰劣。",
+      "citations": [
+        {
+          "pmid": "23533532",
+          "title": "Cognitive-neural effects of brush writing of chinese characters: cortical excitation of theta rhythm.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23533532/",
+          "journal": "Evidence-based complementary and alternative medicine : eCAM",
+          "year": 2013,
+          "design": "exploratory EEG study"
+        },
+        {
+          "pmid": "31340605",
+          "title": "Can You Ink While You Blink? Assessing Mental Effort in a Sensor-Based Calligraphy Trainer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31340605/",
+          "journal": "Sensors (Basel, Switzerland)",
+          "year": 2019,
+          "design": "pilot experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch2-u2",
+      "name": "提按(筆壓調節)的動作控制證據",
+      "evidence_grade": "limited",
+      "summary": "一項將60名新手、中階、專家書寫者分三組,同步紀錄筆尖壓力與手臂肌電的研究發現一個違反直覺的結果:專家「主觀感受到的施力」與「實際測到的筆尖壓力」落差達60%,是新手落差(15%)的4.5倍;而預測作品美感評分的是這個主觀落差本身,不是客觀壓力數值,顯示熟練的提按控制會讓「用力感」與實際物理力脫鉤。另一項測量兒童書寫壓力與抓握力的方法學研究確認了這類壓力感測是可靠的量測方式,但對象是發展性協調障礙兒童,與成人書法家族群差異很大。目前沒有研究直接對比「提」與「按」兩個動作本身的訓練效果。",
+      "citations": [
+        {
+          "pmid": "41919111",
+          "title": "When expertise recalibrates perception: skill-dependent dissociation between perceived effort and objective force in calligraphy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41919111/",
+          "journal": "Frontiers in psychology",
+          "year": 2026,
+          "design": "controlled experimental study"
+        },
+        {
+          "pmid": "38861795",
+          "title": "Evaluating handwriting in children with developmental coordination disorder (DCD): Temporal, spatial, pressure and grip-force measures.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38861795/",
+          "journal": "Research in developmental disabilities",
+          "year": 2024,
+          "design": "case-control study"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u1",
+      "name": "讀帖:觀察示範對書法動作學習的效果",
+      "evidence_grade": "moderate",
+      "summary": "一項fMRI研究讓受試者在「看得到/看不到書寫者動筆過程」兩種條件下評價書法美感,發現觀看創作動作會活化前扣帶迴、雙側腦島,以及與內在動作模仿有關的頂上小葉,同時也讓美感評分顯著提高,無論作品出自專家或生手皆然,這是最貼近讀帖情境的直接證據。另外兩篇跨動作學習領域的統合分析各自獨立確認,觀察示範能測得到地改善後續動作表現,效果會隨觀察者本身技術程度與發展階段而變化。三者合起來讓「讀帖是有別於實作練習的獨立學習機制」這個主張有中等強度的實證支持,但直接以書法為對象的仍只有一篇。",
+      "citations": [
+        {
+          "pmid": "34152097",
+          "title": "The effect of action observation on aesthetic preference of Chinese calligraphy: An fMRI study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34152097/",
+          "journal": "Brain and behavior",
+          "year": 2021,
+          "design": "fMRI experimental study"
+        },
+        {
+          "pmid": "16709559",
+          "title": "Observational modeling effects for movement dynamics and movement outcome measures across differing task constraints: a meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16709559/",
+          "journal": "Journal of motor behavior",
+          "year": 2006,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "17365541",
+          "title": "Developmental effects influencing observational modelling: a meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17365541/",
+          "journal": "Journal of sports sciences",
+          "year": 2007,
+          "design": "meta-analysis"
+        }
+      ]
+    },
+    {
+      "unit": "ch3-u2",
+      "name": "對臨背臨:觀察加實作、分散練習與睡眠鞏固",
+      "evidence_grade": "moderate",
+      "summary": "2024年一篇系統性回顧彙整伸手取物類動作的觀察式練習文獻,發現「邊看示範邊動手練習」通常優於單獨觀察或單獨動手,但也指出各研究設計差異很大,證據品質不一。對臨(看著帖臨寫)再進到背臨(離帖憑記憶重現)這個學習順序,還能借用兩個在其他動作學習領域已被大量複製的發現:同樣練習量分散在多個時段記得比集中練完更牢,以及動作練習後睡一覺,鞏固效果優於單純醒著等待相同的時間。三篇研究沒有一篇用書法或握筆書寫當實驗任務,把它們套到對臨背臨的練習安排上是課程自己做的延伸推論。",
+      "citations": [
+        {
+          "pmid": "39362866",
+          "title": "A systematic review of observational practice for adaptation of reaching movements.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39362866/",
+          "journal": "NPJ science of learning",
+          "year": 2024,
+          "design": "systematic review"
+        },
+        {
+          "pmid": "16719566",
+          "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+          "journal": "Psychological bulletin",
+          "year": 2006,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "12123620",
+          "title": "Practice with sleep makes perfect: sleep-dependent motor skill learning.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/",
+          "journal": "Neuron",
+          "year": 2002,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch4-u1",
+      "name": "楷書基礎能否遷移到行書(證據為一般書寫動作遷移,非楷行直接研究)",
+      "evidence_grade": "limited",
+      "summary": "沒有任何研究直接檢驗「練好楷書是否為行書打下可遷移的動作基礎」這個書法教學裡的常見假設。可查到最接近的證據是:同時精熟兩套不同書寫系統的成人,描繪環圈作業時的腦波型態比只熟悉單一書寫系統的人更有效率,顯示掌握不同書寫動作模式之間存在可遷移的共通成分;另一項研究發現7到10歲兒童與成人學習新的書寫動作序列時學習速度相近,但兒童把學會的動作序列遷移到新情境的能力較弱,複雜動作組塊尤其如此;還有一項多日視覺動作力量訓練研究發現,神經適應型態會隨任務難度不同而不同。三者共同支持「書寫動作技能有一定可遷移性、且難度會影響學習歷程」的大方向,但都沒有回答楷書是否真的是行書的必要基礎這個具體問題。",
+      "citations": [
+        {
+          "pmid": "42266202",
+          "title": "Neurophysiological mechanisms of optimized graphomotor performance in biscriptuals.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42266202/",
+          "journal": "Imaging neuroscience (Cambridge, Mass.)",
+          "year": 2026,
+          "design": "EEG experimental study"
+        },
+        {
+          "pmid": "42413169",
+          "title": "Children aged 7 to 10 and adults learn graphomotor sequences in a similar way but show differences during transfer: A product and process analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42413169/",
+          "journal": "Human movement science",
+          "year": 2026,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "39537110",
+          "title": "The impact of task difficulty on neural modulation throughout a visuomotor multi-day practice training.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39537110/",
+          "journal": "Brain research bulletin",
+          "year": 2024,
+          "design": "EEG experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch5-u2",
+      "name": "識草:連筆與曲線筆畫對字形辨識的影響",
+      "evidence_grade": "limited",
+      "summary": "一項針對中文讀寫障礙與一般兒童的腦電暨行為研究發現,書寫直線筆畫(相對曲線筆畫)比較能促進中文視覺詞彙辨識,暗示筆畫的曲折連貫程度會實際影響字形被視覺系統處理的難易度,這與草書連筆、字形高度簡省因而較難辨識的直覺相符。另一項針對波斯文(一種字母間以連筆相接的草寫文字)的眼動研究發現,拿掉清楚的詞界線索會拖慢閱讀速度,即使理解最終不受影響。兩者都指向「連筆、曲線化的字形對視覺辨識負擔較高」,但都不是以中文草書為對象,把結論套到識草訓練上是推論延伸而非直接證據。",
+      "citations": [
+        {
+          "pmid": "34777137",
+          "title": "Curved vs. Straight-Line Handwriting Effects on Word Recognition in Typical and Dyslexic Readers Across Chinese and English.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34777137/",
+          "journal": "Frontiers in psychology",
+          "year": 2021,
+          "design": "EEG and behavioral experimental study"
+        },
+        {
+          "pmid": "34122748",
+          "title": "Manipulating Interword and Interletter Spacing in Cursive Script: An Eye Movements Investigation of Reading Persian.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34122748/",
+          "journal": "Journal of eye movement research",
+          "year": 2021,
+          "design": "eye-tracking experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch6-u1",
+      "name": "蘭亭序的審美心理與專家視覺掃描",
+      "evidence_grade": "moderate",
+      "summary": "一項眼動研究直接以蘭亭集序作為觀看材料,發現場獨立型(一種認知風格特質)的觀者注視時間更長、注視次數更多、掃視角度也不同於場依賴型觀者,證明鑑賞同一件作品時,視覺掃描模式本身就存在可測量的個體差異,不只是主觀喜好不同。另一項研究發現,呈現動筆過程的動態線索(書寫影片或筆跡軌跡)得到的美感評分明顯高於只看靜態完成字形,靜態特徵對美感評分的預測力反而很弱。第三項研究發現觀者對「這幾筆是怎麼寫出來的」重建想像程度,同時與較高的欣賞評分及心跳變化相關。三個各自獨立的研究群體得到一致結論:鑑賞蘭亭序這類經典法帖依賴的是重建書寫過程本身,而非只看最終字形,不過每篇研究樣本仍偏小。",
+      "citations": [
+        {
+          "pmid": "33679143",
+          "title": "Cognitive Style Differences in Attention Distribution Regarding Calligraphic Perception.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33679143/",
+          "journal": "Psychology research and behavior management",
+          "year": 2021,
+          "design": "eye-tracking experimental study"
+        },
+        {
+          "pmid": "40282149",
+          "title": "Aesthetic Judgment in Calligraphic Tracing: The Dominant Role of Dynamic Features.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40282149/",
+          "journal": "Behavioral sciences (Basel, Switzerland)",
+          "year": 2025,
+          "design": "controlled experimental study"
+        },
+        {
+          "pmid": "34276322",
+          "title": "Imagining How Lines Were Drawn: The Appreciation of Calligraphy and the Facilitative Factor Based on the Viewer's Rating and Heart Rate.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34276322/",
+          "journal": "Frontiers in human neuroscience",
+          "year": 2021,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch8-u1",
+      "name": "書譜書論的現代科學重構(理論框架,非史料實證)",
+      "evidence_grade": "limited",
+      "summary": "PubMed查不到任何直接檢驗孫過庭書譜文本本身的對照研究,能找到的是兩篇2026年嘗試把傳統書論概念改寫成可檢驗神經科學框架的理論文章。一篇在既有的神經美學「審美三元模型」上,為中國藝術傳統加了三個文化特有機制,其中「具身書法共鳴」明白指出書法鑑賞涉及對筆勢動態的動作模擬,呼應書論中「筆勢」「氣韻」一類語彙。另一篇提出「三角網絡模型」,主張書法鑑賞仰賴大腦對書寫者時間動態動作的預測,預測被滿足或違反時產生愉悅感,類比音樂欣賞的預測機制。兩篇都明白表示是待驗證的理論框架,不是已證實的發現,適合用來說明書論裡的抽象語彙正被現代科學嘗試轉譯,而不能拿來宣稱書譜的具體主張已被證實。",
+      "citations": [
+        {
+          "pmid": "42027274",
+          "title": "The aesthetic triad and traditional Chinese art symbols: a theoretical framework.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42027274/",
+          "journal": "Frontiers in psychology",
+          "year": 2026,
+          "design": "theoretical framework / narrative review"
+        },
+        {
+          "pmid": "41342715",
+          "title": "Triangular Network Model for the Neural Basis of Calligraphy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41342715/",
+          "journal": "Annals of the New York Academy of Sciences",
+          "year": 2026,
+          "design": "theoretical framework / narrative review"
+        }
+      ]
+    },
+    {
+      "unit": "ch9-u4",
+      "name": "資深書家的專家腦徵象(非米芾筆法直接研究)",
+      "evidence_grade": "limited",
+      "summary": "沒有研究專門分析米芾筆法本身,可查到的是比較長期受訓書法家與生手的神經影像文獻。一項研究發現至少五年書法訓練的受試者,靜息態腦網絡效率高於對照組;另一項研究發現書寫時腦部工作得「越有效率」(背側注意網絡活化越低、視覺與感覺動作區耦合越緊)越對應到書寫者主觀感受到的心流愉悅感;第三項研究(同一實驗室)發現專家書法家無論寫楷書或草書,回報的心流體驗都顯著高於生手,且與特定的功能連結型態相關。三者共同的結論是「長期書法訓練會留下可測得的神經效率痕跡,而這種效率正是心流與愉悅感的基礎」,但完全沒有觸及米芾「刷字」這類個人風格特徵。",
+      "citations": [
+        {
+          "pmid": "41297865",
+          "title": "Expertise-related functional connectivity changes in Chinese calligraphy linked to flow experience.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41297865/",
+          "journal": "NeuroImage",
+          "year": 2025,
+          "design": "fMRI experimental study"
+        },
+        {
+          "pmid": "30682084",
+          "title": "Long-term Chinese calligraphic handwriting training has a positive effect on brain network efficiency.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30682084/",
+          "journal": "PloS one",
+          "year": 2019,
+          "design": "cross-sectional fMRI study"
+        },
+        {
+          "pmid": "36892204",
+          "title": "An efficiently working brain characterizes higher mental flow that elicits pleasure in Chinese calligraphic handwriting.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36892204/",
+          "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+          "year": 2023,
+          "design": "fMRI experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch11-u1",
+      "name": "結字:章法平衡感的視覺知覺基礎",
+      "evidence_grade": "limited",
+      "summary": "一項以日本書法作品為材料的研究發現,觀者能在極短的第一眼就判斷一件作品的結構是否「平衡」,而這個直覺判斷能預測之後更長時間深思後的美感評價,顯示結字平衡感是由快速的低層次視覺處理捕捉到的,不是靠慢慢分析出來的。另一項研究請中日參與者為同一批漢字的對稱性、複雜度、典型性與美感打分,分別用列印字型與不同書法手寫書體呈現,結果發現書體風格會顯著改變這些知覺屬性與美感評分之間的關聯,同一個字的結構「對不對」,判斷結果會隨書寫風格改變。兩篇都是在談觀者如何感知結構,不是在談如何訓練寫出好結字,能支持「結字平衡是真實、快速、可測量的知覺現象」,但沒有回答練習如何改變這種知覺判斷。",
+      "citations": [
+        {
+          "pmid": "23145242",
+          "title": "Measuring pictorial balance perception at first glance using Japanese calligraphy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23145242/",
+          "journal": "i-Perception",
+          "year": 2011,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "39888962",
+          "title": "Aesthetic evaluation and the perceived properties of Chinese characters.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39888962/",
+          "journal": "PloS one",
+          "year": 2025,
+          "design": "experimental study"
+        }
+      ]
+    },
+    {
+      "unit": "ch11-u4",
+      "name": "從臨到創:技法純熟與創造力的關係(證據間接)",
+      "evidence_grade": "limited",
+      "summary": "沒有研究直接檢驗「從臨摹過渡到獨立創作是否讓人更有創造力」這個書法教學常見的進程假設。較接近的證據來自一般視覺藝術領域:一項專家與生手的比較研究發現,真正能預測發散性思考與作品創意評分的是語意記憶與聯想能力,而不是單純的繪畫技術水準,暗示從臨摹練出的技法純熟本身不等於創造力。另一項神經影像研究發現視覺藝術教育經歷與創造相關腦區的差異有關,但屬於相關性設計,無法確立是教育造成了差異。兩篇研究對象都是廣義視覺藝術而非書法,也都沒有直接測試臨到創這個具體轉換過程,課程若宣稱「臨帖臨久了自然會創作」目前找不到直接支持。",
+      "citations": [
+        {
+          "pmid": "40412043",
+          "title": "Semantic memory and associative ability as predictors of divergent thinking and visual artistic creativity: An expert-novice comparison.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40412043/",
+          "journal": "Consciousness and cognition",
+          "year": 2025,
+          "design": "expert-novice comparative study"
+        },
+        {
+          "pmid": "41366220",
+          "title": "Neural mechanisms underpinning the association between visual arts education and creativity.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41366220/",
+          "journal": "NPJ science of learning",
+          "year": 2025,
+          "design": "cross-sectional neuroimaging study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-deliberate-practice",
+      "name": "刻意練習理論能否解釋書法等技藝的專家表現",
+      "evidence_grade": "contested",
+      "summary": "這是行為科學裡的標準爭議,任何講究技法苦練的技藝(書法在內)都適用。2014年一篇涵蓋音樂、遊戲、運動、教育、專業領域的大型統合分析發現,刻意練習平均只能解釋表現差異的一小部分,遠低於Ericsson原始理論暗示的比例。後續一篇重新分析Ericsson、Krampe與Tesch-Römer 1993年那篇奠定「一萬小時定律」的小提琴手原始資料,發現原始數據能支持的因果強度比後來被廣泛引用的版本更弱。刻意練習陣營則回應,批評者的統合分析把不符合嚴格定義的練習都算了進去,稀釋了真正效果量。三篇研究沒有一篇以書法為對象,「苦練多少小時能決定書藝高低」這句話能不能套用到書法,目前沒有直接證據,但練習量能解釋多少專家表現這個爭議本身,在所有被檢驗過的技藝領域都懸而未決。",
+      "citations": [
+        {
+          "pmid": "24986855",
+          "title": "Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24986855/",
+          "journal": "Psychological science",
+          "year": 2014,
+          "design": "meta-analysis"
+        },
+        {
+          "pmid": "31598236",
+          "title": "The role of deliberate practice in expert performance: revisiting Ericsson, Krampe & Tesch-Römer (1993).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31598236/",
+          "journal": "Royal Society open science",
+          "year": 2019,
+          "design": "replication / reanalysis study"
+        },
+        {
+          "pmid": "27217248",
+          "title": "How Important Is Deliberate Practice? Reply to Ericsson (2016).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27217248/",
+          "journal": "Perspectives on psychological science : a journal of the Association for Psychological Science",
+          "year": 2016,
+          "design": "theoretical commentary"
+        }
+      ]
+    },
+    {
+      "unit": "concept-mental-practice",
+      "name": "心智練習(意在筆先)對書寫動作學習的效果",
+      "evidence_grade": "moderate",
+      "summary": "針對書寫動作本身的證據比其他技藝領域更直接。一項fMRI研究發現,單純想像書寫或畫圖動作,會活化與實際動筆時高度重疊的書寫控制腦區網絡(樣本18人,規模不大),為書論常說的「意在筆先」提供了具體神經基礎。一項行為研究進一步發現,想像書寫動作時,若想像的身體姿勢與實際書寫姿勢一致,想像會更容易也更準確,意味著書法的心智練習可能需要「假想自己坐著、握著筆」地想,而不是憑空想像才有效。一篇跨領域統合分析檢驗心智練習對肌力訓練的效果,發現確有真實但小於實際動作練習的效果,且與實際練習合併時效果最好——三篇合起來支持心智練習是實際練習的輔助,而非替代。",
+      "citations": [
+        {
+          "pmid": "35370576",
+          "title": "Neural Correlates of Executed Compared to Imagined Writing and Drawing Movements: A Functional Magnetic Resonance Imaging Study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35370576/",
+          "journal": "Frontiers in human neuroscience",
+          "year": 2022,
+          "design": "fMRI experimental study"
+        },
+        {
+          "pmid": "32743730",
+          "title": "Imagining handwriting movements in a usual or unusual position: effect of posture congruency on visual and kinesthetic motor imagery.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32743730/",
+          "journal": "Psychological research",
+          "year": 2021,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "26556071",
+          "title": "From Mind to Body: Is Mental Practice Effective on Strength Gains? A Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26556071/",
+          "journal": "CNS & neurological disorders drug targets",
+          "year": 2015,
+          "design": "meta-analysis"
+        }
+      ]
+    },
+    {
+      "unit": "concept-talent-trainability",
+      "name": "書法/繪畫能力是先天還是可訓練:知覺可塑性與遺傳率之爭",
+      "evidence_grade": "contested",
+      "summary": "視覺/圖繪能力的證據同時指向兩個方向。支持「可訓練」的一側:能精準觀察寫生的人,差異來自增強的低層次知覺功能而非固定的認知風格特質,其腦部結構也在對應的視覺處理區域出現可測得的差異,兩者都與「技能靠經驗累積而成」而非天生固定相符。支持「先天」的一側:一項涵蓋6471對雙生子的大型研究,直接檢驗「練習越多、基因對音樂能力的貢獻應該越小」這個刻意練習理論的核心預測,結果測到的卻是相反方向——練習量增加後,基因能解釋的能力差異比例反而上升。這項雙生子研究對象是音樂能力,不是視覺藝術或書法能力,套到「書法人人可練成」這句話上是類比推論,但這個懸而未決的張力是真實存在的,不該被課程一句「天分不重要,只要練」帶過。",
+      "citations": [
+        {
+          "pmid": "23234461",
+          "title": "Local processing enhancements associated with superior observational drawing are due to enhanced perceptual functioning, not weak central coherence.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23234461/",
+          "journal": "Quarterly journal of experimental psychology (2006)",
+          "year": 2013,
+          "design": "experimental study"
+        },
+        {
+          "pmid": "24691200",
+          "title": "Drawing on the right side of the brain: a voxel-based morphometry analysis of observational drawing.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24691200/",
+          "journal": "NeuroImage",
+          "year": 2014,
+          "design": "voxel-based morphometry study"
+        },
+        {
+          "pmid": "39330466",
+          "title": "Testing the Deliberate Practice Theory: Does Practice Reduce the Heritability of Musical Expertise?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39330466/",
+          "journal": "Journal of Intelligence",
+          "year": 2024,
+          "design": "twin study"
+        }
+      ]
+    },
+    {
+      "unit": "concept-calligraphy-wellbeing",
+      "name": "書法練習對身心健康與放鬆的實證強度",
+      "evidence_grade": "contested",
+      "summary": "這是書法特有的證據礦脈,確實存在但沒有表面看起來扎實。唯一一篇系統性回顧暨統合分析(納入21篇對照研究,合計近千名受試者)發現中國書法治療顯著降低焦慮、憂鬱與精神症狀、並改善認知功能,但作者自己在結論裡明白寫著「證據仍然不足」,呼籲需要更多隨機對照試驗。撐起這個綜合效果的個別試驗規模都不大,且作者群高度重疊:一項8週隨機對照試驗(31名輕度認知障礙長者)發現書法訓練組認知功能優於無介入對照組;一項三組隨機對照試驗(30人)發現書法練習降低心跳、提高皮膚溫度,效果與靜坐冥想相當;一項規模較大的隨機對照試驗(79名完成療程的鼻咽癌患者)發現書法練習與放鬆訓練同樣能降低生理激動指標。多個獨立小型試驗測到的生理效果方向一致,不是空穴來風,但考量樣本規模與統合分析作者自己給出的「證據不足」結論,「書法能讓人放鬆、對身心有益」目前最誠實的定位是有初步支持、尚未證實,而不是已經蓋棺論定。",
+      "citations": [
+        {
+          "pmid": "29514660",
+          "title": "Does Chinese calligraphy therapy reduce neuropsychiatric symptoms: a systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29514660/",
+          "journal": "BMC psychiatry",
+          "year": 2018,
+          "design": "systematic review and meta-analysis"
+        },
+        {
+          "pmid": "22087066",
+          "title": "Cognitive effects of calligraphy therapy for older people: a randomized controlled trial in Hong Kong.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22087066/",
+          "journal": "Clinical interventions in aging",
+          "year": 2011,
+          "design": "randomized controlled trial"
+        },
+        {
+          "pmid": "24611024",
+          "title": "Calligraphy and meditation for stress reduction: an experimental comparison.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24611024/",
+          "journal": "Psychology research and behavior management",
+          "year": 2014,
+          "design": "randomized controlled trial"
+        },
+        {
+          "pmid": "19945106",
+          "title": "The effects of Chinese calligraphy handwriting and relaxation training in Chinese Nasopharyngeal Carcinoma patients: a randomized controlled trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19945106/",
+          "journal": "International journal of nursing studies",
+          "year": 2010,
+          "design": "randomized controlled trial"
+        }
+      ]
+    }
+  ]
+}

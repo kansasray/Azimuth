@@ -1,0 +1,145 @@
+{
+  "chapter": "CH1",
+  "title": "文房與執筆",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "毛筆與紙的選購",
+      "type": "concept",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 10毛筆的選購和保養﹝修訂版﹞",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=tvwRCiczCP0",
+        "lang": "zh",
+        "why": "系統性開場課,從筆料、筆鋒到保養方法一次講清楚,觀看數 27 萬以上,是這個單元最適合的入門講解。"
+      },
+      "drills": [
+        {
+          "name": "兼毫、狼毫、羊毫的差別",
+          "kind": "theory",
+          "target": "兼毫、狼毫、羊毫",
+          "title": "毛筆選購大揭秘，兼毫、羊毫、狼毫區別是什麼，適合什麼字體？評價毛筆好壞的因素是什麼？像挑西瓜那樣挑一支好毛筆！",
+          "channel": "青山書法",
+          "url": "https://www.youtube.com/watch?v=7Jp0C3EhRTA"
+        },
+        {
+          "name": "筆鋒長短與行草的適配",
+          "kind": "theory",
+          "target": "長鋒、中鋒、短鋒",
+          "title": "毛笔行书入门，用中长锋好，还是短锋好？看完这个视频就明白了",
+          "channel": "启公书画",
+          "url": "https://www.youtube.com/watch?v=IeCYvDJTOwU"
+        },
+        {
+          "name": "生宣、熟宣、半熟宣的選擇",
+          "kind": "theory",
+          "target": "生宣、熟宣、半熟宣",
+          "title": "如何選擇宣紙？初學書法應該用什麽宣紙？怎麽樣才是好的宣紙？宣紙的種類｜不同的宣紙有什麽區別？｜了解宣紙的特性｜這展覽必看Chinese Calligraphy Tutorial",
+          "channel": "Jenny書畫",
+          "url": "https://www.youtube.com/watch?v=Us9_DoNAeZM"
+        },
+        {
+          "name": "毛邊紙與練習用紙",
+          "kind": "walkthrough",
+          "target": "毛邊紙、練習用紙",
+          "title": "5分錢的毛邊紙居然寫出大片的感覺，這楷書水平，還真不是吹的！",
+          "channel": "小泽书法",
+          "url": "https://www.youtube.com/watch?v=NPpf2S5c_Gw"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "墨、硯與文房配置",
+      "type": "concept",
+      "lesson": {
+        "title": "🖌️書法入門系列🖌️ 第一講 書法用品 Chinese Calligraphy for Beginners ep01",
+        "channel": "港生臨古",
+        "url": "https://www.youtube.com/watch?v=LcBlMbnLwuY",
+        "lang": "zh",
+        "why": "六講編號系列的開場,完整列出書法入門所需的文房用品,替這個單元的墨、硯、配件三支項目搭好架構。"
+      },
+      "drills": [
+        {
+          "name": "墨汁與磨墨的差別",
+          "kind": "theory",
+          "target": "墨汁、墨條、磨墨",
+          "title": "寫毛筆字用墨汁還是用墨條好呢？如何磨墨？有什麽地方要注意？墨條與墨汁的區別｜油煙墨松煙墨｜墨的種類 Chinese Calligraphy Tutorial",
+          "channel": "Jenny書畫",
+          "url": "https://www.youtube.com/watch?v=ysxvjKWLtDA"
+        },
+        {
+          "name": "硯的基本知識",
+          "kind": "theory",
+          "target": "硯台、材質、養護",
+          "title": "（六）书法的工具和材料（砚台）",
+          "channel": "杜中信 Du ZhongXin",
+          "url": "https://www.youtube.com/watch?v=eg_Pjz5ijzE"
+        },
+        {
+          "name": "鎮尺與紙面摩擦",
+          "kind": "theory",
+          "target": "鎮尺、紙鎮",
+          "title": "2018.01.29.陳一郎老師春節特別課 紙鎮的功能、毛筆與紙張的摩擦",
+          "channel": "Qi-Yu Zheng",
+          "url": "https://www.youtube.com/watch?v=GixoDMp6Pmw"
+        },
+        {
+          "name": "初學者的最小配置與預算",
+          "kind": "theory",
+          "target": "最小配置、預算",
+          "title": "新手如何學書法？0基礎全流程入門書法！從筆墨紙硯選購到筆法、章法的練習，保母級入門攻略！自學書法誤區避坑",
+          "channel": "青山書法",
+          "url": "https://www.youtube.com/watch?v=HNBD50vpSWo"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u3",
+      "name": "執筆與坐姿懸腕",
+      "type": "skill",
+      "assessment": "鋪紙坐正,先用枕腕寫十個『永』字,再改懸腕寫十個『永』字,兩組分開放不要混在一起。比較兩組:懸腕那組的長橫與長撇應該比枕腕那組更舒展、弧度更明顯,若懸腕寫出來的字反而比枕腕更拘謹僵硬,表示手臂沒有真正離開桌面,肘部仍在偷偷支撐,要回去把肘部整個抬離桌面再寫十個字。接著檢查五指執筆:寫字寫到一半停筆,張開虎口看掌心,若能放進一顆雞蛋大小的空間即為指實掌虛;放不進去就是掌心握得太緊,把大拇指與食指的力道放鬆一半再寫十個字,直到虎口能穩定留出那個空間。",
+      "lesson": {
+        "title": "🖌️書法入門系列🖌️ 第五講 最正宗的執筆法？！| 歷代執筆的流變 | 蘇軾米芾黃庭堅的執筆 | 握筆的原則 | 單鉤雙鉤五指執筆法 |",
+        "channel": "港生臨古",
+        "url": "https://www.youtube.com/watch?v=8Llx9pyjZYQ",
+        "lang": "zh",
+        "why": "對比蘇軾、米芾、黃庭堅三家執筆的異同,講清楚單鉤雙鉤與五指執筆的原則,直接銜接後面幾章的大師研究。"
+      },
+      "drills": [
+        {
+          "name": "五指執筆法示範",
+          "kind": "walkthrough",
+          "target": "五指執筆法",
+          "title": "揮毫奶奶｜執筆有方法",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=ffUWv3dk-tk"
+        },
+        {
+          "name": "指實掌虛與手抖問題",
+          "kind": "pitfall",
+          "target": "指實掌虛",
+          "title": "為什麼你寫字手抖？一招破解書法「執筆」的底層邏輯｜德道書法 (DeDao Calligraphy)",
+          "channel": "德道書法",
+          "url": "https://www.youtube.com/watch?v=fq4raRX5joE"
+        },
+        {
+          "name": "坐姿與紙位、枕腕懸腕、中鋒側鋒",
+          "kind": "practice",
+          "target": "坐姿、紙位、枕腕懸腕",
+          "title": "🖌️書法入門系列🖌️ 第六講 書寫姿勢與行筆 | 枕腕懸腕 | 中鋒側鋒",
+          "channel": "港生臨古",
+          "url": "https://www.youtube.com/watch?v=GTwux3A7yJk"
+        },
+        {
+          "name": "枕腕、提腕、懸腕的選用時機",
+          "kind": "theory",
+          "target": "枕腕、提腕、懸腕",
+          "title": "免費書法公開課12:如何執筆?一定要懸腕寫字嗎?",
+          "channel": "輝哥傳書云山齋",
+          "url": "https://www.youtube.com/watch?v=XO9OFM7dO9M"
+        }
+      ]
+    }
+  ]
+}

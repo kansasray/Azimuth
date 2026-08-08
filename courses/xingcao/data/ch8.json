@@ -1,0 +1,162 @@
+{
+  "chapter": "CH8",
+  "title": "孫過庭《書譜》",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "書譜是什麼:雙重身分與版本",
+      "type": "master",
+      "assessment": "找一份書譜整卷的高清圖版,先數出全卷大約有幾行、卷末孫過庭自己補寫的跋語在哪一段,再挑其中連續五行對臨。寫完把臨本與原帖並排,逐行比對字距與行距是否隨著文氣起伏而變化：書譜是墨跡真跡而非碑刻拓本,筆鋒轉折與牽絲的細節在拓本裡多半被磨損,這正是雙重身分裡「範本」價值所在。挑出你臨得最生硬的三處牽絲,回頭在原帖裡確認那一筆究竟是連還是斷,再重寫一次。連續兩次對臨,牽絲斷連的判斷正確率達八成以上才算過關。",
+      "lesson": {
+        "title": "解读中国书法界的“圣经”《书谱》它不仅是学习“二王”的绝佳法帖，也是书法理论的超强巨著！| CCTV「中国书法大会」",
+        "channel": "CCTV中国中央电视台",
+        "url": "https://www.youtube.com/watch?v=tFImQKo2rtk",
+        "lang": "zh",
+        "why": "這支影片把書譜放進書法史的座標裡定位,既是學二王的範本,也是書論的重量級著作,直接點出這個單元要處理的雙重身分。"
+      },
+      "drills": [
+        {
+          "name": "碑帖版本問題:如何全法右軍",
+          "kind": "theory",
+          "target": "版本問題、碑帖考據",
+          "title": "黃華山講述《歷代書論精華》之碑帖問題 － 以孫過庭《書譜》為例 （1/4）  |  仔細比對會發現問題重重，如何全法右軍！？",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=i5E_ic24Qnk"
+        },
+        {
+          "name": "字帖傳世形成的問題",
+          "kind": "theory",
+          "target": "版本、字帖傳世",
+          "title": "孫過庭書譜系列  P15、16  PART- I　|    特別舉了幾個\"豈\"字的例子，對於字帖傳世形成的問題應能有所領會。  ※請開啟CC字幕※",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=13IybM_KEg8"
+        },
+        {
+          "name": "整卷開篇逐字示範",
+          "kind": "walkthrough",
+          "target": "逐字示範、整卷開篇",
+          "title": "書譜001夫自古之善書者漢魏有鍾【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=AXhT0zhbInc"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u2",
+      "name": "書論導讀:孫過庭的書學思想",
+      "type": "master",
+      "assessment": "闔上書譜原文,只憑自己的話說出什麼是五乖五合:神怡務閑、感惠徇知、時和氣潤、紙墨相發、偶然欲書合稱五合,五合的反面就是五乖。接著回想自己最近十次寫字或臨帖的經驗,挑一次寫得特別順手與一次特別不順的,分別對照五合五乖的條件寫出至少三項符合的狀態,說明為什麼那次是合、那次是乖。再用同樣方法解釋執使轉用四個字分別對應毛筆的哪個動作,舉自己臨帖時的一個實例。找一位也在學書法的朋友聽你講解,對方能不看書譜原文就複述出五乖五合的大意,才算真正理解而不是背誦。",
+      "lesson": {
+        "title": "孙过庭书谱白话译文（四）~~逸少之比钟张，则专博斯别，子敬之不及逸少，无惑疑焉~~儿子跟老子比，还是老子厉害~~",
+        "channel": "The Way of Ink ",
+        "url": "https://www.youtube.com/watch?v=g06CQUFcfSo",
+        "lang": "zh",
+        "why": "逐句白話翻譯孫過庭評王羲之勝過王獻之的原文,用父子相比的說法直接點出書譜對二王的評價立場,是這個單元的入門起點。"
+      },
+      "drills": [
+        {
+          "name": "五乖五合逐句白話",
+          "kind": "theory",
+          "target": "五乖五合、書寫狀態",
+          "title": "孙过庭书谱白话译文（九）~~又一时而书，有乖有合，合则流媚，乖则雕疏~~",
+          "channel": "The Way of Ink ",
+          "url": "https://www.youtube.com/watch?v=BNR493FSVy4"
+        },
+        {
+          "name": "執使轉用的技法定義",
+          "kind": "theory",
+          "target": "執使轉用、技法定義",
+          "title": "書譜192以祛未悟執謂深淺長短之【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=eNEzi-qSkmE"
+        },
+        {
+          "name": "察之者尚精,擬之者貴似",
+          "kind": "theory",
+          "target": "察之者尚精、擬之者貴似",
+          "title": "書譜269芒察之者尚精擬之者貴【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=xLu5Im2Fmrc"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u3",
+      "name": "書譜的草法與筆法",
+      "type": "master",
+      "assessment": "對臨書譜中含節筆（折痕）的一段,先在原帖上找出因紙張摺疊留下的斷筆位置,寫的時候刻意保留這個斷筆而不硬接成一筆,再挑同一段裡五個轉折明顯的字,標出哪些是圓轉的絞轉、哪些是方折的翻筆。寫完後把臨本與王羲之十七帖裡草法相近的字並排比對,量出書譜運筆速度是否比十七帖更快、牽絲是否更多。若十個轉折裡有三個以上分不清圓轉與方折,回去放慢速度、用手腕帶動重寫十個,直到能一眼分辨才算過關。",
+      "lesson": {
+        "title": "第34讲：《十七帖》与《书谱》欣赏与对比（4） - 为何说孙过庭《书谱》笔触偏薄？深度对比王羲之《十七帖》 | 崔寒柏书法审美公开课",
+        "channel": "君子居",
+        "url": "https://www.youtube.com/watch?v=12F-pcJgW0Y",
+        "lang": "zh",
+        "why": "整整一講把書譜與十七帖的草法並排比較,直接回答書譜筆觸與王羲之今草範本的差異在哪裡,是這個單元對照練習的骨幹。"
+      },
+      "drills": [
+        {
+          "name": "書譜的折痕:節筆是怎麼來的",
+          "kind": "pitfall",
+          "target": "節筆、折痕",
+          "title": "書譜095 0書譜的折痕 【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=Xi0H3f3WZtE"
+        },
+        {
+          "name": "俯仰向背的筆路呼應",
+          "kind": "walkthrough",
+          "target": "俯仰向背、筆路呼應",
+          "title": "孫過庭書譜系列P4、P5 【PART I】 |   觀察草書筆路與其呼應關係   ※請開啟CC字幕※",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=j2ULDjGBj2w"
+        },
+        {
+          "name": "同自然之妙有,非力運之能成",
+          "kind": "theory",
+          "target": "自然筆勢、今草技法特徵",
+          "title": "孫過庭書譜系列  P10、11  PART-I 　|　同自然之妙有，非力運之能成，這也是千百年來大家努力的目標。  ※請開啟CC字幕※",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=gsPV-eSahyU"
+        }
+      ]
+    },
+    {
+      "id": "ch8-u4",
+      "name": "書譜臨習實戰",
+      "type": "master",
+      "assessment": "從書譜開頭連續二十個字裡任選一段通臨,計時寫完後記錄花費的秒數與換氣停頓的次數。隔天用同一段落再臨一次,比較兩次的秒數與停頓次數是否縮短,並把兩次臨本並排,標出筆順與字距差異最大的五個字。接著挑書譜裡公認較易入手的段落（例如卷首至五乖五合之前）通臨一次,自問是逐字看一眼寫一筆,還是能連續五字以上不看原帖也不斷筆。連續三次通臨,停頓次數持續下降且抄錯字不超過兩個才算過關。",
+      "lesson": {
+        "title": "1解密 孙过庭《书谱》的学习方法  张志庆 快速归纳并记忆草书符号I塑造自我风格",
+        "channel": "书法艺术",
+        "url": "https://www.youtube.com/watch?v=_mSBUZfoUps",
+        "lang": "zh",
+        "why": "示範怎麼把書譜的草法符號歸納整理成自己記得住的系統,再談如何從中塑造個人風格,是通臨前建立方法論的起點。"
+      },
+      "drills": [
+        {
+          "name": "草書初學為何要從書譜下手",
+          "kind": "theory",
+          "target": "臨帖起點、初學建議",
+          "title": "零基础自学书法入门（十一）草书初学必临！孙过庭《书谱》yyds~",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=rjWC9drniOI"
+        },
+        {
+          "name": "逐字示範:書譜09",
+          "kind": "walkthrough",
+          "target": "逐字示範、草書筆順",
+          "title": "草書教學～孫過庭書譜 09",
+          "channel": "博奉書齋鄭憲繁 書法教學創作",
+          "url": "https://www.youtube.com/watch?v=THMDpOsJdCc"
+        },
+        {
+          "name": "通臨的節奏與停頓",
+          "kind": "practice",
+          "target": "通臨、節奏",
+          "title": "临孙过庭《书谱》",
+          "channel": "Charlotte Miller",
+          "url": "https://www.youtube.com/watch?v=Rs1lN5M3F1g"
+        }
+      ]
+    }
+  ]
+}

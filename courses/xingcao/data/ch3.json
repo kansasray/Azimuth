@@ -1,0 +1,146 @@
+{
+  "chapter": "CH3",
+  "title": "臨帖方法論",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "讀帖",
+      "type": "skill",
+      "assessment": "從法帖裡任選一頁未曾臨過的字，先讀十分鐘不動筆：逐字圈出你判斷的中鋒轉側鋒位置、標出牽絲連帶的方向箭頭、算出這頁的行氣中軸左右擺動了幾次。讀完閉眼在腦中默寫前三字的筆順，睜眼核對法帖，錯兩筆以上代表讀帖深度不夠，回頭把那幾個字的起筆角度與牽絲走向再讀五分鐘。讀帖時間至少是臨寫時間的兩倍才開始下筆，連續三頁都做到才算過關。",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 50 ─ 讀帖 ﹝修訂版﹞",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=zX-3wAk0nkU",
+        "lang": "zh",
+        "why": "黃簡講書法的系統理論課程專講讀帖方法，逐項拆解動筆前該看的字形、筆順與行氣，是本單元的入門起點。"
+      },
+      "drills": [
+        {
+          "name": "讀帖的三種方法：字形與筆勢",
+          "kind": "theory",
+          "target": "字形、筆勢",
+          "title": "揮毫奶奶｜趙孟頫最美的帖？/「讀帖」的三種方法 /《妙嚴寺記》的韻雅與自在",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=4RzYxN29i08"
+        },
+        {
+          "name": "牽絲映帶的辨識",
+          "kind": "theory",
+          "target": "牽絲映帶",
+          "title": "書法：牽絲連帶讓行書更有魅力",
+          "channel": "沐仁",
+          "url": "https://www.youtube.com/watch?v=Z8f2S0BKFa8"
+        },
+        {
+          "name": "行氣的觀察",
+          "kind": "theory",
+          "target": "行氣",
+          "title": "行氣簡介",
+          "channel": "flowofqi",
+          "url": "https://www.youtube.com/watch?v=EyhjNMNQnmo"
+        },
+        {
+          "name": "讀帖與臨帖的時間分配，以聖教序為例",
+          "kind": "theory",
+          "target": "讀帖與臨帖時間比",
+          "title": "黃華山講述《歷代書論精華》〈 寒山帚談〉 中讀帖之重要性，以聖教序為例    |   要體會韻律，用身體比用大腦好！  ※字幕請自行開啟※",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=owXvDLq6bt0"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "對臨、背臨、意臨",
+      "type": "skill",
+      "assessment": "選一頁陌生法帖，照著逐字對臨十字，寫完翻到背面數清楚起筆收筆位置誤差在半字以內的字有幾個；蓋起法帖背臨同樣十字，再翻回來逐字比對筆順與結構，誤差內的字少於六個就代表對臨底子還不夠穩，先別急著意臨。等連續三次對臨與背臨都有八字以上落在誤差範圍內，才嘗試意臨：只保留字形大意，自由調整牽絲與速度，寫完問自己少了法帖擺在眼前，還認不認得出臨的是哪一帖，認不出就代表意臨走得太遠。",
+      "lesson": {
+        "title": "書法的學習臨帖三要-形臨、意臨與背臨你有用到了嗎？-吳啟禎書法教室教學",
+        "channel": "書法教學創作吳啟禎",
+        "url": "https://www.youtube.com/watch?v=ZsaFjMz3Suk",
+        "lang": "zh",
+        "why": "吳啟禎書法教室完整拆解形臨（即對臨）、意臨、背臨三種臨法的操作要點與差異，是釐清三法先後順序的核心教材。"
+      },
+      "drills": [
+        {
+          "name": "臨摹方法總覽：對臨、背臨、意臨",
+          "kind": "theory",
+          "target": "對臨、背臨、意臨",
+          "title": "🖌️書法入門系列🖌️ 第二講 臨摹",
+          "channel": "港生臨古",
+          "url": "https://www.youtube.com/watch?v=2rw47Q8wU8Q"
+        },
+        {
+          "name": "臨得像不像重要嗎",
+          "kind": "pitfall",
+          "target": "臨得像不像",
+          "title": "为什么追求极致的像，还并不是有效临帖？真正意义的像是怎样的？",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=uTYPOXCiAXI"
+        },
+        {
+          "name": "雙鉤填墨示範",
+          "kind": "walkthrough",
+          "target": "雙鉤填墨",
+          "title": "01雙鉤法",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=E-RvuuCseQc"
+        },
+        {
+          "name": "讀帖、臨帖、背臨的順序，以書譜為例",
+          "kind": "walkthrough",
+          "target": "對臨、背臨順序",
+          "title": "讀帖、臨帖、背臨——孫過庭「書譜」——陳一郎老師",
+          "channel": "冬冬",
+          "url": "https://www.youtube.com/watch?v=eeVulEWvY18"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "選帖與版本",
+      "type": "concept",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 49 ─ 選帖",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=L_lyY1wacSU",
+        "lang": "zh",
+        "why": "黃簡講書法示範新手挑選第一本法帖的判準與步驟，是選帖這個具體決策的權威起點。"
+      },
+      "drills": [
+        {
+          "name": "墨跡本與刻帖（拓本）的差別",
+          "kind": "theory",
+          "target": "墨跡本、刻帖",
+          "title": "Chinese Calligraphy.翰墨春秋.20.行书篇-帖学与碑派",
+          "channel": "Ancientech",
+          "url": "https://www.youtube.com/watch?v=0cseUw6mp4M"
+        },
+        {
+          "name": "集字聖教序的版本緣起",
+          "kind": "theory",
+          "target": "版本、集字聖教序",
+          "title": "唐朝的“国家工程”！怀仁和尚花费二十余年，从王羲之真迹中“抠”出了1903个字！| CCTV「中国书法大会」",
+          "channel": "CCTV中国中央电视台",
+          "url": "https://www.youtube.com/watch?v=_Ud5P30a2ag"
+        },
+        {
+          "name": "蘭亭序神龍本與陸繼善摹本比較",
+          "kind": "theory",
+          "target": "蘭亭序神龍本、版本比較",
+          "title": "兰亭集序：经典难以复制，神龙本与陆继善《摹兰亭叙帖》",
+          "channel": "船长读画",
+          "url": "https://www.youtube.com/watch?v=WGKQ3-mPW1M"
+        },
+        {
+          "name": "書譜墨跡本的特殊地位",
+          "kind": "theory",
+          "target": "書譜墨跡本",
+          "title": "孫過庭書譜系列 P1  |  重頭細講孫過庭書譜    ※字幕請自行開啟※",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=U7sQ-4Uuo1Q"
+        }
+      ]
+    }
+  ]
+}

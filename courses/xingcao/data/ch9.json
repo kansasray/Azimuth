@@ -1,0 +1,162 @@
+{
+  "chapter": "CH9",
+  "title": "米芾",
+  "units": [
+    {
+      "id": "ch9-u1",
+      "name": "米芾其人與集古字",
+      "type": "master",
+      "assessment": "取米芾早年習集古字風格的臨古之作，與晚年蜀素帖或苕溪詩帖手跡並排比對，找出至少三處他把集古字的規矩筆畫改造成自己筆法的地方，例如轉折是否更快、側鋒是否更明顯外露、字形是否更誇張欹側。把找到的三處各自模仿寫一遍，體會從集古人字形到用古人骨架寫自己脾氣的差別，連續比對兩件不同時期的作品，各自都能指出三處差異才算完成。",
+      "lesson": {
+        "title": "中國書法家︱“米癲”米芾的書法人生︱ 書法 Chinese Calligraphy",
+        "channel": "德道書法",
+        "url": "https://www.youtube.com/watch?v=hLHuudvxHJc",
+        "lang": "zh",
+        "why": "德道書法從米芾生平切入，梳理他集古字起家、終至自成一家的學書路徑，也帶到米癲稱號由來的性格軼事，適合當本單元人物與路徑總覽的起點。"
+      },
+      "drills": [
+        {
+          "name": "潔癖性格與蜀素帖的極致狂氣",
+          "kind": "theory",
+          "target": "潔癖、性格",
+          "title": "14米芾：我是個嚴重的潔癖瘋子。揭秘《蜀素帖》背後的極致狂氣。",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=fCxiAiFAYB8"
+        },
+        {
+          "name": "刷字如何寫出中華第一帖",
+          "kind": "theory",
+          "target": "刷字、個性",
+          "title": "29米芾-連蘇東坡都不敢碰的大魔王？宋代怪才米芾，靠一招「刷字」寫出中華第一帖！",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=DwaPN41UEkg"
+        },
+        {
+          "name": "米芾自論書法的書論書",
+          "kind": "appreciate",
+          "target": "書論、故宮典藏",
+          "title": "聽我說文物—宋 米芾 書論書",
+          "channel": "National Palace Museum國立故宮博物院",
+          "url": "https://www.youtube.com/watch?v=eJ_zdpJBu-Y"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u2",
+      "name": "蜀素帖:烏絲欄上的行書",
+      "type": "master",
+      "assessment": "對臨蜀素帖任選十字寫在烏絲欄格子紙上，先量每個字是否被欄線壓縮，體會米芾在有限格子裡刻意拉大字距疏密與欹側角度製造變化的手法。寫完把十字與原帖並排比對，挑出三處臨得太工整、失去澀筆頓挫感的筆畫，回頭用更慢的速度、刻意增加行筆阻力重寫一次，直到墨色出現枯筆飛白才算通過。",
+      "lesson": {
+        "title": "A1蜀素帖 擬古1",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=nk_yXgMDhxg",
+        "lang": "zh",
+        "why": "陳忠建蜀素帖逐句系列開場集，從烏絲欄的格式與擬古組詩第一首起講，是進入這件絹本墨跡最自然的入口。"
+      },
+      "drills": [
+        {
+          "name": "蜀素帖逐字示範:群賢畢至一句",
+          "kind": "walkthrough",
+          "target": "逐字示範、烏絲欄",
+          "title": "米芾《蜀素帖》36有後。群賢畢至猥居前。",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=H2l0wOnXzC0"
+        },
+        {
+          "name": "蜀素帖共性筆法拆解",
+          "kind": "theory",
+          "target": "澀筆、共性筆法",
+          "title": "了解这一点，就掌握蜀素帖一半的精髓，米芾行书这种共性值得关注",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=MjFXLI_-RLE"
+        },
+        {
+          "name": "蜀素帖高清賞析",
+          "kind": "appreciate",
+          "target": "絹本、故宮典藏",
+          "title": "1-6 米芾 〈蜀素帖〉Mi Fu, On Sichuan Silk",
+          "channel": "National Palace Museum國立故宮博物院",
+          "url": "https://www.youtube.com/watch?v=I2zKxitqs5g"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u3",
+      "name": "苕溪詩帖與手札",
+      "type": "master",
+      "assessment": "對臨苕溪詩帖任選兩行，寫完與原帖並排檢查兩件事:字與字之間的牽絲是否隨情緒起伏時斷時續，以及每行是否至少留出一處明顯的側鋒飛白。找出臨本裡牽絲過於平均、看不出輕重變化的三處，回去重寫時故意讓某幾字的連筆加快、下一字刻意頓筆放慢，直到節奏對比明顯才算完成。",
+      "lesson": {
+        "title": "米芾《苕溪詩》01將之苕溪，戲作呈",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=QMIWRHMvTsI",
+        "lang": "zh",
+        "why": "苕溪詩帖逐句系列正式第一集，從將之苕溪、戲作呈起講，是進入這件手札式詩卷最自然的起點。"
+      },
+      "drills": [
+        {
+          "name": "苕溪詩帖逐字示範:漫有蘭隨色一句",
+          "kind": "walkthrough",
+          "target": "逐字示範、手札",
+          "title": "米芾《苕溪詩》32情。漫有蘭隨色，寧無石",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=_AQ5CLelJlw"
+        },
+        {
+          "name": "苕溪詩卷高清賞析",
+          "kind": "appreciate",
+          "target": "苕溪詩卷、賞析",
+          "title": "北宋 米芾 苕溪詩卷 - 秀潤勁利、灑脫自然、姿態生動",
+          "channel": "書畫大觀園",
+          "url": "https://www.youtube.com/watch?v=Yzfn8SM2Jro"
+        },
+        {
+          "name": "吳江舟中詩卷的飛白示範",
+          "kind": "walkthrough",
+          "target": "飛白、側鋒",
+          "title": "揮毫奶奶｜如何寫「飛白」？／米芾《吳江舟中詩卷》",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=ingCxs-YCxU"
+        }
+      ]
+    },
+    {
+      "id": "ch9-u4",
+      "name": "刷字與八面出鋒:米芾筆法",
+      "type": "master",
+      "assessment": "鋪紙用中鋒藏鋒寫十個橫畫，再改用米芾式側鋒刷字法寫十個橫畫，兩組並排比較起筆角度與墨色:量出刷字組的起筆是否明顯帶側鋒切入的斜角、行筆中段墨色是否比中鋒組更粗細不均。挑出刷字組裡側鋒角度最不明顯、看起來仍像中鋒的三筆，回去把筆桿刻意側倒約三十度再寫一次，直到兩組差異一眼可辨才算完成。",
+      "lesson": {
+        "title": "解读米芾的八面出锋，10分钟讲清楚其背后的真正原理及毛笔技巧",
+        "channel": "止水草堂",
+        "url": "https://www.youtube.com/watch?v=l7YniR9Mgmo",
+        "lang": "zh",
+        "why": "止水草堂直接拆解八面出鋒背後的毛筆物理原理與操作方式，把這個米芾筆法裡最核心也最常被誤解的技法概念講清楚，適合當本單元技法拆解的開場。"
+      },
+      "drills": [
+        {
+          "name": "刷字概念講解",
+          "kind": "theory",
+          "target": "刷字、通俗講解",
+          "title": "揮毫奶奶｜米䒥 刷字",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=yrECsJkDJ04"
+        },
+        {
+          "name": "臣書刷字天下第四的典故",
+          "kind": "theory",
+          "target": "刷字典故、書法審美",
+          "title": "米芾：臣书刷字 天下第四书法审美小百科 第10弹）",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=7O2b52BApLU"
+        },
+        {
+          "name": "側鋒刷字臨摹演示",
+          "kind": "walkthrough",
+          "target": "側鋒、臨摹演示",
+          "title": "米芾侧锋刷字，临摹演示",
+          "channel": "中怡名家书画",
+          "url": "https://www.youtube.com/watch?v=3RfOo5xVXAs"
+        }
+      ]
+    }
+  ]
+}

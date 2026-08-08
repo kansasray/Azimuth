@@ -1,0 +1,147 @@
+{
+  "chapter": "CH4",
+  "title": "行書基礎",
+  "units": [
+    {
+      "id": "ch4-u1",
+      "name": "從楷入行:簡省與連帶",
+      "type": "skill",
+      "assessment": "鋪紙用楷書寫「江」「話」「連」三個字,再用行書寫同樣三個字,兩兩並排比對:楷書每字的頓筆與提筆次數各數一次,行書版本應比楷書少兩到三次停筆。再檢查牽絲:凡是筆鋒自然帶出的細絲才算數,若某段牽絲是停筆後重新蘸墨補畫上去的,那不是自然映帶,那個字要重寫。連續寫五遍同一字並計時,行書若比楷書快不到三成,代表提按與停頓的節奏還沒拉開,回去把行筆速度的落差再拉大一些。",
+      "lesson": {
+        "title": "✨書法教學✨ 7個學行書訣竅, 馬上掌握行書多變的技法, 寫出行書變化之妙趣! | \"中英日韓 字幕 CC\" | 書法｜德道書法 （DeDao Calligraphy）",
+        "channel": "德道書法",
+        "url": "https://www.youtube.com/watch?v=ESuHixd2Gjk",
+        "lang": "zh",
+        "why": "七個訣竅逐一拆解楷書筆畫怎麼簡省成行書、什麼時候該用牽絲銜接兩筆,直接對應本單元「簡省與連帶」的主題,示範步驟清楚。"
+      },
+      "drills": [
+        {
+          "name": "楷書與行書的用筆差異",
+          "kind": "theory",
+          "target": "楷書、行書、用筆差異",
+          "title": "不知道这个特点学十年行书也白搭？楷书与行书的用笔区别",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=QC5djT1tBOg"
+        },
+        {
+          "name": "簡化楷法:永字八法行書化",
+          "kind": "walkthrough",
+          "target": "永字八法、簡化筆法、楷書筆意",
+          "title": "零基礎 書法教學06|年輕人!大膽跟複雜的楷書筆法說ByeBye!/超簡單易學的永字八法(上)|【中英字幕】",
+          "channel": "蘭心毓秀書齋 Orchid spirit calligraphy studio ",
+          "url": "https://www.youtube.com/watch?v=l-wf7f8d770"
+        },
+        {
+          "name": "連續轉折專項練習",
+          "kind": "practice",
+          "target": "連續轉折、行筆流暢度",
+          "title": "羡慕别人书法写得流畅自然？可以做这个训练，连续转折专项练习",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=uvweMllRI6o"
+        },
+        {
+          "name": "行書的節奏感與墨色變化",
+          "kind": "theory",
+          "target": "節奏感、墨色變化",
+          "title": "行書入門（第5講） | 不只是快慢：掌握行書的靈魂「節奏感」與「墨色變化」 (Running Script Tutorial) ｜書法教學  | \"CC (中英日韓字幕)\" | 書法｜德道書法",
+          "channel": "德道書法",
+          "url": "https://www.youtube.com/watch?v=XdeuYxY7jpQ"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u2",
+      "name": "行書的筆順與筆勢",
+      "type": "skill",
+      "assessment": "臨寫十個常見字的行書寫法(如有、為、馬、書、來),每字先照楷書筆順寫一次、再照行書筆順寫一次,逐字寫下兩者從第幾筆開始出現順序或方向差異。挑出差異最大的三個字,只看上一筆的收筆方向,不看字例,憑筆勢接寫下一筆,連續三次方向都接對才算通過;接錯的那幾筆,代表還在用楷書筆順思考,要回頭看該字的行書示範重新臨寫五次。",
+      "lesson": {
+        "title": "黃簡講書法：八級課程行書03─行書取勢",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=5I7nKJTF164",
+        "lang": "zh",
+        "why": "以「取勢」為核心,說明行書的筆順如何被筆勢帶著走、為何常常偏離楷書的逐筆順序,是理解本單元主題的骨幹講座。"
+      },
+      "drills": [
+        {
+          "name": "筆順與氣息:哪個決定筆勢",
+          "kind": "theory",
+          "target": "筆順、氣息、行筆連貫",
+          "title": "笔顺VS气息，5分钟告诉你哪个更重要",
+          "channel": "九度书法 Jiudu Calligraphy",
+          "url": "https://www.youtube.com/watch?v=jndz_noDOoE"
+        },
+        {
+          "name": "初學行書的筆順觀念",
+          "kind": "theory",
+          "target": "行書入門觀念、風格比較",
+          "title": "零基础自学书法入门（十上）初学行书，赵孟頫比王羲之更香？预录视频",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=FxAL_1naiss"
+        },
+        {
+          "name": "行書常見的筆順誤區",
+          "kind": "pitfall",
+          "target": "行書常見誤區、練習方法",
+          "title": "零基础自学书法入门（十下）练行书不搞清这些问题，小心都是徒劳预录视频",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=lGXpe-t2Gck"
+        },
+        {
+          "name": "折法:行書基本線條練習",
+          "kind": "walkthrough",
+          "target": "折法、行書基本線條、轉向",
+          "title": "零基礎 書法教學02 |五分鐘馬上學會\"折法\"行書基本線條 | 【中英字幕】",
+          "channel": "蘭心毓秀書齋 Orchid spirit calligraphy studio ",
+          "url": "https://www.youtube.com/watch?v=CbznXsFncjo"
+        }
+      ]
+    },
+    {
+      "id": "ch4-u3",
+      "name": "常見偏旁部首的行化",
+      "type": "skill",
+      "assessment": "挑三點水、走之底、示字旁三個偏旁,各找兩個常見字(如清、波;道、建;福、祝),用行書各寫一次,寫完把同一偏旁的字並排比對三處:三點水的三點是否連成一筆帶出、走之底的三折是否收成一個弧線、示字旁的點與橫是否連筆不斷。若同一偏旁在不同字裡寫法不一致,或某一筆像是分段描出來的而不是行筆帶出,那個字就重寫,連續五個字寫法一致才算掌握。",
+      "lesson": {
+        "title": "【書法教學】想寫出一手好行書？這些用筆技巧不可錯過！| \"CC字幕(中英日韓字幕)\" | 書法｜德道書法（DeDaoCalligraphy）",
+        "channel": "德道書法",
+        "url": "https://www.youtube.com/watch?v=FozdqTXTzY4",
+        "lang": "zh",
+        "why": "整理行書運筆的幾個核心觀念,作為後面幾支偏旁示範前的鋪墊,幫助辨認偏旁行化時哪些變化合理、哪些只是寫錯。"
+      },
+      "drills": [
+        {
+          "name": "三點水的行書寫法(清、波、流)",
+          "kind": "walkthrough",
+          "target": "三點水、部首位置、清波流",
+          "title": "書法教學_結構原則：部首在篇旁＿清、波、流",
+          "channel": "Hauchi Lee",
+          "url": "https://www.youtube.com/watch?v=QkCefUoiXP8"
+        },
+        {
+          "name": "走之底的行書寫法(道、迴、建)",
+          "kind": "walkthrough",
+          "target": "走之底、三曲撇、道迴建",
+          "title": "書法教學_三曲撇練習＿道、迴、建",
+          "channel": "Hauchi Lee",
+          "url": "https://www.youtube.com/watch?v=8DzW_BdGEY4"
+        },
+        {
+          "name": "示字旁的行書變化(福字)",
+          "kind": "walkthrough",
+          "target": "示字旁、福字、行書變化",
+          "title": "行書【福】教寫  全縣第一名書法何俊秀楷行函授字帖加影片傳您手機",
+          "channel": "何俊秀",
+          "url": "https://www.youtube.com/watch?v=92zxIxuGHcE"
+        },
+        {
+          "name": "月字旁的行書變化(月字)",
+          "kind": "walkthrough",
+          "target": "月字旁、行書變化、多種寫法",
+          "title": "行書【月】4种教寫 第一名全縣比賽 函授楷行字帖+影片何俊秀0927372034",
+          "channel": "何俊秀",
+          "url": "https://www.youtube.com/watch?v=fXXfn0BeUc0"
+        }
+      ]
+    }
+  ]
+}

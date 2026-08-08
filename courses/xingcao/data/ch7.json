@@ -1,0 +1,125 @@
+{
+  "chapter": "CH7",
+  "title": "王獻之",
+  "units": [
+    {
+      "id": "ch7-u1",
+      "name": "中秋帖與一筆書",
+      "type": "master",
+      "assessment": "對臨中秋帖現存三行二十二字，寫完把牽絲連接處逐一圈出來：數一數全篇有幾處字與字之間筆畫不斷、直接遊絲相連，這是「一筆書」最具體的辨識判準，若你臨寫時每個字都獨立起筆收筆、連綿處全部斷開，表示還沒抓到中秋帖一氣貫注的節奏，回去把斷開處補寫牽絲重臨一次。再挑米芾自己的草書手卷任一行（如苕溪詩帖），與你臨的中秋帖並排比較運筆的頓挫感是否相似——這是體會中秋帖是否為米芾臨本公案的直接練習，寫下三點你觀察到的異同即可，不必給出結論。連續兩次對臨，牽絲連接處都能穩定寫出六處以上才算過關。",
+      "lesson": {
+        "title": "王献之《中秋帖》🐬🐬乾隆皇帝珍藏在三希堂的草书墨宝",
+        "channel": "观鱼闲谈",
+        "url": "https://www.youtube.com/watch?v=QGz-iezPTvo",
+        "lang": "zh",
+        "why": "介紹中秋帖的流傳與內容,並點出「傳為東晉王獻之創作」這個學界至今未有定論的攻防,是認識中秋帖真偽公案的合適入口。"
+      },
+      "drills": [
+        {
+          "name": "中秋帖是否為米芾臨本",
+          "kind": "theory",
+          "target": "中秋帖、米芾臨本公案",
+          "title": "視超越父親為目標的書法家，從〝中秋帖〞看王獻之的雄心。內文詳細解析，快速理解魅力所在！！",
+          "channel": "理森先生的書法課Listen's Chinese Characters",
+          "url": "https://www.youtube.com/watch?v=smVTvGqGW-4"
+        },
+        {
+          "name": "中秋帖臨摹示範",
+          "kind": "walkthrough",
+          "target": "中秋帖、連綿牽絲",
+          "title": "雷紹華臨王獻之中秋帖20180915",
+          "channel": "雷紹華",
+          "url": "https://www.youtube.com/watch?v=JGCaKa5bvlE",
+          "note": "無旁白臨帖示範，只看運筆節奏與牽絲處理，無逐字講解。"
+        },
+        {
+          "name": "一筆書的寫法",
+          "kind": "theory",
+          "target": "一筆書、連綿草",
+          "title": "王献之：一笔书是怎么写出来的？（24）",
+          "channel": "博物派",
+          "url": "https://www.youtube.com/watch?v=JJf1JgBPYxw"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u2",
+      "name": "鴨頭丸帖與地黃湯帖",
+      "type": "master",
+      "assessment": "對臨鴨頭丸帖全帖十五字與地黃湯帖前兩行，寫完把兩份臨本並排：鴨頭丸帖只有兩行、字距由密轉疏、最後兩字明顯放大加重，地黃湯帖則整篇字距均勻、少有忽大忽小的變化。檢查自己的臨本有沒有把這個節奏差異寫出來，若兩帖臨得一樣平均，表示還在抄字形而沒讀懂手札是隨手寫成、不是刻意經營的作品。接著取王羲之快雪時晴帖或喪亂帖任一行對照：父親手札行筆從容持重，兒子手札轉折更快、牽絲更多，寫出至少三處具體差異（起筆角度、字距節奏、牽絲長短皆可）。連續三次對臨，能穩定指出差異且不重複同一處才算過關。",
+      "lesson": {
+        "title": "20130510陳一郎老師【鴨頭丸帖】示範",
+        "channel": "yumin Lei",
+        "url": "https://www.youtube.com/watch?v=lei9CYlLPBM",
+        "lang": "zh",
+        "why": "陳一郎老師逐字示範鴨頭丸帖全帖,行筆節奏與字距變化講得清楚,是這件王獻之存世真跡少數有完整教學示範的來源。"
+      },
+      "drills": [
+        {
+          "name": "鴨頭丸帖賞析解說",
+          "kind": "theory",
+          "target": "鴨頭丸帖、字距節奏",
+          "title": "20130510陳一郎老師【鴨頭丸帖】分享解析",
+          "channel": "yumin Lei",
+          "url": "https://www.youtube.com/watch?v=566iDA5JqXc"
+        },
+        {
+          "name": "地黃湯帖臨摹示範",
+          "kind": "walkthrough",
+          "target": "地黃湯帖、行草手札",
+          "title": "番紹華臨王獻之地黃湯帖",
+          "channel": "雷紹華",
+          "url": "https://www.youtube.com/watch?v=c1T3SgOq_Ok",
+          "note": "無旁白臨帖示範，只看行筆節奏，無逐字講解。"
+        },
+        {
+          "name": "地黃湯帖與超越其父之說",
+          "kind": "theory",
+          "target": "地黃湯帖、與父親手札比較",
+          "title": "王献之地黄汤帖，历代临学的经典之作，被认为是王献之超越其父王羲之的作品。",
+          "channel": "The Way of Ink ",
+          "url": "https://www.youtube.com/watch?v=-Z4RUGCTV08"
+        }
+      ]
+    },
+    {
+      "id": "ch7-u3",
+      "name": "洛神賦十三行與父子之別",
+      "type": "master",
+      "assessment": "取洛神賦十三行（玉版十三行拓本）前四行以小楷對臨，寫完與之前臨過的王羲之行草手札並排比較用筆：小楷的內擫收束與行草的外拓開張差別在哪裡，具體指出三個字的橫畫或轉折角度作證據，不要只寫「感覺不一樣」。接著抄寫孫過庭書譜「謝安輕視子敬之書」一段原文一遍，寫下你認為孫過庭判「子敬之不及逸少」是否公允、理由是什麼——歷代都有人翻案（如張懷瓘、米芾都替獻之抱不平），你的答案只要能舉出帖中一個具體筆畫當證據就算成立，不需要跟古人結論一致。連續兩次分別完成臨帖比對與書論抄讀，才算完成這個單元的驗收。",
+      "lesson": {
+        "title": "書譜公開課5:孫過庭為何說王羲之勝王獻之!1!",
+        "channel": "輝哥傳書云山齋",
+        "url": "https://www.youtube.com/watch?v=sK2MEw-N2RU",
+        "lang": "zh",
+        "why": "逐句讀孫過庭書譜「謝安輕視子敬之書」全段原文,直接回應歷代羲獻優劣之辯的源頭,是這個單元「父子之別」主線的核心文本。"
+      },
+      "drills": [
+        {
+          "name": "玉版十三行高清賞析",
+          "kind": "appreciate",
+          "target": "洛神賦十三行、玉版十三行拓本",
+          "title": "南宋《玉版十三行》，王献之的洛神赋",
+          "channel": "马未都聊国宝",
+          "url": "https://www.youtube.com/watch?v=oIfmBC00ILI"
+        },
+        {
+          "name": "破體與創草:王獻之的筆法創新",
+          "kind": "theory",
+          "target": "破體、創草",
+          "title": "黃簡講書法：七級課程草書52─草書流派04",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=HMdlANczrX8"
+        },
+        {
+          "name": "王羲之vs王獻之:拔筆故事",
+          "kind": "theory",
+          "target": "父子故事、拔筆試膽",
+          "title": "01王羲之 vs王獻之",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=9FJ5Fu2flUA"
+        }
+      ]
+    }
+  ]
+}

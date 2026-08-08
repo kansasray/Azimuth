@@ -1,0 +1,145 @@
+{
+  "chapter": "CH5",
+  "title": "草書基礎",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "草法：草書的符號系統",
+      "type": "concept",
+      "lesson": {
+        "title": "黃簡講書法：七級課程草書1─認識草書1﹝修訂版1﹞",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=emO4bWkvH8E",
+        "lang": "zh",
+        "why": "系統性起點課，先立住核心觀念：草書是歷代約定俗成的簡化系統，不是隨手快寫，銜接後面三支講規則與符號的影片。"
+      },
+      "drills": [
+        {
+          "name": "草法規則：部首與整字的簡化原則",
+          "kind": "theory",
+          "target": "草法規則、簡化原則",
+          "title": "黃簡講書法：七級課程草書5─草法規則1﹝修訂版1﹞",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=a6x1aqb6nEs"
+        },
+        {
+          "name": "部首草化實例",
+          "kind": "walkthrough",
+          "target": "部首草化、偏旁簡化",
+          "title": "草書部首-01",
+          "channel": "阿法大叔",
+          "url": "https://www.youtube.com/watch?v=GsLjdBtqkhI"
+        },
+        {
+          "name": "草書符號總覽",
+          "kind": "theory",
+          "target": "草書符號、簡化規則",
+          "title": "陳一郎老師    草書符號1",
+          "channel": "Huang Ming",
+          "url": "https://www.youtube.com/watch?v=W1EObyqIyKs"
+        },
+        {
+          "name": "草法寫錯就是別字：常見筆法錯誤",
+          "kind": "pitfall",
+          "target": "草法錯誤、別字風險",
+          "title": "书法学堂-7- 练好书法-草书常见错误笔法纠正",
+          "channel": "MsCamton",
+          "url": "https://www.youtube.com/watch?v=pOSLvW6Q3FM"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "識草與記草",
+      "type": "skill",
+      "assessment": "找五張不同來源的草書作品圖版(可用書譜、蘭亭序草稿或本單元影片截圖皆可),每張任選五個字遮住釋文自行識讀,寫下你認出的字與判斷依據(部首簡化方式或整字符號),共測二十五字。核對答案後統計正確率,若某一類部首(例如水部、言部)反覆認錯,回頭把該部首對應的草化規則抄十遍並收進自己的草字群卡片,下次遇到同部首字優先套用。連續三次測驗正確率達八成以上,且錯認的字不再集中在同一部首或字群,才算真正記住草法而非死記單字。",
+      "lesson": {
+        "title": "草书太难？先练这25个字，就能看懂也能写！",
+        "channel": "黄俊俭的笔墨生活",
+        "url": "https://www.youtube.com/watch?v=lMSgeWgWzQs",
+        "lang": "zh",
+        "why": "示範用「先吃透常見二十五個高頻草字」取代死背全部字形，是識草與記草兩件事合併練習的具體方法。"
+      },
+      "drills": [
+        {
+          "name": "十大難辨字組",
+          "kind": "pitfall",
+          "target": "易混淆字組、誤讀風險",
+          "title": "揮毫奶奶｜誰說草書看不懂？十大難辨字，一次搞定！《書譜》番外篇",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=5ftVfYNQCJs"
+        },
+        {
+          "name": "十二字識讀測驗",
+          "kind": "theory",
+          "target": "識讀測驗、草字辨認",
+          "title": "这12个草书字，能认识5个就很了不起。答案在最后面",
+          "channel": "墨界",
+          "url": "https://www.youtube.com/watch?v=7ox-tHh1OTY"
+        },
+        {
+          "name": "同聲符字群：各、路、客、洛、落",
+          "kind": "walkthrough",
+          "target": "同聲符易混淆字、部首類推",
+          "title": "各、路、客、洛、落的草书写法  草书快速入门  荣庆讲草书",
+          "channel": "荣庆狂草书法",
+          "url": "https://www.youtube.com/watch?v=vjgmwMEwWeE"
+        },
+        {
+          "name": "草訣百韻歌記憶法",
+          "kind": "theory",
+          "target": "草訣歌、記憶竅門",
+          "title": "細談《草訣百韻歌》 02   龍蛇競筆端   |   寫得有精神就像龍，節奏不明筆路不清可能就有點蛇樣了   |   請開啟CC字幕",
+          "channel": "Huang, Hua-Shan Calligraphy Studio 黃華山",
+          "url": "https://www.youtube.com/watch?v=QETyICCLOdg"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "今草與章草",
+      "type": "concept",
+      "lesson": {
+        "title": "黃簡講書法：七級課程草書49─草書流派01",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=UcABlXQNHGI",
+        "lang": "zh",
+        "why": "從書史脈絡講草書流派的形成與分野，是少見專門處理章草、今草源流問題的系統性內容，支持本課「以今草為主」的編排立場。"
+      },
+      "drills": [
+        {
+          "name": "章草的隸意與獨立字形",
+          "kind": "theory",
+          "target": "章草、隸意、字字獨立",
+          "title": "Chinese Calligraphy 翰墨春秋 13 草书篇-古奥浑朴的章草",
+          "channel": "Ancientech",
+          "url": "https://www.youtube.com/watch?v=iW9W5Qbwk78"
+        },
+        {
+          "name": "今草的形成：二王一脈",
+          "kind": "theory",
+          "target": "今草、二王一脈、連綿",
+          "title": "Chinese Calligraphy 翰墨春秋 14 草书篇-二王与草书的形成",
+          "channel": "Ancientech",
+          "url": "https://www.youtube.com/watch?v=EYg9wqH-EJQ"
+        },
+        {
+          "name": "章草今草一句辨",
+          "kind": "theory",
+          "target": "章草、今草、字勢連貫",
+          "title": "章草　章草為隸書之捷　今草為楷書之捷　章草字字獨立　今草字勢連貫",
+          "channel": "游善富",
+          "url": "https://www.youtube.com/watch?v=iEcwjOd-mkQ"
+        },
+        {
+          "name": "章草、今草與狂草的三分",
+          "kind": "theory",
+          "target": "章草、今草、狂草源流",
+          "title": "中華書畫故事：章草、今草與狂草",
+          "channel": "黄俊俭的笔墨生活",
+          "url": "https://www.youtube.com/watch?v=uygt9zpbx7I"
+        }
+      ]
+    }
+  ]
+}

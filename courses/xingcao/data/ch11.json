@@ -1,0 +1,193 @@
+{
+ "chapter": "CH11",
+ "title": "結字、章法與創作",
+ "units": [
+  {
+   "id": "ch11-u1",
+   "name": "單字結構",
+   "type": "skill",
+   "assessment": "鋪紙寫「書」「觀」兩個字各五遍，「書」筆畫少刻意留白拉開疏密對比，「觀」筆畫多收緊避免鬆散；接著把兩字並排檢查大小，若「書」寫得比「觀」大超過三成，表示沒有依筆畫繁簡調整字型比例，要重寫到兩字視覺份量接近。再挑其中三個字刻意寫成明顯欹側（左低右高或右低左高），寫完用直尺沿字的主豎畫量傾斜角度，五到十五度算欹而不倒，超過十五度或完全垂直都要回頭調整。最後把十個字反過來看，找出視覺重心明顯偏出字框外的字，通常是某一長筆畫收得太銳利，補寫三次直到重心穩定在字框中央。",
+   "lesson": {
+    "title": "黃簡講書法：三級課程裹束 01 ─ 什麼是裹束？",
+    "channel": "黃簡講書法",
+    "url": "https://www.youtube.com/watch?v=9zRj4xcWSHM",
+    "lang": "zh",
+    "why": "黃簡從孫過庭書譜的「裹束」概念切入，把單字結構問題系統化為理論框架，替本單元疏密、欹正、大小、重心四個子題先立好共同的思考語彙。"
+   },
+   "drills": [
+    {
+     "name": "米芾苕溪詩的疏密示範",
+     "kind": "theory",
+     "target": "疏密",
+     "title": "米芾《苕溪詩》解說6疏密",
+     "channel": "陳忠建",
+     "url": "https://www.youtube.com/watch?v=cg5J-f5ze8A"
+    },
+    {
+     "name": "欹側取勢的結構原理",
+     "kind": "theory",
+     "target": "欹側、取勢",
+     "title": "行書入門 (第3講) | 行書結構的靈魂掌握「欹側取勢」讓你的字瞬間擁有動感與生命力 (Running Script Structure)|\"CC字幕(中英日韓字幕)\" | 書法｜德道書法",
+     "channel": "德道書法",
+     "url": "https://www.youtube.com/watch?v=05OKZuFlwfc"
+    },
+    {
+     "name": "結字三大黃金法則",
+     "kind": "theory",
+     "target": "疏密、大小、結構法則",
+     "title": "【書法教學】書法結字三大黃金法則，寫字漂亮有訣竅！ | \"CC字幕(中英日韓字幕)\" | 書法｜德道書法（DeDaoCalligraphy）",
+     "channel": "德道書法",
+     "url": "https://www.youtube.com/watch?v=IZBvdTGlNSc"
+    },
+    {
+     "name": "上橫短則撇畫長的重心規律",
+     "kind": "theory",
+     "target": "重心",
+     "title": "書法規律50法（47），上橫短則撇畫長，中心不偏重心穩 #原創書法 #漢字之美 #因為熱愛所以堅持 #抖音書法熱門 #一起學書法",
+     "channel": "墨界",
+     "url": "https://www.youtube.com/watch?v=lFVpOpsmgZ4"
+    }
+   ]
+  },
+  {
+   "id": "ch11-u2",
+   "name": "字組、行氣與章法",
+   "type": "skill",
+   "assessment": "取一首五言絕句四行，先不看格式直接通篇寫完，再拿相同內容重寫一次，這次每兩到三字刻意用牽絲或筆勢連成一組，兩組之間留出明顯停頓。寫完把兩次都掛起來後退三步看，能一眼看出行氣是否貫通：字組排列若讓每行呈現輕微左右擺動而非死板垂直，表示軸線有變化；若整行像用尺畫出來一樣筆直，回去在每三到五字挑一個字刻意加大或加重，製造波動。最後檢查整幅的黑白分布，若某一角落字距明顯比其他地方緊，或留白面積超過整幅三分之一集中在同一處，表示佈白失衡，調整字距與行距重寫一次。",
+   "lesson": {
+    "title": "🔔 草書的章法之美，從「獨體字」開始——馬水城院長談草書核心",
+    "channel": "澄觀藝術",
+    "url": "https://www.youtube.com/watch?v=ekObM5FjOSA",
+    "lang": "zh",
+    "why": "馬水城院長從獨體字出發講起，一路帶到整體章法，正好銜接本單元從字組、行氣到章法佈白的順序，是這個單元最自然的入口。"
+   },
+   "drills": [
+    {
+     "name": "行氣如何避免字寫歪",
+     "kind": "theory",
+     "target": "行氣、中軸",
+     "title": "书法中的行气有多重要，专家教你如何不把字写歪！古人经常这样做",
+     "channel": "向前一步吧",
+     "url": "https://www.youtube.com/watch?v=G07-6JC0ECg"
+    },
+    {
+     "name": "中軸線與行氣的關係",
+     "kind": "theory",
+     "target": "中軸線、行氣",
+     "title": "08 中軸與行氣 02",
+     "channel": "輔導團書法",
+     "url": "https://www.youtube.com/watch?v=yAG-g4PqXUg"
+    },
+    {
+     "name": "小草臨創轉換的章法布局",
+     "kind": "theory",
+     "target": "章法、布局",
+     "title": "中国书法小草临创转换第七讲章法布局",
+     "channel": "墨池",
+     "url": "https://www.youtube.com/watch?v=M6y-Dnc0bIY"
+    },
+    {
+     "name": "橫披與手卷的格式差異",
+     "kind": "theory",
+     "target": "橫披、手卷、格式",
+     "title": "黃簡講書法：四級課程格式33 ─ 橫披和手卷",
+     "channel": "黃簡講書法",
+     "url": "https://www.youtube.com/watch?v=RwaX51Pg6u4"
+    }
+   ]
+  },
+  {
+   "id": "ch11-u3",
+   "name": "落款與用印",
+   "type": "skill",
+   "assessment": "完成一幅作品後，分別用單款與雙款各落一次：單款只寫姓名與年月，雙款加上上款（受贈者稱謂）與下款，寫完檢查款字大小是否比正文小一到兩號、字體是否比正文更活潑（例如正文是行書，落款改用行草）。接著蓋印，先用白文印壓在款字下方留一字距，再用朱文印壓在白文印下方留半字距，兩印大小不能超過落款字的一點五倍。最後把整幅作品拿遠看，若印色鮮豔到蓋過正文墨色的視覺重量，或落款位置讓整幅右側或下方留白超過三分之一，都算落款失敗，調整位置或縮小印面重蓋一次。",
+   "lesson": {
+    "title": "揮毫奶奶｜別亂蓋！小印章，大學問",
+    "channel": "揮毫奶奶非常好",
+    "url": "https://www.youtube.com/watch?v=FEZ6q6LBXMU",
+    "lang": "zh",
+    "why": "揮毫奶奶用生活化的語言講清楚用印最容易犯的錯誤，觀看數逾十三萬，是這個主題最普及也最好懂的開場。"
+   },
+   "drills": [
+    {
+     "name": "落款的基本方式與單雙款",
+     "kind": "theory",
+     "target": "落款、單款、雙款",
+     "title": "書法作品如何落款???   How to sign the calligraphy works???",
+     "channel": "輝哥傳書云山齋",
+     "url": "https://www.youtube.com/watch?v=62gC6681Aj0"
+    },
+    {
+     "name": "以落款示範行草書佈局",
+     "kind": "walkthrough",
+     "target": "落款字體、佈局",
+     "title": "以落款示範行草書之佈局",
+     "channel": "博奉書齋鄭憲繁 書法教學創作",
+     "url": "https://www.youtube.com/watch?v=CqAATArorpc"
+    },
+    {
+     "name": "落款與用印的位置搭配",
+     "kind": "theory",
+     "target": "落款、用印、位置",
+     "title": "10 落款與用印 02",
+     "channel": "輔導團書法",
+     "url": "https://www.youtube.com/watch?v=3lewHY1g4iw"
+    },
+    {
+     "name": "落款位置與留白的常見錯誤",
+     "kind": "pitfall",
+     "target": "落款錯誤、位置、留白",
+     "title": "揮毫奶奶｜落款這件事/位置與留白",
+     "channel": "揮毫奶奶非常好",
+     "url": "https://www.youtube.com/watch?v=zx4Htx5PwaY"
+    }
+   ]
+  },
+  {
+   "id": "ch11-u4",
+   "name": "從臨到創",
+   "type": "concept",
+   "lesson": {
+    "title": "2、周慧珺先生教你如何学书法：从临摹到创作，将古人之法融入自己创作 周慧珺书法技法培训课4K高清修复",
+    "channel": "汤汤一画",
+    "url": "https://www.youtube.com/watch?v=pPZL07oFPaw",
+    "lang": "zh",
+    "why": "周慧珺是當代行草名家，這支影片直接示範她如何把古人筆法融入自己的創作，是「從臨到創」最具體的第一手示範。"
+   },
+   "drills": [
+    {
+     "name": "集字聖教序的臨摹示範",
+     "kind": "walkthrough",
+     "target": "集字、臨摹",
+     "title": "書法教學_原來行書要這樣臨_臨集字聖教序教學(4)",
+     "channel": "簡銘山書法藝術館",
+     "url": "https://www.youtube.com/watch?v=XGcbEuba03w"
+    },
+    {
+     "name": "讀帖、摹帖與臨帖的方法",
+     "kind": "theory",
+     "target": "讀帖、摹帖、臨帖",
+     "title": "读帖、摹帖与临帖",
+     "channel": "国家开放大学OUCHN",
+     "url": "https://www.youtube.com/watch?v=wkofpnOBud0"
+    },
+    {
+     "name": "入帖與出帖的定義",
+     "kind": "theory",
+     "target": "入帖、出帖",
+     "title": "入帖容易？出帖難？書法學習如何從臨摹到創作揮毫(上)-吳啟禎書法教室教學",
+     "channel": "書法教學創作吳啟禎",
+     "url": "https://www.youtube.com/watch?v=jGQUMe4vBHo"
+    },
+    {
+     "name": "米芾從集古字到自成一家的創作案例",
+     "kind": "theory",
+     "target": "米芾、集古字、創作",
+     "title": "米芾的书法就像一首歌，创作时不会处理字的大小？一个节拍就搞定",
+     "channel": "止水草堂",
+     "url": "https://www.youtube.com/watch?v=vgx3YK92zWw"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+  "chapter": "CH6",
+  "title": "王羲之",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "蘭亭序:天下第一行書",
+      "type": "master",
+      "assessment": "對臨神龍本蘭亭序前六行,寫完與原帖並排:先逐字比對大小比例與傾側方向,標出差最遠的五個字。接著從帖中挑出三個「之」字,對照原帖確認是否寫成三種不同體勢,若三個之字寫得雷同,回去看同字不同形的講解再重寫一次。連續三次對臨,差最遠的字不重複出現才算過關。",
+      "lesson": {
+        "title": "《蘭亭序解密》00蘭亭序行距和字距的問題【陳忠建書法學堂】",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=sljHPEkKETI",
+        "lang": "zh",
+        "why": "陳忠建蘭亭序解密系列開場集,先講章法整體的行距字距問題再進入逐句拆解,適合當整帖導讀的起點。"
+      },
+      "drills": [
+        {
+          "name": "蘭亭序逐字示範:永和九年一句",
+          "kind": "walkthrough",
+          "target": "起筆、逐字示範",
+          "title": "《蘭亭序解密》01永和九年，歲在癸丑，暮春之初，會【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=4hqBosTxtTU"
+        },
+        {
+          "name": "蘭亭同字不同形",
+          "kind": "theory",
+          "target": "之字、重複字變化",
+          "title": "揮毫奶奶｜蘭亭同字不同形",
+          "channel": "揮毫奶奶非常好",
+          "url": "https://www.youtube.com/watch?v=OgYavq8m1vA"
+        },
+        {
+          "name": "神龍本高清賞析",
+          "kind": "appreciate",
+          "target": "摹本、神龍本",
+          "title": "[如果国宝会说话] 第三季 王羲之《兰亭序》 神龙本 神往 | CCTV纪录",
+          "channel": "CCTV纪录",
+          "url": "https://www.youtube.com/watch?v=Wc9onGOq8_0"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "集字聖教序:行書的字庫",
+      "type": "master",
+      "assessment": "取集字聖教序任一整行對臨,寫完與蘭亭序的行氣相比:量出聖教序每行字距是否比蘭亭序更均勻、字與字之間有沒有牽絲相連。若你臨出來的字距忽大忽小、行氣像蘭亭序一樣連貫,表示把集字帖當成一件完整作品臨了,回去重寫一行,刻意讓每個字獨立收筆再起筆。",
+      "lesson": {
+        "title": "集字聖教序 1大唐三藏聖教序。",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=seGNIJ4yM90",
+        "lang": "zh",
+        "why": "集字聖教序逐字系列第一集,陳忠建從碑額六字開講,是進入這套集字帖最自然的起點。"
+      },
+      "drills": [
+        {
+          "name": "集字聖教序逐字示範:懷仁集字之名",
+          "kind": "walkthrough",
+          "target": "集字、懷仁和尚",
+          "title": "集字聖教序 3弘福寺沙門懷仁集晉右",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=S00V_3IppZM"
+        },
+        {
+          "name": "集字聖教序逐字示範:將軍王羲之書",
+          "kind": "walkthrough",
+          "target": "逐字示範、集字結構",
+          "title": "集字聖教序 4將軍王羲之書。",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=kx1M52AwGzU"
+        },
+        {
+          "name": "行書最佳入門範本的理由",
+          "kind": "theory",
+          "target": "入門帖、臨摹示範",
+          "title": "史上行書最佳入門範本——《集王聖教序臨摹示範》④|書法史最重要的行書經典|王羲之名作|全書法史名作臨摹與創作視頻庫計劃",
+          "channel": "元甫書畫之旅",
+          "url": "https://www.youtube.com/watch?v=_Rc8HGoOZ_I"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "十七帖:今草的法度",
+      "type": "master",
+      "assessment": "任選十七帖中兩通對臨,寫完檢查每個字是否獨立起收筆、不靠牽絲跟下一字相連,這是十七帖區別於後世連綿大草的關鍵。再挑帖中五個草字,遮住釋文憑字形認讀,認不出的字回頭查草法出處。連續兩通辨識正確率達八成以上才算過關,認錯的字要另外抄三遍記住寫法。",
+      "lesson": {
+        "title": "十七帖01郗司马帖02逸民帖03龙保帖",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=jyB6VNMPAcg",
+        "lang": "zh",
+        "why": "十七帖逐帖系列第一集,一次講解郗司馬帖、逸民帖、龍保帖三通尺牘,是認識這組今草範本的整體入口。"
+      },
+      "drills": [
+        {
+          "name": "十七帖逐帖示範:虞安吉帖(完結)",
+          "kind": "walkthrough",
+          "target": "逐帖示範、今草",
+          "title": "十七帖29虞安吉帖完",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=u3yCOO-ndOw"
+        },
+        {
+          "name": "今草的形成與創新",
+          "kind": "theory",
+          "target": "今草、字字獨立",
+          "title": "1今草的形成与创新 《十七帖》李双阳",
+          "channel": "书法艺术",
+          "url": "https://www.youtube.com/watch?v=WnEVcpmqWlI"
+        },
+        {
+          "name": "遠宦帖高清賞析",
+          "kind": "appreciate",
+          "target": "遠宦帖、台北故宮",
+          "title": "東晉 王羲之 遠宦帖 台北故宮博物院｜Sending Regards to a Friend (Jin Dynasty, Wang Xizhi) - 高清書法鑒賞",
+          "channel": "書畫大觀園",
+          "url": "https://www.youtube.com/watch?v=a5tc1EVxY0c"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u4",
+      "name": "手札與尺牘",
+      "type": "master",
+      "assessment": "對臨快雪時晴帖與喪亂帖各一行,寫完比較兩者行筆速度給人的感覺:快雪時晴帖字距均勻、下筆從容,喪亂帖後半段字愈寫愈急、甚至留下塗改重寫的痕跡。試著在喪亂帖臨本裡刻意加快最後三行的速度,寫完自問字距和墨色有沒有跟著原帖一起變得緊張,沒有變化就是還在「抄字」而不是「寫信」。",
+      "lesson": {
+        "title": "01快雪時晴帖 王羲之尺牘集",
+        "channel": "陳忠建",
+        "url": "https://www.youtube.com/watch?v=CEbbvzwcLXY",
+        "lang": "zh",
+        "why": "王羲之尺牘集開篇之作,快雪時晴帖字字從容、行氣舒緩,適合當手札尺牘單元第一支,與後面情緒起伏較大的喪亂帖形成對照。"
+      },
+      "drills": [
+        {
+          "name": "喪亂帖臨摹示範",
+          "kind": "walkthrough",
+          "target": "喪亂帖、率意行筆",
+          "title": "雷紹華臨摹王羲之喪亂帖Chinese calligraphy",
+          "channel": "雷紹華",
+          "url": "https://www.youtube.com/watch?v=TxUhvV1qOsU"
+        },
+        {
+          "name": "平安何如奉橘三帖賞析",
+          "kind": "appreciate",
+          "target": "平安何如奉橘帖、故宮",
+          "title": "1-1 王羲之 〈平安〉、〈何如〉、〈奉橘〉帖 Wang Xizhi, Three Passages: Ping'an, Heru, and Fengju",
+          "channel": "National Palace Museum國立故宮博物院",
+          "url": "https://www.youtube.com/watch?v=Vq1VplCSGug"
+        },
+        {
+          "name": "秋月帖、七月帖示範",
+          "kind": "walkthrough",
+          "target": "尺牘、行氣",
+          "title": "17秋月七月帖 王羲之尺牘集",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=jekmv4DnODg"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u5",
+      "name": "羲之筆法總結",
+      "type": "master",
+      "assessment": "取蘭亭序、集字聖教序、十七帖三帖中同一個「之」或「不」字各一例,並排比較起筆角度與轉折方式,寫出三者的共同點與差異各兩項。接著臨寫一行趙孟頫臨蘭亭序的片段,與王羲之原帖比對:找出趙體哪裡把方折寫圓、牽絲加多了,這正是「學王」與「王」本身的差距所在,寫完列出至少三處差異才算完成。",
+      "lesson": {
+        "title": "黃簡講書法：八級課程行書08─《蘭亭序》概覽﹝修訂版1﹞",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=cX50IPLR5SE",
+        "lang": "zh",
+        "why": "黃簡從書體演變角度總覽蘭亭序,跟陳忠建逐字示範的路徑不同,提供另一層對王羲之筆法的分析視角,適合當總結單元的開場。"
+      },
+      "drills": [
+        {
+          "name": "蘭亭序用字分析:起收筆細節(五)",
+          "kind": "theory",
+          "target": "用字分析、起收筆",
+          "title": "黃簡講書法：八級課程行書13─《蘭亭序》用字分析05",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=9MqB7MVTBuI"
+        },
+        {
+          "name": "蘭亭序用字分析:結構與轉折(四)",
+          "kind": "theory",
+          "target": "用字分析、結構轉折",
+          "title": "黃簡講書法：八級課程行書12─《蘭亭序》用字分析04",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=qWDmKUVCcg0"
+        },
+        {
+          "name": "王羲之如何成為書聖",
+          "kind": "theory",
+          "target": "書聖地位、後世評價",
+          "title": "方建勋《中国书法通识》｜什么是字如其人？｜王羲之如何成圣？",
+          "channel": "书房连着厨房",
+          "url": "https://www.youtube.com/watch?v=kza5GFvEyf4"
+        }
+      ]
+    }
+  ]
+}

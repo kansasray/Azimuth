@@ -1,0 +1,194 @@
+{
+  "chapter": "CH2",
+  "title": "筆法基礎",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "中鋒與側鋒",
+      "type": "skill",
+      "assessment": "鋪紙寫十個橫畫，前五個刻意把筆桿豎直走中鋒，後五個把筆桿倒向右側走側鋒。寫完把紙翻到背面對光看：中鋒的五筆墨色應該集中在筆畫正中央，側鋒的五筆墨色會偏向筆畫一側，兩種墨色分布的差異就是判準，不是誰對誰錯。接著寫五個字刻意在筆畫中段從側鋒轉回中鋒，對光檢查墨色是否從偏移的一側逐漸移回中軸，轉換的位置如果落在筆畫後半段才發生，代表轉得太晚，回去在筆畫前三分之一就開始轉。",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 21中鋒和偏鋒",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=vQN2YGNkZXw",
+        "lang": "zh",
+        "why": "黃簡把中鋒與偏鋒（側鋒）放在同一講對照解說，筆桿角度如何改變墨色分布是這個單元所有練習的理論起點。"
+      },
+      "drills": [
+        {
+          "name": "側鋒不是錯誤是工具",
+          "kind": "theory",
+          "target": "側鋒、筆鋒角度",
+          "title": "黃簡講書法：初級課程18 毛筆側鋒的用法",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=Yz_T7oB6mgk"
+        },
+        {
+          "name": "中鋒行筆手感訓練",
+          "kind": "practice",
+          "target": "中鋒、行筆手感",
+          "title": "最有效简单的中锋训练方法？自已就可以当自己的老师，事半功倍",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=QVNy-sWcl6Y"
+        },
+        {
+          "name": "側鋒運筆示範",
+          "kind": "walkthrough",
+          "target": "側鋒、運筆",
+          "title": "特色1-側鋒用筆",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=V793LMTViPY"
+        },
+        {
+          "name": "破解「筆筆中鋒」迷思",
+          "kind": "pitfall",
+          "target": "中鋒、常見迷思",
+          "title": "笔笔中锋？令人发疯!书法微百科第二弹）",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=3tc44RO41uQ"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "提按與粗細",
+      "type": "skill",
+      "assessment": "鋪紙連續寫十個豎畫，每一筆中段刻意做一次由輕到重再回輕的提按，讓線條呈現兩頭細、中間粗的紡錘形。寫完用尺量每一筆最粗處與最細處的寬度，兩者差距小於一倍代表按得不夠深；十筆裡若有三筆以上墨色暈開超出筆畫邊緣，代表力道太重導致線條失控，回去減輕按下的力道再寫十筆，比對前後兩組寬度差有沒有縮小。",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 22 運筆",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=7BIrgud7mgg",
+        "lang": "zh",
+        "why": "黃簡這集講運筆的基本動作，提按怎麼直接對應線條粗細，是這個單元其他練習影片的共同起點。"
+      },
+      "drills": [
+        {
+          "name": "提按與粗細的對應關係",
+          "kind": "theory",
+          "target": "提按、粗細",
+          "title": "书法教程 提按与粗细",
+          "channel": "又画",
+          "url": "https://www.youtube.com/watch?v=Leyky4yK5fs"
+        },
+        {
+          "name": "按出立體感的訓練",
+          "kind": "walkthrough",
+          "target": "提按、立體感",
+          "title": "字怎么写有立体感？做好这一点很重要，书法覆盖技法并不神秘",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=4f2mOR5q_Qs"
+        },
+        {
+          "name": "控筆控墨練習",
+          "kind": "practice",
+          "target": "提按、控筆",
+          "title": "最难受最有效的控笔控墨练习，分享压箱底的训练法，你也可以试试",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=cglExmkWUIg"
+        },
+        {
+          "name": "按下去還提得起來",
+          "kind": "pitfall",
+          "target": "提按、節奏感",
+          "title": "压下去容易，提起来难，铺毫容易，拎着写难！你提得起笔吗？",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=3XwZEBVvw7s"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "起筆與收筆",
+      "type": "skill",
+      "assessment": "取行書字帖裡連續五個字，分別用藏鋒逆入與露鋒直入兩種方式起筆各寫五遍，寫完把紙翻到背面對光看起筆處：藏鋒的墨點應該圓渾看不出明顯的筆尖方向，露鋒的墨點會拖出一道尖細的引筆痕跡。十個字裡如果有超過三個藏鋒起筆仍看得出尖細痕跡，代表逆入的角度不夠，回去把入筆角度壓低到接近三十度再寫五遍比對。",
+      "lesson": {
+        "title": "藏鋒收鋒的來源與用意",
+        "channel": "發哥陳",
+        "url": "https://www.youtube.com/watch?v=Yf0PCcGROsQ",
+        "lang": "zh",
+        "why": "這支影片直接講藏鋒與收鋒的來歷與目的，把起收筆從固定動作還原成背後的道理，適合當單元的理論起點。"
+      },
+      "drills": [
+        {
+          "name": "行草順勢起收筆",
+          "kind": "theory",
+          "target": "順勢起筆、行草",
+          "title": "起笔？收笔？开玩笑，不存在的！最草率的原始笔法才最牛的！",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=D1dbvR1oio4"
+        },
+        {
+          "name": "藏鋒與露鋒對照",
+          "kind": "walkthrough",
+          "target": "藏鋒、露鋒",
+          "title": "书法教程 露锋与藏锋",
+          "channel": "又画",
+          "url": "https://www.youtube.com/watch?v=rURx6P4roaI"
+        },
+        {
+          "name": "切筆常見誤區",
+          "kind": "pitfall",
+          "target": "切筆、起筆角度",
+          "title": "别被\"切顶翻\"带偏了！书法学习必看|Must-Watch for Beginners in Chinese Calligraphy「切頂翻」に惑わされるな！書道学習の落とし穴",
+          "channel": "九度书法 Jiudu Calligraphy",
+          "url": "https://www.youtube.com/watch?v=AKifJqoSJu0"
+        },
+        {
+          "name": "收筆不必筆筆回鋒",
+          "kind": "pitfall",
+          "target": "收筆、回鋒、出鋒",
+          "title": "写字需要笔笔回锋？大错特错（书法微百科第五弹）",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=rlLvT9zAvqI"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u4",
+      "name": "轉折與使轉",
+      "type": "skill",
+      "assessment": "對臨書譜任選一行含轉折的字，把每個轉折點分成圓轉與方折兩類各寫五遍。方折的轉角應該是一個清楚的折角，對光看轉角處墨色沒有斷開；圓轉的轉角應該是一條連續的弧線，筆畫寬度前後變化不超過一倍。十個轉折裡若有三個以上方折寫成了圓角、或圓轉寫成了帶稜角的折線，代表手腕還在用平動代替絞轉，回去放慢速度、加大手腕轉動幅度再寫十個比對。",
+      "lesson": {
+        "title": "黃簡講書法：初級課程 47 ─ 什麼是使轉",
+        "channel": "黃簡講書法",
+        "url": "https://www.youtube.com/watch?v=wS_pDhqqNpI",
+        "lang": "zh",
+        "why": "使轉是這個單元的核心觀念，黃簡這集直接定義什麼是使轉，銜接後面書譜「使轉為形質」的呼應。"
+      },
+      "drills": [
+        {
+          "name": "圓轉訓練（鴨蛋弧）",
+          "kind": "practice",
+          "target": "圓轉、絞轉",
+          "title": "和王羲之一起画鸭蛋，练好鸭蛋弧还怕什么圆转吗？赶紧学起来",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=kNofcaSx7C8"
+        },
+        {
+          "name": "方折的寫法",
+          "kind": "theory",
+          "target": "方折、大圈的折",
+          "title": "黃簡講書法：初級課程 45 ─ 大圈的折",
+          "channel": "黃簡講書法",
+          "url": "https://www.youtube.com/watch?v=Peyf3rtJlCo"
+        },
+        {
+          "name": "絞轉與摇腕",
+          "kind": "practice",
+          "target": "絞轉、摇腕",
+          "title": "使转，绞转，摇腕是什么？怎么训练？一个视频讲清楚，能使易懂",
+          "channel": "止水草堂",
+          "url": "https://www.youtube.com/watch?v=ACq_8msDT-w"
+        },
+        {
+          "name": "書譜「使轉為形質」逐句",
+          "kind": "walkthrough",
+          "target": "使轉、書譜",
+          "title": "書譜104以點畫為情性使轉為形質【陳忠建書法學堂】",
+          "channel": "陳忠建",
+          "url": "https://www.youtube.com/watch?v=-gnqy7alj-Y"
+        }
+      ]
+    }
+  ]
+}
